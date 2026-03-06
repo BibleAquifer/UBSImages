@@ -1,4 +1,4 @@
-# _Images (UBS)_ Aquifer Resource
+# _UBS Images_ Aquifer Resource
 
 This repository (`UBSImages`) contains Aquifer resource data with resource-level metadata, article-level metadata, and content files in JSON and Markdown formats.
 
