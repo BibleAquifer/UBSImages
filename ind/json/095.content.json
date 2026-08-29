@@ -236,11 +236,11 @@
 "preferred_label": "Lion"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.2935,
 "match_method": "canonical",
-"preferred_label": "Harun"
+"preferred_label": "keahlian"
 },
 {
 "id": "keyterm:Heaven",
@@ -250,11 +250,11 @@
 "preferred_label": "sorga"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.2935,
 "match_method": "canonical",
-"preferred_label": "keahlian"
+"preferred_label": "Harun"
 },
 {
 "id": "realia:Rod",
@@ -271,20 +271,6 @@
 "preferred_label": "Cobra"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.229,
-"match_method": "canonical",
-"preferred_label": "Firaun"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.229,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.229,
@@ -292,11 +278,11 @@
 "preferred_label": "tanda"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
+"id": "person:Pharaoh.6",
+"type": "person",
 "confidence": 0.229,
 "match_method": "canonical",
-"preferred_label": "Iblis"
+"preferred_label": "Firaun"
 },
 {
 "id": "place:Egypt",
@@ -306,18 +292,32 @@
 "preferred_label": "Mesir"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.229,
-"match_method": "canonical",
-"preferred_label": "kekuasaan"
-},
-{
 "id": "person:Hophra",
 "type": "person",
 "confidence": 0.229,
 "match_method": "canonical",
 "preferred_label": "Hofra"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.229,
+"match_method": "canonical",
+"preferred_label": "Iblis"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.229,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.229,
+"match_method": "canonical",
+"preferred_label": "kekuasaan"
 },
 {
 "id": "keyterm:Kind.2",
@@ -348,39 +348,11 @@
 "preferred_label": "Babel"
 },
 {
-"id": "place:Nile",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "sungai"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Nebukadnezar"
-},
-{
-"id": "keyterm:Curse",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "kutuk"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "ratapan"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Musa"
+"preferred_label": "menugaskan"
 },
 {
 "id": "keyterm:BowDown",
@@ -390,11 +362,32 @@
 "preferred_label": "menyembah"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Yesus"
+"preferred_label": "Musa"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "ucapan ilahi"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Nebukadnezar"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "ratapan"
 },
 {
 "id": "place:Philistine",
@@ -411,18 +404,18 @@
 "preferred_label": "bersaksi"
 },
 {
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "kutuk"
+},
+{
 "id": "keyterm:Commandment",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
 "preferred_label": "perintah"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "ucapan ilahi"
 },
 {
 "id": "place:Negeb",
@@ -432,11 +425,18 @@
 "preferred_label": "Negeb"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Nile",
+"type": "place",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "menugaskan"
+"preferred_label": "sungai"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Yesus"
 },
 {
 "id": "realia:Ship",
@@ -444,6 +444,13 @@
 "confidence": 0.111,
 "match_method": "canonical",
 "preferred_label": "Ship"
+},
+{
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.111,
+"match_method": "canonical",
+"preferred_label": "Leopard"
 },
 {
 "id": "fauna:Frog",
@@ -460,18 +467,11 @@
 "preferred_label": "Bear"
 },
 {
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.111,
-"match_method": "canonical",
-"preferred_label": "Leopard"
-},
-{
-"id": "fauna:Donkey",
+"id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "Sheep"
 },
 {
 "id": "flora:Vine",
@@ -479,34 +479,6 @@
 "confidence": 0.1045,
 "match_method": "canonical",
 "preferred_label": "Vine"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Camel"
-},
-{
-"id": "realia:Crown",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Sheep"
 },
 {
 "id": "fauna:Hyena",
@@ -521,6 +493,34 @@
 "confidence": 0.1045,
 "match_method": "canonical",
 "preferred_label": "Sword"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Wine"
+},
+{
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Crown"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Donkey"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Camel"
 }
 ]
 }

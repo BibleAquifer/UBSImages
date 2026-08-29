@@ -291,18 +291,18 @@
 "preferred_label": "Dog"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيلَ"
+},
+{
 "id": "person:Jonathan.3",
 "type": "person",
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "يونَاثَانَ"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "Kindness"
 },
 {
 "id": "place:Jerusalem",
@@ -312,13 +312,6 @@
 "preferred_label": "أورشَلِيمَ"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2231,
@@ -326,11 +319,18 @@
 "preferred_label": "Bless"
 },
 {
-"id": "keyterm:Partake",
+"id": "keyterm:Kindness",
 "type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+},
+{
+"id": "person:Barzillai",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Partake"
+"preferred_label": "بَرْزِلَّايَ"
 },
 {
 "id": "place:CarmelMount",
@@ -338,20 +338,6 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "ٱلْكَرْمَلِ"
-},
-{
-"id": "person:Adoni-bezek",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Adoni-bezek"
-},
-{
-"id": "deity:Fortune",
-"type": "deity",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "لِلسَّعْدِ"
 },
 {
 "id": "keyterm:Serve",
@@ -368,6 +354,20 @@
 "preferred_label": "سَوَارِيَهمْ"
 },
 {
+"id": "deity:Fortune",
+"type": "deity",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "لِلسَّعْدِ"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Partake"
+},
+{
 "id": "person:SyrophonecianWoman",
 "type": "person",
 "confidence": 0.1667,
@@ -375,11 +375,11 @@
 "preferred_label": "Syrophonecian Woman"
 },
 {
-"id": "person:Barzillai",
+"id": "person:Adoni-bezek",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "بَرْزِلَّايَ"
+"preferred_label": "Adoni-bezek"
 },
 {
 "id": "deity:Destiny",
@@ -387,6 +387,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "لِلسَّعْدِ"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1631,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
 },
 {
 "id": "flora:Vine",
@@ -403,20 +410,6 @@
 "preferred_label": "Wine"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1631,
-"match_method": "canonical",
-"preferred_label": "Temple"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1631,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1631,
@@ -424,179 +417,11 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.1615,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1631,
 "match_method": "canonical",
-"preferred_label": "شَاولَ"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "person:Absalom",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "أَبْشَالومَ"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "New Moon Festival"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Pharisees"
-},
-{
-"id": "group:Gilead",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Gileadites"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Decided"
-},
-{
-"id": "person:Jezebel",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "إِيزَابَلَ"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Smear"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "يَسوع"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "ٱلْبَعْلِ"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "سلَيْمَانَ"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "person:Hiram",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "حِيرَامَ"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "جِلْعَادَ"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "Temple"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -606,11 +431,186 @@
 "preferred_label": "Force to Serve"
 },
 {
-"id": "realia:Rug",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "ٱلْبَعْلِ"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Smear"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
+},
+{
+"id": "group:Gilead",
+"type": "group",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Gileadites"
+},
+{
+"id": "person:Jezebel",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "إِيزَابَلَ"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "person:Hiram",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "حِيرَامَ"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "New Moon Festival"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "شَاولَ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Decided"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "يَسوع"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "سلَيْمَانَ"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "جِلْعَادَ"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "person:Absalom",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "أَبْشَالومَ"
+},
+{
+"id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Rug"
+"preferred_label": "Small Shield"
 },
 {
 "id": "realia:Trap",
@@ -620,11 +620,11 @@
 "preferred_label": "Trap"
 },
 {
-"id": "realia:SmallShield",
+"id": "realia:Rug",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "Rug"
 },
 {
 "id": "realia:Bed",
@@ -641,18 +641,18 @@
 "preferred_label": "Horse"
 },
 {
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Net"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1015,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Net"
 }
 ]
 }

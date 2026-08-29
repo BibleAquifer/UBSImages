@@ -272,18 +272,18 @@
 "preferred_label": "Wine"
 },
 {
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1791,
-"match_method": "canonical",
-"preferred_label": "Incense"
-},
-{
 "id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
 "preferred_label": "Ephah"
+},
+{
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1791,
+"match_method": "canonical",
+"preferred_label": "Incense"
 },
 {
 "id": "flora:BalsamTree",
@@ -293,18 +293,18 @@
 "preferred_label": "Balsam Tree"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1783,
-"match_method": "canonical",
-"preferred_label": "menyembah"
-},
-{
 "id": "place:Ephah",
 "type": "place",
 "confidence": 0.1783,
 "match_method": "canonical",
 "preferred_label": "Efa"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1783,
+"match_method": "canonical",
+"preferred_label": "menyembah"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -314,11 +314,74 @@
 "preferred_label": "bau harum yang menyenangkan"
 },
 {
-"id": "keyterm:Mischief",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "kenakalan"
+"preferred_label": "tertarik/tergoda untuk beribadah"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "tubuh"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "mencurigai"
+},
+{
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Sekhem"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Lewi"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "murni"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Benyamin"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
 },
 {
 "id": "place:Shiloh",
@@ -335,102 +398,11 @@
 "preferred_label": "Samaria"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Lewi"
-},
-{
-"id": "person:Mary",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Maria"
-},
-{
-"id": "keyterm:Ardour",
+"id": "keyterm:Mischief",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "mencurigai"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "memperlihatkan"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "murni"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "berbuat dosa"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Bukit"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Benyamin"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Benyamin"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Harun"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Midian"
+"preferred_label": "kenakalan"
 },
 {
 "id": "keyterm:Delight",
@@ -447,11 +419,18 @@
 "preferred_label": "pujian"
 },
 {
-"id": "keyterm:DetestedThing",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "hal yang dibenci"
+"preferred_label": "memberkati"
+},
+{
+"id": "person:Mary",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Maria"
 },
 {
 "id": "person:Levi.3",
@@ -461,11 +440,39 @@
 "preferred_label": "Lewi"
 },
 {
-"id": "place:Shechem",
-"type": "place",
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Sekhem"
+"preferred_label": "hal yang dibenci"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "memperlihatkan"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "berbuat dosa"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Harun"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Benyamin"
 },
 {
 "id": "place:Negeb",
@@ -475,32 +482,25 @@
 "preferred_label": "Negeb"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
+"id": "place:Shephelah",
+"type": "place",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "tubuh"
+"preferred_label": "Bukit"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "place:Midian",
+"type": "place",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "memberkati"
+"preferred_label": "Midian"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
-},
-{
-"id": "flora:Liquidambar",
-"type": "flora",
+"id": "realia:MoneyBox",
+"type": "realia",
 "confidence": 0.1183,
 "match_method": "canonical",
-"preferred_label": "Liquidambar"
+"preferred_label": "Money Box"
 },
 {
 "id": "flora:SaffronPlant",
@@ -510,18 +510,18 @@
 "preferred_label": "Saffron Plant"
 },
 {
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.1183,
+"match_method": "canonical",
+"preferred_label": "Liquidambar"
+},
+{
 "id": "flora:Fennel",
 "type": "flora",
 "confidence": 0.1183,
 "match_method": "canonical",
 "preferred_label": "Fennel"
-},
-{
-"id": "realia:MoneyBox",
-"type": "realia",
-"confidence": 0.1183,
-"match_method": "canonical",
-"preferred_label": "Money Box"
 },
 {
 "id": "fauna:Onycha",
@@ -538,46 +538,18 @@
 "preferred_label": "Dove"
 },
 {
-"id": "fauna:Dog",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Dog"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Camel"
-},
-{
-"id": "fauna:Pig",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Pig"
-},
-{
-"id": "realia:StoneAltar",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "Must"
+},
+{
+"id": "flora:Agarwood",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Agarwood"
 },
 {
 "id": "flora:Nard",
@@ -587,25 +559,18 @@
 "preferred_label": "Nard"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
+"id": "flora:Wheat",
+"type": "flora",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "Wheat"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Wagon"
+"preferred_label": "Grain"
 },
 {
 "id": "flora:Barley",
@@ -622,25 +587,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "flora:Agarwood",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Agarwood"
-},
-{
-"id": "realia:Must",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Must"
+"preferred_label": "Altar"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "Cattle"
 },
 {
 "id": "fauna:Horse",
@@ -648,6 +606,27 @@
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
+"id": "fauna:Dog",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Dog"
 },
 {
 "id": "realia:TempleAltar",
@@ -664,11 +643,32 @@
 "preferred_label": "Jackal"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
+"id": "realia:StoneAltar",
+"type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Stone Altar"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Wagon"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Pig"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Camel"
 }
 ]
 }

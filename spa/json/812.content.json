@@ -253,11 +253,11 @@
 "preferred_label": "Wick Trimmer"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:Altar",
@@ -267,13 +267,6 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1721,
@@ -281,11 +274,81 @@
 "preferred_label": "Temple Altar"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1721,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "pascua"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "suerte"
+},
+{
 "id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "dicho"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "palabra del señor"
+},
+{
+"id": "place:Gilgal.3",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Gilgal"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Edom"
 },
 {
 "id": "keyterm:Woe",
@@ -302,74 +365,11 @@
 "preferred_label": "Eliseo"
 },
 {
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "pascua"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "suerte"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "insensato"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Gilgal"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "palabra del señor"
 },
 {
 "id": "realia:Bowl",
@@ -379,18 +379,18 @@
 "preferred_label": "Bowl"
 },
 {
-"id": "flora:Colocynth",
-"type": "flora",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "Colocynth"
-},
-{
 "id": "flora:Ivy",
 "type": "flora",
 "confidence": 0.1132,
 "match_method": "canonical",
 "preferred_label": "Ivy"
+},
+{
+"id": "flora:Colocynth",
+"type": "flora",
+"confidence": 0.1132,
+"match_method": "canonical",
+"preferred_label": "Colocynth"
 },
 {
 "id": "realia:Lampstand.2",
@@ -400,20 +400,6 @@
 "preferred_label": "Lampstand"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1061,
@@ -421,11 +407,25 @@
 "preferred_label": "Brier"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "Horse"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Money"
 }
 ]
 }

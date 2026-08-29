@@ -117,14 +117,14 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Peg",
+"id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.7753,
 "match_method": "canonical",
 "preferred_label": "Peg"
 },
 {
-"id": "realia:Peg.2",
+"id": "realia:Peg",
 "type": "realia",
 "confidence": 0.7753,
 "match_method": "canonical",
@@ -145,18 +145,18 @@
 "preferred_label": "Jael"
 },
 {
-"id": "person:Sisera",
-"type": "person",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Sisera"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "person:Sisera",
+"type": "person",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Sisera"
 },
 {
 "id": "keyterm:BeFirm",
@@ -187,11 +187,11 @@
 "preferred_label": "Tent"
 },
 {
-"id": "keyterm:AppointedFeast",
+"id": "keyterm:Supplication",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Appointed Feast"
+"preferred_label": "Plea for Mercy"
 },
 {
 "id": "place:Jerusalem",
@@ -201,18 +201,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "person:Barak",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Barak"
-},
-{
-"id": "keyterm:Supplication",
+"id": "keyterm:AppointedFeast",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Plea for Mercy"
+"preferred_label": "Appointed Feast"
 },
 {
 "id": "keyterm:Glory",
@@ -222,18 +215,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1165,
+"id": "person:Barak",
+"type": "person",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Bow"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Linen Strips"
+"preferred_label": "Barak"
 },
 {
 "id": "realia:PerimiterCurtain",
@@ -241,13 +227,6 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Perimiter Curtain"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Tent of Meeting"
 },
 {
 "id": "realia:GoatHairStrips",
@@ -262,6 +241,27 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Screen"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Tent of Meeting"
+},
+{
+"id": "realia:LinenStrips",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Linen Strips"
+},
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Bow"
 }
 ]
 }

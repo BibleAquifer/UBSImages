@@ -96,13 +96,6 @@
 "preferred_label": "ٱلْمِلْحِ"
 },
 {
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "ٱلْعَرَبَةِ"
-},
-{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.385,
@@ -110,11 +103,11 @@
 "preferred_label": "ٱلْأرْدنِّ"
 },
 {
-"id": "place:Jericho",
+"id": "place:Arabah",
 "type": "place",
-"confidence": 0.31,
+"confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "أَرِيحَا"
+"preferred_label": "ٱلْعَرَبَةِ"
 },
 {
 "id": "place:Beth-jeshimoth",
@@ -124,18 +117,18 @@
 "preferred_label": "Beth-jeshimoth"
 },
 {
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "أَرِيحَا"
+},
+{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "موآبَ"
-},
-{
-"id": "place:Bamoth",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "بَاموتَ"
 },
 {
 "id": "place:Almon-diblathaim",
@@ -145,6 +138,13 @@
 "preferred_label": "Almon-diblathaim"
 },
 {
+"id": "place:Zophim",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Zophim"
+},
+{
 "id": "place:Chinnereth",
 "type": "place",
 "confidence": 0.215,
@@ -152,11 +152,11 @@
 "preferred_label": "مِنْ"
 },
 {
-"id": "place:Zophim",
+"id": "place:Bamoth",
 "type": "place",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Zophim"
+"preferred_label": "بَاموتَ"
 },
 {
 "id": "place:Beth-peor",
@@ -166,11 +166,25 @@
 "preferred_label": "Beth-peor"
 },
 {
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "دَانَ"
+},
+{
 "id": "place:Canaan",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "كَنْعَان"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "موسَى"
 },
 {
 "id": "group:Dan",
@@ -180,11 +194,11 @@
 "preferred_label": "دَانَ"
 },
 {
-"id": "person:Moses",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "موسَى"
+"preferred_label": "إِسْرَائِيلَ"
 },
 {
 "id": "deity:Lord",
@@ -201,32 +215,18 @@
 "preferred_label": "نَبو"
 },
 {
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "جِلْعَادَ"
-},
-{
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "دَانَ"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
-},
-{
 "id": "place:MoabPlains",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "عَرَبَاتِ"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "جِلْعَادَ"
 },
 {
 "id": "place:GalileeSea",
@@ -236,32 +236,11 @@
 "preferred_label": "Sea of Galilee"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Sheep"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Altar"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -271,11 +250,32 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Temple Altar"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
 }
 ]
 }

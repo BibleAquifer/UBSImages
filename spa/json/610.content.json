@@ -334,13 +334,6 @@
 "preferred_label": "Disán"
 },
 {
-"id": "person:Ezer",
-"type": "person",
-"confidence": 0.2908,
-"match_method": "canonical",
-"preferred_label": "Ezer"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.2908,
@@ -348,11 +341,11 @@
 "preferred_label": "desposeer"
 },
 {
-"id": "person:Dishon",
+"id": "person:Ezer",
 "type": "person",
-"confidence": 0.2855,
+"confidence": 0.2908,
 "match_method": "canonical",
-"preferred_label": "Disón"
+"preferred_label": "Ezer"
 },
 {
 "id": "place:Ammon",
@@ -360,6 +353,13 @@
 "confidence": 0.2855,
 "match_method": "canonical",
 "preferred_label": "Ammón"
+},
+{
+"id": "person:Dishon",
+"type": "person",
+"confidence": 0.2855,
+"match_method": "canonical",
+"preferred_label": "Disón"
 },
 {
 "id": "person:Zibeon.2",
@@ -376,18 +376,18 @@
 "preferred_label": "Lotán"
 },
 {
-"id": "place:LebanonValley",
-"type": "place",
-"confidence": 0.2342,
-"match_method": "canonical",
-"preferred_label": "llanura"
-},
-{
 "id": "place:HalakMount",
 "type": "place",
 "confidence": 0.2342,
 "match_method": "canonical",
 "preferred_label": "Halac"
+},
+{
+"id": "place:LebanonValley",
+"type": "place",
+"confidence": 0.2342,
+"match_method": "canonical",
+"preferred_label": "llanura"
 },
 {
 "id": "person:Anah.2",
@@ -411,18 +411,11 @@
 "preferred_label": "Sinaí"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "Judá"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Egipto"
 },
 {
 "id": "place:HermonMount",
@@ -432,8 +425,22 @@
 "preferred_label": "Hermón"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Jordán"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -446,34 +453,6 @@
 "preferred_label": "Amasías"
 },
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Jordán"
-},
-{
-"id": "place:Dumah",
-"type": "place",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "Duma"
-},
-{
-"id": "person:Pelatiah.2",
-"type": "person",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "Pelatías"
-},
-{
-"id": "person:Rephaiah.3",
-"type": "person",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "Rephaías"
-},
-{
 "id": "place:Chesalon",
 "type": "place",
 "confidence": 0.1671,
@@ -481,32 +460,18 @@
 "preferred_label": "Chesalon"
 },
 {
-"id": "person:Neariah.2",
-"type": "person",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "Nearías"
-},
-{
-"id": "place:Ezion-geber",
+"id": "place:Kiriath-jearim",
 "type": "place",
 "confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Esion-geber"
+"preferred_label": "Chiriath-jearim"
 },
 {
-"id": "place:Arabah",
+"id": "place:ParanMount",
 "type": "place",
 "confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "campiña"
-},
-{
-"id": "place:SeirMount.2",
-"type": "place",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "Seir"
+"preferred_label": "Parán"
 },
 {
 "id": "place:SaltValley",
@@ -523,25 +488,11 @@
 "preferred_label": "Uzziel"
 },
 {
-"id": "place:ParanMount",
+"id": "place:SeirMount.2",
 "type": "place",
 "confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Parán"
-},
-{
-"id": "place:Kiriath-jearim",
-"type": "place",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "Chiriath-jearim"
-},
-{
-"id": "person:Ishi.3",
-"type": "person",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "Isi"
+"preferred_label": "Seir"
 },
 {
 "id": "place:Beth-shemesh",
@@ -551,6 +502,13 @@
 "preferred_label": "Beth-semes"
 },
 {
+"id": "place:Dumah",
+"type": "place",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "Duma"
+},
+{
 "id": "place:El-paran",
 "type": "place",
 "confidence": 0.1671,
@@ -558,95 +516,46 @@
 "preferred_label": "Parán"
 },
 {
-"id": "place:Timnah",
+"id": "place:Arabah",
 "type": "place",
-"confidence": 0.1618,
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Timnah"
+"preferred_label": "campiña"
 },
 {
-"id": "place:Elath",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Elath"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "place:Ar",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ar"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "profetizar"
-},
-{
-"id": "person:Joshua.2",
+"id": "person:Ishi.3",
 "type": "person",
-"confidence": 0.1618,
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Josué"
+"preferred_label": "Isi"
 },
 {
-"id": "place:Kadesh-barnea",
+"id": "place:Ezion-geber",
 "type": "place",
-"confidence": 0.1618,
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Cades"
+"preferred_label": "Esion-geber"
 },
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "person:Simeon.5",
+"id": "person:Pelatiah.2",
 "type": "person",
-"confidence": 0.1618,
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Simeón"
+"preferred_label": "Pelatías"
 },
 {
-"id": "place:Zephath",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Zephath"
-},
-{
-"id": "person:Laban",
+"id": "person:Neariah.2",
 "type": "person",
-"confidence": 0.1618,
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Labán"
+"preferred_label": "Nearías"
 },
 {
-"id": "group:Simeon",
-"type": "group",
-"confidence": 0.1618,
+"id": "person:Rephaiah.3",
+"type": "person",
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Simeón"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Utterance"
+"preferred_label": "Rephaías"
 },
 {
 "id": "person:Isaac",
@@ -656,11 +565,102 @@
 "preferred_label": "Isaac"
 },
 {
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "place:Zephath",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Zephath"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Utterance"
+},
+{
 "id": "place:RedSea",
 "type": "place",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "Bermejo"
+},
+{
+"id": "place:Ar",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Ar"
+},
+{
+"id": "place:Elath",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Elath"
+},
+{
+"id": "place:Timnah",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Timnah"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Amorites"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "temer"
+},
+{
+"id": "group:Simeon",
+"type": "group",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Simeón"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Cades"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Simeón"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Labán"
 },
 {
 "id": "fauna:Bee",

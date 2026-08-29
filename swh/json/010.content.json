@@ -176,18 +176,18 @@
 "preferred_label": "Jackal"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Sauli"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Peace"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Wafilisti"
 },
 {
 "id": "place:Philistine",
@@ -197,11 +197,11 @@
 "preferred_label": "Wafilisti"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Wafilisti"
+"preferred_label": "Sauli"
 },
 {
 "id": "person:David",
@@ -232,53 +232,11 @@
 "preferred_label": "Yusufu"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
+"id": "keyterm:Foolish",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Stupid"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "person:Hushai",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Hushai"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Foolish"
 },
 {
 "id": "keyterm:Ability",
@@ -288,6 +246,34 @@
 "preferred_label": "Ability"
 },
 {
+"id": "person:Hushai",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Hushai"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Covenant"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -295,18 +281,25 @@
 "preferred_label": "Safety"
 },
 {
-"id": "keyterm:Foolish",
+"id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Foolish"
+"preferred_label": "Uncircumcised Person"
 },
 {
-"id": "fauna:WildCat",
-"type": "fauna",
-"confidence": 0.121,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Wild Cat"
+"preferred_label": "Authority"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Stupid"
 },
 {
 "id": "fauna:Leopard",
@@ -316,11 +309,11 @@
 "preferred_label": "Leopard"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:WildCat",
 "type": "fauna",
-"confidence": 0.1114,
+"confidence": 0.121,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Wild Cat"
 },
 {
 "id": "realia:Ship",
@@ -330,11 +323,11 @@
 "preferred_label": "Ship"
 },
 {
-"id": "fauna:Dragon",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Dragon"
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -344,32 +337,18 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Snake"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Tunic"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "fauna:Goat",
@@ -379,11 +358,32 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:House",
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Pit"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Snake"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Dragon"
 }
 ]
 }

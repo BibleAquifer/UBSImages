@@ -144,13 +144,6 @@
 "preferred_label": "Spear"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.325,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.325,
@@ -158,11 +151,11 @@
 "preferred_label": "يَهوذَا"
 },
 {
-"id": "group:Benjamin",
+"id": "group:Judah",
 "type": "group",
-"confidence": 0.25,
+"confidence": 0.325,
 "match_method": "canonical",
-"preferred_label": "بَنْيَامِينَ"
+"preferred_label": "يَهوذَا"
 },
 {
 "id": "person:Benjamin",
@@ -179,25 +172,18 @@
 "preferred_label": "سلَيْمَانَ"
 },
 {
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "بَنْيَامِينَ"
+},
+{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.2011,
 "match_method": "canonical",
 "preferred_label": "Arrow"
-},
-{
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "أَلِيآبَ"
 },
 {
 "id": "person:Obadiah.6",
@@ -214,18 +200,32 @@
 "preferred_label": "عَازَر"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Seek Refugue"
+},
+{
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "أَلِيآبَ"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "دَانَ"
+},
+{
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "دَاودَ"
+"preferred_label": "Truth"
 },
 {
 "id": "group:Dan",
@@ -235,11 +235,18 @@
 "preferred_label": "دَانَ"
 },
 {
-"id": "place:Philistine",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
+"preferred_label": "إِسْرَائِيلَ"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "deity:Lord",
@@ -249,18 +256,18 @@
 "preferred_label": "ٱلرَّبِّ"
 },
 {
-"id": "person:Simeon.5",
-"type": "person",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "شِمْعونَ"
+"preferred_label": "فِلِشْتِيم"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
 },
 {
 "id": "person:Amaziah",
@@ -277,25 +284,11 @@
 "preferred_label": "شِمْعونَ"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "فِلِشْتِيم"
-},
-{
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "دَانَ"
-},
-{
-"id": "person:Israel",
+"id": "person:David",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
+"preferred_label": "دَاودَ"
 },
 {
 "id": "keyterm:Arrow",
@@ -305,11 +298,11 @@
 "preferred_label": "Arrow"
 },
 {
-"id": "realia:Weapons",
-"type": "realia",
-"confidence": 0.1261,
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Weapons"
+"preferred_label": "شِمْعونَ"
 },
 {
 "id": "realia:PointOfSpear",
@@ -319,11 +312,25 @@
 "preferred_label": "Point of Spear"
 },
 {
+"id": "realia:Weapons",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "Weapons"
+},
+{
 "id": "realia:WeaversBeam",
 "type": "realia",
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "Weavers Beam"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 },
 {
 "id": "realia:Siege-works",
@@ -333,67 +340,11 @@
 "preferred_label": "Siege-Works"
 },
 {
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Bow"
-},
-{
-"id": "realia:Harpoon",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Harpoon"
-},
-{
-"id": "realia:WarClub",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "War Club"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Tower"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Helmet"
-},
-{
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Shekel"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Wagon"
-},
-{
 "id": "realia:SiegeRamp",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Siege Ramp"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Horse"
 },
 {
 "id": "realia:Sword",
@@ -403,11 +354,60 @@
 "preferred_label": "Sword"
 },
 {
-"id": "realia:Chariot",
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "Helmet"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Tower"
+},
+{
+"id": "realia:WarClub",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "War Club"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Wagon"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Harpoon"
+},
+{
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Shekel"
+},
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Bow"
 }
 ]
 }

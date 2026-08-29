@@ -170,13 +170,6 @@
 "preferred_label": "fear"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:Lawful",
 "type": "keyterm",
 "confidence": 0.245,
@@ -184,25 +177,11 @@
 "preferred_label": "Be Lawful"
 },
 {
-"id": "person:Aquila",
+"id": "person:Jesus.2",
 "type": "person",
-"confidence": 0.1825,
+"confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "Áquila"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "amado"
-},
-{
-"id": "place:Pontus",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Ponto"
+"preferred_label": "Jesus"
 },
 {
 "id": "keyterm:CheerUp",
@@ -212,18 +191,25 @@
 "preferred_label": "ter bom ânimo"
 },
 {
-"id": "person:Claudius",
+"id": "person:Aquila",
 "type": "person",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Cláudio"
+"preferred_label": "Áquila"
 },
 {
-"id": "place:Macedonia",
+"id": "place:Pontus",
 "type": "place",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Macedônia"
+"preferred_label": "Ponto"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "amado"
 },
 {
 "id": "group:Pontus",
@@ -233,18 +219,11 @@
 "preferred_label": "Ponto"
 },
 {
-"id": "person:Priscilla",
-"type": "person",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Priscila"
-},
-{
-"id": "place:Achaia",
+"id": "place:Phrygia",
 "type": "place",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Acaia"
+"preferred_label": "Frígia"
 },
 {
 "id": "place:Cyrene",
@@ -254,11 +233,32 @@
 "preferred_label": "Cirene"
 },
 {
-"id": "place:Phrygia",
+"id": "place:Macedonia",
 "type": "place",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Frígia"
+"preferred_label": "Macedônia"
+},
+{
+"id": "person:Claudius",
+"type": "person",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Cláudio"
+},
+{
+"id": "place:Achaia",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Acaia"
+},
+{
+"id": "person:Priscilla",
+"type": "person",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Priscila"
 },
 {
 "id": "place:Libya",
@@ -268,6 +268,13 @@
 "preferred_label": "Líbia"
 },
 {
+"id": "person:MilitaryMember",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Military Member"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -275,60 +282,11 @@
 "preferred_label": "fazer a paz"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "crer"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "boa notícia"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "forgive"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Spirit"
-},
-{
-"id": "keyterm:Declare",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "testemunhar solenemente"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:MilitaryMember",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Military Member"
+"preferred_label": "rogar"
 },
 {
 "id": "keyterm:Favor",
@@ -345,18 +303,32 @@
 "preferred_label": "Egito"
 },
 {
-"id": "keyterm:BearWitness",
-"type": "keyterm",
+"id": "place:Italy",
+"type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "testemunhar"
+"preferred_label": "Italy"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "rogar"
+"preferred_label": "crer"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Spirit"
 },
 {
 "id": "keyterm:Rescue",
@@ -366,18 +338,18 @@
 "preferred_label": "libertar"
 },
 {
-"id": "keyterm:Word",
+"id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "palavra"
+"preferred_label": "testemunhar"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Declare",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "testemunhar solenemente"
 },
 {
 "id": "place:Pamphylia",
@@ -387,11 +359,39 @@
 "preferred_label": "Panfília"
 },
 {
-"id": "place:Italy",
-"type": "place",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Italy"
+"preferred_label": "holy"
+},
+{
+"id": "keyterm:Word",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "palavra"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "boa notícia"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "forgive"
 },
 {
 "id": "realia:Strap",

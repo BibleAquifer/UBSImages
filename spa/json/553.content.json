@@ -70,11 +70,25 @@
 "preferred_label": "Grass"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "creer"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "cielo"
 },
 {
 "id": "keyterm:Judgment",
@@ -89,20 +103,6 @@
 "confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "fariseo"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "cielo"
 },
 {
 "id": "flora:Chicory",
@@ -133,11 +133,11 @@
 "preferred_label": "ley"
 },
 {
-"id": "keyterm:Mercy",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "misericordia"
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:Love",
@@ -147,25 +147,18 @@
 "preferred_label": "amar"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Mercy",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "misericordia"
 },
 {
-"id": "flora:Colocynth",
+"id": "flora:Cumin",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "Colocynth"
-},
-{
-"id": "flora:Ivy",
-"type": "flora",
-"confidence": 0.1713,
-"match_method": "canonical",
-"preferred_label": "Ivy"
+"preferred_label": "Cumin"
 },
 {
 "id": "flora:Dill",
@@ -182,18 +175,18 @@
 "preferred_label": "Rue"
 },
 {
-"id": "flora:Cumin",
+"id": "flora:Ivy",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "Cumin"
+"preferred_label": "Ivy"
 },
 {
-"id": "flora:Vine",
+"id": "flora:Colocynth",
 "type": "flora",
-"confidence": 0.1463,
+"confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Colocynth"
 },
 {
 "id": "realia:Stew",
@@ -203,11 +196,11 @@
 "preferred_label": "Stew"
 },
 {
-"id": "realia:CookingPot",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "Cooking Pot"
+"preferred_label": "Vine"
 },
 {
 "id": "flora:Grain",
@@ -215,6 +208,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Grain"
+},
+{
+"id": "realia:CookingPot",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Cooking Pot"
 }
 ]
 }

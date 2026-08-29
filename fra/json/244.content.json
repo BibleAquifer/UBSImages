@@ -281,18 +281,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "person:Azariah.20",
-"type": "person",
-"confidence": 0.4083,
-"match_method": "canonical",
-"preferred_label": "Azaria"
-},
-{
 "id": "person:Hananiah.15",
 "type": "person",
 "confidence": 0.4083,
 "match_method": "canonical",
 "preferred_label": "Hanania"
+},
+{
+"id": "person:Azariah.20",
+"type": "person",
+"confidence": 0.4083,
+"match_method": "canonical",
+"preferred_label": "Azaria"
 },
 {
 "id": "person:Mishael.3",
@@ -323,18 +323,11 @@
 "preferred_label": "House"
 },
 {
-"id": "person:Nebuchadnezzar",
-"type": "person",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Nebucadnetsar"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Pharaon"
+"preferred_label": "laissiez en possession"
 },
 {
 "id": "person:Moses",
@@ -344,11 +337,11 @@
 "preferred_label": "Moïse"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "person:Pharaoh.6",
+"type": "person",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "laissiez en possession"
+"preferred_label": "Pharaon"
 },
 {
 "id": "person:Israel",
@@ -358,11 +351,11 @@
 "preferred_label": "Israël"
 },
 {
-"id": "place:Netaim",
-"type": "place",
-"confidence": 0.1655,
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Netaïm"
+"preferred_label": "Nebucadnetsar"
 },
 {
 "id": "place:Gederah",
@@ -372,18 +365,18 @@
 "preferred_label": "Gederah"
 },
 {
+"id": "place:Netaim",
+"type": "place",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Netaïm"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "Clay Jar"
-},
-{
-"id": "place:Gomorrah",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Gomorrhe"
 },
 {
 "id": "place:Topheth",
@@ -393,11 +386,11 @@
 "preferred_label": "Topheth"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Perceive",
+"type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "percevoir"
 },
 {
 "id": "place:SinaiMount",
@@ -407,25 +400,11 @@
 "preferred_label": "montagne de Sinaï"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Aaron"
-},
-{
-"id": "place:Sodom",
+"id": "place:Gomorrah",
 "type": "place",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Sodome"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "percevoir"
+"preferred_label": "Gomorrhe"
 },
 {
 "id": "keyterm:Abyss",
@@ -435,25 +414,32 @@
 "preferred_label": "le monde des morts"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Sodome"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
 "id": "flora:Lentil",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "Lentil"
-},
-{
-"id": "realia:PotteryWheel",
-"type": "realia",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Pottery Wheel"
-},
-{
-"id": "flora:Bean",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Bean"
 },
 {
 "id": "realia:Bagpipe",
@@ -463,11 +449,46 @@
 "preferred_label": "Bagpipe"
 },
 {
+"id": "flora:Bean",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Bean"
+},
+{
+"id": "realia:PotteryWheel",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Pottery Wheel"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Bed"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Lute"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Barley"
 },
 {
 "id": "fauna:Bull",
@@ -484,13 +505,6 @@
 "preferred_label": "Bowl"
 },
 {
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lute"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1007,
@@ -498,18 +512,11 @@
 "preferred_label": "Rams Horn"
 },
 {
-"id": "realia:Bed",
+"id": "realia:Flute",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "Flute"
 },
 {
 "id": "realia:Lyre",
@@ -517,13 +524,6 @@
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "Lyre"
-},
-{
-"id": "realia:Flute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Flute"
 }
 ]
 }

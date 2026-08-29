@@ -199,18 +199,18 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.3092,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3092,
 "match_method": "canonical",
 "preferred_label": "Flock"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.3092,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "fauna:Goat",
@@ -220,18 +220,18 @@
 "preferred_label": "Goat"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Swear"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "Isra’ila"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "Swear"
 },
 {
 "id": "keyterm:Bless",
@@ -255,6 +255,13 @@
 "preferred_label": "Land Flowing of Milk and Honey"
 },
 {
+"id": "place:Paran",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Faran"
+},
+{
 "id": "place:Kadesh-barnea",
 "type": "place",
 "confidence": 0.175,
@@ -269,11 +276,11 @@
 "preferred_label": "Offering"
 },
 {
-"id": "place:Paran",
-"type": "place",
-"confidence": 0.175,
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Faran"
+"preferred_label": "Must"
 },
 {
 "id": "realia:AnointingOil",
@@ -283,18 +290,11 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "realia:Must",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Must"
+"preferred_label": "House"
 },
 {
 "id": "flora:OliveTree",
@@ -304,11 +304,11 @@
 "preferred_label": "Olive Tree"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
+"id": "fauna:Mule",
+"type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Mule"
 },
 {
 "id": "flora:Grass",
@@ -318,11 +318,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "realia:House",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Olive Oil"
 },
 {
 "id": "place:Babylon",
@@ -332,25 +332,11 @@
 "preferred_label": "Babilon"
 },
 {
-"id": "keyterm:Curse",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "To Curse"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "To Cause to Possess"
 },
 {
 "id": "person:Moses",
@@ -360,11 +346,39 @@
 "preferred_label": "Musa"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Love"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Safety"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "To Curse"
 },
 {
 "id": "person:Cain",
@@ -381,11 +395,11 @@
 "preferred_label": "Haruna"
 },
 {
-"id": "keyterm:Possess",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "Defilement"
 },
 {
 "id": "place:Lebanon",
@@ -393,27 +407,6 @@
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Lebanon"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Safety"
-},
-{
-"id": "flora:Millet",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Millet"
 },
 {
 "id": "flora:Lentil",
@@ -430,11 +423,18 @@
 "preferred_label": "Bean"
 },
 {
-"id": "fauna:Locust",
-"type": "fauna",
+"id": "flora:Millet",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Millet"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Locust"
+"preferred_label": "Basket"
 },
 {
 "id": "flora:Barley",
@@ -444,11 +444,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "realia:Basket",
-"type": "realia",
+"id": "fauna:Locust",
+"type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "Locust"
 },
 {
 "id": "realia:Image",

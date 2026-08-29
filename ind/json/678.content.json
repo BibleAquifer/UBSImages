@@ -72,13 +72,6 @@
 "preferred_label": "tumor"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "confidence": 0.35,
@@ -88,6 +81,13 @@
 {
 "id": "group:Philistine",
 "type": "group",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "Filistin"
+},
+{
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.35,
 "match_method": "canonical",
 "preferred_label": "Filistin"
@@ -128,11 +128,11 @@
 "preferred_label": "murni"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Blow",
@@ -142,25 +142,18 @@
 "preferred_label": "tulah"
 },
 {
+"id": "place:Beth-shemesh",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Bet-Semes"
+},
+{
 "id": "keyterm:Kind.2",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "jenis"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "khusus"
 },
 {
 "id": "keyterm:Glory",
@@ -170,18 +163,32 @@
 "preferred_label": "kemuliaan"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "persembahan"
 },
 {
-"id": "place:Beth-shemesh",
-"type": "place",
+"id": "keyterm:Defilement",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Bet-Semes"
+"preferred_label": "pencemaran"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "khusus"
+},
+{
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.1983,
+"match_method": "canonical",
+"preferred_label": "Lizard"
 },
 {
 "id": "fauna:Pig",
@@ -198,11 +205,11 @@
 "preferred_label": "Mongoose"
 },
 {
-"id": "fauna:Lizard",
+"id": "fauna:Jackal",
 "type": "fauna",
-"confidence": 0.1983,
+"confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Lizard"
+"preferred_label": "Jackal"
 },
 {
 "id": "realia:Wagon",
@@ -210,13 +217,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Wagon"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Jackal"
 }
 ]
 }

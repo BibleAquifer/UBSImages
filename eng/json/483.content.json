@@ -267,13 +267,6 @@
 "preferred_label": "Babylon"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3514,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3514,
@@ -281,11 +274,11 @@
 "preferred_label": "Philistines"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.2886,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3514,
 "match_method": "canonical",
-"preferred_label": "Saul"
+"preferred_label": "Philistia"
 },
 {
 "id": "person:Israel",
@@ -293,6 +286,13 @@
 "confidence": 0.2886,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "Saul"
 },
 {
 "id": "place:Ziph.2",
@@ -330,27 +330,6 @@
 "preferred_label": "Moab"
 },
 {
-"id": "place:Hereth",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Hereth"
-},
-{
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Eliab"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Midian"
-},
-{
 "id": "place:Jeshimon",
 "type": "place",
 "confidence": 0.1686,
@@ -365,25 +344,11 @@
 "preferred_label": "Hachilah"
 },
 {
-"id": "group:Ziph",
-"type": "group",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Ziphites"
-},
-{
 "id": "place:Millo",
 "type": "place",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Millo"
-},
-{
-"id": "keyterm:Refuge",
-"type": "keyterm",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Refuge"
 },
 {
 "id": "person:Obadiah.6",
@@ -393,11 +358,25 @@
 "preferred_label": "Obadiah"
 },
 {
+"id": "place:Hereth",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Hereth"
+},
+{
 "id": "person:Ezer.4",
 "type": "person",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Ezer"
+},
+{
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Eliab"
 },
 {
 "id": "person:Gad.2",
@@ -407,39 +386,25 @@
 "preferred_label": "Gad"
 },
 {
-"id": "place:Chaldea",
+"id": "group:Ziph",
+"type": "group",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Ziphites"
+},
+{
+"id": "place:Midian",
 "type": "place",
-"confidence": 0.1629,
+"confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Chaldea"
+"preferred_label": "Midian"
 },
 {
-"id": "keyterm:Deceit",
+"id": "keyterm:Refuge",
 "type": "keyterm",
-"confidence": 0.1629,
+"confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Deceit"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Seek Refugue"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Gibeah"
+"preferred_label": "Refuge"
 },
 {
 "id": "keyterm:IntactState",
@@ -456,39 +421,11 @@
 "preferred_label": "Smear"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "place:Engedi",
+"id": "place:Kiriathaim",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "En-gedi"
-},
-{
-"id": "place:Horesh",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Horesh"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Chaldeans"
+"preferred_label": "Kiriathaim"
 },
 {
 "id": "person:Judah.4",
@@ -498,32 +435,53 @@
 "preferred_label": "Judah"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Trust"
-},
-{
-"id": "place:Kiriathaim",
+"id": "place:Horesh",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Kiriathaim"
+"preferred_label": "Horesh"
 },
 {
-"id": "keyterm:BeFirm",
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Gibeah"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Chaldea"
+},
+{
+"id": "place:Engedi",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "En-gedi"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Chaldeans"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Well-Established"
-},
-{
-"id": "keyterm:Shield",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Shield"
+"preferred_label": "Seek Refugue"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -533,39 +491,53 @@
 "preferred_label": "Be Unfaithful"
 },
 {
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Deceit"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Well-Established"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Shield"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Kindness"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Trust"
+},
+{
 "id": "realia:Cage",
 "type": "realia",
 "confidence": 0.1086,
 "match_method": "canonical",
 "preferred_label": "Cage"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Fish"
-},
-{
-"id": "realia:Harpoon",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Harpoon"
-},
-{
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Dragnet"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Bird"
 },
 {
 "id": "realia:SmallShield",
@@ -575,6 +547,13 @@
 "preferred_label": "Small Shield"
 },
 {
+"id": "realia:Dragnet",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Dragnet"
+},
+{
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.1029,
@@ -582,11 +561,32 @@
 "preferred_label": "Trap"
 },
 {
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Bird"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Sandalwood"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Harpoon"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Fish"
 }
 ]
 }

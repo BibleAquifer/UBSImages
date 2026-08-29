@@ -265,18 +265,18 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "person:Medan",
-"type": "person",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "मादियों"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.23,
 "match_method": "canonical",
 "preferred_label": "Peace"
+},
+{
+"id": "person:Medan",
+"type": "person",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "मादियों"
 },
 {
 "id": "group:Mede",
@@ -300,18 +300,11 @@
 "preferred_label": "अबगता"
 },
 {
-"id": "person:Bigtha",
+"id": "person:Darius.3",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "बिगता"
-},
-{
-"id": "person:Carkas",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "कर्कस"
+"preferred_label": "दारा"
 },
 {
 "id": "person:Zethar",
@@ -321,18 +314,25 @@
 "preferred_label": "जेतेर"
 },
 {
-"id": "person:Darius.3",
-"type": "person",
+"id": "place:India",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "दारा"
+"preferred_label": "भारत"
 },
 {
-"id": "person:Hammedatha",
+"id": "person:Carkas",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "हम्मदाता"
+"preferred_label": "कर्कस"
+},
+{
+"id": "person:Bigtha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "बिगता"
 },
 {
 "id": "person:Harbona",
@@ -349,6 +349,13 @@
 "preferred_label": "ममूकान"
 },
 {
+"id": "person:Hammedatha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "हम्मदाता"
+},
+{
 "id": "person:Biztha",
 "type": "person",
 "confidence": 0.1717,
@@ -363,88 +370,11 @@
 "preferred_label": "महूमान"
 },
 {
-"id": "place:India",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "भारत"
-},
-{
 "id": "realia:Doorstep",
 "type": "realia",
 "confidence": 0.17,
 "match_method": "canonical",
 "preferred_label": "Doorstep"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Chaldea"
-},
-{
-"id": "place:Susa",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "शूशन"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Lot"
-},
-{
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "कूश"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "कसदियों"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "group:Persia",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "फारसी"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Truth"
 },
 {
 "id": "place:Persia",
@@ -454,11 +384,81 @@
 "preferred_label": "फारस"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Lot"
+},
+{
+"id": "place:Susa",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "शूशन"
+},
+{
+"id": "group:Persia",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "फारसी"
+},
+{
+"id": "place:Ethiopia",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "कूश"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
 "id": "person:Agag.2",
 "type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "अगाग"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Chaldea"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "कसदियों"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
 },
 {
 "id": "flora:BalsamTree",
@@ -468,6 +468,13 @@
 "preferred_label": "Balsam Tree"
 },
 {
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.105,
@@ -475,18 +482,18 @@
 "preferred_label": "Vine"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Wine"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
 },
 {
 "id": "realia:Lot",
@@ -501,13 +508,6 @@
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Myrrh"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Horse"
 },
 {
 "id": "realia:OliveOil",
