@@ -236,18 +236,18 @@
 "preferred_label": "Craftsman"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2935,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2935,
 "match_method": "canonical",
 "preferred_label": "Israël"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2935,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "place:Jericho",
@@ -292,13 +292,6 @@
 "preferred_label": "Arad"
 },
 {
-"id": "keyterm:Hosanna",
-"type": "keyterm",
-"confidence": 0.171,
-"match_method": "canonical",
-"preferred_label": "hosanna [en araméen]"
-},
-{
 "id": "place:JerichoValley",
 "type": "place",
 "confidence": 0.171,
@@ -306,11 +299,25 @@
 "preferred_label": "vallée de Jéricho"
 },
 {
+"id": "keyterm:Hosanna",
+"type": "keyterm",
+"confidence": 0.171,
+"match_method": "canonical",
+"preferred_label": "hosanna [en araméen]"
+},
+{
 "id": "group:Kenite",
 "type": "group",
 "confidence": 0.171,
 "match_method": "canonical",
 "preferred_label": "Kenites"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.169,
+"match_method": "canonical",
+"preferred_label": "Aleppo Pine"
 },
 {
 "id": "fauna:Lion",
@@ -327,18 +334,18 @@
 "preferred_label": "Olive Tree"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.169,
-"match_method": "canonical",
-"preferred_label": "Aleppo Pine"
-},
-{
-"id": "group:Ammon",
-"type": "group",
+"id": "place:Amalek",
+"type": "place",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Amos"
+"preferred_label": "Amalek"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "place:Marah",
@@ -348,39 +355,11 @@
 "preferred_label": "Mara"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Samarie"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "déposséder"
-},
-{
 "id": "place:Zoar",
 "type": "place",
 "confidence": 0.1645,
 "match_method": "canonical",
 "preferred_label": "Zoar"
-},
-{
-"id": "person:Deborah.2",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Débora"
-},
-{
-"id": "place:Ramah.2",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Ramah"
 },
 {
 "id": "person:Moses",
@@ -390,6 +369,27 @@
 "preferred_label": "Moïse"
 },
 {
+"id": "place:Ramah.2",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Ramah"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "déposséder"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Amos"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1645,
@@ -397,11 +397,74 @@
 "preferred_label": "Jérusalem"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Deborah.2",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Débora"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Samarie"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Éphraïm"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Ammon"
+},
+{
+"id": "keyterm:Fairness",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "niveau"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.1645,
 "match_method": "canonical",
 "preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "benir"
+},
+{
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Amalekites"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "nom"
 },
 {
 "id": "group:Ephraim",
@@ -418,81 +481,11 @@
 "preferred_label": "Bethel"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "nom"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Amalek"
-},
-{
-"id": "keyterm:Fairness",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "niveau"
-},
-{
-"id": "group:Amalek",
-"type": "group",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Amalekites"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Ammon"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "benir"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Éphraïm"
-},
-{
 "id": "flora:CitronTree",
 "type": "flora",
 "confidence": 0.111,
 "match_method": "canonical",
 "preferred_label": "Citron"
-},
-{
-"id": "flora:Willow",
-"type": "flora",
-"confidence": 0.111,
-"match_method": "canonical",
-"preferred_label": "Willow"
 },
 {
 "id": "flora:Poplar",
@@ -516,18 +509,11 @@
 "preferred_label": "Apple"
 },
 {
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1045,
+"id": "flora:Willow",
+"type": "flora",
+"confidence": 0.111,
 "match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "Willow"
 },
 {
 "id": "realia:Wine",
@@ -537,11 +523,11 @@
 "preferred_label": "Wine"
 },
 {
-"id": "flora:Cypress",
+"id": "flora:JuniperTree",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Cypress"
+"preferred_label": "Phoenician Juniper"
 },
 {
 "id": "flora:Fig",
@@ -551,18 +537,25 @@
 "preferred_label": "Fig"
 },
 {
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
 "preferred_label": "Pomegranate"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Donkey"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Fir"
 },
 {
 "id": "flora:Juniper",
@@ -572,11 +565,11 @@
 "preferred_label": "Grecian Juniper"
 },
 {
-"id": "flora:JuniperTree",
-"type": "flora",
+"id": "realia:Throne",
+"type": "realia",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Phoenician Juniper"
+"preferred_label": "Throne"
 },
 {
 "id": "realia:Room",
@@ -586,11 +579,18 @@
 "preferred_label": "Room"
 },
 {
-"id": "flora:Fir",
+"id": "flora:Cypress",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Fir"
+"preferred_label": "Cypress"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Cloak"
 }
 ]
 }

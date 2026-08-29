@@ -33,13 +33,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "Court Case"
-},
-{
 "id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.5,
@@ -47,11 +40,11 @@
 "preferred_label": "Judgment"
 },
 {
-"id": "group:Nineveh",
-"type": "group",
-"confidence": 0.3667,
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "Ninevites"
+"preferred_label": "Court Case"
 },
 {
 "id": "person:QueenOfSheba",
@@ -61,11 +54,18 @@
 "preferred_label": "Queen of Sheba"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "group:Nineveh",
+"type": "group",
+"confidence": 0.3667,
+"match_method": "canonical",
+"preferred_label": "Ninevites"
+},
+{
+"id": "place:Nineveh",
+"type": "place",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Jonah"
+"preferred_label": "Nineveh"
 },
 {
 "id": "person:Solomon",
@@ -75,11 +75,11 @@
 "preferred_label": "Solomon"
 },
 {
-"id": "keyterm:Proclaim",
-"type": "keyterm",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Proclaim"
+"preferred_label": "Jonah"
 },
 {
 "id": "keyterm:Repent",
@@ -89,11 +89,11 @@
 "preferred_label": "Repent"
 },
 {
-"id": "place:Nineveh",
-"type": "place",
+"id": "keyterm:Proclaim",
+"type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Nineveh"
+"preferred_label": "Proclaim"
 },
 {
 "id": "deity:Lord",

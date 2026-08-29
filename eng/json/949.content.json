@@ -251,13 +251,6 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.4603,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.4603,
@@ -272,11 +265,11 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.4108,
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.4603,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Stone Altar"
 },
 {
 "id": "person:Israel",
@@ -284,6 +277,13 @@
 "confidence": 0.4108,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.4108,
+"match_method": "canonical",
+"preferred_label": "Offering"
 },
 {
 "id": "person:Aaron",
@@ -314,18 +314,18 @@
 "preferred_label": "Screen"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Moses"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Pure"
 },
 {
 "id": "person:Uzziah",
@@ -356,11 +356,11 @@
 "preferred_label": "Horns of Altar"
 },
 {
-"id": "person:Elihu",
+"id": "person:Jeroham",
 "type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Elihu"
+"preferred_label": "Jeroham"
 },
 {
 "id": "keyterm:Priesthood",
@@ -370,13 +370,6 @@
 "preferred_label": "Priesthood"
 },
 {
-"id": "person:Jeroham",
-"type": "person",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "Jeroham"
-},
-{
 "id": "person:Tohu",
 "type": "person",
 "confidence": 0.1676,
@@ -384,25 +377,11 @@
 "preferred_label": "Tohu"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1643,
+"id": "person:Elihu",
+"type": "person",
+"confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Elihu"
 },
 {
 "id": "flora:Acacia",
@@ -412,6 +391,20 @@
 "preferred_label": "Acacia"
 },
 {
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "Ark of the Covenant"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1643,
@@ -419,81 +412,11 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1622,
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "Mischief"
-},
-{
-"id": "person:Nadab",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Nadab"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Holy Place"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "New Moon Festival"
-},
-{
-"id": "person:Elkanah.2",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Elkanah"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Tyre"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Beloved"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Sabbath"
-},
-{
-"id": "person:Abihu",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Abihu"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Solomon"
+"preferred_label": "Olive Oil"
 },
 {
 "id": "keyterm:InfectiousSkinDisease",
@@ -503,32 +426,25 @@
 "preferred_label": "Infectious Skin Disease"
 },
 {
-"id": "keyterm:Holy",
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Tyre"
+},
+{
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Sabbath"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Eleazar"
-},
-{
-"id": "person:Ithamar",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ithamar"
-},
-{
-"id": "keyterm:Glory",
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Instruction"
 },
 {
 "id": "person:Hiram",
@@ -538,6 +454,62 @@
 "preferred_label": "Hiram"
 },
 {
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Covenant"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "New Moon Festival"
+},
+{
+"id": "person:Ithamar",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Ithamar"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Beloved"
+},
+{
+"id": "person:Nadab",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Nadab"
+},
+{
+"id": "person:Elkanah.2",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Elkanah"
+},
+{
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Eleazar"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Mischief"
+},
+{
 "id": "keyterm:Witness.2",
 "type": "keyterm",
 "confidence": 0.1622,
@@ -545,11 +517,11 @@
 "preferred_label": "Testimony"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Heaven",
@@ -566,6 +538,34 @@
 "preferred_label": "David"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Solomon"
+},
+{
+"id": "person:Abihu",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Abihu"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Holy Place"
+},
+{
 "id": "realia:BreadOfDisplay",
 "type": "realia",
 "confidence": 0.1076,
@@ -573,11 +573,18 @@
 "preferred_label": "Bread of Display"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
+"id": "realia:Foundation",
+"type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Cedar"
+"preferred_label": "Foundation"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Chariot"
 },
 {
 "id": "realia:Ephod",
@@ -587,18 +594,32 @@
 "preferred_label": "Ephod"
 },
 {
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Curtain"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Cubit"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Cedar"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Cattle"
-},
-{
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Chariot"
 },
 {
 "id": "realia:Tent",
@@ -615,34 +636,6 @@
 "preferred_label": "Shovel"
 },
 {
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Foundation"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Curtain"
-},
-{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1022,
@@ -655,6 +648,13 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Winged Creature"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Rod"
 }
 ]
 }

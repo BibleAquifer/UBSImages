@@ -172,11 +172,11 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:Altar",
@@ -186,13 +186,6 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.312,
@@ -200,11 +193,32 @@
 "preferred_label": "Temple Altar"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "Baali"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "mji"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Tent"
 },
 {
 "id": "person:Enosh",
@@ -221,20 +235,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "realia:Tent",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "mji"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.176,
@@ -249,102 +249,11 @@
 "preferred_label": "Betheli"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Eliya"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "person:Seth",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Sethi"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Beer-sheba"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Samweli"
-},
-{
-"id": "person:Naaman.3",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Naamani"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Haruni"
-},
-{
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Abrahamu"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Praise"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Force to Serve"
 },
 {
 "id": "person:Isaac",
@@ -354,6 +263,48 @@
 "preferred_label": "Isaka"
 },
 {
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Infectious Skin Disease"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Eliya"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Beer-sheba"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Passion"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Musa"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Samweli"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.168,
@@ -361,11 +312,60 @@
 "preferred_label": "Israeli"
 },
 {
-"id": "keyterm:EnticedToServe",
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Abrahamu"
+},
+{
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
+"preferred_label": "Salvation"
+},
+{
+"id": "person:Naaman.3",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Naamani"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Praise"
+},
+{
+"id": "person:Seth",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Sethi"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Haruni"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Defilement"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
 },
 {
 "id": "flora:Tamarisk",

@@ -198,18 +198,18 @@
 "preferred_label": "Chariot"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Tuhan"
 },
 {
 "id": "realia:Wheel",
@@ -233,11 +233,11 @@
 "preferred_label": "kemuliaan"
 },
 {
-"id": "realia:Linen",
+"id": "realia:Threshing-sledge",
 "type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "Linen"
+"preferred_label": "Threshing-Sledge"
 },
 {
 "id": "flora:Grain",
@@ -247,18 +247,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "realia:Threshing-sledge",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "Threshing-Sledge"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "takut"
+"preferred_label": "Linen"
 },
 {
 "id": "place:Egypt",
@@ -266,6 +259,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Mesir"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "takut"
 },
 {
 "id": "keyterm:Arrow",
@@ -289,25 +289,25 @@
 "preferred_label": "Cumin"
 },
 {
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Cubit"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Arrow"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Bow"
 },
 {
 "id": "realia:Rod",
@@ -317,13 +317,6 @@
 "preferred_label": "Rod"
 },
 {
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
 "id": "realia:Whip",
 "type": "realia",
 "confidence": 0.1067,
@@ -331,11 +324,18 @@
 "preferred_label": "Whip"
 },
 {
-"id": "realia:House",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Bow"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Staff"
 }
 ]
 }

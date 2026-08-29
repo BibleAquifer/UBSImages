@@ -57,13 +57,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.6757,
-"match_method": "canonical",
-"preferred_label": "Threshing-Sledge"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.6757,
@@ -71,11 +64,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.3286,
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.6757,
 "match_method": "canonical",
-"preferred_label": "offrande"
+"preferred_label": "Threshing-Sledge"
 },
 {
 "id": "person:David",
@@ -83,6 +76,13 @@
 "confidence": 0.3286,
 "match_method": "canonical",
 "preferred_label": "David"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "offrande"
 },
 {
 "id": "person:Ornan",
@@ -106,20 +106,6 @@
 "preferred_label": "Wagon"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "se rebeller"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Damas"
-},
-{
 "id": "place:Gilead",
 "type": "place",
 "confidence": 0.2143,
@@ -127,11 +113,25 @@
 "preferred_label": "Galaad"
 },
 {
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "se rebeller"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Damas"
 },
 {
 "id": "flora:NutmegFlower",
@@ -155,18 +155,18 @@
 "preferred_label": "Wheat"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "Rod"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Staff"
 }
 ]
 }

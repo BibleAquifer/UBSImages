@@ -53,13 +53,6 @@
 "preferred_label": "Bean"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.365,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.365,
@@ -67,11 +60,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "group:Hararites",
-"type": "group",
-"confidence": 0.3125,
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.365,
 "match_method": "canonical",
-"preferred_label": "Hararites"
+"preferred_label": "Wheat"
 },
 {
 "id": "person:Agee",
@@ -81,13 +74,6 @@
 "preferred_label": "Agee"
 },
 {
-"id": "person:Shammah",
-"type": "person",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Shama"
-},
-{
 "id": "person:Esau",
 "type": "person",
 "confidence": 0.3125,
@@ -95,11 +81,18 @@
 "preferred_label": "Esau"
 },
 {
-"id": "group:Philistine",
+"id": "group:Hararites",
 "type": "group",
-"confidence": 0.2625,
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Wafilisti"
+"preferred_label": "Hararites"
+},
+{
+"id": "person:Shammah",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Shama"
 },
 {
 "id": "place:Philistine",
@@ -123,6 +116,13 @@
 "preferred_label": "Israeli"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Wafilisti"
+},
+{
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.2525,
@@ -144,18 +144,18 @@
 "preferred_label": "Bed"
 },
 {
-"id": "realia:Stew",
-"type": "realia",
-"confidence": 0.2025,
-"match_method": "canonical",
-"preferred_label": "Stew"
-},
-{
 "id": "realia:Bowl",
 "type": "realia",
 "confidence": 0.2025,
 "match_method": "canonical",
 "preferred_label": "Bowl"
+},
+{
+"id": "realia:Stew",
+"type": "realia",
+"confidence": 0.2025,
+"match_method": "canonical",
+"preferred_label": "Stew"
 }
 ]
 }

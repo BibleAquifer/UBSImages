@@ -265,18 +265,18 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "person:Medan",
-"type": "person",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Medos"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.23,
 "match_method": "canonical",
 "preferred_label": "paz"
+},
+{
+"id": "person:Medan",
+"type": "person",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "Medos"
 },
 {
 "id": "group:Mede",
@@ -300,18 +300,11 @@
 "preferred_label": "Abagtha"
 },
 {
-"id": "person:Bigtha",
+"id": "person:Darius.3",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Bighta"
-},
-{
-"id": "person:Carkas",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Carcas"
+"preferred_label": "Darío"
 },
 {
 "id": "person:Zethar",
@@ -321,18 +314,25 @@
 "preferred_label": "Zetar"
 },
 {
-"id": "person:Darius.3",
-"type": "person",
+"id": "place:India",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Darío"
+"preferred_label": "desde"
 },
 {
-"id": "person:Hammedatha",
+"id": "person:Carkas",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Amadatha"
+"preferred_label": "Carcas"
+},
+{
+"id": "person:Bigtha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Bighta"
 },
 {
 "id": "person:Harbona",
@@ -349,6 +349,13 @@
 "preferred_label": "Memucán"
 },
 {
+"id": "person:Hammedatha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Amadatha"
+},
+{
 "id": "person:Biztha",
 "type": "person",
 "confidence": 0.1717,
@@ -363,88 +370,11 @@
 "preferred_label": "Mehumán"
 },
 {
-"id": "place:India",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "desde"
-},
-{
 "id": "realia:Doorstep",
 "type": "realia",
 "confidence": 0.17,
 "match_method": "canonical",
 "preferred_label": "Doorstep"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Caldeos"
-},
-{
-"id": "place:Susa",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Susán"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "suerte"
-},
-{
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Etiopes"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "caldeos"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "group:Persia",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "persa"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "fidelidad"
 },
 {
 "id": "place:Persia",
@@ -454,11 +384,81 @@
 "preferred_label": "Persas"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "suerte"
+},
+{
+"id": "place:Susa",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Susán"
+},
+{
+"id": "group:Persia",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "persa"
+},
+{
+"id": "place:Ethiopia",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Etiopes"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "fidelidad"
+},
+{
 "id": "person:Agag.2",
 "type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Agag"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Caldeos"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "caldeos"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "flora:BalsamTree",
@@ -468,6 +468,13 @@
 "preferred_label": "Balsam Tree"
 },
 {
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.105,
@@ -475,18 +482,18 @@
 "preferred_label": "Vine"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Wine"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
 },
 {
 "id": "realia:Lot",
@@ -501,13 +508,6 @@
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Myrrh"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Horse"
 },
 {
 "id": "realia:OliveOil",

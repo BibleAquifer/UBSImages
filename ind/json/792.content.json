@@ -189,18 +189,18 @@
 "preferred_label": "Adoram"
 },
 {
+"id": "person:Rehoboam",
+"type": "person",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Rehabeam"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2409,
 "match_method": "canonical",
 "preferred_label": "Tuhan"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "persembahan"
 },
 {
 "id": "person:Philip.4",
@@ -210,11 +210,11 @@
 "preferred_label": "Filipus"
 },
 {
-"id": "person:Rehoboam",
-"type": "person",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.2409,
 "match_method": "canonical",
-"preferred_label": "Rehabeam"
+"preferred_label": "persembahan"
 },
 {
 "id": "person:Gehazi",
@@ -238,6 +238,20 @@
 "preferred_label": "Ahazia"
 },
 {
+"id": "person:Jonadab",
+"type": "person",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Yonadab"
+},
+{
+"id": "person:Amminadib",
+"type": "person",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "bangsawan"
+},
+{
 "id": "place:Gur",
 "type": "place",
 "confidence": 0.1795,
@@ -252,123 +266,11 @@
 "preferred_label": "Rekhab"
 },
 {
-"id": "person:Amminadib",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "bangsawan"
-},
-{
-"id": "person:Jonadab",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Yonadab"
-},
-{
 "id": "place:Beth-haggan",
 "type": "place",
 "confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "Bet-Hagan"
-},
-{
-"id": "person:Jehu.2",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yehu"
-},
-{
-"id": "person:Absalom",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Absalom"
-},
-{
-"id": "place:Ibleam",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yibleam"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yusuf"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "murni"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "damai"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yesaya"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Israelites"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "person:Naaman.3",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Naaman"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Mesir"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "baptisan"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Benhadad"
 },
 {
 "id": "place:Megiddo",
@@ -378,6 +280,41 @@
 "preferred_label": "Megido"
 },
 {
+"id": "place:Goshen",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Gosyen"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "damai"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yusuf"
+},
+{
+"id": "place:Ibleam",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yibleam"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -385,11 +322,25 @@
 "preferred_label": "tubuh"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "memberkati"
+"preferred_label": "baptisan"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "murni"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Benhadad"
 },
 {
 "id": "deity:HolySpirit",
@@ -399,11 +350,60 @@
 "preferred_label": "Roh"
 },
 {
-"id": "place:Goshen",
+"id": "person:Jehu.2",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yehu"
+},
+{
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Gosyen"
+"preferred_label": "Mesir"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "person:Isaiah",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yesaya"
+},
+{
+"id": "person:Naaman.3",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Naaman"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "memberkati"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Israelites"
+},
+{
+"id": "person:Absalom",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Absalom"
 },
 {
 "id": "flora:Cinnamon",
@@ -413,11 +413,32 @@
 "preferred_label": "Cinnamon"
 },
 {
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Sheep"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Myrrh"
 },
 {
 "id": "flora:Vine",
@@ -427,6 +448,13 @@
 "preferred_label": "Vine"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1105,
@@ -434,11 +462,25 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:Myrrh",
+"id": "realia:Wheel",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Myrrh"
+"preferred_label": "Wheel"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Mule"
 },
 {
 "id": "realia:Wine",
@@ -462,20 +504,6 @@
 "preferred_label": "Frankincense"
 },
 {
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Camel"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1105,
@@ -490,32 +518,11 @@
 "preferred_label": "Myrrh"
 },
 {
-"id": "fauna:Mule",
+"id": "fauna:Camel",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "realia:Wheel",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Wheel"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Camel"
 },
 {
 "id": "realia:OliveOil",
@@ -523,13 +530,6 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Olive Oil"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "House"
 }
 ]
 }

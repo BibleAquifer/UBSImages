@@ -90,13 +90,6 @@
 "preferred_label": "Mosquito"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "فِرْعَوْنَ"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.3,
@@ -104,11 +97,11 @@
 "preferred_label": "هَارون"
 },
 {
-"id": "person:Moses",
+"id": "person:Pharaoh.6",
 "type": "person",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "موسَى"
+"preferred_label": "فِرْعَوْنَ"
 },
 {
 "id": "place:Egypt",
@@ -116,6 +109,13 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "مِصْرَ"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "موسَى"
 },
 {
 "id": "fauna:Bull",
@@ -132,13 +132,6 @@
 "preferred_label": "Assyria"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.2,
@@ -153,6 +146,13 @@
 "preferred_label": "Ability"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
 "id": "fauna:Frog",
 "type": "fauna",
 "confidence": 0.1622,
@@ -160,18 +160,11 @@
 "preferred_label": "Frog"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
+"id": "fauna:Bee",
+"type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Bee"
 },
 {
 "id": "realia:Rod",
@@ -181,11 +174,18 @@
 "preferred_label": "Rod"
 },
 {
-"id": "fauna:Bee",
-"type": "fauna",
+"id": "realia:OliveOil",
+"type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "Bee"
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
 }
 ]
 }

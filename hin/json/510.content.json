@@ -1317,13 +1317,6 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3629,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3629,
@@ -1336,6 +1329,13 @@
 "confidence": 0.3629,
 "match_method": "canonical",
 "preferred_label": "Holy"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3629,
+"match_method": "canonical",
+"preferred_label": "Bless"
 },
 {
 "id": "person:Judah.4",
@@ -1359,11 +1359,11 @@
 "preferred_label": "यरदन"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "फ़िरौन"
+"preferred_label": "यहूदा"
 },
 {
 "id": "keyterm:Curse",
@@ -1373,11 +1373,11 @@
 "preferred_label": "To Curse"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Pharaoh.4",
+"type": "person",
 "confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "फ़िरौन"
 },
 {
 "id": "flora:Wheat",
@@ -1429,32 +1429,11 @@
 "preferred_label": "Defilement"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.3086,
 "match_method": "canonical",
 "preferred_label": "Proverb"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "नूह"
 },
 {
 "id": "place:Babylon",
@@ -1464,6 +1443,27 @@
 "preferred_label": "बेबीलोन"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "नूह"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "To Sin"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3071,
@@ -1471,18 +1471,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "fauna:Chameleon",
+"id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.3007,
 "match_method": "canonical",
-"preferred_label": "Chameleon"
+"preferred_label": "Lizard"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
+"id": "fauna:Mule",
+"type": "fauna",
 "confidence": 0.3007,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Mule"
 }
 ]
 }

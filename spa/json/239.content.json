@@ -143,13 +143,6 @@
 "preferred_label": "Spear"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3211,
-"match_method": "canonical",
-"preferred_label": "Filisteos"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3211,
@@ -157,18 +150,18 @@
 "preferred_label": "los"
 },
 {
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.2716,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3211,
 "match_method": "canonical",
-"preferred_label": "Crown"
+"preferred_label": "Filisteos"
 },
 {
-"id": "realia:Crown",
-"type": "realia",
+"id": "flora:Acacia",
+"type": "flora",
 "confidence": 0.2716,
 "match_method": "canonical",
-"preferred_label": "Crown"
+"preferred_label": "Acacia"
 },
 {
 "id": "flora:Brier",
@@ -178,6 +171,13 @@
 "preferred_label": "Brier"
 },
 {
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.2716,
+"match_method": "canonical",
+"preferred_label": "Crown"
+},
+{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.2716,
@@ -185,11 +185,11 @@
 "preferred_label": "Purple Cloth"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
+"id": "realia:Crown.2",
+"type": "realia",
 "confidence": 0.2716,
 "match_method": "canonical",
-"preferred_label": "Acacia"
+"preferred_label": "Crown"
 },
 {
 "id": "person:Elhanan",
@@ -213,6 +213,13 @@
 "preferred_label": "Boxthorn"
 },
 {
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "Samsón"
+},
+{
 "id": "place:Gath",
 "type": "place",
 "confidence": 0.2474,
@@ -225,13 +232,6 @@
 "confidence": 0.2474,
 "match_method": "canonical",
 "preferred_label": "Goliath"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "Samsón"
 },
 {
 "id": "realia:Shuttle",
@@ -255,6 +255,20 @@
 "preferred_label": "Lahmi"
 },
 {
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "ser obligado a servir"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -262,15 +276,15 @@
 "preferred_label": "Ability"
 },
 {
-"id": "person:Delilah",
-"type": "person",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Dalila"
+"preferred_label": "esperanza"
 },
 {
-"id": "group:Egypt",
-"type": "group",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Egipto"
@@ -283,34 +297,6 @@
 "preferred_label": "Jews"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Catah"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "bosques"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.1737,
@@ -318,18 +304,11 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Aarón"
-},
-{
-"id": "group:Bethlehem",
-"type": "group",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "de Belén"
+"preferred_label": "Catah"
 },
 {
 "id": "place:Gezer",
@@ -339,18 +318,39 @@
 "preferred_label": "Gezer"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
+"id": "deity:Asherah",
+"type": "deity",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "ser obligado a servir"
+"preferred_label": "bosques"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
+"id": "person:Delilah",
+"type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "esperanza"
+"preferred_label": "Dalila"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "group:Bethlehem",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "de Belén"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Aarón"
 },
 {
 "id": "realia:WovenOrKnittedMaterial",
@@ -358,6 +358,27 @@
 "confidence": 0.1242,
 "match_method": "canonical",
 "preferred_label": "Woven or Knitted Material"
+},
+{
+"id": "fauna:Spider",
+"type": "fauna",
+"confidence": 0.1242,
+"match_method": "canonical",
+"preferred_label": "Spider"
+},
+{
+"id": "realia:Pin",
+"type": "realia",
+"confidence": 0.1242,
+"match_method": "canonical",
+"preferred_label": "Pin"
+},
+{
+"id": "realia:PointOfSpear",
+"type": "realia",
+"confidence": 0.1242,
+"match_method": "canonical",
+"preferred_label": "Point of Spear"
 },
 {
 "id": "flora:Cotton",
@@ -374,116 +395,11 @@
 "preferred_label": "Tunic"
 },
 {
-"id": "realia:PointOfSpear",
-"type": "realia",
-"confidence": 0.1242,
-"match_method": "canonical",
-"preferred_label": "Point of Spear"
-},
-{
-"id": "realia:Pin",
-"type": "realia",
-"confidence": 0.1242,
-"match_method": "canonical",
-"preferred_label": "Pin"
-},
-{
-"id": "fauna:Spider",
-"type": "fauna",
-"confidence": 0.1242,
-"match_method": "canonical",
-"preferred_label": "Spider"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "realia:Ephod",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Ephod"
-},
-{
-"id": "realia:Craftsman",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "fauna:Cobra",
-"type": "fauna",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Cobra"
-},
-{
-"id": "realia:Tent",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
-"id": "realia:Cross",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Cross"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Viper"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Shekel"
-},
-{
 "id": "realia:EmbroideredCloth",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "Embroidered Cloth"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Flax"
 },
 {
 "id": "fauna:Flock",
@@ -493,11 +409,32 @@
 "preferred_label": "Flock"
 },
 {
-"id": "realia:Robe",
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Reed"
+},
+{
+"id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "Robe"
+"preferred_label": "Craftsman"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Sheep"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Cubit"
 },
 {
 "id": "realia:Tunic.2",
@@ -507,18 +444,32 @@
 "preferred_label": "Tunic"
 },
 {
-"id": "realia:LargeShield",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Large Shield"
-},
-{
-"id": "flora:Reed",
+"id": "flora:Flax",
 "type": "flora",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "Reed"
+"preferred_label": "Flax"
+},
+{
+"id": "realia:Ephod",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Ephod"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Tent"
 },
 {
 "id": "fauna:Goat",
@@ -528,11 +479,60 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:House",
+"id": "realia:Cross",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Cross"
+},
+{
+"id": "fauna:Cobra",
+"type": "fauna",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Cobra"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Viper"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:Robe",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Robe"
+},
+{
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Shekel"
+},
+{
+"id": "realia:LargeShield",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Large Shield"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Cloak"
 }
 ]
 }

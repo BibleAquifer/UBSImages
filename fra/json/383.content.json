@@ -170,13 +170,6 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "person:Manoah",
-"type": "person",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Manoach"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.245,
@@ -184,11 +177,25 @@
 "preferred_label": "Juda"
 },
 {
+"id": "person:Manoah",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Manoach"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.185,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "realia:Wine",
@@ -205,11 +212,11 @@
 "preferred_label": "Skin-Bottle"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.185,
+"id": "place:Tabor.2",
+"type": "place",
+"confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Oak of Tabor"
 },
 {
 "id": "group:Adullam",
@@ -219,39 +226,25 @@
 "preferred_label": "Adullamites"
 },
 {
-"id": "place:Tabor.2",
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Samson"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Isaï"
+},
+{
+"id": "place:Adullam",
 "type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Oak of Tabor"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Saül"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Gédéon"
-},
-{
-"id": "keyterm:Serve.2",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "servir"
+"preferred_label": "Adullam"
 },
 {
 "id": "keyterm:Love",
@@ -261,18 +254,25 @@
 "preferred_label": "aimer"
 },
 {
-"id": "place:Bethel",
-"type": "place",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Bethel"
+"preferred_label": "Saül"
 },
 {
-"id": "place:Adullam",
-"type": "place",
+"id": "person:Gideon",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Adullam"
+"preferred_label": "Gédéon"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:Commandment",
@@ -289,6 +289,13 @@
 "preferred_label": "offrande"
 },
 {
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Bethel"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -296,32 +303,18 @@
 "preferred_label": "saint"
 },
 {
-"id": "person:Samson",
-"type": "person",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Samson"
+"preferred_label": "An Angel"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "keyterm:Serve.2",
+"type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Isaï"
-},
-{
-"id": "fauna:Wolf",
-"type": "fauna",
-"confidence": 0.1225,
-"match_method": "canonical",
-"preferred_label": "Wolf"
+"preferred_label": "servir"
 },
 {
 "id": "fauna:Leopard",
@@ -331,11 +324,53 @@
 "preferred_label": "Leopard"
 },
 {
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1225,
+"match_method": "canonical",
+"preferred_label": "Wolf"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Terebinth"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Basket"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Ephah"
 },
 {
 "id": "fauna:Donkey",
@@ -352,46 +387,11 @@
 "preferred_label": "Oak"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Lion"
-},
-{
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Unleavened Bread"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Terebinth"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Ephah"
 },
 {
 "id": "realia:MoltenImage",

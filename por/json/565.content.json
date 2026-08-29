@@ -119,18 +119,18 @@
 "preferred_label": "offering"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.5,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "fauna:Lamb",
@@ -168,6 +168,20 @@
 "preferred_label": "appease"
 },
 {
+"id": "fauna:Crane",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "Crane"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "fauna:Stork",
 "type": "fauna",
 "confidence": 0.1333,
@@ -182,18 +196,18 @@
 "preferred_label": "Swallow"
 },
 {
-"id": "fauna:Crane",
+"id": "fauna:Flock",
 "type": "fauna",
-"confidence": 0.1333,
+"confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Crane"
+"preferred_label": "Flock"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Anointing Oil"
 },
 {
 "id": "fauna:Rooster",
@@ -210,27 +224,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Frankincense"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.12,
@@ -238,11 +231,11 @@
 "preferred_label": "Ephah"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Frankincense"
 },
 {
 "id": "realia:MoltenImage",
@@ -250,6 +243,13 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Molten Image"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }

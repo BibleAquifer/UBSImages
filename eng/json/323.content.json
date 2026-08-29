@@ -140,13 +140,6 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Ornan",
-"type": "person",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Ornan"
-},
-{
 "id": "keyterm:CleanOut",
 "type": "keyterm",
 "confidence": 0.26,
@@ -154,11 +147,11 @@
 "preferred_label": "Clean Out"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "person:Ornan",
+"type": "person",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Ornan"
 },
 {
 "id": "person:David",
@@ -168,11 +161,11 @@
 "preferred_label": "David"
 },
 {
-"id": "realia:WinnowingFork",
-"type": "realia",
-"confidence": 0.2133,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "Winnowing Fork"
+"preferred_label": "Offering"
 },
 {
 "id": "realia:ThreshingFloor",
@@ -180,6 +173,13 @@
 "confidence": 0.2133,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
+},
+{
+"id": "realia:WinnowingFork",
+"type": "realia",
+"confidence": 0.2133,
+"match_method": "canonical",
+"preferred_label": "Winnowing Fork"
 },
 {
 "id": "realia:Barn",
@@ -203,11 +203,11 @@
 "preferred_label": "Abiezer"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
+"id": "group:Abiezer",
+"type": "group",
 "confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "Partake"
+"preferred_label": "Abiezrites"
 },
 {
 "id": "person:Joash",
@@ -215,13 +215,6 @@
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Joash"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Abiezrites"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -238,18 +231,18 @@
 "preferred_label": "Ophrah"
 },
 {
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Partake"
+},
+{
 "id": "person:Gideon",
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Gideon"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "An Angel"
 },
 {
 "id": "keyterm:Law",
@@ -266,11 +259,32 @@
 "preferred_label": "Moses"
 },
 {
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Hope"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Obligated"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Euphrates River"
 },
 {
 "id": "keyterm:Scripture",
@@ -287,25 +301,11 @@
 "preferred_label": "Midian"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Euphrates River"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Hope"
+"preferred_label": "An Angel"
 },
 {
 "id": "flora:NutmegFlower",
@@ -322,25 +322,11 @@
 "preferred_label": "Cumin"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
+"id": "flora:Terebinth",
+"type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Winepress"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Rod"
+"preferred_label": "Terebinth"
 },
 {
 "id": "flora:Barley",
@@ -350,11 +336,18 @@
 "preferred_label": "Barley"
 },
 {
-"id": "flora:Terebinth",
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Winepress"
+},
+{
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "Olive Tree"
 },
 {
 "id": "realia:Ephah",
@@ -364,11 +357,18 @@
 "preferred_label": "Ephah"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
+"id": "realia:Rod",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Rod"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Staff"
 }
 ]
 }

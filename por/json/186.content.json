@@ -281,13 +281,6 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "realia:Aloes",
-"type": "realia",
-"confidence": 0.1864,
-"match_method": "canonical",
-"preferred_label": "Aloes"
-},
-{
 "id": "realia:OilOfNard",
 "type": "realia",
 "confidence": 0.1864,
@@ -295,8 +288,8 @@
 "preferred_label": "Oil of Nard"
 },
 {
-"id": "flora:Aloes",
-"type": "flora",
+"id": "realia:Aloes",
+"type": "realia",
 "confidence": 0.1864,
 "match_method": "canonical",
 "preferred_label": "Aloes"
@@ -309,11 +302,11 @@
 "preferred_label": "Pound"
 },
 {
-"id": "flora:Calamus",
+"id": "flora:Aloes",
 "type": "flora",
-"confidence": 0.1793,
+"confidence": 0.1864,
 "match_method": "canonical",
-"preferred_label": "Calamus"
+"preferred_label": "Aloes"
 },
 {
 "id": "flora:Agarwood",
@@ -323,11 +316,25 @@
 "preferred_label": "Agarwood"
 },
 {
+"id": "flora:Calamus",
+"type": "flora",
+"confidence": 0.1793,
+"match_method": "canonical",
+"preferred_label": "Calamus"
+},
+{
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1732,
 "match_method": "canonical",
 "preferred_label": "prostrar, se"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.1732,
+"match_method": "canonical",
+"preferred_label": "Betânia"
 },
 {
 "id": "person:Simon.4",
@@ -344,11 +351,11 @@
 "preferred_label": "Nicodemos"
 },
 {
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.1732,
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "Betânia"
+"preferred_label": "Denarius"
 },
 {
 "id": "realia:Wine",
@@ -365,39 +372,11 @@
 "preferred_label": "Incense"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "Denarius"
-},
-{
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Assuero"
-},
-{
-"id": "group:Pharisee",
+"id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Pharisees"
-},
-{
-"id": "person:Mary",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Maria"
-},
-{
-"id": "person:Lazarus.2",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Lázaro"
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "keyterm:Sabbath",
@@ -407,11 +386,32 @@
 "preferred_label": "sabbath"
 },
 {
-"id": "keyterm:Commandment",
-"type": "keyterm",
+"id": "place:Ophir",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Commandment"
+"preferred_label": "Ofir"
+},
+{
+"id": "person:Lazarus.2",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Lázaro"
+},
+{
+"id": "person:Mary",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Maria"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Assuero"
 },
 {
 "id": "keyterm:Offering",
@@ -421,32 +421,18 @@
 "preferred_label": "offering"
 },
 {
-"id": "place:Ophir",
-"type": "place",
+"id": "keyterm:Commandment",
+"type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Ofir"
+"preferred_label": "Commandment"
 },
 {
-"id": "group:GenericDisciples",
+"id": "group:Pharisee",
 "type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "realia:MyrrhedWine",
-"type": "realia",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "Myrrhed Wine"
-},
-{
-"id": "flora:SaffronPlant",
-"type": "flora",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "Saffron Plant"
+"preferred_label": "Pharisees"
 },
 {
 "id": "realia:MoneyBox",
@@ -456,32 +442,25 @@
 "preferred_label": "Money Box"
 },
 {
-"id": "flora:Wheat",
+"id": "flora:SaffronPlant",
 "type": "flora",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Saffron Plant"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
+"id": "realia:MyrrhedWine",
+"type": "realia",
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Myrrhed Wine"
 },
 {
-"id": "realia:Bag",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Bag"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Lily"
+"preferred_label": "Bed"
 },
 {
 "id": "realia:AnointingOil",
@@ -498,11 +477,32 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
+"id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "Bag"
 },
 {
 "id": "realia:Wagon",
@@ -512,11 +512,11 @@
 "preferred_label": "Wagon"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "flora:Lily",
+"type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Lily"
 }
 ]
 }

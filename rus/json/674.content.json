@@ -193,13 +193,6 @@
 "preferred_label": "Hyena"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Иисус"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.236,
@@ -212,6 +205,13 @@
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "Sky"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Иисус"
 },
 {
 "id": "place:Hazor.5",
@@ -228,46 +228,18 @@
 "preferred_label": "Grass"
 },
 {
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Самсон"
+},
+{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Вавилон"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Lamentation"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Swear"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Иуда"
 },
 {
 "id": "person:Judah.4",
@@ -284,25 +256,11 @@
 "preferred_label": "To Cause to Possess"
 },
 {
-"id": "place:Edom",
-"type": "place",
+"id": "group:Edom",
+"type": "group",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Едом"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Самсон"
+"preferred_label": "Edomites"
 },
 {
 "id": "person:Israel",
@@ -312,11 +270,53 @@
 "preferred_label": "Израиль"
 },
 {
-"id": "group:Edom",
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Lamentation"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Swear"
+},
+{
+"id": "group:Judah",
 "type": "group",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Edomites"
+"preferred_label": "Иуда"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Едом"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
 },
 {
 "id": "fauna:TawnyOwl.2",
@@ -326,11 +326,11 @@
 "preferred_label": "Tawny Owl"
 },
 {
-"id": "flora:Vine",
+"id": "flora:Brier",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Brier"
 },
 {
 "id": "flora:Papyrus",
@@ -340,18 +340,25 @@
 "preferred_label": "Papyrus"
 },
 {
-"id": "flora:Thistle",
+"id": "flora:Reed",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "Reed"
 },
 {
-"id": "flora:Brier",
+"id": "flora:Vine",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "Vine"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "fauna:WildDonkey",
@@ -361,13 +368,6 @@
 "preferred_label": "Wild Donkey"
 },
 {
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Reed"
-},
-{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.108,
@@ -375,11 +375,11 @@
 "preferred_label": "Nettle"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Thistle",
+"type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Thistle"
 }
 ]
 }

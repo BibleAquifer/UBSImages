@@ -798,13 +798,6 @@
 "preferred_label": "Nebucadnetsar"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3725,
-"match_method": "canonical",
-"preferred_label": "Égypte"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3725,
@@ -812,11 +805,11 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.3688,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3725,
 "match_method": "canonical",
-"preferred_label": "abomination"
+"preferred_label": "Égypte"
 },
 {
 "id": "keyterm:Life",
@@ -824,6 +817,13 @@
 "confidence": 0.3688,
 "match_method": "canonical",
 "preferred_label": "vie"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.3688,
+"match_method": "canonical",
+"preferred_label": "abomination"
 },
 {
 "id": "realia:HouseholdIdols",
@@ -847,6 +847,13 @@
 "preferred_label": "House"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.32,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.32,
@@ -861,18 +868,32 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.32,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.32,
 "match_method": "canonical",
 "preferred_label": "Altar"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "profaner, déshonorer"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "être attiré à servir"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "Babylone"
 },
 {
 "id": "keyterm:Fornication",
@@ -889,25 +910,11 @@
 "preferred_label": "pécher"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.315,
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "être attiré à servir"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "profaner, déshonorer"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Babylone"
+"preferred_label": "Molten Image"
 },
 {
 "id": "realia:Ephod",
@@ -917,13 +924,6 @@
 "preferred_label": "Ephod"
 },
 {
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
-},
-{
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.3087,
@@ -931,18 +931,18 @@
 "preferred_label": "Lyre"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.2612,
-"match_method": "canonical",
-"preferred_label": "se charger d'une faute"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2612,
 "match_method": "canonical",
 "preferred_label": "offrande"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.2612,
+"match_method": "canonical",
+"preferred_label": "se charger d'une faute"
 }
 ]
 }

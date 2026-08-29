@@ -380,18 +380,18 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.3473,
-"match_method": "canonical",
-"preferred_label": "Image"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3473,
 "match_method": "canonical",
 "preferred_label": "House"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.3473,
+"match_method": "canonical",
+"preferred_label": "Image"
 },
 {
 "id": "realia:SacredPole",
@@ -422,11 +422,11 @@
 "preferred_label": "Money"
 },
 {
-"id": "person:Micah.3",
-"type": "person",
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
 "confidence": 0.2745,
 "match_method": "canonical",
-"preferred_label": "Миха"
+"preferred_label": "Force to Serve"
 },
 {
 "id": "person:Israel",
@@ -436,13 +436,6 @@
 "preferred_label": "Израиль"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.2745,
-"match_method": "canonical",
-"preferred_label": "Force to Serve"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2745,
@@ -450,11 +443,11 @@
 "preferred_label": "Давид"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.2727,
+"id": "person:Micah.3",
+"type": "person",
+"confidence": 0.2745,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "Миха"
 },
 {
 "id": "realia:Ephod",
@@ -462,6 +455,27 @@
 "confidence": 0.2727,
 "match_method": "canonical",
 "preferred_label": "Ephod"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.2727,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2727,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2727,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:HouseholdIdols",
@@ -478,20 +492,6 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2727,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.2727,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.2727,
@@ -499,11 +499,11 @@
 "preferred_label": "Stone Pine"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.2727,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "High Place"
 },
 {
 "id": "keyterm:Intention",
@@ -520,11 +520,11 @@
 "preferred_label": "Craftsman"
 },
 {
-"id": "place:Babylon",
+"id": "place:Dan",
 "type": "place",
 "confidence": 0.2164,
 "match_method": "canonical",
-"preferred_label": "Вавилон"
+"preferred_label": "Дан"
 },
 {
 "id": "deity:Baal",
@@ -534,18 +534,11 @@
 "preferred_label": "Ваал"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "place:Babylon",
+"type": "place",
 "confidence": 0.2164,
 "match_method": "canonical",
-"preferred_label": "Соломон"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.2164,
-"match_method": "canonical",
-"preferred_label": "Trust"
+"preferred_label": "Вавилон"
 },
 {
 "id": "keyterm:Appoint",
@@ -553,6 +546,13 @@
 "confidence": 0.2164,
 "match_method": "canonical",
 "preferred_label": "Appoint"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2164,
+"match_method": "canonical",
+"preferred_label": "Соломон"
 }
 ]
 }

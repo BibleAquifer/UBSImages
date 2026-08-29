@@ -152,25 +152,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "deity:FirstLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "First Living Creature"
-},
-{
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
 "match_method": "canonical",
 "preferred_label": "Third Living Creature"
-},
-{
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "Second Living Creature"
 },
 {
 "id": "deity:FourthLivingCreature",
@@ -180,11 +166,32 @@
 "preferred_label": "Fourth Living Creature"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "Second Living Creature"
+},
+{
+"id": "deity:FirstLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "First Living Creature"
+},
+{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "surely!"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Always",
@@ -201,32 +208,11 @@
 "preferred_label": "holy"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
 "preferred_label": "Bowl"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "A Disembodied Voice"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "comprar"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -236,11 +222,25 @@
 "preferred_label": "Spirit"
 },
 {
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "orar"
+},
+{
 "id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "to act wickedly"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "comprar"
 },
 {
 "id": "keyterm:Glory",
@@ -250,11 +250,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "orar"
+"preferred_label": "A Disembodied Voice"
 },
 {
 "id": "realia:Quart",
@@ -264,6 +264,13 @@
 "preferred_label": "Quart"
 },
 {
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Denarius"
+},
+{
 "id": "realia:Balance",
 "type": "realia",
 "confidence": 0.1282,
@@ -271,11 +278,11 @@
 "preferred_label": "Balance"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1282,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "Lion"
 },
 {
 "id": "flora:Wheat",
@@ -285,6 +292,13 @@
 "preferred_label": "Wheat"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1165,
@@ -292,11 +306,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Horse"
 },
 {
 "id": "realia:Wine",
@@ -313,20 +327,6 @@
 "preferred_label": "Incense"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.1165,
@@ -334,11 +334,11 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "realia:Lyre",
+"type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Lyre"
 },
 {
 "id": "realia:OliveOil",

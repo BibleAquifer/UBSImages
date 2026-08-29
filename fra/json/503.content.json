@@ -175,13 +175,6 @@
 "preferred_label": "Jews"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "nom"
-},
-{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -189,11 +182,25 @@
 "preferred_label": "témoigner"
 },
 {
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
 "preferred_label": "Synagogue"
+},
+{
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "tribunal"
 },
 {
 "id": "person:Gamaliel",
@@ -210,48 +217,6 @@
 "preferred_label": "enfer"
 },
 {
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "tribunal"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "résurrection"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "jugement"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Conscience",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "conscience"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "decider"
-},
-{
 "id": "keyterm:SomethingDefinite",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -266,6 +231,13 @@
 "preferred_label": "crime"
 },
 {
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -273,18 +245,11 @@
 "preferred_label": "exemple"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Pilate",
+"type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "group:Sadducee",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Sadducéens"
+"preferred_label": "Pilate"
 },
 {
 "id": "keyterm:AskFor",
@@ -294,25 +259,11 @@
 "preferred_label": "prier"
 },
 {
-"id": "keyterm:Live.3",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "marcher"
-},
-{
-"id": "keyterm:Decision",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "décision"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Pilate"
+"preferred_label": "espoir"
 },
 {
 "id": "person:Israel",
@@ -329,6 +280,20 @@
 "preferred_label": "le bien"
 },
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "marcher"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.1705,
@@ -336,18 +301,46 @@
 "preferred_label": "Hell"
 },
 {
-"id": "keyterm:Hope",
+"id": "keyterm:Decision",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "espoir"
+"preferred_label": "décision"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1105,
+"id": "keyterm:Conscience",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "conscience"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "decider"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "jugement"
+},
+{
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Sadducéens"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "realia:Prison",
@@ -355,6 +348,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Prison"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Temple"
 }
 ]
 }

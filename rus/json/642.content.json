@@ -340,13 +340,6 @@
 "preferred_label": "Ebed-melech"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.2791,
@@ -354,18 +347,11 @@
 "preferred_label": "Rope"
 },
 {
-"id": "place:Kabzeel",
-"type": "place",
-"confidence": 0.2239,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.2791,
 "match_method": "canonical",
-"preferred_label": "Кавцеил"
-},
-{
-"id": "person:Benaiah",
-"type": "person",
-"confidence": 0.2239,
-"match_method": "canonical",
-"preferred_label": "Ванея"
+"preferred_label": "Vine"
 },
 {
 "id": "person:Jehoiada",
@@ -375,25 +361,18 @@
 "preferred_label": "Иодай"
 },
 {
-"id": "person:Ishmael.2",
+"id": "person:Benaiah",
 "type": "person",
-"confidence": 0.2196,
+"confidence": 0.2239,
 "match_method": "canonical",
-"preferred_label": "Исмаил"
+"preferred_label": "Ванея"
 },
 {
-"id": "person:Nethaniah",
-"type": "person",
-"confidence": 0.2196,
+"id": "place:Kabzeel",
+"type": "place",
+"confidence": 0.2239,
 "match_method": "canonical",
-"preferred_label": "Нефания"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Езекия"
+"preferred_label": "Кавцеил"
 },
 {
 "id": "person:Joseph.10",
@@ -403,20 +382,6 @@
 "preferred_label": "Иосиф"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Assyria"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Моав"
-},
-{
 "id": "place:Ethiopia",
 "type": "place",
 "confidence": 0.2196,
@@ -424,11 +389,11 @@
 "preferred_label": "Ефиопия"
 },
 {
-"id": "place:Philistine",
+"id": "place:Assyria",
 "type": "place",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Филистимской"
+"preferred_label": "Assyria"
 },
 {
 "id": "place:Egypt",
@@ -438,18 +403,11 @@
 "preferred_label": "Египет"
 },
 {
-"id": "group:Ethiopia",
-"type": "group",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Ethiopians"
-},
-{
-"id": "person:Reuben",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Рувим"
+"preferred_label": "Израиль"
 },
 {
 "id": "group:Philistine",
@@ -459,11 +417,18 @@
 "preferred_label": "Филистимлянин"
 },
 {
-"id": "person:Israel",
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Филистимской"
+},
+{
+"id": "person:Ishmael.2",
 "type": "person",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Израиль"
+"preferred_label": "Исмаил"
 },
 {
 "id": "keyterm:Bless",
@@ -471,6 +436,41 @@
 "confidence": 0.2196,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Езекия"
+},
+{
+"id": "person:Reuben",
+"type": "person",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Рувим"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Моав"
+},
+{
+"id": "group:Ethiopia",
+"type": "group",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Ethiopians"
+},
+{
+"id": "person:Nethaniah",
+"type": "person",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Нефания"
 },
 {
 "id": "fauna:Lion",
@@ -487,18 +487,11 @@
 "preferred_label": "Money"
 },
 {
-"id": "person:Hammelech",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Hammelech"
-},
-{
-"id": "place:Secu",
+"id": "place:Sirah",
 "type": "place",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Сефе"
+"preferred_label": "Sirah"
 },
 {
 "id": "place:BenjaminGate",
@@ -506,6 +499,13 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Вениаминовы ворота"
+},
+{
+"id": "person:Hammelech",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Hammelech"
 },
 {
 "id": "person:Malchiah",
@@ -522,25 +522,46 @@
 "preferred_label": "Beth-eked"
 },
 {
-"id": "place:Sirah",
+"id": "place:Secu",
 "type": "place",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Sirah"
+"preferred_label": "Сефе"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "group:Ishmael",
+"type": "group",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Ishmaelites"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "person:Baasha",
+"type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Вааса"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Иоав"
+},
+{
+"id": "group:Midian",
+"type": "group",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Midianites"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Самуил"
 },
 {
 "id": "keyterm:Dispossess",
@@ -550,11 +571,11 @@
 "preferred_label": "Dispossess"
 },
 {
-"id": "place:Naioth",
+"id": "place:Ramah",
 "type": "place",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Наваф"
+"preferred_label": "Рама"
 },
 {
 "id": "keyterm:Pure",
@@ -564,11 +585,11 @@
 "preferred_label": "Pure"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "Covenant"
 },
 {
 "id": "keyterm:Love",
@@ -576,6 +597,41 @@
 "confidence": 0.1598,
 "match_method": "canonical",
 "preferred_label": "Love"
+},
+{
+"id": "person:Abner",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Авенир"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Defilement"
+},
+{
+"id": "person:Ishmael",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Исмаил"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Мадиан"
 },
 {
 "id": "place:Shephelah",
@@ -592,39 +648,25 @@
 "preferred_label": "Годолия"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Самуил"
-},
-{
-"id": "person:Baasha",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Вааса"
-},
-{
-"id": "person:Abner",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Авенир"
-},
-{
-"id": "group:Midian",
-"type": "group",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Midianites"
-},
-{
 "id": "person:Asa",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
 "preferred_label": "Аса"
+},
+{
+"id": "place:Naioth",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Наваф"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "keyterm:LeanOn",
@@ -634,46 +676,11 @@
 "preferred_label": "Trust"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1598,
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Мадиан"
-},
-{
-"id": "place:Ramah",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Рама"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Ishmaelites"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Иоав"
-},
-{
-"id": "person:Ishmael",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Исмаил"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Olive Tree"
 },
 {
 "id": "flora:Fig",
@@ -683,46 +690,11 @@
 "preferred_label": "Fig"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Thistle"
-},
-{
 "id": "fauna:Hyena",
 "type": "fauna",
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "Hyena"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Tower"
 },
 {
 "id": "realia:Trap",
@@ -732,11 +704,11 @@
 "preferred_label": "Trap"
 },
 {
-"id": "fauna:Bear",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "Bear"
+"preferred_label": "Cattle"
 },
 {
 "id": "realia:ClayJar",
@@ -746,11 +718,39 @@
 "preferred_label": "Clay Jar"
 },
 {
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Tower"
+},
+{
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "Jackal"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Donkey"
+},
+{
+"id": "fauna:Bear",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Bear"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Thistle"
 }
 ]
 }

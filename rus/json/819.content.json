@@ -798,13 +798,6 @@
 "preferred_label": "Навуходоносор"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3725,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3725,
@@ -812,11 +805,11 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.3688,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3725,
 "match_method": "canonical",
-"preferred_label": "Detested Thing"
+"preferred_label": "Египет"
 },
 {
 "id": "keyterm:Life",
@@ -824,6 +817,13 @@
 "confidence": 0.3688,
 "match_method": "canonical",
 "preferred_label": "Life"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.3688,
+"match_method": "canonical",
+"preferred_label": "Detested Thing"
 },
 {
 "id": "realia:HouseholdIdols",
@@ -847,6 +847,13 @@
 "preferred_label": "House"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.32,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.32,
@@ -861,18 +868,32 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.32,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.32,
 "match_method": "canonical",
 "preferred_label": "Altar"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "To Dishonor"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "Force to Serve"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
 },
 {
 "id": "keyterm:Fornication",
@@ -889,25 +910,11 @@
 "preferred_label": "To Sin"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.315,
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "To Dishonor"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "Вавилон"
+"preferred_label": "Molten Image"
 },
 {
 "id": "realia:Ephod",
@@ -917,13 +924,6 @@
 "preferred_label": "Ephod"
 },
 {
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
-},
-{
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.3087,
@@ -931,18 +931,18 @@
 "preferred_label": "Lyre"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.2612,
-"match_method": "canonical",
-"preferred_label": "Bear the Consequences Of"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2612,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.2612,
+"match_method": "canonical",
+"preferred_label": "Bear the Consequences Of"
 }
 ]
 }

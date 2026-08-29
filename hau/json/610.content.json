@@ -96,13 +96,6 @@
 "preferred_label": "Gishiri"
 },
 {
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "Araba"
-},
-{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.385,
@@ -110,11 +103,11 @@
 "preferred_label": "Urdun"
 },
 {
-"id": "place:Jericho",
+"id": "place:Arabah",
 "type": "place",
-"confidence": 0.31,
+"confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "Yeriko"
+"preferred_label": "Araba"
 },
 {
 "id": "place:Beth-jeshimoth",
@@ -124,18 +117,18 @@
 "preferred_label": "Bet-Yeshimot"
 },
 {
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "Yeriko"
+},
+{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "Mowab"
-},
-{
-"id": "place:Bamoth",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Bamot"
 },
 {
 "id": "place:Almon-diblathaim",
@@ -145,6 +138,13 @@
 "preferred_label": "Almon"
 },
 {
+"id": "place:Zophim",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Zofim"
+},
+{
 "id": "place:Chinnereth",
 "type": "place",
 "confidence": 0.215,
@@ -152,11 +152,11 @@
 "preferred_label": "Kinneret"
 },
 {
-"id": "place:Zophim",
+"id": "place:Bamoth",
 "type": "place",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Zofim"
+"preferred_label": "Bamot"
 },
 {
 "id": "place:Beth-peor",
@@ -166,11 +166,25 @@
 "preferred_label": "Bet-Feyor"
 },
 {
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Dan"
+},
+{
 "id": "place:Canaan",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Kan’aniyawa"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Musa"
 },
 {
 "id": "group:Dan",
@@ -180,11 +194,11 @@
 "preferred_label": "Dan"
 },
 {
-"id": "person:Moses",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Musa"
+"preferred_label": "Isra’ila"
 },
 {
 "id": "deity:Lord",
@@ -201,32 +215,18 @@
 "preferred_label": "Nebo"
 },
 {
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Gileyad"
-},
-{
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Dan"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Isra’ila"
-},
-{
 "id": "place:MoabPlains",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "filayen"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Gileyad"
 },
 {
 "id": "place:GalileeSea",
@@ -236,32 +236,11 @@
 "preferred_label": "Sea of Galilee"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Sheep"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Altar"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -271,11 +250,32 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "Temple Altar"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
 }
 ]
 }

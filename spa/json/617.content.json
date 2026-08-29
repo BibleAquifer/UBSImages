@@ -330,18 +330,18 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "deity:FirstLivingCreature",
-"type": "deity",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "First Living Creature"
-},
-{
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.231,
 "match_method": "canonical",
 "preferred_label": "Third Living Creature"
+},
+{
+"id": "deity:FourthLivingCreature",
+"type": "deity",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "Fourth Living Creature"
 },
 {
 "id": "deity:SecondLivingCreature",
@@ -351,11 +351,11 @@
 "preferred_label": "Second Living Creature"
 },
 {
-"id": "deity:FourthLivingCreature",
+"id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.231,
 "match_method": "canonical",
-"preferred_label": "Fourth Living Creature"
+"preferred_label": "First Living Creature"
 },
 {
 "id": "realia:Linen",
@@ -372,25 +372,11 @@
 "preferred_label": "amén"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Chebar"
+"preferred_label": "Life"
 },
 {
 "id": "person:Israel",
@@ -400,11 +386,25 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "para la eternidad"
+},
+{
+"id": "place:Chebar",
+"type": "place",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Chebar"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "santo"
 },
 {
 "id": "fauna:Lion",
@@ -428,39 +428,11 @@
 "preferred_label": "Vulture"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "A Disembodied Voice"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
 "preferred_label": "espíritu"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "hacer lo malo"
 },
 {
 "id": "keyterm:Pray",
@@ -470,18 +442,39 @@
 "preferred_label": "orar"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "temer"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "hacer lo malo"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "comprar"
+},
+{
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "A Disembodied Voice"
+},
+{
 "id": "realia:Quart",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "Quart"
-},
-{
-"id": "realia:Balance",
-"type": "realia",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Balance"
 },
 {
 "id": "realia:Denarius",
@@ -491,6 +484,13 @@
 "preferred_label": "Denarius"
 },
 {
+"id": "realia:Balance",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Balance"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1007,
@@ -498,11 +498,25 @@
 "preferred_label": "Wheat"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Horse"
 },
 {
 "id": "realia:Wine",
@@ -519,13 +533,6 @@
 "preferred_label": "Incense"
 },
 {
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.1007,
@@ -533,18 +540,11 @@
 "preferred_label": "Scroll"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:Lyre",
+"type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Lyre"
 },
 {
 "id": "realia:OliveOil",

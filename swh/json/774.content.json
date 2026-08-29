@@ -53,13 +53,6 @@
 "preferred_label": "Spear"
 },
 {
-"id": "person:Jaare-oregim",
-"type": "person",
-"confidence": 0.525,
-"match_method": "canonical",
-"preferred_label": "Yairi"
-},
-{
 "id": "person:Elhanan",
 "type": "person",
 "confidence": 0.525,
@@ -67,8 +60,15 @@
 "preferred_label": "Elhanani"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "person:Jaare-oregim",
+"type": "person",
+"confidence": 0.525,
+"match_method": "canonical",
+"preferred_label": "Yairi"
+},
+{
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "Wafilisti"
@@ -88,8 +88,8 @@
 "preferred_label": "Gathi"
 },
 {
-"id": "place:Philistine",
-"type": "place",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "Wafilisti"
@@ -109,18 +109,11 @@
 "preferred_label": "Gezeri"
 },
 {
-"id": "place:Bethlehem",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Bethlehemu"
-},
-{
-"id": "group:Bethlehem",
-"type": "group",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Bethlehemites"
+"preferred_label": "Misri"
 },
 {
 "id": "group:Egypt",
@@ -130,11 +123,18 @@
 "preferred_label": "Egyptians"
 },
 {
-"id": "place:Egypt",
+"id": "group:Bethlehem",
+"type": "group",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "Bethlehemites"
+},
+{
+"id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Misri"
+"preferred_label": "Bethlehemu"
 },
 {
 "id": "realia:PointOfSpear",
@@ -142,6 +142,13 @@
 "confidence": 0.2525,
 "match_method": "canonical",
 "preferred_label": "Point of Spear"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.2025,
+"match_method": "canonical",
+"preferred_label": "Cubit"
 },
 {
 "id": "realia:Shekel",
@@ -156,13 +163,6 @@
 "confidence": 0.2025,
 "match_method": "canonical",
 "preferred_label": "Large Shield"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.2025,
-"match_method": "canonical",
-"preferred_label": "Cubit"
 }
 ]
 }

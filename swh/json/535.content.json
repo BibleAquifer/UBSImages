@@ -135,13 +135,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4625,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.4625,
@@ -149,18 +142,11 @@
 "preferred_label": "Samsoni"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4625,
 "match_method": "canonical",
-"preferred_label": "Wafilisti"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Wafilisti"
+"preferred_label": "BWANA"
 },
 {
 "id": "keyterm:Strength",
@@ -170,18 +156,25 @@
 "preferred_label": "Strength"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Wafilisti"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Wafilisti"
+},
+{
 "id": "person:Delilah",
 "type": "person",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "Delila"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Bow"
 },
 {
 "id": "realia:Rope",
@@ -191,13 +184,6 @@
 "preferred_label": "Rope"
 },
 {
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Thread"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
@@ -205,18 +191,18 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Under Siege"
+"preferred_label": "Thread"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1725,
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
+"preferred_label": "Bow"
 },
 {
 "id": "place:Lehi",
@@ -226,25 +212,11 @@
 "preferred_label": "Lehi"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "keyterm:Shield",
+"id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Shield"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Speak as a Prophet"
 },
 {
 "id": "person:Israel",
@@ -254,11 +226,60 @@
 "preferred_label": "Israeli"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Under Siege"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Shield"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
 "match_method": "canonical",
 "preferred_label": "Craftsman"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Small Shield"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Measuring Reed"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -275,27 +296,6 @@
 "preferred_label": "Flax"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:Hammer",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Hammer"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1125,
@@ -303,11 +303,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:MeasuringReed",
+"id": "realia:Hammer",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Measuring Reed"
+"preferred_label": "Hammer"
 }
 ]
 }
