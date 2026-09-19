@@ -232,6 +232,13 @@
 "preferred_label": "Kindness"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.2382,
+"match_method": "canonical",
+"preferred_label": "Chariot"
+},
+{
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.2382,
@@ -239,11 +246,11 @@
 "preferred_label": "Ship"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.2382,
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "أَدومَ"
 },
 {
 "id": "place:Jordan",
@@ -260,11 +267,11 @@
 "preferred_label": "فِرْعَوْنَ"
 },
 {
-"id": "place:Edom",
+"id": "place:Shur",
 "type": "place",
-"confidence": 0.2321,
+"confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "أَدومَ"
+"preferred_label": "Shur"
 },
 {
 "id": "person:Pharaoh.5",
@@ -274,11 +281,11 @@
 "preferred_label": "فِرْعَوْنَ"
 },
 {
-"id": "place:Shur",
+"id": "place:SeirMount",
 "type": "place",
 "confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "Shur"
+"preferred_label": "سَعِيرَ"
 },
 {
 "id": "place:GreatSea",
@@ -288,102 +295,11 @@
 "preferred_label": "ٱلْكَبِير"
 },
 {
-"id": "place:SeirMount",
-"type": "place",
-"confidence": 0.1732,
-"match_method": "canonical",
-"preferred_label": "سَعِيرَ"
-},
-{
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "عَمَالِيقَ"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "كَنْعَان"
-},
-{
-"id": "keyterm:Proscribe.2",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Set Apart for Destruction"
-},
-{
-"id": "place:Elim",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "إِيلِيمَ"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "موسَى"
-},
-{
-"id": "place:Ham.2",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "حَامًا"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Canaanites"
-},
-{
-"id": "person:Og",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "عوج"
-},
-{
-"id": "place:Elath",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "أَيْلَةَ"
-},
-{
-"id": "place:Sin",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "سِينٍ"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "فِلِشْتِيم"
-},
-{
-"id": "person:Sihon",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "سِيحونَ"
 },
 {
 "id": "place:Philistine",
@@ -393,6 +309,41 @@
 "preferred_label": "ٱلْفِلِسْطِينِيِّينَ"
 },
 {
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "كَنْعَان"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "موسَى"
+},
+{
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "عَمَالِيقَ"
+},
+{
+"id": "place:Elath",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "أَيْلَةَ"
+},
+{
+"id": "person:Og",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "عوج"
+},
+{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.1661,
@@ -400,46 +351,11 @@
 "preferred_label": "Hell"
 },
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "place:Euphrates",
+"id": "place:Sin",
 "type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "ٱلْفرَاتِ"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "سلَيْمَانَ"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Rebel"
-},
-{
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "قَادَشَ"
+"preferred_label": "سِينٍ"
 },
 {
 "id": "place:HorMount",
@@ -449,11 +365,46 @@
 "preferred_label": "هورَ"
 },
 {
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Egyptians"
+},
+{
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Set Apart for Destruction"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "ٱلْفرَاتِ"
+},
+{
 "id": "place:Ezion-geber",
 "type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Ezion-geber"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Amorites"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Rebel"
 },
 {
 "id": "group:Amalek",
@@ -463,11 +414,60 @@
 "preferred_label": "Amalekites"
 },
 {
+"id": "place:Elim",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "إِيلِيمَ"
+},
+{
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Canaanites"
+},
+{
+"id": "person:Sihon",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "سِيحونَ"
+},
+{
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Have Insight"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "سلَيْمَانَ"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "قَادَشَ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "place:Ham.2",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "حَامًا"
 },
 {
 "id": "flora:Papyrus",
@@ -477,11 +477,11 @@
 "preferred_label": "Papyrus"
 },
 {
-"id": "flora:Reed",
-"type": "flora",
+"id": "fauna:Locust",
+"type": "fauna",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Reed"
+"preferred_label": "Locust"
 },
 {
 "id": "fauna:Horse",
@@ -491,11 +491,11 @@
 "preferred_label": "Horse"
 },
 {
-"id": "fauna:Locust",
-"type": "fauna",
+"id": "flora:Reed",
+"type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Locust"
+"preferred_label": "Reed"
 }
 ]
 }

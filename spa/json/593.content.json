@@ -249,11 +249,18 @@
 "preferred_label": "testimonio"
 },
 {
-"id": "keyterm:Instruction",
+"id": "keyterm:CovenantBox",
 "type": "keyterm",
 "confidence": 0.2281,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "arca"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
 },
 {
 "id": "place:Egypt",
@@ -263,11 +270,18 @@
 "preferred_label": "Egipto"
 },
 {
-"id": "keyterm:CovenantBox",
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.2281,
 "match_method": "canonical",
-"preferred_label": "arca"
+"preferred_label": "Instruction"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Cades"
 },
 {
 "id": "keyterm:Fear",
@@ -284,18 +298,11 @@
 "preferred_label": "decreto"
 },
 {
-"id": "place:Kadesh-barnea",
+"id": "place:Midian",
 "type": "place",
-"confidence": 0.2281,
+"confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Cades"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "Madianitas"
 },
 {
 "id": "person:Jethro",
@@ -303,13 +310,6 @@
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "Jethro"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Madianitas"
 },
 {
 "id": "place:SeirMount",
@@ -326,11 +326,11 @@
 "preferred_label": "Ark of the Covenant"
 },
 {
-"id": "place:SinaiWilderness",
-"type": "place",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "desierto"
+"preferred_label": "fuerza"
 },
 {
 "id": "keyterm:Truth",
@@ -340,46 +340,11 @@
 "preferred_label": "fidelidad"
 },
 {
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "olor grato"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "fuerza"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "pacto"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "gloria del señor"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Aarón"
 },
 {
 "id": "keyterm:Holy",
@@ -389,18 +354,39 @@
 "preferred_label": "santo"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1041,
+"id": "place:SinaiWilderness",
+"type": "place",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "desierto"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1041,
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Amorites"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "olor grato"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "pacto"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Aarón"
 },
 {
 "id": "fauna:Goat",
@@ -410,11 +396,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Flock"
 },
 {
 "id": "realia:MoltenImage",
@@ -429,6 +415,20 @@
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Kiln"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 }
 ]
 }

@@ -242,18 +242,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2963,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:Staff",
 "type": "realia",
 "confidence": 0.2963,
 "match_method": "canonical",
 "preferred_label": "Staff"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2963,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "realia:MeasuringRod",
@@ -277,11 +277,11 @@
 "preferred_label": "Cubit"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "person:John",
+"type": "person",
 "confidence": 0.2281,
 "match_method": "canonical",
-"preferred_label": "adorer"
+"preferred_label": "Jean"
 },
 {
 "id": "person:Israel",
@@ -291,18 +291,18 @@
 "preferred_label": "Israël"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Jean"
-},
-{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.2281,
 "match_method": "canonical",
 "preferred_label": "s'appuyer sur"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "adorer"
 },
 {
 "id": "realia:SourWine",
@@ -326,13 +326,6 @@
 "preferred_label": "Doorstep"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1681,
@@ -340,11 +333,11 @@
 "preferred_label": "Temple"
 },
 {
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1641,
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Élie"
+"preferred_label": "Grass"
 },
 {
 "id": "keyterm:Truth",
@@ -361,11 +354,11 @@
 "preferred_label": "Jews"
 },
 {
-"id": "deity:Asherah",
+"id": "deity:Angel",
 "type": "deity",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Ashéra"
+"preferred_label": "An Angel"
 },
 {
 "id": "place:Euphrates",
@@ -373,6 +366,27 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Euphrate"
+},
+{
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Ashéra"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Élie"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Jésus"
 },
 {
 "id": "place:Cush.2",
@@ -396,32 +410,11 @@
 "preferred_label": "Nile River"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
+"id": "realia:Pen",
+"type": "realia",
 "confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "Acacia"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "Pen"
 },
 {
 "id": "flora:LotusPlants",
@@ -431,11 +424,11 @@
 "preferred_label": "Lotus Plant"
 },
 {
-"id": "realia:Pen",
+"id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "Pen"
+"preferred_label": "Crown"
 },
 {
 "id": "realia:Ink",
@@ -443,6 +436,20 @@
 "confidence": 0.1103,
 "match_method": "canonical",
 "preferred_label": "Ink"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Brier"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Acacia"
 },
 {
 "id": "realia:Crown",
@@ -459,11 +466,18 @@
 "preferred_label": "Cattails"
 },
 {
-"id": "realia:Crown.2",
+"id": "realia:Handbreadth",
 "type": "realia",
-"confidence": 0.1103,
+"confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Crown"
+"preferred_label": "Handbreadth"
+},
+{
+"id": "realia:CityWall",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "City Wall"
 },
 {
 "id": "realia:Lamp",
@@ -480,25 +494,11 @@
 "preferred_label": "Papyrus"
 },
 {
-"id": "realia:CityWall",
-"type": "realia",
+"id": "flora:Boxthorn",
+"type": "flora",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "City Wall"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Linen"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "Boxthorn"
 },
 {
 "id": "realia:SacredPole",
@@ -508,18 +508,18 @@
 "preferred_label": "Sacred Pole"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
+"id": "fauna:Jackal",
+"type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Boxthorn"
+"preferred_label": "Jackal"
 },
 {
-"id": "realia:Handbreadth",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Handbreadth"
+"preferred_label": "Linen"
 },
 {
 "id": "realia:Thread",

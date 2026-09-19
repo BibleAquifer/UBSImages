@@ -75,11 +75,11 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -89,18 +89,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "deity:Asherah",
@@ -131,11 +131,11 @@
 "preferred_label": "Image"
 },
 {
-"id": "deity:Baal",
-"type": "deity",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Baal"
+"preferred_label": "Juda"
 },
 {
 "id": "person:Judah.4",
@@ -145,11 +145,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "deity:Baal",
+"type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Baal"
 },
 {
 "id": "deity:Lord",
@@ -159,11 +159,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Israël"
 },
 {
 "id": "realia:HighPlace",
@@ -194,6 +194,20 @@
 "preferred_label": "ardeur"
 },
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "pardonner"
+},
+{
+"id": "keyterm:Destroy",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "atteindre"
+},
+{
 "id": "place:Kidron",
 "type": "place",
 "confidence": 0.195,
@@ -213,20 +227,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "pécher"
-},
-{
-"id": "keyterm:Destroy",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "atteindre"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "pardonner"
 },
 {
 "id": "realia:MoltenImage",

@@ -595,18 +595,18 @@
 "preferred_label": "Force to Serve"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3745,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.3745,
 "match_method": "canonical",
 "preferred_label": "Baali"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3745,
+"match_method": "canonical",
+"preferred_label": "Israeli"
 },
 {
 "id": "keyterm:Church",
@@ -623,13 +623,6 @@
 "preferred_label": "Ashera"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2647,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2647,
@@ -637,18 +630,11 @@
 "preferred_label": "Daudi"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.2596,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2647,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2596,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Yerusalemu"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -658,11 +644,25 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2596,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.2596,
 "match_method": "canonical",
 "preferred_label": "Altar"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2596,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
 },
 {
 "id": "keyterm:Bless",
@@ -672,25 +672,18 @@
 "preferred_label": "Bless"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2098,
 "match_method": "canonical",
 "preferred_label": "Yuda"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Hezekia"
+"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Ability",
@@ -700,60 +693,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Swear"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
 "id": "deity:Molech",
 "type": "deity",
 "confidence": 0.2098,
 "match_method": "canonical",
 "preferred_label": "Moleki"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Counsel"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Rebel",
@@ -770,11 +714,67 @@
 "preferred_label": "Name"
 },
 {
-"id": "realia:House",
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Bow Down"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Swear"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Hezekia"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Counsel"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
+"id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "High Place"
 }
 ]
 }

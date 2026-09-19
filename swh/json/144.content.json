@@ -199,11 +199,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "fauna:Flock",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Goat"
 },
 {
 "id": "flora:Vine",
@@ -213,11 +213,11 @@
 "preferred_label": "Vine"
 },
 {
-"id": "fauna:Goat",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Flock"
 },
 {
 "id": "person:Israel",
@@ -227,18 +227,18 @@
 "preferred_label": "Israeli"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Swear"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "Swear"
 },
 {
 "id": "flora:Grain",
@@ -255,6 +255,13 @@
 "preferred_label": "Land Flowing of Milk and Honey"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
 "id": "place:Paran",
 "type": "place",
 "confidence": 0.175,
@@ -269,32 +276,11 @@
 "preferred_label": "Kadeshi"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "House"
 },
 {
 "id": "flora:OliveTree",
@@ -311,11 +297,25 @@
 "preferred_label": "Mule"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "Grass"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Must"
 },
 {
 "id": "realia:OliveOil",
@@ -325,48 +325,6 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Babeli"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "To Cause to Possess"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Safety"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1673,
@@ -374,25 +332,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
+"id": "place:Babylon",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "To Curse"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Kaini"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Haruni"
+"preferred_label": "Babeli"
 },
 {
 "id": "keyterm:Defilement",
@@ -402,11 +346,67 @@
 "preferred_label": "Defilement"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Musa"
+},
+{
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Kaini"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
+},
+{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Lebanoni"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "To Curse"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Safety"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Haruni"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
 },
 {
 "id": "flora:Lentil",
@@ -416,13 +416,6 @@
 "preferred_label": "Lentil"
 },
 {
-"id": "flora:Bean",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Bean"
-},
-{
 "id": "flora:Millet",
 "type": "flora",
 "confidence": 0.115,
@@ -430,18 +423,11 @@
 "preferred_label": "Millet"
 },
 {
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "flora:Barley",
+"id": "flora:Bean",
 "type": "flora",
-"confidence": 0.1073,
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "Bean"
 },
 {
 "id": "fauna:Locust",
@@ -451,11 +437,25 @@
 "preferred_label": "Locust"
 },
 {
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Basket"
+},
+{
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Image"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }

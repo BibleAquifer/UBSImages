@@ -138,18 +138,18 @@
 "preferred_label": "Camel"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Аарона"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Аарона"
 },
 {
 "id": "person:Bethuel",
@@ -159,13 +159,6 @@
 "preferred_label": "Вафуил"
 },
 {
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.1882,
-"match_method": "canonical",
-"preferred_label": "Ishmaelites"
-},
-{
 "id": "place:AchorValley",
 "type": "place",
 "confidence": 0.1882,
@@ -173,11 +166,11 @@
 "preferred_label": "долина Ахор"
 },
 {
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.1765,
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "Шехем"
+"preferred_label": "Ishmaelites"
 },
 {
 "id": "keyterm:Hope",
@@ -187,39 +180,11 @@
 "preferred_label": "Hope"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Appease"
-},
-{
 "id": "person:Rebekah",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Ревекка"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Гедеон"
 },
 {
 "id": "person:Nahor.2",
@@ -229,18 +194,32 @@
 "preferred_label": "Нахор"
 },
 {
-"id": "person:Ishmael",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Исмаил"
-},
-{
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Мадиан"
+},
+{
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Appease"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Гедеон"
 },
 {
 "id": "person:Milcah",
@@ -250,18 +229,25 @@
 "preferred_label": "Милка"
 },
 {
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1282,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "Египет"
 },
 {
-"id": "realia:PieceOfMoney",
-"type": "realia",
-"confidence": 0.1282,
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Piece of Money"
+"preferred_label": "Шехем"
+},
+{
+"id": "person:Ishmael",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Исмаил"
 },
 {
 "id": "realia:AHalfShekel",
@@ -278,25 +264,25 @@
 "preferred_label": "Purple Cloth"
 },
 {
+"id": "realia:PieceOfMoney",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Piece of Money"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Terebinth"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Vine"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Jackal"
 },
 {
 "id": "realia:Crown",
@@ -306,11 +292,18 @@
 "preferred_label": "Crown"
 },
 {
-"id": "fauna:Pig",
+"id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Pig"
+"preferred_label": "Jackal"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "realia:Cloak",
@@ -318,6 +311,13 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Cloak"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Pig"
 }
 ]
 }

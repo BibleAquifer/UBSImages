@@ -335,20 +335,6 @@
 "preferred_label": "Dog"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -356,11 +342,25 @@
 "preferred_label": "pollution"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Demons"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2205,
 "match_method": "canonical",
 "preferred_label": "saint"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
 },
 {
 "id": "person:Jesus.2",
@@ -391,18 +391,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "person:Samson",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Samson"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "vrai"
+"preferred_label": "Juda"
 },
 {
 "id": "place:Babylon",
@@ -412,116 +405,11 @@
 "preferred_label": "Babylone"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "charger"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "laissiez en possession"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "A Person"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "sans saleté"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "lamentation"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "jurer"
-},
-{
 "id": "place:Edom",
 "type": "place",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "Édom"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "méchanceté"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "benir"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "abomination"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "se rendre honoré"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -531,11 +419,123 @@
 "preferred_label": "être possédé par un démon"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Samson"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "A Person"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "benir"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "abomination"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "offrande"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "se rendre honoré"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "charger"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "sans saleté"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "méchanceté"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Édom"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "laissiez en possession"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "lamentation"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "jurer"
 },
 {
 "id": "fauna:TawnyOwl.2",
@@ -559,20 +559,6 @@
 "preferred_label": "Mouse"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Papyrus"
-},
-{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.1002,
@@ -580,18 +566,32 @@
 "preferred_label": "Earring"
 },
 {
-"id": "flora:Reed",
+"id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Reed"
+"preferred_label": "Brier"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Frankincense"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Thistle"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Papyrus"
 },
 {
 "id": "realia:House",
@@ -608,18 +608,18 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "flora:Frankincense",
+"id": "flora:Reed",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Frankincense"
+"preferred_label": "Reed"
 },
 {
-"id": "fauna:WildDonkey",
+"id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Wild Donkey"
+"preferred_label": "Sheep"
 },
 {
 "id": "flora:Nettle",
@@ -629,11 +629,11 @@
 "preferred_label": "Nettle"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
+"id": "fauna:WildDonkey",
+"type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "Wild Donkey"
 }
 ]
 }

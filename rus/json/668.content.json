@@ -272,20 +272,6 @@
 "preferred_label": "Pig"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.2265,
@@ -293,11 +279,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Jackal",
@@ -307,25 +293,25 @@
 "preferred_label": "Jackal"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Sheep"
+},
+{
 "id": "keyterm:Honest",
 "type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Honest"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
 },
 {
 "id": "person:David",
@@ -335,18 +321,25 @@
 "preferred_label": "Давид"
 },
 {
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+},
+{
 "id": "person:Hazael",
 "type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
 "preferred_label": "Азаил"
-},
-{
-"id": "person:SyrophonecianWoman",
-"type": "person",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "Syrophonecian Woman"
 },
 {
 "id": "person:Ish-bosheth",
@@ -356,116 +349,18 @@
 "preferred_label": "Ish-bosheth"
 },
 {
+"id": "person:SyrophonecianWoman",
+"type": "person",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Syrophonecian Woman"
+},
+{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1643,
 "match_method": "canonical",
 "preferred_label": "Lion"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "True"
-},
-{
-"id": "person:Baasha",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Вааса"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Елия"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Foolish"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "A Person"
-},
-{
-"id": "person:Zeruiah",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Саруина"
-},
-{
-"id": "person:Ahab",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ахав"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Perceive"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "person:Jeroboam",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Иеровоам"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Love"
 },
 {
 "id": "group:Philistine",
@@ -482,20 +377,6 @@
 "preferred_label": "Иуда"
 },
 {
-"id": "person:Abishai",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Авесса"
-},
-{
-"id": "person:Abner",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Авенир"
-},
-{
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.1622,
@@ -503,39 +384,25 @@
 "preferred_label": "Филистимской"
 },
 {
-"id": "keyterm:Safety",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Safety"
+"preferred_label": "Passion"
 },
 {
-"id": "person:Saul.2",
+"id": "person:Ahab",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Саул"
+"preferred_label": "Ахав"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Самария"
-},
-{
-"id": "keyterm:Mischief",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Mischief"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Holy"
 },
 {
 "id": "person:Naboth",
@@ -545,11 +412,102 @@
 "preferred_label": "Навуфей"
 },
 {
-"id": "person:Gideon",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Гедеон"
+"preferred_label": "Иуда"
+},
+{
+"id": "person:Jeroboam",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Иеровоам"
+},
+{
+"id": "person:Baasha",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Вааса"
+},
+{
+"id": "place:Tishbe",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Фесвитянин"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Perceive"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "A Person"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
+"id": "person:Abishai",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Авесса"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Stupid"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Елия"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Саул"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "True"
 },
 {
 "id": "keyterm:DetestedThing",
@@ -557,6 +515,27 @@
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Detested Thing"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Самария"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Safety"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Гедеон"
 },
 {
 "id": "keyterm:Offering",
@@ -580,18 +559,46 @@
 "preferred_label": "Kindness"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Love"
 },
 {
-"id": "place:Tishbe",
+"id": "person:Zeruiah",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Саруина"
+},
+{
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Фесвитянин"
+"preferred_label": "Египет"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Foolish"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Mischief"
+},
+{
+"id": "person:Abner",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Авенир"
 },
 {
 "id": "group:Tishbite",
@@ -601,11 +608,11 @@
 "preferred_label": "Tishbites"
 },
 {
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1622,
+"id": "fauna:WildOx",
+"type": "fauna",
+"confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Stupid"
+"preferred_label": "Wild Ox"
 },
 {
 "id": "realia:Chariot",
@@ -615,13 +622,6 @@
 "preferred_label": "Chariot"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
 "id": "flora:Frankincense",
 "type": "flora",
 "confidence": 0.1022,
@@ -629,11 +629,18 @@
 "preferred_label": "Frankincense"
 },
 {
-"id": "fauna:WildOx",
-"type": "fauna",
+"id": "realia:Staff",
+"type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Wild Ox"
+"preferred_label": "Staff"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Sword"
 },
 {
 "id": "realia:Rod",
@@ -641,13 +648,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Rod"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Staff"
 }
 ]
 }

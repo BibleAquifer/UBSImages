@@ -249,18 +249,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4077,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "person:Pharaoh.4",
 "type": "person",
 "confidence": 0.4077,
 "match_method": "canonical",
 "preferred_label": "Pharaoh"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4077,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "person:Israel",
@@ -284,18 +284,18 @@
 "preferred_label": "House"
 },
 {
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
 "id": "person:Joseph.10",
 "type": "person",
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "Joseph"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "Egypt"
 },
 {
 "id": "keyterm:Salvation",
@@ -305,18 +305,18 @@
 "preferred_label": "Salvation"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "Good News"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "Egypt"
 },
 {
 "id": "group:Pharisee",
@@ -326,18 +326,11 @@
 "preferred_label": "Pharisees"
 },
 {
-"id": "keyterm:Chosen",
-"type": "keyterm",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Chosen"
-},
-{
-"id": "keyterm:Deliver",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Deliver"
+"preferred_label": "Gentiles"
 },
 {
 "id": "keyterm:AskFor",
@@ -354,11 +347,18 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Chosen",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Chosen"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Beloved"
 },
 {
 "id": "keyterm:Believe",
@@ -368,18 +368,25 @@
 "preferred_label": "Believe"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Beloved",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "Covenant"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:Deliver",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Deliver"
 },
 {
 "id": "person:Isaiah",
@@ -396,25 +403,18 @@
 "preferred_label": "Tax Collector"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "Fear"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Gentiles"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Offering"
 },
 {
 "id": "flora:Vine",
@@ -424,20 +424,6 @@
 "preferred_label": "Vine"
 },
 {
-"id": "realia:Beam",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Beam"
-},
-{
-"id": "realia:Cross",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Cross"
-},
-{
 "id": "realia:Tassel",
 "type": "realia",
 "confidence": 0.1015,
@@ -445,11 +431,25 @@
 "preferred_label": "Tassel"
 },
 {
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Beam"
+},
+{
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.1015,
 "match_method": "canonical",
 "preferred_label": "Cloak"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Cross"
 }
 ]
 }

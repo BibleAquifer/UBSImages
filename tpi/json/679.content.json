@@ -163,13 +163,6 @@
 "preferred_label": "Dog"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Bikpela"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.245,
@@ -184,32 +177,18 @@
 "preferred_label": "Holy"
 },
 {
-"id": "keyterm:True",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Bikpela"
+},
+{
+"id": "keyterm:DemonPossessed",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "True"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "A Person"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Pure"
+"preferred_label": "Be Demon Possessed"
 },
 {
 "id": "deity:Demons",
@@ -219,11 +198,11 @@
 "preferred_label": "Demons"
 },
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
+"id": "person:GenericPerson",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Mischief"
+"preferred_label": "A Person"
 },
 {
 "id": "keyterm:Bless",
@@ -231,6 +210,13 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "True"
 },
 {
 "id": "keyterm:DetestedThing",
@@ -247,11 +233,25 @@
 "preferred_label": "Offering"
 },
 {
-"id": "keyterm:DemonPossessed",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Be Demon Possessed"
+"preferred_label": "Appoint"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Pure"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Mischief"
 },
 {
 "id": "flora:Carob",
@@ -275,18 +275,18 @@
 "preferred_label": "Earring"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Frankincense"
 },
 {
 "id": "fauna:Bull",
@@ -296,11 +296,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "flora:Frankincense",
-"type": "flora",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Frankincense"
+"preferred_label": "Sheep"
 }
 ]
 }

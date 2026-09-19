@@ -149,18 +149,18 @@
 "preferred_label": "Akaya"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
 "id": "person:Paul",
 "type": "person",
 "confidence": 0.39,
 "match_method": "canonical",
 "preferred_label": "Paulo"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Ask for"
 },
 {
 "id": "deity:Lord",
@@ -177,6 +177,20 @@
 "preferred_label": "Filipi"
 },
 {
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Warumi"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
 "id": "person:Timothy",
 "type": "person",
 "confidence": 0.245,
@@ -189,27 +203,6 @@
 "confidence": 0.245,
 "match_method": "canonical",
 "preferred_label": "Believe"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Spirit"
 },
 {
 "id": "keyterm:Church",
@@ -226,13 +219,6 @@
 "preferred_label": "Good News"
 },
 {
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Warumi"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.245,
@@ -240,11 +226,25 @@
 "preferred_label": "Yesu"
 },
 {
-"id": "group:Philippi",
-"type": "group",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Spirit"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "keyterm:Share",
+"type": "keyterm",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Philippians"
+"preferred_label": "Share"
 },
 {
 "id": "place:Asia",
@@ -261,11 +261,11 @@
 "preferred_label": "Erasto"
 },
 {
-"id": "keyterm:Share",
-"type": "keyterm",
+"id": "group:Philippi",
+"type": "group",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Share"
+"preferred_label": "Philippians"
 },
 {
 "id": "person:Titus",
@@ -273,76 +273,6 @@
 "confidence": 0.1825,
 "match_method": "canonical",
 "preferred_label": "Tito"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Fellowship"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Favor"
-},
-{
-"id": "place:Ephesus",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Efeso"
-},
-{
-"id": "keyterm:Encourage",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Encourage"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Declare",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Declare"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Yudea"
-},
-{
-"id": "person:Silas",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Sila"
 },
 {
 "id": "keyterm:Holy",
@@ -357,6 +287,76 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Be a Disciple"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Encourage"
+},
+{
+"id": "place:Ephesus",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Efeso"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Yudea"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Serve"
+},
+{
+"id": "person:Silas",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Sila"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "keyterm:Declare",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Declare"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Fellowship"
 }
 ]
 }

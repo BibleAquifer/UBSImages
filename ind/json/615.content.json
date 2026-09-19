@@ -159,11 +159,11 @@
 "preferred_label": "Third Living Creature"
 },
 {
-"id": "deity:FourthLivingCreature",
+"id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "Fourth Living Creature"
+"preferred_label": "First Living Creature"
 },
 {
 "id": "deity:SecondLivingCreature",
@@ -173,18 +173,11 @@
 "preferred_label": "Second Living Creature"
 },
 {
-"id": "deity:FirstLivingCreature",
+"id": "deity:FourthLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "First Living Creature"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "amin!"
+"preferred_label": "Fourth Living Creature"
 },
 {
 "id": "keyterm:Life",
@@ -194,18 +187,25 @@
 "preferred_label": "kehidupan"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "selama, lamanya"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "khusus"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "amin!"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "selama, lamanya"
 },
 {
 "id": "realia:Bowl.2",
@@ -215,32 +215,11 @@
 "preferred_label": "Bowl"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "roh"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "berdoa"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "bertindak jahat"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "membayar lunas"
 },
 {
 "id": "keyterm:Glory",
@@ -257,11 +236,25 @@
 "preferred_label": "A Disembodied Voice"
 },
 {
-"id": "realia:Quart",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Quart"
+"preferred_label": "membayar lunas"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "bertindak jahat"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "roh"
 },
 {
 "id": "realia:Denarius",
@@ -278,6 +271,20 @@
 "preferred_label": "Balance"
 },
 {
+"id": "realia:Quart",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Quart"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Wine"
+},
+{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1165,
@@ -285,11 +292,25 @@
 "preferred_label": "Lion"
 },
 {
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Vulture"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Wheat"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Scroll"
 },
 {
 "id": "flora:Barley",
@@ -313,27 +334,6 @@
 "preferred_label": "Horse"
 },
 {
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Incense"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.1165,
@@ -348,11 +348,11 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "fauna:Vulture",
-"type": "fauna",
+"id": "realia:Incense",
+"type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Vulture"
+"preferred_label": "Incense"
 }
 ]
 }

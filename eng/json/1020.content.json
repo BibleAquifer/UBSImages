@@ -305,13 +305,6 @@
 "preferred_label": "Reed"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.2846,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2846,
@@ -319,18 +312,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.2246,
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.2846,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2246,
-"match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Instruction"
 },
 {
 "id": "realia:TempleAltar",
@@ -340,6 +326,13 @@
 "preferred_label": "Temple Altar"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2246,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.2246,
@@ -347,11 +340,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2231,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.2246,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -359,6 +352,13 @@
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "Slaughtering"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "keyterm:Stubborn",
@@ -382,11 +382,11 @@
 "preferred_label": "Handbreadth"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
+"id": "group:Levi",
+"type": "group",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "To Dishonor"
+"preferred_label": "Tribe of Levi"
 },
 {
 "id": "keyterm:Ardour",
@@ -396,11 +396,18 @@
 "preferred_label": "Passion"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Tribe of Levi"
+"preferred_label": "Appease"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Levi"
 },
 {
 "id": "keyterm:Perceive",
@@ -410,6 +417,13 @@
 "preferred_label": "Perceive"
 },
 {
+"id": "keyterm:UncircumcisedPerson",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Uncircumcised Person"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1615,
@@ -417,11 +431,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Appease",
+"id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Appease"
+"preferred_label": "To Dishonor"
+},
+{
+"id": "person:Daniel.3",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Daniel"
 },
 {
 "id": "keyterm:Covenant",
@@ -429,6 +450,20 @@
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "Covenant"
+},
+{
+"id": "keyterm:SimplePerson",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Simple Person"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Word of the Lord"
 },
 {
 "id": "person:Jeremiah.6",
@@ -445,53 +480,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
-},
-{
-"id": "keyterm:SimplePerson",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Simple Person"
-},
-{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "Work"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "person:Daniel.3",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Daniel"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Foundation"
 },
 {
 "id": "fauna:Lion",
@@ -501,32 +494,18 @@
 "preferred_label": "Lion"
 },
 {
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Foundation"
+},
+{
 "id": "realia:Entrance",
 "type": "realia",
 "confidence": 0.1015,
 "match_method": "canonical",
 "preferred_label": "Entrance"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:Doorpost",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Doorpost"
-},
-{
-"id": "realia:Window",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Window"
 },
 {
 "id": "realia:Doorstep",
@@ -541,6 +520,27 @@
 "confidence": 0.1015,
 "match_method": "canonical",
 "preferred_label": "Scroll"
+},
+{
+"id": "realia:Window",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Window"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "realia:Doorpost",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Doorpost"
 }
 ]
 }

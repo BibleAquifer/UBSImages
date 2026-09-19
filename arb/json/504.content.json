@@ -1589,18 +1589,18 @@
 "preferred_label": "سوفَ"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3829,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.3829,
 "match_method": "canonical",
 "preferred_label": "مِصْرَ"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3829,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيلَ"
 },
 {
 "id": "place:Jordan",
@@ -1638,11 +1638,11 @@
 "preferred_label": "صورَ"
 },
 {
-"id": "place:Lebanon",
+"id": "place:Canaan",
 "type": "place",
 "confidence": 0.3621,
 "match_method": "canonical",
-"preferred_label": "لبْنَانَ"
+"preferred_label": "كَنْعَان"
 },
 {
 "id": "person:Moses",
@@ -1652,11 +1652,11 @@
 "preferred_label": "موسَى"
 },
 {
-"id": "place:Canaan",
+"id": "place:Lebanon",
 "type": "place",
 "confidence": 0.3621,
 "match_method": "canonical",
-"preferred_label": "كَنْعَان"
+"preferred_label": "لبْنَانَ"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -1664,13 +1664,6 @@
 "confidence": 0.3617,
 "match_method": "canonical",
 "preferred_label": "وَادِي"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3604,
-"match_method": "canonical",
-"preferred_label": "Fear"
 },
 {
 "id": "person:Pharaoh.6",
@@ -1687,6 +1680,13 @@
 "preferred_label": "حَمَاةَ"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3604,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
 "id": "group:Canaan",
 "type": "group",
 "confidence": 0.3594,
@@ -1701,18 +1701,11 @@
 "preferred_label": "صِيْدونَ"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.3587,
 "match_method": "canonical",
-"preferred_label": "أورشَلِيمَ"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.3587,
-"match_method": "canonical",
-"preferred_label": "أَدومَ"
+"preferred_label": "أَفْرَايِمَ"
 },
 {
 "id": "place:Arabah",
@@ -1722,11 +1715,18 @@
 "preferred_label": "ٱلْعَرَبَةِ"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.3587,
 "match_method": "canonical",
-"preferred_label": "أَفْرَايِمَ"
+"preferred_label": "أَدومَ"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3587,
+"match_method": "canonical",
+"preferred_label": "أورشَلِيمَ"
 },
 {
 "id": "group:Amorites",
@@ -1736,8 +1736,8 @@
 "preferred_label": "Amorites"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.3587,
 "match_method": "canonical",
 "preferred_label": "أَفْرَايِمَ"
@@ -1757,18 +1757,18 @@
 "preferred_label": "Ship"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.3108,
-"match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.3108,
 "match_method": "canonical",
 "preferred_label": "Chariot"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.3108,
+"match_method": "canonical",
+"preferred_label": "Horse"
 },
 {
 "id": "fauna:Fish",

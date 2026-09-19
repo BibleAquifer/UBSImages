@@ -153,13 +153,6 @@
 "preferred_label": "limpiar"
 },
 {
-"id": "person:Ornan",
-"type": "person",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Ornán"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2562,
@@ -174,11 +167,11 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.2088,
+"id": "person:Ornan",
+"type": "person",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "Ornán"
 },
 {
 "id": "realia:WinnowingFork",
@@ -186,6 +179,13 @@
 "confidence": 0.2088,
 "match_method": "canonical",
 "preferred_label": "Winnowing Fork"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.2088,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
 },
 {
 "id": "realia:Barn",
@@ -202,39 +202,11 @@
 "preferred_label": "Wagon"
 },
 {
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Abiezer"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Abiezerita"
-},
-{
 "id": "person:Joash",
 "type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "Joas"
-},
-{
-"id": "place:BrookOfEgypt",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "arroyo"
-},
-{
-"id": "place:Ophrah.2",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Ophra"
 },
 {
 "id": "keyterm:Partake",
@@ -244,6 +216,20 @@
 "preferred_label": "participar"
 },
 {
+"id": "place:BrookOfEgypt",
+"type": "place",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "arroyo"
+},
+{
+"id": "group:Abiezer",
+"type": "group",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Abiezerita"
+},
+{
 "id": "person:Gideon",
 "type": "person",
 "confidence": 0.1906,
@@ -251,60 +237,18 @@
 "preferred_label": "Gedeón"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "esperanza"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "deber"
-},
-{
-"id": "place:Damascus",
+"id": "place:Ophrah.2",
 "type": "place",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Damasco"
+"preferred_label": "Ophra"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1781,
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Eufrates"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "rebelarse"
+"preferred_label": "Abiezer"
 },
 {
 "id": "place:Gilead",
@@ -314,11 +258,32 @@
 "preferred_label": "Galaad"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "escritura"
+"preferred_label": "esperanza"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Eufrates"
 },
 {
 "id": "place:Midian",
@@ -328,11 +293,46 @@
 "preferred_label": "Madianitas"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "place:Damascus",
+"type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Damasco"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "rebelarse"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "deber"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "escritura"
 },
 {
 "id": "flora:NutmegFlower",
@@ -349,11 +349,25 @@
 "preferred_label": "Cumin"
 },
 {
-"id": "flora:Terebinth",
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Ephah"
+},
+{
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Staff"
 },
 {
 "id": "flora:Barley",
@@ -370,20 +384,6 @@
 "preferred_label": "Winepress"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1181,
@@ -391,11 +391,11 @@
 "preferred_label": "Rod"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
+"id": "flora:Terebinth",
+"type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "Terebinth"
 }
 ]
 }

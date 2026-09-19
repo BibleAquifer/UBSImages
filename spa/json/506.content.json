@@ -796,18 +796,18 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.6667,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.6667,
 "match_method": "canonical",
 "preferred_label": "Goat"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.6667,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "deity:Lord",
@@ -859,11 +859,18 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
+"id": "person:Moses",
+"type": "person",
 "confidence": 0.2605,
 "match_method": "canonical",
-"preferred_label": "paz"
+"preferred_label": "Moisés"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.2605,
+"match_method": "canonical",
+"preferred_label": "Jordán"
 },
 {
 "id": "person:Joseph.10",
@@ -880,39 +887,18 @@
 "preferred_label": "dejar en herencia"
 },
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2605,
+"match_method": "canonical",
+"preferred_label": "paz"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.2605,
 "match_method": "canonical",
 "preferred_label": "Abraham"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2605,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.2605,
-"match_method": "canonical",
-"preferred_label": "Jordán"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2605,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2605,
-"match_method": "canonical",
-"preferred_label": "Moisés"
 },
 {
 "id": "place:Egypt",
@@ -922,11 +908,11 @@
 "preferred_label": "Egipto"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.2605,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "bendecir"
 },
 {
 "id": "keyterm:Woe.2",
@@ -934,6 +920,20 @@
 "confidence": 0.2605,
 "match_method": "canonical",
 "preferred_label": "Woe"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2605,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2605,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -957,20 +957,6 @@
 "preferred_label": "Catah"
 },
 {
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.207,
-"match_method": "canonical",
-"preferred_label": "Isaac"
-},
-{
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.207,
-"match_method": "canonical",
-"preferred_label": "Sichêm"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.207,
@@ -978,18 +964,32 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.207,
-"match_method": "canonical",
-"preferred_label": "ser sabio o prudente"
-},
-{
 "id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.207,
 "match_method": "canonical",
 "preferred_label": "profetizar"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.207,
+"match_method": "canonical",
+"preferred_label": "Isaac"
+},
+{
+"id": "place:Carmel",
+"type": "place",
+"confidence": 0.207,
+"match_method": "canonical",
+"preferred_label": "Carmelo"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.207,
+"match_method": "canonical",
+"preferred_label": "Egipto"
 },
 {
 "id": "keyterm:Blood",

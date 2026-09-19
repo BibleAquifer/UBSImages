@@ -595,18 +595,18 @@
 "preferred_label": "tertarik/tergoda untuk beribadah"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3745,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.3745,
 "match_method": "canonical",
 "preferred_label": "Baal"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3745,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Church",
@@ -623,13 +623,6 @@
 "preferred_label": "berhala"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2647,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2647,
@@ -637,18 +630,11 @@
 "preferred_label": "Daud"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.2596,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2647,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2596,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Yerusalem"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -658,11 +644,25 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2596,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.2596,
 "match_method": "canonical",
 "preferred_label": "Altar"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2596,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
 },
 {
 "id": "keyterm:Bless",
@@ -672,25 +672,18 @@
 "preferred_label": "memberkati"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2098,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Hizkia"
+"preferred_label": "kemuliaan"
 },
 {
 "id": "keyterm:Ability",
@@ -700,60 +693,11 @@
 "preferred_label": "keahlian"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "bersumpah"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "mengusir"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "deity:Molech",
 "type": "deity",
 "confidence": 0.2098,
 "match_method": "canonical",
 "preferred_label": "Molokh"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "pertimbangan"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "tanda"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "menyembah"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "kemuliaan"
 },
 {
 "id": "keyterm:Rebel",
@@ -770,11 +714,67 @@
 "preferred_label": "nama"
 },
 {
-"id": "realia:House",
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "menyembah"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "persembahan"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "bersumpah"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Hizkia"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "mengusir"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "pertimbangan"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "tanda"
+},
+{
+"id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "High Place"
 }
 ]
 }

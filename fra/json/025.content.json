@@ -384,11 +384,11 @@
 "preferred_label": "prier"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "état intact"
+"preferred_label": "pollution"
 },
 {
 "id": "deity:Demons",
@@ -398,11 +398,11 @@
 "preferred_label": "Demons"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "saint"
 },
 {
 "id": "keyterm:Heaven",
@@ -412,18 +412,11 @@
 "preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "pollution"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "saint"
+"preferred_label": "état intact"
 },
 {
 "id": "person:Jesus.2",
@@ -431,6 +424,13 @@
 "confidence": 0.2176,
 "match_method": "canonical",
 "preferred_label": "Jésus"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 },
 {
 "id": "fauna:Dog",
@@ -447,29 +447,8 @@
 "preferred_label": "Hatsor"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Samson"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "vrai"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Juda"
@@ -482,18 +461,46 @@
 "preferred_label": "Babylone"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "charger"
+"preferred_label": "Édom"
 },
 {
-"id": "keyterm:Possess",
+"id": "keyterm:DemonPossessed",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "laissiez en possession"
+"preferred_label": "être possédé par un démon"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Samson"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "benir"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Joseph"
 },
 {
 "id": "person:GenericPerson",
@@ -503,20 +510,6 @@
 "preferred_label": "A Person"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "sans saleté"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1588,
@@ -524,11 +517,18 @@
 "preferred_label": "Israël"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "alliance"
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "abomination"
 }
 ]
 }

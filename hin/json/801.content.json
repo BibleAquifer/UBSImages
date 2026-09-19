@@ -130,18 +130,18 @@
 "preferred_label": "Barn"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "Grain"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 },
 {
 "id": "deity:Lord",
@@ -165,18 +165,18 @@
 "preferred_label": "Clean Out"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "लबानोन"
 },
 {
 "id": "person:Solomon",
@@ -186,11 +186,18 @@
 "preferred_label": "सुलैमान"
 },
 {
-"id": "place:Lebanon",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "लबानोन"
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "realia:WinnowingFork",
+"type": "realia",
+"confidence": 0.2011,
+"match_method": "canonical",
+"preferred_label": "Winnowing Fork"
 },
 {
 "id": "realia:Must",
@@ -207,13 +214,6 @@
 "preferred_label": "Threshing Floor"
 },
 {
-"id": "realia:WinnowingFork",
-"type": "realia",
-"confidence": 0.2011,
-"match_method": "canonical",
-"preferred_label": "Winnowing Fork"
-},
-{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.19,
@@ -226,6 +226,27 @@
 "confidence": 0.19,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
+},
+{
+"id": "place:Tadmor",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "तदमोर"
+},
+{
+"id": "place:Pithom",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "पितोम"
+},
+{
+"id": "place:Baalath.2",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "बालात"
 },
 {
 "id": "place:Abel-beth-maacah",
@@ -242,27 +263,6 @@
 "preferred_label": "इय्योन"
 },
 {
-"id": "place:Pithom",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "पितोम"
-},
-{
-"id": "place:Tadmor",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "तदमोर"
-},
-{
-"id": "place:Baalath.2",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "बालात"
-},
-{
 "id": "place:Hamath",
 "type": "place",
 "confidence": 0.1861,
@@ -270,25 +270,11 @@
 "preferred_label": "हमात"
 },
 {
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "दान"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
-},
-{
-"id": "person:Pharaoh.5",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "फ़िरौन"
 },
 {
 "id": "group:Dan",
@@ -305,6 +291,13 @@
 "preferred_label": "बेन्हदद"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
 "id": "keyterm:Heavenly",
 "type": "keyterm",
 "confidence": 0.175,
@@ -312,32 +305,18 @@
 "preferred_label": "Heavenly"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
-},
-{
-"id": "group:Naphtali",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "नप्ताली"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
 "id": "person:Jehoshaphat.3",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "यहोशाफात"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
 },
 {
 "id": "person:Naphtali",
@@ -354,6 +333,27 @@
 "preferred_label": "Sky"
 },
 {
+"id": "person:Asa",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "आसा"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "दान"
+},
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
+},
+{
 "id": "place:Raamses",
 "type": "place",
 "confidence": 0.175,
@@ -361,11 +361,18 @@
 "preferred_label": "रामसेस"
 },
 {
-"id": "person:Asa",
-"type": "person",
+"id": "group:Naphtali",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "आसा"
+"preferred_label": "नप्ताली"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "Crow"
 },
 {
 "id": "fauna:Bird",
@@ -382,88 +389,11 @@
 "preferred_label": "Storeroom"
 },
 {
-"id": "fauna:Crow",
-"type": "fauna",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "Crow"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "Animal Pen"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Rooster"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Weed"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Winepress"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Fig"
 },
 {
 "id": "flora:Pomegranate",
@@ -473,11 +403,18 @@
 "preferred_label": "Pomegranate"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Goat"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Fig"
 },
 {
 "id": "flora:Coriander",
@@ -485,6 +422,69 @@
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Coriander"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Rooster"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Winepress"
+},
+{
+"id": "flora:Weed",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Weed"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }

@@ -258,18 +258,18 @@
 "preferred_label": "Israeli"
 },
 {
-"id": "place:Dan",
-"type": "place",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "Dani"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2865,
 "match_method": "canonical",
 "preferred_label": "Yuda"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "Dani"
 },
 {
 "id": "person:Moses",
@@ -279,8 +279,15 @@
 "preferred_label": "Musa"
 },
 {
-"id": "group:Dan",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "place:Dan",
+"type": "place",
 "confidence": 0.2865,
 "match_method": "canonical",
 "preferred_label": "Dani"
@@ -293,25 +300,11 @@
 "preferred_label": "Yerusalemu"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
 "id": "person:Ahiezer",
 "type": "person",
 "confidence": 0.2351,
 "match_method": "canonical",
 "preferred_label": "Ahiezeri"
-},
-{
-"id": "person:Elizur",
-"type": "person",
-"confidence": 0.2351,
-"match_method": "canonical",
-"preferred_label": "Elisuri"
 },
 {
 "id": "person:Ammihud",
@@ -321,11 +314,11 @@
 "preferred_label": "Amihudi"
 },
 {
-"id": "person:Shedeur",
+"id": "person:Elizur",
 "type": "person",
-"confidence": 0.2297,
+"confidence": 0.2351,
 "match_method": "canonical",
-"preferred_label": "Shedeuri"
+"preferred_label": "Elisuri"
 },
 {
 "id": "person:Elishama",
@@ -335,46 +328,18 @@
 "preferred_label": "Elishama"
 },
 {
+"id": "person:Shedeur",
+"type": "person",
+"confidence": 0.2297,
+"match_method": "canonical",
+"preferred_label": "Shedeuri"
+},
+{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.2265,
 "match_method": "canonical",
 "preferred_label": "Rams Horn"
-},
-{
-"id": "person:Amminadab",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Aminadabu"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Babeli"
-},
-{
-"id": "person:Ammishaddai",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Amishadai"
-},
-{
-"id": "group:Reuben",
-"type": "group",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Reubeni"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Efraimu"
 },
 {
 "id": "group:Gentile",
@@ -384,8 +349,43 @@
 "preferred_label": "Gentiles"
 },
 {
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Amishadai"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Babeli"
+},
+{
 "id": "person:Reuben",
 "type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Reubeni"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Aminadabu"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Efraimu"
+},
+{
+"id": "group:Reuben",
+"type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Reubeni"
@@ -398,8 +398,8 @@
 "preferred_label": "Nashoni"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Efraimu"
@@ -412,11 +412,11 @@
 "preferred_label": "Ashkenazi"
 },
 {
-"id": "deity:Merodach",
-"type": "deity",
+"id": "place:Minni",
+"type": "place",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Merodaki"
+"preferred_label": "Mini"
 },
 {
 "id": "deity:Bel",
@@ -426,11 +426,11 @@
 "preferred_label": "Beli"
 },
 {
-"id": "place:Minni",
-"type": "place",
+"id": "deity:Merodach",
+"type": "deity",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Mini"
+"preferred_label": "Merodaki"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -440,32 +440,11 @@
 "preferred_label": "Tent of Meeting"
 },
 {
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Yese"
-},
-{
-"id": "keyterm:Appoint",
+"id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Shekemu"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Walawi"
+"preferred_label": "Anointed"
 },
 {
 "id": "place:Tirzah",
@@ -475,20 +454,6 @@
 "preferred_label": "Tirza"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1622,
@@ -496,25 +461,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
+"id": "group:Levi",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Walawi"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Anointed"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Holy"
 },
 {
 "id": "place:Succoth",
@@ -524,11 +475,32 @@
 "preferred_label": "Sukothi"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Walawi"
+},
+{
 "id": "person:Korah.3",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Kora"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "place:Ararat",
@@ -538,11 +510,74 @@
 "preferred_label": "Ararati"
 },
 {
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Appoint"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Shekemu"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Yese"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Wine"
+},
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Locust"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Snake"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Viper"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Image"
 },
 {
 "id": "realia:House",
@@ -557,41 +592,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Horse"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Viper"
-},
-{
-"id": "fauna:Locust",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Locust"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Snake"
 }
 ]
 }

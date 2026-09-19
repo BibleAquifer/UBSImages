@@ -242,11 +242,11 @@
 "preferred_label": "Sacred Pole"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.4025,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -256,18 +256,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:House",
@@ -326,13 +326,6 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "keyterm:Incantations",
-"type": "keyterm",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "incantations"
-},
-{
 "id": "deity:Nehushtan",
 "type": "deity",
 "confidence": 0.1703,
@@ -347,74 +340,18 @@
 "preferred_label": "King’s Valley"
 },
 {
+"id": "keyterm:Incantations",
+"type": "keyterm",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "incantations"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1681,
 "match_method": "canonical",
 "preferred_label": "Olive Oil"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "smear"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "terafins"
-},
-{
-"id": "group:Manasseh",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Manassés"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Benjamim"
-},
-{
-"id": "person:Manasseh",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Manassés"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Raquel"
-},
-{
-"id": "keyterm:Idol",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "literally: nought"
 },
 {
 "id": "group:Judah",
@@ -424,11 +361,123 @@
 "preferred_label": "Judá"
 },
 {
-"id": "person:Ephraim",
+"id": "keyterm:Idol",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "literally: nought"
+},
+{
+"id": "person:Benjamin",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
+"preferred_label": "Benjamim"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "witness"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "be enticed to serve"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Betel"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Benjamim"
+},
+{
+"id": "deity:Teraphim",
+"type": "deity",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "terafins"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Manassés"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "smear"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
 "preferred_label": "Efraim"
+},
+{
+"id": "person:Rachel",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Raquel"
+},
+{
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Labão"
+},
+{
+"id": "keyterm:Vow",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "make a vow"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "offering"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Manassés"
+},
+{
+"id": "person:Asa",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Asa"
 },
 {
 "id": "place:On",
@@ -445,62 +494,6 @@
 "preferred_label": "slaughtering"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "offering"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Benjamim"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "witness"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Efraim"
-},
-{
-"id": "keyterm:Vow",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "make a vow"
-},
-{
-"id": "person:Laban",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Labão"
-},
-{
-"id": "person:Asa",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Asa"
-},
-{
-"id": "place:Bethel",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Betel"
-},
-{
 "id": "person:Absalom",
 "type": "person",
 "confidence": 0.1641,
@@ -508,25 +501,11 @@
 "preferred_label": "Absalão"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1041,
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Ephod",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Ephod"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Efraim"
 },
 {
 "id": "realia:Wine",
@@ -536,11 +515,32 @@
 "preferred_label": "Wine"
 },
 {
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Snake"
+},
+{
 "id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Household Idols"
+},
+{
+"id": "realia:Ephod",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Ephod"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "realia:Image",
@@ -550,11 +550,11 @@
 "preferred_label": "Image"
 },
 {
-"id": "fauna:Snake",
+"id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "Horse"
 }
 ]
 }
