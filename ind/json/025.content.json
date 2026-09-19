@@ -384,11 +384,11 @@
 "preferred_label": "meminta"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "damai"
+"preferred_label": "pencemaran"
 },
 {
 "id": "deity:Demons",
@@ -398,11 +398,11 @@
 "preferred_label": "Demons"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "Yerusalem"
+"preferred_label": "khusus"
 },
 {
 "id": "keyterm:Heaven",
@@ -412,18 +412,11 @@
 "preferred_label": "sorga"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "khusus"
+"preferred_label": "damai"
 },
 {
 "id": "person:Jesus.2",
@@ -431,6 +424,13 @@
 "confidence": 0.2176,
 "match_method": "canonical",
 "preferred_label": "Yesus"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
 },
 {
 "id": "fauna:Dog",
@@ -447,29 +447,8 @@
 "preferred_label": "Hazor"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Yusuf"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Simson"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "benar"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
@@ -482,18 +461,46 @@
 "preferred_label": "Babel"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "menugaskan"
+"preferred_label": "Edom"
 },
 {
-"id": "keyterm:Possess",
+"id": "keyterm:DemonPossessed",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "menyebabkan memiliki"
+"preferred_label": "kerasukan setan"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Simson"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "memberkati"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Yusuf"
 },
 {
 "id": "person:GenericPerson",
@@ -503,20 +510,6 @@
 "preferred_label": "A Person"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "murni"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Edomites"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1588,
@@ -524,11 +517,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "perjanjian"
+"preferred_label": "benar"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "hal yang dibenci"
 }
 ]
 }

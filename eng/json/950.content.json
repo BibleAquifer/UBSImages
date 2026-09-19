@@ -198,11 +198,11 @@
 "preferred_label": "Aaron"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3067,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -212,18 +212,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3067,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3067,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3067,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:Fork",
@@ -254,11 +254,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
+"id": "place:MostHolyPlace",
+"type": "place",
 "confidence": 0.2333,
 "match_method": "canonical",
-"preferred_label": "Pure"
+"preferred_label": "Most Holy Place"
 },
 {
 "id": "person:Israel",
@@ -268,11 +268,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:MostHolyPlace",
-"type": "place",
+"id": "keyterm:Pure",
+"type": "keyterm",
 "confidence": 0.2333,
 "match_method": "canonical",
-"preferred_label": "Most Holy Place"
+"preferred_label": "Pure"
 },
 {
 "id": "realia:WickTrimmer",
@@ -289,11 +289,11 @@
 "preferred_label": "Bowl"
 },
 {
-"id": "person:Shaphan.2",
+"id": "person:Abihu",
 "type": "person",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Shaphan"
+"preferred_label": "Abihu"
 },
 {
 "id": "person:Jaazaniah.2",
@@ -303,25 +303,18 @@
 "preferred_label": "Jaazaniah"
 },
 {
+"id": "person:Shaphan.2",
+"type": "person",
+"confidence": 0.1741,
+"match_method": "canonical",
+"preferred_label": "Shaphan"
+},
+{
 "id": "person:Nadab",
 "type": "person",
 "confidence": 0.1741,
 "match_method": "canonical",
 "preferred_label": "Nadab"
-},
-{
-"id": "person:Abihu",
-"type": "person",
-"confidence": 0.1741,
-"match_method": "canonical",
-"preferred_label": "Abihu"
-},
-{
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Lampstand"
 },
 {
 "id": "realia:Lamp",
@@ -338,11 +331,11 @@
 "preferred_label": "Tent of Meeting"
 },
 {
-"id": "realia:Money",
+"id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Lampstand"
 },
 {
 "id": "realia:Rod",
@@ -352,11 +345,11 @@
 "preferred_label": "Rod"
 },
 {
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.1667,
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
+"preferred_label": "Money"
 },
 {
 "id": "group:Levi",
@@ -364,20 +357,6 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Tribe of Levi"
-},
-{
-"id": "person:Uzziah",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Uzziah"
-},
-{
-"id": "keyterm:Witness.2",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Testimony"
 },
 {
 "id": "person:Levi.3",
@@ -394,18 +373,25 @@
 "preferred_label": "Korah"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1067,
+"id": "keyterm:Witness.2",
+"type": "keyterm",
+"confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Leather"
+"preferred_label": "Testimony"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1067,
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Curtain"
+"preferred_label": "Infectious Skin Disease"
+},
+{
+"id": "person:Uzziah",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Uzziah"
 },
 {
 "id": "realia:AnointingOil",
@@ -413,6 +399,13 @@
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Leather"
 },
 {
 "id": "fauna:Dugong",
@@ -427,6 +420,13 @@
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Purple Cloth"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Curtain"
 },
 {
 "id": "realia:OliveOil",

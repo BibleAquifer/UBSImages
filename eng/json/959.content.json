@@ -211,13 +211,6 @@
 "preferred_label": "Laurustinus"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
 "id": "flora:Myrtle",
 "type": "flora",
 "confidence": 0.1829,
@@ -225,18 +218,25 @@
 "preferred_label": "Myrtle"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1714,
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "Judah"
+"preferred_label": "Chariot"
 },
 {
-"id": "place:HermonMount",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Mount Hermon"
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "place:Tyre",
@@ -244,6 +244,13 @@
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Tyre"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Judah"
 },
 {
 "id": "keyterm:Perceive",
@@ -260,60 +267,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "person:Hiram",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Hiram"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "The Way"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Solomon"
-},
-{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Rebel"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
 },
 {
 "id": "place:Galilee",
@@ -323,39 +281,53 @@
 "preferred_label": "Galilee"
 },
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Bring Honor and Glory on Oneself"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "The Way"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Solomon"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Mount Hermon"
+},
+{
+"id": "person:Hiram",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Hiram"
+},
+{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.121,
 "match_method": "canonical",
 "preferred_label": "Acacia"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "Cymbals"
-},
-{
-"id": "realia:Beam",
-"type": "realia",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "Beam"
-},
-{
-"id": "realia:Shaker",
-"type": "realia",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "Shaker"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "Floor"
 },
 {
 "id": "realia:Mast",
@@ -372,6 +344,27 @@
 "preferred_label": "Plane Tree"
 },
 {
+"id": "realia:Shaker",
+"type": "realia",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "Shaker"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "Beam"
+},
+{
+"id": "realia:Cymbals",
+"type": "realia",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "Cymbals"
+},
+{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.121,
@@ -386,46 +379,18 @@
 "preferred_label": "Lyre"
 },
 {
-"id": "flora:PineTree",
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "Floor"
+},
+{
+"id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Aleppo Pine"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Drum"
-},
-{
-"id": "realia:Craftsman",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Lute"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "Sandalwood"
 },
 {
 "id": "flora:DatePalm",
@@ -435,11 +400,25 @@
 "preferred_label": "Date Palm"
 },
 {
-"id": "fauna:Stork",
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Aleppo Pine"
+},
+{
+"id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Stork"
+"preferred_label": "Bird"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Brier"
 },
 {
 "id": "flora:OliveTree",
@@ -449,11 +428,32 @@
 "preferred_label": "Olive Tree"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "realia:Drum",
+"type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Sandalwood"
+"preferred_label": "Drum"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Lute"
+},
+{
+"id": "realia:Craftsman",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Craftsman"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Purple Cloth"
 },
 {
 "id": "fauna:WildDonkey",
@@ -470,11 +470,11 @@
 "preferred_label": "Money"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
+"id": "fauna:Stork",
+"type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Purple Cloth"
+"preferred_label": "Stork"
 }
 ]
 }

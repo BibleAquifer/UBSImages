@@ -163,18 +163,18 @@
 "preferred_label": "Líbano"
 },
 {
-"id": "person:Manasseh",
-"type": "person",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Manasés"
-},
-{
 "id": "place:Gilead",
 "type": "place",
 "confidence": 0.39,
 "match_method": "canonical",
 "preferred_label": "Galaad"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Manasés"
 },
 {
 "id": "place:Golan",
@@ -212,18 +212,18 @@
 "preferred_label": "Beser"
 },
 {
+"id": "place:Salecah",
+"type": "place",
+"confidence": 0.255,
+"match_method": "canonical",
+"preferred_label": "Salca"
+},
+{
 "id": "place:Ramoth-gilead",
 "type": "place",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "Galaad"
-},
-{
-"id": "group:Geshur",
-"type": "group",
-"confidence": 0.255,
-"match_method": "canonical",
-"preferred_label": "Gesureos"
 },
 {
 "id": "group:Maacah",
@@ -233,11 +233,18 @@
 "preferred_label": "maacatita"
 },
 {
-"id": "place:Salecah",
-"type": "place",
+"id": "group:Geshur",
+"type": "group",
 "confidence": 0.255,
 "match_method": "canonical",
-"preferred_label": "Salca"
+"preferred_label": "Gesureos"
+},
+{
+"id": "person:Reuben",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Rubén"
 },
 {
 "id": "place:Maacah",
@@ -245,6 +252,13 @@
 "confidence": 0.245,
 "match_method": "canonical",
 "preferred_label": "Maachâ"
+},
+{
+"id": "place:Geshur",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Gessur"
 },
 {
 "id": "person:Gad",
@@ -261,53 +275,11 @@
 "preferred_label": "Rubén"
 },
 {
-"id": "person:Reuben",
-"type": "person",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Rubén"
-},
-{
-"id": "place:Geshur",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Gessur"
-},
-{
-"id": "place:HalakMount",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Halac"
-},
-{
-"id": "place:MizpehValley",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Mizpa"
-},
-{
 "id": "place:LebanonValley",
 "type": "place",
 "confidence": 0.1825,
 "match_method": "canonical",
 "preferred_label": "llanura"
-},
-{
-"id": "place:Aroer.2",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Aroer"
-},
-{
-"id": "place:Amana",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Amana"
 },
 {
 "id": "place:Gebal",
@@ -317,6 +289,27 @@
 "preferred_label": "Gebal"
 },
 {
+"id": "place:Aroer.2",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Aroer"
+},
+{
+"id": "place:MizpehValley",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Mizpa"
+},
+{
+"id": "place:HalakMount",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Halac"
+},
+{
 "id": "group:Gebal",
 "type": "group",
 "confidence": 0.1825,
@@ -324,11 +317,11 @@
 "preferred_label": "gebalitas"
 },
 {
-"id": "person:Jephunneh",
-"type": "person",
-"confidence": 0.1725,
+"id": "place:Amana",
+"type": "place",
+"confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Jephone"
+"preferred_label": "Amana"
 },
 {
 "id": "place:Canaan",
@@ -338,25 +331,11 @@
 "preferred_label": "Cananeo"
 },
 {
-"id": "group:Hivites",
-"type": "group",
+"id": "person:Jephunneh",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Hivites"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "sidonio"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Sidón"
+"preferred_label": "Jephone"
 },
 {
 "id": "group:Levi",
@@ -366,32 +345,46 @@
 "preferred_label": "Levitas"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
+"id": "group:Sidon",
+"type": "group",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "desposeer"
+"preferred_label": "sidonio"
 },
 {
-"id": "person:Gershon",
+"id": "group:Hivites",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Hivites"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "person:Levi.3",
 "type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Gersón"
+"preferred_label": "Levitas"
 },
 {
-"id": "group:Canaan",
-"type": "group",
+"id": "place:Ashtaroth",
+"type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "cananeo"
+"preferred_label": "Astaroth"
 },
 {
-"id": "group:Hittite",
-"type": "group",
+"id": "person:Caleb",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Hitita"
+"preferred_label": "Caleb"
 },
 {
 "id": "person:Israel",
@@ -401,6 +394,20 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "desposeer"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
 "id": "group:Perizzites",
 "type": "group",
 "confidence": 0.1725,
@@ -408,18 +415,39 @@
 "preferred_label": "Perizzites"
 },
 {
-"id": "place:Jerusalem",
+"id": "place:Heshbon",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Hesbón"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "place:Arabah",
+"type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "campiña"
+},
+{
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "cananeo"
+},
+{
+"id": "person:Gershon",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Gersón"
+},
+{
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Seir"
 },
 {
 "id": "person:Sihon",
@@ -436,46 +464,25 @@
 "preferred_label": "Jebusites"
 },
 {
-"id": "place:Jericho",
+"id": "place:Hamath",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Jericó"
+"preferred_label": "Hamath"
 },
 {
-"id": "place:Heshbon",
+"id": "place:Sidon",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Hesbón"
+"preferred_label": "Sidón"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Levitas"
-},
-{
-"id": "place:Arabah",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "campiña"
-},
-{
-"id": "person:Caleb",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Caleb"
+"preferred_label": "Jerusalem"
 },
 {
 "id": "person:Heth",
@@ -485,18 +492,18 @@
 "preferred_label": "Hetheo"
 },
 {
-"id": "place:Ashtaroth",
+"id": "place:Jericho",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Astaroth"
+"preferred_label": "Jericó"
 },
 {
-"id": "place:Seir",
-"type": "place",
+"id": "group:Hittite",
+"type": "group",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Seir"
+"preferred_label": "Hitita"
 },
 {
 "id": "keyterm:Refuge",
@@ -506,11 +513,11 @@
 "preferred_label": "refugio"
 },
 {
-"id": "place:Hamath",
-"type": "place",
-"confidence": 0.1725,
+"id": "flora:Juniper",
+"type": "flora",
+"confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Hamath"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "realia:Mast",
@@ -520,11 +527,11 @@
 "preferred_label": "Mast"
 },
 {
-"id": "flora:Juniper",
+"id": "flora:Cypress",
 "type": "flora",
-"confidence": 0.1225,
+"confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "Cypress"
 },
 {
 "id": "fauna:Lion",
@@ -534,25 +541,11 @@
 "preferred_label": "Lion"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "fauna:Leopard",
+"id": "fauna:WildOx",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Leopard"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Wild Ox"
 },
 {
 "id": "flora:JuniperTree",
@@ -562,18 +555,25 @@
 "preferred_label": "Phoenician Juniper"
 },
 {
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Leopard"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Cedar"
+},
+{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Fir"
-},
-{
-"id": "fauna:WildOx",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Wild Ox"
 },
 {
 "id": "realia:MoltenImage",
@@ -583,11 +583,11 @@
 "preferred_label": "Molten Image"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Cypress"
+"preferred_label": "Cattle"
 }
 ]
 }

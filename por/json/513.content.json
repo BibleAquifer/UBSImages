@@ -918,18 +918,18 @@
 "preferred_label": "Jordan River"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.3122,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.3122,
 "match_method": "canonical",
 "preferred_label": "Moisés"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.3122,
+"match_method": "canonical",
+"preferred_label": "be enticed to serve"
 },
 {
 "id": "keyterm:Love",
@@ -953,8 +953,8 @@
 "preferred_label": "Arnom"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2592,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -967,11 +967,11 @@
 "preferred_label": "Moabe"
 },
 {
-"id": "person:Joshua.2",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2592,
 "match_method": "canonical",
-"preferred_label": "Josué"
+"preferred_label": "Judá"
 },
 {
 "id": "keyterm:Dispossess",
@@ -981,11 +981,11 @@
 "preferred_label": "dispossess"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Joshua.2",
+"type": "person",
 "confidence": 0.2592,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Josué"
 },
 {
 "id": "realia:House",
@@ -995,13 +995,6 @@
 "preferred_label": "House"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.2075,
-"match_method": "canonical",
-"preferred_label": "Libano"
-},
-{
 "id": "place:GreatSea",
 "type": "place",
 "confidence": 0.2075,
@@ -1009,46 +1002,18 @@
 "preferred_label": "Mar Mediterrâneo"
 },
 {
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "perceive"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "pure"
-},
-{
-"id": "place:Jerusalem",
+"id": "place:Lebanon",
 "type": "place",
-"confidence": 0.2061,
+"confidence": 0.2075,
 "match_method": "canonical",
-"preferred_label": "Jerusalém"
+"preferred_label": "Libano"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2061,
 "match_method": "canonical",
-"preferred_label": "fear"
-},
-{
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Arabá"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Glory"
 },
 {
 "id": "keyterm:Ardour",
@@ -1065,34 +1030,6 @@
 "preferred_label": "Ability"
 },
 {
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Zebulom"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Benjamim"
-},
-{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.2061,
@@ -1100,11 +1037,74 @@
 "preferred_label": "Betel"
 },
 {
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "perceive"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Basã"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "pure"
+},
+{
 "id": "place:HermonMount",
 "type": "place",
 "confidence": 0.2061,
 "match_method": "canonical",
 "preferred_label": "Monte Hermom"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Gibeah"
+},
+{
+"id": "place:Arabah",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Arabá"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Zebulom"
+},
+{
+"id": "group:Zebulun",
+"type": "group",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Zebulom"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Benjamim"
 }
 ]
 }

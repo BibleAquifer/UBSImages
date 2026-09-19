@@ -88,13 +88,6 @@
 "preferred_label": "Sling"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3727,
@@ -109,18 +102,18 @@
 "preferred_label": "Philistia"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2818,
 "match_method": "canonical",
 "preferred_label": "दाऊद"
-},
-{
-"id": "person:Uzziah",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "उज्जियाह"
 },
 {
 "id": "keyterm:Glory",
@@ -130,6 +123,13 @@
 "preferred_label": "Glory"
 },
 {
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Stupid"
+},
+{
 "id": "place:Kir",
 "type": "place",
 "confidence": 0.1909,
@@ -137,11 +137,18 @@
 "preferred_label": "कीर"
 },
 {
-"id": "keyterm:Stupid",
-"type": "keyterm",
+"id": "person:Uzziah",
+"type": "person",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Stupid"
+"preferred_label": "उज्जियाह"
+},
+{
+"id": "realia:Pouch",
+"type": "realia",
+"confidence": 0.1491,
+"match_method": "canonical",
+"preferred_label": "Pouch"
 },
 {
 "id": "flora:Rush",
@@ -158,74 +165,11 @@
 "preferred_label": "Breastplate"
 },
 {
-"id": "realia:Pouch",
-"type": "realia",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "Pouch"
-},
-{
-"id": "realia:SmallShield",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Spear"
-},
-{
-"id": "realia:CookingPot",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Cooking Pot"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Wine"
 },
 {
 "id": "fauna:Goat",
@@ -235,18 +179,11 @@
 "preferred_label": "Goat"
 },
 {
-"id": "realia:Helmet",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Helmet"
-},
-{
-"id": "realia:Bag",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Bag"
+"preferred_label": "Bow"
 },
 {
 "id": "realia:TempleAltar",
@@ -256,11 +193,39 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Spear",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "Spear"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
+"id": "realia:CookingPot",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Cooking Pot"
+},
+{
+"id": "realia:Bag",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Bag"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "realia:StoneAltar",
@@ -270,18 +235,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:Rod",
-"type": "realia",
+"id": "fauna:Flock",
+"type": "fauna",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "Flock"
 },
 {
 "id": "realia:Staff",
@@ -289,6 +247,48 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Staff"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Sword"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Small Shield"
+},
+{
+"id": "realia:Helmet",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Helmet"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Sheep"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Rod"
 }
 ]
 }

@@ -81,13 +81,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.5355,
-"match_method": "canonical",
-"preferred_label": "Threshing-Sledge"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.5355,
@@ -95,18 +88,18 @@
 "preferred_label": "Grain"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.5355,
+"match_method": "canonical",
+"preferred_label": "Threshing-Sledge"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "Tuhan"
-},
-{
-"id": "person:Ornan",
-"type": "person",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Ornan"
 },
 {
 "id": "person:David",
@@ -121,6 +114,13 @@
 "confidence": 0.2818,
 "match_method": "canonical",
 "preferred_label": "persembahan"
+},
+{
+"id": "person:Ornan",
+"type": "person",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Ornan"
 },
 {
 "id": "flora:Wheat",
@@ -144,20 +144,6 @@
 "preferred_label": "Wagon"
 },
 {
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Abiezer"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Abiezrites"
-},
-{
 "id": "person:Joash",
 "type": "person",
 "confidence": 0.2091,
@@ -172,11 +158,11 @@
 "preferred_label": "Mesir"
 },
 {
-"id": "place:Ophrah.2",
-"type": "place",
+"id": "group:Abiezer",
+"type": "group",
 "confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "Ofra"
+"preferred_label": "Abiezrites"
 },
 {
 "id": "person:Gideon",
@@ -186,25 +172,18 @@
 "preferred_label": "Gideon"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "place:Euphrates",
+"id": "place:Ophrah.2",
 "type": "place",
-"confidence": 0.1909,
+"confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "Efrat"
+"preferred_label": "Ofra"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1909,
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "memberontak"
+"preferred_label": "Abiezer"
 },
 {
 "id": "place:Gilead",
@@ -214,13 +193,6 @@
 "preferred_label": "Gilead"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Midian"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.1909,
@@ -228,11 +200,39 @@
 "preferred_label": "An Angel"
 },
 {
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Efrat"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Midian"
+},
+{
 "id": "place:Damascus",
 "type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Damsyik"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "memberontak"
 },
 {
 "id": "flora:NutmegFlower",
@@ -249,11 +249,25 @@
 "preferred_label": "Cumin"
 },
 {
-"id": "flora:Terebinth",
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Ephah"
+},
+{
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Staff"
 },
 {
 "id": "flora:Barley",
@@ -270,20 +284,6 @@
 "preferred_label": "Winepress"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1309,
@@ -291,11 +291,11 @@
 "preferred_label": "Rod"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
+"id": "flora:Terebinth",
+"type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "Terebinth"
 }
 ]
 }

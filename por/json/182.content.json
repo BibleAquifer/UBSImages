@@ -237,13 +237,6 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "realia:Myrrh",
-"type": "realia",
-"confidence": 0.1878,
-"match_method": "canonical",
-"preferred_label": "Myrrh"
-},
-{
 "id": "flora:Calamus",
 "type": "flora",
 "confidence": 0.1878,
@@ -258,11 +251,11 @@
 "preferred_label": "Cinnamon"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1791,
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1878,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Myrrh"
 },
 {
 "id": "realia:Wine",
@@ -279,11 +272,11 @@
 "preferred_label": "Ephah"
 },
 {
-"id": "realia:Incense",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "Incense"
+"preferred_label": "Vine"
 },
 {
 "id": "flora:BalsamTree",
@@ -291,6 +284,13 @@
 "confidence": 0.1791,
 "match_method": "canonical",
 "preferred_label": "Balsam Tree"
+},
+{
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1791,
+"match_method": "canonical",
+"preferred_label": "Incense"
 },
 {
 "id": "place:Ephah",
@@ -314,53 +314,18 @@
 "preferred_label": "Pleasing Odor"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "Judá"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "corpo"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "ardour"
-},
-{
-"id": "place:Shechem",
+"id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Siquém"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "pure"
+"preferred_label": "Sefalá"
 },
 {
 "id": "person:Benjamin",
@@ -370,15 +335,57 @@
 "preferred_label": "Benjamim"
 },
 {
-"id": "place:Jerusalem",
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "praise"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Levi"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "be enticed to serve"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "ardour"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Benjamim"
+},
+{
+"id": "place:Midian",
 "type": "place",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Jerusalém"
+"preferred_label": "Midiã"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Delight",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "delight"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -391,32 +398,11 @@
 "preferred_label": "Siló"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "mischief"
-},
-{
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "delight"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "praise"
+"preferred_label": "Levi"
 },
 {
 "id": "keyterm:Bless",
@@ -426,18 +412,11 @@
 "preferred_label": "bless"
 },
 {
-"id": "person:Mary",
-"type": "person",
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Maria"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "corpo"
 },
 {
 "id": "keyterm:DetestedThing",
@@ -447,18 +426,11 @@
 "preferred_label": "abomination"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
+"id": "place:Samaria",
+"type": "place",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Samaria"
 },
 {
 "id": "person:Aaron",
@@ -468,11 +440,39 @@
 "preferred_label": "Arão"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Benjamim"
+"preferred_label": "being honor and glory on oneself"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "pure"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "mischief"
+},
+{
+"id": "person:Mary",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Maria"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Jerusalém"
 },
 {
 "id": "place:Negeb",
@@ -482,18 +482,25 @@
 "preferred_label": "Neguebe"
 },
 {
-"id": "place:Shephelah",
+"id": "place:Shechem",
 "type": "place",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Sefalá"
+"preferred_label": "Siquém"
 },
 {
-"id": "place:Midian",
-"type": "place",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Midiã"
+"preferred_label": "To Sin"
+},
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.1183,
+"match_method": "canonical",
+"preferred_label": "Dove"
 },
 {
 "id": "realia:MoneyBox",
@@ -510,18 +517,18 @@
 "preferred_label": "Saffron Plant"
 },
 {
-"id": "flora:Liquidambar",
-"type": "flora",
-"confidence": 0.1183,
-"match_method": "canonical",
-"preferred_label": "Liquidambar"
-},
-{
 "id": "flora:Fennel",
 "type": "flora",
 "confidence": 0.1183,
 "match_method": "canonical",
 "preferred_label": "Fennel"
+},
+{
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.1183,
+"match_method": "canonical",
+"preferred_label": "Liquidambar"
 },
 {
 "id": "fauna:Onycha",
@@ -531,25 +538,11 @@
 "preferred_label": "Onycha"
 },
 {
-"id": "fauna:Dove",
+"id": "fauna:Dog",
 "type": "fauna",
-"confidence": 0.1183,
-"match_method": "canonical",
-"preferred_label": "Dove"
-},
-{
-"id": "realia:Must",
-"type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "flora:Agarwood",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Agarwood"
+"preferred_label": "Dog"
 },
 {
 "id": "flora:Nard",
@@ -559,11 +552,11 @@
 "preferred_label": "Nard"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
+"id": "realia:TempleAltar",
+"type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "flora:Grain",
@@ -573,18 +566,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Camel",
+"type": "fauna",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Camel"
 },
 {
 "id": "realia:Altar",
@@ -594,53 +580,11 @@
 "preferred_label": "Altar"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "fauna:Dog",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Dog"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Jackal"
 },
 {
 "id": "realia:StoneAltar",
@@ -650,11 +594,60 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:Wagon",
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Jackal"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Mule"
+},
+{
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Wagon"
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "flora:Agarwood",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Agarwood"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Must"
 },
 {
 "id": "fauna:Pig",
@@ -664,11 +657,18 @@
 "preferred_label": "Pig"
 },
 {
-"id": "fauna:Camel",
+"id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "Horse"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Wagon"
 }
 ]
 }

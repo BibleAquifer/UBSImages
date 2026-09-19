@@ -199,11 +199,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "fauna:Flock",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Goat"
 },
 {
 "id": "flora:Vine",
@@ -213,11 +213,11 @@
 "preferred_label": "Vine"
 },
 {
-"id": "fauna:Goat",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Flock"
 },
 {
 "id": "person:Israel",
@@ -227,18 +227,18 @@
 "preferred_label": "Israël"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "jurer"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "benir"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "jurer"
 },
 {
 "id": "flora:Grain",
@@ -255,6 +255,13 @@
 "preferred_label": "ruisselant"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
 "id": "place:Paran",
 "type": "place",
 "confidence": 0.175,
@@ -269,32 +276,11 @@
 "preferred_label": "Kadès-Barnéa"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Must"
-},
-{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "House"
 },
 {
 "id": "flora:OliveTree",
@@ -311,11 +297,25 @@
 "preferred_label": "Mule"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "Grass"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Must"
 },
 {
 "id": "realia:OliveOil",
@@ -325,48 +325,6 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Babylone"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "laissiez en possession"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Moïse"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "déposséder"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "aimer"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "securité"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1673,
@@ -374,25 +332,11 @@
 "preferred_label": "gloire"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
+"id": "place:Babylon",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "pleurer"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Caïn"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Aaron"
+"preferred_label": "Babylone"
 },
 {
 "id": "keyterm:Defilement",
@@ -402,11 +346,67 @@
 "preferred_label": "pollution"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Moïse"
+},
+{
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Caïn"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "déposséder"
+},
+{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Liban"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "pleurer"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "securité"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "aimer"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "laissiez en possession"
 },
 {
 "id": "flora:Lentil",
@@ -416,13 +416,6 @@
 "preferred_label": "Lentil"
 },
 {
-"id": "flora:Bean",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Bean"
-},
-{
 "id": "flora:Millet",
 "type": "flora",
 "confidence": 0.115,
@@ -430,18 +423,11 @@
 "preferred_label": "Millet"
 },
 {
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "flora:Barley",
+"id": "flora:Bean",
 "type": "flora",
-"confidence": 0.1073,
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "Bean"
 },
 {
 "id": "fauna:Locust",
@@ -451,11 +437,25 @@
 "preferred_label": "Locust"
 },
 {
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Basket"
+},
+{
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Image"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Barley"
 }
 ]
 }

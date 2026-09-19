@@ -100,6 +100,13 @@
 "preferred_label": "Lampstand"
 },
 {
+"id": "person:James",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "James"
+},
+{
 "id": "person:Zebedee",
 "type": "person",
 "confidence": 0.2,
@@ -114,32 +121,11 @@
 "preferred_label": "John"
 },
 {
-"id": "person:James",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
-"id": "group:GenericPriests",
-"type": "group",
+"id": "keyterm:Pray",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Priests"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Elders"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Religious Officials"
+"preferred_label": "Pray"
 },
 {
 "id": "keyterm:Ability",
@@ -149,46 +135,11 @@
 "preferred_label": "Ability"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "group:ReligiousOfficials",
+"type": "group",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Holy Spirit"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:FellowshipMeal",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Fellowship Meal"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Beloved"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Religious Officials"
 },
 {
 "id": "keyterm:Holy",
@@ -198,11 +149,39 @@
 "preferred_label": "Holy"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Elders"
+},
+{
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Authority"
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Beloved"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Holy Spirit"
+},
+{
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Priests"
 },
 {
 "id": "person:Jesus.2",
@@ -212,39 +191,25 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.1246,
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "Always"
 },
 {
-"id": "realia:Lamp",
-"type": "realia",
-"confidence": 0.1246,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Lamp"
+"preferred_label": "Authority"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1246,
+"id": "keyterm:FellowshipMeal",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Casting Net"
+"preferred_label": "Fellowship Meal"
 },
 {
 "id": "fauna:Goat",
@@ -254,13 +219,6 @@
 "preferred_label": "Goat"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
 "id": "realia:Fishnet",
 "type": "realia",
 "confidence": 0.1246,
@@ -268,11 +226,53 @@
 "preferred_label": "Fishnet"
 },
 {
+"id": "realia:Lamp",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Lamp"
+},
+{
 "id": "realia:Throne",
 "type": "realia",
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Throne"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Ship"
+},
+{
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Casting Net"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Bed"
 }
 ]
 }

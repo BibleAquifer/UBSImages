@@ -149,18 +149,18 @@
 "preferred_label": "Acaya"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
 "id": "person:Paul",
 "type": "person",
 "confidence": 0.39,
 "match_method": "canonical",
 "preferred_label": "Pablo"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "rogar"
 },
 {
 "id": "deity:Lord",
@@ -177,6 +177,20 @@
 "preferred_label": "Filipos"
 },
 {
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Roma"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
 "id": "person:Timothy",
 "type": "person",
 "confidence": 0.245,
@@ -189,27 +203,6 @@
 "confidence": 0.245,
 "match_method": "canonical",
 "preferred_label": "creer"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "espíritu"
 },
 {
 "id": "keyterm:Church",
@@ -226,13 +219,6 @@
 "preferred_label": "buena noticia"
 },
 {
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Roma"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.245,
@@ -240,11 +226,25 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "group:Philippi",
-"type": "group",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "espíritu"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Share",
+"type": "keyterm",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "filipense"
+"preferred_label": "compartir"
 },
 {
 "id": "place:Asia",
@@ -261,11 +261,11 @@
 "preferred_label": "Erasto"
 },
 {
-"id": "keyterm:Share",
-"type": "keyterm",
+"id": "group:Philippi",
+"type": "group",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "compartir"
+"preferred_label": "filipense"
 },
 {
 "id": "person:Titus",
@@ -273,76 +273,6 @@
 "confidence": 0.1825,
 "match_method": "canonical",
 "preferred_label": "Tito"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "comunión"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "favor"
-},
-{
-"id": "place:Ephesus",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Efesios"
-},
-{
-"id": "keyterm:Encourage",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "exhortar"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "keyterm:Declare",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "testificar solemnemente"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Judíos"
-},
-{
-"id": "person:Silas",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Silas"
 },
 {
 "id": "keyterm:Holy",
@@ -357,6 +287,76 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "exhortar"
+},
+{
+"id": "place:Ephesus",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Efesios"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Judíos"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "person:Silas",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Silas"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "temer"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "favor"
+},
+{
+"id": "keyterm:Declare",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "testificar solemnemente"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "comunión"
 }
 ]
 }

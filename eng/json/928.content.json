@@ -175,18 +175,18 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2409,
 "match_method": "canonical",
 "preferred_label": "Name"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:CourtCase",
@@ -196,34 +196,6 @@
 "preferred_label": "Court Case"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "To Dishonor"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Blaspheme"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Sabbath"
-},
-{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -231,11 +203,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:Lawful",
+"type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Be Lawful"
 },
 {
 "id": "keyterm:Believe",
@@ -245,11 +217,32 @@
 "preferred_label": "Believe"
 },
 {
-"id": "keyterm:Love",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Body"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Tribe of Ephraim"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "To Dishonor"
 },
 {
 "id": "place:Samaria",
@@ -259,25 +252,11 @@
 "preferred_label": "Samaria"
 },
 {
-"id": "person:Ephraim",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Ephraim"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
-"id": "keyterm:Lawful",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Be Lawful"
+"preferred_label": "Jesus"
 },
 {
 "id": "person:David",
@@ -294,11 +273,25 @@
 "preferred_label": "Offering"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "keyterm:Love",
+"type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Tribe of Ephraim"
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Blaspheme"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Sabbath"
 },
 {
 "id": "person:Peter",
@@ -308,11 +301,18 @@
 "preferred_label": "Peter"
 },
 {
-"id": "person:Jesus.2",
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
+"id": "person:Ephraim",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "Ephraim"
 },
 {
 "id": "realia:Foundation",
@@ -329,39 +329,11 @@
 "preferred_label": "Stone Plane"
 },
 {
-"id": "realia:Container",
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Container"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Wine"
 },
 {
 "id": "realia:TempleAltar",
@@ -371,11 +343,18 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "Altar"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "realia:StoneAltar",
@@ -383,6 +362,27 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:Container",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Container"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Cubit"
 }
 ]
 }

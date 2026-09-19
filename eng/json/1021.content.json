@@ -293,13 +293,6 @@
 "preferred_label": "Reed"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2865,
@@ -307,18 +300,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.2265,
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Instruction"
 },
 {
 "id": "realia:TempleAltar",
@@ -328,6 +314,13 @@
 "preferred_label": "Temple Altar"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.2265,
@@ -335,11 +328,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2243,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -347,6 +340,13 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Slaughtering"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "keyterm:Stubborn",
@@ -370,11 +370,11 @@
 "preferred_label": "Handbreadth"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
+"id": "group:Levi",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "To Dishonor"
+"preferred_label": "Tribe of Levi"
 },
 {
 "id": "keyterm:Ardour",
@@ -384,11 +384,25 @@
 "preferred_label": "Passion"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Tribe of Levi"
+"preferred_label": "Appease"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Levi"
+},
+{
+"id": "keyterm:UncircumcisedPerson",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Uncircumcised Person"
 },
 {
 "id": "person:Israel",
@@ -398,11 +412,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Appease",
+"id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Appease"
+"preferred_label": "To Dishonor"
 },
 {
 "id": "keyterm:Covenant",
@@ -410,13 +424,6 @@
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Covenant"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
 },
 {
 "id": "keyterm:SimplePerson",
@@ -433,11 +440,11 @@
 "preferred_label": "Work"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1622,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Levi"
+"preferred_label": "Lion"
 },
 {
 "id": "realia:Foundation",
@@ -447,18 +454,25 @@
 "preferred_label": "Foundation"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Lion"
-},
-{
 "id": "realia:Entrance",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Entrance"
+},
+{
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Doorstep"
+},
+{
+"id": "realia:Window",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Window"
 },
 {
 "id": "fauna:Bull",
@@ -473,20 +487,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Doorpost"
-},
-{
-"id": "realia:Window",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Window"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Doorstep"
 }
 ]
 }

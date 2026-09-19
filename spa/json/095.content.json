@@ -271,11 +271,11 @@
 "preferred_label": "Cobra"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.229,
 "match_method": "canonical",
-"preferred_label": "señal"
+"preferred_label": "An Angel"
 },
 {
 "id": "person:Pharaoh.6",
@@ -283,6 +283,20 @@
 "confidence": 0.229,
 "match_method": "canonical",
 "preferred_label": "Faraón"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.229,
+"match_method": "canonical",
+"preferred_label": "Satanás"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.229,
+"match_method": "canonical",
+"preferred_label": "autoridad"
 },
 {
 "id": "place:Egypt",
@@ -299,25 +313,11 @@
 "preferred_label": "Hophra"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.229,
-"match_method": "canonical",
-"preferred_label": "Satanás"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.229,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Authority.2",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.229,
 "match_method": "canonical",
-"preferred_label": "autoridad"
+"preferred_label": "señal"
 },
 {
 "id": "keyterm:Kind.2",
@@ -341,39 +341,18 @@
 "preferred_label": "Viper"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Filisteos"
+},
+{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.1645,
 "match_method": "canonical",
 "preferred_label": "Babilonia"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "postrarse"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Utterance"
 },
 {
 "id": "person:Nebuchadnezzar",
@@ -383,25 +362,25 @@
 "preferred_label": "Nabucodonosor"
 },
 {
-"id": "keyterm:Lamentation",
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "lamentación"
+"preferred_label": "postrarse"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Filisteos"
-},
-{
-"id": "keyterm:BearWitness",
+"id": "keyterm:Utterance",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "dar testimonio"
+"preferred_label": "Utterance"
 },
 {
 "id": "keyterm:Curse",
@@ -411,11 +390,25 @@
 "preferred_label": "juramento"
 },
 {
-"id": "keyterm:Commandment",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Jesús"
+},
+{
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "mandamiento"
+"preferred_label": "Appoint"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "dar testimonio"
 },
 {
 "id": "place:Negeb",
@@ -432,18 +425,18 @@
 "preferred_label": "río"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Commandment",
+"type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "mandamiento"
 },
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.111,
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "lamentación"
 },
 {
 "id": "fauna:Leopard",
@@ -453,13 +446,6 @@
 "preferred_label": "Leopard"
 },
 {
-"id": "fauna:Frog",
-"type": "fauna",
-"confidence": 0.111,
-"match_method": "canonical",
-"preferred_label": "Frog"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.111,
@@ -467,32 +453,18 @@
 "preferred_label": "Bear"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Hyena"
-},
-{
-"id": "realia:Sword",
+"id": "realia:Ship",
 "type": "realia",
-"confidence": 0.1045,
+"confidence": 0.111,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Ship"
+},
+{
+"id": "fauna:Frog",
+"type": "fauna",
+"confidence": 0.111,
+"match_method": "canonical",
+"preferred_label": "Frog"
 },
 {
 "id": "realia:Wine",
@@ -502,11 +474,25 @@
 "preferred_label": "Wine"
 },
 {
-"id": "realia:Crown",
-"type": "realia",
+"id": "fauna:Hyena",
+"type": "fauna",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Crown"
+"preferred_label": "Hyena"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Camel"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "fauna:Donkey",
@@ -516,11 +502,25 @@
 "preferred_label": "Donkey"
 },
 {
-"id": "fauna:Camel",
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Crown"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Sword"
+},
+{
+"id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "Sheep"
 }
 ]
 }

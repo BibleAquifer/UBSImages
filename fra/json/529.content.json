@@ -352,18 +352,18 @@
 "preferred_label": "Whip"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2781,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
 "id": "person:Nebuchadnezzar",
 "type": "person",
 "confidence": 0.2781,
 "match_method": "canonical",
 "preferred_label": "Nebucadnetsar"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Israël"
 },
 {
 "id": "person:Jeremiah.6",
@@ -373,11 +373,25 @@
 "preferred_label": "Jérémie"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
 "preferred_label": "Juda"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "juste"
 },
 {
 "id": "place:Egypt",
@@ -387,20 +401,6 @@
 "preferred_label": "Égypte"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "avis"
-},
-{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.2188,
@@ -408,11 +408,11 @@
 "preferred_label": "travil"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "juste"
+"preferred_label": "avis"
 },
 {
 "id": "fauna:Bull",
@@ -429,67 +429,11 @@
 "preferred_label": "Tachpanès"
 },
 {
-"id": "keyterm:Slavery",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "esclavage"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "fraternité"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "charger"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "laissiez en possession"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "coeur"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Assyria"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
 "preferred_label": "force"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "être juste"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "parler contre dieu"
 },
 {
 "id": "person:Jehoiachin",
@@ -499,25 +443,95 @@
 "preferred_label": "Jojakin"
 },
 {
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:UnequallyYoked",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "être désuni"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "trans. faire un disciple de"
+},
+{
+"id": "keyterm:Slavery",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "esclavage"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Assyria"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "coeur"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "securité"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "être juste"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "être infidèle"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "corruption morale"
+},
+{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
 "preferred_label": "le bien"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "person:Zedekiah.3",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Sédécias"
 },
 {
 "id": "keyterm:Partnership",
@@ -534,6 +548,20 @@
 "preferred_label": "parole du seigneur"
 },
 {
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "autorité"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "charger"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1594,
@@ -541,11 +569,18 @@
 "preferred_label": "aimer"
 },
 {
-"id": "keyterm:Unfaithful",
+"id": "person:Zedekiah.3",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Sédécias"
+},
+{
+"id": "keyterm:Blaspheme",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "être infidèle"
+"preferred_label": "parler contre dieu"
 },
 {
 "id": "keyterm:TheWay",
@@ -555,25 +590,11 @@
 "preferred_label": "chemin"
 },
 {
-"id": "keyterm:Safety",
-"type": "keyterm",
+"id": "group:Assyria",
+"type": "group",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "securité"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "corruption morale"
-},
-{
-"id": "keyterm:UnequallyYoked",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "être désuni"
+"preferred_label": "Assour"
 },
 {
 "id": "keyterm:Mischief",
@@ -583,6 +604,13 @@
 "preferred_label": "méchanceté"
 },
 {
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Instruction"
+},
+{
 "id": "person:Jehoiakim",
 "type": "person",
 "confidence": 0.1594,
@@ -590,46 +618,18 @@
 "preferred_label": "Jojakim"
 },
 {
-"id": "keyterm:Rebel",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "se rebeller"
+"preferred_label": "laissiez en possession"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:Fellowship",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "nom"
-},
-{
-"id": "group:Assyria",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Assour"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "autorité"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Jésus"
+"preferred_label": "fraternité"
 },
 {
 "id": "realia:Wagon",
@@ -646,18 +646,11 @@
 "preferred_label": "Rope"
 },
 {
-"id": "realia:Sword",
+"id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Molten Image"
 },
 {
 "id": "flora:Pine",
@@ -667,11 +660,18 @@
 "preferred_label": "Stone Pine"
 },
 {
-"id": "realia:MoltenImage",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "House"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }

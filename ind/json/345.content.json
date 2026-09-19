@@ -332,11 +332,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "Roh"
+"preferred_label": "Gentiles"
 },
 {
 "id": "keyterm:Life",
@@ -344,6 +344,13 @@
 "confidence": 0.2191,
 "match_method": "canonical",
 "preferred_label": "kehidupan"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "Roh"
 },
 {
 "id": "place:Jerusalem",
@@ -360,13 +367,6 @@
 "preferred_label": "Yerikho"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Gentiles"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.2191,
@@ -381,39 +381,11 @@
 "preferred_label": "Temple"
 },
 {
-"id": "keyterm:DemonPossessed",
-"type": "keyterm",
-"confidence": 0.1638,
-"match_method": "canonical",
-"preferred_label": "kerasukan setan"
-},
-{
-"id": "person:Ananias.2",
-"type": "person",
-"confidence": 0.1638,
-"match_method": "canonical",
-"preferred_label": "Ananias"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1638,
-"match_method": "canonical",
-"preferred_label": "Efrat"
-},
-{
 "id": "place:Gaza",
 "type": "place",
 "confidence": 0.1638,
 "match_method": "canonical",
 "preferred_label": "Gaza"
-},
-{
-"id": "person:Rahab",
-"type": "person",
-"confidence": 0.1638,
-"match_method": "canonical",
-"preferred_label": "Rahab"
 },
 {
 "id": "person:Timaeus",
@@ -423,6 +395,20 @@
 "preferred_label": "Timeus"
 },
 {
+"id": "keyterm:Destroy",
+"type": "keyterm",
+"confidence": 0.1638,
+"match_method": "canonical",
+"preferred_label": "menghancurkan"
+},
+{
+"id": "person:Rahab",
+"type": "person",
+"confidence": 0.1638,
+"match_method": "canonical",
+"preferred_label": "Rahab"
+},
+{
 "id": "person:Bartimaeus",
 "type": "person",
 "confidence": 0.1638,
@@ -430,11 +416,46 @@
 "preferred_label": "Bartimeus"
 },
 {
-"id": "keyterm:Destroy",
+"id": "person:Ananias.2",
+"type": "person",
+"confidence": 0.1638,
+"match_method": "canonical",
+"preferred_label": "Ananias"
+},
+{
+"id": "keyterm:DemonPossessed",
 "type": "keyterm",
 "confidence": 0.1638,
 "match_method": "canonical",
-"preferred_label": "menghancurkan"
+"preferred_label": "kerasukan setan"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1638,
+"match_method": "canonical",
+"preferred_label": "Efrat"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "keahlian"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "menjadi murid"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Yordan"
 },
 {
 "id": "keyterm:Surely",
@@ -444,53 +465,11 @@
 "preferred_label": "amin!"
 },
 {
-"id": "keyterm:Friendship",
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "persahabatan"
-},
-{
-"id": "group:Samaritan",
-"type": "group",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Samaritans"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "kebaikan"
-},
-{
-"id": "person:Thomas",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Tomas"
-},
-{
-"id": "person:Herod",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Herodes"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "selama, lamanya"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Paulus"
+"preferred_label": "sorga"
 },
 {
 "id": "person:David",
@@ -507,132 +486,6 @@
 "preferred_label": "Barnabas"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "place:Gerasa",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Gerasa"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Petrus"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Yordan"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "baptisan"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "keahlian"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "percaya"
-},
-{
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Zebulon"
-},
-{
-"id": "person:Philip.4",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Filipus"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "keselamatan"
-},
-{
-"id": "person:Naphtali",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Naftali"
-},
-{
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "kudus"
-},
-{
-"id": "keyterm:Clean",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "suci"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Galilea"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "kerajaan"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "tubuh"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Mesir"
-},
-{
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.1596,
@@ -640,39 +493,11 @@
 "preferred_label": "yang baik"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "keyterm:Heaven",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "sorga"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Sodom"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Damsyik"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "berdoa"
+"preferred_label": "kebaikan"
 },
 {
 "id": "keyterm:Mercy",
@@ -682,39 +507,32 @@
 "preferred_label": "belas kasihan"
 },
 {
-"id": "group:Zebulun",
-"type": "group",
+"id": "keyterm:Friendship",
+"type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Zebulon"
+"preferred_label": "persahabatan"
 },
 {
-"id": "person:GenericOfficial",
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "percaya"
+},
+{
+"id": "person:Naphtali",
 "type": "person",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Public Official"
+"preferred_label": "Naftali"
 },
 {
-"id": "deity:Satan",
-"type": "deity",
+"id": "place:Samaria",
+"type": "place",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Iblis"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "nama"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "menjadi murid"
+"preferred_label": "Samaria"
 },
 {
 "id": "keyterm:Authority.2",
@@ -724,18 +542,200 @@
 "preferred_label": "kekuasaan"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Mesir"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Zebulon"
+},
+{
+"id": "group:Zebulun",
+"type": "group",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Zebulon"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Paulus"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "nama"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Damsyik"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "tubuh"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "suci"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Iblis"
+},
+{
+"id": "person:Philip.4",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Filipus"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "selama, lamanya"
+},
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Sodom"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Petrus"
+},
+{
+"id": "place:Gerasa",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Gerasa"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "berdoa"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "baptisan"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "khusus"
+},
+{
+"id": "person:Thomas",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Tomas"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "keselamatan"
+},
+{
+"id": "person:Herod",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Herodes"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Galilea"
+},
+{
+"id": "group:Samaritan",
+"type": "group",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Samaritans"
+},
+{
+"id": "person:GenericOfficial",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Public Official"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "kerajaan"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "Rooster"
+},
+{
 "id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.1591,
 "match_method": "canonical",
 "preferred_label": "Bird"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1591,
-"match_method": "canonical",
-"preferred_label": "House"
 },
 {
 "id": "realia:Clothing",
@@ -745,11 +745,11 @@
 "preferred_label": "Clothing"
 },
 {
-"id": "fauna:Rooster",
-"type": "fauna",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
-"preferred_label": "Rooster"
+"preferred_label": "House"
 },
 {
 "id": "realia:Curtain",
@@ -773,6 +773,41 @@
 "preferred_label": "Rush"
 },
 {
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Grain"
+},
+{
+"id": "realia:TheHolyPlace",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "The Holy Place"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Scroll"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Cloak"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Bed"
+},
+{
 "id": "realia:Cornerstone",
 "type": "realia",
 "confidence": 0.0996,
@@ -794,11 +829,11 @@
 "preferred_label": "Synagogue"
 },
 {
-"id": "realia:TheHolyPlace",
+"id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "The Holy Place"
+"preferred_label": "Bowl"
 },
 {
 "id": "flora:Barley",
@@ -827,41 +862,6 @@
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "Cross"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:Bowl.2",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Bowl"
 }
 ]
 }

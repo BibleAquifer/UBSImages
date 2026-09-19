@@ -2030,18 +2030,18 @@
 "preferred_label": "persembahan"
 },
 {
-"id": "place:WaterGate",
-"type": "place",
-"confidence": 0.3594,
-"match_method": "canonical",
-"preferred_label": "Air"
-},
-{
 "id": "place:CornerGate",
 "type": "place",
 "confidence": 0.3594,
 "match_method": "canonical",
 "preferred_label": "Gerbang"
+},
+{
+"id": "place:WaterGate",
+"type": "place",
+"confidence": 0.3594,
+"match_method": "canonical",
+"preferred_label": "Air"
 },
 {
 "id": "keyterm:Bless",
@@ -2051,13 +2051,6 @@
 "preferred_label": "memberkati"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.357,
@@ -2065,11 +2058,18 @@
 "preferred_label": "kemuliaan"
 },
 {
-"id": "place:Philistine",
-"type": "place",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Filistin"
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "khusus"
 },
 {
 "id": "place:Bethlehem",
@@ -2079,11 +2079,11 @@
 "preferred_label": "Betlehem"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "khusus"
+"preferred_label": "Filistin"
 },
 {
 "id": "realia:House",
@@ -2107,13 +2107,6 @@
 "preferred_label": "Cubit"
 },
 {
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Ikan"
-},
-{
 "id": "place:ValleyGate",
 "type": "place",
 "confidence": 0.308,
@@ -2121,11 +2114,11 @@
 "preferred_label": "Lebak"
 },
 {
-"id": "place:BenjaminGate",
+"id": "place:FishGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "Benyamin"
+"preferred_label": "Ikan"
 },
 {
 "id": "place:EphraimGate",
@@ -2135,11 +2128,11 @@
 "preferred_label": "Efraim"
 },
 {
-"id": "place:TowerOfHananel",
+"id": "place:BenjaminGate",
 "type": "place",
-"confidence": 0.3074,
+"confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "menara"
+"preferred_label": "Benyamin"
 },
 {
 "id": "place:DungGate",
@@ -2149,11 +2142,11 @@
 "preferred_label": "gerbang"
 },
 {
-"id": "place:Arad",
+"id": "place:TowerOfHananel",
 "type": "place",
-"confidence": 0.3062,
+"confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "Arad"
+"preferred_label": "menara"
 },
 {
 "id": "person:Haman",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "Haman"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "Arad"
 }
 ]
 }

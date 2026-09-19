@@ -21,18 +21,18 @@
 "resource": [],
 "acai": [
 {
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "Cypress"
+},
+{
 "id": "realia:Shaker",
 "type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
 "preferred_label": "Shaker"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Cymbals"
 },
 {
 "id": "realia:Lyre",
@@ -42,11 +42,18 @@
 "preferred_label": "Lyre"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
+"id": "realia:Cymbals",
+"type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Cypress"
+"preferred_label": "Cymbals"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "person:David",
@@ -63,20 +70,6 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.6,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "flora:JuniperTree",
-"type": "flora",
-"confidence": 0.54,
-"match_method": "canonical",
-"preferred_label": "Phoenician Juniper"
-},
-{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.54,
@@ -91,11 +84,11 @@
 "preferred_label": "Grecian Juniper"
 },
 {
-"id": "realia:Lute",
-"type": "realia",
+"id": "flora:JuniperTree",
+"type": "flora",
 "confidence": 0.54,
 "match_method": "canonical",
-"preferred_label": "Lute"
+"preferred_label": "Phoenician Juniper"
 },
 {
 "id": "realia:Drum",
@@ -103,6 +96,13 @@
 "confidence": 0.54,
 "match_method": "canonical",
 "preferred_label": "Drum"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.54,
+"match_method": "canonical",
+"preferred_label": "Lute"
 }
 ]
 }

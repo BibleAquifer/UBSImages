@@ -218,18 +218,11 @@
 "preferred_label": "Elías"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Jesús"
 },
 {
 "id": "person:David",
@@ -246,11 +239,18 @@
 "preferred_label": "Pedro"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "Egipto"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
 },
 {
 "id": "keyterm:FeastOfWeeks",
@@ -267,13 +267,6 @@
 "preferred_label": "Tent"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.1721,
@@ -281,74 +274,11 @@
 "preferred_label": "Unleavened Bread"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1661,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Joab"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "sábado"
-},
-{
-"id": "person:Jonah.2",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Jonás"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Ben-adad"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "person:Nun",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Nun"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "luna nueva"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "arca"
+"preferred_label": "House"
 },
 {
 "id": "group:Judah",
@@ -358,25 +288,32 @@
 "preferred_label": "Judá"
 },
 {
-"id": "person:Uriah",
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "sitio"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "person:Ben-hadad",
 "type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Uría"
+"preferred_label": "Ben-adad"
 },
 {
-"id": "keyterm:Blow",
-"type": "keyterm",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "plaga"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "reunión"
+"preferred_label": "Judá"
 },
 {
 "id": "keyterm:Punishment",
@@ -393,11 +330,46 @@
 "preferred_label": "bendecir"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Jonás"
+},
+{
+"id": "person:Nun",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Nun"
+},
+{
+"id": "keyterm:CovenantBox",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "sitio"
+"preferred_label": "arca"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "luna nueva"
+},
+{
+"id": "person:Uriah",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Uría"
+},
+{
+"id": "keyterm:Blow",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "plaga"
 },
 {
 "id": "keyterm:Offering",
@@ -407,6 +379,20 @@
 "preferred_label": "ofrenda"
 },
 {
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "bondad"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Joab"
+},
+{
 "id": "group:Israel",
 "type": "group",
 "confidence": 0.1661,
@@ -414,11 +400,25 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Kindness",
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "bondad"
+"preferred_label": "sábado"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Instruction"
+},
+{
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "reunión"
 },
 {
 "id": "person:Joshua.2",
@@ -435,13 +435,6 @@
 "preferred_label": "refugio"
 },
 {
-"id": "realia:FestivalOfTheTabernacles",
-"type": "realia",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "Festival of the Tabernacles"
-},
-{
 "id": "flora:Myrtle",
 "type": "flora",
 "confidence": 0.1132,
@@ -456,39 +449,11 @@
 "preferred_label": "Muskmelon"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Aleppo Pine"
-},
-{
-"id": "realia:Fortification",
+"id": "realia:FestivalOfTheTabernacles",
 "type": "realia",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Fortification"
-},
-{
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "Festival of the Tabernacles"
 },
 {
 "id": "flora:DatePalm",
@@ -498,11 +463,46 @@
 "preferred_label": "Date Palm"
 },
 {
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Fortification"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Aleppo Pine"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "Olive Tree"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Ark of the Covenant"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "Winepress"
 },
 {
 "id": "fauna:Moth",

@@ -153,13 +153,6 @@
 "preferred_label": "Clean Out"
 },
 {
-"id": "person:Ornan",
-"type": "person",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "ओर्नान"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2562,
@@ -174,11 +167,11 @@
 "preferred_label": "Offering"
 },
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.2088,
+"id": "person:Ornan",
+"type": "person",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "ओर्नान"
 },
 {
 "id": "realia:WinnowingFork",
@@ -186,6 +179,13 @@
 "confidence": 0.2088,
 "match_method": "canonical",
 "preferred_label": "Winnowing Fork"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.2088,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
 },
 {
 "id": "realia:Barn",
@@ -202,39 +202,11 @@
 "preferred_label": "Wagon"
 },
 {
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "अबीएजेर"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "अबीएजेरी"
-},
-{
 "id": "person:Joash",
 "type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "योआश"
-},
-{
-"id": "place:BrookOfEgypt",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Brook of Egypt"
-},
-{
-"id": "place:Ophrah.2",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "ओप्रा"
 },
 {
 "id": "keyterm:Partake",
@@ -244,6 +216,20 @@
 "preferred_label": "Partake"
 },
 {
+"id": "place:BrookOfEgypt",
+"type": "place",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Brook of Egypt"
+},
+{
+"id": "group:Abiezer",
+"type": "group",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "अबीएजेरी"
+},
+{
 "id": "person:Gideon",
 "type": "person",
 "confidence": 0.1906,
@@ -251,60 +237,18 @@
 "preferred_label": "गिदोन"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Law"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Hope"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Obligated"
-},
-{
-"id": "place:Damascus",
+"id": "place:Ophrah.2",
 "type": "place",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "दमिश्क"
+"preferred_label": "ओप्रा"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1781,
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Euphrates River"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Rebel"
+"preferred_label": "अबीएजेर"
 },
 {
 "id": "place:Gilead",
@@ -314,11 +258,32 @@
 "preferred_label": "गिलाद"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Written"
+"preferred_label": "Hope"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "मूसा"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Euphrates River"
 },
 {
 "id": "place:Midian",
@@ -328,11 +293,46 @@
 "preferred_label": "मिद्यान"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "place:Damascus",
+"type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "दमिश्क"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Rebel"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Obligated"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Law"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Written"
 },
 {
 "id": "flora:NutmegFlower",
@@ -349,11 +349,25 @@
 "preferred_label": "Cumin"
 },
 {
-"id": "flora:Terebinth",
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Ephah"
+},
+{
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Staff"
 },
 {
 "id": "flora:Barley",
@@ -370,20 +384,6 @@
 "preferred_label": "Winepress"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1181,
@@ -391,11 +391,11 @@
 "preferred_label": "Rod"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
+"id": "flora:Terebinth",
+"type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "Terebinth"
 }
 ]
 }

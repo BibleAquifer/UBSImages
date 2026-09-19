@@ -260,18 +260,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3929,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3929,
 "match_method": "canonical",
 "preferred_label": "Temple Altar"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3929,
+"match_method": "canonical",
+"preferred_label": "Altar"
 },
 {
 "id": "realia:StoneAltar",
@@ -302,13 +302,6 @@
 "preferred_label": "Acacia"
 },
 {
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.2914,
-"match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2914,
@@ -316,11 +309,11 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:Stain",
-"type": "keyterm",
-"confidence": 0.2257,
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.2914,
 "match_method": "canonical",
-"preferred_label": "Defile"
+"preferred_label": "Cubit"
 },
 {
 "id": "person:Solomon",
@@ -328,6 +321,13 @@
 "confidence": 0.2257,
 "match_method": "canonical",
 "preferred_label": "Solomon"
+},
+{
+"id": "keyterm:Stain",
+"type": "keyterm",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Defile"
 },
 {
 "id": "realia:Dish",
@@ -344,11 +344,11 @@
 "preferred_label": "Lamp"
 },
 {
-"id": "realia:Curtain",
+"id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "Curtain"
+"preferred_label": "Tent of Meeting"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -358,18 +358,25 @@
 "preferred_label": "Ark of the Covenant"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
 "id": "realia:Jug",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
 "preferred_label": "Jug"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "Curtain"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "keyterm:Dishonor",
@@ -386,18 +393,18 @@
 "preferred_label": "Covenant Box"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Holy"
 },
 {
 "id": "person:Hezekiah",
@@ -407,46 +414,11 @@
 "preferred_label": "Hezekiya"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Wine"
-},
-{
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Money"
 },
 {
 "id": "realia:Handbreadth",
@@ -456,11 +428,32 @@
 "preferred_label": "Handbreadth"
 },
 {
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Screen"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Purple Cloth"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Bed"
 },
 {
 "id": "realia:OliveOil",
@@ -475,6 +468,13 @@
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Hewn Stone"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Money"
 }
 ]
 }

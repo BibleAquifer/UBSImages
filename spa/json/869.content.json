@@ -365,18 +365,18 @@
 "preferred_label": "bendecir"
 },
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "saber"
-},
-{
 "id": "place:Hell",
 "type": "place",
 "confidence": 0.2161,
 "match_method": "canonical",
 "preferred_label": "Hell"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "saber"
 },
 {
 "id": "keyterm:Kindness",
@@ -386,25 +386,25 @@
 "preferred_label": "bondad"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "José"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "ser justo"
-},
-{
 "id": "place:RedSea",
 "type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
 "preferred_label": "Bermejo"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "José"
 },
 {
 "id": "keyterm:Horn",
@@ -414,11 +414,39 @@
 "preferred_label": "cuerno"
 },
 {
-"id": "person:Noah",
-"type": "person",
+"id": "keyterm:Redeem",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Noé"
+"preferred_label": "comprar"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Líbano"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "flecha"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "ser sabio o prudente"
 },
 {
 "id": "keyterm:SeekfindRefuge",
@@ -435,60 +463,11 @@
 "preferred_label": "temer"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
-"id": "keyterm:Arrow",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "flecha"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Líbano"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "ser sabio o prudente"
-},
-{
 "id": "realia:Throne",
 "type": "realia",
 "confidence": 0.1561,
 "match_method": "canonical",
 "preferred_label": "Throne"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Foundation"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Hand-Mill"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Sheep"
 },
 {
 "id": "realia:Trap",
@@ -498,18 +477,18 @@
 "preferred_label": "Trap"
 },
 {
-"id": "realia:House",
+"id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Hand-Mill"
 },
 {
-"id": "fauna:Horse",
+"id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Dragon"
 },
 {
 "id": "realia:WingedCreature",
@@ -519,6 +498,20 @@
 "preferred_label": "Winged Creature"
 },
 {
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "Foundation"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
 "id": "flora:Cattails",
 "type": "flora",
 "confidence": 0.098,
@@ -526,11 +519,18 @@
 "preferred_label": "Cattails"
 },
 {
-"id": "fauna:Dragon",
+"id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "Dragon"
+"preferred_label": "Horse"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 }
 ]
 }

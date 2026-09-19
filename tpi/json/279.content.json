@@ -332,11 +332,11 @@
 "preferred_label": "Cubit"
 },
 {
-"id": "realia:TabernacleAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -346,18 +346,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.357,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
 },
 {
 "id": "realia:Tent",
@@ -416,11 +416,11 @@
 "preferred_label": "Testimony"
 },
 {
-"id": "realia:Curtain",
+"id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.2783,
 "match_method": "canonical",
-"preferred_label": "Curtain"
+"preferred_label": "Tent of Meeting"
 },
 {
 "id": "realia:Spindle",
@@ -437,18 +437,25 @@
 "preferred_label": "Linen"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.2783,
-"match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.2783,
 "match_method": "canonical",
 "preferred_label": "Purple Cloth"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.2783,
+"match_method": "canonical",
+"preferred_label": "Curtain"
+},
+{
+"id": "realia:Peg",
+"type": "realia",
+"confidence": 0.2187,
+"match_method": "canonical",
+"preferred_label": "Peg"
 },
 {
 "id": "flora:Acacia",
@@ -465,46 +472,11 @@
 "preferred_label": "Peg"
 },
 {
-"id": "realia:Peg",
-"type": "realia",
-"confidence": 0.2187,
-"match_method": "canonical",
-"preferred_label": "Peg"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Force to Serve"
-},
-{
-"id": "person:Gershon",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Gerson"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Bikpela"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Aron"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Holy"
 },
 {
 "id": "person:Merari",
@@ -514,6 +486,34 @@
 "preferred_label": "Merari"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Bikpela"
+},
+{
+"id": "person:Gershon",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Gerson"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Aron"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1591,
@@ -521,18 +521,18 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "fauna:Dugong",
-"type": "fauna",
-"confidence": 0.1591,
-"match_method": "canonical",
-"preferred_label": "Dugong"
-},
-{
 "id": "realia:Loop",
 "type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
 "preferred_label": "Loop"
+},
+{
+"id": "fauna:Dugong",
+"type": "fauna",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "Dugong"
 },
 {
 "id": "realia:OliveOil",
@@ -549,32 +549,11 @@
 "preferred_label": "Goat Hair Strips"
 },
 {
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Lampstand"
-},
-{
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Leather"
-},
-{
 "id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "Dyed Cloth"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Sheep"
 },
 {
 "id": "realia:CoverLid",
@@ -584,11 +563,32 @@
 "preferred_label": "Cover Lid"
 },
 {
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Leather"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Lampstand"
+},
+{
 "id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "Linen Strips"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 }
 ]
 }

@@ -260,18 +260,18 @@
 "preferred_label": "Grain"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
 "id": "person:John",
 "type": "person",
 "confidence": 0.2257,
 "match_method": "canonical",
 "preferred_label": "Yohana"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Musa"
 },
 {
 "id": "realia:Leather",
@@ -295,13 +295,6 @@
 "preferred_label": "Ashkenazi"
 },
 {
-"id": "keyterm:Kind.2",
-"type": "keyterm",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Kind"
-},
-{
 "id": "place:Minni",
 "type": "place",
 "confidence": 0.1686,
@@ -309,11 +302,11 @@
 "preferred_label": "Mini"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1657,
+"id": "keyterm:Kind.2",
+"type": "keyterm",
+"confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Kind"
 },
 {
 "id": "fauna:Bee",
@@ -330,25 +323,11 @@
 "preferred_label": "Bag"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1629,
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "Amaleki"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Appoint"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
+"preferred_label": "Horse"
 },
 {
 "id": "place:RedSea",
@@ -365,18 +344,32 @@
 "preferred_label": "Ability"
 },
 {
-"id": "place:East",
+"id": "place:Amalek",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "mashariki"
+"preferred_label": "Amaleki"
 },
 {
-"id": "keyterm:Swear",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Swear"
+"preferred_label": "Holy"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Midiani"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
 },
 {
 "id": "keyterm:Woe.2",
@@ -386,6 +379,13 @@
 "preferred_label": "Woe"
 },
 {
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Amalekites"
+},
+{
 "id": "keyterm:Terror",
 "type": "keyterm",
 "confidence": 0.1629,
@@ -393,11 +393,25 @@
 "preferred_label": "Terror"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Authority"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ararati"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Appoint"
 },
 {
 "id": "keyterm:Majesty",
@@ -414,39 +428,25 @@
 "preferred_label": "Cush"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Fear"
 },
 {
-"id": "group:Amalek",
-"type": "group",
+"id": "place:East",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Amalekites"
+"preferred_label": "mashariki"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Midiani"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Ararati"
+"preferred_label": "Swear"
 },
 {
 "id": "flora:Caper",
@@ -456,74 +456,11 @@
 "preferred_label": "Caper"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Tent"
-},
-{
-"id": "realia:Standard",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Standard"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Scorpion",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Scorpion"
-},
-{
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Sorghum"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Fig"
 },
 {
 "id": "flora:Sandalwood",
@@ -533,53 +470,25 @@
 "preferred_label": "Sandalwood"
 },
 {
-"id": "realia:RamsHorn",
-"type": "realia",
+"id": "fauna:Scorpion",
+"type": "fauna",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Rams Horn"
+"preferred_label": "Scorpion"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
-"id": "realia:Crown",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "flora:Almond",
+"id": "flora:Coriander",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Almond"
+"preferred_label": "Coriander"
 },
 {
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "flora:Cattails",
+"id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Cattails"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "Fig"
 },
 {
 "id": "realia:Crown.2",
@@ -589,11 +498,102 @@
 "preferred_label": "Crown"
 },
 {
-"id": "flora:Coriander",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Coriander"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Sorghum"
+},
+{
+"id": "flora:Almond",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Almond"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
+"id": "realia:Standard",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Standard"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+},
+{
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Crown"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Clothing"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Rams Horn"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Grass"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Cattails"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Rod"
 }
 ]
 }

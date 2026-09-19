@@ -114,13 +114,6 @@
 "preferred_label": "Dodanim"
 },
 {
-"id": "person:Elishah",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Élischa"
-},
-{
 "id": "person:Tarshish",
 "type": "person",
 "confidence": 0.3,
@@ -135,11 +128,11 @@
 "preferred_label": "Kittim"
 },
 {
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.2846,
+"id": "person:Elishah",
+"type": "person",
+"confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "Tyr"
+"preferred_label": "Élischa"
 },
 {
 "id": "person:Javan",
@@ -149,39 +142,18 @@
 "preferred_label": "Javan"
 },
 {
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.2846,
+"match_method": "canonical",
+"preferred_label": "Tyr"
+},
+{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.2692,
 "match_method": "canonical",
 "preferred_label": "percevoir"
-},
-{
-"id": "place:Antioch",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Antioche"
-},
-{
-"id": "place:Tarshish",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Tarsis"
-},
-{
-"id": "person:Mark",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Marc"
-},
-{
-"id": "place:Phoenicia",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Phénicie"
 },
 {
 "id": "place:Seleucia",
@@ -191,60 +163,39 @@
 "preferred_label": "Séleucie"
 },
 {
-"id": "place:Sidon",
+"id": "place:Tarshish",
 "type": "place",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Sidon"
+"preferred_label": "Tarsis"
 },
 {
-"id": "place:Assyria",
+"id": "place:Phoenicia",
 "type": "place",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Phénicie"
 },
 {
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.1846,
+"id": "person:Mark",
+"type": "person",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Utterance"
+"preferred_label": "Marc"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Saint-Esprit"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "alliance"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "place:Bashan",
+"id": "place:Antioch",
 "type": "place",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Basan"
+"preferred_label": "Antioche"
 },
 {
-"id": "person:Stephen",
+"id": "person:Kedar",
 "type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Étienne"
+"preferred_label": "Kédar"
 },
 {
 "id": "person:Eber",
@@ -254,6 +205,41 @@
 "preferred_label": "Eber"
 },
 {
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Assyria"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Saint-Esprit"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Utterance"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "alliance"
+},
+{
 "id": "person:Barnabas",
 "type": "person",
 "confidence": 0.1846,
@@ -261,11 +247,25 @@
 "preferred_label": "Barnabas"
 },
 {
-"id": "person:Kedar",
+"id": "person:Stephen",
 "type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Kédar"
+"preferred_label": "Étienne"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Basan"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Sidon"
 },
 {
 "id": "realia:Oar",
@@ -282,11 +282,18 @@
 "preferred_label": "Deck"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Oak",
+"type": "flora",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Oak"
+},
+{
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Cypress"
 },
 {
 "id": "fauna:Ostrich",
@@ -296,11 +303,11 @@
 "preferred_label": "Ostrich"
 },
 {
-"id": "flora:Oak",
+"id": "flora:Juniper",
 "type": "flora",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Oak"
+"preferred_label": "Grecian Juniper"
 },
 {
 "id": "flora:Fir",
@@ -310,18 +317,11 @@
 "preferred_label": "Fir"
 },
 {
-"id": "flora:Juniper",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Grecian Juniper"
-},
-{
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Cypress"
+"preferred_label": "House"
 }
 ]
 }
