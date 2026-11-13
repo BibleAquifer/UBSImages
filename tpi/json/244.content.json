@@ -271,7 +271,7 @@
 "type": "realia",
 "confidence": 0.4864,
 "match_method": "canonical",
-"preferred_label": "Kiln"
+"preferred_label": "bikpela stov bilong paia"
 },
 {
 "id": "deity:Lord",
@@ -281,18 +281,18 @@
 "preferred_label": "Bikpela"
 },
 {
-"id": "person:Hananiah.15",
-"type": "person",
-"confidence": 0.4083,
-"match_method": "canonical",
-"preferred_label": "Hanania"
-},
-{
 "id": "person:Azariah.20",
 "type": "person",
 "confidence": 0.4083,
 "match_method": "canonical",
 "preferred_label": "Asaria"
+},
+{
+"id": "person:Hananiah.15",
+"type": "person",
+"confidence": 0.4083,
+"match_method": "canonical",
+"preferred_label": "Hanania"
 },
 {
 "id": "person:Mishael.3",
@@ -306,7 +306,7 @@
 "type": "realia",
 "confidence": 0.365,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Mani"
 },
 {
 "id": "place:Egypt",
@@ -320,14 +320,7 @@
 "type": "realia",
 "confidence": 0.2221,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "haus"
 },
 {
 "id": "person:Moses",
@@ -335,13 +328,6 @@
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "Moses"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "king"
 },
 {
 "id": "person:Nebuchadnezzar",
@@ -355,7 +341,21 @@
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "Mekim i Kisim Samting"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Fero"
 },
 {
 "id": "place:Netaim",
@@ -376,56 +376,7 @@
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Clay Jar"
-},
-{
-"id": "place:Gomorrah",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Gomora"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Perceive"
-},
-{
-"id": "keyterm:Abyss",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Abyss"
-},
-{
-"id": "place:Topheth",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Topheth"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Sainai"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Sodom"
+"preferred_label": "sospen graun"
 },
 {
 "id": "person:Aaron",
@@ -435,95 +386,144 @@
 "preferred_label": "Aron"
 },
 {
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Sodom"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "place:Topheth",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tofet"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Kliagut"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Maunten Sainai"
+},
+{
+"id": "place:Gomorrah",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Gomora"
+},
+{
+"id": "keyterm:Abyss",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Hul I No Gat As"
+},
+{
 "id": "realia:PotteryWheel",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Pottery Wheel"
-},
-{
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Lentil"
+"preferred_label": "wil bilong wokim sospen graun"
 },
 {
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Bean"
+"preferred_label": "Bin"
+},
+{
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "lentil"
 },
 {
 "id": "realia:Bagpipe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Bagpipe"
-},
-{
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Rams Horn"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lute"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Bowl"
+"preferred_label": "bekpaip"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "bulmakau"
 },
 {
 "id": "realia:Flute",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Flute"
+"preferred_label": "mambu"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Bali"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "gita"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "kom bilong sipsip man"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "wit"
 },
 {
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "bet"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "dis bilong ofa"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "gita"
 }
 ]
 }
