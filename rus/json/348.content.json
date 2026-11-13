@@ -307,35 +307,28 @@
 "type": "deity",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "realia:Throne",
 "type": "realia",
 "confidence": 0.4723,
 "match_method": "canonical",
-"preferred_label": "Throne"
+"preferred_label": "Престол"
 },
 {
 "id": "realia:Footstool",
 "type": "realia",
 "confidence": 0.3681,
 "match_method": "canonical",
-"preferred_label": "Footstool"
+"preferred_label": "подножие ног"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3556,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "Израиль"
+"preferred_label": "дом"
 },
 {
 "id": "place:Jerusalem",
@@ -345,11 +338,11 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2781,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "Covenant Box"
+"preferred_label": "Израиль"
 },
 {
 "id": "person:David",
@@ -359,25 +352,53 @@
 "preferred_label": "Давид"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Ковчег завета"
+},
+{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "Синагога"
 },
 {
 "id": "realia:Seat",
 "type": "realia",
 "confidence": 0.2306,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "седалище"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Храм"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "дружба"
+},
+{
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Иосафат"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Пророчествовать"
 },
 {
 "id": "person:Judah.4",
@@ -387,25 +408,18 @@
 "preferred_label": "Иуда"
 },
 {
-"id": "person:Jonathan.3",
-"type": "person",
+"id": "group:Pharisee",
+"type": "group",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Ионафан"
+"preferred_label": "Фарисеи"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "keyterm:Friendship",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Friendship"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "person:Eli",
@@ -422,32 +436,32 @@
 "preferred_label": "Самария"
 },
 {
-"id": "person:Jehoshaphat.3",
+"id": "person:Jonathan.3",
 "type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Иосафат"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Pharisees"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "Ионафан"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2181,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Ковчег Завета"
+},
+{
+"id": "place:HallOfJudgment",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Притвор для судилища"
+},
+{
+"id": "group:Agag",
+"type": "group",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Агагиты"
 },
 {
 "id": "person:Hammedatha",
@@ -457,27 +471,6 @@
 "preferred_label": "Амадафа"
 },
 {
-"id": "group:Agag",
-"type": "group",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Agagites"
-},
-{
-"id": "place:HallOfJudgment",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Hall of Judgment"
-},
-{
-"id": "place:HallOfTheThrone",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Hall of the Throne"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.1635,
@@ -485,88 +478,11 @@
 "preferred_label": "Аман"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Counsel"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "group:Cherethite",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Cherethites"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Авраам"
-},
-{
-"id": "keyterm:Psalm",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Psalm"
-},
-{
-"id": "place:Babylon",
+"id": "place:HallOfTheThrone",
 "type": "place",
-"confidence": 0.1594,
+"confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "Вавилон"
-},
-{
-"id": "keyterm:Vision",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Vision"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "New Moon Festival"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Соломон"
+"preferred_label": "Притвор с престолом"
 },
 {
 "id": "person:Abner",
@@ -576,39 +492,18 @@
 "preferred_label": "Авенир"
 },
 {
-"id": "person:Agag.2",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Агаг"
-},
-{
-"id": "person:Hannah",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Анна"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
 "preferred_label": "Моисей"
+},
+{
+"id": "keyterm:Vision",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Видение"
 },
 {
 "id": "person:Jesus.2",
@@ -618,60 +513,32 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "person:Saul.2",
+"id": "person:Hannah",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Саул"
+"preferred_label": "Анна"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "ревность"
 },
 {
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Грешить"
 },
 {
-"id": "person:Ehud",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Егуд"
-},
-{
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Артаксеркс"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Тир"
-},
-{
-"id": "person:Adonijah",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Адония"
-},
-{
-"id": "keyterm:Zealous",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Be Zealous"
+"preferred_label": "слава"
 },
 {
 "id": "person:Esther",
@@ -681,18 +548,102 @@
 "preferred_label": "Есфирь"
 },
 {
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Совет"
+},
+{
+"id": "keyterm:Zealous",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Ревновать"
+},
+{
+"id": "group:Cherethite",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Хелефеи"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Завет"
 },
 {
-"id": "person:Bathsheba",
+"id": "person:Ehud",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Bathsheba"
+"preferred_label": "Аод"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Соломон"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Ангел"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Авраам"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Любовь"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Тир"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "святой"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Артаксеркс"
+},
+{
+"id": "keyterm:Psalm",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Псалом"
 },
 {
 "id": "place:Shiloh",
@@ -702,95 +653,144 @@
 "preferred_label": "Силом"
 },
 {
-"id": "keyterm:Ardour",
+"id": "person:Bathsheba",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Вирсавия"
+},
+{
+"id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "Бедствие"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "новомесячие"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Небо"
+},
+{
+"id": "person:Agag.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Агаг"
+},
+{
+"id": "person:Adonijah",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Адония"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Саул"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "чистый"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Лев"
 },
 {
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "Гумно"
 },
 {
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Dove"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Floor"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "Голубь"
 },
 {
 "id": "realia:Tassel",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Tassel"
-},
-{
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Lampstand"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "Кисть"
 },
 {
 "id": "realia:Doorpost",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Doorpost"
+"preferred_label": "Дверной косяк"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "плащ"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "Подставка для светильника"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "малый щит"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "Одежда"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "пол"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "Кедр"
 },
 {
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "постель"
 }
 ]
 }

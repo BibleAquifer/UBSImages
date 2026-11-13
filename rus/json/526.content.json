@@ -649,7 +649,7 @@
 "type": "deity",
 "confidence": 0.5086,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Israel",
@@ -663,7 +663,7 @@
 "type": "keyterm",
 "confidence": 0.3924,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "слава"
 },
 {
 "id": "person:Moses",
@@ -673,6 +673,20 @@
 "preferred_label": "Моисей"
 },
 {
+"id": "keyterm:Witness.2",
+"type": "keyterm",
+"confidence": 0.3171,
+"match_method": "canonical",
+"preferred_label": "Свидетельство"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.3171,
+"match_method": "canonical",
+"preferred_label": "Аарон"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.3171,
@@ -680,60 +694,39 @@
 "preferred_label": "Египет"
 },
 {
-"id": "keyterm:Witness.2",
-"type": "keyterm",
-"confidence": 0.3171,
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.3157,
 "match_method": "canonical",
-"preferred_label": "Testimony"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.3171,
-"match_method": "canonical",
-"preferred_label": "Аарона"
+"preferred_label": "Шатер"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3157,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:Tent",
-"type": "realia",
-"confidence": 0.3157,
-"match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "дом"
 },
 {
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.259,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2086,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.2086,
-"match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Скиния собрания"
 },
 {
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.2086,
 "match_method": "canonical",
-"preferred_label": "Kindness"
+"preferred_label": "Милость"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.2086,
+"match_method": "canonical",
+"preferred_label": "Завет"
 },
 {
 "id": "person:Miriam",
@@ -750,25 +743,32 @@
 "preferred_label": "Ахав"
 },
 {
-"id": "keyterm:Precept",
+"id": "keyterm:Holy",
 "type": "keyterm",
-"confidence": 0.1562,
+"confidence": 0.2086,
 "match_method": "canonical",
-"preferred_label": "Precept"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1562,
-"match_method": "canonical",
-"preferred_label": "Mount Sinai"
+"preferred_label": "святой"
 },
 {
 "id": "person:Jaazaniah.2",
 "type": "person",
 "confidence": 0.1562,
 "match_method": "canonical",
-"preferred_label": "Иазания"
+"preferred_label": "Иезания"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1562,
+"match_method": "canonical",
+"preferred_label": "гора Синай"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1562,
+"match_method": "canonical",
+"preferred_label": "Пророчествовать"
 },
 {
 "id": "place:Tahpanhes",
@@ -778,11 +778,11 @@
 "preferred_label": "Тафнис"
 },
 {
-"id": "keyterm:Speak",
+"id": "keyterm:Precept",
 "type": "keyterm",
 "confidence": 0.1562,
 "match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
+"preferred_label": "заповедь"
 },
 {
 "id": "person:Shaphan.2",
@@ -792,32 +792,25 @@
 "preferred_label": "Шафан"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Complete"
-},
-{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "Decree"
+"preferred_label": "Постановление"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Holy Place"
-},
-{
-"id": "keyterm:InfectiousSkinDisease",
+"id": "keyterm:Mighty.2",
 "type": "keyterm",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
+"preferred_label": "Грозный"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Иуда"
 },
 {
 "id": "place:Paran",
@@ -827,32 +820,39 @@
 "preferred_label": "Фаран"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "place:Edom",
+"type": "place",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "Едом"
 },
 {
-"id": "keyterm:Redeem",
+"id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "Redeem"
+"preferred_label": "Воспринимать"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Ефрем"
-},
-{
-"id": "keyterm:CovenantBox",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1543,
 "match_method": "canonical",
-"preferred_label": "Covenant Box"
+"preferred_label": "Сила"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Ангел"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Прощать"
 }
 ]
 }

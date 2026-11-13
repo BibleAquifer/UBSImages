@@ -409,7 +409,7 @@
 "type": "realia",
 "confidence": 0.5946,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "प्रतिमा"
 },
 {
 "id": "deity:Lord",
@@ -430,7 +430,7 @@
 "type": "keyterm",
 "confidence": 0.4608,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "अशुद्ध करना"
 },
 {
 "id": "deity:Molech",
@@ -444,21 +444,21 @@
 "type": "keyterm",
 "confidence": 0.4046,
 "match_method": "canonical",
-"preferred_label": "Detested Thing"
+"preferred_label": "घिनौनी वस्तु"
 },
 {
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.3915,
 "match_method": "canonical",
-"preferred_label": "To Dishonor"
+"preferred_label": "अपमान करना"
 },
 {
-"id": "place:Ammon",
-"type": "place",
+"id": "keyterm:Ardour",
+"type": "keyterm",
 "confidence": 0.3846,
 "match_method": "canonical",
-"preferred_label": "अम्मोन"
+"preferred_label": "जलन"
 },
 {
 "id": "group:Ammon",
@@ -468,32 +468,25 @@
 "preferred_label": "अम्मोनी"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
+"id": "place:Ammon",
+"type": "place",
 "confidence": 0.3846,
 "match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "अम्मोन"
 },
 {
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.3315,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "स्टोन पाइन"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.3277,
-"match_method": "canonical",
-"preferred_label": "High Place"
-},
-{
-"id": "keyterm:Sin",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.3277,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "बेदखल करना"
 },
 {
 "id": "place:Egypt",
@@ -503,11 +496,18 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3277,
 "match_method": "canonical",
-"preferred_label": "Dispossess"
+"preferred_label": "पाप करना"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.3277,
+"match_method": "canonical",
+"preferred_label": "ऊँचा स्थान"
 },
 {
 "id": "deity:Ashtoreth",
@@ -521,14 +521,42 @@
 "type": "place",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "Valley of Hinnom"
+"preferred_label": "हिन्नोम की तराई"
 },
 {
 "id": "keyterm:Spirit",
 "type": "keyterm",
 "confidence": 0.2738,
 "match_method": "canonical",
-"preferred_label": "Necromancer"
+"preferred_label": "भूत साधनेवाला"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "व्यभिचार"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "परिणाम भुगतना"
+},
+{
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "व्यभिचार करना"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
 },
 {
 "id": "place:Sidon",
@@ -538,32 +566,18 @@
 "preferred_label": "सीदोन"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Bear the Consequences Of"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Fornication"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2708,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "सीदोनी"
 },
 {
 "id": "person:Solomon",
@@ -573,25 +587,18 @@
 "preferred_label": "सुलैमान"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.2708,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
-},
-{
-"id": "deity:Chemosh",
-"type": "deity",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "कमोश"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Sidonians"
+"preferred_label": "सेवा करवाना"
 },
 {
 "id": "place:Moab",
@@ -601,18 +608,11 @@
 "preferred_label": "मोआब"
 },
 {
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
+"id": "deity:Chemosh",
+"type": "deity",
 "confidence": 0.2708,
 "match_method": "canonical",
-"preferred_label": "Play the Prostitute"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
+"preferred_label": "कमोश"
 }
 ]
 }

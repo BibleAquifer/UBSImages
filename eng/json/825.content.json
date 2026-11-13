@@ -3,9 +3,9 @@
 "content_id": "3209",
 "reference_id": 2377,
 "version": "1.0.4",
-"title": "Lantern",
+"title": "Lit Lantern",
 "media_type": "Image",
-"index_reference": "lantern",
+"index_reference": "lit lantern",
 "language": "eng",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0473_lantern.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0473_lantern.jpg'>link</a></p></block>",
@@ -21,13 +21,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Torch",
-"type": "realia",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "Torch"
-},
-{
 "id": "realia:Lantern",
 "type": "realia",
 "confidence": 0.74,
@@ -35,11 +28,11 @@
 "preferred_label": "Lantern"
 },
 {
-"id": "person:Judas.2",
-"type": "person",
-"confidence": 0.6,
+"id": "realia:Torch",
+"type": "realia",
+"confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Judas"
+"preferred_label": "Torch"
 },
 {
 "id": "group:Pharisee",
@@ -47,6 +40,13 @@
 "confidence": 0.6,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
+},
+{
+"id": "person:Judas.2",
+"type": "person",
+"confidence": 0.6,
+"match_method": "canonical",
+"preferred_label": "Judas"
 }
 ]
 }

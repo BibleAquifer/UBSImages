@@ -175,14 +175,14 @@
 "type": "flora",
 "confidence": 0.7477,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "sorgo"
 },
 {
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "trigo"
 },
 {
 "id": "deity:Lord",
@@ -196,35 +196,35 @@
 "type": "fauna",
 "confidence": 0.3938,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.3092,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "bode"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "videira"
 },
 {
-"id": "keyterm:Bless",
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.3092,
+"match_method": "canonical",
+"preferred_label": "rebanho"
+},
+{
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.2346,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "jurar"
 },
 {
 "id": "person:Israel",
@@ -234,39 +234,25 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Swear",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2346,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "abençoar"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1823,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "cereal"
 },
 {
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "offering"
-},
-{
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "land flowing of milk and honey"
-},
-{
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Cades-Barneia"
+"preferred_label": "oferta"
 },
 {
 "id": "place:Paran",
@@ -276,81 +262,74 @@
 "preferred_label": "Parã"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Must"
+"preferred_label": "Terra que mana leite e mel"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1746,
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "Cades-Barneia"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "óleo da unção"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "oliveira"
 },
 {
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Babilônia"
+"preferred_label": "azeite de oliva"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1673,
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Libano"
+"preferred_label": "mula"
 },
 {
-"id": "keyterm:Glory",
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Mosto"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "casa"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "erva"
+},
+{
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "love"
+"preferred_label": "fazer possuir"
 },
 {
 "id": "person:Moses",
@@ -367,18 +346,18 @@
 "preferred_label": "Caim"
 },
 {
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "contaminação"
+},
+{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Safety"
+"preferred_label": "desapossar"
 },
 {
 "id": "person:Aaron",
@@ -388,74 +367,95 @@
 "preferred_label": "Arão"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "defilement"
+"preferred_label": "segurança"
 },
 {
-"id": "keyterm:Possess",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
+"preferred_label": "glória"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Líbano"
 },
 {
 "id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "utter a curse"
+"preferred_label": "amaldiçoar"
 },
 {
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.115,
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Lentil"
+"preferred_label": "Babilônia"
 },
 {
-"id": "flora:Millet",
-"type": "flora",
-"confidence": 0.115,
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Millet"
+"preferred_label": "amor"
 },
 {
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Bean"
+"preferred_label": "fava"
 },
 {
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1073,
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "lentilha"
 },
 {
-"id": "fauna:Locust",
-"type": "fauna",
-"confidence": 0.1073,
+"id": "flora:Millet",
+"type": "flora",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Locust"
+"preferred_label": "painço"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cevada"
 },
 {
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "imagem"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "cesto"
+},
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Gafanhoto"
 }
 ]
 }

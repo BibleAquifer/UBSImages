@@ -27,13 +27,6 @@
 "resource": [],
 "acai": [
 {
-"id": "place:Cappadocia",
-"type": "place",
-"confidence": 0.85,
-"match_method": "canonical",
-"preferred_label": "Capadócia"
-},
-{
 "id": "place:Pontus",
 "type": "place",
 "confidence": 0.85,
@@ -41,11 +34,18 @@
 "preferred_label": "Ponto"
 },
 {
+"id": "place:Cappadocia",
+"type": "place",
+"confidence": 0.85,
+"match_method": "canonical",
+"preferred_label": "Capadócia"
+},
+{
 "id": "place:Asia",
 "type": "place",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Asia"
+"preferred_label": "Ásia"
 },
 {
 "id": "place:Galatia",
@@ -55,6 +55,13 @@
 "preferred_label": "Galácia"
 },
 {
+"id": "place:Elam",
+"type": "place",
+"confidence": 0.475,
+"match_method": "canonical",
+"preferred_label": "Elão"
+},
+{
 "id": "person:Medan",
 "type": "person",
 "confidence": 0.475,
@@ -62,25 +69,18 @@
 "preferred_label": "Medã"
 },
 {
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.475,
-"match_method": "canonical",
-"preferred_label": "Elam"
-},
-{
 "id": "group:Elam",
 "type": "group",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "Elamites"
+"preferred_label": "elamitas"
 },
 {
 "id": "group:Parthians",
 "type": "group",
 "confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "Parthians"
+"preferred_label": "partos"
 },
 {
 "id": "place:Bithynia",
@@ -90,25 +90,32 @@
 "preferred_label": "Bitínia"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Pedro"
-},
-{
-"id": "keyterm:Chosen",
-"type": "keyterm",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "escolhido"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "place:Mesopotamia",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Mesopotâmia"
+},
+{
+"id": "group:Mede",
+"type": "group",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "medos"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Pedro"
 },
 {
 "id": "place:Judea",
@@ -118,18 +125,11 @@
 "preferred_label": "Judeia"
 },
 {
-"id": "group:Mede",
-"type": "group",
+"id": "keyterm:Chosen",
+"type": "keyterm",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Medes"
-},
-{
-"id": "place:Mesopotamia",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Mesopotâmia"
+"preferred_label": "escolhido"
 }
 ]
 }

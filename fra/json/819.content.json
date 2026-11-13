@@ -595,7 +595,7 @@
 "type": "realia",
 "confidence": 0.7072,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "image"
 },
 {
 "id": "deity:Lord",
@@ -609,7 +609,7 @@
 "type": "keyterm",
 "confidence": 0.4286,
 "match_method": "canonical",
-"preferred_label": "rien"
+"preferred_label": "idole"
 },
 {
 "id": "person:Israel",
@@ -623,14 +623,14 @@
 "type": "keyterm",
 "confidence": 0.4109,
 "match_method": "canonical",
-"preferred_label": "pollution"
+"preferred_label": "souillure"
 },
 {
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.3875,
 "match_method": "canonical",
-"preferred_label": "adorer"
+"preferred_label": "se prosterner"
 },
 {
 "id": "keyterm:Ardour",
@@ -640,13 +640,6 @@
 "preferred_label": "ardeur"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3781,
-"match_method": "canonical",
-"preferred_label": "Égypte"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3781,
@@ -654,11 +647,11 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.3734,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3781,
 "match_method": "canonical",
-"preferred_label": "vie"
+"preferred_label": "Égypte"
 },
 {
 "id": "keyterm:DetestedThing",
@@ -668,46 +661,46 @@
 "preferred_label": "abomination"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3275,
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.3734,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3275,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3275,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "vie"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3275,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "autel de pierre"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3275,
+"match_method": "canonical",
+"preferred_label": "autel"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3275,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3275,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.3223,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.3187,
-"match_method": "canonical",
-"preferred_label": "profaner, déshonorer"
+"preferred_label": "image taillée"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -724,39 +717,25 @@
 "preferred_label": "fornication"
 },
 {
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.3187,
+"match_method": "canonical",
+"preferred_label": "déshonorer"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3181,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2641,
-"match_method": "canonical",
-"preferred_label": "gloire"
+"preferred_label": "maison"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.2641,
 "match_method": "canonical",
-"preferred_label": "se charger d'une faute"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2641,
-"match_method": "canonical",
-"preferred_label": "pécher"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2641,
-"match_method": "canonical",
-"preferred_label": "déposséder"
+"preferred_label": "porter la responsabilité de"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -766,11 +745,32 @@
 "preferred_label": "se prostituer"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2641,
+"match_method": "canonical",
+"preferred_label": "déposséder"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2641,
+"match_method": "canonical",
+"preferred_label": "pécher"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2641,
+"match_method": "canonical",
+"preferred_label": "gloire"
+},
+{
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.2588,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pin parasol"
 },
 {
 "id": "person:Mattan",
@@ -784,21 +784,21 @@
 "type": "keyterm",
 "confidence": 0.2115,
 "match_method": "canonical",
-"preferred_label": "sans saleté"
+"preferred_label": "pur"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2094,
 "match_method": "canonical",
 "preferred_label": "Juda"
 },
 {
-"id": "keyterm:Spirit",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2094,
 "match_method": "canonical",
-"preferred_label": "outre"
+"preferred_label": "symbole"
 }
 ]
 }

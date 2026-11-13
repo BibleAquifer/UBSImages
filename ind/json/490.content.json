@@ -475,14 +475,14 @@
 "type": "keyterm",
 "confidence": 0.7868,
 "match_method": "canonical",
-"preferred_label": "paskah"
+"preferred_label": "Paskah"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5039,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Israel",
@@ -499,11 +499,18 @@
 "preferred_label": "Yerusalem"
 },
 {
-"id": "person:Levi.3",
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.3914,
+"match_method": "canonical",
+"preferred_label": "suku Lewi"
+},
+{
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3914,
 "match_method": "canonical",
-"preferred_label": "Lewi"
+"preferred_label": "Yesus"
 },
 {
 "id": "keyterm:Disciple",
@@ -513,18 +520,25 @@
 "preferred_label": "menjadi murid"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.3914,
 "match_method": "canonical",
 "preferred_label": "Lewi"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3914,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.3855,
 "match_method": "canonical",
-"preferred_label": "Yesus"
+"preferred_label": "tahir"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3855,
+"match_method": "canonical",
+"preferred_label": "Musa"
 },
 {
 "id": "person:Josiah",
@@ -541,32 +555,18 @@
 "preferred_label": "persembahan"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3855,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.3855,
-"match_method": "canonical",
-"preferred_label": "murni"
-},
-{
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.3796,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "orang Yahudi"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.3492,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "anak domba"
 },
 {
 "id": "place:Egypt",
@@ -576,25 +576,11 @@
 "preferred_label": "Mesir"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2678,
-"match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2678,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2678,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
+"preferred_label": "penajisan"
 },
 {
 "id": "person:Judah.4",
@@ -604,60 +590,53 @@
 "preferred_label": "Yehuda"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.2637,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2678,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2678,
+"match_method": "canonical",
+"preferred_label": "kudus"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.2637,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2637,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "lembu sapi"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.2637,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "kambing"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.2118,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2637,
 "match_method": "canonical",
-"preferred_label": "Hizkia"
+"preferred_label": "rumah"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.2637,
+"match_method": "canonical",
+"preferred_label": "kawanan domba"
 },
 {
 "id": "group:Manasseh",
 "type": "group",
 "confidence": 0.2118,
 "match_method": "canonical",
-"preferred_label": "Manasye"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.2118,
-"match_method": "canonical",
-"preferred_label": "Efraim"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2118,
-"match_method": "canonical",
-"preferred_label": "percaya"
+"preferred_label": "suku Manasye"
 },
 {
 "id": "person:Manasseh",
@@ -674,11 +653,32 @@
 "preferred_label": "Harun"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2118,
+"match_method": "canonical",
+"preferred_label": "percaya"
+},
+{
 "id": "person:Ephraim",
 "type": "person",
 "confidence": 0.2118,
 "match_method": "canonical",
 "preferred_label": "Efraim"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.2118,
+"match_method": "canonical",
+"preferred_label": "penyembelihan kurban"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.2118,
+"match_method": "canonical",
+"preferred_label": "suku Efraim"
 }
 ]
 }

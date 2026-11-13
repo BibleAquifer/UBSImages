@@ -325,84 +325,70 @@
 "type": "fauna",
 "confidence": 0.7165,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "anjing hutan"
 },
 {
 "id": "fauna:Pig",
 "type": "fauna",
 "confidence": 0.4694,
 "match_method": "canonical",
-"preferred_label": "Pig"
+"preferred_label": "babi"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4029,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "fauna:Hyena",
 "type": "fauna",
 "confidence": 0.3822,
 "match_method": "canonical",
-"preferred_label": "Hyena"
+"preferred_label": "hiena"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "singa"
 },
 {
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
-"preferred_label": "Bear"
+"preferred_label": "beruang"
 },
 {
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.3469,
 "match_method": "canonical",
-"preferred_label": "Ostrich"
+"preferred_label": "burung unta"
 },
 {
 "id": "fauna:Owl",
 "type": "fauna",
 "confidence": 0.338,
 "match_method": "canonical",
-"preferred_label": "Owl"
+"preferred_label": "burung hantu"
 },
 {
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "meminta"
+"preferred_label": "memohon"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "sorga"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Demons"
+"preferred_label": "penajisan"
 },
 {
 "id": "person:Jesus.2",
@@ -412,11 +398,11 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
+"preferred_label": "damai sejahtera"
 },
 {
 "id": "place:Jerusalem",
@@ -426,18 +412,32 @@
 "preferred_label": "Yerusalem"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "damai"
+"preferred_label": "kudus"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Setan-setan"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "langit"
 },
 {
 "id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2165,
 "match_method": "canonical",
-"preferred_label": "Dog"
+"preferred_label": "anjing"
 },
 {
 "id": "place:Hazor.5",
@@ -447,39 +447,18 @@
 "preferred_label": "Hazor"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "murni"
+"preferred_label": "memberikan milik"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "keyterm:DetestedThing",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "hal yang dibenci"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Babel"
+"preferred_label": "bersumpah"
 },
 {
 "id": "person:Joseph.10",
@@ -489,11 +468,25 @@
 "preferred_label": "Yusuf"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "memberkati"
+"preferred_label": "persembahan"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "kejahatan"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "keamanan"
 },
 {
 "id": "keyterm:Appoint",
@@ -503,11 +496,32 @@
 "preferred_label": "menugaskan"
 },
 {
-"id": "keyterm:DemonPossessed",
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Seseorang"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "kerasukan setan"
+"preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "orang Edom"
 },
 {
 "id": "person:Judah.4",
@@ -515,20 +529,6 @@
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Simson"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Edomites"
 }
 ]
 }

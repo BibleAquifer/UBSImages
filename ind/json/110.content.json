@@ -559,21 +559,21 @@
 "type": "flora",
 "confidence": 0.7072,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pinus payung"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.6489,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "bukit pengorbanan"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.52,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Israel",
@@ -583,18 +583,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.42,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.42,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.42,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "place:Jerusalem",
@@ -608,7 +608,7 @@
 "type": "deity",
 "confidence": 0.405,
 "match_method": "canonical",
-"preferred_label": "berhala"
+"preferred_label": "Asyera"
 },
 {
 "id": "place:Gibeon",
@@ -618,25 +618,32 @@
 "preferred_label": "Gibeon"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "mezbah batu"
 },
 {
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Mezbah"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "mezbah Bait Allah"
 },
 {
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "mezbah Kemah Suci"
 },
 {
 "id": "person:Solomon",
@@ -646,13 +653,6 @@
 "preferred_label": "Salomo"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.3772,
@@ -660,18 +660,18 @@
 "preferred_label": "Betel"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Hizkia"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Moab"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Hizkia"
 },
 {
 "id": "deity:Baal",
@@ -685,14 +685,14 @@
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "tiang berhala"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.335,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "rumah"
 },
 {
 "id": "place:Samaria",
@@ -709,6 +709,13 @@
 "preferred_label": "berbuat dosa"
 },
 {
+"id": "person:Jeroboam",
+"type": "person",
+"confidence": 0.2672,
+"match_method": "canonical",
+"preferred_label": "Yerobeam"
+},
+{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.2672,
@@ -723,13 +730,6 @@
 "preferred_label": "Molokh"
 },
 {
-"id": "person:Jeroboam",
-"type": "person",
-"confidence": 0.2672,
-"match_method": "canonical",
-"preferred_label": "Yerobeam"
-},
-{
 "id": "person:Asa",
 "type": "person",
 "confidence": 0.265,
@@ -737,25 +737,11 @@
 "preferred_label": "Asa"
 },
 {
-"id": "person:Josiah",
-"type": "person",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Yosia"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.265,
 "match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
+"preferred_label": "memaksa untuk melayani"
 },
 {
 "id": "person:Moses",
@@ -763,6 +749,20 @@
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "Musa"
+},
+{
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "berlaku sebagai pelacur"
+},
+{
+"id": "person:Josiah",
+"type": "person",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "Yosia"
 }
 ]
 }

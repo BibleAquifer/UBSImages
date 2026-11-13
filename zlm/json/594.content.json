@@ -249,13 +249,6 @@
 "preferred_label": "Testimony"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2281,
@@ -282,6 +275,13 @@
 "confidence": 0.2281,
 "match_method": "canonical",
 "preferred_label": "Instruction"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
 },
 {
 "id": "place:Kadesh-barnea",
@@ -326,11 +326,11 @@
 "preferred_label": "Ark of the Covenant"
 },
 {
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Pleasing Odor"
+"preferred_label": "Aaron"
 },
 {
 "id": "keyterm:Glory",
@@ -340,32 +340,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "place:SinaiWilderness",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Wilderness of Sinai"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "Truth"
 },
 {
 "id": "keyterm:Covenant",
@@ -375,25 +354,39 @@
 "preferred_label": "Covenant"
 },
 {
-"id": "keyterm:Truth",
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Amorites"
+},
+{
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Strength"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Aaron"
+"preferred_label": "Holy"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1041,
+"id": "place:SinaiWilderness",
+"type": "place",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Wilderness of Sinai"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Pleasing Odor"
 },
 {
 "id": "fauna:Goat",
@@ -403,18 +396,18 @@
 "preferred_label": "Goat"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Molten Image"
 },
 {
 "id": "realia:Kiln",
@@ -424,11 +417,18 @@
 "preferred_label": "Kiln"
 },
 {
-"id": "realia:MoltenImage",
-"type": "realia",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "Sheep"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }

@@ -169,28 +169,35 @@
 "type": "realia",
 "confidence": 0.53,
 "match_method": "canonical",
-"preferred_label": "Whip"
+"preferred_label": "cambuk"
 },
 {
 "id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "Scorpion"
+"preferred_label": "kalajengking"
 },
 {
 "id": "realia:Yoke",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
-"preferred_label": "Yoke"
+"preferred_label": "kuk"
 },
 {
 "id": "realia:Cross",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
-"preferred_label": "Cross"
+"preferred_label": "salib"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.304,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Jesus.2",
@@ -200,18 +207,25 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.304,
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "Pilatus"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Neraka"
 },
 {
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "pertimbangan"
+"preferred_label": "nasihat"
 },
 {
 "id": "person:Barabbas",
@@ -221,39 +235,11 @@
 "preferred_label": "Barabas"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Pilatus"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "perjanjian"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Horse"
 },
 {
 "id": "person:Oreb",
@@ -263,39 +249,32 @@
 "preferred_label": "Oreb"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "kuda"
+},
+{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "rumah ibadat"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.168,
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "kebangkitan"
-},
-{
-"id": "keyterm:Lawful",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Be Lawful"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "kasihi"
+"preferred_label": "tongkat"
 },
 {
 "id": "keyterm:Exempt",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "lepas atau bebas dari sumpah"
+"preferred_label": "bebas"
 },
 {
 "id": "person:Paul",
@@ -305,13 +284,6 @@
 "preferred_label": "Paulus"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Mesir"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.168,
@@ -319,18 +291,25 @@
 "preferred_label": "mengusir"
 },
 {
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Roma"
-},
-{
-"id": "keyterm:Stupid",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "bodoh"
+"preferred_label": "kebangkitan"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Mesir"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "kasih"
 },
 {
 "id": "keyterm:Refuge",
@@ -340,11 +319,18 @@
 "preferred_label": "tempat perlindungan"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Lawful",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "takut"
+"preferred_label": "diperbolehkan"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Roma"
 },
 {
 "id": "place:Midian",
@@ -354,102 +340,116 @@
 "preferred_label": "Midian"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "takut"
+},
+{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Gentiles"
+"preferred_label": "Bangsa-Bangsa Lain"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "bodoh"
 },
 {
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "tali"
 },
 {
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Trap"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "realia:Chain",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Chain"
-},
-{
-"id": "realia:BitAndBridle",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Bit and Bridle"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "perangkap"
 },
 {
 "id": "realia:Wagon",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Wagon"
+"preferred_label": "kereta"
+},
+{
+"id": "realia:Chain",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "rantai"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "lembu sapi"
+},
+{
+"id": "realia:BitAndBridle",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "kekang dan pelana kendali"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Bait Allah"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "tongkat"
 },
 {
 "id": "realia:Strap",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Strap"
+"preferred_label": "tali"
 },
 {
 "id": "realia:Prison",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Prison"
+"preferred_label": "penjara"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "anak domba"
 },
 {
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "keledai"
 },
 {
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "kereta"
 }
 ]
 }

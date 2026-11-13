@@ -205,14 +205,14 @@
 "type": "deity",
 "confidence": 0.4371,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.3771,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "uang"
 },
 {
 "id": "person:Israel",
@@ -226,7 +226,7 @@
 "type": "realia",
 "confidence": 0.3239,
 "match_method": "canonical",
-"preferred_label": "Gold Jewelry"
+"preferred_label": "perhiasan emas"
 },
 {
 "id": "person:Moses",
@@ -247,7 +247,7 @@
 "type": "realia",
 "confidence": 0.2335,
 "match_method": "canonical",
-"preferred_label": "Earring"
+"preferred_label": "anting-anting"
 },
 {
 "id": "keyterm:Offering",
@@ -261,77 +261,42 @@
 "type": "place",
 "confidence": 0.171,
 "match_method": "canonical",
-"preferred_label": "Akhor"
+"preferred_label": "Lembah Akhor"
 },
 {
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.169,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "jubah"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "pakaian"
 },
 {
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "patung"
 },
 {
-"id": "keyterm:Priesthood",
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.169,
+"match_method": "canonical",
+"preferred_label": "rumah"
+},
+{
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "imamat"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "hal yang dibenci"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Stubborn",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "tegar tengkuk"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "harapan"
+"preferred_label": "penajisan"
 },
 {
 "id": "keyterm:Fornication",
@@ -341,18 +306,18 @@
 "preferred_label": "persundalan"
 },
 {
-"id": "person:Rebekah",
-"type": "person",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Ribka"
+"preferred_label": "menenangkan"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
+"id": "keyterm:Priesthood",
+"type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Eleazar"
+"preferred_label": "imamat"
 },
 {
 "id": "keyterm:Abomination",
@@ -362,11 +327,11 @@
 "preferred_label": "kekejian"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
+"id": "person:Eleazar.2",
+"type": "person",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "menenangkan"
+"preferred_label": "Eleazar"
 },
 {
 "id": "keyterm:Salvation",
@@ -376,11 +341,53 @@
 "preferred_label": "keselamatan"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Malaikat"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "kejijikan"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Gunung Sinai"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "orang Mesir"
+},
+{
+"id": "person:Rebekah",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Ribka"
+},
+{
+"id": "keyterm:Stubborn",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "tegar tengkuk"
+},
+{
 "id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "bencana"
 },
 {
 "id": "person:Saul.2",
@@ -390,18 +397,11 @@
 "preferred_label": "Saul"
 },
 {
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Sinai"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
+"preferred_label": "pengharapan"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -415,56 +415,56 @@
 "type": "realia",
 "confidence": 0.111,
 "match_method": "canonical",
-"preferred_label": "Robe"
-},
-{
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "High Place"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "jubah"
 },
 {
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Purple Cloth"
+"preferred_label": "kain ungu"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Linen"
+"preferred_label": "pokok anggur"
 },
 {
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "anggur"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "bunga bakung"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "lenan"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "gandum"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "bukit pengorbanan"
 }
 ]
 }

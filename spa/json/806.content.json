@@ -608,7 +608,7 @@
 "type": "realia",
 "confidence": 0.4245,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 },
 {
 "id": "keyterm:Offering",
@@ -629,98 +629,91 @@
 "type": "realia",
 "confidence": 0.3689,
 "match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3503,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3503,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3503,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "codo"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3503,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "altar de piedra"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3503,
+"match_method": "canonical",
+"preferred_label": "altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3503,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3503,
+"match_method": "canonical",
+"preferred_label": "altar del tabernáculo"
 },
 {
 "id": "realia:PerimiterCurtain",
 "type": "realia",
 "confidence": 0.3426,
 "match_method": "canonical",
-"preferred_label": "Perimiter Curtain"
+"preferred_label": "cortina del atrio"
 },
 {
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.3312,
 "match_method": "canonical",
-"preferred_label": "Screen"
+"preferred_label": "cortina"
 },
 {
 "id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.3245,
 "match_method": "canonical",
-"preferred_label": "Peg"
+"preferred_label": "clavija"
 },
 {
 "id": "realia:Peg",
 "type": "realia",
 "confidence": 0.3245,
 "match_method": "canonical",
-"preferred_label": "Peg"
+"preferred_label": "estaca"
 },
 {
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.3225,
 "match_method": "canonical",
-"preferred_label": "Linen"
+"preferred_label": "lino"
 },
 {
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3186,
 "match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "gloria"
 },
 {
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.3178,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "cuerda"
 },
 {
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.3132,
 "match_method": "canonical",
-"preferred_label": "Spindle"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2639,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "huso"
 },
 {
 "id": "person:Judah.4",
@@ -730,18 +723,25 @@
 "preferred_label": "Judá"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2639,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2639,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2639,
 "match_method": "canonical",
 "preferred_label": "pecar"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2639,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
 },
 {
 "id": "person:Solomon",
@@ -755,7 +755,7 @@
 "type": "realia",
 "confidence": 0.2606,
 "match_method": "canonical",
-"preferred_label": "Entrance"
+"preferred_label": "entrada"
 },
 {
 "id": "place:Kidron",
@@ -765,20 +765,6 @@
 "preferred_label": "Cedrón"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.2093,
-"match_method": "canonical",
-"preferred_label": "santuario"
-},
-{
-"id": "person:Jeremiah.6",
-"type": "person",
-"confidence": 0.2093,
-"match_method": "canonical",
-"preferred_label": "Jeremías"
-},
-{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2093,
@@ -786,11 +772,11 @@
 "preferred_label": "contaminación"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Pure",
+"type": "keyterm",
 "confidence": 0.2093,
 "match_method": "canonical",
-"preferred_label": "Moisés"
+"preferred_label": "puro"
 },
 {
 "id": "person:Aaron",
@@ -800,11 +786,25 @@
 "preferred_label": "Aarón"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
+"id": "person:Jeremiah.6",
+"type": "person",
 "confidence": 0.2093,
 "match_method": "canonical",
-"preferred_label": "puro"
+"preferred_label": "Jeremías"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.2093,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.2093,
+"match_method": "canonical",
+"preferred_label": "Lugar Santo"
 }
 ]
 }

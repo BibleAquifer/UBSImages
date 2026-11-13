@@ -415,14 +415,14 @@
 "type": "realia",
 "confidence": 0.5408,
 "match_method": "canonical",
-"preferred_label": "Standard"
+"preferred_label": "bannière"
 },
 {
 "id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.4968,
 "match_method": "canonical",
-"preferred_label": "Lampstand"
+"preferred_label": "chandelier"
 },
 {
 "id": "deity:Lord",
@@ -432,13 +432,6 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.3841,
-"match_method": "canonical",
-"preferred_label": "sans saleté"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.3841,
@@ -446,18 +439,25 @@
 "preferred_label": "Moïse"
 },
 {
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.3841,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
 "id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.368,
 "match_method": "canonical",
-"preferred_label": "Lamp"
+"preferred_label": "lampe"
 },
 {
 "id": "realia:Lampstand",
 "type": "realia",
 "confidence": 0.3605,
 "match_method": "canonical",
-"preferred_label": "Lampstand"
+"preferred_label": "chandelier"
 },
 {
 "id": "person:Israel",
@@ -465,27 +465,6 @@
 "confidence": 0.3273,
 "match_method": "canonical",
 "preferred_label": "Israël"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "Dan"
 },
 {
 "id": "place:Dan",
@@ -502,18 +481,32 @@
 "preferred_label": "Jérusalem"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "tribu de Dan"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
 "id": "flora:Almond",
 "type": "flora",
 "confidence": 0.2703,
 "match_method": "canonical",
-"preferred_label": "Almond"
-},
-{
-"id": "person:Ammihud",
-"type": "person",
-"confidence": 0.2197,
-"match_method": "canonical",
-"preferred_label": "Ammihud"
+"preferred_label": "amandier"
 },
 {
 "id": "person:Elizur",
@@ -530,11 +523,11 @@
 "preferred_label": "Ahiézer"
 },
 {
-"id": "person:Elishama",
+"id": "person:Ammihud",
 "type": "person",
-"confidence": 0.2167,
+"confidence": 0.2197,
 "match_method": "canonical",
-"preferred_label": "Élischama"
+"preferred_label": "Ammihud"
 },
 {
 "id": "person:Shedeur",
@@ -544,11 +537,46 @@
 "preferred_label": "Schedéur"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Elishama",
+"type": "person",
+"confidence": 0.2167,
+"match_method": "canonical",
+"preferred_label": "Élischama"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Ammischaddaï"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "Éphraïm"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
+"id": "group:Reuben",
+"type": "group",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "tribu de Ruben"
+},
+{
+"id": "person:Nahshon",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Nachschon"
 },
 {
 "id": "place:Babylon",
@@ -572,11 +600,11 @@
 "preferred_label": "saint"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "Éphraïm"
+"preferred_label": "tribu d’Éphraïm"
 },
 {
 "id": "person:Reuben",
@@ -586,39 +614,11 @@
 "preferred_label": "Ruben"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Aaron"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Nahshon"
-},
-{
-"id": "group:Reuben",
-"type": "group",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Ruben"
-},
-{
-"id": "person:Ammishaddai",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Ammischaddaï"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "nation; peuple"
+"preferred_label": "Gentils"
 }
 ]
 }

@@ -70,13 +70,6 @@
 "preferred_label": "कुरिन्थुस"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "यीशु"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4187,
@@ -84,25 +77,18 @@
 "preferred_label": "यहोवा"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4187,
+"match_method": "canonical",
+"preferred_label": "यीशु"
+},
+{
 "id": "group:Corinth",
 "type": "group",
 "confidence": 0.3625,
 "match_method": "canonical",
-"preferred_label": "कुरिन्थ वासी"
-},
-{
-"id": "keyterm:CallUpon",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Call Upon"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "कुरिन्थी"
 },
 {
 "id": "person:Paul",
@@ -112,11 +98,25 @@
 "preferred_label": "पौलुस"
 },
 {
-"id": "person:Erastus",
+"id": "keyterm:CallUpon",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "नाम लेना"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "कलीसिया"
+},
+{
+"id": "person:Trophimus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "इरास्तुस"
+"preferred_label": "त्रुफिमुस"
 },
 {
 "id": "place:Ephesus",
@@ -124,13 +124,6 @@
 "confidence": 0.2313,
 "match_method": "canonical",
 "preferred_label": "इफिसुस"
-},
-{
-"id": "place:Miletus",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "मीलेतुस"
 },
 {
 "id": "person:Crispus",
@@ -147,53 +140,18 @@
 "preferred_label": "अखाया"
 },
 {
-"id": "person:Trophimus",
+"id": "person:Erastus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "त्रुफिमुस"
+"preferred_label": "इरास्तुस"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "place:Athens",
+"id": "place:Miletus",
 "type": "place",
-"confidence": 0.2063,
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "एथेंस"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "मीलेतुस"
 },
 {
 "id": "person:Timothy",
@@ -203,11 +161,67 @@
 "preferred_label": "तीमुथियुस"
 },
 {
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "गवाही"
+},
+{
+"id": "place:Athens",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "एथेंस"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "मसीह में"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "चेला बनना"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Baptism"
+"preferred_label": "बपतिस्मा"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "मन"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "नाम"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "विश्वास करना"
 },
 {
 "id": "person:Apollos",
@@ -217,25 +231,11 @@
 "preferred_label": "अपुल्लोस"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "In Christ"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Witness"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "आराधनालय"
 }
 ]
 }

@@ -409,14 +409,14 @@
 "type": "realia",
 "confidence": 0.5946,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "patung"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.53,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Israel",
@@ -430,7 +430,7 @@
 "type": "keyterm",
 "confidence": 0.4608,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
+"preferred_label": "penajisan"
 },
 {
 "id": "deity:Molech",
@@ -444,14 +444,28 @@
 "type": "keyterm",
 "confidence": 0.4046,
 "match_method": "canonical",
-"preferred_label": "hal yang dibenci"
+"preferred_label": "kejijikan"
 },
 {
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.3915,
 "match_method": "canonical",
-"preferred_label": "tidak menghargai"
+"preferred_label": "mencemarkan"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3846,
+"match_method": "canonical",
+"preferred_label": "kecemburuan"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.3846,
+"match_method": "canonical",
+"preferred_label": "orang Amon"
 },
 {
 "id": "place:Ammon",
@@ -461,39 +475,18 @@
 "preferred_label": "Amon"
 },
 {
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.3846,
-"match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3846,
-"match_method": "canonical",
-"preferred_label": "mencurigai"
-},
-{
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.3315,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pinus payung"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.3277,
-"match_method": "canonical",
-"preferred_label": "High Place"
-},
-{
-"id": "keyterm:Sin",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.3277,
 "match_method": "canonical",
-"preferred_label": "berbuat dosa"
+"preferred_label": "mengusir"
 },
 {
 "id": "place:Egypt",
@@ -503,11 +496,18 @@
 "preferred_label": "Mesir"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3277,
 "match_method": "canonical",
-"preferred_label": "mengusir"
+"preferred_label": "berbuat dosa"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.3277,
+"match_method": "canonical",
+"preferred_label": "bukit pengorbanan"
 },
 {
 "id": "deity:Ashtoreth",
@@ -521,35 +521,14 @@
 "type": "place",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "Valley of Hinnom"
+"preferred_label": "Lembah Hinom"
 },
 {
 "id": "keyterm:Spirit",
 "type": "keyterm",
 "confidence": 0.2738,
 "match_method": "canonical",
-"preferred_label": "ahli nujum"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Sidon"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "menanggung akibat kesalahan"
+"preferred_label": "pemanggil arwah"
 },
 {
 "id": "keyterm:Fornication",
@@ -559,46 +538,11 @@
 "preferred_label": "persundalan"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Salomo"
-},
-{
-"id": "keyterm:EnticedToServe",
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.2708,
 "match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
-},
-{
-"id": "deity:Chemosh",
-"type": "deity",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Kamos"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Sidonians"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2708,
-"match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "menanggung akibat kesalahan"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -613,6 +557,62 @@
 "confidence": 0.2708,
 "match_method": "canonical",
 "preferred_label": "Yerusalem"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "Sidon"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "orang Sidon"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "Salomo"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "memaksa untuk melayani"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "Moab"
+},
+{
+"id": "deity:Chemosh",
+"type": "deity",
+"confidence": 0.2708,
+"match_method": "canonical",
+"preferred_label": "Kamos"
 }
 ]
 }

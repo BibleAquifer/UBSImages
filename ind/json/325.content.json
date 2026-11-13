@@ -655,14 +655,14 @@
 "type": "flora",
 "confidence": 0.5782,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "jelai"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4307,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Boaz",
@@ -676,21 +676,21 @@
 "type": "flora",
 "confidence": 0.3452,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "gandum"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.3367,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "pokok anggur"
 },
 {
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.3367,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "sabit"
 },
 {
 "id": "keyterm:Offering",
@@ -704,63 +704,49 @@
 "type": "realia",
 "confidence": 0.3155,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Minyak urapan"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3155,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.2627,
-"match_method": "canonical",
-"preferred_label": "lengkap"
+"preferred_label": "minyak zaitun"
 },
 {
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2627,
 "match_method": "canonical",
-"preferred_label": "selama, lamanya"
+"preferred_label": "selama-lamanya"
 },
 {
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.257,
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2627,
 "match_method": "canonical",
-"preferred_label": "Coriander"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.257,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "tidak bercela"
 },
 {
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.257,
 "match_method": "canonical",
-"preferred_label": "Shekel"
+"preferred_label": "syikal"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.2085,
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.257,
 "match_method": "canonical",
-"preferred_label": "Betlehem"
+"preferred_label": "ketumbar"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2085,
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.257,
 "match_method": "canonical",
-"preferred_label": "kehidupan"
+"preferred_label": "uang"
 },
 {
 "id": "person:Naomi",
@@ -770,18 +756,25 @@
 "preferred_label": "Naomi"
 },
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "kenakalan"
+"preferred_label": "Malaikat"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Betlehem"
 },
 {
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "firman tuhan"
+"preferred_label": "firman TUHAN"
 },
 {
 "id": "place:Mizpah",
@@ -791,32 +784,18 @@
 "preferred_label": "Mizpa"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "sabat"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Life",
+"type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "Daud"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "kehidupan"
 },
 {
 "id": "keyterm:Bless",
@@ -826,39 +805,60 @@
 "preferred_label": "memberkati"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Moab"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Daud"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "kejahatan"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "meminta"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "sabat"
+"preferred_label": "memohon"
 },
 {
 "id": "realia:Homer",
 "type": "realia",
 "confidence": 0.2065,
 "match_method": "canonical",
-"preferred_label": "Homer"
+"preferred_label": "homer"
 },
 {
 "id": "realia:Seah",
 "type": "realia",
 "confidence": 0.2065,
 "match_method": "canonical",
-"preferred_label": "Seah"
+"preferred_label": "sukat"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.2046,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "pohon zaitun"
 }
 ]
 }

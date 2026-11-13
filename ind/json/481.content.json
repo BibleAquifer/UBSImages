@@ -149,13 +149,6 @@
 "preferred_label": "Akhaya"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "meminta"
-},
-{
 "id": "person:Paul",
 "type": "person",
 "confidence": 0.39,
@@ -163,11 +156,18 @@
 "preferred_label": "Paulus"
 },
 {
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "memohon"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "place:Philippi",
@@ -177,32 +177,18 @@
 "preferred_label": "Filipi"
 },
 {
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Timotius"
+},
+{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "injil"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "percaya"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "jemaat"
+"preferred_label": "Kabar Baik"
 },
 {
 "id": "person:Jesus.2",
@@ -212,25 +198,11 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "person:Timothy",
-"type": "person",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Timotius"
-},
-{
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "roh"
-},
-{
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Roma"
+"preferred_label": "jemaat"
 },
 {
 "id": "place:Jerusalem",
@@ -240,6 +212,41 @@
 "preferred_label": "Yerusalem"
 },
 {
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "orang Yahudi"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Roma"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "roh"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "percaya"
+},
+{
+"id": "group:Philippi",
+"type": "group",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "orang Filipi"
+},
+{
 "id": "person:Erastus",
 "type": "person",
 "confidence": 0.1825,
@@ -247,25 +254,11 @@
 "preferred_label": "Erastus"
 },
 {
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Asia"
-},
-{
 "id": "keyterm:Share",
 "type": "keyterm",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "beroleh bagian"
-},
-{
-"id": "group:Philippi",
-"type": "group",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Philippians"
+"preferred_label": "berbagi"
 },
 {
 "id": "person:Titus",
@@ -275,46 +268,18 @@
 "preferred_label": "Titus"
 },
 {
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Asia"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "melayani"
-},
-{
-"id": "keyterm:Declare",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "memberi kesaksian yang sungguh, sungguh"
-},
-{
-"id": "keyterm:Fellowship",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "persekutuan"
-},
-{
-"id": "keyterm:Encourage",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "menasihati"
-},
-{
-"id": "place:Ephesus",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Efesus"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "khusus"
 },
 {
 "id": "keyterm:Body.3",
@@ -324,18 +289,25 @@
 "preferred_label": "tubuh"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "menjadi murid"
+"preferred_label": "takut"
 },
 {
-"id": "place:Judea",
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "menghibur"
+},
+{
+"id": "place:Ephesus",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Efesus"
 },
 {
 "id": "person:Silas",
@@ -345,18 +317,46 @@
 "preferred_label": "Silas"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "takut"
+"preferred_label": "menjadi murid"
 },
 {
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "kebaikan"
+"preferred_label": "kemurahan"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Yudea"
+},
+{
+"id": "keyterm:Declare",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "bersaksi dengan sungguh-sungguh"
+},
+{
+"id": "keyterm:Fellowship",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "persekutuan"
 }
 ]
 }

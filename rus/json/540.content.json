@@ -571,7 +571,14 @@
 "type": "deity",
 "confidence": 0.4772,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3745,
+"match_method": "canonical",
+"preferred_label": "Грешить"
 },
 {
 "id": "person:Ahab",
@@ -581,25 +588,18 @@
 "preferred_label": "Ахав"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3745,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "person:Elijah",
 "type": "person",
 "confidence": 0.3217,
 "match_method": "canonical",
-"preferred_label": "Елия"
+"preferred_label": "Илия"
 },
 {
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.3196,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Небо"
 },
 {
 "id": "person:Israel",
@@ -613,14 +613,7 @@
 "type": "flora",
 "confidence": 0.3193,
 "match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2647,
-"match_method": "canonical",
-"preferred_label": "Моисей"
+"preferred_label": "Трава"
 },
 {
 "id": "place:Jerusalem",
@@ -630,11 +623,18 @@
 "preferred_label": "Иерусалим"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.2647,
+"match_method": "canonical",
+"preferred_label": "Моисей"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2647,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Благословлять"
 },
 {
 "id": "place:Sodom",
@@ -642,6 +642,27 @@
 "confidence": 0.212,
 "match_method": "canonical",
 "preferred_label": "Содом"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Прощать"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Фараон"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Давать во владение"
 },
 {
 "id": "place:Egypt",
@@ -655,91 +676,63 @@
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "фараон"
+"preferred_label": "молиться"
 },
 {
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "слава"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Страх"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Елей помазания"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Оливковое масло"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.1571,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "дом"
 },
 {
 "id": "group:Tishbite",
 "type": "group",
 "confidence": 0.1571,
 "match_method": "canonical",
-"preferred_label": "Tishbites"
+"preferred_label": "Фесвитяне"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1571,
+"match_method": "canonical",
+"preferred_label": "Добрый"
 },
 {
 "id": "place:Tishbe",
 "type": "place",
 "confidence": 0.1571,
 "match_method": "canonical",
-"preferred_label": "Фесвитянин"
-},
-{
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.1571,
-"match_method": "canonical",
-"preferred_label": "Do Good"
+"preferred_label": "Фисва"
 },
 {
 "id": "place:Gomorrah",
@@ -749,32 +742,39 @@
 "preferred_label": "Гоморра"
 },
 {
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.1571,
+"match_method": "canonical",
+"preferred_label": "Делать добро"
+},
+{
+"id": "place:GilboaMount",
+"type": "place",
+"confidence": 0.1549,
+"match_method": "canonical",
+"preferred_label": "гора Гелвуй"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1549,
+"match_method": "canonical",
+"preferred_label": "Быть (или являть себя) праведным"
+},
+{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.1549,
 "match_method": "canonical",
-"preferred_label": "Decree"
+"preferred_label": "Постановление"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1549,
-"match_method": "canonical",
-"preferred_label": "Вениамин"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1549,
 "match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1549,
-"match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "Милость"
 }
 ]
 }

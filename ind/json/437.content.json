@@ -209,18 +209,18 @@
 "preferred_label": "Haman"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.455,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.455,
 "match_method": "canonical",
 "preferred_label": "Mordekhai"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.455,
+"match_method": "canonical",
+"preferred_label": "orang Yahudi"
 },
 {
 "id": "person:Vashti",
@@ -241,14 +241,7 @@
 "type": "realia",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "person:Teresh",
-"type": "person",
-"confidence": 0.2433,
-"match_method": "canonical",
-"preferred_label": "Teresh"
+"preferred_label": "rumah"
 },
 {
 "id": "person:Bigthan",
@@ -258,88 +251,39 @@
 "preferred_label": "Bigtan"
 },
 {
+"id": "person:Teresh",
+"type": "person",
+"confidence": 0.2433,
+"match_method": "canonical",
+"preferred_label": "Teresh"
+},
+{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.235,
 "match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
-"id": "group:Mede",
-"type": "group",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Medes"
-},
-{
-"id": "person:Medan",
-"type": "person",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Media"
+"preferred_label": "gulungan kitab"
 },
 {
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "damai"
+"preferred_label": "damai sejahtera"
 },
 {
-"id": "place:India",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "India"
-},
-{
-"id": "person:Hammedatha",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Hamedata"
-},
-{
-"id": "group:Agag",
+"id": "group:Mede",
 "type": "group",
-"confidence": 0.1717,
+"confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Agagites"
+"preferred_label": "orang Madai"
 },
 {
-"id": "person:Biztha",
+"id": "person:Medan",
 "type": "person",
-"confidence": 0.1717,
+"confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Bizta"
-},
-{
-"id": "person:Carkas",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Karkas"
-},
-{
-"id": "person:Darius.3",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Darius"
-},
-{
-"id": "person:Abagtha",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Abagta"
-},
-{
-"id": "person:Memucan",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Memukan"
+"preferred_label": "Medan"
 },
 {
 "id": "person:Mehuman",
@@ -349,11 +293,25 @@
 "preferred_label": "Mehuman"
 },
 {
-"id": "person:Bigtha",
+"id": "person:Abagtha",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Bigta"
+"preferred_label": "Abagta"
+},
+{
+"id": "person:Darius.3",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Darius"
+},
+{
+"id": "person:Biztha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Bizta"
 },
 {
 "id": "person:Harbona",
@@ -361,6 +319,48 @@
 "confidence": 0.1717,
 "match_method": "canonical",
 "preferred_label": "Harbona"
+},
+{
+"id": "group:Agag",
+"type": "group",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "orang Agag"
+},
+{
+"id": "person:Hammedatha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Hamedata"
+},
+{
+"id": "place:India",
+"type": "place",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "India"
+},
+{
+"id": "person:Bigtha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Bigta"
+},
+{
+"id": "person:Carkas",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Karkas"
+},
+{
+"id": "person:Memucan",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Memukan"
 },
 {
 "id": "person:Zethar",
@@ -374,7 +374,14 @@
 "type": "realia",
 "confidence": 0.17,
 "match_method": "canonical",
-"preferred_label": "Doorstep"
+"preferred_label": "ambang pintu"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Persia"
 },
 {
 "id": "keyterm:Lot",
@@ -384,11 +391,18 @@
 "preferred_label": "undi"
 },
 {
-"id": "place:Persia",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Persia"
+"preferred_label": "Yerusalem"
+},
+{
+"id": "group:Persia",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "orang Persia"
 },
 {
 "id": "person:Judah.4",
@@ -405,32 +419,11 @@
 "preferred_label": "kebenaran"
 },
 {
-"id": "person:Agag.2",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Agag"
-},
-{
 "id": "place:Susa",
 "type": "place",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Susan"
-},
-{
-"id": "group:Persia",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Persians"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Chaldeans"
 },
 {
 "id": "place:Chaldea",
@@ -440,18 +433,18 @@
 "preferred_label": "Kasdim"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "orang Kasdim"
 },
 {
 "id": "place:Ethiopia",
@@ -461,60 +454,67 @@
 "preferred_label": "Etiopia"
 },
 {
+"id": "person:Agag.2",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Agag"
+},
+{
 "id": "flora:BalsamTree",
 "type": "flora",
 "confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "Balsam Tree"
+"preferred_label": "pohon balsam"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Minyak urapan"
 },
 {
 "id": "flora:Myrrh",
 "type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Myrrh"
+"preferred_label": "mur"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "pokok anggur"
 },
 {
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "kuda"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "minyak zaitun"
 },
 {
 "id": "realia:Lot",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Lot"
+"preferred_label": "undi"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "anggur"
 }
 ]
 }

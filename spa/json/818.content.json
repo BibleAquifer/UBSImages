@@ -595,7 +595,7 @@
 "type": "realia",
 "confidence": 0.7072,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "imagen"
 },
 {
 "id": "deity:Lord",
@@ -637,7 +637,14 @@
 "type": "keyterm",
 "confidence": 0.3828,
 "match_method": "canonical",
-"preferred_label": "envidia"
+"preferred_label": "celo"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3781,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
 },
 {
 "id": "place:Egypt",
@@ -647,60 +654,67 @@
 "preferred_label": "Egipto"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3781,
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.3734,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "cosa detestable"
 },
 {
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.3734,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.3734,
-"match_method": "canonical",
-"preferred_label": "(cosa) detestable"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3275,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3275,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3275,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "vida"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3275,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "altar de piedra"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3275,
+"match_method": "canonical",
+"preferred_label": "altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3275,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3275,
+"match_method": "canonical",
+"preferred_label": "altar del tabernáculo"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.3223,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "imagen tallada"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.3187,
+"match_method": "canonical",
+"preferred_label": "obligar a servir"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.3187,
+"match_method": "canonical",
+"preferred_label": "fornicación"
 },
 {
 "id": "keyterm:Dishonor",
@@ -710,53 +724,18 @@
 "preferred_label": "deshonrar"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.3187,
-"match_method": "canonical",
-"preferred_label": "ser obligado a servir"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.3187,
-"match_method": "canonical",
-"preferred_label": "prostitución"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3181,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2641,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
+"preferred_label": "casa"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.2641,
 "match_method": "canonical",
-"preferred_label": "soportar"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2641,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2641,
-"match_method": "canonical",
-"preferred_label": "desposeer"
+"preferred_label": "cargar con la culpa"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -766,18 +745,39 @@
 "preferred_label": "prostituirse"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2641,
+"match_method": "canonical",
+"preferred_label": "desposeer"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2641,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2641,
+"match_method": "canonical",
+"preferred_label": "gloria"
+},
+{
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.2588,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pino piñonero"
 },
 {
 "id": "person:Mattan",
 "type": "person",
 "confidence": 0.2135,
 "match_method": "canonical",
-"preferred_label": "Mathán"
+"preferred_label": "Matán"
 },
 {
 "id": "keyterm:Pure",
@@ -787,18 +787,18 @@
 "preferred_label": "puro"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2094,
 "match_method": "canonical",
 "preferred_label": "Judá"
 },
 {
-"id": "keyterm:Spirit",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2094,
 "match_method": "canonical",
-"preferred_label": "espíritu"
+"preferred_label": "símbolo"
 }
 ]
 }

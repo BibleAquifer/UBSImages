@@ -70,6 +70,13 @@
 "preferred_label": "Korintus"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4187,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.4187,
@@ -77,32 +84,11 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "group:Corinth",
 "type": "group",
 "confidence": 0.3625,
 "match_method": "canonical",
-"preferred_label": "Corinthians"
-},
-{
-"id": "keyterm:CallUpon",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "berdoa"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "jemaat"
+"preferred_label": "orang Korintus"
 },
 {
 "id": "person:Paul",
@@ -112,11 +98,25 @@
 "preferred_label": "Paulus"
 },
 {
-"id": "person:Erastus",
+"id": "keyterm:CallUpon",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "berseru"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "jemaat"
+},
+{
+"id": "person:Trophimus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Erastus"
+"preferred_label": "Trofimus"
 },
 {
 "id": "place:Ephesus",
@@ -124,13 +124,6 @@
 "confidence": 0.2313,
 "match_method": "canonical",
 "preferred_label": "Efesus"
-},
-{
-"id": "place:Miletus",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Miletus"
 },
 {
 "id": "person:Crispus",
@@ -147,53 +140,18 @@
 "preferred_label": "Akhaya"
 },
 {
-"id": "person:Trophimus",
+"id": "person:Erastus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Trofimus"
+"preferred_label": "Erastus"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "percaya"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "nama"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "menjadi murid"
-},
-{
-"id": "place:Athens",
+"id": "place:Miletus",
 "type": "place",
-"confidence": 0.2063,
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Atena"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "hati"
+"preferred_label": "Miletus"
 },
 {
 "id": "person:Timothy",
@@ -203,11 +161,67 @@
 "preferred_label": "Timotius"
 },
 {
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "saksi"
+},
+{
+"id": "place:Athens",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Atena"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "di dalam Kristus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "menjadi murid"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "baptisan"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "hati"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "nama"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "percaya"
 },
 {
 "id": "person:Apollos",
@@ -217,25 +231,11 @@
 "preferred_label": "Apolos"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "dalam kristus"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "saksi"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "rumah ibadat"
 }
 ]
 }

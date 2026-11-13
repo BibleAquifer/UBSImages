@@ -559,14 +559,14 @@
 "type": "flora",
 "confidence": 0.7072,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "स्टोन पाइन"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.6489,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "ऊँचा स्थान"
 },
 {
 "id": "deity:Lord",
@@ -583,18 +583,18 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.42,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.42,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.42,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
 },
 {
 "id": "place:Jerusalem",
@@ -618,25 +618,32 @@
 "preferred_label": "गिबोन"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "पत्थर की वेदी"
 },
 {
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "वेदी"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "मन्दिर की वेदी"
 },
 {
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "निवास की वेदी"
 },
 {
 "id": "person:Solomon",
@@ -646,13 +653,6 @@
 "preferred_label": "सुलैमान"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.3772,
@@ -660,18 +660,18 @@
 "preferred_label": "बेतेल"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "हिजकिय्याह"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "मोआब"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "हिजकिय्याह"
 },
 {
 "id": "deity:Baal",
@@ -685,14 +685,14 @@
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "अशेरा का खंभा"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.335,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "घर"
 },
 {
 "id": "place:Samaria",
@@ -706,21 +706,7 @@
 "type": "keyterm",
 "confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2672,
-"match_method": "canonical",
-"preferred_label": "Rebel"
-},
-{
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.2672,
-"match_method": "canonical",
-"preferred_label": "मोलेक"
+"preferred_label": "पाप करना"
 },
 {
 "id": "person:Jeroboam",
@@ -730,6 +716,20 @@
 "preferred_label": "यारोबाम"
 },
 {
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.2672,
+"match_method": "canonical",
+"preferred_label": "बलवा करना"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.2672,
+"match_method": "canonical",
+"preferred_label": "मोलेक"
+},
+{
 "id": "person:Asa",
 "type": "person",
 "confidence": 0.265,
@@ -737,25 +737,11 @@
 "preferred_label": "आसा"
 },
 {
-"id": "person:Josiah",
-"type": "person",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "योशियाह"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.265,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
+"preferred_label": "सेवा करवाना"
 },
 {
 "id": "person:Moses",
@@ -763,6 +749,20 @@
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "मूसा"
+},
+{
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "व्यभिचार करना"
+},
+{
+"id": "person:Josiah",
+"type": "person",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "योशिय्याह"
 }
 ]
 }

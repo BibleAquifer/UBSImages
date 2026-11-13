@@ -151,14 +151,14 @@
 "type": "realia",
 "confidence": 0.7082,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "kereta"
 },
 {
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.3923,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "kuda"
 },
 {
 "id": "person:Israel",
@@ -172,7 +172,7 @@
 "type": "realia",
 "confidence": 0.3218,
 "match_method": "canonical",
-"preferred_label": "Wagon"
+"preferred_label": "kereta"
 },
 {
 "id": "place:Jerusalem",
@@ -187,6 +187,13 @@
 "confidence": 0.2591,
 "match_method": "canonical",
 "preferred_label": "Adoram"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
 },
 {
 "id": "keyterm:Offering",
@@ -210,13 +217,6 @@
 "preferred_label": "Filipus"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "person:Gehazi",
 "type": "person",
 "confidence": 0.1886,
@@ -228,21 +228,7 @@
 "type": "fauna",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "person:Ahaziah.2",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Ahazia"
-},
-{
-"id": "place:Beth-haggan",
-"type": "place",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Bet-Hagan"
+"preferred_label": "lembu sapi"
 },
 {
 "id": "person:Jonadab",
@@ -252,18 +238,18 @@
 "preferred_label": "Yonadab"
 },
 {
+"id": "place:Beth-haggan",
+"type": "place",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Bet-Hagan"
+},
+{
 "id": "person:Amminadib",
 "type": "person",
 "confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "bangsawan"
-},
-{
-"id": "person:Rechab.2",
-"type": "person",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Rekhab"
+"preferred_label": "Aminadib"
 },
 {
 "id": "place:Gur",
@@ -273,116 +259,18 @@
 "preferred_label": "Gur"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "murni"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "person:Ben-hadad",
+"id": "person:Ahaziah.2",
 "type": "person",
-"confidence": 0.1705,
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Benhadad"
+"preferred_label": "Ahazia"
 },
 {
-"id": "place:Goshen",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Gosyen"
-},
-{
-"id": "person:Joseph.10",
+"id": "person:Rechab.2",
 "type": "person",
-"confidence": 0.1705,
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Yusuf"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "memberkati"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "tubuh"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "place:Ibleam",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yibleam"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Roh"
-},
-{
-"id": "place:Megiddo",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Megido"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Mesir"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "baptisan"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Israelites"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Yesaya"
-},
-{
-"id": "person:Naaman.3",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Naaman"
+"preferred_label": "Rekhab"
 },
 {
 "id": "person:Jehu.2",
@@ -392,6 +280,62 @@
 "preferred_label": "Yehu"
 },
 {
+"id": "person:Naaman.3",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Naaman"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "orang Israel"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "tubuh"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yusuf"
+},
+{
+"id": "place:Ibleam",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yibleam"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "damai sejahtera"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Mesir"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
 "id": "person:Absalom",
 "type": "person",
 "confidence": 0.1705,
@@ -399,137 +343,193 @@
 "preferred_label": "Absalom"
 },
 {
-"id": "keyterm:IntactState",
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Benhadad"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "damai"
+"preferred_label": "baptisan"
+},
+{
+"id": "place:Megiddo",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Megido"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "memberkati"
+},
+{
+"id": "person:Isaiah",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Yesaya"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Roh Kudus"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "tahir"
+},
+{
+"id": "place:Goshen",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Gosyen"
 },
 {
 "id": "flora:Cinnamon",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Cinnamon"
-},
-{
-"id": "realia:Myrrh",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Myrrh"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "kayu manis"
 },
 {
 "id": "realia:Incense",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Incense"
-},
-{
-"id": "flora:Myrrh",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Myrrh"
+"preferred_label": "ukupan"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "kambing"
 },
 {
-"id": "flora:Vine",
+"id": "flora:Myrrh",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:Wheel",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Wheel"
-},
-{
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Camel"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Frankincense"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "mur"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "pohon zaitun"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "unta"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "pokok anggur"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "uang"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "minyak zaitun"
+},
+{
+"id": "realia:Wheel",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "roda"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "kemenyan"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "bagal"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "gandum"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "rumah"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "anak domba"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "kawanan domba"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "anggur"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "mur"
 }
 ]
 }

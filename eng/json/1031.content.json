@@ -249,13 +249,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.4077,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4077,
@@ -263,11 +256,11 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Israel",
+"id": "person:Pharaoh.4",
 "type": "person",
-"confidence": 0.2846,
+"confidence": 0.4077,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Pharaoh"
 },
 {
 "id": "keyterm:Sin",
@@ -275,6 +268,13 @@
 "confidence": 0.2846,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2846,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "realia:House",
@@ -291,25 +291,11 @@
 "preferred_label": "Good News"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
 "id": "person:Joseph.10",
 "type": "person",
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "Joseph"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "Salvation"
 },
 {
 "id": "place:Egypt",
@@ -319,18 +305,25 @@
 "preferred_label": "Egypt"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Offering",
@@ -340,11 +333,18 @@
 "preferred_label": "Offering"
 },
 {
-"id": "keyterm:Life",
+"id": "keyterm:Chosen",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "Chosen"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
 },
 {
 "id": "keyterm:AskFor",
@@ -354,39 +354,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Chosen",
+"id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Chosen"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Beloved"
-},
-{
-"id": "keyterm:TaxCollector",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Tax Collector"
-},
-{
-"id": "keyterm:Deliver",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Deliver"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Isaiah"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Covenant",
@@ -396,11 +368,32 @@
 "preferred_label": "Covenant"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Deliver",
+"type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Deliver"
+},
+{
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Beloved"
+},
+{
+"id": "person:Isaiah",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Isaiah"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Fear",
@@ -417,18 +410,18 @@
 "preferred_label": "Gentiles"
 },
 {
+"id": "keyterm:TaxCollector",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Tax Collector"
+},
+{
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Vine"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Cloak"
 },
 {
 "id": "realia:Tassel",
@@ -438,11 +431,11 @@
 "preferred_label": "Tassel"
 },
 {
-"id": "realia:Beam",
+"id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "Beam"
+"preferred_label": "Cloak"
 },
 {
 "id": "realia:Cross",
@@ -450,6 +443,13 @@
 "confidence": 0.1015,
 "match_method": "canonical",
 "preferred_label": "Cross"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Beam"
 }
 ]
 }

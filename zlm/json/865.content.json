@@ -296,6 +296,13 @@
 "preferred_label": "Cubit"
 },
 {
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.3498,
+"match_method": "canonical",
+"preferred_label": "Ark of the Covenant"
+},
+{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3498,
@@ -308,13 +315,6 @@
 "confidence": 0.3498,
 "match_method": "canonical",
 "preferred_label": "Temple Altar"
-},
-{
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.3498,
-"match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
 },
 {
 "id": "realia:Altar",
@@ -380,13 +380,6 @@
 "preferred_label": "Dyed Cloth"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1668,
-"match_method": "canonical",
-"preferred_label": "Leather"
-},
-{
 "id": "fauna:Dugong",
 "type": "fauna",
 "confidence": 0.1668,
@@ -394,11 +387,11 @@
 "preferred_label": "Dugong"
 },
 {
-"id": "person:Bezalel",
-"type": "person",
-"confidence": 0.1659,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1668,
 "match_method": "canonical",
-"preferred_label": "Bezalel"
+"preferred_label": "Leather"
 },
 {
 "id": "keyterm:DailyLife",
@@ -408,18 +401,18 @@
 "preferred_label": "Daily Life"
 },
 {
+"id": "person:Bezalel",
+"type": "person",
+"confidence": 0.1659,
+"match_method": "canonical",
+"preferred_label": "Bezalel"
+},
+{
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.162,
 "match_method": "canonical",
 "preferred_label": "Cloak"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.162,
-"match_method": "canonical",
-"preferred_label": "Sheep"
 },
 {
 "id": "flora:Vine",
@@ -436,18 +429,18 @@
 "preferred_label": "Fig"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.161,
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.162,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Sheep"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "LORD"
 },
 {
 "id": "person:Jesus.2",
@@ -464,18 +457,18 @@
 "preferred_label": "Ability"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Jews"
 },
 {
-"id": "flora:Laurustinus",
-"type": "flora",
-"confidence": 0.1059,
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Laurustinus"
+"preferred_label": "Always"
 },
 {
 "id": "realia:PurpleCloth",
@@ -485,11 +478,32 @@
 "preferred_label": "Purple Cloth"
 },
 {
+"id": "flora:Laurustinus",
+"type": "flora",
+"confidence": 0.1059,
+"match_method": "canonical",
+"preferred_label": "Laurustinus"
+},
+{
 "id": "flora:Juniper",
 "type": "flora",
 "confidence": 0.1059,
 "match_method": "canonical",
 "preferred_label": "Grecian Juniper"
+},
+{
+"id": "flora:Myrtle",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Myrtle"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Aleppo Pine"
 },
 {
 "id": "flora:Reed",
@@ -499,11 +513,18 @@
 "preferred_label": "Reed"
 },
 {
-"id": "flora:Cedar",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "Cedar"
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Screen"
 },
 {
 "id": "flora:JuniperTree",
@@ -520,11 +541,11 @@
 "preferred_label": "Cypress"
 },
 {
-"id": "realia:HornsOfAltar",
-"type": "realia",
+"id": "flora:Fir",
+"type": "flora",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "Horns of Altar"
+"preferred_label": "Fir"
 },
 {
 "id": "realia:Tablet",
@@ -534,39 +555,18 @@
 "preferred_label": "Tablet"
 },
 {
-"id": "flora:Fir",
+"id": "flora:Cedar",
 "type": "flora",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "Fir"
+"preferred_label": "Cedar"
 },
 {
-"id": "flora:Myrtle",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "Myrtle"
-},
-{
-"id": "realia:Screen",
+"id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "Aleppo Pine"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Horns of Altar"
 }
 ]
 }

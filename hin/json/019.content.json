@@ -109,35 +109,28 @@
 "type": "fauna",
 "confidence": 0.7067,
 "match_method": "canonical",
-"preferred_label": "Gazelle"
+"preferred_label": "चिकारा"
 },
 {
 "id": "fauna:Deer",
 "type": "fauna",
 "confidence": 0.5733,
 "match_method": "canonical",
-"preferred_label": "Deer"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Pure"
+"preferred_label": "हिरन"
 },
 {
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "अशुद्ध करना"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Pure",
 "type": "keyterm",
-"confidence": 0.26,
+"confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "शुद्ध"
 },
 {
 "id": "deity:Lord",
@@ -151,7 +144,7 @@
 "type": "keyterm",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "Swear"
+"preferred_label": "शपथ खाना"
 },
 {
 "id": "place:Jerusalem",
@@ -159,6 +152,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "यरूशलेम"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "प्रेम"
 },
 {
 "id": "person:Asahel",
@@ -175,20 +175,6 @@
 "preferred_label": "सरूयाह"
 },
 {
-"id": "place:BetherMountain",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "बेतेर"
-},
-{
-"id": "place:Bath-rabbim",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Bath-rabbim"
-},
-{
 "id": "person:Abishai",
 "type": "person",
 "confidence": 0.1933,
@@ -196,39 +182,18 @@
 "preferred_label": "अबीशै"
 },
 {
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "योआब"
-},
-{
-"id": "place:Damascus",
+"id": "place:Bath-rabbim",
 "type": "place",
-"confidence": 0.18,
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "दमिश्क"
+"preferred_label": "बत्रब्बीम"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "place:Lebanon",
+"id": "place:BetherMountain",
 "type": "place",
-"confidence": 0.18,
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "लबानोन"
-},
-{
-"id": "place:Heshbon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "हेशबोन"
+"preferred_label": "बेतेर"
 },
 {
 "id": "person:David",
@@ -238,102 +203,137 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "fauna:Oryx",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Oryx"
+"preferred_label": "दमिश्क"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "योआब"
+},
+{
+"id": "place:Heshbon",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "हेशबोन"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "लबानोन"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "आशीष देना"
 },
 {
 "id": "fauna:BubalHartebeest",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Bubal Hartebeest"
-},
-{
-"id": "fauna:Ibex",
-"type": "fauna",
-"confidence": 0.1333,
-"match_method": "canonical",
-"preferred_label": "Ibex"
+"preferred_label": "यखमूर"
 },
 {
 "id": "fauna:Hartebeest",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Hartebeest"
+"preferred_label": "यखमूर"
+},
+{
+"id": "fauna:Ibex",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "जंगली बकरा"
+},
+{
+"id": "fauna:Oryx",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "नीलगाय"
 },
 {
 "id": "fauna:Addax",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Addax"
-},
-{
-"id": "flora:BalsamTree",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Balsam Tree"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Lily"
+"preferred_label": "नीलगाय"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Tower"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "बकरी"
 },
 {
 "id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "पक्षी"
+},
+{
+"id": "flora:BalsamTree",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "बलसान का वृक्ष"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "सोसन"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "गुम्मट"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "घर"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "झुंड"
 },
 {
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Trap"
+"preferred_label": "फंदा"
 },
 {
 "id": "realia:Window",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Window"
+"preferred_label": "खिड़की"
 }
 ]
 }

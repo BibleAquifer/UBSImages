@@ -127,21 +127,21 @@
 "type": "realia",
 "confidence": 0.5733,
 "match_method": "canonical",
-"preferred_label": "Barn"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "grenier"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "grain"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "blé"
 },
 {
 "id": "deity:Lord",
@@ -155,35 +155,14 @@
 "type": "flora",
 "confidence": 0.265,
 "match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "benir"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Liban"
+"preferred_label": "vigne"
 },
 {
 "id": "keyterm:CleanOut",
 "type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "nettoyer"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Salomon"
+"preferred_label": "nettoyer à fond"
 },
 {
 "id": "place:Jerusalem",
@@ -193,53 +172,60 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.2011,
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Must"
+"preferred_label": "Liban"
 },
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.2011,
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "Salomon"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "bénir"
 },
 {
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2011,
 "match_method": "canonical",
-"preferred_label": "Winnowing Fork"
+"preferred_label": "fourche à vanner"
 },
 {
-"id": "realia:Chariot",
+"id": "realia:ThreshingFloor",
 "type": "realia",
-"confidence": 0.19,
+"confidence": 0.2011,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "aire de battage"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.2011,
+"match_method": "canonical",
+"preferred_label": "moût"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.19,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivier"
 },
 {
-"id": "place:Pithom",
-"type": "place",
-"confidence": 0.1861,
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.19,
 "match_method": "canonical",
-"preferred_label": "Pithom"
-},
-{
-"id": "place:Hamath",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Hamath"
+"preferred_label": "char"
 },
 {
 "id": "place:Ijon",
@@ -247,6 +233,13 @@
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Ijjon"
+},
+{
+"id": "place:Hamath",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Hamath"
 },
 {
 "id": "place:Baalath.2",
@@ -263,46 +256,18 @@
 "preferred_label": "Thadmor"
 },
 {
+"id": "place:Pithom",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Pithom"
+},
+{
 "id": "place:Abel-beth-maacah",
 "type": "place",
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Abel-Beth-Maaca"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Ben-Hadad"
-},
-{
-"id": "keyterm:Heavenly",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "céleste"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Dan"
 },
 {
 "id": "person:Asa",
@@ -319,25 +284,11 @@
 "preferred_label": "Nephthali"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "group:Naphtali",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Dan"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Tribu de Nephthali"
 },
 {
 "id": "person:Jehoshaphat.3",
@@ -347,18 +298,18 @@
 "preferred_label": "Josaphat"
 },
 {
-"id": "group:Naphtali",
-"type": "group",
+"id": "place:Dan",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Nephthali"
+"preferred_label": "Dan"
 },
 {
-"id": "person:Pharaoh.5",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Pharaon"
+"preferred_label": "Israël"
 },
 {
 "id": "place:Raamses",
@@ -368,123 +319,172 @@
 "preferred_label": "Ramsès"
 },
 {
-"id": "fauna:Crow",
-"type": "fauna",
-"confidence": 0.1261,
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Crow"
+"preferred_label": "Juda"
 },
 {
-"id": "realia:Storeroom",
-"type": "realia",
-"confidence": 0.1261,
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Storeroom"
+"preferred_label": "Pharaon"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "tribu de Dan"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Ben-Hadad"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "keyterm:Heavenly",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "céleste"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "ciel"
 },
 {
 "id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "oiseau"
 },
 {
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "Animal Pen"
+"preferred_label": "enclos pour animaux"
 },
 {
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Weed"
-},
-{
-"id": "realia:AnointingOil",
+"id": "realia:Storeroom",
 "type": "realia",
-"confidence": 0.115,
+"confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "cellier"
 },
 {
-"id": "fauna:Mule",
+"id": "fauna:Crow",
 "type": "fauna",
-"confidence": 0.115,
+"confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "corbeau"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Coriander"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Pomegranate"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Rooster"
+"preferred_label": "chèvre"
 },
 {
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "pressoir"
 },
 {
-"id": "flora:Fig",
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "huile d'onction"
+},
+{
+"id": "flora:Weed",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "ivraie"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "huile d'olive"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "orge"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "coq"
+},
+{
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "figue"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "mulet"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "coriandre"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "troupeau"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "grenadier"
 }
 ]
 }

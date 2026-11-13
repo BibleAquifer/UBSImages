@@ -91,7 +91,7 @@
 "type": "flora",
 "confidence": 0.7525,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "Чертополох"
 },
 {
 "id": "person:Israel",
@@ -99,6 +99,13 @@
 "confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "Израиль"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Амасия"
 },
 {
 "id": "place:Lebanon",
@@ -115,6 +122,13 @@
 "preferred_label": "Иуда"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.275,
@@ -122,95 +136,46 @@
 "preferred_label": "Иоас"
 },
 {
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Амасси"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.2317,
 "match_method": "canonical",
-"preferred_label": "Nettle"
+"preferred_label": "Крапива"
 },
 {
 "id": "flora:Cedar",
 "type": "flora",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Салмана"
+"preferred_label": "Кедр"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Complete"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Иов"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Сокхоф"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "person:Zebah",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Зевей"
+"preferred_label": "Непорочный"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
-"id": "keyterm:Saying",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Proverb"
+"preferred_label": "Лишать владения"
+},
+{
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Салман"
 },
 {
 "id": "person:Gideon",
@@ -220,11 +185,11 @@
 "preferred_label": "Гедеон"
 },
 {
-"id": "keyterm:Stupid",
-"type": "keyterm",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Stupid"
+"preferred_label": "Египет"
 },
 {
 "id": "place:Memphis",
@@ -234,81 +199,116 @@
 "preferred_label": "Мемфис"
 },
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Притча"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Сокхоф"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Иов"
+},
+{
+"id": "person:Zebah",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Зевей"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Глупый"
+},
+{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Weed"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Jackal"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "Плевел"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "Терновник"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "яма"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Деньги"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Лилия"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Шакал"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Ячмень"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Сова"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Страус"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Пшеница"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Сандаловое дерево"
 }
 ]
 }

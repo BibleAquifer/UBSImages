@@ -574,18 +574,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "person:Ahab",
-"type": "person",
-"confidence": 0.3745,
-"match_method": "canonical",
-"preferred_label": "Achab"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3745,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "person:Ahab",
+"type": "person",
+"confidence": 0.3745,
+"match_method": "canonical",
+"preferred_label": "Achab"
 },
 {
 "id": "person:Elijah",
@@ -599,7 +599,7 @@
 "type": "keyterm",
 "confidence": 0.3196,
 "match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+"preferred_label": "ciel"
 },
 {
 "id": "person:Israel",
@@ -613,14 +613,7 @@
 "type": "flora",
 "confidence": 0.3193,
 "match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2647,
-"match_method": "canonical",
-"preferred_label": "Moïse"
+"preferred_label": "herbe"
 },
 {
 "id": "place:Jerusalem",
@@ -630,11 +623,18 @@
 "preferred_label": "Jérusalem"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.2647,
+"match_method": "canonical",
+"preferred_label": "Moïse"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2647,
 "match_method": "canonical",
-"preferred_label": "benir"
+"preferred_label": "bénir"
 },
 {
 "id": "place:Sodom",
@@ -642,6 +642,27 @@
 "confidence": 0.212,
 "match_method": "canonical",
 "preferred_label": "Sodome"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "pardonner"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Pharaon"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "donner en possession"
 },
 {
 "id": "place:Egypt",
@@ -658,13 +679,6 @@
 "preferred_label": "prier"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Pharaon"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2098,
@@ -672,74 +686,53 @@
 "preferred_label": "gloire"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "pardonner"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "laissiez en possession"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "crainte"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "huile d'onction"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "huile d'olive"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.1571,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "le bien"
+"preferred_label": "maison"
 },
 {
 "id": "group:Tishbite",
 "type": "group",
 "confidence": 0.1571,
 "match_method": "canonical",
-"preferred_label": "Thischbite"
+"preferred_label": "Thischbites"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1571,
+"match_method": "canonical",
+"preferred_label": "bon"
 },
 {
 "id": "place:Tishbe",
 "type": "place",
 "confidence": 0.1571,
 "match_method": "canonical",
-"preferred_label": "Tishbe"
-},
-{
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.1571,
-"match_method": "canonical",
-"preferred_label": "faire du bien"
+"preferred_label": "Thischbé"
 },
 {
 "id": "place:Gomorrah",
@@ -749,32 +742,39 @@
 "preferred_label": "Gomorrhe"
 },
 {
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.1571,
+"match_method": "canonical",
+"preferred_label": "faire le bien"
+},
+{
+"id": "place:GilboaMount",
+"type": "place",
+"confidence": 0.1549,
+"match_method": "canonical",
+"preferred_label": "mont Guilboa"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1549,
+"match_method": "canonical",
+"preferred_label": "être juste"
+},
+{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.1549,
 "match_method": "canonical",
-"preferred_label": "limite"
+"preferred_label": "décret"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1549,
-"match_method": "canonical",
-"preferred_label": "Benjamin"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1549,
 "match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1549,
-"match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "bonté"
 }
 ]
 }

@@ -97,42 +97,49 @@
 "type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "bakul"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.5323,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "roti tidak beragi"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.4631,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3785,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "anak domba"
 },
 {
 "id": "realia:Cake",
 "type": "realia",
 "confidence": 0.3785,
 "match_method": "canonical",
-"preferred_label": "Cake"
+"preferred_label": "kue"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3785,
+"match_method": "canonical",
+"preferred_label": "Minyak urapan"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3785,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "minyak zaitun"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3538,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
 },
 {
 "id": "keyterm:Offering",
@@ -140,13 +147,6 @@
 "confidence": 0.3538,
 "match_method": "canonical",
 "preferred_label": "persembahan"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3538,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
 },
 {
 "id": "person:Aaron",
@@ -167,49 +167,28 @@
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
+"preferred_label": "Kemah Pertemuan"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "lembu sapi"
 },
 {
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "anggur"
 },
 {
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "pengorbanan"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Nazirites"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "mengolesi"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Firaun"
+"preferred_label": "penyembelihan kurban"
 },
 {
 "id": "person:Moses",
@@ -219,25 +198,18 @@
 "preferred_label": "Musa"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "berbuat dosa"
-},
-{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "dikhususkan"
+"preferred_label": "pengudusan"
 },
 {
-"id": "person:Gideon",
+"id": "person:Pharaoh.4",
 "type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "Firaun"
 },
 {
 "id": "keyterm:Priesthood",
@@ -247,39 +219,67 @@
 "preferred_label": "imamat"
 },
 {
-"id": "fauna:Kid",
-"type": "fauna",
-"confidence": 0.1246,
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Kid"
+"preferred_label": "mengolesi"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1246,
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "Gideon"
 },
 {
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1246,
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "berbuat dosa"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "orang nazir"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "kambing"
+},
+{
+"id": "fauna:Kid",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "anak kambing"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "tarbantin"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "efa"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "kawanan domba"
 }
 ]
 }

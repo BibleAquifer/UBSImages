@@ -877,14 +877,14 @@
 "type": "realia",
 "confidence": 0.7267,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
+"preferred_label": "Kemah Pertemuan"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5199,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Moses",
@@ -919,7 +919,7 @@
 "type": "group",
 "confidence": 0.4031,
 "match_method": "canonical",
-"preferred_label": "Lewi"
+"preferred_label": "suku Lewi"
 },
 {
 "id": "person:Levi.3",
@@ -933,28 +933,28 @@
 "type": "keyterm",
 "confidence": 0.3972,
 "match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
+"preferred_label": "memaksa untuk melayani"
 },
 {
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.3955,
 "match_method": "canonical",
-"preferred_label": "khusus"
+"preferred_label": "kudus"
 },
 {
 "id": "keyterm:Witness.2",
 "type": "keyterm",
 "confidence": 0.3846,
 "match_method": "canonical",
-"preferred_label": "hukum"
+"preferred_label": "kesaksian"
 },
 {
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.3752,
 "match_method": "canonical",
-"preferred_label": "kudus"
+"preferred_label": "Tempat Kudus"
 },
 {
 "id": "keyterm:Glory",
@@ -975,63 +975,49 @@
 "type": "keyterm",
 "confidence": 0.3657,
 "match_method": "canonical",
-"preferred_label": "tabut"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "tabut perjanjian"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "mezbah batu"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "Mezbah"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "mezbah Bait Allah"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "mezbah Kemah Suci"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3183,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "person:Gershon",
-"type": "person",
-"confidence": 0.3126,
-"match_method": "canonical",
-"preferred_label": "Gerson"
+"preferred_label": "lembu sapi"
 },
 {
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.3126,
 "match_method": "canonical",
-"preferred_label": "murni"
-},
-{
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.3126,
-"match_method": "canonical",
-"preferred_label": "Eleazar"
+"preferred_label": "tahir"
 },
 {
 "id": "keyterm:Priesthood",
@@ -1041,18 +1027,32 @@
 "preferred_label": "imamat"
 },
 {
+"id": "person:Gershon",
+"type": "person",
+"confidence": 0.3126,
+"match_method": "canonical",
+"preferred_label": "Gerson"
+},
+{
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.3126,
+"match_method": "canonical",
+"preferred_label": "Eleazar"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.3103,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "kemah"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.3057,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Tabut Perjanjian"
 },
 {
 "id": "person:Kohath",
@@ -1060,6 +1060,13 @@
 "confidence": 0.2594,
 "match_method": "canonical",
 "preferred_label": "Kehat"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2594,
+"match_method": "canonical",
+"preferred_label": "memberikan milik"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -1074,13 +1081,6 @@
 "confidence": 0.2594,
 "match_method": "canonical",
 "preferred_label": "berbuat dosa"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2594,
-"match_method": "canonical",
-"preferred_label": "menyebabkan memiliki"
 }
 ]
 }

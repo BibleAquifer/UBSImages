@@ -91,7 +91,7 @@
 "type": "flora",
 "confidence": 0.7525,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "cardo"
 },
 {
 "id": "person:Israel",
@@ -101,11 +101,18 @@
 "preferred_label": "Israel"
 },
 {
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Amazias"
+},
+{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "Libano"
+"preferred_label": "Líbano"
 },
 {
 "id": "person:Judah.4",
@@ -115,6 +122,13 @@
 "preferred_label": "Judá"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Tribo de Judá"
+},
+{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.275,
@@ -122,81 +136,25 @@
 "preferred_label": "Joás"
 },
 {
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Amazias"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.2317,
 "match_method": "canonical",
-"preferred_label": "Nettle"
+"preferred_label": "urtiga"
 },
 {
 "id": "flora:Cedar",
 "type": "flora",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Salmuna"
+"preferred_label": "cedro"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Complete"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Jó"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Sucote"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Egito"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "dispossess"
-},
-{
-"id": "person:Zebah",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Zeba"
+"preferred_label": "íntegro"
 },
 {
 "id": "deity:Lord",
@@ -206,11 +164,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Saying",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "saying"
+"preferred_label": "desapossar"
+},
+{
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Zalmuna"
 },
 {
 "id": "person:Gideon",
@@ -220,11 +185,11 @@
 "preferred_label": "Gideão"
 },
 {
-"id": "keyterm:Stupid",
-"type": "keyterm",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "he who lacks heart"
+"preferred_label": "Egito"
 },
 {
 "id": "place:Memphis",
@@ -234,81 +199,116 @@
 "preferred_label": "Mênfis"
 },
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "provérbio"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Sucote"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Jó"
+},
+{
+"id": "person:Zebah",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Zeba"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "tolo"
+},
+{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Weed"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Jackal"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "joio"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "sarça"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "cova"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "lírio"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "chacal"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "cevada"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "coruja"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "avestruz"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "trigo"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "sândalo"
 }
 ]
 }

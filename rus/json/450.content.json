@@ -70,6 +70,13 @@
 "preferred_label": "Коринф"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4187,
+"match_method": "canonical",
+"preferred_label": "ГОСПОДЬ"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.4187,
@@ -77,32 +84,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "group:Corinth",
 "type": "group",
 "confidence": 0.3625,
 "match_method": "canonical",
-"preferred_label": "Corinthians"
-},
-{
-"id": "keyterm:CallUpon",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Call Upon"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "Коринфяне"
 },
 {
 "id": "person:Paul",
@@ -112,11 +98,25 @@
 "preferred_label": "Павел"
 },
 {
-"id": "person:Erastus",
+"id": "keyterm:CallUpon",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "призывать"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Церковь"
+},
+{
+"id": "person:Trophimus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Ераст"
+"preferred_label": "Трофим"
 },
 {
 "id": "place:Ephesus",
@@ -124,13 +124,6 @@
 "confidence": 0.2313,
 "match_method": "canonical",
 "preferred_label": "Ефес"
-},
-{
-"id": "place:Miletus",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Милит"
 },
 {
 "id": "person:Crispus",
@@ -147,53 +140,18 @@
 "preferred_label": "Ахаия"
 },
 {
-"id": "person:Trophimus",
+"id": "person:Erastus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Трофим"
+"preferred_label": "Ераст"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "place:Athens",
+"id": "place:Miletus",
 "type": "place",
-"confidence": 0.2063,
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Афины"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Heart"
+"preferred_label": "Милит"
 },
 {
 "id": "person:Timothy",
@@ -203,11 +161,67 @@
 "preferred_label": "Тимофей"
 },
 {
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Свидетельство"
+},
+{
+"id": "place:Athens",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Афины"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Во Христе"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Быть учеником"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Baptism"
+"preferred_label": "Крещение"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "святой"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Сердце"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Имя"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Верить"
 },
 {
 "id": "person:Apollos",
@@ -217,25 +231,11 @@
 "preferred_label": "Аполлос"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "In Christ"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Witness"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "Синагога"
 }
 ]
 }

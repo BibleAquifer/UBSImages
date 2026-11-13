@@ -151,49 +151,49 @@
 "type": "realia",
 "confidence": 0.6945,
 "match_method": "canonical",
-"preferred_label": "Skin-Bottle"
+"preferred_label": "kirbat"
 },
 {
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.515,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "anggur"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.4741,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "pokok anggur"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4727,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.3309,
 "match_method": "canonical",
-"preferred_label": "Must"
+"preferred_label": "anggur baru"
 },
 {
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.3218,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "keledai"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.2514,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "kambing"
 },
 {
 "id": "person:David",
@@ -203,74 +203,32 @@
 "preferred_label": "Daud"
 },
 {
+"id": "realia:ClayJar",
+"type": "realia",
+"confidence": 0.1809,
+"match_method": "canonical",
+"preferred_label": "buyung tanah liat"
+},
+{
 "id": "fauna:Kid",
 "type": "fauna",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Kid"
+"preferred_label": "anak kambing"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:ClayJar",
-"type": "realia",
-"confidence": 0.1809,
-"match_method": "canonical",
-"preferred_label": "Clay Jar"
+"preferred_label": "kawanan domba"
 },
 {
 "id": "place:Tabor.2",
 "type": "place",
 "confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Oak of Tabor"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Woe"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "person:Ziba",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Ziba"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "ketetapan"
-},
-{
-"id": "keyterm:Crafty",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "cerdik"
-},
-{
-"id": "person:Mephibosheth",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Mefiboset"
+"preferred_label": "Pohon Tarbantin Tabor"
 },
 {
 "id": "person:Hagar",
@@ -280,32 +238,25 @@
 "preferred_label": "Hagar"
 },
 {
-"id": "person:Israel",
+"id": "person:Abigail",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Abigail"
+},
+{
+"id": "person:Ziba",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Ziba"
 },
 {
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "keahlian"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Saul"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Isai"
+"preferred_label": "kemampuan"
 },
 {
 "id": "place:Bethel",
@@ -315,11 +266,46 @@
 "preferred_label": "Betel"
 },
 {
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "ketetapan"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "celaka"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
 "id": "place:Beersheba",
 "type": "place",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Bersyeba"
+},
+{
+"id": "keyterm:Crafty",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "cerdik"
 },
 {
 "id": "place:Shiloh",
@@ -329,74 +315,88 @@
 "preferred_label": "Silo"
 },
 {
-"id": "person:Abigail",
+"id": "person:Jesse",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Abigail"
+"preferred_label": "Isai"
+},
+{
+"id": "person:Mephibosheth",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Mefiboset"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Saul"
 },
 {
 "id": "realia:FigCake",
 "type": "realia",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Fig Cake"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "kue ara"
 },
 {
 "id": "realia:ToSaddle",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "To Saddle"
+"preferred_label": "memasang pelana"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "jubah"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "lembu sapi"
 },
 {
 "id": "flora:Oak",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Oak"
+"preferred_label": "pohon ek"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "efa"
 },
 {
 "id": "realia:Seah",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Seah"
+"preferred_label": "sukat"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "rumah"
 },
 {
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Bag"
+"preferred_label": "kantong"
 }
 ]
 }

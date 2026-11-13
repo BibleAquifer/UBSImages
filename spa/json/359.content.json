@@ -397,7 +397,7 @@
 "type": "realia",
 "confidence": 0.6241,
 "match_method": "canonical",
-"preferred_label": "Spear"
+"preferred_label": "lanza"
 },
 {
 "id": "deity:Lord",
@@ -421,32 +421,32 @@
 "preferred_label": "Saúl"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3857,
-"match_method": "canonical",
-"preferred_label": "los"
-},
-{
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.3857,
 "match_method": "canonical",
-"preferred_label": "Filisteos"
+"preferred_label": "Filistea"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3857,
+"match_method": "canonical",
+"preferred_label": "filisteos"
 },
 {
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.3543,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "espada"
 },
 {
 "id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.3495,
 "match_method": "canonical",
-"preferred_label": "Javelin"
+"preferred_label": "jabalina"
 },
 {
 "id": "person:Abishai",
@@ -454,6 +454,13 @@
 "confidence": 0.3317,
 "match_method": "canonical",
 "preferred_label": "Abisai"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "person:Israel",
@@ -467,28 +474,28 @@
 "type": "group",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "tribu de Judá"
 },
 {
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "escudo pequeño"
 },
 {
 "id": "realia:WeaversBeam",
 "type": "realia",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Weavers Beam"
+"preferred_label": "rodillo de telar"
+},
+{
+"id": "person:Goliath",
+"type": "person",
+"confidence": 0.2714,
+"match_method": "canonical",
+"preferred_label": "Goliat"
 },
 {
 "id": "person:Joab",
@@ -498,39 +505,25 @@
 "preferred_label": "Joab"
 },
 {
-"id": "person:Goliath",
-"type": "person",
-"confidence": 0.2714,
-"match_method": "canonical",
-"preferred_label": "Goliath"
-},
-{
-"id": "realia:House",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "arco"
 },
 {
 "id": "realia:LargeShield",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "Large Shield"
+"preferred_label": "escudo grande"
 },
 {
-"id": "realia:Bow",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "Bow"
-},
-{
-"id": "person:Elhanan",
-"type": "person",
-"confidence": 0.2206,
-"match_method": "canonical",
-"preferred_label": "Elhaanan"
+"preferred_label": "casa"
 },
 {
 "id": "person:Jaare-oregim",
@@ -540,22 +533,29 @@
 "preferred_label": "Jaare-oregim"
 },
 {
-"id": "person:Abner",
+"id": "person:Elhanan",
 "type": "person",
-"confidence": 0.2143,
+"confidence": 0.2206,
 "match_method": "canonical",
-"preferred_label": "Abner"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Jonathán"
+"preferred_label": "Elhanán"
 },
 {
 "id": "group:Benjamin",
 "type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "tribu de Benjamín"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Benjamín"
@@ -568,6 +568,13 @@
 "preferred_label": "Egipto"
 },
 {
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Gat"
+},
+{
 "id": "place:Ai",
 "type": "place",
 "confidence": 0.2143,
@@ -575,18 +582,18 @@
 "preferred_label": "Hai"
 },
 {
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Gath"
-},
-{
-"id": "person:Joshua.2",
+"id": "person:Abner",
 "type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Josué"
+"preferred_label": "Abner"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "flecha"
 },
 {
 "id": "keyterm:Anointed",
@@ -594,13 +601,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "ungido"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Egipto"
 }
 ]
 }

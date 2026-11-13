@@ -135,6 +135,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4625,
+"match_method": "canonical",
+"preferred_label": "ГОСПОДЬ"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.4625,
@@ -142,32 +149,25 @@
 "preferred_label": "Самсон"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4625,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Филистимлянин"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Филистимской"
+"preferred_label": "Филистимляне"
 },
 {
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "Сила"
 },
 {
 "id": "person:Delilah",
@@ -177,74 +177,39 @@
 "preferred_label": "Далида"
 },
 {
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Thread"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Веревка"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "лук"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "Нить"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Лехий"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Under Siege"
+"preferred_label": "дом"
 },
 {
 "id": "keyterm:Shield",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Shield"
+"preferred_label": "Щит"
 },
 {
 "id": "place:Jerusalem",
@@ -254,60 +219,95 @@
 "preferred_label": "Иерусалим"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Пророчествовать"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "В осаде"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Спасение"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Лехи"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "ремесленник"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Коза"
 },
 {
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Measuring Reed"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flax"
+"preferred_label": "Трость измерения"
 },
 {
 "id": "realia:Hammer",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Hammer"
+"preferred_label": "молот"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "малый щит"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Ягненок"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Стадо"
+},
+{
+"id": "flora:Flax",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Лен"
 }
 ]
 }

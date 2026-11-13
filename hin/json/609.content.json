@@ -206,7 +206,7 @@
 "type": "place",
 "confidence": 0.5283,
 "match_method": "canonical",
-"preferred_label": "सेईर पर्वत"
+"preferred_label": "सेईर पहाड़"
 },
 {
 "id": "place:Edom",
@@ -237,18 +237,18 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
 "id": "person:Esau",
 "type": "person",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "एसाव"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.425,
+"match_method": "canonical",
+"preferred_label": "मोआब"
 },
 {
 "id": "person:Hori",
@@ -262,21 +262,21 @@
 "type": "keyterm",
 "confidence": 0.36,
 "match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "अधिकारी बनाना"
 },
 {
 "id": "group:Hori",
 "type": "group",
 "confidence": 0.3083,
 "match_method": "canonical",
-"preferred_label": "Horites"
+"preferred_label": "होरी"
 },
 {
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.3017,
 "match_method": "canonical",
-"preferred_label": "Dispossess"
+"preferred_label": "बेदखल करना"
 },
 {
 "id": "place:Ammon",
@@ -297,7 +297,7 @@
 "type": "place",
 "confidence": 0.2433,
 "match_method": "canonical",
-"preferred_label": "Valley of Lebanon"
+"preferred_label": "लबानोन की तराई"
 },
 {
 "id": "place:SinaiMount",
@@ -307,20 +307,6 @@
 "preferred_label": "सीनै पर्वत"
 },
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "यरदन"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "हेर्मोन पर्वत"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.23,
@@ -328,11 +314,18 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "place:El-paran",
+"id": "place:Jordan",
 "type": "place",
-"confidence": 0.1717,
+"confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "El-paran"
+"preferred_label": "यरदन नदी"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "हेर्मोन पर्वत"
 },
 {
 "id": "place:Ezion-geber",
@@ -349,11 +342,18 @@
 "preferred_label": "नार्याह"
 },
 {
-"id": "place:Dumah",
+"id": "person:Uzziel.2",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "उज्जीएल"
+},
+{
+"id": "place:Arabah",
 "type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "दूमा"
+"preferred_label": "अराबा"
 },
 {
 "id": "person:Ishi.3",
@@ -370,11 +370,18 @@
 "preferred_label": "पारान पर्वत"
 },
 {
-"id": "person:Rephaiah.3",
-"type": "person",
+"id": "place:Dumah",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "रपायाह"
+"preferred_label": "दूमा"
+},
+{
+"id": "place:El-paran",
+"type": "place",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "एल्पारान"
 },
 {
 "id": "person:Pelatiah.2",
@@ -384,32 +391,46 @@
 "preferred_label": "पलत्याह"
 },
 {
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "अराबा"
-},
-{
-"id": "person:Uzziel.2",
+"id": "person:Rephaiah.3",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "उज्जीएल"
+"preferred_label": "रपायाह"
 },
 {
-"id": "place:Zephath",
-"type": "place",
+"id": "person:Isaac",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Zephath"
+"preferred_label": "इसहाक"
 },
 {
-"id": "place:Ar",
-"type": "place",
+"id": "person:Simeon.5",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "आर"
+"preferred_label": "शिमोन"
+},
+{
+"id": "person:Dishon",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "दीशोन"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "भविष्यद्वाणी करना"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "भारी वचन"
 },
 {
 "id": "place:RedSea",
@@ -426,39 +447,18 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "group:Amorites",
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "यहोशू"
+},
+{
+"id": "group:Simeon",
 "type": "group",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "person:Ezer",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "एजेर"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "person:Dishon",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "दीशोन"
-},
-{
-"id": "person:Dishan",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "दीशान"
+"preferred_label": "शिमोन का गोत्र"
 },
 {
 "id": "person:Laban",
@@ -468,18 +468,39 @@
 "preferred_label": "लाबान"
 },
 {
-"id": "place:Kadesh-barnea",
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "एमोरी"
+},
+{
+"id": "place:Zephath",
 "type": "place",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Kadesh-barnea"
+"preferred_label": "सपत"
 },
 {
-"id": "person:Simeon.5",
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "person:Dishan",
 "type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "शिमोन"
+"preferred_label": "दीशान"
+},
+{
+"id": "place:Ar",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "आर"
 },
 {
 "id": "place:Elath",
@@ -489,60 +510,39 @@
 "preferred_label": "एलत"
 },
 {
-"id": "person:Isaac",
+"id": "person:Ezer",
 "type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "इसहाक"
+"preferred_label": "एसेर"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "कादेश-बर्ने"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Utterance"
-},
-{
-"id": "group:Simeon",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "शिमोन"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
+"preferred_label": "भय"
 },
 {
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "Bee"
+"preferred_label": "मधुमक्खी"
 },
 {
 "id": "flora:Cattails",
 "type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Cattails"
+"preferred_label": "हूगल"
 }
 ]
 }

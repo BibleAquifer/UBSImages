@@ -220,7 +220,7 @@
 "type": "group",
 "confidence": 0.4767,
 "match_method": "canonical",
-"preferred_label": "Édom"
+"preferred_label": "Édomites"
 },
 {
 "id": "deity:Lord",
@@ -237,18 +237,18 @@
 "preferred_label": "Israël"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.425,
-"match_method": "canonical",
-"preferred_label": "Moab"
-},
-{
 "id": "person:Esau",
 "type": "person",
 "confidence": 0.425,
 "match_method": "canonical",
 "preferred_label": "Ésaü"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.425,
+"match_method": "canonical",
+"preferred_label": "Moab"
 },
 {
 "id": "person:Hori",
@@ -262,14 +262,14 @@
 "type": "keyterm",
 "confidence": 0.36,
 "match_method": "canonical",
-"preferred_label": "laissiez en possession"
+"preferred_label": "donner en possession"
 },
 {
 "id": "group:Hori",
 "type": "group",
 "confidence": 0.3083,
 "match_method": "canonical",
-"preferred_label": "Horite"
+"preferred_label": "Horiens"
 },
 {
 "id": "keyterm:Dispossess",
@@ -290,7 +290,7 @@
 "type": "place",
 "confidence": 0.2433,
 "match_method": "canonical",
-"preferred_label": "montagne nue"
+"preferred_label": "mont Halak"
 },
 {
 "id": "place:LebanonValley",
@@ -304,7 +304,14 @@
 "type": "place",
 "confidence": 0.2367,
 "match_method": "canonical",
-"preferred_label": "montagne de Sinaï"
+"preferred_label": "mont Sinaï"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "Égypte"
 },
 {
 "id": "place:Jordan",
@@ -318,21 +325,7 @@
 "type": "place",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Mount Hermon"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Égypte"
-},
-{
-"id": "place:El-paran",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "chêne de Paran"
+"preferred_label": "mont Hermon"
 },
 {
 "id": "place:Ezion-geber",
@@ -349,11 +342,18 @@
 "preferred_label": "Nearia"
 },
 {
-"id": "place:Dumah",
+"id": "person:Uzziel.2",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Uziel"
+},
+{
+"id": "place:Arabah",
 "type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Duma"
+"preferred_label": "Arabah"
 },
 {
 "id": "person:Ishi.3",
@@ -370,11 +370,18 @@
 "preferred_label": "montagne de Paran"
 },
 {
-"id": "person:Rephaiah.3",
-"type": "person",
+"id": "place:Dumah",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Rephaja"
+"preferred_label": "Duma"
+},
+{
+"id": "place:El-paran",
+"type": "place",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "chêne de Paran"
 },
 {
 "id": "person:Pelatiah.2",
@@ -384,32 +391,46 @@
 "preferred_label": "Pelathia"
 },
 {
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "plaine"
-},
-{
-"id": "person:Uzziel.2",
+"id": "person:Rephaiah.3",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Uzziel"
+"preferred_label": "Rephaja"
 },
 {
-"id": "place:Zephath",
-"type": "place",
+"id": "person:Isaac",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Zephath"
+"preferred_label": "Isaac"
 },
 {
-"id": "place:Ar",
-"type": "place",
+"id": "person:Simeon.5",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Ar"
+"preferred_label": "Siméon"
+},
+{
+"id": "person:Dishon",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Dischon"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "parler en prophète"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "oracle"
 },
 {
 "id": "place:RedSea",
@@ -426,39 +447,18 @@
 "preferred_label": "Juda"
 },
 {
-"id": "group:Amorites",
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
+"id": "group:Simeon",
 "type": "group",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "person:Ezer",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Étsèr"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "parler"
-},
-{
-"id": "person:Dishon",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Dischon"
-},
-{
-"id": "person:Dishan",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Dischan"
+"preferred_label": "tribu de Siméon"
 },
 {
 "id": "person:Laban",
@@ -468,18 +468,39 @@
 "preferred_label": "Laban"
 },
 {
-"id": "place:Kadesh-barnea",
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Amoréens"
+},
+{
+"id": "place:Zephath",
 "type": "place",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Kadès-Barnéa"
+"preferred_label": "Tsephath"
 },
 {
-"id": "person:Simeon.5",
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Dishan",
 "type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Siméon"
+"preferred_label": "Dischan"
+},
+{
+"id": "place:Ar",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Ar"
 },
 {
 "id": "place:Elath",
@@ -489,60 +510,39 @@
 "preferred_label": "Élath"
 },
 {
-"id": "person:Isaac",
+"id": "person:Ezer",
 "type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Isaac"
+"preferred_label": "Étser"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Kadès-Barnéa"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Utterance"
-},
-{
-"id": "group:Simeon",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Siméon"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Josué"
+"preferred_label": "crainte"
 },
 {
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "Bee"
+"preferred_label": "abeille"
 },
 {
 "id": "flora:Cattails",
 "type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Cattails"
+"preferred_label": "massette"
 }
 ]
 }

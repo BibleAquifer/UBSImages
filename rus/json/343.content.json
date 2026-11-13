@@ -1957,7 +1957,7 @@
 "type": "deity",
 "confidence": 0.4601,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "place:Jerusalem",
@@ -1985,18 +1985,18 @@
 "type": "group",
 "confidence": 0.3793,
 "match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.3723,
-"match_method": "canonical",
-"preferred_label": "Левий"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "group:Levi",
 "type": "group",
+"confidence": 0.3723,
+"match_method": "canonical",
+"preferred_label": "Колено Левия"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.3723,
 "match_method": "canonical",
 "preferred_label": "Левий"
@@ -2013,7 +2013,7 @@
 "type": "keyterm",
 "confidence": 0.3653,
 "match_method": "canonical",
-"preferred_label": "Sabbath"
+"preferred_label": "Суббота"
 },
 {
 "id": "person:Mordecai.2",
@@ -2027,42 +2027,42 @@
 "type": "keyterm",
 "confidence": 0.3611,
 "match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "place:CornerGate",
-"type": "place",
-"confidence": 0.3594,
-"match_method": "canonical",
-"preferred_label": "Corner Gate"
+"preferred_label": "Приношение"
 },
 {
 "id": "place:WaterGate",
 "type": "place",
 "confidence": 0.3594,
 "match_method": "canonical",
-"preferred_label": "Water Gate"
+"preferred_label": "Водяные ворота"
+},
+{
+"id": "place:CornerGate",
+"type": "place",
+"confidence": 0.3594,
+"match_method": "canonical",
+"preferred_label": "Угольные ворота"
 },
 {
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.359,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Благословлять"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Ангел"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "place:Bethlehem",
@@ -2072,46 +2072,53 @@
 "preferred_label": "Вифлеем"
 },
 {
-"id": "place:Philistine",
-"type": "place",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Филистимской"
+"preferred_label": "слава"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "святой"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "дом"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Храм"
 },
 {
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Cubit"
+"preferred_label": "локоть"
 },
 {
-"id": "place:FishGate",
+"id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "Рыбные ворота"
+"preferred_label": "Ефремовы ворота"
+},
+{
+"id": "place:ValleyGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "Ворота Долины"
 },
 {
 "id": "place:BenjaminGate",
@@ -2121,39 +2128,25 @@
 "preferred_label": "Вениаминовы ворота"
 },
 {
-"id": "place:ValleyGate",
+"id": "place:FishGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "Valley Gate"
-},
-{
-"id": "place:EphraimGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "ворот Ефремовых"
+"preferred_label": "Рыбные ворота"
 },
 {
 "id": "place:DungGate",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "Dung Gate"
+"preferred_label": "Навозные ворота"
 },
 {
 "id": "place:TowerOfHananel",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "башня Анамеила"
-},
-{
-"id": "place:Arad",
-"type": "place",
-"confidence": 0.3062,
-"match_method": "canonical",
-"preferred_label": "Арад"
+"preferred_label": "Башня Анамеила"
 },
 {
 "id": "person:Haman",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "Аман"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "Арад"
 }
 ]
 }

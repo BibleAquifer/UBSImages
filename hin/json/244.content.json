@@ -271,7 +271,7 @@
 "type": "realia",
 "confidence": 0.4864,
 "match_method": "canonical",
-"preferred_label": "Kiln"
+"preferred_label": "भट्ठी"
 },
 {
 "id": "deity:Lord",
@@ -281,18 +281,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Hananiah.15",
-"type": "person",
-"confidence": 0.4083,
-"match_method": "canonical",
-"preferred_label": "हनन्याह"
-},
-{
 "id": "person:Azariah.20",
 "type": "person",
 "confidence": 0.4083,
 "match_method": "canonical",
 "preferred_label": "अजर्याह"
+},
+{
+"id": "person:Hananiah.15",
+"type": "person",
+"confidence": 0.4083,
+"match_method": "canonical",
+"preferred_label": "हनन्याह"
 },
 {
 "id": "person:Mishael.3",
@@ -306,7 +306,7 @@
 "type": "realia",
 "confidence": 0.365,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "रुपया"
 },
 {
 "id": "place:Egypt",
@@ -320,14 +320,7 @@
 "type": "realia",
 "confidence": 0.2221,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "घर"
 },
 {
 "id": "person:Moses",
@@ -335,13 +328,6 @@
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "मूसा"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "फ़िरौन"
 },
 {
 "id": "person:Nebuchadnezzar",
@@ -355,7 +341,21 @@
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
 },
 {
 "id": "place:Netaim",
@@ -376,56 +376,7 @@
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Clay Jar"
-},
-{
-"id": "place:Gomorrah",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "गमोरा"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Perceive"
-},
-{
-"id": "keyterm:Abyss",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Abyss"
-},
-{
-"id": "place:Topheth",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "तोपेत"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "सीनै पर्वत"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "सदोम"
+"preferred_label": "मिट्टी का घड़ा"
 },
 {
 "id": "person:Aaron",
@@ -435,95 +386,144 @@
 "preferred_label": "हारून"
 },
 {
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "सदोम"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "place:Topheth",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "तोपेत"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "परखना"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "सीनै पर्वत"
+},
+{
+"id": "place:Gomorrah",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "गमोरा"
+},
+{
+"id": "keyterm:Abyss",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "अथाह कुण्ड"
+},
+{
 "id": "realia:PotteryWheel",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Pottery Wheel"
-},
-{
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Lentil"
+"preferred_label": "चाक"
 },
 {
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Bean"
+"preferred_label": "सेम"
+},
+{
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "मसूर"
 },
 {
 "id": "realia:Bagpipe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Bagpipe"
-},
-{
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Rams Horn"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lute"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Bowl"
+"preferred_label": "मशकबीन"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "realia:Flute",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Flute"
+"preferred_label": "बाँसुरी"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "जौ"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "सारंगी"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "मेढ़े का सींग"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
 },
 {
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "पलंग"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "तसला"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "वीणा"
 }
 ]
 }

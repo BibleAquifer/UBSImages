@@ -1279,7 +1279,7 @@
 "type": "deity",
 "confidence": 0.5493,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Israel",
@@ -1293,21 +1293,21 @@
 "type": "keyterm",
 "confidence": 0.3757,
 "match_method": "canonical",
-"preferred_label": "Dispossess"
+"preferred_label": "Лишать владения"
 },
 {
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.3714,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
+"preferred_label": "Принуждать к служению"
 },
 {
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.3693,
 "match_method": "canonical",
-"preferred_label": "Swear"
+"preferred_label": "Клясться"
 },
 {
 "id": "place:Egypt",
@@ -1317,46 +1317,39 @@
 "preferred_label": "Египет"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3629,
+"match_method": "canonical",
+"preferred_label": "Благословлять"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.3629,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "святой"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3629,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Страх"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3629,
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Фараон"
 },
 {
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "To Curse"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "Постановление"
 },
 {
 "id": "person:Judah.4",
@@ -1366,88 +1359,102 @@
 "preferred_label": "Иуда"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "фараон"
-},
-{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Иордан"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3179,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "колено Иудино"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "проклинать"
 },
 {
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.3179,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "Сорго"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3179,
+"match_method": "canonical",
+"preferred_label": "Пшеница"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3157,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Крупный рогатый скот"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3136,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "дом"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Коза"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.3102,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Виноградная лоза"
 },
 {
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.3095,
 "match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "Ноа"
+"preferred_label": "Осквернение"
 },
 {
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.3086,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Любовь"
+},
+{
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "Притча"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "Ной"
 },
 {
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3086,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Грешить"
 },
 {
 "id": "place:Babylon",
@@ -1457,32 +1464,25 @@
 "preferred_label": "Вавилон"
 },
 {
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "Proverb"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3071,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3007,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Стадо"
 },
 {
 "id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.3007,
 "match_method": "canonical",
-"preferred_label": "Lizard"
+"preferred_label": "Ящерица"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3007,
+"match_method": "canonical",
+"preferred_label": "Елей помазания"
 }
 ]
 }

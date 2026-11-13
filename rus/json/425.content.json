@@ -1435,7 +1435,7 @@
 "type": "deity",
 "confidence": 0.5216,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Israel",
@@ -1449,14 +1449,7 @@
 "type": "keyterm",
 "confidence": 0.3653,
 "match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "Быть (или являть себя) праведным"
 },
 {
 "id": "person:Judah.4",
@@ -1466,13 +1459,6 @@
 "preferred_label": "Иуда"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "Моисей"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3614,
@@ -1480,60 +1466,53 @@
 "preferred_label": "Иерусалим"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "Моисей"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.3595,
 "match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3595,
-"match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "ревность"
 },
 {
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.3595,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Истина"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3595,
+"match_method": "canonical",
+"preferred_label": "Страх"
 },
 {
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.3085,
 "match_method": "canonical",
-"preferred_label": "To Declare Guilty"
+"preferred_label": "Обвинять"
 },
 {
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3076,
 "match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3076,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.3076,
-"match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.3076,
-"match_method": "canonical",
-"preferred_label": "Вавилон"
+"preferred_label": "Способность"
 },
 {
 "id": "person:Samuel",
@@ -1543,46 +1522,60 @@
 "preferred_label": "Самуил"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.3076,
+"match_method": "canonical",
+"preferred_label": "Давид"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3076,
+"match_method": "canonical",
+"preferred_label": "Грешить"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.3076,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3033,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "дом"
 },
 {
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.2995,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Меч"
 },
 {
 "id": "keyterm:Fairness",
 "type": "keyterm",
 "confidence": 0.2574,
 "match_method": "canonical",
-"preferred_label": "Fairness"
+"preferred_label": "Справедливость"
 },
 {
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.2566,
 "match_method": "canonical",
-"preferred_label": "Strength"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2557,
-"match_method": "canonical",
-"preferred_label": "Левий"
+"preferred_label": "Сила"
 },
 {
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2557,
 "match_method": "canonical",
-"preferred_label": "Левий"
+"preferred_label": "Колено Левия"
 },
 {
 "id": "person:Absalom",
@@ -1599,18 +1592,18 @@
 "preferred_label": "Ривла"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2557,
+"match_method": "canonical",
+"preferred_label": "Левий"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.2476,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "Swear"
+"preferred_label": "Ягненок"
 },
 {
 "id": "person:Deborah.2",
@@ -1620,25 +1613,32 @@
 "preferred_label": "Девора"
 },
 {
-"id": "place:Bethlehem",
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2047,
+"match_method": "canonical",
+"preferred_label": "Клясться"
+},
+{
+"id": "keyterm:PracticeDivination",
+"type": "keyterm",
+"confidence": 0.2038,
+"match_method": "canonical",
+"preferred_label": "Гадать"
+},
+{
+"id": "place:Bethel",
 "type": "place",
 "confidence": 0.2038,
 "match_method": "canonical",
-"preferred_label": "Вифлеем"
+"preferred_label": "Вефиль"
 },
 {
 "id": "person:Jotham.2",
 "type": "person",
 "confidence": 0.2038,
 "match_method": "canonical",
-"preferred_label": "Иофам"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2038,
-"match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Иоафам"
 }
 ]
 }

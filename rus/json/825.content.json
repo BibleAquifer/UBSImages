@@ -433,21 +433,28 @@
 "type": "keyterm",
 "confidence": 0.7333,
 "match_method": "canonical",
-"preferred_label": "Lot"
+"preferred_label": "Жребий"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4935,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.4116,
 "match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "Давать во владение"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.3957,
+"match_method": "canonical",
+"preferred_label": "Колено Левия"
 },
 {
 "id": "person:Levi.3",
@@ -457,11 +464,11 @@
 "preferred_label": "Левий"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.3957,
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.3891,
 "match_method": "canonical",
-"preferred_label": "Левий"
+"preferred_label": "Аарон"
 },
 {
 "id": "person:Israel",
@@ -469,27 +476,6 @@
 "confidence": 0.3891,
 "match_method": "canonical",
 "preferred_label": "Израиль"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.3891,
-"match_method": "canonical",
-"preferred_label": "Аарона"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3826,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.3826,
-"match_method": "canonical",
-"preferred_label": "Иисус"
 },
 {
 "id": "person:Judah.4",
@@ -506,18 +492,32 @@
 "preferred_label": "Иосиф"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3826,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.3826,
+"match_method": "canonical",
+"preferred_label": "Иисус"
+},
+{
 "id": "realia:Lot",
 "type": "realia",
 "confidence": 0.3668,
 "match_method": "canonical",
-"preferred_label": "Lot"
+"preferred_label": "Жребий"
 },
 {
 "id": "group:Manasseh",
 "type": "group",
 "confidence": 0.3261,
 "match_method": "canonical",
-"preferred_label": "Манассия"
+"preferred_label": "Колено Манассии"
 },
 {
 "id": "person:Kohath",
@@ -538,21 +538,7 @@
 "type": "group",
 "confidence": 0.2725,
 "match_method": "canonical",
-"preferred_label": "Симеон"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.2696,
-"match_method": "canonical",
-"preferred_label": "Ефрем"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2696,
-"match_method": "canonical",
-"preferred_label": "Моисей"
+"preferred_label": "колено Симеоново"
 },
 {
 "id": "place:Shiloh",
@@ -560,6 +546,20 @@
 "confidence": 0.2696,
 "match_method": "canonical",
 "preferred_label": "Силом"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.2696,
+"match_method": "canonical",
+"preferred_label": "Симеон"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.2696,
+"match_method": "canonical",
+"preferred_label": "Моисей"
 },
 {
 "id": "person:Ephraim",
@@ -576,25 +576,25 @@
 "preferred_label": "Елеазар"
 },
 {
-"id": "person:Simeon.5",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2696,
 "match_method": "canonical",
-"preferred_label": "Симеон"
+"preferred_label": "Колено Ефремово"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.2661,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "Одежда"
 },
 {
 "id": "deity:Azazel",
 "type": "deity",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Azazel"
+"preferred_label": "Азазель"
 },
 {
 "id": "person:Asaph.2",
@@ -604,25 +604,18 @@
 "preferred_label": "Асаф"
 },
 {
-"id": "group:Kohath",
-"type": "group",
+"id": "person:Issachar",
+"type": "person",
 "confidence": 0.213,
 "match_method": "canonical",
-"preferred_label": "Kohathites"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.213,
-"match_method": "canonical",
-"preferred_label": "Дан"
+"preferred_label": "Иссахар"
 },
 {
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.213,
 "match_method": "canonical",
-"preferred_label": "Вениамин"
+"preferred_label": "Колено Вениамина"
 },
 {
 "id": "place:Bashan",
@@ -632,11 +625,18 @@
 "preferred_label": "Васан"
 },
 {
-"id": "group:Asher",
-"type": "group",
+"id": "place:Dan",
+"type": "place",
 "confidence": 0.213,
 "match_method": "canonical",
-"preferred_label": "Асир"
+"preferred_label": "Дан"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.213,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
 }
 ]
 }

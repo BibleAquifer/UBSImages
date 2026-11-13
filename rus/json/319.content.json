@@ -355,56 +355,63 @@
 "type": "fauna",
 "confidence": 0.7186,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "Верблюд"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4464,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.4025,
 "match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.3784,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Осел"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3784,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Коза"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.3784,
+"match_method": "canonical",
+"preferred_label": "Стадо"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3543,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Крупный рогатый скот"
 },
 {
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.2757,
 "match_method": "canonical",
-"preferred_label": "Locust"
+"preferred_label": "Саранча"
 },
 {
-"id": "person:Isaac",
-"type": "person",
+"id": "place:Midian",
+"type": "place",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "Исаак"
+"preferred_label": "Мадиам"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Благословлять"
 },
 {
 "id": "person:Rebekah",
@@ -414,74 +421,67 @@
 "preferred_label": "Ревекка"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "person:Isaac",
+"type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Исаак"
 },
 {
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Мадиан"
+"preferred_label": "Царство"
 },
 {
 "id": "realia:Needle",
 "type": "realia",
 "confidence": 0.2248,
 "match_method": "canonical",
-"preferred_label": "Needle"
+"preferred_label": "Игла"
 },
 {
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.2213,
 "match_method": "canonical",
-"preferred_label": "Earring"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Ishmaelites"
-},
-{
-"id": "place:Sheba.2",
-"type": "place",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Sheba"
+"preferred_label": "Серьга"
 },
 {
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "Осквернение"
+},
+{
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Измаильтяне"
+},
+{
+"id": "place:Sheba.2",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Сава"
 },
 {
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.2177,
 "match_method": "canonical",
-"preferred_label": "Clay Jar"
+"preferred_label": "глиняный кувшин"
 },
 {
-"id": "person:Ishmael",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Исмаил"
+"preferred_label": "Иерусалим"
 },
 {
 "id": "person:John",
@@ -491,11 +491,11 @@
 "preferred_label": "Иоанн"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Ishmael",
+"type": "person",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Иерусалим"
+"preferred_label": "Измаил"
 },
 {
 "id": "person:David",
@@ -523,28 +523,7 @@
 "type": "realia",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
-"id": "person:Nahor.2",
-"type": "person",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Нахор"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Ben-hadad"
-},
-{
-"id": "group:Meronothite",
-"type": "group",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Meronothites"
+"preferred_label": "Шатер"
 },
 {
 "id": "place:Gilead",
@@ -554,11 +533,32 @@
 "preferred_label": "Галаад"
 },
 {
-"id": "place:Ephah",
-"type": "place",
+"id": "person:Jehdeiah.2",
+"type": "person",
 "confidence": 0.1616,
 "match_method": "canonical",
-"preferred_label": "Ефа"
+"preferred_label": "Иехдия"
+},
+{
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "Предать заклятию на уничтожение"
+},
+{
+"id": "group:Meronothite",
+"type": "group",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "Меронифяне"
+},
+{
+"id": "person:Ben-hadad.2",
+"type": "person",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "Венадад"
 }
 ]
 }

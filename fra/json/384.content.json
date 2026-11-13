@@ -535,14 +535,14 @@
 "type": "fauna",
 "confidence": 0.7319,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "chèvre"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.6772,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "troupeau"
 },
 {
 "id": "keyterm:Offering",
@@ -563,7 +563,7 @@
 "type": "fauna",
 "confidence": 0.4522,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "agneau"
 },
 {
 "id": "deity:Lord",
@@ -577,21 +577,21 @@
 "type": "fauna",
 "confidence": 0.4051,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gros bétail"
 },
 {
 "id": "fauna:Kid",
 "type": "fauna",
 "confidence": 0.4016,
 "match_method": "canonical",
-"preferred_label": "Kid"
+"preferred_label": "chevreau"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.3919,
 "match_method": "canonical",
-"preferred_label": "juste"
+"preferred_label": "intègre"
 },
 {
 "id": "person:Israel",
@@ -605,21 +605,14 @@
 "type": "realia",
 "confidence": 0.3319,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "vin"
 },
 {
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.3162,
 "match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.2657,
-"match_method": "canonical",
-"preferred_label": "apaiser"
+"preferred_label": "blé"
 },
 {
 "id": "person:Judah.4",
@@ -629,25 +622,32 @@
 "preferred_label": "Juda"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.2609,
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.2657,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "apaiser"
 },
 {
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "sorgho"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.2609,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "aimer"
+"preferred_label": "Un ange"
 },
 {
 "id": "place:Gilead",
@@ -661,28 +661,7 @@
 "type": "keyterm",
 "confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "parfum apaisant"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "benir"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "théraphim"
+"preferred_label": "odeur agréable"
 },
 {
 "id": "person:Manoah",
@@ -692,53 +671,74 @@
 "preferred_label": "Manoach"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2057,
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "amour"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2057,
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "bénir"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2057,
+"id": "deity:Teraphim",
+"type": "deity",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.2057,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.2057,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "théraphim"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.2057,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "autel de pierre"
 },
 {
-"id": "group:Adullam",
-"type": "group",
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2057,
+"match_method": "canonical",
+"preferred_label": "autel"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2057,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
+},
+{
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.2057,
+"match_method": "canonical",
+"preferred_label": "image en fonte"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.2057,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2057,
+"match_method": "canonical",
+"preferred_label": "maison"
+},
+{
+"id": "place:Tabor.2",
+"type": "place",
 "confidence": 0.1576,
 "match_method": "canonical",
-"preferred_label": "Adullamites"
+"preferred_label": "chêne de Thabor"
 }
 ]
 }

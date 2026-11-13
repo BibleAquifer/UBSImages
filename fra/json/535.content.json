@@ -135,13 +135,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.4625,
-"match_method": "canonical",
-"preferred_label": "Samson"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4625,
@@ -149,18 +142,25 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.39,
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.4625,
 "match_method": "canonical",
-"preferred_label": "Philistins"
+"preferred_label": "Samson"
 },
 {
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Philistia"
+"preferred_label": "Philistie"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Philistins"
 },
 {
 "id": "keyterm:Strength",
@@ -177,67 +177,32 @@
 "preferred_label": "Delila"
 },
 {
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Thread"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "corde"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "arc"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "fil"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "parler"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Léchi"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "aide"
-},
-{
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "état d'être en état de siège"
+"preferred_label": "maison"
 },
 {
 "id": "keyterm:Shield",
@@ -254,60 +219,95 @@
 "preferred_label": "Jérusalem"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "parler en prophète"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "état de siège"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "salut"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Léchi"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "artisan"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "chèvre"
 },
 {
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Measuring Reed"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flax"
+"preferred_label": "roseau à mesurer"
 },
 {
 "id": "realia:Hammer",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Hammer"
+"preferred_label": "marteau"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "petit bouclier"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "agneau"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "troupeau"
+},
+{
+"id": "flora:Flax",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "lin"
 }
 ]
 }

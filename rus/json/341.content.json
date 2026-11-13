@@ -319,7 +319,7 @@
 "type": "keyterm",
 "confidence": 0.519,
 "match_method": "canonical",
-"preferred_label": "Under Siege"
+"preferred_label": "В осаде"
 },
 {
 "id": "place:Jerusalem",
@@ -343,11 +343,18 @@
 "preferred_label": "Вавилон"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.395,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.395,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "place:Samaria",
@@ -357,32 +364,25 @@
 "preferred_label": "Самария"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.395,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.339,
 "match_method": "canonical",
-"preferred_label": "Siege-Works"
+"preferred_label": "Осадные сооружения"
 },
 {
 "id": "place:Assyria",
 "type": "place",
 "confidence": 0.336,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Ассирия"
 },
 {
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.336,
 "match_method": "canonical",
-"preferred_label": "Chaldeans"
+"preferred_label": "Халдеи"
 },
 {
 "id": "person:Nebuchadnezzar",
@@ -403,7 +403,7 @@
 "type": "realia",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "Fortification"
+"preferred_label": "укрепление"
 },
 {
 "id": "person:Zedekiah.3",
@@ -413,13 +413,6 @@
 "preferred_label": "Седекия"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
 "id": "person:Joab",
 "type": "person",
 "confidence": 0.277,
@@ -427,32 +420,39 @@
 "preferred_label": "Иоав"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "Давид"
+},
+{
 "id": "realia:SiegeTower",
 "type": "realia",
 "confidence": 0.229,
 "match_method": "canonical",
-"preferred_label": "Siege Tower"
+"preferred_label": "Осадная башня"
 },
 {
 "id": "place:Gibbethon",
 "type": "place",
 "confidence": 0.222,
 "match_method": "canonical",
-"preferred_label": "Гиввефон"
+"preferred_label": "Гавафон"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "group:Ammon",
 "type": "group",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "Ammonites"
+"preferred_label": "Аммонитяне"
 },
 {
 "id": "place:Ammon",
@@ -466,35 +466,7 @@
 "type": "realia",
 "confidence": 0.166,
 "match_method": "canonical",
-"preferred_label": "Siege Ramp"
-},
-{
-"id": "person:Shalmaneser",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Салманассар"
-},
-{
-"id": "person:Rezin",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Рецин"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Ben-hadad"
-},
-{
-"id": "place:Beth-horonUpper",
-"type": "place",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Upper Beth-horon"
+"preferred_label": "Осадный вал"
 },
 {
 "id": "person:Baasha",
@@ -504,18 +476,18 @@
 "preferred_label": "Вааса"
 },
 {
-"id": "person:Ahijah.3",
+"id": "person:Jehoiakim",
 "type": "person",
 "confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Ахия"
+"preferred_label": "Иоаким"
 },
 {
-"id": "person:Hoshea",
+"id": "person:Shalmaneser",
 "type": "person",
 "confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Осия"
+"preferred_label": "Салманассар"
 },
 {
 "id": "person:Nadab.2",
@@ -525,165 +497,53 @@
 "preferred_label": "Нават"
 },
 {
-"id": "person:Jehoiakim",
+"id": "person:Ben-hadad.2",
 "type": "person",
 "confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Иоаким"
+"preferred_label": "Венадад"
 },
 {
-"id": "place:Beth-horonLower",
+"id": "person:Rezin",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Рецин"
+},
+{
+"id": "person:Hoshea",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Осия"
+},
+{
+"id": "person:Ahijah.3",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Ахия"
+},
+{
+"id": "place:Beth-horonUpper",
 "type": "place",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Lower Beth-horon"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Езекия"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Филистимлянин"
-},
-{
-"id": "person:Ahaz",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ахаз"
-},
-{
-"id": "person:Jeremiah.6",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Иеремия"
-},
-{
-"id": "person:Rehoboam",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ровоам"
-},
-{
-"id": "person:Elah.3",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ила"
-},
-{
-"id": "person:Remaliah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ремалия"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Кеила"
-},
-{
-"id": "place:Tirzah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Фирца"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Тир"
-},
-{
-"id": "place:Abel-beth-maacah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Авел-Беф-Мааху"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ben-hadad"
-},
-{
-"id": "person:Sennacherib",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Сеннахирим"
+"preferred_label": "Верхний Вефорон"
 },
 {
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Филистимской"
+"preferred_label": "Филистимская земля"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Trust"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "person:Pekah",
+"id": "person:Omri",
 "type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Факей"
-},
-{
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Елам"
-},
-{
-"id": "group:Issachar",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Иссахар"
+"preferred_label": "Амврий"
 },
 {
 "id": "place:Media",
@@ -693,18 +553,144 @@
 "preferred_label": "Мидия"
 },
 {
-"id": "keyterm:Supplication",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Plea for Mercy"
-},
-{
 "id": "person:Issachar",
 "type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
 "preferred_label": "Иссахар"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Тир"
+},
+{
+"id": "place:Elam",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Елам"
+},
+{
+"id": "person:Remaliah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Ремалия"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Пророчествовать"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Филистимляне"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Венадад"
+},
+{
+"id": "person:Jeremiah.6",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Иеремия"
+},
+{
+"id": "place:Tirzah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Фирца"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Упование"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
+"id": "person:Rehoboam",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Ровоам"
+},
+{
+"id": "group:Issachar",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Колено Иссахара"
+},
+{
+"id": "person:Elah.3",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Ила"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Вафрий"
+},
+{
+"id": "person:Sennacherib",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Сеннахирим"
+},
+{
+"id": "person:Pekah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Факей"
+},
+{
+"id": "keyterm:Supplication",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Мольба о помиловании"
+},
+{
+"id": "place:Abel-beth-maacah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Авел-Беф-Мааха"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Езекия"
 },
 {
 "id": "person:Saul.2",
@@ -714,144 +700,158 @@
 "preferred_label": "Саул"
 },
 {
-"id": "person:Omri",
-"type": "person",
+"id": "place:Keilah",
+"type": "place",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Амрий"
+"preferred_label": "Кеила"
 },
 {
-"id": "person:Hophra",
+"id": "person:Ahaz",
 "type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Вафрия"
+"preferred_label": "Ахаз"
+},
+{
+"id": "place:Beth-horonLower",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Нижний Вефорон"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Спасение"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Деньги"
 },
 {
 "id": "realia:Battering-ram",
 "type": "realia",
 "confidence": 0.107,
 "match_method": "canonical",
-"preferred_label": "Battering-Ram"
-},
-{
-"id": "realia:BrickMold",
-"type": "realia",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "Brick Mold"
-},
-{
-"id": "realia:Kab",
-"type": "realia",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "Kab"
-},
-{
-"id": "realia:Fishnet",
-"type": "realia",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "Fishnet"
+"preferred_label": "стенобитная машина"
 },
 {
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "Griddle"
+"preferred_label": "сковорода"
+},
+{
+"id": "realia:Fishnet",
+"type": "realia",
+"confidence": 0.103,
+"match_method": "canonical",
+"preferred_label": "рыболовная сеть"
 },
 {
 "id": "flora:Muskmelon",
 "type": "flora",
 "confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "Muskmelon"
+"preferred_label": "Дыня"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
-"id": "realia:Sword",
+"id": "realia:Kab",
 "type": "realia",
-"confidence": 0.099,
+"confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "каб"
 },
 {
-"id": "realia:House",
+"id": "realia:BrickMold",
 "type": "realia",
-"confidence": 0.099,
+"confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Axe"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Hyena"
+"preferred_label": "Форма для кирпичей"
 },
 {
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Веревка"
 },
 {
-"id": "fauna:Donkey",
-"type": "fauna",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Chariot"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Bowl"
+"preferred_label": "Виноградная лоза"
 },
 {
 "id": "realia:Net",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Net"
+"preferred_label": "Сеть"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Гиена"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "топор"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Лошадь"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "чаша"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "колесница"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Меч"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Осел"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "дом"
 }
 ]
 }

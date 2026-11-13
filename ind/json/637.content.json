@@ -75,46 +75,46 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Mezbah"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "mezbah batu"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "mezbah Kemah Suci"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "mezbah Bait Allah"
 },
 {
 "id": "deity:Asherah",
 "type": "deity",
 "confidence": 0.48,
 "match_method": "canonical",
-"preferred_label": "berhala"
+"preferred_label": "Asyera"
 },
 {
 "id": "realia:SacredPole",
 "type": "realia",
 "confidence": 0.42,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "tiang berhala"
 },
 {
 "id": "place:Jerusalem",
@@ -128,14 +128,14 @@
 "type": "realia",
 "confidence": 0.325,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "patung"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Israel",
@@ -145,6 +145,20 @@
 "preferred_label": "Israel"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.29,
@@ -152,46 +166,39 @@
 "preferred_label": "Baal"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "bukit pengorbanan"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "patung pahatan"
 },
 {
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pinus payung"
 },
 {
-"id": "place:Kidron",
-"type": "place",
+"id": "keyterm:Destroy",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Kidron"
+"preferred_label": "menghancurkan"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "kecemburuan"
 },
 {
 "id": "keyterm:Sin",
@@ -205,14 +212,14 @@
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "didikan"
 },
 {
-"id": "keyterm:Destroy",
-"type": "keyterm",
+"id": "place:Kidron",
+"type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "menghancurkan"
+"preferred_label": "Kidron"
 },
 {
 "id": "keyterm:Forgive",
@@ -222,18 +229,11 @@
 "preferred_label": "mengampuni"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "mencurigai"
-},
-{
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "patung tuangan"
 }
 ]
 }

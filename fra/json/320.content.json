@@ -457,14 +457,14 @@
 "type": "flora",
 "confidence": 0.7297,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "blé"
 },
 {
 "id": "flora:Sorghum",
 "type": "flora",
 "confidence": 0.453,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "sorgho"
 },
 {
 "id": "deity:Lord",
@@ -478,56 +478,56 @@
 "type": "flora",
 "confidence": 0.3701,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "orge"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.3633,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "grain"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3516,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.3393,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "huile d'olive"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3393,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "huile d'onction"
 },
 {
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
-"confidence": 0.327,
+"confidence": 0.3393,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "gros bétail"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.327,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "vigne"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.327,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "chèvre"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.327,
+"match_method": "canonical",
+"preferred_label": "troupeau"
 },
 {
 "id": "person:Israel",
@@ -544,13 +544,6 @@
 "preferred_label": "offrande"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2685,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2685,
@@ -558,25 +551,32 @@
 "preferred_label": "sabbat"
 },
 {
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.2674,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2685,
 "match_method": "canonical",
-"preferred_label": "Weed"
+"preferred_label": "être un disciple"
 },
 {
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.2674,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "grenier"
+},
+{
+"id": "flora:Weed",
+"type": "flora",
+"confidence": 0.2674,
+"match_method": "canonical",
+"preferred_label": "ivraie"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2647,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "person:Ornan",
@@ -586,39 +586,18 @@
 "preferred_label": "Ornan"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.2123,
 "match_method": "canonical",
 "preferred_label": "jurer"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "nettoyer"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "benir"
 },
 {
 "id": "keyterm:Body.3",
@@ -628,39 +607,60 @@
 "preferred_label": "corps"
 },
 {
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "nettoyer à fond"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "bénir"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.2112,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "olivier"
 },
 {
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Mule"
+"preferred_label": "mulet"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "herbe"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "agneau"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "vin"
 }
 ]
 }

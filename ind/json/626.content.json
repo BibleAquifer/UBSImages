@@ -85,7 +85,7 @@
 "type": "realia",
 "confidence": 0.7945,
 "match_method": "canonical",
-"preferred_label": "Judgment Seat"
+"preferred_label": "kursi pengadilan"
 },
 {
 "id": "person:Paul",
@@ -102,11 +102,11 @@
 "preferred_label": "Galio"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "Yesus"
 },
 {
 "id": "keyterm:Decided",
@@ -116,11 +116,11 @@
 "preferred_label": "memutuskan"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "Yesus"
+"preferred_label": "orang Yahudi"
 },
 {
 "id": "person:Sosthenes",
@@ -141,14 +141,21 @@
 "type": "place",
 "confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "Gabbatha"
+"preferred_label": "Gabata"
 },
 {
-"id": "keyterm:ActWickedly",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
+},
+{
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "bertindak jahat"
+"preferred_label": "baik"
 },
 {
 "id": "keyterm:Body.3",
@@ -158,25 +165,11 @@
 "preferred_label": "tubuh"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "yang baik"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
-},
-{
-"id": "place:Caesarea",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Kaisarea"
+"preferred_label": "berlaku adil"
 },
 {
 "id": "person:Pilate",
@@ -186,11 +179,18 @@
 "preferred_label": "Pilatus"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "place:Caesarea",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "Kaisarea"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "bertindak jahat"
 },
 {
 "id": "person:Herod.3",
@@ -207,18 +207,18 @@
 "preferred_label": "Klaudius"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "rumah ibadat"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "pakaian"
 }
 ]
 }

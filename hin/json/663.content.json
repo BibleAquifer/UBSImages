@@ -97,14 +97,14 @@
 "type": "fauna",
 "confidence": 0.7862,
 "match_method": "canonical",
-"preferred_label": "Bear"
+"preferred_label": "भालू"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.6015,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "सिंह"
 },
 {
 "id": "deity:Lord",
@@ -114,18 +114,25 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "person:David",
+"type": "person",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "पलिश्ती"
+"preferred_label": "दाऊद"
 },
 {
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.2692,
 "match_method": "canonical",
-"preferred_label": "Philistia"
+"preferred_label": "पलिश्त"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "पलिश्ती"
 },
 {
 "id": "person:Saul.2",
@@ -135,48 +142,6 @@
 "preferred_label": "शाऊल"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "दाऊद"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Stupid"
-},
-{
 "id": "person:Hushai",
 "type": "person",
 "confidence": 0.1846,
@@ -184,81 +149,116 @@
 "preferred_label": "हूशै"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "योग्यता"
+},
+{
 "id": "keyterm:Foolish",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Foolish"
+"preferred_label": "मूर्खतापूर्ण"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "अधिकार"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "उद्धार"
+},
+{
+"id": "keyterm:UncircumcisedPerson",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "खतनारहित व्यक्ति"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
 },
 {
 "id": "fauna:Leopard",
 "type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "Leopard"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "चीता"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
+"preferred_label": "बकरी"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Dragon"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Dove"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "साँप"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "घर"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "भेड़"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "झुंड"
+},
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "कबूतर"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "अजगर"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "चन्दन"
 }
 ]
 }

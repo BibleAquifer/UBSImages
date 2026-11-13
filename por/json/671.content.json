@@ -2671,21 +2671,21 @@
 "type": "fauna",
 "confidence": 0.721,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "rebanho"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.721,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "bode"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.4702,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Cordeiro"
 },
 {
 "id": "deity:Lord",
@@ -2699,21 +2699,21 @@
 "type": "keyterm",
 "confidence": 0.4314,
 "match_method": "canonical",
-"preferred_label": "offering"
+"preferred_label": "oferta"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.4183,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3999,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Pecar"
 },
 {
 "id": "person:Israel",
@@ -2723,6 +2723,13 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.3729,
+"match_method": "canonical",
+"preferred_label": "sacrifício de animais"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.3729,
@@ -2730,25 +2737,11 @@
 "preferred_label": "Davi"
 },
 {
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.3729,
-"match_method": "canonical",
-"preferred_label": "slaughtering"
-},
-{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.3663,
 "match_method": "canonical",
-"preferred_label": "Complete"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.3612,
-"match_method": "canonical",
-"preferred_label": "appease"
+"preferred_label": "íntegro"
 },
 {
 "id": "person:Judah.4",
@@ -2758,39 +2751,25 @@
 "preferred_label": "Judá"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Appease",
 "type": "keyterm",
-"confidence": 0.3592,
+"confidence": 0.3612,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "apaziguar"
 },
 {
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "abençoar"
 },
 {
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.3581,
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "Abraão"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3581,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3581,
-"match_method": "canonical",
-"preferred_label": "Moisés"
+"preferred_label": "santo"
 },
 {
 "id": "place:Jerusalem",
@@ -2800,11 +2779,25 @@
 "preferred_label": "Jerusalém"
 },
 {
-"id": "person:Laban",
+"id": "person:Moses",
 "type": "person",
-"confidence": 0.3571,
+"confidence": 0.3581,
 "match_method": "canonical",
-"preferred_label": "Labão"
+"preferred_label": "Moisés"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3581,
+"match_method": "canonical",
+"preferred_label": "Tribo de Judá"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.3581,
+"match_method": "canonical",
+"preferred_label": "Abraão"
 },
 {
 "id": "person:Saul.2",
@@ -2812,6 +2805,20 @@
 "confidence": 0.3571,
 "match_method": "canonical",
 "preferred_label": "Saul"
+},
+{
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.3571,
+"match_method": "canonical",
+"preferred_label": "Labão"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.3561,
+"match_method": "canonical",
+"preferred_label": "Um Anjo"
 },
 {
 "id": "person:Joseph.10",
@@ -2826,13 +2833,6 @@
 "confidence": 0.3561,
 "match_method": "canonical",
 "preferred_label": "sangue"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.3561,
-"match_method": "canonical",
-"preferred_label": "An Angel"
 },
 {
 "id": "place:Goshen",
@@ -2853,7 +2853,21 @@
 "type": "keyterm",
 "confidence": 0.3551,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "designar"
+},
+{
+"id": "keyterm:Vow",
+"type": "keyterm",
+"confidence": 0.3551,
+"match_method": "canonical",
+"preferred_label": "fazer um voto"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.3551,
+"match_method": "canonical",
+"preferred_label": "paz"
 },
 {
 "id": "person:Aaron",
@@ -2861,20 +2875,6 @@
 "confidence": 0.3551,
 "match_method": "canonical",
 "preferred_label": "Arão"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.3551,
-"match_method": "canonical",
-"preferred_label": "Salomão"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.3551,
-"match_method": "canonical",
-"preferred_label": "love"
 }
 ]
 }

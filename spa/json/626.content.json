@@ -85,7 +85,7 @@
 "type": "realia",
 "confidence": 0.7945,
 "match_method": "canonical",
-"preferred_label": "Judgment Seat"
+"preferred_label": "tribunal"
 },
 {
 "id": "person:Paul",
@@ -102,11 +102,11 @@
 "preferred_label": "Galión"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Decided",
@@ -116,11 +116,11 @@
 "preferred_label": "decidir"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.2818,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "judío"
 },
 {
 "id": "person:Sosthenes",
@@ -141,14 +141,21 @@
 "type": "place",
 "confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "Gabbatha"
+"preferred_label": "Gabatá"
 },
 {
-"id": "keyterm:ActWickedly",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "hacer lo malo"
+"preferred_label": "bueno"
 },
 {
 "id": "keyterm:Body.3",
@@ -158,25 +165,11 @@
 "preferred_label": "cuerpo"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Good"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "ser justo"
-},
-{
-"id": "place:Caesarea",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Cesarea"
 },
 {
 "id": "person:Pilate",
@@ -186,11 +179,18 @@
 "preferred_label": "Pilato"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "place:Caesarea",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "Cesarea"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "hacer lo malo"
 },
 {
 "id": "person:Herod.3",
@@ -207,18 +207,18 @@
 "preferred_label": "Claudio"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "sinagoga"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "ropa"
 }
 ]
 }

@@ -325,14 +325,14 @@
 "type": "fauna",
 "confidence": 0.7165,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "chacal"
 },
 {
 "id": "fauna:Pig",
 "type": "fauna",
 "confidence": 0.4694,
 "match_method": "canonical",
-"preferred_label": "Pig"
+"preferred_label": "porc"
 },
 {
 "id": "deity:Lord",
@@ -346,63 +346,49 @@
 "type": "fauna",
 "confidence": 0.3822,
 "match_method": "canonical",
-"preferred_label": "Hyena"
+"preferred_label": "hyène"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "lion"
 },
 {
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
-"preferred_label": "Bear"
+"preferred_label": "ours"
 },
 {
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.3469,
 "match_method": "canonical",
-"preferred_label": "Ostrich"
+"preferred_label": "autruche"
 },
 {
 "id": "fauna:Owl",
 "type": "fauna",
 "confidence": 0.338,
 "match_method": "canonical",
-"preferred_label": "Owl"
+"preferred_label": "hibou"
 },
 {
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "prier"
+"preferred_label": "demander"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "saint"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Demons"
+"preferred_label": "souillure"
 },
 {
 "id": "person:Jesus.2",
@@ -412,11 +398,11 @@
 "preferred_label": "Jésus"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "pollution"
+"preferred_label": "paix"
 },
 {
 "id": "place:Jerusalem",
@@ -426,18 +412,32 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "état intact"
+"preferred_label": "saint"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Démons"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "ciel"
 },
 {
 "id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2165,
 "match_method": "canonical",
-"preferred_label": "Dog"
+"preferred_label": "chien"
 },
 {
 "id": "place:Hazor.5",
@@ -447,39 +447,18 @@
 "preferred_label": "Hatsor"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "sans saleté"
+"preferred_label": "donner en possession"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
-"id": "keyterm:DetestedThing",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "abomination"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Babylone"
+"preferred_label": "jurer"
 },
 {
 "id": "person:Joseph.10",
@@ -489,25 +468,60 @@
 "preferred_label": "Joseph"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "benir"
+"preferred_label": "offrande"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "iniquité"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "sécurité"
 },
 {
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "charger"
+"preferred_label": "établir"
 },
 {
-"id": "keyterm:DemonPossessed",
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Une personne"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "être possédé par un démon"
+"preferred_label": "s'attirer l'honneur et la gloire"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Édomites"
 },
 {
 "id": "person:Judah.4",
@@ -515,20 +529,6 @@
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Juda"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Samson"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Édom"
 }
 ]
 }

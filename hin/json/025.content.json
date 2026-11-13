@@ -325,14 +325,14 @@
 "type": "fauna",
 "confidence": 0.7165,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "सियार"
 },
 {
 "id": "fauna:Pig",
 "type": "fauna",
 "confidence": 0.4694,
 "match_method": "canonical",
-"preferred_label": "Pig"
+"preferred_label": "सूअर"
 },
 {
 "id": "deity:Lord",
@@ -346,63 +346,49 @@
 "type": "fauna",
 "confidence": 0.3822,
 "match_method": "canonical",
-"preferred_label": "Hyena"
+"preferred_label": "लकड़बग्घा"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "सिंह"
 },
 {
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
-"preferred_label": "Bear"
+"preferred_label": "भालू"
 },
 {
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.3469,
 "match_method": "canonical",
-"preferred_label": "Ostrich"
+"preferred_label": "शुतुर्मुर्ग"
 },
 {
 "id": "fauna:Owl",
 "type": "fauna",
 "confidence": 0.338,
 "match_method": "canonical",
-"preferred_label": "Owl"
+"preferred_label": "उल्लू"
 },
 {
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "Ask for"
+"preferred_label": "माँगना"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Demons"
+"preferred_label": "अशुद्ध करना"
 },
 {
 "id": "person:Jesus.2",
@@ -412,11 +398,11 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "Defilement"
+"preferred_label": "शान्ति"
 },
 {
 "id": "place:Jerusalem",
@@ -426,18 +412,32 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "keyterm:IntactState",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2176,
 "match_method": "canonical",
-"preferred_label": "Peace"
+"preferred_label": "पवित्र"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "दुष्टात्माएँ"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "आकाश"
 },
 {
 "id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2165,
 "match_method": "canonical",
-"preferred_label": "Dog"
+"preferred_label": "कुत्ता"
 },
 {
 "id": "place:Hazor.5",
@@ -447,39 +447,18 @@
 "preferred_label": "हासोर"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Pure"
+"preferred_label": "अधिकारी बनाना"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "एदोम"
-},
-{
-"id": "keyterm:DetestedThing",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Detested Thing"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "बेबीलोन"
+"preferred_label": "शपथ खाना"
 },
 {
 "id": "person:Joseph.10",
@@ -489,39 +468,53 @@
 "preferred_label": "यूसुफ"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "भेंट"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "अनर्थ"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "सुरक्षा"
 },
 {
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "नियुक्त करना"
 },
 {
-"id": "keyterm:DemonPossessed",
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "एक व्यक्ति"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Be Demon Possessed"
+"preferred_label": "अपने लिए आदर और महिमा पाना"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "शिमशोन"
+"preferred_label": "इस्राएल"
 },
 {
 "id": "group:Edom",
@@ -529,6 +522,13 @@
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "एदोमी"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
 }
 ]
 }

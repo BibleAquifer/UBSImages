@@ -229,7 +229,7 @@
 "type": "realia",
 "confidence": 0.6171,
 "match_method": "canonical",
-"preferred_label": "Fortress"
+"preferred_label": "крепость"
 },
 {
 "id": "person:David",
@@ -243,28 +243,35 @@
 "type": "deity",
 "confidence": 0.4529,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "realia:Net",
 "type": "realia",
 "confidence": 0.3671,
 "match_method": "canonical",
-"preferred_label": "Net"
+"preferred_label": "Сеть"
 },
 {
 "id": "realia:Fishnet",
 "type": "realia",
 "confidence": 0.3543,
 "match_method": "canonical",
-"preferred_label": "Fishnet"
+"preferred_label": "рыболовная сеть"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3514,
+"match_method": "canonical",
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3514,
 "match_method": "canonical",
-"preferred_label": "Филистимлянин"
+"preferred_label": "Филистимляне"
 },
 {
 "id": "place:Babylon",
@@ -272,13 +279,6 @@
 "confidence": 0.3514,
 "match_method": "canonical",
 "preferred_label": "Вавилон"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3514,
-"match_method": "canonical",
-"preferred_label": "Филистимской"
 },
 {
 "id": "person:Israel",
@@ -299,14 +299,21 @@
 "type": "place",
 "confidence": 0.2314,
 "match_method": "canonical",
-"preferred_label": "Wilderness of Ziph"
+"preferred_label": "пустыня Зиф"
 },
 {
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.2286,
 "match_method": "canonical",
-"preferred_label": "Casting Net"
+"preferred_label": "закидная сеть"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
 },
 {
 "id": "place:Bethlehem",
@@ -323,32 +330,11 @@
 "preferred_label": "Моав"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
-},
-{
-"id": "place:Hereth",
+"id": "place:Millo",
 "type": "place",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Херет"
-},
-{
-"id": "place:Hachilah",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Гахила"
-},
-{
-"id": "person:Obadiah.6",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Овадия"
+"preferred_label": "Милло"
 },
 {
 "id": "person:Ezer.4",
@@ -358,25 +344,32 @@
 "preferred_label": "Езер"
 },
 {
-"id": "person:Gad.2",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Гад"
-},
-{
-"id": "place:Millo",
+"id": "place:Hachilah",
 "type": "place",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Милло"
+"preferred_label": "Гахила"
 },
 {
-"id": "person:Eliab.4",
+"id": "group:Ziph",
+"type": "group",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Зифеи"
+},
+{
+"id": "person:Obadiah.6",
 "type": "person",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Елиав"
+"preferred_label": "Овадия"
+},
+{
+"id": "place:Hereth",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Херет"
 },
 {
 "id": "place:Jeshimon",
@@ -386,46 +379,102 @@
 "preferred_label": "Иесимон"
 },
 {
-"id": "group:Ziph",
-"type": "group",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Ziphites"
-},
-{
 "id": "keyterm:Refuge",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Refuge"
+"preferred_label": "Прибежище"
+},
+{
+"id": "person:Gad.2",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Гад"
 },
 {
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Мадиан"
+"preferred_label": "Мадиам"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Smear"
+"preferred_label": "Елиав"
 },
 {
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Seek Refugue"
+"preferred_label": "Искать убежища"
 },
 {
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Trust"
+"preferred_label": "Упование"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Холм Финееса"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Помазывать"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Мир"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Щит"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Милость"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Грешить"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Обман"
+},
+{
+"id": "place:Horesh",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Хореш"
 },
 {
 "id": "person:Judah.4",
@@ -433,83 +482,6 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Иуда"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "place:Engedi",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "En-gedi"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Be Unfaithful"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Well-Established"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Deceit"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Gibeah"
-},
-{
-"id": "keyterm:Shield",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Shield"
-},
-{
-"id": "place:Kiriathaim",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Кариафаим"
-},
-{
-"id": "place:Horesh",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Horesh"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Chaldeans"
 },
 {
 "id": "place:Chaldea",
@@ -523,70 +495,98 @@
 "type": "group",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "колено Иудино"
 },
 {
-"id": "keyterm:IntactState",
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Халдеи"
+},
+{
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Peace"
+"preferred_label": "Быть неверным"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Твердый"
+},
+{
+"id": "place:Kiriathaim",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Кириафаим"
+},
+{
+"id": "place:Engedi",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ен-Геди"
 },
 {
 "id": "realia:Cage",
 "type": "realia",
 "confidence": 0.1086,
 "match_method": "canonical",
-"preferred_label": "Cage"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "Клетка"
 },
 {
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Sandalwood"
+"preferred_label": "Сандаловое дерево"
 },
 {
 "id": "realia:Dragnet",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Dragnet"
+"preferred_label": "Невод"
 },
 {
 "id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "Птица"
 },
 {
 "id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Harpoon"
+"preferred_label": "гарпун"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "малый щит"
 },
 {
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "Рыба"
 },
 {
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Trap"
+"preferred_label": "Западня"
 }
 ]
 }

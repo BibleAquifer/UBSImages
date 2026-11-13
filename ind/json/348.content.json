@@ -307,35 +307,28 @@
 "type": "deity",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "realia:Throne",
 "type": "realia",
 "confidence": 0.4723,
 "match_method": "canonical",
-"preferred_label": "Throne"
+"preferred_label": "takhta"
 },
 {
 "id": "realia:Footstool",
 "type": "realia",
 "confidence": 0.3681,
 "match_method": "canonical",
-"preferred_label": "Footstool"
+"preferred_label": "tumpuan kaki"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3556,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "rumah"
 },
 {
 "id": "place:Jerusalem",
@@ -345,11 +338,11 @@
 "preferred_label": "Yerusalem"
 },
 {
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2781,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "tabut"
+"preferred_label": "Israel"
 },
 {
 "id": "person:David",
@@ -359,25 +352,53 @@
 "preferred_label": "Daud"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "tabut perjanjian"
+},
+{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "rumah ibadat"
 },
 {
 "id": "realia:Seat",
 "type": "realia",
 "confidence": 0.2306,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "tempat duduk"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Bait Allah"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "persahabatan"
+},
+{
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Yosafat"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "bernubuat seperti nabi"
 },
 {
 "id": "person:Judah.4",
@@ -387,25 +408,18 @@
 "preferred_label": "Yehuda"
 },
 {
-"id": "person:Jonathan.3",
-"type": "person",
+"id": "group:Pharisee",
+"type": "group",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Yonatan"
+"preferred_label": "orang Farisi"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "kepenuhan (roh) seperti nabi"
-},
-{
-"id": "keyterm:Friendship",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "persahabatan"
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "person:Eli",
@@ -422,32 +436,32 @@
 "preferred_label": "Samaria"
 },
 {
-"id": "person:Jehoshaphat.3",
+"id": "person:Jonathan.3",
 "type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Yosafat"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Pharisees"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Yonatan"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2181,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Tabut Perjanjian"
+},
+{
+"id": "place:HallOfJudgment",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Balai Pengadilan"
+},
+{
+"id": "group:Agag",
+"type": "group",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "orang Agag"
 },
 {
 "id": "person:Hammedatha",
@@ -457,27 +471,6 @@
 "preferred_label": "Hamedata"
 },
 {
-"id": "group:Agag",
-"type": "group",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Agagites"
-},
-{
-"id": "place:HallOfJudgment",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Balai"
-},
-{
-"id": "place:HallOfTheThrone",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Balai"
-},
-{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.1635,
@@ -485,88 +478,11 @@
 "preferred_label": "Haman"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "murni"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "pertimbangan"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "group:Cherethite",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Cherethites"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "keyterm:Psalm",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "mazmur"
-},
-{
-"id": "place:Babylon",
+"id": "place:HallOfTheThrone",
 "type": "place",
-"confidence": 0.1594,
+"confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "Babel"
-},
-{
-"id": "keyterm:Vision",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "penglihatan"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "kemuliaan"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "pesta bulan baru"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Salomo"
+"preferred_label": "Balai Singgasana"
 },
 {
 "id": "person:Abner",
@@ -576,39 +492,18 @@
 "preferred_label": "Abner"
 },
 {
-"id": "person:Agag.2",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Agag"
-},
-{
-"id": "person:Hannah",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Hana"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "kasihi"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "sorga"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
 "preferred_label": "Musa"
+},
+{
+"id": "keyterm:Vision",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "penglihatan"
 },
 {
 "id": "person:Jesus.2",
@@ -618,18 +513,18 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "person:Saul.2",
+"id": "person:Hannah",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Saul"
+"preferred_label": "Hana"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "kecemburuan"
 },
 {
 "id": "keyterm:Sin",
@@ -639,39 +534,11 @@
 "preferred_label": "berbuat dosa"
 },
 {
-"id": "person:Ehud",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Ehud"
-},
-{
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Ahasyweros"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Tirus"
-},
-{
-"id": "person:Adonijah",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Adonia"
-},
-{
-"id": "keyterm:Zealous",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "iri hati"
+"preferred_label": "kemuliaan"
 },
 {
 "id": "person:Esther",
@@ -681,6 +548,27 @@
 "preferred_label": "Ester"
 },
 {
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nasihat"
+},
+{
+"id": "keyterm:Zealous",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "iri hati"
+},
+{
+"id": "group:Cherethite",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "orang Kreti"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1594,
@@ -688,11 +576,74 @@
 "preferred_label": "perjanjian"
 },
 {
-"id": "person:Bathsheba",
+"id": "person:Ehud",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Batsyeba"
+"preferred_label": "Ehud"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Babel"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Salomo"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Malaikat"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "kasih"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Tirus"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Ahasyweros"
+},
+{
+"id": "keyterm:Psalm",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "mazmur"
 },
 {
 "id": "place:Shiloh",
@@ -702,95 +653,144 @@
 "preferred_label": "Silo"
 },
 {
-"id": "keyterm:Ardour",
+"id": "person:Bathsheba",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Batsyeba"
+},
+{
+"id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "mencurigai"
+"preferred_label": "bencana"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "perayaan bulan baru"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "langit"
+},
+{
+"id": "person:Agag.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Agag"
+},
+{
+"id": "person:Adonijah",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Adonia"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Saul"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "tahir"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "singa"
 },
 {
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "tempat pengirikan"
 },
 {
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Dove"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Floor"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "merpati"
 },
 {
 "id": "realia:Tassel",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Tassel"
-},
-{
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Lampstand"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "jumbai"
 },
 {
 "id": "realia:Doorpost",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Doorpost"
+"preferred_label": "tiang pintu"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "jubah"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "kaki dian"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "perisai kecil"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "pakaian"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "lantai"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "aras"
 },
 {
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "tempat tidur"
 }
 ]
 }

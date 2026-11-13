@@ -137,7 +137,7 @@
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "घर"
 },
 {
 "id": "place:Moresheth",
@@ -154,11 +154,32 @@
 "preferred_label": "मीका"
 },
 {
-"id": "keyterm:Psalm",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Psalm"
+"preferred_label": "अधिकारी बनाना"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "अशुद्ध करना"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "शपथ खाना"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "बेदखल करना"
 },
 {
 "id": "place:Damascus",
@@ -168,25 +189,18 @@
 "preferred_label": "दमिश्क"
 },
 {
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "बेबीलोन"
-},
-{
-"id": "keyterm:SomethingDevotedToGod",
+"id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Something Devoted to God"
+"preferred_label": "भविष्यद्वाणी करना"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
+"id": "keyterm:Utterance",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "हिजकिय्याह"
+"preferred_label": "भारी वचन"
 },
 {
 "id": "person:Judah.4",
@@ -196,39 +210,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "place:Hazor",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "हासोर"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "person:Asaph.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "आसाप"
-},
-{
 "id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Lamentation"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
+"preferred_label": "विलापगीत"
 },
 {
 "id": "place:Ai",
@@ -238,46 +224,18 @@
 "preferred_label": "आई"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "place:Samaria",
+"id": "place:Babylon",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "सामरिया"
+"preferred_label": "बाबेल"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Swear"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "अम्मोन"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "To Cause to Possess"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Utterance"
+"preferred_label": "यहूदा का गोत्र"
 },
 {
 "id": "group:Ammon",
@@ -287,39 +245,81 @@
 "preferred_label": "अम्मोनी"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Psalm",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "भजन"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "सामरिया"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "हिजकिय्याह"
+},
+{
+"id": "person:Asaph.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "आसाप"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "अम्मोन"
+},
+{
+"id": "place:Hazor",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "हासोर"
+},
+{
+"id": "keyterm:SomethingDevotedToGod",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "अर्पण की वस्तु"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
+"preferred_label": "दाखलता"
 },
 {
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "सियार"
 },
 {
 "id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Foundation"
+"preferred_label": "नींव"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "चन्दन"
 }
 ]
 }

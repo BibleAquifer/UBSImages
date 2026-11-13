@@ -212,7 +212,7 @@
 "type": "realia",
 "confidence": 0.3771,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "argent"
 },
 {
 "id": "person:Israel",
@@ -226,7 +226,7 @@
 "type": "realia",
 "confidence": 0.3239,
 "match_method": "canonical",
-"preferred_label": "Gold Jewelry"
+"preferred_label": "bijoux en or"
 },
 {
 "id": "person:Moses",
@@ -247,7 +247,7 @@
 "type": "realia",
 "confidence": 0.2335,
 "match_method": "canonical",
-"preferred_label": "Earring"
+"preferred_label": "boucle d’oreille"
 },
 {
 "id": "keyterm:Offering",
@@ -268,70 +268,35 @@
 "type": "realia",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.169,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "manteau"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "vêtement"
 },
 {
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "image"
 },
 {
-"id": "keyterm:Priesthood",
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.169,
+"match_method": "canonical",
+"preferred_label": "maison"
+},
+{
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "sacerdoce"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "abomination"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Stubborn",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "têtu"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Mitsraïm"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "espoir"
+"preferred_label": "souillure"
 },
 {
 "id": "keyterm:Fornication",
@@ -341,18 +306,18 @@
 "preferred_label": "fornication"
 },
 {
-"id": "person:Rebekah",
-"type": "person",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Rebecca"
+"preferred_label": "apaiser"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
+"id": "keyterm:Priesthood",
+"type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Éléazar"
+"preferred_label": "sacerdoce"
 },
 {
 "id": "keyterm:Abomination",
@@ -362,25 +327,67 @@
 "preferred_label": "abomination"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
+"id": "person:Eleazar.2",
+"type": "person",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "apaiser"
+"preferred_label": "Éléazar"
 },
 {
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "aide"
+"preferred_label": "salut"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "abomination"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "mont Sinaï"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Égyptiens"
+},
+{
+"id": "person:Rebekah",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Rebecca"
+},
+{
+"id": "keyterm:Stubborn",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "obstiné"
 },
 {
 "id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "malheur"
 },
 {
 "id": "person:Saul.2",
@@ -390,18 +397,11 @@
 "preferred_label": "Saül"
 },
 {
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "montagne de Sinaï"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "pollution"
+"preferred_label": "espérance"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -415,56 +415,56 @@
 "type": "realia",
 "confidence": 0.111,
 "match_method": "canonical",
-"preferred_label": "Robe"
-},
-{
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "High Place"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "robe"
 },
 {
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Purple Cloth"
+"preferred_label": "étoffe de pourpre"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Linen"
+"preferred_label": "vigne"
 },
 {
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "vin"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "lis"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "blé"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "haut lieu"
 }
 ]
 }

@@ -1449,14 +1449,7 @@
 "type": "keyterm",
 "confidence": 0.3653,
 "match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "धर्मी होना"
 },
 {
 "id": "person:Judah.4",
@@ -1466,13 +1459,6 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3614,
@@ -1480,60 +1466,53 @@
 "preferred_label": "यरूशलेम"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "मूसा"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.3595,
 "match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3595,
-"match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "जलन"
 },
 {
 "id": "keyterm:Truth",
 "type": "keyterm",
 "confidence": 0.3595,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "सत्य"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3595,
+"match_method": "canonical",
+"preferred_label": "भय"
 },
 {
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.3085,
 "match_method": "canonical",
-"preferred_label": "To Declare Guilty"
+"preferred_label": "दोषी ठहराना"
 },
 {
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3076,
 "match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3076,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.3076,
-"match_method": "canonical",
-"preferred_label": "दाऊद"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.3076,
-"match_method": "canonical",
-"preferred_label": "बेबीलोन"
+"preferred_label": "योग्यता"
 },
 {
 "id": "person:Samuel",
@@ -1543,46 +1522,60 @@
 "preferred_label": "शमूएल"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.3076,
+"match_method": "canonical",
+"preferred_label": "दाऊद"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3076,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.3076,
+"match_method": "canonical",
+"preferred_label": "बाबेल"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3033,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "घर"
 },
 {
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.2995,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "तलवार"
 },
 {
 "id": "keyterm:Fairness",
 "type": "keyterm",
 "confidence": 0.2574,
 "match_method": "canonical",
-"preferred_label": "Fairness"
+"preferred_label": "निष्पक्षता"
 },
 {
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.2566,
 "match_method": "canonical",
-"preferred_label": "Strength"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2557,
-"match_method": "canonical",
-"preferred_label": "लेवी"
+"preferred_label": "बल"
 },
 {
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2557,
 "match_method": "canonical",
-"preferred_label": "लेवी"
+"preferred_label": "लेवी का गोत्र"
 },
 {
 "id": "person:Absalom",
@@ -1599,18 +1592,18 @@
 "preferred_label": "रिबला"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2557,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.2476,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "Swear"
+"preferred_label": "भेड़"
 },
 {
 "id": "person:Deborah.2",
@@ -1620,11 +1613,25 @@
 "preferred_label": "दबोरा"
 },
 {
-"id": "place:Bethlehem",
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2047,
+"match_method": "canonical",
+"preferred_label": "शपथ खाना"
+},
+{
+"id": "keyterm:PracticeDivination",
+"type": "keyterm",
+"confidence": 0.2038,
+"match_method": "canonical",
+"preferred_label": "भावी कहना"
+},
+{
+"id": "place:Bethel",
 "type": "place",
 "confidence": 0.2038,
 "match_method": "canonical",
-"preferred_label": "बैतलहम"
+"preferred_label": "बेतेल"
 },
 {
 "id": "person:Jotham.2",
@@ -1632,13 +1639,6 @@
 "confidence": 0.2038,
 "match_method": "canonical",
 "preferred_label": "योताम"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2038,
-"match_method": "canonical",
-"preferred_label": "Holy"
 }
 ]
 }

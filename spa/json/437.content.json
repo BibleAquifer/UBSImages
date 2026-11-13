@@ -199,7 +199,7 @@
 "type": "person",
 "confidence": 0.82,
 "match_method": "canonical",
-"preferred_label": "Assuero"
+"preferred_label": "Asuero"
 },
 {
 "id": "person:Haman",
@@ -209,39 +209,46 @@
 "preferred_label": "Amán"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.455,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.455,
 "match_method": "canonical",
-"preferred_label": "Mardochêo"
+"preferred_label": "Mardoqueo"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.455,
+"match_method": "canonical",
+"preferred_label": "judío"
 },
 {
 "id": "person:Vashti",
 "type": "person",
 "confidence": 0.4533,
 "match_method": "canonical",
-"preferred_label": "Vasthi"
+"preferred_label": "Vasti"
 },
 {
 "id": "person:Esther",
 "type": "person",
 "confidence": 0.3667,
 "match_method": "canonical",
-"preferred_label": "Esther"
+"preferred_label": "Ester"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
+},
+{
+"id": "person:Bigthan",
+"type": "person",
+"confidence": 0.2433,
+"match_method": "canonical",
+"preferred_label": "Bigtán"
 },
 {
 "id": "person:Teresh",
@@ -251,32 +258,11 @@
 "preferred_label": "Teres"
 },
 {
-"id": "person:Bigthan",
-"type": "person",
-"confidence": 0.2433,
-"match_method": "canonical",
-"preferred_label": "Bigthán"
-},
-{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.235,
 "match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
-"id": "group:Mede",
-"type": "group",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Media"
-},
-{
-"id": "person:Medan",
-"type": "person",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Medos"
+"preferred_label": "rollo"
 },
 {
 "id": "keyterm:IntactState",
@@ -286,39 +272,32 @@
 "preferred_label": "paz"
 },
 {
-"id": "place:India",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "desde"
-},
-{
-"id": "person:Hammedatha",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Amadatha"
-},
-{
-"id": "group:Agag",
+"id": "group:Mede",
 "type": "group",
-"confidence": 0.1717,
+"confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Agagueo"
+"preferred_label": "medos"
 },
 {
-"id": "person:Biztha",
+"id": "person:Medan",
+"type": "person",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "Medán"
+},
+{
+"id": "person:Mehuman",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Biztha"
+"preferred_label": "Meumán"
 },
 {
-"id": "person:Carkas",
+"id": "person:Abagtha",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Carcas"
+"preferred_label": "Abagtá"
 },
 {
 "id": "person:Darius.3",
@@ -328,32 +307,11 @@
 "preferred_label": "Darío"
 },
 {
-"id": "person:Abagtha",
+"id": "person:Biztha",
 "type": "person",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Abagtha"
-},
-{
-"id": "person:Memucan",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Memucán"
-},
-{
-"id": "person:Mehuman",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Mehumán"
-},
-{
-"id": "person:Bigtha",
-"type": "person",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Bighta"
+"preferred_label": "Biztá"
 },
 {
 "id": "person:Harbona",
@@ -361,6 +319,48 @@
 "confidence": 0.1717,
 "match_method": "canonical",
 "preferred_label": "Harbona"
+},
+{
+"id": "group:Agag",
+"type": "group",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "agagueo"
+},
+{
+"id": "person:Hammedatha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Hamedata"
+},
+{
+"id": "place:India",
+"type": "place",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "India"
+},
+{
+"id": "person:Bigtha",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Bigtá"
+},
+{
+"id": "person:Carkas",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Carcás"
+},
+{
+"id": "person:Memucan",
+"type": "person",
+"confidence": 0.1717,
+"match_method": "canonical",
+"preferred_label": "Memucán"
 },
 {
 "id": "person:Zethar",
@@ -374,7 +374,14 @@
 "type": "realia",
 "confidence": 0.17,
 "match_method": "canonical",
-"preferred_label": "Doorstep"
+"preferred_label": "umbral"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Persia"
 },
 {
 "id": "keyterm:Lot",
@@ -384,11 +391,18 @@
 "preferred_label": "suerte"
 },
 {
-"id": "place:Persia",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Persas"
+"preferred_label": "Jerusalén"
+},
+{
+"id": "group:Persia",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "persas"
 },
 {
 "id": "person:Judah.4",
@@ -402,7 +416,42 @@
 "type": "keyterm",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "fidelidad"
+"preferred_label": "verdad"
+},
+{
+"id": "place:Susa",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Susa"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Caldea"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "caldeo"
+},
+{
+"id": "place:Ethiopia",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Etiopía"
 },
 {
 "id": "person:Agag.2",
@@ -412,109 +461,60 @@
 "preferred_label": "Agag"
 },
 {
-"id": "place:Susa",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Susán"
-},
-{
-"id": "group:Persia",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "persa"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "caldeos"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Caldeos"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Etiopes"
-},
-{
 "id": "flora:BalsamTree",
 "type": "flora",
 "confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "Balsam Tree"
+"preferred_label": "balsamero"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "aceite de unción"
 },
 {
 "id": "flora:Myrrh",
 "type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Myrrh"
+"preferred_label": "mirra"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "vid"
 },
 {
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "caballo"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "aceite de oliva"
 },
 {
 "id": "realia:Lot",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Lot"
+"preferred_label": "suerte"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "vino"
 }
 ]
 }

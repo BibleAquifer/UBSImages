@@ -135,6 +135,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4625,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.4625,
@@ -142,11 +149,11 @@
 "preferred_label": "Samsoni"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4625,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "BWANA"
+"preferred_label": "Ufilisti"
 },
 {
 "id": "group:Philistine",
@@ -156,18 +163,11 @@
 "preferred_label": "Wafilisti"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Wafilisti"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Strength"
+"preferred_label": "Nguvu"
 },
 {
 "id": "person:Delilah",
@@ -177,74 +177,39 @@
 "preferred_label": "Delila"
 },
 {
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Thread"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "Kamba"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "Upinde"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "Uzi"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Lehi"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Under Siege"
+"preferred_label": "Nyumba"
 },
 {
 "id": "keyterm:Shield",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Shield"
+"preferred_label": "Ngao"
 },
 {
 "id": "place:Jerusalem",
@@ -254,60 +219,95 @@
 "preferred_label": "Yerusalemu"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Kutoa Unabii"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Kuzingirwa"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Wokovu"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Lehi"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "fundi stadi"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Mbuzi"
 },
 {
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Measuring Reed"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flax"
+"preferred_label": "Mwanzi wa kupimia"
 },
 {
 "id": "realia:Hammer",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Hammer"
+"preferred_label": "nyundo"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "kigao"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Mwana-kondoo"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Kundi"
+},
+{
+"id": "flora:Flax",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Kitani"
 }
 ]
 }

@@ -169,35 +169,35 @@
 "type": "fauna",
 "confidence": 0.71,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "Шакал"
 },
 {
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.424,
 "match_method": "canonical",
-"preferred_label": "Ostrich"
+"preferred_label": "Страус"
 },
 {
 "id": "fauna:Owl",
 "type": "fauna",
 "confidence": 0.406,
 "match_method": "canonical",
-"preferred_label": "Owl"
+"preferred_label": "Сова"
 },
 {
 "id": "fauna:Hyena",
 "type": "fauna",
 "confidence": 0.328,
 "match_method": "canonical",
-"preferred_label": "Hyena"
+"preferred_label": "Гиена"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Jesus.2",
@@ -207,18 +207,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "Небо"
 },
 {
 "id": "place:Hazor.5",
@@ -226,6 +219,69 @@
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "Асор"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Трава"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Давать во владение"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Клясться"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Стяжать честь и славу"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Идумеи"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Плач"
 },
 {
 "id": "place:Edom",
@@ -242,11 +298,11 @@
 "preferred_label": "Вавилон"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "person:Samson",
@@ -256,130 +312,74 @@
 "preferred_label": "Самсон"
 },
 {
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Edomites"
-},
-{
 "id": "deity:Demons",
 "type": "deity",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Lamentation"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Bring Honor and Glory on Oneself"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Swear"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "To Cause to Possess"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "Демоны"
 },
 {
 "id": "fauna:TawnyOwl.2",
 "type": "fauna",
 "confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Tawny Owl"
+"preferred_label": "Серая неясыть"
 },
 {
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Wild Donkey"
+"preferred_label": "Дикий осел"
 },
 {
 "id": "flora:Reed",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Reed"
-},
-{
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Thistle"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Papyrus"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "flora:Nettle",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Nettle"
+"preferred_label": "Трость"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "Терновник"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Папирус"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Чертополох"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "дом"
+},
+{
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Крапива"
 }
 ]
 }

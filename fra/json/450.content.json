@@ -70,13 +70,6 @@
 "preferred_label": "Corinthe"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.4187,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4187,
@@ -84,25 +77,18 @@
 "preferred_label": "Éternel"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4187,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
 "id": "group:Corinth",
 "type": "group",
 "confidence": 0.3625,
 "match_method": "canonical",
-"preferred_label": "un corinthien"
-},
-{
-"id": "keyterm:CallUpon",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "appeler"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "église"
+"preferred_label": "Corinthiens"
 },
 {
 "id": "person:Paul",
@@ -112,11 +98,25 @@
 "preferred_label": "Paul"
 },
 {
-"id": "person:Erastus",
+"id": "keyterm:CallUpon",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "invoquer"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Église"
+},
+{
+"id": "person:Trophimus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Éraste"
+"preferred_label": "Trophime"
 },
 {
 "id": "place:Ephesus",
@@ -124,13 +124,6 @@
 "confidence": 0.2313,
 "match_method": "canonical",
 "preferred_label": "Éphèse"
-},
-{
-"id": "place:Miletus",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Milet"
 },
 {
 "id": "person:Crispus",
@@ -147,53 +140,18 @@
 "preferred_label": "Achaïe"
 },
 {
-"id": "person:Trophimus",
+"id": "person:Erastus",
 "type": "person",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Trophime"
+"preferred_label": "Éraste"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "nom"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "saint"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
-"id": "place:Athens",
+"id": "place:Miletus",
 "type": "place",
-"confidence": 0.2063,
+"confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Athènes"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "coeur"
+"preferred_label": "Milet"
 },
 {
 "id": "person:Timothy",
@@ -203,11 +161,67 @@
 "preferred_label": "Timothée"
 },
 {
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "témoignage"
+},
+{
+"id": "place:Athens",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Athènes"
+},
+{
+"id": "keyterm:InChrist",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "en Christ"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "baptême"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "saint"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "cœur"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "croire"
 },
 {
 "id": "person:Apollos",
@@ -217,25 +231,11 @@
 "preferred_label": "Apollos"
 },
 {
-"id": "keyterm:InChrist",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "en christ"
-},
-{
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "témoin"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "synagogue"
 }
 ]
 }

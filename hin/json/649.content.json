@@ -1104,18 +1104,25 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3753,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3753,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3753,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3702,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
 },
 {
 "id": "group:Philistine",
@@ -1125,13 +1132,6 @@
 "preferred_label": "पलिश्ती"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3702,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.3652,
@@ -1139,25 +1139,11 @@
 "preferred_label": "मोआब"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "सामरिया"
-},
-{
 "id": "group:Syria",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Syrians"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "सीरियाई"
 },
 {
 "id": "place:Jerusalem",
@@ -1167,39 +1153,53 @@
 "preferred_label": "यरूशलेम"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "सामरिया"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "यहूदी"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3254,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3153,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.3128,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "घर"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3128,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "बकरी"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.3128,
+"match_method": "canonical",
+"preferred_label": "झुंड"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
 "confidence": 0.3101,
 "match_method": "canonical",
-"preferred_label": "मिस्र"
+"preferred_label": "जलन"
 },
 {
 "id": "group:Ammon",
@@ -1209,11 +1209,18 @@
 "preferred_label": "अम्मोनी"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.3101,
 "match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "मिस्र"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "कसद्द"
 },
 {
 "id": "place:Ammon",
@@ -1223,18 +1230,11 @@
 "preferred_label": "अम्मोन"
 },
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Chaldea"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.3052,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "रुपया"
 },
 {
 "id": "place:Jericho",
@@ -1244,25 +1244,25 @@
 "preferred_label": "यरीहो"
 },
 {
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "एदोम"
+},
+{
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.2576,
 "match_method": "canonical",
-"preferred_label": "कसदियों"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "दमिश्क"
+"preferred_label": "कसदी"
 },
 {
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.2576,
 "match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "यहोवा का वचन"
 },
 {
 "id": "person:Amaziah",
@@ -1272,25 +1272,25 @@
 "preferred_label": "अमस्याह"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "एदोम"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "शाऊल"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "बेदखल करना"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "दमिश्क"
 }
 ]
 }

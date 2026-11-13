@@ -1985,18 +1985,18 @@
 "type": "group",
 "confidence": 0.3793,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.3723,
-"match_method": "canonical",
-"preferred_label": "लेवी"
+"preferred_label": "यहूदा का गोत्र"
 },
 {
 "id": "group:Levi",
 "type": "group",
+"confidence": 0.3723,
+"match_method": "canonical",
+"preferred_label": "लेवी का गोत्र"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.3723,
 "match_method": "canonical",
 "preferred_label": "लेवी"
@@ -2013,7 +2013,7 @@
 "type": "keyterm",
 "confidence": 0.3653,
 "match_method": "canonical",
-"preferred_label": "Sabbath"
+"preferred_label": "विश्रामदिन"
 },
 {
 "id": "person:Mordecai.2",
@@ -2027,14 +2027,7 @@
 "type": "keyterm",
 "confidence": 0.3611,
 "match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "place:CornerGate",
-"type": "place",
-"confidence": 0.3594,
-"match_method": "canonical",
-"preferred_label": "Corner Gate"
+"preferred_label": "भेंट"
 },
 {
 "id": "place:WaterGate",
@@ -2044,25 +2037,32 @@
 "preferred_label": "जलफाटक"
 },
 {
+"id": "place:CornerGate",
+"type": "place",
+"confidence": 0.3594,
+"match_method": "canonical",
+"preferred_label": "कोने का फाटक"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.359,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "आशीष देना"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "एक स्वर्गदूत"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "पलिश्त"
 },
 {
 "id": "place:Bethlehem",
@@ -2072,88 +2072,81 @@
 "preferred_label": "बैतलहम"
 },
 {
-"id": "place:Philistine",
-"type": "place",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "Philistia"
+"preferred_label": "तेज"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "पवित्र"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "घर"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "मन्दिर"
 },
 {
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Fish Gate"
-},
-{
-"id": "place:BenjaminGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Benjamin Gate"
-},
-{
-"id": "place:ValleyGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Valley Gate"
+"preferred_label": "हाथ"
 },
 {
 "id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "Ephraim Gate"
+"preferred_label": "एप्रैम का फाटक"
+},
+{
+"id": "place:ValleyGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "तराई का फाटक"
+},
+{
+"id": "place:BenjaminGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन का फाटक"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "मछली फाटक"
 },
 {
 "id": "place:DungGate",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "Dung Gate"
+"preferred_label": "कूड़ा फाटक"
 },
 {
 "id": "place:TowerOfHananel",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "Tower of Hananel"
-},
-{
-"id": "place:Arad",
-"type": "place",
-"confidence": 0.3062,
-"match_method": "canonical",
-"preferred_label": "अराद"
+"preferred_label": "हननेल का गुम्मट"
 },
 {
 "id": "person:Haman",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "हामान"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "अराद"
 }
 ]
 }

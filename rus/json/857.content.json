@@ -397,14 +397,14 @@
 "type": "deity",
 "confidence": 0.4571,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "realia:Seal",
 "type": "realia",
 "confidence": 0.4456,
 "match_method": "canonical",
-"preferred_label": "Seal"
+"preferred_label": "печать"
 },
 {
 "id": "person:Israel",
@@ -418,21 +418,14 @@
 "type": "realia",
 "confidence": 0.3892,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "Свиток"
 },
 {
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.3329,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "ремесленник"
 },
 {
 "id": "person:Judah.4",
@@ -442,11 +435,25 @@
 "preferred_label": "Иуда"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.2746,
 "match_method": "canonical",
 "preferred_label": "Аман"
+},
+{
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.2714,
+"match_method": "canonical",
+"preferred_label": "Поступать нечестиво"
 },
 {
 "id": "deity:HolySpirit",
@@ -456,39 +463,11 @@
 "preferred_label": "Святой Дух"
 },
 {
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.2714,
-"match_method": "canonical",
-"preferred_label": "To Act Wickedly"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Вениамин"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Ангел"
 },
 {
 "id": "person:Ahasuerus",
@@ -498,60 +477,25 @@
 "preferred_label": "Артаксеркс"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Вениамин"
-},
-{
-"id": "group:Jews",
+"id": "group:Benjamin",
 "type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "Колено Вениамина"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Небо"
 },
 {
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Иосиф"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Blood"
-},
-{
-"id": "person:Daniel.3",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Даниил"
+"preferred_label": "чистый"
 },
 {
 "id": "person:Jesus.2",
@@ -561,46 +505,102 @@
 "preferred_label": "Иисус"
 },
 {
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Иосиф"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Верить"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Кровь"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Вениамин"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Приношение"
+},
+{
+"id": "person:Daniel.3",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Даниил"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Иудеи"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "святой"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.2114,
 "match_method": "canonical",
-"preferred_label": "Earring"
+"preferred_label": "Серьга"
 },
 {
 "id": "realia:Plate",
 "type": "realia",
 "confidence": 0.1606,
 "match_method": "canonical",
-"preferred_label": "Plate"
+"preferred_label": "Полированная дощечка"
 },
 {
-"id": "keyterm:Abyss",
-"type": "keyterm",
+"id": "deity:ThirdLivingCreature",
+"type": "deity",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "Abyss"
+"preferred_label": "Третье животное"
 },
 {
-"id": "person:Reuben",
+"id": "person:Pharaoh.4",
 "type": "person",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "Рувим"
+"preferred_label": "Фараон"
 },
 {
-"id": "deity:SecondLivingCreature",
+"id": "person:Jeremiah.7",
+"type": "person",
+"confidence": 0.1603,
+"match_method": "canonical",
+"preferred_label": "Иеремия"
+},
+{
+"id": "deity:FourthLivingCreature",
 "type": "deity",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "Second Living Creature"
-},
-{
-"id": "deity:FirstLivingCreature",
-"type": "deity",
-"confidence": 0.1603,
-"match_method": "canonical",
-"preferred_label": "First Living Creature"
+"preferred_label": "Четвертое животное"
 }
 ]
 }

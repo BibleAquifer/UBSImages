@@ -819,21 +819,21 @@
 "type": "group",
 "confidence": 0.3947,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "orang Yahudi"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3912,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "place:Judea",
 "type": "place",
 "confidence": 0.3874,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Yudea"
 },
 {
 "id": "person:Paul",
@@ -861,7 +861,7 @@
 "type": "deity",
 "confidence": 0.374,
 "match_method": "canonical",
-"preferred_label": "Roh"
+"preferred_label": "Roh Kudus"
 },
 {
 "id": "place:Galilee",
@@ -875,7 +875,28 @@
 "type": "keyterm",
 "confidence": 0.3687,
 "match_method": "canonical",
-"preferred_label": "menyembah"
+"preferred_label": "sujud menyembah"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.3672,
+"match_method": "canonical",
+"preferred_label": "memutuskan"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3672,
+"match_method": "canonical",
+"preferred_label": "kemampuan"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.3672,
+"match_method": "canonical",
+"preferred_label": "Samaria"
 },
 {
 "id": "keyterm:Serve",
@@ -889,35 +910,7 @@
 "type": "keyterm",
 "confidence": 0.3672,
 "match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3672,
-"match_method": "canonical",
-"preferred_label": "keahlian"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.3672,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.3672,
-"match_method": "canonical",
-"preferred_label": "memutuskan"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.3153,
-"match_method": "canonical",
-"preferred_label": "paskah"
+"preferred_label": "kudus"
 },
 {
 "id": "person:Barnabas",
@@ -934,6 +927,20 @@
 "preferred_label": "Petrus"
 },
 {
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.3153,
+"match_method": "canonical",
+"preferred_label": "Paskah"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.3137,
+"match_method": "canonical",
+"preferred_label": "Bangsa-Bangsa Lain"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.3137,
@@ -948,13 +955,6 @@
 "preferred_label": "Damsyik"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.3137,
-"match_method": "canonical",
-"preferred_label": "Gentiles"
-},
-{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.3137,
@@ -966,7 +966,7 @@
 "type": "realia",
 "confidence": 0.3087,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Bait Allah"
 },
 {
 "id": "place:Bethany",
@@ -974,6 +974,13 @@
 "confidence": 0.2634,
 "match_method": "canonical",
 "preferred_label": "Betania"
+},
+{
+"id": "person:Festus",
+"type": "person",
+"confidence": 0.2618,
+"match_method": "canonical",
+"preferred_label": "Festus"
 },
 {
 "id": "place:Rome",
@@ -990,25 +997,18 @@
 "preferred_label": "saksi"
 },
 {
-"id": "person:Festus",
-"type": "person",
-"confidence": 0.2618,
-"match_method": "canonical",
-"preferred_label": "Festus"
-},
-{
 "id": "keyterm:Condemn",
 "type": "keyterm",
 "confidence": 0.2603,
 "match_method": "canonical",
-"preferred_label": "menentang"
+"preferred_label": "mengecam"
 },
 {
-"id": "place:Jordan",
-"type": "place",
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.2603,
 "match_method": "canonical",
-"preferred_label": "Yordan"
+"preferred_label": "lambang"
 }
 ]
 }

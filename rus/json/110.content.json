@@ -559,21 +559,21 @@
 "type": "flora",
 "confidence": 0.7072,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "Итальянская сосна"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.6489,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "высота"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.52,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Israel",
@@ -583,18 +583,18 @@
 "preferred_label": "Израиль"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.42,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.42,
 "match_method": "canonical",
 "preferred_label": "Иуда"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.42,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
 },
 {
 "id": "place:Jerusalem",
@@ -608,7 +608,7 @@
 "type": "deity",
 "confidence": 0.405,
 "match_method": "canonical",
-"preferred_label": "Asherah"
+"preferred_label": "Ашера"
 },
 {
 "id": "place:Gibeon",
@@ -618,25 +618,32 @@
 "preferred_label": "Гаваон"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Каменный жертвенник"
 },
 {
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Жертвенник"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
 },
 {
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Жертвенник скинии"
 },
 {
 "id": "person:Solomon",
@@ -646,25 +653,11 @@
 "preferred_label": "Соломон"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.3772,
 "match_method": "canonical",
-"preferred_label": "Bethel"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Езекия"
+"preferred_label": "Вефиль"
 },
 {
 "id": "place:Moab",
@@ -672,6 +665,13 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Моав"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Езекия"
 },
 {
 "id": "deity:Baal",
@@ -685,14 +685,14 @@
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "Священный столб Ашеры"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.335,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "дом"
 },
 {
 "id": "place:Samaria",
@@ -706,21 +706,7 @@
 "type": "keyterm",
 "confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2672,
-"match_method": "canonical",
-"preferred_label": "Rebel"
-},
-{
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.2672,
-"match_method": "canonical",
-"preferred_label": "Молох"
+"preferred_label": "Грешить"
 },
 {
 "id": "person:Jeroboam",
@@ -730,6 +716,20 @@
 "preferred_label": "Иеровоам"
 },
 {
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.2672,
+"match_method": "canonical",
+"preferred_label": "Восставать"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.2672,
+"match_method": "canonical",
+"preferred_label": "Молох"
+},
+{
 "id": "person:Asa",
 "type": "person",
 "confidence": 0.265,
@@ -737,25 +737,11 @@
 "preferred_label": "Аса"
 },
 {
-"id": "person:Josiah",
-"type": "person",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Иосия"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.265,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
+"preferred_label": "Принуждать к служению"
 },
 {
 "id": "person:Moses",
@@ -763,6 +749,20 @@
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "Моисей"
+},
+{
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "Блудодействовать"
+},
+{
+"id": "person:Josiah",
+"type": "person",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "Иосия"
 }
 ]
 }

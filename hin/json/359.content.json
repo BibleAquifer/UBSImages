@@ -397,7 +397,7 @@
 "type": "realia",
 "confidence": 0.6241,
 "match_method": "canonical",
-"preferred_label": "Spear"
+"preferred_label": "भाला"
 },
 {
 "id": "deity:Lord",
@@ -421,6 +421,13 @@
 "preferred_label": "शाऊल"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3857,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3857,
@@ -428,25 +435,18 @@
 "preferred_label": "पलिश्ती"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3857,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.3543,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "तलवार"
 },
 {
 "id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.3495,
 "match_method": "canonical",
-"preferred_label": "Javelin"
+"preferred_label": "बर्छी"
 },
 {
 "id": "person:Abishai",
@@ -454,6 +454,13 @@
 "confidence": 0.3317,
 "match_method": "canonical",
 "preferred_label": "अबीशै"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
 },
 {
 "id": "person:Israel",
@@ -467,35 +474,21 @@
 "type": "group",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "यहूदा का गोत्र"
 },
 {
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "छोटी ढाल"
 },
 {
 "id": "realia:WeaversBeam",
 "type": "realia",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Weavers Beam"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.2714,
-"match_method": "canonical",
-"preferred_label": "योआब"
+"preferred_label": "जुलाहे की डोंगी"
 },
 {
 "id": "person:Goliath",
@@ -505,32 +498,32 @@
 "preferred_label": "गोलियत"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2686,
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.2714,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:LargeShield",
-"type": "realia",
-"confidence": 0.2686,
-"match_method": "canonical",
-"preferred_label": "Large Shield"
+"preferred_label": "योआब"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "धनुष"
 },
 {
-"id": "person:Elhanan",
-"type": "person",
-"confidence": 0.2206,
+"id": "realia:LargeShield",
+"type": "realia",
+"confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "एल्हनान"
+"preferred_label": "बड़ी ढाल"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2686,
+"match_method": "canonical",
+"preferred_label": "घर"
 },
 {
 "id": "person:Jaare-oregim",
@@ -540,22 +533,29 @@
 "preferred_label": "यारयोरगीम"
 },
 {
-"id": "person:Abner",
+"id": "person:Elhanan",
 "type": "person",
-"confidence": 0.2143,
+"confidence": 0.2206,
 "match_method": "canonical",
-"preferred_label": "अब्नेर"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "योनातान"
+"preferred_label": "एल्हनान"
 },
 {
 "id": "group:Benjamin",
 "type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन का गोत्र"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "बिन्यामीन"
@@ -568,13 +568,6 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "आई"
-},
-{
 "id": "place:Gath",
 "type": "place",
 "confidence": 0.2143,
@@ -582,25 +575,32 @@
 "preferred_label": "गत"
 },
 {
-"id": "person:Joshua.2",
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "आई"
+},
+{
+"id": "person:Abner",
 "type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "यहोशू"
+"preferred_label": "अब्नेर"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "तीर"
 },
 {
 "id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Anointed"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "मिस्री"
+"preferred_label": "अभिषिक्त"
 }
 ]
 }

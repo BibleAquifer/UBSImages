@@ -175,28 +175,35 @@
 "type": "realia",
 "confidence": 0.5208,
 "match_method": "canonical",
-"preferred_label": "Whip"
+"preferred_label": "látigo"
 },
 {
 "id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.3169,
 "match_method": "canonical",
-"preferred_label": "Scorpion"
+"preferred_label": "escorpión"
 },
 {
 "id": "realia:Yoke",
 "type": "realia",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Yoke"
+"preferred_label": "yugo"
 },
 {
 "id": "realia:Cross",
 "type": "realia",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Cross"
+"preferred_label": "cruz"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3019,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "person:Jesus.2",
@@ -206,11 +213,18 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3019,
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.2346,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "Pilato"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "infierno"
 },
 {
 "id": "keyterm:Counsel",
@@ -227,20 +241,6 @@
 "preferred_label": "Barrabás"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Pilato"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.2346,
@@ -255,25 +255,46 @@
 "preferred_label": "Oreb"
 },
 {
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "caballo"
 },
 {
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "sinagoga"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "vara"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "exento"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Pablo"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "desposeer"
 },
 {
 "id": "keyterm:Serve",
@@ -287,35 +308,7 @@
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "levantamiento"
-},
-{
-"id": "keyterm:Lawful",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Be Lawful"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
-"id": "keyterm:Exempt",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "libre"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Pablo"
+"preferred_label": "resurrección"
 },
 {
 "id": "place:Egypt",
@@ -325,25 +318,11 @@
 "preferred_label": "Egipto"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "desposeer"
-},
-{
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Roma"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "insensato"
+"preferred_label": "amor"
 },
 {
 "id": "keyterm:Refuge",
@@ -353,116 +332,137 @@
 "preferred_label": "refugio"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Lawful",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "temer"
+"preferred_label": "ser lícito"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Roma"
 },
 {
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Madianitas"
+"preferred_label": "Madián"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "temor"
 },
 {
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "nación; gente"
+"preferred_label": "gentiles"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "insensato"
 },
 {
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "cuerda"
 },
 {
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Trap"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "realia:Chain",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Chain"
-},
-{
-"id": "realia:BitAndBridle",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Bit and Bridle"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "trampa"
 },
 {
 "id": "realia:Wagon",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Wagon"
+"preferred_label": "carro"
+},
+{
+"id": "realia:Chain",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "cadena"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "ganado vacuno"
+},
+{
+"id": "realia:BitAndBridle",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "freno y brida"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Templo"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "vara"
 },
 {
 "id": "realia:Strap",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Strap"
+"preferred_label": "correa"
 },
 {
 "id": "realia:Prison",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Prison"
+"preferred_label": "prisión"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "cordero"
 },
 {
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "asno"
 },
 {
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "carro"
 }
 ]
 }

@@ -574,18 +574,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "person:Ahab",
-"type": "person",
-"confidence": 0.3745,
-"match_method": "canonical",
-"preferred_label": "Achâb"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3745,
 "match_method": "canonical",
 "preferred_label": "pecar"
+},
+{
+"id": "person:Ahab",
+"type": "person",
+"confidence": 0.3745,
+"match_method": "canonical",
+"preferred_label": "Acab"
 },
 {
 "id": "person:Elijah",
@@ -613,7 +613,14 @@
 "type": "flora",
 "confidence": 0.3193,
 "match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "hierba"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2647,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
 },
 {
 "id": "person:Moses",
@@ -621,13 +628,6 @@
 "confidence": 0.2647,
 "match_method": "canonical",
 "preferred_label": "Moisés"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2647,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
 },
 {
 "id": "keyterm:Bless",
@@ -644,6 +644,27 @@
 "preferred_label": "Sodoma"
 },
 {
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "perdonar"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Faraón"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "dejar en herencia"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2098,
@@ -658,88 +679,60 @@
 "preferred_label": "orar"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Faraón"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "dejar en herencia"
+"preferred_label": "gloria"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "temor"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "aceite de unción"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "aceite de oliva"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.1571,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2047,
 "match_method": "canonical",
-"preferred_label": "Good"
+"preferred_label": "casa"
 },
 {
 "id": "group:Tishbite",
 "type": "group",
 "confidence": 0.1571,
 "match_method": "canonical",
-"preferred_label": "Tishbites"
+"preferred_label": "tisbitas"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1571,
+"match_method": "canonical",
+"preferred_label": "bueno"
 },
 {
 "id": "place:Tishbe",
 "type": "place",
 "confidence": 0.1571,
 "match_method": "canonical",
-"preferred_label": "Thisbita"
-},
-{
-"id": "keyterm:DoGood",
-"type": "keyterm",
-"confidence": 0.1571,
-"match_method": "canonical",
-"preferred_label": "Do Good"
+"preferred_label": "Tisbé"
 },
 {
 "id": "place:Gomorrah",
@@ -749,6 +742,27 @@
 "preferred_label": "Gomorra"
 },
 {
+"id": "keyterm:DoGood",
+"type": "keyterm",
+"confidence": 0.1571,
+"match_method": "canonical",
+"preferred_label": "hacer el bien"
+},
+{
+"id": "place:GilboaMount",
+"type": "place",
+"confidence": 0.1549,
+"match_method": "canonical",
+"preferred_label": "Monte Guilboa"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1549,
+"match_method": "canonical",
+"preferred_label": "ser justo"
+},
+{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.1549,
@@ -756,25 +770,11 @@
 "preferred_label": "decreto"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1549,
-"match_method": "canonical",
-"preferred_label": "Benjamín"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1549,
 "match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1549,
-"match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "bondad"
 }
 ]
 }

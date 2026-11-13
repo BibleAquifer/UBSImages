@@ -817,21 +817,21 @@
 "type": "fauna",
 "confidence": 0.7265,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.6656,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Cordeiro"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.6656,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "bode"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.6656,
+"match_method": "canonical",
+"preferred_label": "rebanho"
 },
 {
 "id": "deity:Lord",
@@ -859,7 +859,7 @@
 "type": "keyterm",
 "confidence": 0.3669,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "designar"
 },
 {
 "id": "person:Jesus.2",
@@ -880,77 +880,14 @@
 "type": "fauna",
 "confidence": 0.3103,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Leão"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3069,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "Egito"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "Word of the Lord"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "Abraão"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "Jerusalém"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.2602,
-"match_method": "canonical",
-"preferred_label": "Woe"
+"preferred_label": "casa"
 },
 {
 "id": "person:Joseph.10",
@@ -960,25 +897,88 @@
 "preferred_label": "José"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2602,
 "match_method": "canonical",
-"preferred_label": "bless"
+"preferred_label": "paz"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "Jerusalém"
 },
 {
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.2602,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Rio Jordão"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "ai"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "palavra do Senhor"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "Moisés"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "fazer possuir"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.2602,
+"match_method": "canonical",
+"preferred_label": "Abraão"
 },
 {
 "id": "keyterm:Affection",
 "type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "compaixão"
+"preferred_label": "afeto"
 },
 {
 "id": "place:Bethlehem",
@@ -988,20 +988,6 @@
 "preferred_label": "Belém"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.2068,
-"match_method": "canonical",
-"preferred_label": "Complete"
-},
-{
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.2068,
-"match_method": "canonical",
-"preferred_label": "Isaque"
-},
-{
 "id": "place:Carmel",
 "type": "place",
 "confidence": 0.2068,
@@ -1009,18 +995,32 @@
 "preferred_label": "Carmelo"
 },
 {
-"id": "person:Lot",
-"type": "person",
+"id": "keyterm:Speak",
+"type": "keyterm",
 "confidence": 0.2068,
 "match_method": "canonical",
-"preferred_label": "Ló"
+"preferred_label": "profetizar"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2068,
+"match_method": "canonical",
+"preferred_label": "íntegro"
 },
 {
 "id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.2068,
 "match_method": "canonical",
-"preferred_label": "have insight"
+"preferred_label": "ter discernimento"
+},
+{
+"id": "person:Lot",
+"type": "person",
+"confidence": 0.2068,
+"match_method": "canonical",
+"preferred_label": "Ló"
 }
 ]
 }

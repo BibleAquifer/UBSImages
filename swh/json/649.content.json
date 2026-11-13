@@ -1104,13 +1104,6 @@
 "preferred_label": "Daudi"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3753,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3753,
@@ -1118,15 +1111,22 @@
 "preferred_label": "Yuda"
 },
 {
-"id": "group:Philistine",
+"id": "group:Judah",
 "type": "group",
-"confidence": 0.3702,
+"confidence": 0.3753,
 "match_method": "canonical",
-"preferred_label": "Wafilisti"
+"preferred_label": "Kabila la Yuda"
 },
 {
 "id": "place:Philistine",
 "type": "place",
+"confidence": 0.3702,
+"match_method": "canonical",
+"preferred_label": "Ufilisti"
+},
+{
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.3702,
 "match_method": "canonical",
 "preferred_label": "Wafilisti"
@@ -1139,25 +1139,11 @@
 "preferred_label": "Moabu"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
 "id": "group:Syria",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Syrians"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "Washami"
 },
 {
 "id": "place:Jerusalem",
@@ -1167,32 +1153,60 @@
 "preferred_label": "Yerusalemu"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "Wayahudi"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3254,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Ngʼombe"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3153,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.3128,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Nyumba"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3128,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Mbuzi"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.3128,
+"match_method": "canonical",
+"preferred_label": "Kundi"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Wivu"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Waamoni"
 },
 {
 "id": "place:Egypt",
@@ -1202,39 +1216,25 @@
 "preferred_label": "Misri"
 },
 {
-"id": "group:Ammon",
-"type": "group",
+"id": "place:Chaldea",
+"type": "place",
 "confidence": 0.3101,
 "match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "Ukaldayo"
 },
 {
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.3101,
 "match_method": "canonical",
-"preferred_label": "Waamoni"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Wakaldayo"
+"preferred_label": "Amoni"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.3052,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Fedha"
 },
 {
 "id": "place:Jericho",
@@ -1244,25 +1244,25 @@
 "preferred_label": "Yeriko"
 },
 {
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Edomu"
+},
+{
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.2576,
 "match_method": "canonical",
-"preferred_label": "Chaldeans"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Dameski"
+"preferred_label": "Wakaldayo"
 },
 {
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.2576,
 "match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "Neno la Bwana"
 },
 {
 "id": "person:Amaziah",
@@ -1272,25 +1272,25 @@
 "preferred_label": "Amazia"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Edomu"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "Sauli"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Kupotoa milki"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Dameski"
 }
 ]
 }

@@ -433,7 +433,7 @@
 "type": "keyterm",
 "confidence": 0.7333,
 "match_method": "canonical",
-"preferred_label": "destin"
+"preferred_label": "sort"
 },
 {
 "id": "deity:Lord",
@@ -447,7 +447,14 @@
 "type": "keyterm",
 "confidence": 0.4116,
 "match_method": "canonical",
-"preferred_label": "laissiez en possession"
+"preferred_label": "donner en possession"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.3957,
+"match_method": "canonical",
+"preferred_label": "tribu de Lévi"
 },
 {
 "id": "person:Levi.3",
@@ -457,20 +464,6 @@
 "preferred_label": "Lévi"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.3957,
-"match_method": "canonical",
-"preferred_label": "Lévi"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3891,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.3891,
@@ -478,18 +471,11 @@
 "preferred_label": "Aaron"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3826,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Joshua.2",
+"id": "person:Israel",
 "type": "person",
-"confidence": 0.3826,
+"confidence": 0.3891,
 "match_method": "canonical",
-"preferred_label": "Josué"
+"preferred_label": "Israël"
 },
 {
 "id": "person:Judah.4",
@@ -506,18 +492,32 @@
 "preferred_label": "Joseph"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3826,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.3826,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
 "id": "realia:Lot",
 "type": "realia",
 "confidence": 0.3668,
 "match_method": "canonical",
-"preferred_label": "Lot"
+"preferred_label": "sort"
 },
 {
 "id": "group:Manasseh",
 "type": "group",
 "confidence": 0.3261,
 "match_method": "canonical",
-"preferred_label": "Manassé"
+"preferred_label": "tribu de Manassé"
 },
 {
 "id": "person:Kohath",
@@ -538,14 +538,21 @@
 "type": "group",
 "confidence": 0.2725,
 "match_method": "canonical",
-"preferred_label": "Siméon"
+"preferred_label": "tribu de Siméon"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "place:Shiloh",
+"type": "place",
 "confidence": 0.2696,
 "match_method": "canonical",
-"preferred_label": "Éphraïm"
+"preferred_label": "Silo"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.2696,
+"match_method": "canonical",
+"preferred_label": "Siméon"
 },
 {
 "id": "person:Moses",
@@ -553,13 +560,6 @@
 "confidence": 0.2696,
 "match_method": "canonical",
 "preferred_label": "Moïse"
-},
-{
-"id": "place:Shiloh",
-"type": "place",
-"confidence": 0.2696,
-"match_method": "canonical",
-"preferred_label": "Shiloh"
 },
 {
 "id": "person:Ephraim",
@@ -576,18 +576,18 @@
 "preferred_label": "Éléazar"
 },
 {
-"id": "person:Simeon.5",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2696,
 "match_method": "canonical",
-"preferred_label": "Siméon"
+"preferred_label": "tribu d’Éphraïm"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.2661,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "vêtement"
 },
 {
 "id": "deity:Azazel",
@@ -604,25 +604,18 @@
 "preferred_label": "Asaph"
 },
 {
-"id": "group:Kohath",
-"type": "group",
+"id": "person:Issachar",
+"type": "person",
 "confidence": 0.213,
 "match_method": "canonical",
-"preferred_label": "Kohathites"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.213,
-"match_method": "canonical",
-"preferred_label": "Dan"
+"preferred_label": "Issacar"
 },
 {
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.213,
 "match_method": "canonical",
-"preferred_label": "Benjamin"
+"preferred_label": "tribu de Benjamin"
 },
 {
 "id": "place:Bashan",
@@ -632,11 +625,18 @@
 "preferred_label": "Basan"
 },
 {
-"id": "group:Asher",
-"type": "group",
+"id": "place:Dan",
+"type": "place",
 "confidence": 0.213,
 "match_method": "canonical",
-"preferred_label": "Aser"
+"preferred_label": "Dan"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.213,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 }
 ]
 }

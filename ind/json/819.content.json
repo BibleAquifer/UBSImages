@@ -739,21 +739,21 @@
 "type": "realia",
 "confidence": 0.6238,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "patung"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "keyterm:Idol",
 "type": "keyterm",
 "confidence": 0.4129,
 "match_method": "canonical",
-"preferred_label": "(patung) berhala"
+"preferred_label": "berhala"
 },
 {
 "id": "person:Israel",
@@ -774,21 +774,21 @@
 "type": "keyterm",
 "confidence": 0.3988,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
+"preferred_label": "penajisan"
 },
 {
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "menyembah"
+"preferred_label": "sujud menyembah"
 },
 {
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.3762,
 "match_method": "canonical",
-"preferred_label": "mencurigai"
+"preferred_label": "kecemburuan"
 },
 {
 "id": "person:Nebuchadnezzar",
@@ -798,6 +798,13 @@
 "preferred_label": "Nebukadnezar"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3725,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.3725,
@@ -805,11 +812,11 @@
 "preferred_label": "Mesir"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3725,
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.3688,
 "match_method": "canonical",
-"preferred_label": "Yerusalem"
+"preferred_label": "kejijikan"
 },
 {
 "id": "keyterm:Life",
@@ -819,74 +826,67 @@
 "preferred_label": "kehidupan"
 },
 {
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.3688,
-"match_method": "canonical",
-"preferred_label": "hal yang dibenci"
-},
-{
 "id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.3492,
 "match_method": "canonical",
-"preferred_label": "Household Idols"
+"preferred_label": "terafim"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.3308,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "patung pahatan"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3237,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.32,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.32,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.32,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "rumah"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "mezbah batu"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.315,
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "tidak menghargai"
+"preferred_label": "Mezbah"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.32,
+"match_method": "canonical",
+"preferred_label": "mezbah Bait Allah"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.32,
+"match_method": "canonical",
+"preferred_label": "mezbah Kemah Suci"
 },
 {
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
+"preferred_label": "memaksa untuk melayani"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "persundalan"
 },
 {
 "id": "keyterm:Sin",
@@ -903,46 +903,46 @@
 "preferred_label": "Babel"
 },
 {
-"id": "keyterm:Fornication",
+"id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.315,
 "match_method": "canonical",
-"preferred_label": "persundalan"
+"preferred_label": "mencemarkan"
 },
 {
 "id": "realia:Ephod",
 "type": "realia",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Ephod"
+"preferred_label": "efod"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "patung tuangan"
 },
 {
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.3087,
 "match_method": "canonical",
-"preferred_label": "Lyre"
+"preferred_label": "kecapi"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.2612,
 "match_method": "canonical",
-"preferred_label": "persembahan"
+"preferred_label": "menanggung akibat kesalahan"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.2612,
 "match_method": "canonical",
-"preferred_label": "kemuliaan"
+"preferred_label": "berlaku sebagai pelacur"
 }
 ]
 }

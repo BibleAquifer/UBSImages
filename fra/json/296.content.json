@@ -151,7 +151,7 @@
 "type": "realia",
 "confidence": 0.6173,
 "match_method": "canonical",
-"preferred_label": "Cooking Pot"
+"preferred_label": "marmite"
 },
 {
 "id": "deity:Lord",
@@ -172,35 +172,49 @@
 "type": "realia",
 "confidence": 0.2695,
 "match_method": "canonical",
-"preferred_label": "Stew"
+"preferred_label": "potage"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "huile d'onction"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "huile d'olive"
 },
 {
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Woe"
+"preferred_label": "malheur"
+},
+{
+"id": "place:Gilgal.3",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Guilgal"
 },
 {
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "destin"
+"preferred_label": "sort"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Israélites"
 },
 {
 "id": "keyterm:Offering",
@@ -210,32 +224,11 @@
 "preferred_label": "offrande"
 },
 {
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "parfum apaisant"
-},
-{
-"id": "person:Elisha",
+"id": "person:Gideon",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Élisée"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "parole du seigneur"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "sacrifice de la pâque"
+"preferred_label": "Gédéon"
 },
 {
 "id": "place:Egypt",
@@ -252,6 +245,13 @@
 "preferred_label": "proverbe"
 },
 {
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Élisée"
+},
+{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -259,18 +259,32 @@
 "preferred_label": "baptême"
 },
 {
-"id": "group:Israel",
-"type": "group",
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "odeur agréable"
 },
 {
-"id": "person:Gideon",
-"type": "person",
+"id": "place:Shiloh",
+"type": "place",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Gédéon"
+"preferred_label": "Silo"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "parole de l'Éternel"
+},
+{
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "sacrifice de la Pâque"
 },
 {
 "id": "keyterm:Stupid",
@@ -280,130 +294,116 @@
 "preferred_label": "stupide"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1705,
+"id": "flora:Ivy",
+"type": "flora",
+"confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Gilgal"
-},
-{
-"id": "place:Shiloh",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Shiloh"
+"preferred_label": "lierre"
 },
 {
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Griddle"
-},
-{
-"id": "flora:Ivy",
-"type": "flora",
-"confidence": 0.1195,
-"match_method": "canonical",
-"preferred_label": "Ivy"
+"preferred_label": "poêle"
 },
 {
 "id": "flora:Colocynth",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Colocynth"
-},
-{
-"id": "fauna:Kid",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Kid"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
-"id": "realia:Fork",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Fork"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Terebinth"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "coloquinte"
 },
 {
 "id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Hand-Mill"
+"preferred_label": "moulin à bras"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "chèvre"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Flock",
+"id": "fauna:Kid",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "chevreau"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "ronce"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Fork",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "fourchette"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "térébinthe"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "épha"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pain sans levain"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "maison"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "troupeau"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "lit"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "panier"
 }
 ]
 }

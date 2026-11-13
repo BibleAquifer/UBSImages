@@ -1452,25 +1452,11 @@
 "preferred_label": "être juste"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3614,
 "match_method": "canonical",
 "preferred_label": "Juda"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "Moïse"
 },
 {
 "id": "place:Jerusalem",
@@ -1480,18 +1466,25 @@
 "preferred_label": "Jérusalem"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "Moïse"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.3595,
 "match_method": "canonical",
 "preferred_label": "ardeur"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3595,
-"match_method": "canonical",
-"preferred_label": "craindre"
 },
 {
 "id": "keyterm:Truth",
@@ -1501,11 +1494,18 @@
 "preferred_label": "vérité"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3595,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
 "id": "keyterm:DeclareGuilty",
 "type": "keyterm",
 "confidence": 0.3085,
 "match_method": "canonical",
-"preferred_label": "condamner comme coupable"
+"preferred_label": "déclarer coupable"
 },
 {
 "id": "keyterm:Ability",
@@ -1515,11 +1515,11 @@
 "preferred_label": "capacité"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
+"id": "person:Samuel",
+"type": "person",
 "confidence": 0.3076,
 "match_method": "canonical",
-"preferred_label": "pécher"
+"preferred_label": "Samuel"
 },
 {
 "id": "person:David",
@@ -1529,6 +1529,13 @@
 "preferred_label": "David"
 },
 {
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3076,
+"match_method": "canonical",
+"preferred_label": "pécher"
+},
+{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.3076,
@@ -1536,32 +1543,25 @@
 "preferred_label": "Babylone"
 },
 {
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.3076,
-"match_method": "canonical",
-"preferred_label": "Samuel"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3033,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.2995,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "épée"
 },
 {
 "id": "keyterm:Fairness",
 "type": "keyterm",
 "confidence": 0.2574,
 "match_method": "canonical",
-"preferred_label": "niveau"
+"preferred_label": "équité"
 },
 {
 "id": "keyterm:Strength",
@@ -1571,18 +1571,11 @@
 "preferred_label": "force"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2557,
-"match_method": "canonical",
-"preferred_label": "Lévi"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2557,
 "match_method": "canonical",
-"preferred_label": "Lévi"
+"preferred_label": "tribu de Lévi"
 },
 {
 "id": "person:Absalom",
@@ -1599,18 +1592,18 @@
 "preferred_label": "Ribla"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2557,
+"match_method": "canonical",
+"preferred_label": "Lévi"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.2476,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2047,
-"match_method": "canonical",
-"preferred_label": "jurer"
+"preferred_label": "agneau"
 },
 {
 "id": "person:Deborah.2",
@@ -1620,11 +1613,25 @@
 "preferred_label": "Débora"
 },
 {
-"id": "place:Bethlehem",
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2047,
+"match_method": "canonical",
+"preferred_label": "jurer"
+},
+{
+"id": "keyterm:PracticeDivination",
+"type": "keyterm",
+"confidence": 0.2038,
+"match_method": "canonical",
+"preferred_label": "pratiquer la divination"
+},
+{
+"id": "place:Bethel",
 "type": "place",
 "confidence": 0.2038,
 "match_method": "canonical",
-"preferred_label": "Bethléhem"
+"preferred_label": "Béthel"
 },
 {
 "id": "person:Jotham.2",
@@ -1632,13 +1639,6 @@
 "confidence": 0.2038,
 "match_method": "canonical",
 "preferred_label": "Jotham"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2038,
-"match_method": "canonical",
-"preferred_label": "saint"
 }
 ]
 }

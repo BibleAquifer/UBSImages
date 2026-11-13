@@ -91,7 +91,7 @@
 "type": "flora",
 "confidence": 0.7525,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "बिच्छू पेड़"
 },
 {
 "id": "person:Israel",
@@ -99,6 +99,13 @@
 "confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "अमस्याह"
 },
 {
 "id": "place:Lebanon",
@@ -115,6 +122,13 @@
 "preferred_label": "यहूदा"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.275,
@@ -122,81 +136,25 @@
 "preferred_label": "योआश"
 },
 {
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "अमस्याह"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.2317,
 "match_method": "canonical",
-"preferred_label": "Nettle"
+"preferred_label": "बिच्छू बूटी"
 },
 {
 "id": "flora:Cedar",
 "type": "flora",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "सल्मुन्ना"
+"preferred_label": "देवदार"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Complete"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "अय्यूब"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "सुक्कोत"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "person:Zebah",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "जेबह"
+"preferred_label": "खरा / सिद्ध"
 },
 {
 "id": "deity:Lord",
@@ -206,11 +164,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Saying",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Proverb"
+"preferred_label": "बेदखल करना"
+},
+{
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "सल्मुन्ना"
 },
 {
 "id": "person:Gideon",
@@ -220,11 +185,11 @@
 "preferred_label": "गिदोन"
 },
 {
-"id": "keyterm:Stupid",
-"type": "keyterm",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Stupid"
+"preferred_label": "मिस्र"
 },
 {
 "id": "place:Memphis",
@@ -234,81 +199,116 @@
 "preferred_label": "नोप"
 },
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "नीतिवचन"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "सुक्कोत"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "अय्यूब"
+},
+{
+"id": "person:Zebah",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "जेबह"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
+},
+{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Weed"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Jackal"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "जंगली बीज"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "कँटीली झाड़ी"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "गड्ढा"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "रुपया"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "सोसन"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "सियार"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "जौ"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "शुतुर्मुर्ग"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "चन्दन"
 }
 ]
 }

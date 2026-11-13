@@ -138,18 +138,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Blood"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Life"
 },
 {
 "id": "realia:Temple",
@@ -180,11 +180,11 @@
 "preferred_label": "Complete"
 },
 {
-"id": "keyterm:Pray",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Pray"
+"preferred_label": "Defilement"
 },
 {
 "id": "keyterm:Offering",
@@ -194,18 +194,18 @@
 "preferred_label": "Offering"
 },
 {
-"id": "keyterm:PleasingOdor",
+"id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Pleasing Odor"
+"preferred_label": "Bow Down"
 },
 {
-"id": "keyterm:Always",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:Holy",
@@ -215,11 +215,32 @@
 "preferred_label": "Holy"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Pleasing Odor"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Pray"
+},
+{
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "A Disembodied Voice"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Always"
 },
 {
 "id": "keyterm:Judgment",
@@ -236,39 +257,11 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bow Down"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "A Disembodied Voice"
-},
-{
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "Griddle"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "Bowl"
 },
 {
 "id": "realia:Towel",
@@ -278,18 +271,11 @@
 "preferred_label": "Towel"
 },
 {
-"id": "realia:Lyre",
+"id": "realia:Bowl",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Bowl"
 },
 {
 "id": "realia:Incense",
@@ -299,6 +285,13 @@
 "preferred_label": "Incense"
 },
 {
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1165,
@@ -306,18 +299,25 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Image"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Lyre"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Scroll"
 }
 ]
 }

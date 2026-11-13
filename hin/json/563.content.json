@@ -277,7 +277,7 @@
 "type": "fauna",
 "confidence": 0.7016,
 "match_method": "canonical",
-"preferred_label": "Dove"
+"preferred_label": "कबूतर"
 },
 {
 "id": "deity:Lord",
@@ -291,21 +291,28 @@
 "type": "keyterm",
 "confidence": 0.4233,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "भेंट"
 },
 {
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.4023,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "पाप करना"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "भेड़"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "आकाश"
 },
 {
 "id": "deity:HolySpirit",
@@ -315,39 +322,18 @@
 "preferred_label": "पवित्र आत्मा"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2958,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "मन्दिर"
 },
 {
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.2819,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "मिलापवाला तम्बू"
 },
 {
 "id": "person:Jesus.2",
@@ -357,6 +343,13 @@
 "preferred_label": "यीशु"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "अश्शूर"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2209,
@@ -364,39 +357,53 @@
 "preferred_label": "मिस्र"
 },
 {
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
+},
+{
 "id": "realia:Seat",
 "type": "realia",
 "confidence": 0.1702,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "आसन"
 },
 {
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "Baptism"
+"preferred_label": "बपतिस्मा"
 },
 {
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "जहाज"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "place:EbalMount",
+"type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "एप्रैम"
+"preferred_label": "एबाल पर्वत"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Bear Witness"
+"preferred_label": "जलन"
+},
+{
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "शांत करना"
 },
 {
 "id": "person:Ephraim",
@@ -413,32 +420,32 @@
 "preferred_label": "नीनवे"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Appease"
-},
-{
-"id": "place:Moab",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "नूह"
 },
 {
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "उद्धार"
 },
 {
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "प्रिय"
 },
 {
 "id": "place:Gilead",
@@ -448,11 +455,39 @@
 "preferred_label": "गिलाद"
 },
 {
-"id": "person:Noah",
+"id": "person:John",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "नूह"
+"preferred_label": "यूहन्ना"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "गवाही देना"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "एप्रैम का गोत्र"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "व्यवस्था"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "मोआब"
 },
 {
 "id": "place:Samaria",
@@ -466,182 +501,147 @@
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "To Be Kindly Disposed"
-},
-{
-"id": "place:EbalMount",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "एबाल पर्वत"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यूहन्ना"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Law"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "fauna:Wolf",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "Wolf"
-},
-{
-"id": "fauna:Crane",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "Crane"
-},
-{
-"id": "realia:Kab",
-"type": "realia",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "Kab"
+"preferred_label": "कृपादृष्टि रखना"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "जैतून का वृक्ष"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Kab",
 "type": "realia",
-"confidence": 0.1005,
+"confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "कब"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1005,
+"id": "fauna:Crane",
+"type": "fauna",
+"confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "सारस"
+},
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "भेड़िया"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "बकरी"
 },
 {
-"id": "realia:Veil",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Veil"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "अभिषेक का तेल"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Bear",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Bear"
-},
-{
-"id": "fauna:Swallow",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Swallow"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Frankincense"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "fauna:Sparrow",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Sparrow"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Rooster"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "गौरैया"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "रुपया"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "जैतून का तेल"
+},
+{
+"id": "fauna:Swallow",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "अबाबील"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "लोबान"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "मुर्गा"
+},
+{
+"id": "fauna:Bear",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "भालू"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "एपा"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "घूँघट"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "साँप"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "घर"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "झुंड"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "गधा"
 }
 ]
 }

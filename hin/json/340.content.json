@@ -373,7 +373,7 @@
 "type": "keyterm",
 "confidence": 0.4932,
 "match_method": "canonical",
-"preferred_label": "Under Siege"
+"preferred_label": "घिराव"
 },
 {
 "id": "place:Jerusalem",
@@ -394,7 +394,7 @@
 "type": "place",
 "confidence": 0.3992,
 "match_method": "canonical",
-"preferred_label": "बेबीलोन"
+"preferred_label": "बाबेल"
 },
 {
 "id": "deity:Lord",
@@ -404,13 +404,6 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3958,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3958,
@@ -418,11 +411,18 @@
 "preferred_label": "यहूदा"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3958,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
 "id": "place:Assyria",
 "type": "place",
 "confidence": 0.3881,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "अश्शूर"
 },
 {
 "id": "place:Samaria",
@@ -436,21 +436,21 @@
 "type": "realia",
 "confidence": 0.3764,
 "match_method": "canonical",
-"preferred_label": "Siege Ramp"
+"preferred_label": "दमदमा"
 },
 {
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.3502,
 "match_method": "canonical",
-"preferred_label": "Siege-Works"
+"preferred_label": "घेराबंदी के निर्माण"
 },
 {
 "id": "group:Chaldea",
 "type": "group",
 "confidence": 0.3305,
 "match_method": "canonical",
-"preferred_label": "कसदियों"
+"preferred_label": "कसदी"
 },
 {
 "id": "person:Nebuchadnezzar",
@@ -464,14 +464,14 @@
 "type": "place",
 "confidence": 0.3305,
 "match_method": "canonical",
-"preferred_label": "Chaldea"
+"preferred_label": "कसद्द"
 },
 {
 "id": "realia:Fortification",
 "type": "realia",
 "confidence": 0.2739,
 "match_method": "canonical",
-"preferred_label": "Fortification"
+"preferred_label": "किलेबंदी"
 },
 {
 "id": "person:Zedekiah.3",
@@ -481,18 +481,18 @@
 "preferred_label": "सिदकिय्याह"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.2729,
-"match_method": "canonical",
-"preferred_label": "दाऊद"
-},
-{
 "id": "person:Joab",
 "type": "person",
 "confidence": 0.2729,
 "match_method": "canonical",
 "preferred_label": "योआब"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2729,
+"match_method": "canonical",
+"preferred_label": "दाऊद"
 },
 {
 "id": "place:Gibbethon",
@@ -509,20 +509,6 @@
 "preferred_label": "अम्मोनी"
 },
 {
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.2153,
-"match_method": "canonical",
-"preferred_label": "अम्मोन"
-},
-{
-"id": "keyterm:Arrow",
-"type": "keyterm",
-"confidence": 0.2153,
-"match_method": "canonical",
-"preferred_label": "Arrow"
-},
-{
 "id": "person:Hophra",
 "type": "person",
 "confidence": 0.2153,
@@ -530,18 +516,46 @@
 "preferred_label": "होप्रा"
 },
 {
-"id": "realia:Battering-ram",
-"type": "realia",
-"confidence": 0.1654,
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.2153,
 "match_method": "canonical",
-"preferred_label": "Battering-Ram"
+"preferred_label": "तीर"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.2153,
+"match_method": "canonical",
+"preferred_label": "अम्मोन"
 },
 {
 "id": "realia:SiegeTower",
 "type": "realia",
 "confidence": 0.1654,
 "match_method": "canonical",
-"preferred_label": "Siege Tower"
+"preferred_label": "घेराबंदी का बुर्ज"
+},
+{
+"id": "realia:Battering-ram",
+"type": "realia",
+"confidence": 0.1654,
+"match_method": "canonical",
+"preferred_label": "युद्ध का यन्त्र"
+},
+{
+"id": "person:Baasha",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "बाशा"
+},
+{
+"id": "person:Jehoiakim",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "यहोयाकीम"
 },
 {
 "id": "person:Shalmaneser",
@@ -551,11 +565,11 @@
 "preferred_label": "शल्मनेसेर"
 },
 {
-"id": "person:Rezin",
+"id": "person:Nadab.2",
 "type": "person",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "रसीन"
+"preferred_label": "नादाब"
 },
 {
 "id": "person:Ben-hadad.2",
@@ -563,20 +577,6 @@
 "confidence": 0.161,
 "match_method": "canonical",
 "preferred_label": "बेन्हदद"
-},
-{
-"id": "place:Beth-horonUpper",
-"type": "place",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Upper Beth-horon"
-},
-{
-"id": "person:Baasha",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "बाशा"
 }
 ]
 }

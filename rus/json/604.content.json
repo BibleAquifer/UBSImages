@@ -181,14 +181,7 @@
 "type": "deity",
 "confidence": 0.5167,
 "match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2333,
-"match_method": "canonical",
-"preferred_label": "Pure"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Joshua.2",
@@ -198,11 +191,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "place:Giah",
-"type": "place",
-"confidence": 0.1741,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2333,
 "match_method": "canonical",
-"preferred_label": "Гиаха"
+"preferred_label": "чистый"
 },
 {
 "id": "place:Ammah",
@@ -212,6 +205,13 @@
 "preferred_label": "Амма"
 },
 {
+"id": "person:Hur.2",
+"type": "person",
+"confidence": 0.1741,
+"match_method": "canonical",
+"preferred_label": "Ор"
+},
+{
 "id": "person:Asaph.2",
 "type": "person",
 "confidence": 0.1741,
@@ -219,81 +219,25 @@
 "preferred_label": "Асаф"
 },
 {
-"id": "person:Hur.2",
-"type": "person",
+"id": "place:Giah",
+"type": "place",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Хур"
+"preferred_label": "Гиах"
 },
 {
-"id": "person:Abraham",
+"id": "person:David",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Авраам"
+"preferred_label": "Давид"
 },
 {
-"id": "person:Joab",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Иоав"
-},
-{
-"id": "keyterm:Psalm",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Psalm"
-},
-{
-"id": "person:Ahaz",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Ахаз"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Вениамин"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "place:Gibeon",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Гаваон"
-},
-{
-"id": "group:Syria",
-"type": "group",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Syrians"
+"preferred_label": "Моисей"
 },
 {
 "id": "person:Abner",
@@ -307,42 +251,63 @@
 "type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Practice Divination"
+"preferred_label": "Гадать"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Клясться"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Вениамин"
 },
 {
-"id": "keyterm:Terror",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Terror"
+"preferred_label": "Приношение"
 },
 {
-"id": "person:Israel",
+"id": "group:Syria",
+"type": "group",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Сирийцы"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Холм Финееса"
+},
+{
+"id": "person:Joab",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Израиль"
+"preferred_label": "Иоав"
 },
 {
-"id": "person:Moses",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Моисей"
+"preferred_label": "Аарон"
 },
 {
-"id": "keyterm:Passover",
-"type": "keyterm",
+"id": "person:Ahaz",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Passover"
+"preferred_label": "Ахаз"
 },
 {
 "id": "place:Egypt",
@@ -352,11 +317,32 @@
 "preferred_label": "Египет"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
 "id": "place:Ai",
 "type": "place",
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Гай"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Авраам"
+},
+{
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Ужас"
 },
 {
 "id": "person:Abishai",
@@ -366,60 +352,74 @@
 "preferred_label": "Авесса"
 },
 {
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Gibeah"
-},
-{
-"id": "keyterm:Swear",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Swear"
+"preferred_label": "святой"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "place:Gibeon",
+"type": "place",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Давид"
+"preferred_label": "Гаваон"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Колено Вениамина"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Благословлять"
+},
+{
+"id": "keyterm:Psalm",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Псалом"
+},
+{
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Пасха"
 },
 {
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Gentiles"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Аарона"
+"preferred_label": "Язычники"
 },
 {
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "плащ"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Деньги"
 },
 {
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "колесница"
 }
 ]
 }

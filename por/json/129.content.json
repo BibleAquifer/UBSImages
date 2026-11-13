@@ -319,14 +319,14 @@
 "type": "flora",
 "confidence": 0.721,
 "match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "figo"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.479,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "videira"
 },
 {
 "id": "deity:Lord",
@@ -340,21 +340,21 @@
 "type": "flora",
 "confidence": 0.365,
 "match_method": "canonical",
-"preferred_label": "Sycomore Fig"
+"preferred_label": "sicômoro"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.348,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "oliveira"
 },
 {
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "Sefalá"
+"preferred_label": "Sefelá"
 },
 {
 "id": "keyterm:Parable",
@@ -362,13 +362,6 @@
 "confidence": 0.336,
 "match_method": "canonical",
 "preferred_label": "parábola"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "bless"
 },
 {
 "id": "person:Jesus.2",
@@ -385,6 +378,20 @@
 "preferred_label": "Jerusalém"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "abençoar"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "Assíria"
+},
+{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.218,
@@ -399,32 +406,25 @@
 "preferred_label": "Ezequias"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.218,
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Dinheiro"
 },
 {
 "id": "flora:Cedar",
 "type": "flora",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "Cedar"
+"preferred_label": "cedro"
 },
 {
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "Pomegranate"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "romãzeira"
 },
 {
 "id": "person:Baal-hanan.2",
@@ -434,25 +434,11 @@
 "preferred_label": "Baal-Hanã"
 },
 {
-"id": "group:Gederah",
-"type": "group",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Gederites"
-},
-{
 "id": "person:Amos.3",
 "type": "person",
 "confidence": 0.163,
 "match_method": "canonical",
 "preferred_label": "Amós"
-},
-{
-"id": "person:Amaziah.4",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Amazias"
 },
 {
 "id": "person:Joash.8",
@@ -462,130 +448,18 @@
 "preferred_label": "Joás"
 },
 {
-"id": "person:Peter",
+"id": "person:Amaziah.4",
 "type": "person",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Pedro"
+"preferred_label": "Amazias"
 },
 {
-"id": "group:Ephraim",
+"id": "group:Gederah",
 "type": "group",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Efraim"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "abomination"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "para a eternidade"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "lean on"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "distinguir"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Efraim"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "love"
-},
-{
-"id": "person:Nathanael",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Natanael"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "céu"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:WithdrawOneself",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "withdraw oneself"
-},
-{
-"id": "person:Philip",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Filipe"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Baal"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "place:Gederah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Gedera"
+"preferred_label": "gederitas"
 },
 {
 "id": "person:David",
@@ -595,158 +469,284 @@
 "preferred_label": "Davi"
 },
 {
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "confiar"
+},
+{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "surely!"
+"preferred_label": "com certeza!"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "fear"
+"preferred_label": "Temor"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.158,
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "discernir"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Efraim"
+},
+{
+"id": "keyterm:WithdrawOneself",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "separar-se"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "granjear honra e glória para si mesmo"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Philip",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Filipe"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "abominação"
+},
+{
+"id": "place:Gederah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Gederá"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Baal"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "tribo de Efraim"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "céu"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "para sempre"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Pedro"
+},
+{
+"id": "person:Nathanael",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Natanael"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "bode"
 },
 {
-"id": "realia:Pit",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "óleo da unção"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:Pit",
+"type": "realia",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cova"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "azeite de oliva"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Barley",
 "type": "flora",
-"confidence": 0.099,
+"confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Date Palm"
+"preferred_label": "cevada"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Grass"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Locust",
+"id": "fauna:Flock",
 "type": "fauna",
-"confidence": 0.099,
+"confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Locust"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Coriander"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Sheepfold"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "rebanho"
 },
 {
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Animal Pen"
+"preferred_label": "curral"
 },
 {
-"id": "realia:Scroll",
+"id": "realia:Sheepfold",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "aprisco"
 },
 {
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "imagem"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "cereal"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "tamareira"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "mula"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "rolo"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "trigo"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "coentro"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "casa"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "erva"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "cesto"
+},
+{
+"id": "fauna:Locust",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Gafanhoto"
 }
 ]
 }

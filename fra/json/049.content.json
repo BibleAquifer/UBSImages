@@ -301,7 +301,7 @@
 "type": "fauna",
 "confidence": 0.7049,
 "match_method": "canonical",
-"preferred_label": "Dove"
+"preferred_label": "colombe"
 },
 {
 "id": "deity:Lord",
@@ -329,7 +329,14 @@
 "type": "fauna",
 "confidence": 0.3474,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "agneau"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.3383,
+"match_method": "canonical",
+"preferred_label": "ciel"
 },
 {
 "id": "deity:HolySpirit",
@@ -337,13 +344,6 @@
 "confidence": 0.3383,
 "match_method": "canonical",
 "preferred_label": "Saint-Esprit"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3383,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
 },
 {
 "id": "realia:Temple",
@@ -357,21 +357,7 @@
 "type": "realia",
 "confidence": 0.2783,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "sans saleté"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "tente de la rencontre"
 },
 {
 "id": "person:Jesus.2",
@@ -381,6 +367,13 @@
 "preferred_label": "Jésus"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "Assyrie"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2191,
@@ -388,18 +381,25 @@
 "preferred_label": "Égypte"
 },
 {
-"id": "fauna:Crane",
-"type": "fauna",
-"confidence": 0.1677,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "Crane"
+"preferred_label": "pur"
 },
 {
 "id": "realia:Seat",
 "type": "realia",
 "confidence": 0.1677,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "siège"
+},
+{
+"id": "fauna:Crane",
+"type": "fauna",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "grue"
 },
 {
 "id": "keyterm:Baptism",
@@ -413,28 +413,35 @@
 "type": "fauna",
 "confidence": 0.1634,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "chèvre"
 },
 {
 "id": "fauna:Swallow",
 "type": "fauna",
 "confidence": 0.1634,
 "match_method": "canonical",
-"preferred_label": "Swallow"
+"preferred_label": "hirondelle"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "place:EbalMount",
+"type": "place",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Éphraïm"
+"preferred_label": "mont Ébal"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "témoigner"
+"preferred_label": "ardeur"
+},
+{
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "apaiser"
 },
 {
 "id": "person:Ephraim",
@@ -451,32 +458,32 @@
 "preferred_label": "Ninive"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "apaiser"
-},
-{
-"id": "place:Moab",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "Jérusalem"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Noé"
 },
 {
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "aide"
+"preferred_label": "salut"
 },
 {
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "bien, aimé"
+"preferred_label": "bien-aimé"
 },
 {
 "id": "place:Gilead",
@@ -486,11 +493,39 @@
 "preferred_label": "Galaad"
 },
 {
-"id": "person:Noah",
+"id": "person:John",
 "type": "person",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Noah"
+"preferred_label": "Jean"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "tribu d’Éphraïm"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "loi"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Moab"
 },
 {
 "id": "place:Samaria",
@@ -504,182 +539,147 @@
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "agir avec bonté"
-},
-{
-"id": "place:EbalMount",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "mont Ébal"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Jean"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "loi"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1591,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1591,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "être bien disposé"
 },
 {
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "navire"
 },
 {
-"id": "fauna:Wolf",
+"id": "fauna:Bull",
 "type": "fauna",
-"confidence": 0.1038,
+"confidence": 0.1591,
 "match_method": "canonical",
-"preferred_label": "Wolf"
+"preferred_label": "gros bétail"
 },
 {
-"id": "realia:Kab",
-"type": "realia",
-"confidence": 0.1038,
-"match_method": "canonical",
-"preferred_label": "Kab"
-},
-{
-"id": "fauna:Stork",
+"id": "fauna:Flock",
 "type": "fauna",
-"confidence": 0.1038,
+"confidence": 0.1591,
 "match_method": "canonical",
-"preferred_label": "Stork"
+"preferred_label": "troupeau"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1038,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivier"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Kab",
 "type": "realia",
-"confidence": 0.0996,
+"confidence": 0.1038,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "kab"
+},
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1038,
+"match_method": "canonical",
+"preferred_label": "loup"
+},
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 0.1038,
+"match_method": "canonical",
+"preferred_label": "cigogne"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:Veil",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Veil"
-},
-{
-"id": "fauna:Bear",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Bear"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Frankincense"
+"preferred_label": "huile d'onction"
 },
 {
 "id": "fauna:Sparrow",
 "type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "Sparrow"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Rooster"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Snake"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "moineau"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "argent"
+},
+{
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "image en fonte"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "huile d'olive"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "encens"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "coq"
+},
+{
+"id": "fauna:Bear",
+"type": "fauna",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "ours"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "épha"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "voile"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "serpent"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "maison"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "âne"
 }
 ]
 }

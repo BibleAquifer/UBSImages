@@ -75,32 +75,32 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "autel"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "autel de pierre"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
 },
 {
 "id": "deity:Asherah",
@@ -114,7 +114,7 @@
 "type": "realia",
 "confidence": 0.42,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "poteau sacré"
 },
 {
 "id": "place:Jerusalem",
@@ -128,28 +128,7 @@
 "type": "realia",
 "confidence": 0.325,
 "match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Baal"
+"preferred_label": "image"
 },
 {
 "id": "deity:Lord",
@@ -159,39 +138,67 @@
 "preferred_label": "Éternel"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Baal"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "haut lieu"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "image taillée"
 },
 {
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pin parasol"
 },
 {
-"id": "place:Kidron",
-"type": "place",
+"id": "keyterm:Destroy",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Cédron"
+"preferred_label": "détruire"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "ardeur"
 },
 {
 "id": "keyterm:Sin",
@@ -205,14 +212,14 @@
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "instruction"
 },
 {
-"id": "keyterm:Destroy",
-"type": "keyterm",
+"id": "place:Kidron",
+"type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "atteindre"
+"preferred_label": "Cédron"
 },
 {
 "id": "keyterm:Forgive",
@@ -222,18 +229,11 @@
 "preferred_label": "pardonner"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "image en fonte"
 }
 ]
 }

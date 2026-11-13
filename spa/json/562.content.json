@@ -277,7 +277,7 @@
 "type": "fauna",
 "confidence": 0.7016,
 "match_method": "canonical",
-"preferred_label": "Dove"
+"preferred_label": "paloma"
 },
 {
 "id": "deity:Lord",
@@ -305,14 +305,7 @@
 "type": "fauna",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "cordero"
 },
 {
 "id": "keyterm:Heaven",
@@ -322,32 +315,25 @@
 "preferred_label": "cielo"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "Espíritu Santo"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2958,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Templo"
 },
 {
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.2819,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "puro"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "tienda de reunión"
 },
 {
 "id": "person:Jesus.2",
@@ -357,6 +343,13 @@
 "preferred_label": "Jesús"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "Asiria"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2209,
@@ -364,11 +357,18 @@
 "preferred_label": "Egipto"
 },
 {
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "puro"
+},
+{
 "id": "realia:Seat",
 "type": "realia",
 "confidence": 0.1702,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "asiento"
 },
 {
 "id": "keyterm:Baptism",
@@ -382,35 +382,21 @@
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "barco"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Ephraim"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "dar testimonio"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Ephraim"
-},
-{
-"id": "place:Nineveh",
+"id": "place:EbalMount",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Nínive"
+"preferred_label": "monte Ebal"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "celo"
 },
 {
 "id": "keyterm:Appease",
@@ -420,11 +406,32 @@
 "preferred_label": "apaciguar"
 },
 {
-"id": "place:Moab",
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Efraín"
+},
+{
+"id": "place:Nineveh",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "Nínive"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Noé"
 },
 {
 "id": "keyterm:Salvation",
@@ -448,11 +455,39 @@
 "preferred_label": "Galaad"
 },
 {
-"id": "person:Noah",
+"id": "person:John",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Noé"
+"preferred_label": "Juan"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "dar testimonio"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "tribu de Efraín"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Moab"
 },
 {
 "id": "place:Samaria",
@@ -469,179 +504,144 @@
 "preferred_label": "ser compasivo"
 },
 {
-"id": "place:EbalMount",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Ebal"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Juan"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "envidia"
-},
-{
-"id": "fauna:Wolf",
-"type": "fauna",
+"id": "flora:OliveTree",
+"type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Wolf"
-},
-{
-"id": "fauna:Crane",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "Crane"
+"preferred_label": "olivo"
 },
 {
 "id": "realia:Kab",
 "type": "realia",
 "confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Kab"
+"preferred_label": "cab"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
+"id": "fauna:Crane",
+"type": "fauna",
 "confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "grulla"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1005,
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "lobo"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "cabra"
 },
 {
-"id": "realia:Veil",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Veil"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "aceite de unción"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Bear",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Bear"
-},
-{
-"id": "fauna:Swallow",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Swallow"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Frankincense"
+"preferred_label": "ganado vacuno"
 },
 {
 "id": "fauna:Sparrow",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Sparrow"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Rooster"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "gorrión"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "dinero"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "aceite de oliva"
+},
+{
+"id": "fauna:Swallow",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "golondrina"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "incienso"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "gallo"
+},
+{
+"id": "fauna:Bear",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "oso"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "efa"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "velo"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "serpiente"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "casa"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "rebaño"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "asno"
 }
 ]
 }
