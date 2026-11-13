@@ -439,7 +439,7 @@
 "type": "flora",
 "confidence": 0.72,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cevada"
 },
 {
 "id": "deity:Lord",
@@ -460,84 +460,77 @@
 "type": "flora",
 "confidence": 0.3736,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "trigo"
 },
 {
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.3414,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "foice"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.335,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "videira"
 },
 {
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "offering"
+"preferred_label": "oferta"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3221,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "azeite de oliva"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.2693,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "íntegro"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2657,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.2657,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "óleo da unção"
 },
 {
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.2657,
 "match_method": "canonical",
-"preferred_label": "Shekel"
+"preferred_label": "siclo"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.2657,
+"match_method": "canonical",
+"preferred_label": "Dinheiro"
 },
 {
 "id": "realia:Homer",
 "type": "realia",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Homer"
+"preferred_label": "ômer"
 },
 {
 "id": "realia:Seah",
 "type": "realia",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Seah"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "Belém"
+"preferred_label": "seá"
 },
 {
 "id": "person:Naomi",
@@ -547,25 +540,32 @@
 "preferred_label": "Noemi"
 },
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.2129,
 "match_method": "canonical",
-"preferred_label": "mischief"
+"preferred_label": "Belém"
 },
 {
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.2129,
 "match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "palavra do Senhor"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.2129,
 "match_method": "canonical",
-"preferred_label": "Moabe"
+"preferred_label": "sábado"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2129,
+"match_method": "canonical",
+"preferred_label": "abençoar"
 },
 {
 "id": "place:Samaria",
@@ -575,6 +575,13 @@
 "preferred_label": "Samaria"
 },
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2129,
+"match_method": "canonical",
+"preferred_label": "Moabe"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2129,
@@ -582,32 +589,25 @@
 "preferred_label": "Davi"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Mischief",
 "type": "keyterm",
 "confidence": 0.2129,
 "match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "sabbath"
+"preferred_label": "maldade"
 },
 {
 "id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.2093,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "efa"
 },
 {
 "id": "place:Ephes-dammim",
 "type": "place",
 "confidence": 0.1593,
 "match_method": "canonical",
-"preferred_label": "Ephes-dammim"
+"preferred_label": "Efes-Damim"
 },
 {
 "id": "place:Baal-shalishah",
@@ -617,32 +617,32 @@
 "preferred_label": "Baal-Salisa"
 },
 {
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.1586,
-"match_method": "canonical",
-"preferred_label": "Lentil"
-},
-{
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.1586,
 "match_method": "canonical",
-"preferred_label": "Bean"
+"preferred_label": "fava"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1564,
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.1586,
 "match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "lentilha"
 },
 {
-"id": "place:Gibeon",
+"id": "place:Philistine",
 "type": "place",
 "confidence": 0.1564,
 "match_method": "canonical",
-"preferred_label": "Gibeão"
+"preferred_label": "Filístia"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1564,
+"match_method": "canonical",
+"preferred_label": "zelo"
 }
 ]
 }

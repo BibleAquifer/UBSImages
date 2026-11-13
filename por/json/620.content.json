@@ -172,32 +172,32 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "altar"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "altar de pedra"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "altar do tabernáculo"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "altar do templo"
 },
 {
 "id": "deity:Baal",
@@ -211,21 +211,14 @@
 "type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "realia:Money",
+"type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Ai"
-},
-{
-"id": "person:Enosh",
-"type": "person",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Enos"
+"preferred_label": "Dinheiro"
 },
 {
 "id": "place:Bethel",
@@ -235,60 +228,25 @@
 "preferred_label": "Betel"
 },
 {
+"id": "person:Enosh",
+"type": "person",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Enos"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Ai"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Abraão"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Elias"
-},
-{
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Samuel"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "be enticed to serve"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "tenda"
 },
 {
 "id": "person:Moses",
@@ -298,39 +256,18 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
+"id": "person:Samuel",
+"type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "salvation"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "slaughtering"
+"preferred_label": "Samuel"
 },
 {
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "defilement"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Berseba"
-},
-{
-"id": "person:Naaman.3",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Naamã"
+"preferred_label": "contaminação"
 },
 {
 "id": "person:Isaac",
@@ -340,25 +277,18 @@
 "preferred_label": "Isaque"
 },
 {
-"id": "person:Seth",
+"id": "person:Naaman.3",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Sete"
-},
-{
-"id": "keyterm:Praise",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "praise"
+"preferred_label": "Naamã"
 },
 {
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "ardour"
+"preferred_label": "zelo"
 },
 {
 "id": "person:Aaron",
@@ -368,18 +298,88 @@
 "preferred_label": "Arão"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "sacrifício de animais"
+},
+{
+"id": "keyterm:Praise",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "louvor"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "salvação"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Elias"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Abraão"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Berseba"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "forçar a servir"
+},
+{
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "doença infecciosa da pele"
+},
+{
+"id": "person:Seth",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Sete"
+},
+{
 "id": "flora:Tamarisk",
 "type": "flora",
 "confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Tamarisk"
+"preferred_label": "tamargueira"
 },
 {
 "id": "realia:Pit",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Pit"
+"preferred_label": "cova"
 }
 ]
 }

@@ -314,7 +314,7 @@
 "type": "realia",
 "confidence": 0.5338,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rolo"
 },
 {
 "id": "place:Jerusalem",
@@ -324,18 +324,18 @@
 "preferred_label": "Jerusalém"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.4344,
-"match_method": "canonical",
-"preferred_label": "Ezequias"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4344,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "Ezequias"
 },
 {
 "id": "deity:Lord",
@@ -349,7 +349,7 @@
 "type": "place",
 "confidence": 0.4062,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Assíria"
 },
 {
 "id": "place:Eglon",
@@ -366,18 +366,18 @@
 "preferred_label": "Jarmute"
 },
 {
+"id": "place:Libnah.2",
+"type": "place",
+"confidence": 0.3417,
+"match_method": "canonical",
+"preferred_label": "Libna"
+},
+{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.3417,
 "match_method": "canonical",
 "preferred_label": "Babilônia"
-},
-{
-"id": "place:Libnah.2",
-"type": "place",
-"confidence": 0.3417,
-"match_method": "canonical",
-"preferred_label": "Libnah"
 },
 {
 "id": "person:Rabshakeh",
@@ -391,7 +391,7 @@
 "type": "group",
 "confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "judeus"
 },
 {
 "id": "place:Azekah",
@@ -401,8 +401,8 @@
 "preferred_label": "Azeca"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2781,
 "match_method": "canonical",
 "preferred_label": "Judá"
@@ -415,18 +415,11 @@
 "preferred_label": "Assuero"
 },
 {
-"id": "person:Joshua.2",
-"type": "person",
+"id": "place:Jezreel.2",
+"type": "place",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2781,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Jezreel"
 },
 {
 "id": "place:Hebron",
@@ -436,25 +429,25 @@
 "preferred_label": "Hebrom"
 },
 {
-"id": "place:Jezreel.2",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Jizreel"
+"preferred_label": "Tribo de Judá"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Josué"
 },
 {
 "id": "place:WashersField",
 "type": "place",
 "confidence": 0.2271,
 "match_method": "canonical",
-"preferred_label": "Launderer’s Field"
-},
-{
-"id": "person:Baladan",
-"type": "person",
-"confidence": 0.2271,
-"match_method": "canonical",
-"preferred_label": "Baladã"
+"preferred_label": "Campo do Lavandeiro"
 },
 {
 "id": "person:Merodach-baladan",
@@ -464,6 +457,13 @@
 "preferred_label": "Merodaque-Baladã"
 },
 {
+"id": "person:Baladan",
+"type": "person",
+"confidence": 0.2271,
+"match_method": "canonical",
+"preferred_label": "Baladã"
+},
+{
 "id": "person:Uriah",
 "type": "person",
 "confidence": 0.2229,
@@ -471,18 +471,11 @@
 "preferred_label": "Urias"
 },
 {
-"id": "person:Zephaniah.2",
-"type": "person",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Sofonias"
-},
-{
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
+"preferred_label": "Um Anjo"
 },
 {
 "id": "person:Naboth",
@@ -499,6 +492,34 @@
 "preferred_label": "Jeremias"
 },
 {
+"id": "person:Zephaniah.2",
+"type": "person",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Sofonias"
+},
+{
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "doença infecciosa da pele"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "oferta"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Pecar"
+},
+{
 "id": "person:Ahab",
 "type": "person",
 "confidence": 0.2188,
@@ -506,32 +527,95 @@
 "preferred_label": "Acabe"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "offering"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.2181,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "cavalo"
+},
+{
+"id": "person:Japhia",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Jafia"
+},
+{
+"id": "place:Gezer",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Gezer"
+},
+{
+"id": "place:Adoraim",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Adoraim"
+},
+{
+"id": "person:Rab-saris",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Rabe-Saris"
+},
+{
+"id": "person:Debir",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Debir"
+},
+{
+"id": "place:Zanoah",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Zanoa"
+},
+{
+"id": "person:Maaseiah.18",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Maaseias"
+},
+{
+"id": "person:Tartan",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Tartã"
+},
+{
+"id": "person:Adoni-zedek",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Adoni-Zedeque"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Amazias"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joabe"
+},
+{
+"id": "person:Horam",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Horão"
 },
 {
 "id": "person:Hammedatha",
@@ -548,207 +632,32 @@
 "preferred_label": "Hoão"
 },
 {
-"id": "place:Zanoah",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Zanoa"
-},
-{
-"id": "place:Adoraim",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Adoraim"
-},
-{
-"id": "person:Horam",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Horão"
-},
-{
-"id": "person:Adoni-zedek",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Adoni-Zedeque"
-},
-{
-"id": "person:Rab-saris",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Rabe-Saris"
-},
-{
-"id": "person:Japhia",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Jafia"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Amazias"
-},
-{
-"id": "place:Gezer",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Gezer"
-},
-{
-"id": "person:Tartan",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Tartã"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Joabe"
-},
-{
-"id": "person:Maaseiah.18",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Maaséias"
-},
-{
-"id": "person:Debir",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Debir"
-},
-{
 "id": "person:Piram",
 "type": "person",
 "confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "Piram"
+"preferred_label": "Pirã"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "verdade"
 },
 {
 "id": "place:Gibeon",
 "type": "place",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Gibeão"
-},
-{
-"id": "person:Agag.2",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Agague"
+"preferred_label": "Gibeom"
 },
 {
 "id": "place:HinnomValley",
 "type": "place",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Valley of Hinnom"
-},
-{
-"id": "place:Bozkath",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Bozcate"
-},
-{
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Hamã"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Nabucodonozor"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "rebel"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Berseba"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "peace"
-},
-{
-"id": "person:Sennacherib",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Senaqueribe"
-},
-{
-"id": "group:Agag",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Agagites"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "place:Adullam",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Adulão"
-},
-{
-"id": "person:Jezebel",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Jezabel"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Davi"
+"preferred_label": "Vale de Hinom"
 },
 {
 "id": "person:Jehu.2",
@@ -758,18 +667,60 @@
 "preferred_label": "Jeú"
 },
 {
-"id": "keyterm:Truth",
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Mardoqueu"
+},
+{
+"id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "paz"
 },
 {
 "id": "keyterm:Proscribe.2",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "to proscribe"
+"preferred_label": "destruir totalmente"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Favor"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Berseba"
+},
+{
+"id": "person:Agag.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Agague"
+},
+{
+"id": "place:Bozkath",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Bozcate"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Nabucodonosor"
 },
 {
 "id": "person:Naaman.3",
@@ -779,67 +730,116 @@
 "preferred_label": "Naamã"
 },
 {
-"id": "person:Mordecai.2",
+"id": "group:Agag",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Agagitas"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amorreus"
+},
+{
+"id": "person:Sennacherib",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Mordecai"
+"preferred_label": "Senaqueribe"
 },
 {
-"id": "keyterm:Favor",
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Davi"
+},
+{
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "favor"
+"preferred_label": "rebelar-se"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.1588,
+"id": "place:Adullam",
+"type": "place",
+"confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Adulão"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1588,
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Hamã"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1588,
+"id": "person:Jezebel",
+"type": "person",
+"confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "realia:Talent",
-"type": "realia",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Talent"
+"preferred_label": "Jezabel"
 },
 {
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "carro de guerra"
 },
 {
-"id": "realia:Basket",
+"id": "realia:Talent",
 "type": "realia",
-"confidence": 0.0994,
+"confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "talento"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "espada"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Dinheiro"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "casa"
 },
 {
 "id": "realia:Weapons",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Weapons"
+"preferred_label": "armas"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "cesto"
 }
 ]
 }

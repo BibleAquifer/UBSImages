@@ -137,7 +137,7 @@
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 },
 {
 "id": "place:Moresheth",
@@ -151,14 +151,35 @@
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "Miquéias"
+"preferred_label": "Miqueias"
 },
 {
-"id": "keyterm:Psalm",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "psalm"
+"preferred_label": "fazer possuir"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "contaminação"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "jurar"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "desapossar"
 },
 {
 "id": "place:Damascus",
@@ -168,25 +189,18 @@
 "preferred_label": "Damasco"
 },
 {
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Babilônia"
-},
-{
-"id": "keyterm:SomethingDevotedToGod",
+"id": "keyterm:Speak",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "something devoted to god"
+"preferred_label": "profetizar"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
+"id": "keyterm:Utterance",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Ezequias"
+"preferred_label": "pronunciamento"
 },
 {
 "id": "person:Judah.4",
@@ -196,39 +210,11 @@
 "preferred_label": "Judá"
 },
 {
-"id": "place:Hazor",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Hazor"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "speak"
-},
-{
-"id": "person:Asaph.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Asafe"
-},
-{
 "id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "lamentation"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "dispossess"
+"preferred_label": "Lamento"
 },
 {
 "id": "place:Ai",
@@ -238,11 +224,32 @@
 "preferred_label": "Ai"
 },
 {
-"id": "keyterm:Defilement",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Babilônia"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Tribo de Judá"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "amonitas"
+},
+{
+"id": "keyterm:Psalm",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "defilement"
+"preferred_label": "salmo"
 },
 {
 "id": "place:Samaria",
@@ -252,11 +259,18 @@
 "preferred_label": "Samaria"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
+"id": "person:Hezekiah",
+"type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "swear"
+"preferred_label": "Ezequias"
+},
+{
+"id": "person:Asaph.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Asafe"
 },
 {
 "id": "place:Ammon",
@@ -266,60 +280,46 @@
 "preferred_label": "Amom"
 },
 {
-"id": "keyterm:Possess",
+"id": "place:Hazor",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Hazor"
+},
+{
+"id": "keyterm:SomethingDevotedToGod",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Utterance"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "coisa consagrada"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
+"preferred_label": "videira"
 },
 {
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "chacal"
 },
 {
 "id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Foundation"
+"preferred_label": "fundamento"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "sândalo"
 }
 ]
 }

@@ -559,14 +559,14 @@
 "type": "flora",
 "confidence": 0.7072,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pinheiro-manso"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.6489,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "lugar alto"
 },
 {
 "id": "deity:Lord",
@@ -583,18 +583,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.42,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.42,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.42,
+"match_method": "canonical",
+"preferred_label": "Tribo de Judá"
 },
 {
 "id": "place:Jerusalem",
@@ -615,28 +615,35 @@
 "type": "place",
 "confidence": 0.3844,
 "match_method": "canonical",
-"preferred_label": "Gibeão"
+"preferred_label": "Gibeom"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "altar de pedra"
 },
 {
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "altar do templo"
 },
 {
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "altar do tabernáculo"
 },
 {
 "id": "person:Solomon",
@@ -646,13 +653,6 @@
 "preferred_label": "Salomão"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.3772,
@@ -660,18 +660,18 @@
 "preferred_label": "Betel"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Ezequias"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Moabe"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Ezequias"
 },
 {
 "id": "deity:Baal",
@@ -685,14 +685,14 @@
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "poste sagrado"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.335,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 },
 {
 "id": "place:Samaria",
@@ -706,21 +706,7 @@
 "type": "keyterm",
 "confidence": 0.32,
 "match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2672,
-"match_method": "canonical",
-"preferred_label": "rebel"
-},
-{
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.2672,
-"match_method": "canonical",
-"preferred_label": "Moleque"
+"preferred_label": "Pecar"
 },
 {
 "id": "person:Jeroboam",
@@ -730,6 +716,20 @@
 "preferred_label": "Jeroboão"
 },
 {
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.2672,
+"match_method": "canonical",
+"preferred_label": "rebelar-se"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.2672,
+"match_method": "canonical",
+"preferred_label": "Moloque"
+},
+{
 "id": "person:Asa",
 "type": "person",
 "confidence": 0.265,
@@ -737,25 +737,11 @@
 "preferred_label": "Asa"
 },
 {
-"id": "person:Josiah",
-"type": "person",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Josias"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "offering"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.265,
 "match_method": "canonical",
-"preferred_label": "be enticed to serve"
+"preferred_label": "forçar a servir"
 },
 {
 "id": "person:Moses",
@@ -763,6 +749,20 @@
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "Moisés"
+},
+{
+"id": "keyterm:PlayTheProstitute",
+"type": "keyterm",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "prostituir-se"
+},
+{
+"id": "person:Josiah",
+"type": "person",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "Josias"
 }
 ]
 }

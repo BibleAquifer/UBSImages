@@ -115,14 +115,14 @@
 "type": "flora",
 "confidence": 0.5994,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "cereal"
 },
 {
 "id": "realia:Threshing-sledge",
 "type": "realia",
 "confidence": 0.4587,
 "match_method": "canonical",
-"preferred_label": "Threshing-Sledge"
+"preferred_label": "trilho de debulhar"
 },
 {
 "id": "deity:Lord",
@@ -132,32 +132,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3525,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3525,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gado"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2562,
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3525,
 "match_method": "canonical",
-"preferred_label": "offering"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "limpar"
+"preferred_label": "trigo"
 },
 {
 "id": "person:David",
@@ -174,32 +160,53 @@
 "preferred_label": "Ornã"
 },
 {
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.2088,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "oferta"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "limpar completamente"
 },
 {
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2088,
 "match_method": "canonical",
-"preferred_label": "Winnowing Fork"
+"preferred_label": "pá de joeirar"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.2088,
+"match_method": "canonical",
+"preferred_label": "eira"
 },
 {
 "id": "realia:Wagon",
 "type": "realia",
 "confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "Wagon"
+"preferred_label": "carroça"
 },
 {
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "celeiro"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Gideão"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -209,11 +216,11 @@
 "preferred_label": "Ribeiro do Egito"
 },
 {
-"id": "person:Abiezer",
-"type": "person",
+"id": "keyterm:Partake",
+"type": "keyterm",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Abiezer"
+"preferred_label": "participar"
 },
 {
 "id": "place:Ophrah.2",
@@ -227,7 +234,7 @@
 "type": "group",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Abiezrites"
+"preferred_label": "Abiezritas"
 },
 {
 "id": "person:Joash",
@@ -237,67 +244,11 @@
 "preferred_label": "Joás"
 },
 {
-"id": "person:Gideon",
+"id": "person:Abiezer",
 "type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Gideão"
-},
-{
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "participar"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Damasco"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "hope"
-},
-{
-"id": "keyterm:Scripture",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "escritura"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "dever"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Rio Eufrates"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Abiezer"
 },
 {
 "id": "person:Moses",
@@ -307,25 +258,53 @@
 "preferred_label": "Moisés"
 },
 {
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "rebelar-se"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Damasco"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Escrituras"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Rio Eufrates"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Um Anjo"
+},
+{
 "id": "place:Gilead",
 "type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Gileade"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "rebel"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "lei"
 },
 {
 "id": "place:Midian",
@@ -335,67 +314,88 @@
 "preferred_label": "Midiã"
 },
 {
-"id": "flora:Cumin",
-"type": "flora",
-"confidence": 0.1306,
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Cumin"
+"preferred_label": "Lei"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "esperança"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "obrigado"
 },
 {
 "id": "flora:NutmegFlower",
 "type": "flora",
 "confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "Nutmeg Flower"
+"preferred_label": "cominho-preto"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
-"id": "flora:Terebinth",
+"id": "flora:Cumin",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cominho"
 },
 {
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "lagar"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "cetro"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "oliveira"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "cajado"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "cevada"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "terebinto"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "efa"
 }
 ]
 }

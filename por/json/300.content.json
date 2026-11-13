@@ -901,7 +901,7 @@
 "type": "realia",
 "confidence": 0.4944,
 "match_method": "canonical",
-"preferred_label": "Rams Horn"
+"preferred_label": "chifre de carneiro"
 },
 {
 "id": "deity:Lord",
@@ -915,7 +915,7 @@
 "type": "keyterm",
 "confidence": 0.4136,
 "match_method": "canonical",
-"preferred_label": "year of acquittance"
+"preferred_label": "Ano da Remissão"
 },
 {
 "id": "person:Israel",
@@ -929,21 +929,14 @@
 "type": "keyterm",
 "confidence": 0.4,
 "match_method": "canonical",
-"preferred_label": "horn"
+"preferred_label": "chifre"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.3954,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3776,
-"match_method": "canonical",
-"preferred_label": "holy"
+"preferred_label": "Cordeiro"
 },
 {
 "id": "place:Jerusalem",
@@ -953,39 +946,46 @@
 "preferred_label": "Jerusalém"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3776,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "confidence": 0.3714,
 "match_method": "canonical",
-"preferred_label": "Covenant Box"
+"preferred_label": "arca da aliança"
 },
 {
 "id": "keyterm:Smear",
 "type": "keyterm",
 "confidence": 0.3667,
 "match_method": "canonical",
-"preferred_label": "smear"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.3653,
-"match_method": "canonical",
-"preferred_label": "comprar"
+"preferred_label": "ungir"
 },
 {
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.3653,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Um Anjo"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.3653,
+"match_method": "canonical",
+"preferred_label": "resgatar"
 },
 {
 "id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "Trumpet"
+"preferred_label": "trombeta"
 },
 {
 "id": "person:David",
@@ -995,11 +995,18 @@
 "preferred_label": "Davi"
 },
 {
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.3122,
+"match_method": "canonical",
+"preferred_label": "Gideão"
+},
+{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.3122,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "aliança"
 },
 {
 "id": "person:Joab",
@@ -1009,53 +1016,53 @@
 "preferred_label": "Joabe"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.3122,
-"match_method": "canonical",
-"preferred_label": "Gideão"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.3097,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
-"id": "realia:AnointingFlask",
-"type": "realia",
-"confidence": 0.3097,
-"match_method": "canonical",
-"preferred_label": "Anointing Flask"
+"preferred_label": "Arca da Aliança"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3097,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "óleo da unção"
+},
+{
+"id": "realia:AnointingFlask",
+"type": "realia",
+"confidence": 0.3097,
+"match_method": "canonical",
+"preferred_label": "vaso de azeite"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.3097,
+"match_method": "canonical",
+"preferred_label": "lira"
 },
 {
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.3084,
 "match_method": "canonical",
-"preferred_label": "Lute"
+"preferred_label": "alaúde"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3084,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "azeite de oliva"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "Tribo de Benjamim"
 },
 {
 "id": "keyterm:Heaven",
@@ -1065,8 +1072,22 @@
 "preferred_label": "céu"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "Samuel"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "fazer possuir"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.2592,
 "match_method": "canonical",
 "preferred_label": "Benjamim"
@@ -1079,32 +1100,11 @@
 "preferred_label": "Josué"
 },
 {
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "Benjamim"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "to cause to possess"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "Samuel"
-},
-{
 "id": "realia:Flute",
 "type": "realia",
 "confidence": 0.2536,
 "match_method": "canonical",
-"preferred_label": "Flute"
+"preferred_label": "flauta"
 }
 ]
 }

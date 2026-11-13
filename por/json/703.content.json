@@ -337,7 +337,7 @@
 "type": "fauna",
 "confidence": 0.7258,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "peixe"
 },
 {
 "id": "deity:Lord",
@@ -351,14 +351,7 @@
 "type": "keyterm",
 "confidence": 0.3962,
 "match_method": "canonical",
-"preferred_label": "bless"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3925,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
+"preferred_label": "abençoar"
 },
 {
 "id": "person:Jesus.2",
@@ -368,25 +361,25 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3925,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
 "id": "realia:Fishnet",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "Fishnet"
+"preferred_label": "rede de pesca"
 },
 {
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.2777,
 "match_method": "canonical",
-"preferred_label": "Casting Net"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2755,
-"match_method": "canonical",
-"preferred_label": "céu"
+"preferred_label": "rede de arremesso"
 },
 {
 "id": "place:Egypt",
@@ -396,25 +389,32 @@
 "preferred_label": "Egito"
 },
 {
-"id": "fauna:Iguana",
-"type": "fauna",
-"confidence": 0.274,
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2755,
 "match_method": "canonical",
-"preferred_label": "Monitor"
+"preferred_label": "céu"
 },
 {
 "id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.274,
 "match_method": "canonical",
-"preferred_label": "Lizard"
+"preferred_label": "Lagarto"
 },
 {
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.274,
 "match_method": "canonical",
-"preferred_label": "Chameleon"
+"preferred_label": "camaleão"
+},
+{
+"id": "fauna:Iguana",
+"type": "fauna",
+"confidence": 0.274,
+"match_method": "canonical",
+"preferred_label": "lagarto-monitor"
 },
 {
 "id": "person:Jonah.2",
@@ -424,13 +424,6 @@
 "preferred_label": "Jonas"
 },
 {
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
-},
-{
 "id": "place:Nile",
 "type": "place",
 "confidence": 0.217,
@@ -438,18 +431,32 @@
 "preferred_label": "Rio Nilo"
 },
 {
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "egípcios"
+},
+{
 "id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.2155,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "ave"
 },
 {
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.2155,
 "match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "serpente"
+},
+{
+"id": "keyterm:Semblance",
+"type": "keyterm",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "semelhança"
 },
 {
 "id": "place:Eneglaim",
@@ -459,46 +466,11 @@
 "preferred_label": "En-Eglaim"
 },
 {
-"id": "keyterm:Semblance",
-"type": "keyterm",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Likeness"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Pedro"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "autoridade"
-},
-{
-"id": "place:GreatSea",
+"id": "place:Engedi",
 "type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Mar Mediterrâneo"
-},
-{
-"id": "keyterm:Kind.2",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "kind"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "En-Gedi"
 },
 {
 "id": "keyterm:Body.3",
@@ -508,11 +480,60 @@
 "preferred_label": "corpo"
 },
 {
-"id": "keyterm:Mighty",
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Inferno"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Jerusalém"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Um Grupo de Discípulos"
+},
+{
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Mighty"
+"preferred_label": "sábado"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "autoridade"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "força"
 },
 {
 "id": "person:Solomon",
@@ -520,27 +541,6 @@
 "confidence": 0.1585,
 "match_method": "canonical",
 "preferred_label": "Salomão"
-},
-{
-"id": "group:Tyre",
-"type": "group",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Tyrians"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "place:Engedi",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "En-Gedi"
 }
 ]
 }
