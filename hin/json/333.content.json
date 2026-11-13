@@ -97,49 +97,42 @@
 "type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "टोकरी"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.5323,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "अख़मीरी रोटी"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.4631,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3785,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "भेड़"
 },
 {
 "id": "realia:Cake",
 "type": "realia",
 "confidence": 0.3785,
 "match_method": "canonical",
-"preferred_label": "Cake"
+"preferred_label": "फुलका"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3785,
+"match_method": "canonical",
+"preferred_label": "अभिषेक का तेल"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3785,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.3538,
-"match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "जैतून का तेल"
 },
 {
 "id": "deity:Lord",
@@ -147,6 +140,13 @@
 "confidence": 0.3538,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.3538,
+"match_method": "canonical",
+"preferred_label": "भेंट"
 },
 {
 "id": "person:Aaron",
@@ -167,49 +167,28 @@
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
+"preferred_label": "मिलापवाला तम्बू"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "दाखमधु"
 },
 {
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Nazirites"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Smear"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "फ़िरौन"
+"preferred_label": "पशुबलि"
 },
 {
 "id": "person:Moses",
@@ -219,18 +198,32 @@
 "preferred_label": "मूसा"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Consecration"
+"preferred_label": "पवित्रता"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "याजकपद"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "अभिषेक करना"
 },
 {
 "id": "person:Gideon",
@@ -240,46 +233,53 @@
 "preferred_label": "गिदोन"
 },
 {
-"id": "keyterm:Priesthood",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Priesthood"
+"preferred_label": "पाप करना"
 },
 {
-"id": "fauna:Kid",
-"type": "fauna",
-"confidence": 0.1246,
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Kid"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "नाज़ीर"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "बकरी"
+},
+{
+"id": "fauna:Kid",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "बकरी का बच्चा"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "बांज वृक्ष"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "एपा"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "झुंड"
 }
 ]
 }

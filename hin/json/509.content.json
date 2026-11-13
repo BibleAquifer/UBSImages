@@ -147,32 +147,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "पाप करना"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
-"confidence": 0.25,
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "बनायाह"
-},
-{
-"id": "person:Jehoiada",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "यहोयादा"
+"preferred_label": "संक्रामक त्वचा रोग"
 },
 {
 "id": "place:Kabzeel",
@@ -182,11 +168,18 @@
 "preferred_label": "कबसेल"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2409,
+"id": "person:Jehoiada",
+"type": "person",
+"confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "यहोयादा"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "बनायाह"
 },
 {
 "id": "deity:Lord",
@@ -196,74 +189,32 @@
 "preferred_label": "यहोवा"
 },
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "मोआब"
+},
+{
 "id": "realia:Wool",
 "type": "realia",
 "confidence": 0.19,
 "match_method": "canonical",
-"preferred_label": "Wool"
+"preferred_label": "ऊन"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "सिंह"
 },
 {
 "id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "हेर्मोन पर्वत"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "लबानोन"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "नरक"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Well-Established"
-},
-{
-"id": "person:Miriam",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "मिर्याम"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Stupid"
+"preferred_label": "गड्ढा"
 },
 {
 "id": "person:Naaman.3",
@@ -273,25 +224,11 @@
 "preferred_label": "नामान"
 },
 {
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "जलन"
 },
 {
 "id": "person:Aaron",
@@ -301,46 +238,109 @@
 "preferred_label": "हारून"
 },
 {
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "नरक"
+},
+{
+"id": "person:Miriam",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "मिर्याम"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "तेज"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "लबानोन"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "हेर्मोन पर्वत"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "क्षमा करना"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "अटल"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "भय"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "मूर्ख"
+},
+{
 "id": "flora:Soap",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Hammada"
+"preferred_label": "हम्मादा"
 },
 {
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Purple Cloth"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Coriander"
+"preferred_label": "बैंगनी वस्त्र"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "जौ"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "वस्त्र"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "धनिया"
 },
 {
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "तम्बू"
 }
 ]
 }

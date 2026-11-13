@@ -149,18 +149,18 @@
 "preferred_label": "अखाया"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
 "id": "person:Paul",
 "type": "person",
 "confidence": 0.39,
 "match_method": "canonical",
 "preferred_label": "पौलुस"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "माँगना"
 },
 {
 "id": "deity:Lord",
@@ -177,32 +177,18 @@
 "preferred_label": "फिलिप्पी"
 },
 {
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "तीमुथियुस"
+},
+{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "सुसमाचार"
 },
 {
 "id": "person:Jesus.2",
@@ -212,25 +198,11 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "person:Timothy",
-"type": "person",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "तीमुथियुस"
-},
-{
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "Spirit"
-},
-{
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "रोम"
+"preferred_label": "कलीसिया"
 },
 {
 "id": "place:Jerusalem",
@@ -240,6 +212,41 @@
 "preferred_label": "यरूशलेम"
 },
 {
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "यहूदी"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "रोम"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "आत्मा"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "विश्वास करना"
+},
+{
+"id": "group:Philippi",
+"type": "group",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "फिलिप्पी"
+},
+{
 "id": "person:Erastus",
 "type": "person",
 "confidence": 0.1825,
@@ -247,25 +254,11 @@
 "preferred_label": "इरास्तुस"
 },
 {
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "आसिया"
-},
-{
 "id": "keyterm:Share",
 "type": "keyterm",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Share"
-},
-{
-"id": "group:Philippi",
-"type": "group",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "फिलिप्पियों"
+"preferred_label": "साझा करना"
 },
 {
 "id": "person:Titus",
@@ -275,32 +268,39 @@
 "preferred_label": "तीतुस"
 },
 {
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "आसिया"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Serve"
+"preferred_label": "टहल-सेवा करना"
 },
 {
-"id": "keyterm:Declare",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Declare"
+"preferred_label": "शरीर"
 },
 {
-"id": "keyterm:Fellowship",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Fellowship"
+"preferred_label": "भय"
 },
 {
 "id": "keyterm:Encourage",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Encourage"
+"preferred_label": "उत्साहित करना"
 },
 {
 "id": "place:Ephesus",
@@ -310,25 +310,32 @@
 "preferred_label": "इफिसुस"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Silas",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "सीलास"
 },
 {
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "चेला बनना"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "अनुग्रह"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
 },
 {
 "id": "place:Judea",
@@ -338,25 +345,18 @@
 "preferred_label": "यहूदिया"
 },
 {
-"id": "person:Silas",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "सीलास"
-},
-{
-"id": "keyterm:Fear",
+"id": "keyterm:Declare",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "घोषणा करना"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Fellowship",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Favor"
+"preferred_label": "सहभागिता"
 }
 ]
 }

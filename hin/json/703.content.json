@@ -337,7 +337,7 @@
 "type": "fauna",
 "confidence": 0.7258,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "मछली"
 },
 {
 "id": "deity:Lord",
@@ -351,14 +351,7 @@
 "type": "keyterm",
 "confidence": 0.3962,
 "match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3925,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "आशीष देना"
 },
 {
 "id": "person:Jesus.2",
@@ -368,25 +361,25 @@
 "preferred_label": "यीशु"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3925,
+"match_method": "canonical",
+"preferred_label": "चेला बनना"
+},
+{
 "id": "realia:Fishnet",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "Fishnet"
+"preferred_label": "मछली पकड़ने का जाल"
 },
 {
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.2777,
 "match_method": "canonical",
-"preferred_label": "Casting Net"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2755,
-"match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "फेंकने का जाल"
 },
 {
 "id": "place:Egypt",
@@ -396,25 +389,32 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "fauna:Iguana",
-"type": "fauna",
-"confidence": 0.274,
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2755,
 "match_method": "canonical",
-"preferred_label": "Monitor"
+"preferred_label": "आकाश"
 },
 {
 "id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.274,
 "match_method": "canonical",
-"preferred_label": "Lizard"
+"preferred_label": "छिपकली"
 },
 {
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.274,
 "match_method": "canonical",
-"preferred_label": "Chameleon"
+"preferred_label": "गिरगिट"
+},
+{
+"id": "fauna:Iguana",
+"type": "fauna",
+"confidence": 0.274,
+"match_method": "canonical",
+"preferred_label": "गोह"
 },
 {
 "id": "person:Jonah.2",
@@ -424,6 +424,13 @@
 "preferred_label": "योना"
 },
 {
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.217,
+"match_method": "canonical",
+"preferred_label": "नील नदी"
+},
+{
 "id": "group:Egypt",
 "type": "group",
 "confidence": 0.217,
@@ -431,25 +438,25 @@
 "preferred_label": "मिस्री"
 },
 {
-"id": "place:Nile",
-"type": "place",
-"confidence": 0.217,
-"match_method": "canonical",
-"preferred_label": "Nile River"
-},
-{
 "id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.2155,
 "match_method": "canonical",
-"preferred_label": "Bird"
+"preferred_label": "पक्षी"
 },
 {
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.2155,
 "match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "साँप"
+},
+{
+"id": "keyterm:Semblance",
+"type": "keyterm",
+"confidence": 0.1623,
+"match_method": "canonical",
+"preferred_label": "समानता"
 },
 {
 "id": "place:Eneglaim",
@@ -459,74 +466,18 @@
 "preferred_label": "एनएगलैम"
 },
 {
-"id": "keyterm:Semblance",
-"type": "keyterm",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Likeness"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "पतरस"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "place:GreatSea",
+"id": "place:Engedi",
 "type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "महासागर"
-},
-{
-"id": "keyterm:Kind.2",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Kind"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "एनगदी"
 },
 {
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "keyterm:Mighty",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Mighty"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "सुलैमान"
-},
-{
-"id": "group:Tyre",
-"type": "group",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "सोरी"
+"preferred_label": "शरीर"
 },
 {
 "id": "place:Hell",
@@ -536,11 +487,60 @@
 "preferred_label": "नरक"
 },
 {
-"id": "place:Engedi",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "एनगदी"
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "चेलों का समूह"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "विश्रामदिन"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "अधिकार"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "बल"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "सुलैमान"
 }
 ]
 }

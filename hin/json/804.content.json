@@ -187,7 +187,7 @@
 "type": "keyterm",
 "confidence": 0.5161,
 "match_method": "canonical",
-"preferred_label": "Feast of Tabernacles"
+"preferred_label": "झोपड़ियों का पर्व"
 },
 {
 "id": "deity:Lord",
@@ -197,13 +197,6 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.4464,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.4464,
@@ -211,18 +204,18 @@
 "preferred_label": "मूसा"
 },
 {
-"id": "person:Peter",
+"id": "person:Israel",
 "type": "person",
-"confidence": 0.2982,
+"confidence": 0.4464,
 "match_method": "canonical",
-"preferred_label": "पतरस"
+"preferred_label": "इस्राएल"
 },
 {
-"id": "person:Elijah",
+"id": "person:David",
 "type": "person",
 "confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "एलिय्याह"
+"preferred_label": "दाऊद"
 },
 {
 "id": "person:Jesus.2",
@@ -246,67 +239,53 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "person:David",
+"id": "person:Elijah",
 "type": "person",
 "confidence": 0.2982,
 "match_method": "canonical",
-"preferred_label": "दाऊद"
+"preferred_label": "एलिय्याह"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "पतरस"
 },
 {
 "id": "keyterm:FeastOfWeeks",
 "type": "keyterm",
 "confidence": 0.2393,
 "match_method": "canonical",
-"preferred_label": "Feast of Weeks"
+"preferred_label": "सप्ताहों का पर्व"
 },
 {
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.2382,
 "match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "तम्बू"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "अख़मीरी रोटी"
 },
 {
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1661,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "बेन्हदद"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "योआब"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
+"preferred_label": "घर"
 },
 {
 "id": "keyterm:AppointedFeast",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Appointed Feast"
+"preferred_label": "नियत पर्व"
 },
 {
 "id": "person:Jonah.2",
@@ -316,74 +295,11 @@
 "preferred_label": "योना"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
 "id": "keyterm:Blow",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Plague"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "person:Nun",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "नून"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "New Moon Festival"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Kindness"
-},
-{
-"id": "keyterm:Punishment",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Punishment"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "विपत्ति"
 },
 {
 "id": "group:Israel",
@@ -393,6 +309,34 @@
 "preferred_label": "इस्राएली"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "भेंट"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "योआब"
+},
+{
+"id": "person:Nun",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "नून"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "करुणा"
+},
+{
 "id": "person:Uriah",
 "type": "person",
 "confidence": 0.1661,
@@ -400,32 +344,39 @@
 "preferred_label": "ऊरिय्याह"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Under Siege"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Sabbath"
+"preferred_label": "विश्रामदिन"
 },
 {
-"id": "keyterm:Refuge",
+"id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Refuge"
+"preferred_label": "शिक्षा"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "घिराव"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "वाचा का सन्दूक"
 },
 {
 "id": "person:Joshua.2",
@@ -435,95 +386,144 @@
 "preferred_label": "यहोशू"
 },
 {
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "बेन्हदद"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "keyterm:Refuge",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "शरण"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "यहूदी"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "आशीष देना"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "नये चाँद का पर्व"
+},
+{
+"id": "keyterm:Punishment",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "दंड"
+},
+{
 "id": "realia:FestivalOfTheTabernacles",
 "type": "realia",
 "confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Festival of the Tabernacles"
-},
-{
-"id": "flora:Muskmelon",
-"type": "flora",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "Muskmelon"
+"preferred_label": "झोपड़ियों का पर्व"
 },
 {
 "id": "flora:Myrtle",
 "type": "flora",
 "confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Myrtle"
+"preferred_label": "मेंहदी"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:Muskmelon",
 "type": "flora",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Date Palm"
-},
-{
-"id": "realia:Fortification",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Fortification"
-},
-{
-"id": "realia:Tabernacle",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Tabernacle"
-},
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Moth",
-"type": "fauna",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Moth"
-},
-{
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "खरबूजा"
 },
 {
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Winepress"
+"preferred_label": "रसकुण्ड"
 },
 {
 "id": "flora:PineTree",
 "type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Aleppo Pine"
+"preferred_label": "अलेप्पो पाइन"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "जैतून का वृक्ष"
+},
+{
+"id": "fauna:Moth",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "पतंगा"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "दाखलता"
+},
+{
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "वाचा का संदूक"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "खलिहान"
+},
+{
+"id": "realia:Tabernacle",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "निवास-स्थान"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "खजूर का पेड़"
+},
+{
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "किलेबंदी"
 }
 ]
 }

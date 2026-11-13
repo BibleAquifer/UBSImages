@@ -481,7 +481,7 @@
 "type": "realia",
 "confidence": 0.7303,
 "match_method": "canonical",
-"preferred_label": "Cross"
+"preferred_label": "क्रूस"
 },
 {
 "id": "person:Jesus.2",
@@ -509,28 +509,35 @@
 "type": "keyterm",
 "confidence": 0.3851,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "शरीर"
 },
 {
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3851,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "योग्यता"
 },
 {
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.3792,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "यहूदी"
+},
+{
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.3234,
+"match_method": "canonical",
+"preferred_label": "लोगों का समूह"
 },
 {
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.3234,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
+"preferred_label": "पुनरुत्थान"
 },
 {
 "id": "person:Israel",
@@ -544,28 +551,14 @@
 "type": "keyterm",
 "confidence": 0.3234,
 "match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.3234,
-"match_method": "canonical",
-"preferred_label": "A Group of People"
+"preferred_label": "उद्धार"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.3192,
 "match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
-"id": "place:Cyrene",
-"type": "place",
-"confidence": 0.2753,
-"match_method": "canonical",
-"preferred_label": "कुरेने"
+"preferred_label": "वस्त्र"
 },
 {
 "id": "person:Simon.5",
@@ -575,6 +568,13 @@
 "preferred_label": "शमौन"
 },
 {
+"id": "place:Cyrene",
+"type": "place",
+"confidence": 0.2753,
+"match_method": "canonical",
+"preferred_label": "कुरेने"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.2701,
@@ -582,39 +582,46 @@
 "preferred_label": "नासरत"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2675,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2675,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2675,
-"match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "जीवन"
 },
 {
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.2675,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "चेला बनना"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2675,
+"match_method": "canonical",
+"preferred_label": "नाम"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2675,
+"match_method": "canonical",
+"preferred_label": "विश्वास करना"
 },
 {
 "id": "group:Angels",
 "type": "group",
 "confidence": 0.2169,
 "match_method": "canonical",
-"preferred_label": "Angels"
+"preferred_label": "स्वर्गदूत"
+},
+{
+"id": "keyterm:Reconcile",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "मेल मिलाप करना"
 },
 {
 "id": "place:Golgotha",
@@ -624,11 +631,25 @@
 "preferred_label": "गुलगुता"
 },
 {
-"id": "keyterm:Reconcile",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
-"confidence": 0.2143,
+"confidence": 0.2117,
 "match_method": "canonical",
-"preferred_label": "Reconcile"
+"preferred_label": "प्रचार करना"
+},
+{
+"id": "keyterm:StumblingBlock",
+"type": "keyterm",
+"confidence": 0.2117,
+"match_method": "canonical",
+"preferred_label": "ठोकर का कारण"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2117,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
 },
 {
 "id": "person:Barabbas",
@@ -638,32 +659,11 @@
 "preferred_label": "बरअब्बा"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.2117,
 "match_method": "canonical",
-"preferred_label": "Baptism"
-},
-{
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "Proclaim"
-},
-{
-"id": "keyterm:StumblingBlock",
-"type": "keyterm",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "Stumbling Block"
+"preferred_label": "बपतिस्मा"
 },
 {
 "id": "group:Gentile",
@@ -673,18 +673,18 @@
 "preferred_label": "अन्यजाति"
 },
 {
-"id": "person:Rufus",
+"id": "person:Mary.4",
 "type": "person",
 "confidence": 0.1584,
 "match_method": "canonical",
-"preferred_label": "रूफुस"
+"preferred_label": "मरियम"
 },
 {
-"id": "group:Galatia",
-"type": "group",
+"id": "keyterm:Peace",
+"type": "keyterm",
 "confidence": 0.1584,
 "match_method": "canonical",
-"preferred_label": "गलातियों"
+"preferred_label": "मेल-मिलाप करना"
 }
 ]
 }
