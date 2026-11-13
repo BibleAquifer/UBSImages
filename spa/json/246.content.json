@@ -133,7 +133,7 @@
 "type": "realia",
 "confidence": 0.7137,
 "match_method": "canonical",
-"preferred_label": "Hammer"
+"preferred_label": "martillo"
 },
 {
 "id": "keyterm:Pure",
@@ -147,14 +147,14 @@
 "type": "realia",
 "confidence": 0.3558,
 "match_method": "canonical",
-"preferred_label": "Lampstand"
+"preferred_label": "candelabro del tabernáculo"
 },
 {
 "id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.2821,
 "match_method": "canonical",
-"preferred_label": "Lampstand"
+"preferred_label": "candelabro"
 },
 {
 "id": "deity:Lord",
@@ -164,53 +164,60 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "realia:Peg.2",
-"type": "realia",
-"confidence": 0.1979,
-"match_method": "canonical",
-"preferred_label": "Peg"
-},
-{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1979,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
+"preferred_label": "artesano"
+},
+{
+"id": "realia:Peg.2",
+"type": "realia",
+"confidence": 0.1979,
+"match_method": "canonical",
+"preferred_label": "clavija"
 },
 {
 "id": "realia:Nail",
 "type": "realia",
 "confidence": 0.1979,
 "match_method": "canonical",
-"preferred_label": "Nail"
+"preferred_label": "clavo"
 },
 {
 "id": "realia:Peg",
 "type": "realia",
 "confidence": 0.1979,
 "match_method": "canonical",
-"preferred_label": "Peg"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "Winged Creature"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "estaca"
 },
 {
 "id": "realia:CoverLid",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "Cover Lid"
+"preferred_label": "propiciatorio"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "criatura alada"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "dinero"
+},
+{
+"id": "person:Heber.2",
+"type": "person",
+"confidence": 0.1842,
+"match_method": "canonical",
+"preferred_label": "Héber"
 },
 {
 "id": "person:Jael",
@@ -220,60 +227,11 @@
 "preferred_label": "Jael"
 },
 {
-"id": "person:Heber.2",
-"type": "person",
-"confidence": 0.1842,
-"match_method": "canonical",
-"preferred_label": "Heber"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Babilonia"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Levitas"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Levitas"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Moisés"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "fuerza"
-},
-{
-"id": "person:Sisera",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Sísara"
 },
 {
 "id": "person:Aaron",
@@ -283,74 +241,116 @@
 "preferred_label": "Aarón"
 },
 {
-"id": "realia:Anvil",
-"type": "realia",
-"confidence": 0.1242,
+"id": "person:Sisera",
+"type": "person",
+"confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Anvil"
+"preferred_label": "Sísara"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "tribu de Leví"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Babilonia"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "fuerza"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Leví"
 },
 {
 "id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1242,
 "match_method": "canonical",
-"preferred_label": "Trumpet"
+"preferred_label": "trompeta"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Anvil",
 "type": "realia",
-"confidence": 0.1137,
+"confidence": 0.1242,
 "match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Axe"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Measuring Reed"
-},
-{
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Thread"
+"preferred_label": "yunque"
 },
 {
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "Purple Cloth"
+"preferred_label": "tela de púrpura"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "caña de medir"
 },
 {
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "Linen"
+"preferred_label": "lino"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "hilo"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 },
 {
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "tienda"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "hacha"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "vara"
 }
 ]
 }

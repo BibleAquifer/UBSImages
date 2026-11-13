@@ -655,7 +655,7 @@
 "type": "flora",
 "confidence": 0.5782,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cebada"
 },
 {
 "id": "deity:Lord",
@@ -676,21 +676,21 @@
 "type": "flora",
 "confidence": 0.3452,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "trigo"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.3367,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "vid"
 },
 {
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.3367,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "hoz"
 },
 {
 "id": "keyterm:Offering",
@@ -704,84 +704,77 @@
 "type": "realia",
 "confidence": 0.3155,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "aceite de unción"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3155,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.2627,
-"match_method": "canonical",
-"preferred_label": "honrado"
+"preferred_label": "aceite de oliva"
 },
 {
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2627,
 "match_method": "canonical",
-"preferred_label": "para la eternidad"
+"preferred_label": "para siempre"
 },
 {
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.257,
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2627,
 "match_method": "canonical",
-"preferred_label": "Coriander"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.257,
-"match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "íntegro"
 },
 {
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.257,
 "match_method": "canonical",
-"preferred_label": "Shekel"
+"preferred_label": "siclo"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.2085,
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.257,
 "match_method": "canonical",
-"preferred_label": "Catah"
+"preferred_label": "cilantro"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2085,
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.257,
 "match_method": "canonical",
-"preferred_label": "Life"
+"preferred_label": "dinero"
 },
 {
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Noemi"
+"preferred_label": "Noemí"
 },
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "maldad"
+"preferred_label": "Un ángel"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Belén"
 },
 {
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "palabra del señor"
+"preferred_label": "palabra del Señor"
 },
 {
 "id": "place:Mizpah",
@@ -791,32 +784,18 @@
 "preferred_label": "Mizpa"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "día de reposo"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Life",
+"type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "vida"
 },
 {
 "id": "keyterm:Bless",
@@ -826,6 +805,34 @@
 "preferred_label": "bendecir"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Moab"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "maldad"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2085,
@@ -833,32 +840,25 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "sábado"
-},
-{
 "id": "realia:Homer",
 "type": "realia",
 "confidence": 0.2065,
 "match_method": "canonical",
-"preferred_label": "Homer"
+"preferred_label": "homer"
 },
 {
 "id": "realia:Seah",
 "type": "realia",
 "confidence": 0.2065,
 "match_method": "canonical",
-"preferred_label": "Seah"
+"preferred_label": "seah"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.2046,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivo"
 }
 ]
 }

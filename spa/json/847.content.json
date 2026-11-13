@@ -241,7 +241,7 @@
 "type": "realia",
 "confidence": 0.4576,
 "match_method": "canonical",
-"preferred_label": "Sandal"
+"preferred_label": "sandalia"
 },
 {
 "id": "deity:Lord",
@@ -262,35 +262,21 @@
 "type": "realia",
 "confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "manto"
 },
 {
 "id": "realia:Strap",
 "type": "realia",
 "confidence": 0.2427,
 "match_method": "canonical",
-"preferred_label": "Strap"
+"preferred_label": "correa"
 },
 {
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.2319,
 "match_method": "canonical",
-"preferred_label": "Bag"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Espíritu"
+"preferred_label": "bolsa"
 },
 {
 "id": "keyterm:Baptism",
@@ -300,6 +286,13 @@
 "preferred_label": "bautismo"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
 "id": "person:John",
 "type": "person",
 "confidence": 0.2243,
@@ -307,25 +300,46 @@
 "preferred_label": "Juan"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Espíritu Santo"
+},
+{
 "id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1697,
 "match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "vara"
 },
 {
-"id": "person:Jether.3",
+"id": "place:EgyptSea",
+"type": "place",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "mar de Egipto"
+},
+{
+"id": "person:Amasa",
 "type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Jether"
+"preferred_label": "Amasa"
 },
 {
 "id": "person:KinsmanRedeemer",
 "type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Kinsman Redeemer"
+"preferred_label": "pariente redentor"
+},
+{
+"id": "person:Jether.3",
+"type": "person",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Jéter"
 },
 {
 "id": "place:Jericho",
@@ -339,105 +353,28 @@
 "type": "keyterm",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "pascua"
-},
-{
-"id": "place:EgyptSea",
-"type": "place",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "person:Amasa",
-"type": "person",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "Amasa"
+"preferred_label": "Pascua"
 },
 {
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "Tunic"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "túnica"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "dinero"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1622,
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "comprar"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Joab"
-},
-{
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "buena noticia"
-},
-{
-"id": "person:Amoz",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Amós"
-},
-{
-"id": "person:Zeruiah",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Sarvia"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "convertirse"
+"preferred_label": "vino"
 },
 {
 "id": "person:Abner",
@@ -447,39 +384,11 @@
 "preferred_label": "Abner"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:GoodNews",
+"type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Eufrates"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
-"id": "person:Boaz",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Booz"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "person:Isaiah",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Isaías"
+"preferred_label": "buenas noticias"
 },
 {
 "id": "keyterm:Peace",
@@ -496,13 +405,6 @@
 "preferred_label": "rebelarse"
 },
 {
-"id": "person:MilitaryMember",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Military Member"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.1622,
@@ -514,14 +416,21 @@
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "envidia"
+"preferred_label": "celo"
 },
 {
-"id": "person:Ner.2",
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "arrepentirse"
+},
+{
+"id": "person:Joab",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Ner"
+"preferred_label": "Joab"
 },
 {
 "id": "keyterm:IntactState",
@@ -531,116 +440,207 @@
 "preferred_label": "paz"
 },
 {
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.1076,
+"id": "person:Ner.2",
+"type": "person",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Thread"
+"preferred_label": "Ner"
+},
+{
+"id": "person:Zeruiah",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Sarvia"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Río Éufrates"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Edom"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "person:MilitaryMember",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "militar"
+},
+{
+"id": "person:Isaiah",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Isaías"
+},
+{
+"id": "person:Boaz",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Booz"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "redimir"
+},
+{
+"id": "person:Amoz",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Amoz"
 },
 {
 "id": "realia:Silk",
 "type": "realia",
 "confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "Silk"
+"preferred_label": "seda"
 },
 {
-"id": "realia:Skin-bottle",
+"id": "realia:Thread",
 "type": "realia",
-"confidence": 0.1022,
+"confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "Skin-Bottle"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "fauna:Dugong",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Dugong"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Belt",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Belt"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Date Palm"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Seal"
-},
-{
-"id": "realia:EmbroideredCloth",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Embroidered Cloth"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Linen"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "realia:Sackcloth",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Sackcloth"
+"preferred_label": "hilo"
 },
 {
 "id": "realia:Patch",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Patch"
+"preferred_label": "remiendo"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "vid"
+},
+{
+"id": "fauna:Dugong",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "dugongo"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "lirio"
+},
+{
+"id": "realia:Sackcloth",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "cilicio"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "lino"
+},
+{
+"id": "realia:EmbroideredCloth",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "tela bordada"
+},
+{
+"id": "realia:Belt",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "cinturón"
+},
+{
+"id": "realia:Skin-bottle",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "odre"
+},
+{
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "palmera datilera"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "trigo"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "sello"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "asno"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "vara"
 }
 ]
 }

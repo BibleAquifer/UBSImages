@@ -135,13 +135,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.4625,
-"match_method": "canonical",
-"preferred_label": "Samsón"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4625,
@@ -149,18 +142,25 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.39,
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.4625,
 "match_method": "canonical",
-"preferred_label": "los"
+"preferred_label": "Sansón"
 },
 {
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Filisteos"
+"preferred_label": "Filistea"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "filisteos"
 },
 {
 "id": "keyterm:Strength",
@@ -177,46 +177,46 @@
 "preferred_label": "Dalila"
 },
 {
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Thread"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "cuerda"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "arco"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "hilo"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 },
 {
-"id": "keyterm:Speak",
+"id": "keyterm:Shield",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "profetizar"
+"preferred_label": "escudo"
 },
 {
-"id": "place:Lehi",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Lehi"
+"preferred_label": "Jerusalén"
 },
 {
 "id": "person:Israel",
@@ -226,6 +226,20 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "bajo asedio"
+},
+{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -233,81 +247,67 @@
 "preferred_label": "salvación"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "sitio"
-},
-{
-"id": "keyterm:Shield",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Shield"
-},
-{
-"id": "place:Jerusalem",
+"id": "place:Lehi",
 "type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Lehi"
 },
 {
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "artesano"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "cabra"
 },
 {
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Measuring Reed"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flax"
+"preferred_label": "caña de medir"
 },
 {
 "id": "realia:Hammer",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Hammer"
+"preferred_label": "martillo"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "escudo pequeño"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "cordero"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "rebaño"
+},
+{
+"id": "flora:Flax",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "lino"
 }
 ]
 }

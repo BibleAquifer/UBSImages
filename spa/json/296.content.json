@@ -151,7 +151,7 @@
 "type": "realia",
 "confidence": 0.6173,
 "match_method": "canonical",
-"preferred_label": "Cooking Pot"
+"preferred_label": "olla"
 },
 {
 "id": "deity:Lord",
@@ -172,28 +172,35 @@
 "type": "realia",
 "confidence": 0.2695,
 "match_method": "canonical",
-"preferred_label": "Stew"
+"preferred_label": "guiso"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "aceite de unción"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "aceite de oliva"
 },
 {
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Woe"
+"preferred_label": "¡ay!"
+},
+{
+"id": "place:Gilgal.3",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Guilgal"
 },
 {
 "id": "keyterm:Lot",
@@ -203,6 +210,13 @@
 "preferred_label": "suerte"
 },
 {
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "israelitas"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -210,32 +224,11 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "olor grato"
-},
-{
-"id": "person:Elisha",
+"id": "person:Gideon",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Eliseo"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "palabra del señor"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "pascua"
+"preferred_label": "Gedeón"
 },
 {
 "id": "place:Egypt",
@@ -249,7 +242,14 @@
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "dicho"
+"preferred_label": "proverbio"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Eliseo"
 },
 {
 "id": "keyterm:Baptism",
@@ -259,32 +259,11 @@
 "preferred_label": "bautismo"
 },
 {
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Gedeón"
-},
-{
-"id": "keyterm:Stupid",
+"id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "insensato"
-},
-{
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Gilgal"
+"preferred_label": "olor grato"
 },
 {
 "id": "place:Shiloh",
@@ -294,116 +273,137 @@
 "preferred_label": "Silo"
 },
 {
-"id": "realia:Griddle",
-"type": "realia",
-"confidence": 0.1195,
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Griddle"
+"preferred_label": "palabra del Señor"
+},
+{
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Pascua"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "insensato"
 },
 {
 "id": "flora:Ivy",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Ivy"
+"preferred_label": "hiedra"
+},
+{
+"id": "realia:Griddle",
+"type": "realia",
+"confidence": 0.1195,
+"match_method": "canonical",
+"preferred_label": "plancha"
 },
 {
 "id": "flora:Colocynth",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Colocynth"
-},
-{
-"id": "fauna:Kid",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Kid"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Ephah"
-},
-{
-"id": "realia:Fork",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Fork"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Terebinth"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "coloquíntida"
 },
 {
 "id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Hand-Mill"
+"preferred_label": "molino de mano"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "cabra"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Flock",
+"id": "fauna:Kid",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "cabrito"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "zarza"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "vid"
+},
+{
+"id": "realia:Fork",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "tenedor de carne"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "terebinto"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "efa"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pan sin levadura"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "casa"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "rebaño"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "cama"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "cesta"
 }
 ]
 }

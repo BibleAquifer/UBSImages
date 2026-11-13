@@ -2408,7 +2408,7 @@
 "type": "realia",
 "confidence": 0.4734,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "espada"
 },
 {
 "id": "person:Israel",
@@ -2425,13 +2425,6 @@
 "preferred_label": "Egipto"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.367,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.367,
@@ -2439,11 +2432,18 @@
 "preferred_label": "Judá"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.367,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.367,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "tribu de Judá"
 },
 {
 "id": "place:Babylon",
@@ -2457,14 +2457,14 @@
 "type": "place",
 "confidence": 0.3647,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Jerusalén"
 },
 {
 "id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.3636,
 "match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
+"preferred_label": "incircunciso"
 },
 {
 "id": "person:Saul.2",
@@ -2478,56 +2478,49 @@
 "type": "keyterm",
 "confidence": 0.3613,
 "match_method": "canonical",
-"preferred_label": "envidia"
+"preferred_label": "celo"
 },
 {
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.3602,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Un ángel"
 },
 {
 "id": "keyterm:Proscribe.2",
 "type": "keyterm",
 "confidence": 0.3596,
 "match_method": "canonical",
-"preferred_label": "destruir"
+"preferred_label": "destinar a la destrucción"
 },
 {
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.3591,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "designar"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3591,
 "match_method": "canonical",
-"preferred_label": "temer"
+"preferred_label": "temor"
 },
 {
 "id": "person:Hophra",
 "type": "person",
 "confidence": 0.3584,
 "match_method": "canonical",
-"preferred_label": "Hophra"
+"preferred_label": "Hofra"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.3579,
 "match_method": "canonical",
-"preferred_label": "Benjamín"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "los"
+"preferred_label": "Filistea"
 },
 {
 "id": "place:Edom",
@@ -2537,18 +2530,18 @@
 "preferred_label": "Edom"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3579,
+"match_method": "canonical",
+"preferred_label": "filisteos"
+},
+{
 "id": "person:Benjamin",
 "type": "person",
 "confidence": 0.3579,
 "match_method": "canonical",
 "preferred_label": "Benjamín"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "Filisteos"
 },
 {
 "id": "person:Joab",
@@ -2558,25 +2551,25 @@
 "preferred_label": "Joab"
 },
 {
-"id": "group:Chaldea",
+"id": "group:Benjamin",
 "type": "group",
-"confidence": 0.3568,
+"confidence": 0.3579,
 "match_method": "canonical",
-"preferred_label": "caldeos"
+"preferred_label": "tribu de Benjamín"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "honrado"
+"preferred_label": "íntegro"
 },
 {
 "id": "place:Chaldea",
 "type": "place",
 "confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "Caldeos"
+"preferred_label": "Caldea"
 },
 {
 "id": "person:Jesus.2",
@@ -2586,11 +2579,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.3557,
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "Josué"
+"preferred_label": "caldeo"
 },
 {
 "id": "person:Balaam",
@@ -2598,6 +2591,13 @@
 "confidence": 0.3557,
 "match_method": "canonical",
 "preferred_label": "Balaam"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.3557,
+"match_method": "canonical",
+"preferred_label": "Josué"
 },
 {
 "id": "keyterm:IntactState",

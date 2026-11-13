@@ -175,21 +175,21 @@
 "type": "flora",
 "confidence": 0.7227,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "vid"
 },
 {
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.4112,
 "match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "higo"
 },
 {
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.3092,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "vino"
 },
 {
 "id": "deity:Lord",
@@ -206,13 +206,6 @@
 "preferred_label": "apartarse"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2346,
@@ -220,18 +213,18 @@
 "preferred_label": "Israel"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1823,
 "match_method": "canonical",
-"preferred_label": "Winepress"
-},
-{
-"id": "place:EshcolValley",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Escol"
+"preferred_label": "lagar"
 },
 {
 "id": "place:Jazer",
@@ -241,11 +234,18 @@
 "preferred_label": "Jazer"
 },
 {
-"id": "person:Abiezer",
-"type": "person",
+"id": "place:JazerSea",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Abiezer"
+"preferred_label": "Mar de Jazer"
+},
+{
+"id": "place:EshcolValley",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "valle de Escol"
 },
 {
 "id": "place:Sibmah",
@@ -255,116 +255,67 @@
 "preferred_label": "Sibma"
 },
 {
-"id": "place:JazerSea",
-"type": "place",
+"id": "person:Abiezer",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Jazer"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Thistle"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "Abiezer"
 },
 {
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Sickle"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "hoz"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "zarza"
 },
 {
 "id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Boxthorn"
+"preferred_label": "cambrón"
 },
 {
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Acacia"
+"preferred_label": "acacia"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1673,
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Ephraim"
+"preferred_label": "cardo"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1673,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "cebada"
 },
 {
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1673,
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "(cosa) detestable"
+"preferred_label": "trigo"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1673,
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Nazirites"
-},
-{
-"id": "place:Gomorrah",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Gomorra"
+"preferred_label": "asno"
 },
 {
 "id": "place:Bashan",
@@ -378,7 +329,7 @@
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "seguridad"
+"preferred_label": "confiar"
 },
 {
 "id": "person:Pharaoh.4",
@@ -388,60 +339,32 @@
 "preferred_label": "Faraón"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "habilidad"
 },
 {
 "id": "person:Ephraim",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Ephraim"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "Efraín"
 },
 {
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "confiar"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Baal"
-},
-{
-"id": "keyterm:Bitter",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "amargo"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "sábado"
+"preferred_label": "seguridad"
 },
 {
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Jerusalén"
 },
 {
 "id": "place:Sodom",
@@ -451,116 +374,193 @@
 "preferred_label": "Sodoma"
 },
 {
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "día de reposo"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "nazareo"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "cosa detestable"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Baal"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "tribu de Efraín"
+},
+{
+"id": "place:Gomorrah",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Gomorra"
+},
+{
+"id": "keyterm:Bitter",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "amargo"
+},
+{
 "id": "flora:Chicory",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Bitter Herbs"
-},
-{
-"id": "flora:Colocynth",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Colocynth"
+"preferred_label": "hierbas amargas"
 },
 {
 "id": "realia:Tower",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Tower"
+"preferred_label": "torre"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1073,
+"id": "flora:Colocynth",
+"type": "flora",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Must"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "coloquíntida"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Coriander"
-},
-{
-"id": "realia:Mattock",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Mattock"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Pomegranate"
-},
-{
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "cabra"
 },
 {
 "id": "realia:RaisinCake",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Raisin Cake"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "torta de pasas"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivo"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "ganado vacuno"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "sorgo"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "granado"
+},
+{
+"id": "realia:Mattock",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "azadón"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "imagen"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "grano"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "mosto"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "cilantro"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "rebaño"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "cordero"
 }
 ]
 }

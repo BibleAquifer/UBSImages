@@ -1964,7 +1964,7 @@
 "type": "place",
 "confidence": 0.3876,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Jerusalén"
 },
 {
 "id": "person:Israel",
@@ -1985,21 +1985,21 @@
 "type": "group",
 "confidence": 0.3793,
 "match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.3723,
-"match_method": "canonical",
-"preferred_label": "Levitas"
+"preferred_label": "tribu de Judá"
 },
 {
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.3723,
 "match_method": "canonical",
-"preferred_label": "Levitas"
+"preferred_label": "tribu de Leví"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.3723,
+"match_method": "canonical",
+"preferred_label": "Leví"
 },
 {
 "id": "person:David",
@@ -2013,14 +2013,14 @@
 "type": "keyterm",
 "confidence": 0.3653,
 "match_method": "canonical",
-"preferred_label": "sábado"
+"preferred_label": "día de reposo"
 },
 {
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.3625,
 "match_method": "canonical",
-"preferred_label": "Mardochêo"
+"preferred_label": "Mardoqueo"
 },
 {
 "id": "keyterm:Offering",
@@ -2030,18 +2030,18 @@
 "preferred_label": "ofrenda"
 },
 {
-"id": "place:CornerGate",
-"type": "place",
-"confidence": 0.3594,
-"match_method": "canonical",
-"preferred_label": "ángulo"
-},
-{
 "id": "place:WaterGate",
 "type": "place",
 "confidence": 0.3594,
 "match_method": "canonical",
-"preferred_label": "las"
+"preferred_label": "Puerta de las Aguas"
+},
+{
+"id": "place:CornerGate",
+"type": "place",
+"confidence": 0.3594,
+"match_method": "canonical",
+"preferred_label": "puerta del Ángulo"
 },
 {
 "id": "keyterm:Bless",
@@ -2051,6 +2051,34 @@
 "preferred_label": "bendecir"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "Filistea"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "Belén"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "gloria"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.357,
@@ -2058,102 +2086,67 @@
 "preferred_label": "santo"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Catah"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Filisteos"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Templo"
 },
 {
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "del"
-},
-{
-"id": "place:BenjaminGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Benjamín"
-},
-{
-"id": "place:ValleyGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "del"
+"preferred_label": "codo"
 },
 {
 "id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "Ephraim"
+"preferred_label": "puerta de Efraín"
+},
+{
+"id": "place:ValleyGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "puerta del Valle"
+},
+{
+"id": "place:BenjaminGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "Puerta de Benjamín"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "Puerta del Pescado"
 },
 {
 "id": "place:DungGate",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "del"
+"preferred_label": "Puerta del Basurero"
 },
 {
 "id": "place:TowerOfHananel",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "torre"
-},
-{
-"id": "place:Arad",
-"type": "place",
-"confidence": 0.3062,
-"match_method": "canonical",
-"preferred_label": "Arad"
+"preferred_label": "Torre de Jananel"
 },
 {
 "id": "person:Haman",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "Amán"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "Arad"
 }
 ]
 }

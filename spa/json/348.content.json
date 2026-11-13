@@ -314,21 +314,28 @@
 "type": "realia",
 "confidence": 0.4723,
 "match_method": "canonical",
-"preferred_label": "Throne"
+"preferred_label": "trono"
 },
 {
 "id": "realia:Footstool",
 "type": "realia",
 "confidence": 0.3681,
 "match_method": "canonical",
-"preferred_label": "Footstool"
+"preferred_label": "estrado"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3556,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "casa"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
 },
 {
 "id": "person:Israel",
@@ -338,20 +345,6 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2781,
-"match_method": "canonical",
-"preferred_label": "arca"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2781,
@@ -359,46 +352,32 @@
 "preferred_label": "David"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "arca del pacto"
+},
+{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "sinagoga"
 },
 {
 "id": "realia:Seat",
 "type": "realia",
 "confidence": 0.2306,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "asiento"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Temple"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Jonathán"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "profetizar"
+"preferred_label": "Templo"
 },
 {
 "id": "keyterm:Friendship",
@@ -408,11 +387,46 @@
 "preferred_label": "amistad"
 },
 {
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Josafat"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "fariseos"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
 "id": "person:Eli",
 "type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Eli"
+"preferred_label": "Elí"
 },
 {
 "id": "place:Samaria",
@@ -422,60 +436,39 @@
 "preferred_label": "Samaria"
 },
 {
-"id": "person:Jehoshaphat.3",
+"id": "person:Jonathan.3",
 "type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Josaphat"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "fariseo"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "Jonatán"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2181,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
-},
-{
-"id": "person:Hammedatha",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Amadatha"
-},
-{
-"id": "group:Agag",
-"type": "group",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Agagueo"
+"preferred_label": "Arca del Pacto"
 },
 {
 "id": "place:HallOfJudgment",
 "type": "place",
 "confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "del"
+"preferred_label": "Sala del Juicio"
 },
 {
-"id": "place:HallOfTheThrone",
-"type": "place",
+"id": "group:Agag",
+"type": "group",
 "confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "del"
+"preferred_label": "agagueo"
+},
+{
+"id": "person:Hammedatha",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Hamedata"
 },
 {
 "id": "person:Haman",
@@ -485,88 +478,11 @@
 "preferred_label": "Amán"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "puro"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "consejo"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "group:Cherethite",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Cherethites"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "keyterm:Psalm",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "salmo"
-},
-{
-"id": "place:Babylon",
+"id": "place:HallOfTheThrone",
 "type": "place",
-"confidence": 0.1594,
+"confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "Babilonia"
-},
-{
-"id": "keyterm:Vision",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "visión"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "gloria del señor"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "luna nueva"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Salomón"
+"preferred_label": "Sala del Trono"
 },
 {
 "id": "person:Abner",
@@ -576,39 +492,18 @@
 "preferred_label": "Abner"
 },
 {
-"id": "person:Agag.2",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Agag"
-},
-{
-"id": "person:Hannah",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Anna"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
 "preferred_label": "Moisés"
+},
+{
+"id": "keyterm:Vision",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "visión"
 },
 {
 "id": "person:Jesus.2",
@@ -618,18 +513,18 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "person:Saul.2",
+"id": "person:Hannah",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Saúl"
+"preferred_label": "Ana"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "celo"
 },
 {
 "id": "keyterm:Sin",
@@ -639,46 +534,39 @@
 "preferred_label": "pecar"
 },
 {
-"id": "person:Ehud",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Aod"
-},
-{
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Assuero"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Tiro"
-},
-{
-"id": "person:Adonijah",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Adonía"
-},
-{
-"id": "keyterm:Zealous",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Be Zealous"
+"preferred_label": "gloria"
 },
 {
 "id": "person:Esther",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Esther"
+"preferred_label": "Ester"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "consejo"
+},
+{
+"id": "keyterm:Zealous",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "tener celos"
+},
+{
+"id": "group:Cherethite",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "quereteos"
 },
 {
 "id": "keyterm:Covenant",
@@ -688,11 +576,74 @@
 "preferred_label": "pacto"
 },
 {
-"id": "person:Bathsheba",
+"id": "person:Ehud",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Bath-sheba"
+"preferred_label": "Aod"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Babilonia"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Salomón"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Tiro"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "person:Ahasuerus",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Asuero"
+},
+{
+"id": "keyterm:Psalm",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "salmo"
 },
 {
 "id": "place:Shiloh",
@@ -702,95 +653,144 @@
 "preferred_label": "Silo"
 },
 {
-"id": "keyterm:Ardour",
+"id": "person:Bathsheba",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Betsabé"
+},
+{
+"id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "envidia"
+"preferred_label": "desastre"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "fiesta de la luna nueva"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "person:Agag.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Agag"
+},
+{
+"id": "person:Adonijah",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Adonías"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Saúl"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "puro"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "león"
 },
 {
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Threshing Floor"
+"preferred_label": "era"
 },
 {
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Dove"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Floor"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "paloma"
 },
 {
 "id": "realia:Tassel",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Tassel"
-},
-{
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Lampstand"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "borla"
 },
 {
 "id": "realia:Doorpost",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Doorpost"
+"preferred_label": "poste de la puerta"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "manto"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "candelabro"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "escudo pequeño"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "ropa"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "suelo"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "cedro"
 },
 {
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "cama"
 }
 ]
 }

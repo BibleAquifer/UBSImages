@@ -355,7 +355,7 @@
 "type": "fauna",
 "confidence": 0.7186,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "camello"
 },
 {
 "id": "deity:Lord",
@@ -369,49 +369,42 @@
 "type": "fauna",
 "confidence": 0.4025,
 "match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.3784,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "asno"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3784,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "cabra"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.3784,
+"match_method": "canonical",
+"preferred_label": "rebaño"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3543,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "ganado vacuno"
 },
 {
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.2757,
 "match_method": "canonical",
-"preferred_label": "Locust"
+"preferred_label": "langosta"
 },
 {
-"id": "person:Isaac",
-"type": "person",
+"id": "place:Midian",
+"type": "place",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "Isaac"
-},
-{
-"id": "person:Rebekah",
-"type": "person",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Rebeca"
+"preferred_label": "Madián"
 },
 {
 "id": "keyterm:Bless",
@@ -421,6 +414,20 @@
 "preferred_label": "bendecir"
 },
 {
+"id": "person:Rebekah",
+"type": "person",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Rebeca"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Isaac"
+},
+{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.2741,
@@ -428,39 +435,18 @@
 "preferred_label": "reino"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Madianitas"
-},
-{
 "id": "realia:Needle",
 "type": "realia",
 "confidence": 0.2248,
 "match_method": "canonical",
-"preferred_label": "Needle"
+"preferred_label": "aguja"
 },
 {
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.2213,
 "match_method": "canonical",
-"preferred_label": "Earring"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Ismaelita"
-},
-{
-"id": "place:Sheba.2",
-"type": "place",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Sheba"
+"preferred_label": "arete"
 },
 {
 "id": "keyterm:Defilement",
@@ -470,18 +456,32 @@
 "preferred_label": "contaminación"
 },
 {
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "ismaelitas"
+},
+{
+"id": "place:Sheba.2",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Sabá"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.2177,
 "match_method": "canonical",
-"preferred_label": "Clay Jar"
+"preferred_label": "cántaro de barro"
 },
 {
-"id": "person:Ishmael",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Ismael"
+"preferred_label": "Jerusalén"
 },
 {
 "id": "person:John",
@@ -491,11 +491,11 @@
 "preferred_label": "Juan"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Ishmael",
+"type": "person",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Ismael"
 },
 {
 "id": "person:David",
@@ -523,28 +523,7 @@
 "type": "realia",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
-"id": "person:Nahor.2",
-"type": "person",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Nachôr"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Ben-adad"
-},
-{
-"id": "group:Meronothite",
-"type": "group",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Meronothites"
+"preferred_label": "tienda"
 },
 {
 "id": "place:Gilead",
@@ -554,11 +533,32 @@
 "preferred_label": "Galaad"
 },
 {
-"id": "place:Ephah",
-"type": "place",
+"id": "person:Jehdeiah.2",
+"type": "person",
 "confidence": 0.1616,
 "match_method": "canonical",
-"preferred_label": "Epha"
+"preferred_label": "Jehedías"
+},
+{
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "destinar a la destrucción"
+},
+{
+"id": "group:Meronothite",
+"type": "group",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "meronotitas"
+},
+{
+"id": "person:Ben-hadad.2",
+"type": "person",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "Ben-adad"
 }
 ]
 }

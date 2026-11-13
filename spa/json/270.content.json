@@ -259,7 +259,7 @@
 "type": "realia",
 "confidence": 0.7063,
 "match_method": "canonical",
-"preferred_label": "Pit"
+"preferred_label": "foso"
 },
 {
 "id": "person:Jeremiah.6",
@@ -269,13 +269,6 @@
 "preferred_label": "Jeremías"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4062,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.4062,
@@ -283,11 +276,18 @@
 "preferred_label": "David"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4062,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "Catah"
+"preferred_label": "Belén"
 },
 {
 "id": "person:Ebed-melech",
@@ -297,39 +297,25 @@
 "preferred_label": "Ebed-melec"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.285,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.285,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "cuerda"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.285,
+"match_method": "canonical",
+"preferred_label": "vid"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.285,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "person:Benaiah",
-"type": "person",
-"confidence": 0.2275,
-"match_method": "canonical",
-"preferred_label": "Benaías"
-},
-{
-"id": "person:Jehoiada",
-"type": "person",
-"confidence": 0.2275,
-"match_method": "canonical",
-"preferred_label": "Joiada"
+"preferred_label": "casa"
 },
 {
 "id": "place:Kabzeel",
@@ -339,25 +325,39 @@
 "preferred_label": "Cabseel"
 },
 {
+"id": "person:Jehoiada",
+"type": "person",
+"confidence": 0.2275,
+"match_method": "canonical",
+"preferred_label": "Joiada"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
+"confidence": 0.2275,
+"match_method": "canonical",
+"preferred_label": "Benaías"
+},
+{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.2238,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "león"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.2238,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "dinero"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "los"
+"preferred_label": "Filistea"
 },
 {
 "id": "person:Joseph.10",
@@ -367,46 +367,18 @@
 "preferred_label": "José"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "place:Philistine",
+"id": "place:Assyria",
 "type": "place",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Filisteos"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Ezechîas"
+"preferred_label": "Asiria"
 },
 {
 "id": "person:Nethaniah",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Nethanías"
-},
-{
-"id": "person:Ishmael.2",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Ismael"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Netanías"
 },
 {
 "id": "person:Israel",
@@ -416,11 +388,39 @@
 "preferred_label": "Israel"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "filisteos"
+},
+{
+"id": "person:Ishmael.2",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "Ismael"
+},
+{
+"id": "group:Ethiopia",
+"type": "group",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "etíope"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
 "id": "place:Ethiopia",
 "type": "place",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Etiopes"
+"preferred_label": "Etiopía"
 },
 {
 "id": "person:Reuben",
@@ -437,88 +437,60 @@
 "preferred_label": "Moab"
 },
 {
-"id": "group:Ethiopia",
-"type": "group",
+"id": "person:Hezekiah",
+"type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "cusita"
-},
-{
-"id": "place:BenjaminGate",
-"type": "place",
-"confidence": 0.1663,
-"match_method": "canonical",
-"preferred_label": "Benjamín"
-},
-{
-"id": "place:Beth-eked",
-"type": "place",
-"confidence": 0.1663,
-"match_method": "canonical",
-"preferred_label": "pastores"
+"preferred_label": "Ezequías"
 },
 {
 "id": "place:Secu",
 "type": "place",
 "confidence": 0.1663,
 "match_method": "canonical",
-"preferred_label": "Secu"
+"preferred_label": "Secú"
 },
 {
-"id": "person:Hammelech",
-"type": "person",
+"id": "place:BenjaminGate",
+"type": "place",
 "confidence": 0.1663,
 "match_method": "canonical",
-"preferred_label": "rey"
+"preferred_label": "Puerta de Benjamín"
 },
 {
 "id": "person:Malchiah",
 "type": "person",
 "confidence": 0.1663,
 "match_method": "canonical",
-"preferred_label": "Malchîas"
+"preferred_label": "Malquías"
 },
 {
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.1625,
+"id": "place:Beth-eked",
+"type": "place",
+"confidence": 0.1663,
 "match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "Bet-équed"
+},
+{
+"id": "person:Hammelech",
+"type": "person",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "Hamelec"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivo"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1613,
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "puro"
-},
-{
-"id": "person:Baasha",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Baasa"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "seguridad"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Samuel"
+"preferred_label": "higo"
 },
 {
 "id": "person:Asa",
@@ -528,53 +500,11 @@
 "preferred_label": "Asa"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Ismaelita"
-},
-{
-"id": "group:Midian",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Madianita"
-},
-{
-"id": "person:Ishmael",
+"id": "person:Samuel",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Ismael"
-},
-{
-"id": "person:Gedaliah.2",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Gedalías"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "desposeer"
+"preferred_label": "Samuel"
 },
 {
 "id": "keyterm:Defilement",
@@ -584,11 +514,32 @@
 "preferred_label": "contaminación"
 },
 {
-"id": "place:Naioth",
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "confiar"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "desposeer"
+},
+{
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Najoth"
+"preferred_label": "Egipto"
+},
+{
+"id": "person:Gedaliah.2",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Gedalías"
 },
 {
 "id": "keyterm:Covenant",
@@ -598,88 +549,137 @@
 "preferred_label": "pacto"
 },
 {
-"id": "place:Shephelah",
-"type": "place",
+"id": "group:Midian",
+"type": "group",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "los"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "temer"
+"preferred_label": "madianitas"
 },
 {
 "id": "place:Ramah",
 "type": "place",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Rama"
+"preferred_label": "Ramá"
+},
+{
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "ismaelitas"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "person:Ishmael",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Ismael"
+},
+{
+"id": "place:Naioth",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Nayot"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "puro"
 },
 {
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Madianitas"
+"preferred_label": "Madián"
 },
 {
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "person:Baasha",
+"type": "person",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Hyena"
+"preferred_label": "Baasa"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.1013,
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "Sefela"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Bear",
-"type": "fauna",
-"confidence": 0.1013,
-"match_method": "canonical",
-"preferred_label": "Bear"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1013,
-"match_method": "canonical",
-"preferred_label": "Jackal"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.1013,
-"match_method": "canonical",
-"preferred_label": "Tower"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1013,
-"match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "temor"
 },
 {
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.1013,
 "match_method": "canonical",
-"preferred_label": "Clay Jar"
+"preferred_label": "cántaro de barro"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "ganado vacuno"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "chacal"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "cardo"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "hiena"
+},
+{
+"id": "fauna:Bear",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "oso"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "torre"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "asno"
 }
 ]
 }

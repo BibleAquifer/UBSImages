@@ -75,81 +75,60 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "altar"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "altar de piedra"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "altar del tabernáculo"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
 },
 {
 "id": "deity:Asherah",
 "type": "deity",
 "confidence": 0.48,
 "match_method": "canonical",
-"preferred_label": "bosques"
+"preferred_label": "Asera"
 },
 {
 "id": "realia:SacredPole",
 "type": "realia",
 "confidence": 0.42,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "poste sagrado"
 },
 {
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Jerusalén"
 },
 {
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.325,
 "match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Baal"
+"preferred_label": "imagen"
 },
 {
 "id": "deity:Lord",
@@ -159,39 +138,67 @@
 "preferred_label": "Jehová"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Judá"
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Baal"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "lugar alto"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "imagen tallada"
 },
 {
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pino piñonero"
 },
 {
-"id": "place:Kidron",
-"type": "place",
+"id": "keyterm:Destroy",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Cedrón"
+"preferred_label": "destruir"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "celo"
 },
 {
 "id": "keyterm:Sin",
@@ -205,14 +212,14 @@
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Instruction"
+"preferred_label": "instrucción"
 },
 {
-"id": "keyterm:Destroy",
-"type": "keyterm",
+"id": "place:Kidron",
+"type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "borrar"
+"preferred_label": "Cedrón"
 },
 {
 "id": "keyterm:Forgive",
@@ -222,18 +229,11 @@
 "preferred_label": "perdonar"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "envidia"
-},
-{
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "imagen de metal fundido"
 }
 ]
 }

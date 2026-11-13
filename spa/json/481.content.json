@@ -149,18 +149,18 @@
 "preferred_label": "Acaya"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "rogar"
-},
-{
 "id": "person:Paul",
 "type": "person",
 "confidence": 0.39,
 "match_method": "canonical",
 "preferred_label": "Pablo"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "rogar"
 },
 {
 "id": "deity:Lord",
@@ -177,32 +177,18 @@
 "preferred_label": "Filipos"
 },
 {
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Timoteo"
+},
+{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "buena noticia"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "iglesia"
+"preferred_label": "buenas noticias"
 },
 {
 "id": "person:Jesus.2",
@@ -212,18 +198,25 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "person:Timothy",
-"type": "person",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Timoteo"
-},
-{
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "espíritu"
+"preferred_label": "iglesia"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "judío"
 },
 {
 "id": "place:Rome",
@@ -233,11 +226,25 @@
 "preferred_label": "Roma"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "espíritu"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "creer"
+},
+{
+"id": "group:Philippi",
+"type": "group",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "filipenses"
 },
 {
 "id": "person:Erastus",
@@ -247,25 +254,11 @@
 "preferred_label": "Erasto"
 },
 {
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Asia"
-},
-{
 "id": "keyterm:Share",
 "type": "keyterm",
 "confidence": 0.1825,
 "match_method": "canonical",
 "preferred_label": "compartir"
-},
-{
-"id": "group:Philippi",
-"type": "group",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "filipense"
 },
 {
 "id": "person:Titus",
@@ -275,11 +268,81 @@
 "preferred_label": "Tito"
 },
 {
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Asia"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "servir"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "temor"
+},
+{
+"id": "keyterm:Encourage",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "animar"
+},
+{
+"id": "place:Ephesus",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Éfeso"
+},
+{
+"id": "person:Silas",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Silas"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "favor"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Judea"
 },
 {
 "id": "keyterm:Declare",
@@ -294,69 +357,6 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "comunión"
-},
-{
-"id": "keyterm:Encourage",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "exhortar"
-},
-{
-"id": "place:Ephesus",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Efesios"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "cuerpo"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Judíos"
-},
-{
-"id": "person:Silas",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Silas"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "temer"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "favor"
 }
 ]
 }

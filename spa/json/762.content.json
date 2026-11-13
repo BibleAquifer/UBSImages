@@ -457,7 +457,7 @@
 "type": "realia",
 "confidence": 0.5845,
 "match_method": "canonical",
-"preferred_label": "Yoke"
+"preferred_label": "yugo"
 },
 {
 "id": "deity:Lord",
@@ -471,7 +471,7 @@
 "type": "keyterm",
 "confidence": 0.4178,
 "match_method": "canonical",
-"preferred_label": "ser obligado a servir"
+"preferred_label": "obligar a servir"
 },
 {
 "id": "place:Babylon",
@@ -492,14 +492,14 @@
 "type": "realia",
 "confidence": 0.3825,
 "match_method": "canonical",
-"preferred_label": "Mattock"
+"preferred_label": "azadón"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3455,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "ganado vacuno"
 },
 {
 "id": "person:Hananiah.12",
@@ -509,18 +509,18 @@
 "preferred_label": "Hananías"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3247,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3247,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3247,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
 },
 {
 "id": "person:Jeremiah.6",
@@ -541,91 +541,42 @@
 "type": "fauna",
 "confidence": 0.2674,
 "match_method": "canonical",
-"preferred_label": "Scorpion"
+"preferred_label": "escorpión"
 },
 {
 "id": "realia:Whip",
 "type": "realia",
 "confidence": 0.2674,
 "match_method": "canonical",
-"preferred_label": "Whip"
+"preferred_label": "látigo"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.2647,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cebada"
 },
 {
 "id": "realia:Goad",
 "type": "realia",
 "confidence": 0.2167,
 "match_method": "canonical",
-"preferred_label": "Goad"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "honrado"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "maldad"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "los"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "amar"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "consejo"
+"preferred_label": "aguijada"
 },
 {
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.2123,
 "match_method": "canonical",
-"preferred_label": "Filisteos"
+"preferred_label": "Filistea"
 },
 {
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.2123,
 "match_method": "canonical",
-"preferred_label": "servicio"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2123,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "trabajo"
 },
 {
 "id": "person:Jesus.2",
@@ -635,25 +586,74 @@
 "preferred_label": "Jesús"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "filisteos"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "amor"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "íntegro"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "consejo"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.2123,
+"match_method": "canonical",
+"preferred_label": "maldad"
+},
+{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Sword"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "espada"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "imagen de metal fundido"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "casa"
 },
 {
 "id": "person:Shamgar",

@@ -97,49 +97,42 @@
 "type": "realia",
 "confidence": 0.74,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "cesta"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.5323,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pan sin levadura"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.4631,
 "match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3785,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "cordero"
 },
 {
 "id": "realia:Cake",
 "type": "realia",
 "confidence": 0.3785,
 "match_method": "canonical",
-"preferred_label": "Cake"
+"preferred_label": "torta"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3785,
+"match_method": "canonical",
+"preferred_label": "aceite de unción"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.3785,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.3538,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "aceite de oliva"
 },
 {
 "id": "deity:Lord",
@@ -147,6 +140,13 @@
 "confidence": 0.3538,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.3538,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
 },
 {
 "id": "person:Aaron",
@@ -167,49 +167,28 @@
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
+"preferred_label": "tienda de reunión"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "ganado vacuno"
 },
 {
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "vino"
 },
 {
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "sacrificio"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Nazirites"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "ungir"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Faraón"
+"preferred_label": "sacrificio de comunión"
 },
 {
 "id": "person:Moses",
@@ -219,13 +198,6 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
 "id": "keyterm:Consecration.2",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -233,11 +205,11 @@
 "preferred_label": "consagración"
 },
 {
-"id": "person:Gideon",
+"id": "person:Pharaoh.4",
 "type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Gedeón"
+"preferred_label": "Faraón"
 },
 {
 "id": "keyterm:Priesthood",
@@ -247,39 +219,67 @@
 "preferred_label": "sacerdocio"
 },
 {
-"id": "fauna:Kid",
-"type": "fauna",
-"confidence": 0.1246,
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Kid"
+"preferred_label": "untar"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1246,
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "Gedeón"
 },
 {
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1246,
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Terebinth"
+"preferred_label": "pecar"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "nazareo"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "cabra"
+},
+{
+"id": "fauna:Kid",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "cabrito"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "terebinto"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "efa"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "rebaño"
 }
 ]
 }
