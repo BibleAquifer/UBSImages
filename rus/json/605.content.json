@@ -139,7 +139,7 @@
 "type": "place",
 "confidence": 0.705,
 "match_method": "canonical",
-"preferred_label": "Mount Hermon"
+"preferred_label": "гора Ермон"
 },
 {
 "id": "place:Bashan",
@@ -149,6 +149,13 @@
 "preferred_label": "Васан"
 },
 {
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.4,
+"match_method": "canonical",
+"preferred_label": "Колено Манассии"
+},
+{
 "id": "place:Lebanon",
 "type": "place",
 "confidence": 0.4,
@@ -156,11 +163,11 @@
 "preferred_label": "Ливан"
 },
 {
-"id": "group:Manasseh",
-"type": "group",
-"confidence": 0.4,
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Манассия"
+"preferred_label": "Галаад"
 },
 {
 "id": "person:Manasseh",
@@ -168,13 +175,6 @@
 "confidence": 0.39,
 "match_method": "canonical",
 "preferred_label": "Манассия"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Галаад"
 },
 {
 "id": "place:Golan",
@@ -191,18 +191,18 @@
 "preferred_label": "Арнон"
 },
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Иордан"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "Аморреи"
 },
 {
 "id": "place:Bezer",
@@ -212,18 +212,18 @@
 "preferred_label": "Бецер"
 },
 {
-"id": "group:Maacah",
-"type": "group",
-"confidence": 0.255,
-"match_method": "canonical",
-"preferred_label": "Maacathites"
-},
-{
 "id": "place:Ramoth-gilead",
 "type": "place",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "Рамоф Галаадский"
+},
+{
+"id": "group:Geshur",
+"type": "group",
+"confidence": 0.255,
+"match_method": "canonical",
+"preferred_label": "гессуряне"
 },
 {
 "id": "place:Salecah",
@@ -233,11 +233,18 @@
 "preferred_label": "Салха"
 },
 {
-"id": "group:Geshur",
+"id": "group:Maacah",
 "type": "group",
 "confidence": 0.255,
 "match_method": "canonical",
-"preferred_label": "Geshurites"
+"preferred_label": "Маахитяне"
+},
+{
+"id": "group:Reuben",
+"type": "group",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Колено Рувимово"
 },
 {
 "id": "place:Geshur",
@@ -245,6 +252,13 @@
 "confidence": 0.245,
 "match_method": "canonical",
 "preferred_label": "Гессур"
+},
+{
+"id": "person:Gad",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Гад"
 },
 {
 "id": "place:Maacah",
@@ -261,18 +275,25 @@
 "preferred_label": "Рувим"
 },
 {
-"id": "person:Gad",
-"type": "person",
-"confidence": 0.245,
+"id": "group:Gebal",
+"type": "group",
+"confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Гад"
+"preferred_label": "Гивлитяне"
 },
 {
-"id": "group:Reuben",
-"type": "group",
-"confidence": 0.245,
+"id": "place:Gebal",
+"type": "place",
+"confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Рувим"
+"preferred_label": "Гевал"
+},
+{
+"id": "place:HalakMount",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "гора Халак"
 },
 {
 "id": "place:Aroer.2",
@@ -286,63 +307,28 @@
 "type": "place",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Valley of Mizpeh"
-},
-{
-"id": "group:Gebal",
-"type": "group",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Gebalites"
+"preferred_label": "долина Мицфы"
 },
 {
 "id": "place:LebanonValley",
 "type": "place",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Valley of Lebanon"
+"preferred_label": "Ливанская долина"
 },
 {
 "id": "place:Amana",
 "type": "place",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Mount Amana"
+"preferred_label": "Гора Амана"
 },
 {
-"id": "place:Gebal",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Гевла"
-},
-{
-"id": "place:HalakMount",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Mount Halak"
-},
-{
-"id": "place:Seir",
-"type": "place",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Сеир"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Сидон"
-},
-{
-"id": "person:Caleb",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Халев"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "place:Hamath",
@@ -352,137 +338,18 @@
 "preferred_label": "Емаф"
 },
 {
-"id": "group:Perizzites",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Perizzites"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Левий"
-},
-{
-"id": "group:Hittite",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Hittites"
+"preferred_label": "Лишать владения"
 },
 {
 "id": "group:Jebusites",
 "type": "group",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Jebusites"
-},
-{
-"id": "person:Sihon",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Сигон"
-},
-{
-"id": "place:Jericho",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Иерихон"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Canaanites"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Ханаан"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Левий"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Sidonians"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "place:Ashtaroth",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Аcтароф"
-},
-{
-"id": "person:Jephunneh",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Иефунни"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "place:Heshbon",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Есевон"
-},
-{
-"id": "group:Hivites",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Hivites"
-},
-{
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Arabah"
+"preferred_label": "Иевусеи"
 },
 {
 "id": "place:Jerusalem",
@@ -492,18 +359,67 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "keyterm:Refuge",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Refuge"
-},
-{
-"id": "person:Heth",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Хет"
+"preferred_label": "Израиль"
+},
+{
+"id": "group:Perizzites",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Ферезеи"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Сидон"
+},
+{
+"id": "place:Heshbon",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Есевон"
+},
+{
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Хананеи"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Колено Левия"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "сидоняне"
+},
+{
+"id": "person:Jephunneh",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Иефонния"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Ханаан"
 },
 {
 "id": "person:Gershon",
@@ -513,81 +429,165 @@
 "preferred_label": "Гирсон"
 },
 {
-"id": "realia:Mast",
-"type": "realia",
-"confidence": 0.1225,
+"id": "place:Arabah",
+"type": "place",
+"confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Mast"
+"preferred_label": "Арава"
+},
+{
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Сеир"
+},
+{
+"id": "group:Hivites",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Евеи"
+},
+{
+"id": "keyterm:Refuge",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Прибежище"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Благословлять"
+},
+{
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Иерихон"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Левий"
+},
+{
+"id": "person:Sihon",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Сигон"
+},
+{
+"id": "place:Ashtaroth",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Астароф"
+},
+{
+"id": "person:Heth",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Хет"
+},
+{
+"id": "group:Hittite",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Хеттеи"
+},
+{
+"id": "person:Caleb",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Халев"
 },
 {
 "id": "flora:Juniper",
 "type": "flora",
 "confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "можжевельник греческий"
 },
 {
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1125,
+"id": "realia:Mast",
+"type": "realia",
+"confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Cedar"
+"preferred_label": "Мачта"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Lion"
-},
-{
-"id": "flora:JuniperTree",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Phoenician Juniper"
-},
-{
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Leopard"
+"preferred_label": "Лев"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Крупный рогатый скот"
 },
 {
-"id": "fauna:WildOx",
+"id": "fauna:Leopard",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Wild Ox"
-},
-{
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Cypress"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Fir"
+"preferred_label": "Барс"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "Литой истукан"
+},
+{
+"id": "flora:JuniperTree",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "можжевельник красноплодный"
+},
+{
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Кипарис"
+},
+{
+"id": "fauna:WildOx",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Дикий бык"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Пихта"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Кедр"
 }
 ]
 }

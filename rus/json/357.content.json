@@ -2401,14 +2401,14 @@
 "type": "deity",
 "confidence": 0.4917,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.4734,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Меч"
 },
 {
 "id": "person:Israel",
@@ -2425,13 +2425,6 @@
 "preferred_label": "Египет"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.367,
-"match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.367,
@@ -2439,11 +2432,18 @@
 "preferred_label": "Иуда"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.367,
+"match_method": "canonical",
+"preferred_label": "Давид"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.367,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "place:Babylon",
@@ -2464,7 +2464,7 @@
 "type": "keyterm",
 "confidence": 0.3636,
 "match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
+"preferred_label": "Необрезанный"
 },
 {
 "id": "person:Saul.2",
@@ -2478,56 +2478,49 @@
 "type": "keyterm",
 "confidence": 0.3613,
 "match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "ревность"
 },
 {
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.3602,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Ангел"
 },
 {
 "id": "keyterm:Proscribe.2",
 "type": "keyterm",
 "confidence": 0.3596,
 "match_method": "canonical",
-"preferred_label": "Set Apart for Destruction"
+"preferred_label": "Предать заклятию на уничтожение"
 },
 {
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.3591,
 "match_method": "canonical",
-"preferred_label": "Appoint"
+"preferred_label": "назначать"
 },
 {
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3591,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Страх"
 },
 {
 "id": "person:Hophra",
 "type": "person",
 "confidence": 0.3584,
 "match_method": "canonical",
-"preferred_label": "Вафрия"
+"preferred_label": "Вафрий"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.3579,
 "match_method": "canonical",
-"preferred_label": "Вениамин"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "Филистимлянин"
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "place:Edom",
@@ -2537,18 +2530,18 @@
 "preferred_label": "Едом"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3579,
+"match_method": "canonical",
+"preferred_label": "Филистимляне"
+},
+{
 "id": "person:Benjamin",
 "type": "person",
 "confidence": 0.3579,
 "match_method": "canonical",
 "preferred_label": "Вениамин"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "Филистимской"
 },
 {
 "id": "person:Joab",
@@ -2558,18 +2551,18 @@
 "preferred_label": "Иоав"
 },
 {
-"id": "group:Chaldea",
+"id": "group:Benjamin",
 "type": "group",
-"confidence": 0.3568,
+"confidence": 0.3579,
 "match_method": "canonical",
-"preferred_label": "Chaldeans"
+"preferred_label": "Колено Вениамина"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "Complete"
+"preferred_label": "Непорочный"
 },
 {
 "id": "place:Chaldea",
@@ -2586,11 +2579,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.3557,
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "Иисус"
+"preferred_label": "Халдеи"
 },
 {
 "id": "person:Balaam",
@@ -2600,11 +2593,18 @@
 "preferred_label": "Валаам"
 },
 {
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.3557,
+"match_method": "canonical",
+"preferred_label": "Иисус"
+},
+{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.3557,
 "match_method": "canonical",
-"preferred_label": "Peace"
+"preferred_label": "Мир"
 }
 ]
 }

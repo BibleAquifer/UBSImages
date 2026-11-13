@@ -75,46 +75,46 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Жертвенник"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "Каменный жертвенник"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "Жертвенник скинии"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
 },
 {
 "id": "deity:Asherah",
 "type": "deity",
 "confidence": 0.48,
 "match_method": "canonical",
-"preferred_label": "Asherah"
+"preferred_label": "Ашера"
 },
 {
 "id": "realia:SacredPole",
 "type": "realia",
 "confidence": 0.42,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "Священный столб Ашеры"
 },
 {
 "id": "place:Jerusalem",
@@ -128,14 +128,14 @@
 "type": "realia",
 "confidence": 0.325,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "Изображение"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Israel",
@@ -145,6 +145,20 @@
 "preferred_label": "Израиль"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.29,
@@ -152,39 +166,53 @@
 "preferred_label": "Ваал"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "высота"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "изваяние"
 },
 {
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "Итальянская сосна"
+},
+{
+"id": "keyterm:Destroy",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Уничтожать"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "ревность"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Грешить"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Наставление"
 },
 {
 "id": "place:Kidron",
@@ -194,46 +222,18 @@
 "preferred_label": "Кедрон"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "keyterm:Destroy",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Destroy"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "Прощать"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "Литой истукан"
 }
 ]
 }

@@ -397,14 +397,14 @@
 "type": "realia",
 "confidence": 0.6241,
 "match_method": "canonical",
-"preferred_label": "Spear"
+"preferred_label": "Копье"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4643,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:David",
@@ -421,32 +421,32 @@
 "preferred_label": "Саул"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3857,
-"match_method": "canonical",
-"preferred_label": "Филистимлянин"
-},
-{
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.3857,
 "match_method": "canonical",
-"preferred_label": "Филистимской"
+"preferred_label": "Филистимская земля"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3857,
+"match_method": "canonical",
+"preferred_label": "Филистимляне"
 },
 {
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.3543,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Меч"
 },
 {
 "id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.3495,
 "match_method": "canonical",
-"preferred_label": "Javelin"
+"preferred_label": "Дротик"
 },
 {
 "id": "person:Abishai",
@@ -454,6 +454,13 @@
 "confidence": 0.3317,
 "match_method": "canonical",
 "preferred_label": "Авесса"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Иуда"
 },
 {
 "id": "person:Israel",
@@ -467,35 +474,21 @@
 "type": "group",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "малый щит"
 },
 {
 "id": "realia:WeaversBeam",
 "type": "realia",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Weavers Beam"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.2714,
-"match_method": "canonical",
-"preferred_label": "Иоав"
+"preferred_label": "Ткацкий навой"
 },
 {
 "id": "person:Goliath",
@@ -505,25 +498,39 @@
 "preferred_label": "Голиаф"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2686,
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.2714,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:LargeShield",
-"type": "realia",
-"confidence": 0.2686,
-"match_method": "canonical",
-"preferred_label": "Large Shield"
+"preferred_label": "Иоав"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "лук"
+},
+{
+"id": "realia:LargeShield",
+"type": "realia",
+"confidence": 0.2686,
+"match_method": "canonical",
+"preferred_label": "Большой щит"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2686,
+"match_method": "canonical",
+"preferred_label": "дом"
+},
+{
+"id": "person:Jaare-oregim",
+"type": "person",
+"confidence": 0.2206,
+"match_method": "canonical",
+"preferred_label": "Ягаре-Оргим"
 },
 {
 "id": "person:Elhanan",
@@ -533,29 +540,22 @@
 "preferred_label": "Елханан"
 },
 {
-"id": "person:Jaare-oregim",
-"type": "person",
-"confidence": 0.2206,
-"match_method": "canonical",
-"preferred_label": "Jaare-oregim"
-},
-{
-"id": "person:Abner",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Авенир"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Ионафан"
-},
-{
 "id": "group:Benjamin",
 "type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Колено Вениамина"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Вениамин"
@@ -568,13 +568,6 @@
 "preferred_label": "Египет"
 },
 {
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Гай"
-},
-{
 "id": "place:Gath",
 "type": "place",
 "confidence": 0.2143,
@@ -582,25 +575,32 @@
 "preferred_label": "Геф"
 },
 {
-"id": "person:Joshua.2",
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Гай"
+},
+{
+"id": "person:Abner",
 "type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Иисус"
+"preferred_label": "Авенир"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Стрела"
 },
 {
 "id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Anointed"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
+"preferred_label": "помазанный"
 }
 ]
 }

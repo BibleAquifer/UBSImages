@@ -877,14 +877,14 @@
 "type": "realia",
 "confidence": 0.7267,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
+"preferred_label": "Скиния собрания"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5199,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Moses",
@@ -898,7 +898,7 @@
 "type": "person",
 "confidence": 0.4413,
 "match_method": "canonical",
-"preferred_label": "Аарона"
+"preferred_label": "Аарон"
 },
 {
 "id": "person:Israel",
@@ -912,14 +912,14 @@
 "type": "keyterm",
 "confidence": 0.4143,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Приношение"
 },
 {
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.4031,
 "match_method": "canonical",
-"preferred_label": "Левий"
+"preferred_label": "Колено Левия"
 },
 {
 "id": "person:Levi.3",
@@ -933,84 +933,98 @@
 "type": "keyterm",
 "confidence": 0.3972,
 "match_method": "canonical",
-"preferred_label": "Force to Serve"
+"preferred_label": "Принуждать к служению"
 },
 {
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.3955,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "святой"
 },
 {
 "id": "keyterm:Witness.2",
 "type": "keyterm",
 "confidence": 0.3846,
 "match_method": "canonical",
-"preferred_label": "Testimony"
+"preferred_label": "Свидетельство"
 },
 {
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.3752,
 "match_method": "canonical",
-"preferred_label": "Holy Place"
+"preferred_label": "Святилище"
 },
 {
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3703,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "слава"
 },
 {
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.3689,
 "match_method": "canonical",
-"preferred_label": "Appease"
+"preferred_label": "умилостивлять"
 },
 {
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "confidence": 0.3657,
 "match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Ковчег завета"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "Каменный жертвенник"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "Жертвенник скинии"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3183,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Крупный рогатый скот"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.3126,
+"match_method": "canonical",
+"preferred_label": "чистый"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.3126,
+"match_method": "canonical",
+"preferred_label": "Священство"
 },
 {
 "id": "person:Gershon",
@@ -1020,13 +1034,6 @@
 "preferred_label": "Гирсон"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.3126,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
 "id": "person:Eleazar.2",
 "type": "person",
 "confidence": 0.3126,
@@ -1034,25 +1041,18 @@
 "preferred_label": "Елеазар"
 },
 {
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.3126,
-"match_method": "canonical",
-"preferred_label": "Priesthood"
-},
-{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.3103,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "Шатер"
 },
 {
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.3057,
 "match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
+"preferred_label": "Ковчег Завета"
 },
 {
 "id": "person:Kohath",
@@ -1062,25 +1062,25 @@
 "preferred_label": "Кааф"
 },
 {
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.2594,
+"match_method": "canonical",
+"preferred_label": "Давать во владение"
+},
+{
 "id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.2594,
 "match_method": "canonical",
-"preferred_label": "Bear the Consequences Of"
+"preferred_label": "Нести ответственность"
 },
 {
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2594,
 "match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.2594,
-"match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "Грешить"
 }
 ]
 }

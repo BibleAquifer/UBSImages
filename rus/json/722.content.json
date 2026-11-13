@@ -205,35 +205,42 @@
 "type": "flora",
 "confidence": 0.7303,
 "match_method": "canonical",
-"preferred_label": "Date Palm"
+"preferred_label": "Финиковая пальма"
 },
 {
 "id": "realia:WingedCreature",
 "type": "realia",
 "confidence": 0.3916,
 "match_method": "canonical",
-"preferred_label": "Winged Creature"
+"preferred_label": "Крылатое существо"
 },
 {
 "id": "realia:Entrance",
 "type": "realia",
 "confidence": 0.369,
 "match_method": "canonical",
-"preferred_label": "Entrance"
+"preferred_label": "Вход"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "дом"
 },
 {
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.2981,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
+"preferred_label": "ремесленник"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2935,
+"match_method": "canonical",
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "person:Israel",
@@ -241,13 +248,6 @@
 "confidence": 0.2935,
 "match_method": "canonical",
 "preferred_label": "Израиль"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2935,
-"match_method": "canonical",
-"preferred_label": "LORD"
 },
 {
 "id": "place:Jericho",
@@ -268,21 +268,35 @@
 "type": "flora",
 "confidence": 0.2335,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Виноградная лоза"
 },
 {
 "id": "realia:Window",
 "type": "realia",
 "confidence": 0.2335,
 "match_method": "canonical",
-"preferred_label": "Window"
+"preferred_label": "Окно"
 },
 {
 "id": "place:Negeb",
 "type": "place",
 "confidence": 0.229,
 "match_method": "canonical",
-"preferred_label": "юг"
+"preferred_label": "Негев"
+},
+{
+"id": "group:Kenite",
+"type": "group",
+"confidence": 0.171,
+"match_method": "canonical",
+"preferred_label": "кенеи"
+},
+{
+"id": "place:JerichoValley",
+"type": "place",
+"confidence": 0.171,
+"match_method": "canonical",
+"preferred_label": "Долина Иерихона"
 },
 {
 "id": "place:Arad",
@@ -292,116 +306,32 @@
 "preferred_label": "Арад"
 },
 {
-"id": "place:JerichoValley",
-"type": "place",
-"confidence": 0.171,
-"match_method": "canonical",
-"preferred_label": "Valley of Jericho"
-},
-{
-"id": "group:Kenite",
-"type": "group",
-"confidence": 0.171,
-"match_method": "canonical",
-"preferred_label": "Kenites"
-},
-{
 "id": "keyterm:Hosanna",
 "type": "keyterm",
 "confidence": 0.171,
 "match_method": "canonical",
-"preferred_label": "Hosanna"
+"preferred_label": "Осанна"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Лев"
 },
 {
 "id": "flora:PineTree",
 "type": "flora",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Aleppo Pine"
+"preferred_label": "Алеппская сосна"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Ефрем"
-},
-{
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Амалик"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Bless"
-},
-{
-"id": "place:Ramah.2",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Ramah"
-},
-{
-"id": "person:Deborah.2",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Девора"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Ефрем"
-},
-{
-"id": "place:Zoar",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Zoar"
-},
-{
-"id": "group:Amalek",
-"type": "group",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Amalekites"
+"preferred_label": "Масличное дерево"
 },
 {
 "id": "person:Moses",
@@ -411,6 +341,13 @@
 "preferred_label": "Моисей"
 },
 {
+"id": "keyterm:Fairness",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Справедливость"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.1645,
@@ -418,39 +355,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "keyterm:Fairness",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Fairness"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Самария"
-},
-{
-"id": "place:Bethel",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Bethel"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "Аммон"
+"preferred_label": "Лишать владения"
 },
 {
 "id": "place:Marah",
@@ -460,6 +369,34 @@
 "preferred_label": "Мерра"
 },
 {
+"id": "place:Ramah.2",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Рама"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Ефрем"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Вефиль"
+},
+{
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Амалик"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1645,
@@ -467,130 +404,193 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "group:Ammon",
-"type": "group",
+"id": "person:Deborah.2",
+"type": "person",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Ammonites"
+"preferred_label": "Девора"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
+"id": "place:Zoar",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Сигор"
 },
 {
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "колено Иудино"
 },
 {
-"id": "flora:CitronTree",
-"type": "flora",
-"confidence": 0.111,
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Citron"
+"preferred_label": "Амаликитяне"
 },
 {
-"id": "flora:Poplar",
-"type": "flora",
-"confidence": 0.111,
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Poplar"
+"preferred_label": "Благословлять"
 },
 {
-"id": "flora:AppleTree",
-"type": "flora",
-"confidence": 0.111,
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Apple"
+"preferred_label": "Аммонитяне"
 },
 {
-"id": "flora:Willow",
-"type": "flora",
-"confidence": 0.111,
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "Willow"
+"preferred_label": "Колено Ефремово"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Имя"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Самария"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "Аммон"
 },
 {
 "id": "flora:Myrtle",
 "type": "flora",
 "confidence": 0.111,
 "match_method": "canonical",
-"preferred_label": "Myrtle"
+"preferred_label": "Мирт"
+},
+{
+"id": "flora:AppleTree",
+"type": "flora",
+"confidence": 0.111,
+"match_method": "canonical",
+"preferred_label": "Яблоня"
+},
+{
+"id": "flora:CitronTree",
+"type": "flora",
+"confidence": 0.111,
+"match_method": "canonical",
+"preferred_label": "Цитрон"
+},
+{
+"id": "flora:Poplar",
+"type": "flora",
+"confidence": 0.111,
+"match_method": "canonical",
+"preferred_label": "Тополь"
+},
+{
+"id": "flora:Willow",
+"type": "flora",
+"confidence": 0.111,
+"match_method": "canonical",
+"preferred_label": "Ива"
 },
 {
 "id": "realia:Cloak",
 "type": "realia",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Cloak"
+"preferred_label": "плащ"
 },
 {
 "id": "flora:JuniperTree",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Phoenician Juniper"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Grecian Juniper"
+"preferred_label": "можжевельник красноплодный"
 },
 {
 "id": "flora:Cypress",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Cypress"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
-"id": "realia:Room",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Room"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "Кипарис"
 },
 {
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Fir"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Pomegranate"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "Пихта"
 },
 {
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "Смоква"
+},
+{
+"id": "flora:Juniper",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "можжевельник греческий"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Осел"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Престол"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Гранат"
+},
+{
+"id": "realia:Room",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Комната"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "Вино"
 }
 ]
 }

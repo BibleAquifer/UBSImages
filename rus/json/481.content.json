@@ -139,7 +139,7 @@
 "type": "place",
 "confidence": 0.85,
 "match_method": "canonical",
-"preferred_label": "Македонянин"
+"preferred_label": "Македония"
 },
 {
 "id": "place:Achaia",
@@ -149,13 +149,6 @@
 "preferred_label": "Ахаия"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Ask for"
-},
-{
 "id": "person:Paul",
 "type": "person",
 "confidence": 0.39,
@@ -163,11 +156,18 @@
 "preferred_label": "Павел"
 },
 {
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Просить"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "place:Philippi",
@@ -177,32 +177,18 @@
 "preferred_label": "Филиппы"
 },
 {
+"id": "person:Timothy",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Тимофей"
+},
+{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Church"
+"preferred_label": "Благая весть"
 },
 {
 "id": "person:Jesus.2",
@@ -212,25 +198,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "person:Timothy",
-"type": "person",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Тимофей"
-},
-{
-"id": "keyterm:Spirit.2",
+"id": "keyterm:Church",
 "type": "keyterm",
 "confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "Spirit"
-},
-{
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Римлянин"
+"preferred_label": "Церковь"
 },
 {
 "id": "place:Jerusalem",
@@ -240,6 +212,41 @@
 "preferred_label": "Иерусалим"
 },
 {
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Иудеи"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Рим"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Дух"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Верить"
+},
+{
+"id": "group:Philippi",
+"type": "group",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Филиппийцы"
+},
+{
 "id": "person:Erastus",
 "type": "person",
 "confidence": 0.1825,
@@ -247,25 +254,11 @@
 "preferred_label": "Ераст"
 },
 {
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Асии"
-},
-{
 "id": "keyterm:Share",
 "type": "keyterm",
 "confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "Share"
-},
-{
-"id": "group:Philippi",
-"type": "group",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "Philippians"
+"preferred_label": "делиться"
 },
 {
 "id": "person:Titus",
@@ -275,32 +268,39 @@
 "preferred_label": "Тит"
 },
 {
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "Асия"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Serve"
+"preferred_label": "Служить"
 },
 {
-"id": "keyterm:Declare",
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Declare"
+"preferred_label": "Тело"
 },
 {
-"id": "keyterm:Fellowship",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Fellowship"
+"preferred_label": "Страх"
 },
 {
 "id": "keyterm:Encourage",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Encourage"
+"preferred_label": "ободрять"
 },
 {
 "id": "place:Ephesus",
@@ -310,25 +310,32 @@
 "preferred_label": "Ефес"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Silas",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "Сила"
 },
 {
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Быть учеником"
+},
+{
+"id": "keyterm:Favor",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Благоволение"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "святой"
 },
 {
 "id": "place:Judea",
@@ -338,25 +345,18 @@
 "preferred_label": "Иудея"
 },
 {
-"id": "person:Silas",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Сила"
-},
-{
-"id": "keyterm:Fear",
+"id": "keyterm:Declare",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Возвещать"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Fellowship",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Favor"
+"preferred_label": "общение"
 }
 ]
 }

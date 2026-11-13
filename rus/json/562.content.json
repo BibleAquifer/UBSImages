@@ -277,35 +277,42 @@
 "type": "fauna",
 "confidence": 0.7016,
 "match_method": "canonical",
-"preferred_label": "Dove"
+"preferred_label": "Голубь"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4547,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.4233,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Приношение"
 },
 {
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.4023,
 "match_method": "canonical",
-"preferred_label": "To Sin"
+"preferred_label": "Грешить"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Ягненок"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "Небо"
 },
 {
 "id": "deity:HolySpirit",
@@ -315,39 +322,18 @@
 "preferred_label": "Святой Дух"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2958,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Храм"
 },
 {
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.2819,
 "match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Скиния собрания"
 },
 {
 "id": "person:Jesus.2",
@@ -357,6 +343,13 @@
 "preferred_label": "Иисус"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "Ассирия"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2209,
@@ -364,39 +357,53 @@
 "preferred_label": "Египет"
 },
 {
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "чистый"
+},
+{
 "id": "realia:Seat",
 "type": "realia",
 "confidence": 0.1702,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "седалище"
 },
 {
 "id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "Baptism"
+"preferred_label": "Крещение"
 },
 {
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "Корабль"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "place:EbalMount",
+"type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Ефрем"
+"preferred_label": "Гевал"
 },
 {
-"id": "keyterm:BearWitness",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Bear Witness"
+"preferred_label": "ревность"
+},
+{
+"id": "keyterm:Appease",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "умилостивлять"
 },
 {
 "id": "person:Ephraim",
@@ -413,32 +420,32 @@
 "preferred_label": "Ниневия"
 },
 {
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Appease"
-},
-{
-"id": "place:Moab",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Моав"
+"preferred_label": "Иерусалим"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Ной"
 },
 {
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Спасение"
 },
 {
 "id": "keyterm:Beloved",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Beloved"
+"preferred_label": "Возлюбленный"
 },
 {
 "id": "place:Gilead",
@@ -448,11 +455,39 @@
 "preferred_label": "Галаад"
 },
 {
-"id": "person:Noah",
+"id": "person:John",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Ноа"
+"preferred_label": "Иоанн"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Свидетельствовать"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Колено Ефремово"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Закон"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Моав"
 },
 {
 "id": "place:Samaria",
@@ -466,182 +501,147 @@
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "To Be Kindly Disposed"
-},
-{
-"id": "place:EbalMount",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Mount Ebal"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Иоанн"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Law"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "fauna:Wolf",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "Wolf"
-},
-{
-"id": "fauna:Crane",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "Crane"
-},
-{
-"id": "realia:Kab",
-"type": "realia",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "Kab"
+"preferred_label": "Быть благосклонным"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "Масличное дерево"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Kab",
 "type": "realia",
-"confidence": 0.1005,
+"confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "каб"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1005,
+"id": "fauna:Crane",
+"type": "fauna",
+"confidence": 0.1051,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
+"preferred_label": "Журавль"
+},
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "Волк"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Коза"
 },
 {
-"id": "realia:Veil",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Veil"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Елей помазания"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "fauna:Bear",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Bear"
-},
-{
-"id": "fauna:Swallow",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Swallow"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Frankincense"
+"preferred_label": "Крупный рогатый скот"
 },
 {
 "id": "fauna:Sparrow",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Sparrow"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Rooster"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Snake"
+"preferred_label": "Воробей"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Деньги"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Оливковое масло"
+},
+{
+"id": "fauna:Swallow",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Ласточка"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Ладан"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Петух"
+},
+{
+"id": "fauna:Bear",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Медведь"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Ефа"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Покрывало"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Змея"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "дом"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Стадо"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Осел"
 }
 ]
 }
