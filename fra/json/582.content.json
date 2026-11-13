@@ -236,7 +236,7 @@
 "type": "realia",
 "confidence": 0.2343,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "char"
 },
 {
 "id": "person:Elijah",
@@ -250,14 +250,7 @@
 "type": "fauna",
 "confidence": 0.2286,
 "match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Job"
+"preferred_label": "cheval"
 },
 {
 "id": "keyterm:Arrow",
@@ -267,11 +260,11 @@
 "preferred_label": "flèche"
 },
 {
-"id": "keyterm:Woe",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "person:Job",
+"type": "person",
+"confidence": 0.2257,
 "match_method": "canonical",
-"preferred_label": "Woe"
+"preferred_label": "Job"
 },
 {
 "id": "keyterm:PronounceInnocent",
@@ -281,25 +274,18 @@
 "preferred_label": "déclarer innocent"
 },
 {
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Negev"
-},
-{
-"id": "keyterm:Holy",
+"id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "saint"
+"preferred_label": "malheur"
 },
 {
-"id": "person:Elisha",
-"type": "person",
+"id": "place:Gilgal.3",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Élisée"
+"preferred_label": "Guilgal"
 },
 {
 "id": "person:Israel",
@@ -309,11 +295,11 @@
 "preferred_label": "Israël"
 },
 {
-"id": "keyterm:TheWay",
+"id": "keyterm:Utterance",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "chemin"
+"preferred_label": "oracle"
 },
 {
 "id": "keyterm:Strength",
@@ -323,6 +309,34 @@
 "preferred_label": "force"
 },
 {
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Élisée"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "saint"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Néguev"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "la Voie"
+},
+{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.1629,
@@ -330,95 +344,81 @@
 "preferred_label": "Ammon"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Gilgal"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Utterance"
+"preferred_label": "crainte"
 },
 {
 "id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.1086,
 "match_method": "canonical",
-"preferred_label": "Thistle"
-},
-{
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Vulture"
-},
-{
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Rams Horn"
-},
-{
-"id": "realia:Arrow",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Arrow"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Wagon"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Bow"
-},
-{
-"id": "realia:Plaster",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Plaster"
+"preferred_label": "chardon"
 },
 {
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "navire"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "char"
+},
+{
+"id": "realia:Plaster",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "plâtre"
+},
+{
+"id": "realia:Arrow",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "flèche"
+},
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "arc"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "orge"
 },
 {
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "grain"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "corne de bélier"
+},
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "vautour"
 }
 ]
 }

@@ -93,14 +93,7 @@
 "type": "place",
 "confidence": 0.405,
 "match_method": "canonical",
-"preferred_label": "Dead Sea"
-},
-{
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "plaine"
+"preferred_label": "mer Morte"
 },
 {
 "id": "place:Jordan",
@@ -110,6 +103,20 @@
 "preferred_label": "Jourdain"
 },
 {
+"id": "place:Arabah",
+"type": "place",
+"confidence": 0.385,
+"match_method": "canonical",
+"preferred_label": "Arabah"
+},
+{
+"id": "place:Beth-jeshimoth",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "Beth-Jeschimoth"
+},
+{
 "id": "place:Jericho",
 "type": "place",
 "confidence": 0.31,
@@ -117,39 +124,11 @@
 "preferred_label": "Jéricho"
 },
 {
-"id": "place:Beth-jeshimoth",
-"type": "place",
-"confidence": 0.31,
-"match_method": "canonical",
-"preferred_label": "Beth-Yeshimoth"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "Moab"
-},
-{
-"id": "place:Almon-diblathaim",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Alèmeth"
-},
-{
-"id": "place:Beth-peor",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Beth-Peor"
-},
-{
-"id": "place:Zophim",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Tsophim"
 },
 {
 "id": "place:Chinnereth",
@@ -166,32 +145,25 @@
 "preferred_label": "Bamoth"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Dan"
-},
-{
-"id": "place:Canaan",
+"id": "place:Beth-peor",
 "type": "place",
-"confidence": 0.195,
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Canaan"
+"preferred_label": "Beth-Peor"
 },
 {
-"id": "place:Dan",
+"id": "place:Almon-diblathaim",
 "type": "place",
-"confidence": 0.195,
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Dan"
+"preferred_label": "Almon-Diblathaïm"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.195,
+"id": "place:Zophim",
+"type": "place",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Tsophim"
 },
 {
 "id": "person:Moses",
@@ -201,13 +173,6 @@
 "preferred_label": "Moïse"
 },
 {
-"id": "place:Nebo",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Nebo"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.195,
@@ -215,11 +180,18 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "place:Gilead",
+"id": "place:GalileeSea",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Galaad"
+"preferred_label": "mer de Galilée"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Dan"
 },
 {
 "id": "place:MoabPlains",
@@ -229,53 +201,81 @@
 "preferred_label": "plaines de Moab"
 },
 {
-"id": "place:GalileeSea",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "place:Canaan",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Sea of Galilee"
+"preferred_label": "Canaan"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.135,
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "tribu de Dan"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.135,
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Galaad"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.135,
+"id": "place:Nebo",
+"type": "place",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Nebo"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gros bétail"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "autel"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "autel de pierre"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "agneau"
 }
 ]
 }

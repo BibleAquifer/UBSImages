@@ -345,14 +345,7 @@
 "type": "fauna",
 "confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "chèvre"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -360,6 +353,13 @@
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "être attiré à servir"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "troupeau"
 },
 {
 "id": "person:Benjamin",
@@ -373,7 +373,7 @@
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "aimer"
+"preferred_label": "amour"
 },
 {
 "id": "person:Naphtali",
@@ -383,13 +383,6 @@
 "preferred_label": "Nephthali"
 },
 {
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.2244,
-"match_method": "canonical",
-"preferred_label": "théraphim"
-},
-{
 "id": "person:Dan",
 "type": "person",
 "confidence": 0.2244,
@@ -397,18 +390,18 @@
 "preferred_label": "Dan"
 },
 {
+"id": "deity:Teraphim",
+"type": "deity",
+"confidence": 0.2244,
+"match_method": "canonical",
+"preferred_label": "théraphim"
+},
+{
 "id": "place:Ramah.2",
 "type": "place",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Ramah"
-},
-{
-"id": "realia:HouseholdIdols",
-"type": "realia",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "Household Idols"
+"preferred_label": "Rama"
 },
 {
 "id": "place:Paddan-aram",
@@ -422,7 +415,7 @@
 "type": "flora",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Mandrake"
+"preferred_label": "mandragore"
 },
 {
 "id": "place:Zelzah",
@@ -432,18 +425,67 @@
 "preferred_label": "Tseltsach"
 },
 {
-"id": "keyterm:Encourage",
+"id": "realia:HouseholdIdols",
+"type": "realia",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "idoles domestiques"
+},
+{
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "prier"
+"preferred_label": "donner en possession"
 },
 {
-"id": "person:Rebekah",
+"id": "person:Esau",
 "type": "person",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Rebecca"
+"preferred_label": "Ésaü"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Béthel"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "paix"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Anciens"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "tromperie"
+},
+{
+"id": "keyterm:Zealous",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "être jaloux"
 },
 {
 "id": "place:Canaan",
@@ -457,14 +499,14 @@
 "type": "group",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Benjamin"
+"preferred_label": "tribu de Benjamin"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
+"id": "person:Rebekah",
+"type": "person",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "prier"
+"preferred_label": "Rebecca"
 },
 {
 "id": "person:Reuben",
@@ -474,95 +516,53 @@
 "preferred_label": "Ruben"
 },
 {
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Ésaü"
-},
-{
-"id": "keyterm:Zealous",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "être zélé"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "tromperie"
-},
-{
-"id": "place:Bethel",
-"type": "place",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Bethel"
-},
-{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "tente"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Elders"
-},
-{
-"id": "keyterm:Possess",
+"id": "keyterm:Encourage",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "laissiez en possession"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "état intact"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1,
-"match_method": "canonical",
-"preferred_label": "Sheep"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1,
-"match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "encourager"
 },
 {
 "id": "realia:ToSaddle",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "To Saddle"
+"preferred_label": "seller"
 },
 {
 "id": "fauna:Camel",
 "type": "fauna",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Camel"
+"preferred_label": "chameau"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1,
+"match_method": "canonical",
+"preferred_label": "blé"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1,
+"match_method": "canonical",
+"preferred_label": "agneau"
 },
 {
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Donkey"
+"preferred_label": "âne"
 }
 ]
 }

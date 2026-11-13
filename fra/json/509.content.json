@@ -147,13 +147,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "lèpre"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3114,
@@ -161,18 +154,11 @@
 "preferred_label": "pécher"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
-"confidence": 0.25,
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "Benaja"
-},
-{
-"id": "person:Jehoiada",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Jehojada"
+"preferred_label": "maladie de peau contagieuse"
 },
 {
 "id": "place:Kabzeel",
@@ -182,11 +168,18 @@
 "preferred_label": "Kabtseel"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2409,
+"id": "person:Jehoiada",
+"type": "person",
+"confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "Jehojada"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Benaja"
 },
 {
 "id": "deity:Lord",
@@ -196,74 +189,32 @@
 "preferred_label": "Éternel"
 },
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Moab"
+},
+{
 "id": "realia:Wool",
 "type": "realia",
 "confidence": 0.19,
 "match_method": "canonical",
-"preferred_label": "Wool"
+"preferred_label": "laine"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "lion"
 },
 {
 "id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Mount Hermon"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Liban"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "être ferme"
-},
-{
-"id": "person:Miriam",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Miriam"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "stupide"
+"preferred_label": "fosse"
 },
 {
 "id": "person:Naaman.3",
@@ -271,20 +222,6 @@
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Naaman"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "pardonner"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "craindre"
 },
 {
 "id": "keyterm:Ardour",
@@ -301,46 +238,109 @@
 "preferred_label": "Aaron"
 },
 {
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "enfer"
+},
+{
+"id": "person:Miriam",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "gloire"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Liban"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "mont Hermon"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "pardonner"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "bien établi"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "stupide"
+},
+{
 "id": "flora:Soap",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "Hammada"
+"preferred_label": "hammada"
 },
 {
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Purple Cloth"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Coriander"
+"preferred_label": "étoffe de pourpre"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "orge"
 },
 {
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "vêtement"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "coriandre"
 },
 {
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "tente"
 }
 ]
 }

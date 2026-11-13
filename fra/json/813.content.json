@@ -187,7 +187,7 @@
 "type": "realia",
 "confidence": 0.6757,
 "match_method": "canonical",
-"preferred_label": "Cooking Pot"
+"preferred_label": "marmite"
 },
 {
 "id": "deity:Lord",
@@ -201,14 +201,14 @@
 "type": "realia",
 "confidence": 0.4329,
 "match_method": "canonical",
-"preferred_label": "Shovel"
+"preferred_label": "pelle"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3864,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "person:Hiram.2",
@@ -229,14 +229,14 @@
 "type": "realia",
 "confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "Stew"
+"preferred_label": "potage"
 },
 {
 "id": "realia:Fork",
 "type": "realia",
 "confidence": 0.2454,
 "match_method": "canonical",
-"preferred_label": "Fork"
+"preferred_label": "fourchette"
 },
 {
 "id": "person:Israel",
@@ -250,84 +250,56 @@
 "type": "realia",
 "confidence": 0.1793,
 "match_method": "canonical",
-"preferred_label": "Wick Trimmer"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "mouchettes"
 },
 {
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "autel"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "autel de pierre"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1661,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1721,
 "match_method": "canonical",
-"preferred_label": "Édom"
+"preferred_label": "autel du tabernacle"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1721,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
 },
 {
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Woe"
+"preferred_label": "malheur"
+},
+{
+"id": "place:Gilgal.3",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Guilgal"
 },
 {
 "id": "keyterm:Lot",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "destin"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Elisha",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Élisée"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "parole du seigneur"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "sacrifice de la pâque"
+"preferred_label": "sort"
 },
 {
 "id": "place:Egypt",
@@ -337,11 +309,60 @@
 "preferred_label": "Égypte"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
 "id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "proverbe"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Édom"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Élisée"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "parole de l'Éternel"
+},
+{
+"id": "keyterm:Passover",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "sacrifice de la Pâque"
 },
 {
 "id": "keyterm:Stupid",
@@ -351,81 +372,60 @@
 "preferred_label": "stupide"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Gilgal"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "Bowl"
-},
-{
 "id": "flora:Ivy",
 "type": "flora",
 "confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Ivy"
+"preferred_label": "lierre"
 },
 {
 "id": "flora:Colocynth",
 "type": "flora",
 "confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Colocynth"
+"preferred_label": "coloquinte"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "realia:Lampstand.2",
+"id": "realia:Bowl",
 "type": "realia",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "Lampstand"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "bassin"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "ronce"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "vigne"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "argent"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "cheval"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "chandelier"
 }
 ]
 }

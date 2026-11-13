@@ -128,56 +128,63 @@
 "type": "realia",
 "confidence": 0.4753,
 "match_method": "canonical",
-"preferred_label": "Throne"
+"preferred_label": "trône"
 },
 {
 "id": "realia:Seal",
 "type": "realia",
 "confidence": 0.3459,
 "match_method": "canonical",
-"preferred_label": "Seal"
+"preferred_label": "sceau"
 },
 {
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.3412,
 "match_method": "canonical",
-"preferred_label": "adorer"
+"preferred_label": "se prosterner"
 },
 {
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.3294,
 "match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "deity:FirstLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "First Living Creature"
+"preferred_label": "Un ange"
 },
 {
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "Third Living Creature"
+"preferred_label": "troisième être vivant"
 },
 {
-"id": "deity:SecondLivingCreature",
+"id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "Second Living Creature"
+"preferred_label": "premier être vivant"
 },
 {
 "id": "deity:FourthLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
 "match_method": "canonical",
-"preferred_label": "Fourth Living Creature"
+"preferred_label": "quatrième être vivant"
+},
+{
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "deuxième être vivant"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "certainement !"
 },
 {
 "id": "keyterm:Life",
@@ -187,13 +194,6 @@
 "preferred_label": "vie"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "éternellement"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2529,
@@ -201,39 +201,25 @@
 "preferred_label": "saint"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "sûrement!"
+"preferred_label": "toujours"
 },
 {
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Bowl"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "acheter"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "prier"
+"preferred_label": "bol"
 },
 {
 "id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "agir par méchanceté"
+"preferred_label": "agir injustement"
 },
 {
 "id": "keyterm:Glory",
@@ -250,109 +236,123 @@
 "preferred_label": "esprit"
 },
 {
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "prier"
+},
+{
 "id": "deity:Voice",
 "type": "deity",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "A Disembodied Voice"
+"preferred_label": "voix désincarnée"
 },
 {
-"id": "realia:Quart",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Quart"
+"preferred_label": "racheter"
 },
 {
 "id": "realia:Balance",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Balance"
+"preferred_label": "balance"
+},
+{
+"id": "realia:Quart",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "mesure"
 },
 {
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Denarius"
-},
-{
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Vulture"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Incense"
+"preferred_label": "denier"
 },
 {
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "lion"
+},
+{
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "encens"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gros bétail"
 },
 {
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "cheval"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "huile d'olive"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "orge"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "lyre"
 },
 {
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "rouleau"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "blé"
+},
+{
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "vautour"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "vin"
 }
 ]
 }
