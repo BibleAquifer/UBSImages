@@ -1957,7 +1957,7 @@
 "type": "deity",
 "confidence": 0.4601,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "place:Jerusalem",
@@ -1985,18 +1985,18 @@
 "type": "group",
 "confidence": 0.3793,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.3723,
-"match_method": "canonical",
-"preferred_label": "Lewi"
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "group:Levi",
 "type": "group",
+"confidence": 0.3723,
+"match_method": "canonical",
+"preferred_label": "suku Lewi"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.3723,
 "match_method": "canonical",
 "preferred_label": "Lewi"
@@ -2030,18 +2030,18 @@
 "preferred_label": "persembahan"
 },
 {
-"id": "place:CornerGate",
-"type": "place",
-"confidence": 0.3594,
-"match_method": "canonical",
-"preferred_label": "Gerbang"
-},
-{
 "id": "place:WaterGate",
 "type": "place",
 "confidence": 0.3594,
 "match_method": "canonical",
-"preferred_label": "Air"
+"preferred_label": "Pintu Gerbang Air"
+},
+{
+"id": "place:CornerGate",
+"type": "place",
+"confidence": 0.3594,
+"match_method": "canonical",
+"preferred_label": "Pintu Gerbang Sudut"
 },
 {
 "id": "keyterm:Bless",
@@ -2051,25 +2051,11 @@
 "preferred_label": "memberkati"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "kemuliaan"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Betlehem"
+"preferred_label": "Malaikat"
 },
 {
 "id": "place:Philistine",
@@ -2079,81 +2065,88 @@
 "preferred_label": "Filistin"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Betlehem"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "kemuliaan"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "kudus"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.345,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "rumah"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Bait Allah"
 },
 {
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.3137,
 "match_method": "canonical",
-"preferred_label": "Cubit"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Ikan"
-},
-{
-"id": "place:BenjaminGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Benyamin"
-},
-{
-"id": "place:ValleyGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Lebak"
+"preferred_label": "hasta"
 },
 {
 "id": "place:EphraimGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "Efraim"
+"preferred_label": "Pintu Gerbang Efraim"
+},
+{
+"id": "place:ValleyGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "Pintu Gerbang Lebak"
+},
+{
+"id": "place:BenjaminGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "Pintu Gerbang Benyamin"
+},
+{
+"id": "place:FishGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "Pintu Gerbang Ikan"
 },
 {
 "id": "place:DungGate",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "gerbang"
+"preferred_label": "Pintu Gerbang Sampah"
 },
 {
 "id": "place:TowerOfHananel",
 "type": "place",
 "confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "menara"
-},
-{
-"id": "place:Arad",
-"type": "place",
-"confidence": 0.3062,
-"match_method": "canonical",
-"preferred_label": "Arad"
+"preferred_label": "Menara Hananeel"
 },
 {
 "id": "person:Haman",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "Haman"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "Arad"
 }
 ]
 }

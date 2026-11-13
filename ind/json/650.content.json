@@ -314,7 +314,7 @@
 "type": "realia",
 "confidence": 0.5338,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "gulungan kitab"
 },
 {
 "id": "place:Jerusalem",
@@ -324,13 +324,6 @@
 "preferred_label": "Yerusalem"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.4344,
-"match_method": "canonical",
-"preferred_label": "Hizkia"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4344,
@@ -338,18 +331,25 @@
 "preferred_label": "Israel"
 },
 {
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "Hizkia"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4156,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "place:Assyria",
 "type": "place",
 "confidence": 0.4062,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Asyur"
 },
 {
 "id": "place:Eglon",
@@ -366,6 +366,13 @@
 "preferred_label": "Yarmut"
 },
 {
+"id": "place:Libnah.2",
+"type": "place",
+"confidence": 0.3417,
+"match_method": "canonical",
+"preferred_label": "Libna"
+},
+{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.3417,
@@ -373,25 +380,18 @@
 "preferred_label": "Babel"
 },
 {
-"id": "place:Libnah.2",
-"type": "place",
-"confidence": 0.3417,
-"match_method": "canonical",
-"preferred_label": "Libnah"
-},
-{
 "id": "person:Rabshakeh",
 "type": "person",
 "confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "juru"
+"preferred_label": "Rabsyake"
 },
 {
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "orang Yahudi"
 },
 {
 "id": "place:Azekah",
@@ -401,8 +401,8 @@
 "preferred_label": "Azeka"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2781,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
@@ -415,18 +415,11 @@
 "preferred_label": "Ahasyweros"
 },
 {
-"id": "person:Joshua.2",
-"type": "person",
+"id": "place:Jezreel.2",
+"type": "place",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Yosua"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2781,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Yizreel"
 },
 {
 "id": "place:Hebron",
@@ -436,25 +429,25 @@
 "preferred_label": "Hebron"
 },
 {
-"id": "place:Jezreel.2",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Yizreel"
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Yosua"
 },
 {
 "id": "place:WashersField",
 "type": "place",
 "confidence": 0.2271,
 "match_method": "canonical",
-"preferred_label": "saluran"
-},
-{
-"id": "person:Baladan",
-"type": "person",
-"confidence": 0.2271,
-"match_method": "canonical",
-"preferred_label": "bin"
+"preferred_label": "Padang Tukang Penatu"
 },
 {
 "id": "person:Merodach-baladan",
@@ -464,6 +457,13 @@
 "preferred_label": "Merodakh-Baladan"
 },
 {
+"id": "person:Baladan",
+"type": "person",
+"confidence": 0.2271,
+"match_method": "canonical",
+"preferred_label": "Baladan"
+},
+{
 "id": "person:Uriah",
 "type": "person",
 "confidence": 0.2229,
@@ -471,18 +471,11 @@
 "preferred_label": "Uria"
 },
 {
-"id": "person:Zephaniah.2",
-"type": "person",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Zefanya"
-},
-{
-"id": "keyterm:InfectiousSkinDisease",
-"type": "keyterm",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "penyakit kulit menular"
+"preferred_label": "Malaikat"
 },
 {
 "id": "person:Naboth",
@@ -499,11 +492,18 @@
 "preferred_label": "Yeremia"
 },
 {
-"id": "person:Ahab",
+"id": "person:Zephaniah.2",
 "type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "Ahab"
+"preferred_label": "Zefanya"
+},
+{
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "penyakit kulit menular"
 },
 {
 "id": "keyterm:Offering",
@@ -520,18 +520,102 @@
 "preferred_label": "berbuat dosa"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "person:Ahab",
+"type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Ahab"
 },
 {
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.2181,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "kuda"
+},
+{
+"id": "person:Japhia",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Yafia"
+},
+{
+"id": "place:Gezer",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Gezer"
+},
+{
+"id": "place:Adoraim",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Adoraim"
+},
+{
+"id": "person:Rab-saris",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Rab-saris"
+},
+{
+"id": "person:Debir",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Debir"
+},
+{
+"id": "place:Zanoah",
+"type": "place",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Zanoah"
+},
+{
+"id": "person:Maaseiah.18",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Maaseya"
+},
+{
+"id": "person:Tartan",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Tartan"
+},
+{
+"id": "person:Adoni-zedek",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Adoni-Zedek"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Amazia"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Yoab"
+},
+{
+"id": "person:Horam",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Horam"
 },
 {
 "id": "person:Hammedatha",
@@ -548,214 +632,11 @@
 "preferred_label": "Hoham"
 },
 {
-"id": "place:Zanoah",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Zanoah"
-},
-{
-"id": "place:Adoraim",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Adoraim"
-},
-{
-"id": "person:Horam",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Horam"
-},
-{
-"id": "person:Adoni-zedek",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Adoni-Zedek"
-},
-{
-"id": "person:Rab-saris",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Nergal-Sarezer"
-},
-{
-"id": "person:Japhia",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Yafia"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Amazia"
-},
-{
-"id": "place:Gezer",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Gezer"
-},
-{
-"id": "person:Tartan",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "panglima"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Yoab"
-},
-{
-"id": "person:Maaseiah.18",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Maaseya"
-},
-{
-"id": "person:Debir",
-"type": "person",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "Debir"
-},
-{
 "id": "person:Piram",
 "type": "person",
 "confidence": 0.1635,
 "match_method": "canonical",
 "preferred_label": "Piream"
-},
-{
-"id": "place:Gibeon",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Gibeon"
-},
-{
-"id": "person:Agag.2",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Agag"
-},
-{
-"id": "place:HinnomValley",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Valley of Hinnom"
-},
-{
-"id": "place:Bozkath",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Bozkat"
-},
-{
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Haman"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Nebukadnezar"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "memberontak"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Bersyeba"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "damai"
-},
-{
-"id": "person:Sennacherib",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Sanherib"
-},
-{
-"id": "group:Agag",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Agagites"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "place:Adullam",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Adulam"
-},
-{
-"id": "person:Jezebel",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Izebel"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Daud"
-},
-{
-"id": "person:Jehu.2",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "Yehu"
 },
 {
 "id": "keyterm:Truth",
@@ -765,18 +646,25 @@
 "preferred_label": "kebenaran"
 },
 {
-"id": "keyterm:Proscribe.2",
-"type": "keyterm",
+"id": "place:Gibeon",
+"type": "place",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "mengkhususkan"
+"preferred_label": "Gibeon"
 },
 {
-"id": "person:Naaman.3",
+"id": "place:HinnomValley",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Lembah Hinom"
+},
+{
+"id": "person:Jehu.2",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Naaman"
+"preferred_label": "Yehu"
 },
 {
 "id": "person:Mordecai.2",
@@ -786,60 +674,172 @@
 "preferred_label": "Mordekhai"
 },
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "damai sejahtera"
+},
+{
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "menumpas"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "kebaikan"
+"preferred_label": "kemurahan"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.1588,
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Bersyeba"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1588,
+"id": "person:Agag.2",
+"type": "person",
+"confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Agag"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1588,
+"id": "place:Bozkath",
+"type": "place",
+"confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Bozkat"
 },
 {
-"id": "realia:Talent",
-"type": "realia",
-"confidence": 0.1588,
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "Talent"
+"preferred_label": "Nebukadnezar"
+},
+{
+"id": "person:Naaman.3",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Naaman"
+},
+{
+"id": "group:Agag",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "orang Agag"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "orang Amori"
+},
+{
+"id": "person:Sennacherib",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Sanherib"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Daud"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "memberontak"
+},
+{
+"id": "place:Adullam",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Adulam"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Haman"
+},
+{
+"id": "person:Jezebel",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Izebel"
 },
 {
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "kereta"
 },
 {
-"id": "realia:Basket",
+"id": "realia:Talent",
 "type": "realia",
-"confidence": 0.0994,
+"confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "talenta"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "pedang"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "uang"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "rumah"
 },
 {
 "id": "realia:Weapons",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "Weapons"
+"preferred_label": "senjata"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "bakul"
 }
 ]
 }

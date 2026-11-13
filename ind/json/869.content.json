@@ -355,7 +355,7 @@
 "type": "deity",
 "confidence": 0.5188,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "keyterm:Bless",
@@ -369,7 +369,14 @@
 "type": "place",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Hell"
+"preferred_label": "Neraka"
+},
+{
+"id": "keyterm:Intention",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "niat"
 },
 {
 "id": "keyterm:Kindness",
@@ -379,18 +386,25 @@
 "preferred_label": "kebaikan"
 },
 {
-"id": "keyterm:Intention",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "niat jahat"
-},
-{
-"id": "keyterm:Redeem",
+"id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "membayar lunas"
+"preferred_label": "mencari perlindungan"
+},
+{
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "berakal budi"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "berlaku adil"
 },
 {
 "id": "person:Joseph.10",
@@ -400,53 +414,11 @@
 "preferred_label": "Yusuf"
 },
 {
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "memiliki pengertian"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Libanon"
-},
-{
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "mencari perlindungan"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Teberau"
-},
-{
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "menjadi (atau menunjukkan diri) tidak bersalah"
-},
-{
-"id": "keyterm:Horn",
-"type": "keyterm",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "tanduk"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "panah"
+"preferred_label": "anak panah"
 },
 {
 "id": "person:Noah",
@@ -456,6 +428,27 @@
 "preferred_label": "Nuh"
 },
 {
+"id": "place:RedSea",
+"type": "place",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Laut Teberau"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Libanon"
+},
+{
+"id": "keyterm:Horn",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "tanduk"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.158,
@@ -463,74 +456,81 @@
 "preferred_label": "takut"
 },
 {
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "menebus"
+},
+{
 "id": "realia:Throne",
 "type": "realia",
 "confidence": 0.1561,
 "match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "takhta"
 },
 {
 "id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "Hand-Mill"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Dragon"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Foundation"
-},
-{
-"id": "flora:Cattails",
-"type": "flora",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Cattails"
+"preferred_label": "batu kilangan tangan"
 },
 {
 "id": "realia:WingedCreature",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "Winged Creature"
+"preferred_label": "makhluk bersayap"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "kuda"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "fondasi"
+},
+{
+"id": "flora:Cattails",
+"type": "flora",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "teberau"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "rumah"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "anak domba"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "naga"
 },
 {
 "id": "realia:Trap",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "Trap"
+"preferred_label": "perangkap"
 }
 ]
 }

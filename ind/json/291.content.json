@@ -1243,14 +1243,14 @@
 "type": "deity",
 "confidence": 0.5353,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.4488,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "patung"
 },
 {
 "id": "person:Israel",
@@ -1264,28 +1264,21 @@
 "type": "deity",
 "confidence": 0.4162,
 "match_method": "canonical",
-"preferred_label": "berhala"
+"preferred_label": "Asyera"
 },
 {
 "id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.4081,
 "match_method": "canonical",
-"preferred_label": "hal yang dibenci"
+"preferred_label": "kejijikan"
 },
 {
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.4074,
 "match_method": "canonical",
-"preferred_label": "pencemaran"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3787,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "penajisan"
 },
 {
 "id": "person:Judah.4",
@@ -1295,11 +1288,11 @@
 "preferred_label": "Yehuda"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3765,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3787,
 "match_method": "canonical",
-"preferred_label": "berbuat dosa"
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "place:Jerusalem",
@@ -1307,6 +1300,13 @@
 "confidence": 0.3765,
 "match_method": "canonical",
 "preferred_label": "Yerusalem"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3765,
+"match_method": "canonical",
+"preferred_label": "berbuat dosa"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1323,18 +1323,25 @@
 "preferred_label": "Baal"
 },
 {
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.3676,
-"match_method": "canonical",
-"preferred_label": "tidak menghargai"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.3676,
 "match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
+"preferred_label": "memaksa untuk melayani"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.3676,
+"match_method": "canonical",
+"preferred_label": "mencemarkan"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3654,
+"match_method": "canonical",
+"preferred_label": "kecemburuan"
 },
 {
 "id": "place:Egypt",
@@ -1344,88 +1351,81 @@
 "preferred_label": "Mesir"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3654,
-"match_method": "canonical",
-"preferred_label": "mencurigai"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.362,
 "match_method": "canonical",
-"preferred_label": "murni"
+"preferred_label": "tahir"
 },
 {
 "id": "realia:SacredPole",
 "type": "realia",
 "confidence": 0.3601,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3385,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.3385,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3385,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "tiang berhala"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3385,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "mezbah batu"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.3385,
+"match_method": "canonical",
+"preferred_label": "Mezbah"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3385,
+"match_method": "canonical",
+"preferred_label": "mezbah Bait Allah"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3385,
+"match_method": "canonical",
+"preferred_label": "mezbah Kemah Suci"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.3295,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "bukit pengorbanan"
 },
 {
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.3275,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "pinus payung"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3121,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "rumah"
 },
 {
 "id": "realia:SacredPillar",
 "type": "realia",
 "confidence": 0.3108,
 "match_method": "canonical",
-"preferred_label": "Sacred Pillar"
+"preferred_label": "tugu berhala"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.3099,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "patung pahatan"
 },
 {
 "id": "deity:Molech",
@@ -1435,18 +1435,18 @@
 "preferred_label": "Molokh"
 },
 {
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.3088,
-"match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.3088,
 "match_method": "canonical",
-"preferred_label": "kasihi"
+"preferred_label": "kasih"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.3088,
+"match_method": "canonical",
+"preferred_label": "orang Amon"
 }
 ]
 }

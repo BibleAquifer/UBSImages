@@ -91,7 +91,7 @@
 "type": "flora",
 "confidence": 0.7525,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "onak"
 },
 {
 "id": "person:Israel",
@@ -99,6 +99,13 @@
 "confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Amazia"
 },
 {
 "id": "place:Lebanon",
@@ -115,6 +122,13 @@
 "preferred_label": "Yehuda"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.275,
@@ -122,67 +136,32 @@
 "preferred_label": "Yoas"
 },
 {
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Amazia"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.2317,
 "match_method": "canonical",
-"preferred_label": "Nettle"
+"preferred_label": "jelatang"
 },
 {
 "id": "flora:Cedar",
 "type": "flora",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Salmuna"
+"preferred_label": "aras"
 },
 {
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "lengkap"
+"preferred_label": "tidak bercela"
 },
 {
-"id": "person:Job",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Ayub"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Sukot"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Mesir"
+"preferred_label": "TUHAN"
 },
 {
 "id": "keyterm:Dispossess",
@@ -192,25 +171,11 @@
 "preferred_label": "mengusir"
 },
 {
-"id": "person:Zebah",
+"id": "person:Zalmunna",
 "type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Zebah"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "pengucapan"
+"preferred_label": "Salmuna"
 },
 {
 "id": "person:Gideon",
@@ -220,11 +185,11 @@
 "preferred_label": "Gideon"
 },
 {
-"id": "keyterm:Stupid",
-"type": "keyterm",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "bodoh"
+"preferred_label": "Mesir"
 },
 {
 "id": "place:Memphis",
@@ -234,81 +199,116 @@
 "preferred_label": "Memfis"
 },
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "amsal"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Sukot"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Ayub"
+},
+{
+"id": "person:Zebah",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Zebah"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "bodoh"
+},
+{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Weed"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Jackal"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "lalang"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "puteri malu"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "lubang"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "uang"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "bunga bakung"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "anjing hutan"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "jelai"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "burung hantu"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "burung unta"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "gandum"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "kayu cendana"
 }
 ]
 }

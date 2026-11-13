@@ -397,14 +397,14 @@
 "type": "deity",
 "confidence": 0.4571,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "realia:Seal",
 "type": "realia",
 "confidence": 0.4456,
 "match_method": "canonical",
-"preferred_label": "Seal"
+"preferred_label": "meterai"
 },
 {
 "id": "person:Israel",
@@ -418,21 +418,14 @@
 "type": "realia",
 "confidence": 0.3892,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "gulungan kitab"
 },
 {
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.3329,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "tukang"
 },
 {
 "id": "person:Judah.4",
@@ -442,18 +435,18 @@
 "preferred_label": "Yehuda"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
 "id": "person:Haman",
 "type": "person",
 "confidence": 0.2746,
 "match_method": "canonical",
 "preferred_label": "Haman"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.2714,
-"match_method": "canonical",
-"preferred_label": "Roh"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -463,32 +456,18 @@
 "preferred_label": "bertindak jahat"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2143,
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.2714,
 "match_method": "canonical",
-"preferred_label": "khusus"
+"preferred_label": "Roh Kudus"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "sorga"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Benyamin"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "percaya"
+"preferred_label": "Malaikat"
 },
 {
 "id": "person:Ahasuerus",
@@ -498,60 +477,25 @@
 "preferred_label": "Ahasyweros"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Benyamin"
-},
-{
-"id": "group:Jews",
+"id": "group:Benjamin",
 "type": "group",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "Suku Benyamin"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "langit"
 },
 {
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "murni"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Yusuf"
-},
-{
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "darah"
-},
-{
-"id": "person:Daniel.3",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Daniel"
+"preferred_label": "tahir"
 },
 {
 "id": "person:Jesus.2",
@@ -561,46 +505,102 @@
 "preferred_label": "Yesus"
 },
 {
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Yusuf"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "percaya"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "darah"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Benyamin"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "persembahan"
+},
+{
+"id": "person:Daniel.3",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Daniel"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "orang Yahudi"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.2114,
 "match_method": "canonical",
-"preferred_label": "Earring"
+"preferred_label": "anting-anting"
 },
 {
 "id": "realia:Plate",
 "type": "realia",
 "confidence": 0.1606,
 "match_method": "canonical",
-"preferred_label": "Plate"
+"preferred_label": "patam"
 },
 {
-"id": "keyterm:Abyss",
-"type": "keyterm",
+"id": "deity:ThirdLivingCreature",
+"type": "deity",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "jurang maut"
+"preferred_label": "Makhluk Ketiga"
 },
 {
-"id": "person:Reuben",
+"id": "person:Pharaoh.4",
 "type": "person",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "Ruben"
+"preferred_label": "Firaun"
 },
 {
-"id": "deity:SecondLivingCreature",
+"id": "person:Jeremiah.7",
+"type": "person",
+"confidence": 0.1603,
+"match_method": "canonical",
+"preferred_label": "Yeremia"
+},
+{
+"id": "deity:FourthLivingCreature",
 "type": "deity",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "Second Living Creature"
-},
-{
-"id": "deity:FirstLivingCreature",
-"type": "deity",
-"confidence": 0.1603,
-"match_method": "canonical",
-"preferred_label": "First Living Creature"
+"preferred_label": "Makhluk Keempat"
 }
 ]
 }

@@ -135,6 +135,13 @@
 "resource": [],
 "acai": [
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4625,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.4625,
@@ -142,25 +149,18 @@
 "preferred_label": "Simson"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4625,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "Filistin"
 },
 {
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Filistin"
+"preferred_label": "orang Filistin"
 },
 {
 "id": "keyterm:Strength",
@@ -177,67 +177,32 @@
 "preferred_label": "Delila"
 },
 {
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Thread"
-},
-{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Rope"
+"preferred_label": "tali"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "busur"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "benang"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "kepenuhan (roh) seperti nabi"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Lehi"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "keselamatan"
-},
-{
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "keadaan dikepung"
+"preferred_label": "rumah"
 },
 {
 "id": "keyterm:Shield",
@@ -254,60 +219,95 @@
 "preferred_label": "Yerusalem"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "bernubuat seperti nabi"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "terkepung"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "keselamatan"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Lehi"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "Craftsman"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "tukang"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "kambing"
 },
 {
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Measuring Reed"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Small Shield"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Flax"
+"preferred_label": "buluh pengukur"
 },
 {
 "id": "realia:Hammer",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Hammer"
+"preferred_label": "palu"
+},
+{
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "perisai kecil"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "anak domba"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "kawanan domba"
+},
+{
+"id": "flora:Flax",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "rami"
 }
 ]
 }

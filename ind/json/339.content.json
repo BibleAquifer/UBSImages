@@ -121,63 +121,63 @@
 "type": "realia",
 "confidence": 0.59,
 "match_method": "canonical",
-"preferred_label": "Siege Ramp"
+"preferred_label": "tanggul pengepungan"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.5088,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "realia:Fortress",
 "type": "realia",
 "confidence": 0.4224,
 "match_method": "canonical",
-"preferred_label": "Fortress"
+"preferred_label": "kubu pertahanan"
 },
 {
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.2929,
 "match_method": "canonical",
-"preferred_label": "Siege-Works"
+"preferred_label": "kubu pengepungan"
 },
 {
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.2694,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "perisai kecil"
 },
 {
 "id": "place:Assyria",
 "type": "place",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Asyur"
 },
 {
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "panah"
+"preferred_label": "anak panah"
 },
 {
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Arrow"
+"preferred_label": "anak panah"
 },
 {
 "id": "keyterm:StateOfBeingUnderSiege",
 "type": "keyterm",
 "confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "keadaan dikepung"
+"preferred_label": "terkepung"
 },
 {
 "id": "keyterm:Refuge",
@@ -187,18 +187,25 @@
 "preferred_label": "tempat perlindungan"
 },
 {
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Yoab"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "mencari perlindungan"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "percaya"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Yoab"
 },
 {
 "id": "keyterm:Appoint",
@@ -208,74 +215,11 @@
 "preferred_label": "menugaskan"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "bersandar pada"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "kebaikan"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "person:Hophra",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Hofra"
-},
-{
 "id": "keyterm:Shield",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "perisai"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "kekuatan"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Chaldeans"
-},
-{
-"id": "place:Abel-beth-maacah",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Abel-Bet-Maakha"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Kasdim"
 },
 {
 "id": "place:Jerusalem",
@@ -285,46 +229,102 @@
 "preferred_label": "Yerusalem"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "kebaikan"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Hofra"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Kasdim"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "kekuatan"
+},
+{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "orang Kasdim"
+},
+{
+"id": "place:Abel-beth-maacah",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Abel-Bet-Maakha"
 },
 {
 "id": "realia:Battering-ram",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Battering-Ram"
-},
-{
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Net"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "alat pendobrak"
 },
 {
 "id": "realia:CastingNet",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Casting Net"
+"preferred_label": "jala"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "jaring"
 },
 {
 "id": "realia:LargeShield",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Large Shield"
+"preferred_label": "perisai besar"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "rumah"
 }
 ]
 }

@@ -165,7 +165,14 @@
 "type": "group",
 "confidence": 0.3114,
 "match_method": "canonical",
-"preferred_label": "Pharisees"
+"preferred_label": "orang Farisi"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "orang Yahudi"
 },
 {
 "id": "keyterm:BearWitness",
@@ -182,25 +189,18 @@
 "preferred_label": "nama"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Synagogue"
+"preferred_label": "rumah ibadat"
 },
 {
-"id": "person:Gamaliel",
-"type": "person",
+"id": "keyterm:CourtCase",
+"type": "keyterm",
 "confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Gamaliel"
+"preferred_label": "perkara pengadilan"
 },
 {
 "id": "keyterm:Gehenna",
@@ -210,39 +210,32 @@
 "preferred_label": "neraka"
 },
 {
-"id": "keyterm:CourtCase",
-"type": "keyterm",
+"id": "person:Gamaliel",
+"type": "person",
 "confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "pengadilan"
+"preferred_label": "Gamaliel"
 },
 {
-"id": "deity:Angel",
+"id": "deity:Lord",
 "type": "deity",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "hidup"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "harapan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "yang baik"
+"preferred_label": "baik"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Pilatus"
 },
 {
 "id": "keyterm:Resurrection",
@@ -256,28 +249,7 @@
 "type": "place",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "group:Sadducee",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Sadducees"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "memutuskan"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "meminta"
+"preferred_label": "Neraka"
 },
 {
 "id": "person:Israel",
@@ -287,25 +259,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "penghakiman"
-},
-{
-"id": "keyterm:SomethingDefinite",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "apa yang sebenarnya terjadi"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Pilatus"
+"preferred_label": "memohon"
 },
 {
 "id": "keyterm:Decision",
@@ -315,6 +273,20 @@
 "preferred_label": "keputusan"
 },
 {
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "memutuskan"
+},
+{
+"id": "keyterm:UnrighteousAct",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "perbuatan lalim"
+},
+{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -322,39 +294,67 @@
 "preferred_label": "hati nurani"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Malaikat"
+},
+{
 "id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "tanda"
+"preferred_label": "lambang"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:Sadducee",
+"type": "group",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "orang Saduki"
 },
 {
-"id": "keyterm:UnrighteousAct",
+"id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "kejahatan"
+"preferred_label": "hidup"
+},
+{
+"id": "keyterm:SomethingDefinite",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "kepastian"
+},
+{
+"id": "keyterm:Hope",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "pengharapan"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "penghakiman"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Bait Allah"
 },
 {
 "id": "realia:Prison",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "Prison"
+"preferred_label": "penjara"
 }
 ]
 }

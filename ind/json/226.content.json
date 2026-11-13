@@ -145,28 +145,28 @@
 "type": "flora",
 "confidence": 0.7471,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "onak"
 },
 {
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.5138,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "puteri malu"
 },
 {
 "id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.4829,
 "match_method": "canonical",
-"preferred_label": "Boxthorn"
+"preferred_label": "semak duri"
 },
 {
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.4829,
 "match_method": "canonical",
-"preferred_label": "Acacia"
+"preferred_label": "penaga"
 },
 {
 "id": "person:Israel",
@@ -174,6 +174,13 @@
 "confidence": 0.3143,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Amazia"
 },
 {
 "id": "place:Lebanon",
@@ -190,6 +197,13 @@
 "preferred_label": "Yehuda"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.2429,
@@ -197,53 +211,60 @@
 "preferred_label": "Yoas"
 },
 {
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Amazia"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.1924,
 "match_method": "canonical",
-"preferred_label": "Nettle"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "Cedar"
+"preferred_label": "jelatang"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "pokok anggur"
 },
 {
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "Fig"
+"preferred_label": "ara"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "aras"
 },
 {
 "id": "keyterm:DailyLife",
 "type": "keyterm",
 "confidence": 0.181,
 "match_method": "canonical",
-"preferred_label": "hidup"
+"preferred_label": "kehidupan sehari-hari"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "tidak bercela"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "mengusir"
 },
 {
 "id": "person:Zalmunna",
@@ -253,11 +274,46 @@
 "preferred_label": "Salmuna"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "lengkap"
+"preferred_label": "kemampuan"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Mesir"
+},
+{
+"id": "place:Memphis",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Memfis"
+},
+{
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "amsal"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sukot"
 },
 {
 "id": "person:Job",
@@ -271,35 +327,7 @@
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "selama, lamanya"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Sukot"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "keahlian"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Mesir"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "mengusir"
+"preferred_label": "selama-lamanya"
 },
 {
 "id": "person:Zebah",
@@ -309,27 +337,6 @@
 "preferred_label": "Zebah"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "pengucapan"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Gideon"
-},
-{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -337,81 +344,74 @@
 "preferred_label": "bodoh"
 },
 {
-"id": "place:Memphis",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Memfis"
-},
-{
 "id": "flora:Weed",
 "type": "flora",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Weed"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Lily"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
+"preferred_label": "lalang"
 },
 {
 "id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Pit"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Sandalwood"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Jackal"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "lubang"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "uang"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "bunga bakung"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "anjing hutan"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "jelai"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "burung hantu"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "burung unta"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "gandum"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "kayu cendana"
 }
 ]
 }

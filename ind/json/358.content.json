@@ -397,14 +397,14 @@
 "type": "realia",
 "confidence": 0.6241,
 "match_method": "canonical",
-"preferred_label": "Spear"
+"preferred_label": "tombak"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4643,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:David",
@@ -421,13 +421,6 @@
 "preferred_label": "Saul"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3857,
-"match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.3857,
@@ -435,18 +428,25 @@
 "preferred_label": "Filistin"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3857,
+"match_method": "canonical",
+"preferred_label": "orang Filistin"
+},
+{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.3543,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "pedang"
 },
 {
 "id": "realia:Javelin",
 "type": "realia",
 "confidence": 0.3495,
 "match_method": "canonical",
-"preferred_label": "Javelin"
+"preferred_label": "lembing"
 },
 {
 "id": "person:Abishai",
@@ -454,6 +454,13 @@
 "confidence": 0.3317,
 "match_method": "canonical",
 "preferred_label": "Abisai"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3286,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
 },
 {
 "id": "person:Israel",
@@ -467,35 +474,21 @@
 "type": "group",
 "confidence": 0.3286,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3286,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "perisai kecil"
 },
 {
 "id": "realia:WeaversBeam",
 "type": "realia",
 "confidence": 0.2781,
 "match_method": "canonical",
-"preferred_label": "Weavers Beam"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.2714,
-"match_method": "canonical",
-"preferred_label": "Yoab"
+"preferred_label": "pesa tukang tenun"
 },
 {
 "id": "person:Goliath",
@@ -505,32 +498,32 @@
 "preferred_label": "Goliat"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2686,
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.2714,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "realia:LargeShield",
-"type": "realia",
-"confidence": 0.2686,
-"match_method": "canonical",
-"preferred_label": "Large Shield"
+"preferred_label": "Yoab"
 },
 {
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "Bow"
+"preferred_label": "busur"
 },
 {
-"id": "person:Elhanan",
-"type": "person",
-"confidence": 0.2206,
+"id": "realia:LargeShield",
+"type": "realia",
+"confidence": 0.2686,
 "match_method": "canonical",
-"preferred_label": "Elhanan"
+"preferred_label": "perisai besar"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2686,
+"match_method": "canonical",
+"preferred_label": "rumah"
 },
 {
 "id": "person:Jaare-oregim",
@@ -540,22 +533,29 @@
 "preferred_label": "Yaare-Oregim"
 },
 {
-"id": "person:Abner",
+"id": "person:Elhanan",
 "type": "person",
-"confidence": 0.2143,
+"confidence": 0.2206,
 "match_method": "canonical",
-"preferred_label": "Abner"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Yonatan"
+"preferred_label": "Elhanan"
 },
 {
 "id": "group:Benjamin",
 "type": "group",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Suku Benyamin"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "Benyamin"
@@ -568,13 +568,6 @@
 "preferred_label": "Mesir"
 },
 {
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "hai"
-},
-{
 "id": "place:Gath",
 "type": "place",
 "confidence": 0.2143,
@@ -582,11 +575,25 @@
 "preferred_label": "Gat"
 },
 {
-"id": "person:Joshua.2",
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Ai"
+},
+{
+"id": "person:Abner",
 "type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Yosua"
+"preferred_label": "Abner"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "anak panah"
 },
 {
 "id": "keyterm:Anointed",
@@ -594,13 +601,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "diurapi"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
 }
 ]
 }

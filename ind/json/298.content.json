@@ -85,14 +85,21 @@
 "type": "realia",
 "confidence": 0.5309,
 "match_method": "canonical",
-"preferred_label": "Razor"
+"preferred_label": "pisau cukur"
 },
 {
 "id": "realia:Knife",
 "type": "realia",
 "confidence": 0.5127,
 "match_method": "canonical",
-"preferred_label": "Knife"
+"preferred_label": "pisau"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Abraham",
@@ -102,25 +109,18 @@
 "preferred_label": "Abraham"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "pedang"
 },
 {
 "id": "keyterm:WithdrawOneself",
 "type": "keyterm",
 "confidence": 0.2091,
 "match_method": "canonical",
-"preferred_label": "menghindarkan diri"
+"preferred_label": "menjauhkan diri"
 },
 {
 "id": "person:Jehudi",
@@ -130,88 +130,11 @@
 "preferred_label": "Yehudi"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "murni"
-},
-{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "lengkap"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Nazirites"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "kasihi"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Assyria"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Efrat"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "dikhususkan"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "penipuan"
-},
-{
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "membersihkan"
+"preferred_label": "tidak bercela"
 },
 {
 "id": "person:Isaac",
@@ -221,32 +144,109 @@
 "preferred_label": "Ishak"
 },
 {
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "pengudusan"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "persembahan"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Asyur"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "menyucikan"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "orang nazir"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "penipuan"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Sungai Efrat"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "kasih"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "tahir"
+},
+{
 "id": "keyterm:Vow",
 "type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "bernazar"
+"preferred_label": "nazar"
 },
 {
 "id": "realia:Balance",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Balance"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "neraca"
 },
 {
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Scroll"
+"preferred_label": "gulungan kitab"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "rumah"
 }
 ]
 }

@@ -181,35 +181,35 @@
 "type": "fauna",
 "confidence": 0.4567,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "kambing"
 },
 {
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.4567,
 "match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "kawanan domba"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4333,
 "match_method": "canonical",
-"preferred_label": "Tuhan"
+"preferred_label": "TUHAN"
 },
 {
 "id": "realia:Wool",
 "type": "realia",
 "confidence": 0.4048,
 "match_method": "canonical",
-"preferred_label": "Wool"
+"preferred_label": "bulu domba"
 },
 {
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.39,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "anak domba"
 },
 {
 "id": "place:Timnah",
@@ -240,11 +240,18 @@
 "preferred_label": "Absalom"
 },
 {
-"id": "place:Helbon",
+"id": "place:Maon",
 "type": "place",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Helbon"
+"preferred_label": "Maon"
+},
+{
+"id": "person:Shua",
+"type": "person",
+"confidence": 0.1741,
+"match_method": "canonical",
+"preferred_label": "Syua"
 },
 {
 "id": "person:Mesha.2",
@@ -254,11 +261,18 @@
 "preferred_label": "Mesa"
 },
 {
-"id": "place:Sahar",
+"id": "place:Helbon",
 "type": "place",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Sakhar"
+"preferred_label": "Helbon"
+},
+{
+"id": "place:Ephraim",
+"type": "place",
+"confidence": 0.1741,
+"match_method": "canonical",
+"preferred_label": "Efraim"
 },
 {
 "id": "place:Baal-hazor",
@@ -272,7 +286,7 @@
 "type": "group",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Adullamites"
+"preferred_label": "orang Adulam"
 },
 {
 "id": "person:Hirah",
@@ -282,39 +296,25 @@
 "preferred_label": "Hira"
 },
 {
-"id": "place:Maon",
+"id": "place:Sahar",
 "type": "place",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Maon"
-},
-{
-"id": "place:Ephraim",
-"type": "place",
-"confidence": 0.1741,
-"match_method": "canonical",
-"preferred_label": "Efraim"
-},
-{
-"id": "person:Shua",
-"type": "person",
-"confidence": 0.1741,
-"match_method": "canonical",
-"preferred_label": "Sua"
+"preferred_label": "Sakhar"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "pokok anggur"
 },
 {
-"id": "person:Nabal",
+"id": "person:David",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Nabal"
+"preferred_label": "Daud"
 },
 {
 "id": "keyterm:AppointedFeast",
@@ -331,81 +331,18 @@
 "preferred_label": "Damsyik"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "memberkati"
-},
-{
-"id": "person:Rachel",
+"id": "person:Gideon",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Rahel"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "khusus"
-},
-{
-"id": "keyterm:NewMoonFestival",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "pesta bulan baru"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Gideon"
 },
 {
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "kitab suci"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "kasihi"
-},
-{
-"id": "place:Adullam",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Adulam"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "tertarik/tergoda untuk beribadah"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Moab"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "terafim"
+"preferred_label": "Kitab Suci"
 },
 {
 "id": "keyterm:Sin",
@@ -415,18 +352,25 @@
 "preferred_label": "berbuat dosa"
 },
 {
-"id": "person:Tamar",
-"type": "person",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Tamar"
+"preferred_label": "sabat"
 },
 {
-"id": "person:Gideon",
+"id": "person:Nabal",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "Nabal"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
 },
 {
 "id": "person:Laban",
@@ -436,109 +380,165 @@
 "preferred_label": "Laban"
 },
 {
-"id": "keyterm:Sabbath",
+"id": "place:Adullam",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Adulam"
+},
+{
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "sabat"
+"preferred_label": "kasih"
 },
 {
-"id": "person:David",
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "memaksa untuk melayani"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "memberkati"
+},
+{
+"id": "deity:Teraphim",
+"type": "deity",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "terafim"
+},
+{
+"id": "keyterm:NewMoonFestival",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "perayaan bulan baru"
+},
+{
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Daud"
+"preferred_label": "Rahel"
+},
+{
+"id": "person:Tamar",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Tamar"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Moab"
 },
 {
 "id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1141,
 "match_method": "canonical",
-"preferred_label": "Household Idols"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Must"
+"preferred_label": "terafim"
 },
 {
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Mule"
-},
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Purple Cloth"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Minyak urapan"
 },
 {
 "id": "realia:Cup",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Cup"
+"preferred_label": "cawan"
 },
 {
-"id": "realia:Wine",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Wine"
+"preferred_label": "kain ungu"
 },
 {
-"id": "flora:Flax",
-"type": "flora",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Flax"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Grain"
+"preferred_label": "lembu sapi"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "pohon zaitun"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "anggur"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "minyak zaitun"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "tempat pengirikan"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "biji-bijian"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "bagal"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "anggur baru"
+},
+{
+"id": "flora:Flax",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "rami"
 }
 ]
 }

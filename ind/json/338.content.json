@@ -243,7 +243,14 @@
 "type": "realia",
 "confidence": 0.4357,
 "match_method": "canonical",
-"preferred_label": "Siege Ramp"
+"preferred_label": "tanggul pengepungan"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4143,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
 },
 {
 "id": "place:Babylon",
@@ -253,13 +260,6 @@
 "preferred_label": "Babel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4143,
-"match_method": "canonical",
-"preferred_label": "Tuhan"
-},
-{
 "id": "place:Samaria",
 "type": "place",
 "confidence": 0.4143,
@@ -267,25 +267,18 @@
 "preferred_label": "Samaria"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.3514,
+"match_method": "canonical",
+"preferred_label": "Asyur"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3514,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.3514,
-"match_method": "canonical",
-"preferred_label": "Assyria"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.3514,
-"match_method": "canonical",
-"preferred_label": "Chaldeans"
 },
 {
 "id": "place:Chaldea",
@@ -299,28 +292,35 @@
 "type": "group",
 "confidence": 0.3514,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.3514,
+"match_method": "canonical",
+"preferred_label": "orang Kasdim"
 },
 {
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.3029,
 "match_method": "canonical",
-"preferred_label": "Siege-Works"
+"preferred_label": "kubu pengepungan"
 },
 {
 "id": "keyterm:StateOfBeingUnderSiege",
 "type": "keyterm",
 "confidence": 0.2943,
 "match_method": "canonical",
-"preferred_label": "keadaan dikepung"
+"preferred_label": "terkepung"
 },
 {
-"id": "person:Joab",
+"id": "person:David",
 "type": "person",
 "confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Yoab"
+"preferred_label": "Daud"
 },
 {
 "id": "person:Nebuchadnezzar",
@@ -330,11 +330,11 @@
 "preferred_label": "Nebukadnezar"
 },
 {
-"id": "person:David",
+"id": "person:Joab",
 "type": "person",
 "confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Daud"
+"preferred_label": "Yoab"
 },
 {
 "id": "place:Gibbethon",
@@ -348,7 +348,7 @@
 "type": "keyterm",
 "confidence": 0.2257,
 "match_method": "canonical",
-"preferred_label": "panah"
+"preferred_label": "anak panah"
 },
 {
 "id": "person:Hophra",
@@ -358,6 +358,13 @@
 "preferred_label": "Hofra"
 },
 {
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "orang Amon"
+},
+{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.2257,
@@ -365,53 +372,11 @@
 "preferred_label": "Amon"
 },
 {
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
-"id": "person:Hoshea",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Hosea"
-},
-{
-"id": "person:Baasha",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Baesa"
-},
-{
-"id": "person:Shalmaneser",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Salmaneser"
-},
-{
-"id": "person:Nadab.2",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Nadab"
-},
-{
 "id": "person:Ben-hadad.2",
 "type": "person",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Benhadad"
-},
-{
-"id": "person:Jehoiakim",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Yoyakim"
 },
 {
 "id": "person:Rezin",
@@ -428,137 +393,60 @@
 "preferred_label": "Ahia"
 },
 {
+"id": "person:Hoshea",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Hosea"
+},
+{
+"id": "person:Jehoiakim",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Yoyakim"
+},
+{
+"id": "person:Shalmaneser",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Salmaneser"
+},
+{
+"id": "person:Baasha",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Baesa"
+},
+{
+"id": "person:Nadab.2",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Nadab"
+},
+{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "Arrow"
+"preferred_label": "anak panah"
 },
 {
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "Small Shield"
+"preferred_label": "perisai kecil"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Benhadad"
-},
-{
-"id": "person:Ahaz",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Ahas"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "menugaskan"
-},
-{
-"id": "person:Jeremiah.6",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Yeremia"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Hizkia"
-},
-{
-"id": "person:Elah.3",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Ela"
-},
-{
-"id": "person:Remaliah",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Remalya"
-},
-{
-"id": "person:Issachar",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Isakhar"
-},
-{
-"id": "person:Zedekiah.3",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Zedekia"
-},
-{
-"id": "person:Pekah",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Pekah"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kehila"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Saul"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Mesir"
-},
-{
-"id": "person:Omri",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Omri"
+"preferred_label": "rumah"
 },
 {
 "id": "place:Elam",
@@ -568,18 +456,60 @@
 "preferred_label": "Elam"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Filistin"
+},
+{
+"id": "person:Remaliah",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Remalya"
+},
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Kehila"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "menugaskan"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Mesir"
+},
+{
+"id": "person:Ahaz",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ahas"
+},
+{
+"id": "person:Omri",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Omri"
+},
+{
 "id": "group:Issachar",
 "type": "group",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Isakhar"
-},
-{
-"id": "place:Tirzah",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Tirza"
+"preferred_label": "suku Isakhar"
 },
 {
 "id": "place:Media",
@@ -589,11 +519,60 @@
 "preferred_label": "Media"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "orang Filistin"
+},
+{
+"id": "person:Elah.3",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ela"
+},
+{
+"id": "person:Zedekiah.3",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Zedekia"
+},
+{
+"id": "person:Issachar",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Isakhar"
+},
+{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "kekuatan"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Benhadad"
+},
+{
+"id": "person:Pekah",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Pekah"
+},
+{
+"id": "person:Jeremiah.6",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Yeremia"
 },
 {
 "id": "place:Abel-beth-maacah",
@@ -603,88 +582,109 @@
 "preferred_label": "Abel-Bet-Maakha"
 },
 {
+"id": "place:Tirzah",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Tirza"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Hizkia"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Saul"
+},
+{
 "id": "realia:SiegeTower",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Siege Tower"
+"preferred_label": "menara pengepungan"
 },
 {
 "id": "realia:Battering-ram",
 "type": "realia",
 "confidence": 0.1143,
 "match_method": "canonical",
-"preferred_label": "Battering-Ram"
+"preferred_label": "alat pendobrak"
 },
 {
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.1086,
 "match_method": "canonical",
-"preferred_label": "Griddle"
+"preferred_label": "panggangan"
 },
 {
 "id": "flora:Muskmelon",
 "type": "flora",
 "confidence": 0.1086,
 "match_method": "canonical",
-"preferred_label": "Muskmelon"
+"preferred_label": "melon"
 },
 {
 "id": "realia:Kab",
 "type": "realia",
 "confidence": 0.1086,
 "match_method": "canonical",
-"preferred_label": "Kab"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Axe"
+"preferred_label": "kab"
 },
 {
 "id": "flora:Vine",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Horse"
-},
-{
-"id": "fauna:Donkey",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Donkey"
-},
-{
-"id": "realia:LargeShield",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Large Shield"
+"preferred_label": "pokok anggur"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "uang"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "kuda"
+},
+{
+"id": "realia:LargeShield",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "perisai besar"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "keledai"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "kapak"
 },
 {
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Chariot"
+"preferred_label": "kereta"
 }
 ]
 }
