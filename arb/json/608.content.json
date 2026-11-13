@@ -79,35 +79,42 @@
 "type": "place",
 "confidence": 0.77,
 "match_method": "canonical",
-"preferred_label": "ٱلْفِسْجَةِ"
+"preferred_label": "ٱلْفِسْجَةُ"
 },
 {
 "id": "place:NeboMount",
 "type": "place",
 "confidence": 0.445,
 "match_method": "canonical",
-"preferred_label": "نَبو"
+"preferred_label": "جَبَلُ نَبو"
 },
 {
 "id": "place:SaltSea",
 "type": "place",
 "confidence": 0.405,
 "match_method": "canonical",
-"preferred_label": "ٱلْمِلْحِ"
-},
-{
-"id": "place:Arabah",
-"type": "place",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "ٱلْعَرَبَةِ"
+"preferred_label": "بَحْرُ ٱلْمِلْحِ"
 },
 {
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "ٱلْأرْدنِّ"
+"preferred_label": "نهر الأردن"
+},
+{
+"id": "place:Arabah",
+"type": "place",
+"confidence": 0.385,
+"match_method": "canonical",
+"preferred_label": "ٱلْعَرَبَةُ"
+},
+{
+"id": "place:Beth-jeshimoth",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "بَيْتُ يَشِيمُوتَ"
 },
 {
 "id": "place:Jericho",
@@ -117,67 +124,67 @@
 "preferred_label": "أَرِيحَا"
 },
 {
-"id": "place:Beth-jeshimoth",
-"type": "place",
-"confidence": 0.31,
-"match_method": "canonical",
-"preferred_label": "Beth-jeshimoth"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "موآبَ"
-},
-{
-"id": "place:Almon-diblathaim",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Almon-diblathaim"
-},
-{
-"id": "place:Beth-peor",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Beth-peor"
-},
-{
-"id": "place:Zophim",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Zophim"
+"preferred_label": "موآب"
 },
 {
 "id": "place:Chinnereth",
 "type": "place",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "مِنْ"
+"preferred_label": "كِنَّارَة"
 },
 {
 "id": "place:Bamoth",
 "type": "place",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "بَاموتَ"
+"preferred_label": "بَامُوت"
 },
 {
-"id": "group:Dan",
-"type": "group",
+"id": "place:Beth-peor",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "بَيْت فَغُور"
+},
+{
+"id": "place:Almon-diblathaim",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "عَلْمُونَ دِبْلَاتَايِمَ"
+},
+{
+"id": "place:Zophim",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "صُوفِيمَ"
+},
+{
+"id": "person:Moses",
+"type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "دَانَ"
+"preferred_label": "مُوسَى"
 },
 {
-"id": "place:Canaan",
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "الرَّبّ"
+},
+{
+"id": "place:GalileeSea",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "كَنْعَان"
+"preferred_label": "بَحْر ٱلْجَلِيل"
 },
 {
 "id": "place:Dan",
@@ -187,18 +194,39 @@
 "preferred_label": "دَانَ"
 },
 {
+"id": "place:MoabPlains",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "عَرَبَات موآب"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
+"preferred_label": "إِسْرَائِيل"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "place:Canaan",
+"type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "موسَى"
+"preferred_label": "كَنْعَان"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "سبط دان"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "جِلْعَادُ"
 },
 {
 "id": "place:Nebo",
@@ -208,74 +236,46 @@
 "preferred_label": "نَبو"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "جِلْعَادَ"
-},
-{
-"id": "place:MoabPlains",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "عَرَبَاتِ"
-},
-{
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
-"id": "fauna:Lamb",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "بَقَر"
 },
 {
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "مَذْبَح"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "مذبح حجري"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "مذبح المسكن"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "حَمَل"
 }
 ]
 }

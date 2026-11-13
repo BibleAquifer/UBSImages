@@ -241,21 +241,28 @@
 "type": "deity",
 "confidence": 0.4716,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "الرَّبّ"
 },
 {
 "id": "realia:Sackcloth",
 "type": "realia",
 "confidence": 0.3981,
 "match_method": "canonical",
-"preferred_label": "Sackcloth"
+"preferred_label": "مِسْح"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.363,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "بَقَر"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.2919,
+"match_method": "canonical",
+"preferred_label": "تنجيس"
 },
 {
 "id": "place:Kidron",
@@ -265,53 +272,39 @@
 "preferred_label": "قَدْرونَ"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.2919,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "مَذْبَح"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "مذبح حجري"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "مذبح المسكن"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
 },
 {
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.2351,
-"match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "أَنْ يُخْطِئَ"
 },
 {
 "id": "place:Chorazin",
@@ -321,144 +314,186 @@
 "preferred_label": "كورَزِين"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Disaster",
 "type": "keyterm",
-"confidence": 0.2243,
+"confidence": 0.2351,
 "match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "صِيْدونَ"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Repent"
-},
-{
-"id": "place:Bethsaida",
-"type": "place",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "صَيْدَا"
+"preferred_label": "وَيْل"
 },
 {
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "موسَى"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
+"preferred_label": "مُوسَى"
 },
 {
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "قُدْرَة"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "فِرْعَوْنَ"
-},
-{
-"id": "keyterm:Example",
+"id": "keyterm:Repent",
 "type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "صورَ"
+"preferred_label": "تاب"
 },
 {
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "To Cleanse"
+"preferred_label": "يُطهِّر"
 },
 {
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "أورشَلِيمَ"
+"preferred_label": "أُورُشَلِيم"
 },
 {
-"id": "keyterm:Supplication",
-"type": "keyterm",
-"confidence": 0.1676,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Plea for Mercy"
+"preferred_label": "إِسْرَائِيل"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "صَيْدونُ"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "صُورُ"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "فِرْعَوْن"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "رمز"
+},
+{
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "بَيْتُ صَيْدَا"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "طَاهِر"
 },
 {
 "id": "person:Tamar.2",
 "type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "ثَامَارَ"
-},
-{
-"id": "place:HorseGate",
-"type": "place",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "ٱلْخَيْلِ"
+"preferred_label": "ثَامَارُ"
 },
 {
 "id": "person:Mordecai.2",
 "type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "مرْدَخَاي"
+"preferred_label": "مُرْدَخَاي"
+},
+{
+"id": "keyterm:Supplication",
+"type": "keyterm",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "طلب رحمة"
+},
+{
+"id": "place:HorseGate",
+"type": "place",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "باب الخيل"
 },
 {
 "id": "realia:Kiln",
 "type": "realia",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "Kiln"
+"preferred_label": "أَتُون"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "بَيْت"
 },
 {
-"id": "person:Abraham",
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "دم"
+},
+{
+"id": "keyterm:Consecration.2",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "تكريس"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "حلف"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "جَسَد"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "تَقْدِمَة"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "غَيْرَة"
+},
+{
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "إِبْرَاهِيمَ"
-},
-{
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "سَوَارِيَهمْ"
+"preferred_label": "هَارون"
 },
 {
 "id": "person:Ahaz",
@@ -468,32 +503,46 @@
 "preferred_label": "آحَاز"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Delight",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "سرور"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Blood"
+"preferred_label": "مَثَل"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
+"id": "deity:Asherah",
+"type": "deity",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "عَشِيرَة"
 },
 {
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "يَهوذَا"
+"preferred_label": "يهوذا"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "سِبْطُ يَهوذَا"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "إِبْرَاهِيمَ"
 },
 {
 "id": "person:Manasseh.2",
@@ -507,14 +556,14 @@
 "type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "اليَهُود"
 },
 {
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Word of the Lord"
+"preferred_label": "كَلِمَةُ ٱلرَّبِّ"
 },
 {
 "id": "place:Nineveh",
@@ -524,144 +573,95 @@
 "preferred_label": "نِينَوَى"
 },
 {
-"id": "keyterm:Consecration.2",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Consecration"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Proverb"
-},
-{
-"id": "keyterm:Delight",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Delight"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Swear"
-},
-{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "To Dishonor"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Passion"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "هَارون"
-},
-{
-"id": "flora:Rush",
-"type": "flora",
-"confidence": 0.1076,
-"match_method": "canonical",
-"preferred_label": "Rush"
+"preferred_label": "يُهِين"
 },
 {
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "مَاعِز"
+},
+{
+"id": "flora:Rush",
+"type": "flora",
+"confidence": 0.1076,
+"match_method": "canonical",
+"preferred_label": "أَسَل"
 },
 {
 "id": "realia:SacredPole",
 "type": "realia",
 "confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Terebinth"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "سَارِيَة مُقَدَّسَة"
 },
 {
 "id": "realia:Wool",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Wool"
+"preferred_label": "صُوف"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "دُهْنُ المَسْحَة"
 },
 {
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Tunic"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Throne"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "قَمِيص مُلَوَّن"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "تمثال مسبوك"
 },
 {
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "زيت زيتون"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "ثِياب"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "بُطْم"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "قطيع"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "عَرْش"
 }
 ]
 }

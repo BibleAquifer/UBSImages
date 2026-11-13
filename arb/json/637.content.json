@@ -75,116 +75,144 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "مَذْبَح"
 },
 {
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
-"preferred_label": "Stone Altar"
+"preferred_label": "مذبح حجري"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "مذبح المسكن"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
 },
 {
 "id": "deity:Asherah",
 "type": "deity",
 "confidence": 0.48,
 "match_method": "canonical",
-"preferred_label": "سَوَارِيَهمْ"
+"preferred_label": "عَشِيرَة"
 },
 {
 "id": "realia:SacredPole",
 "type": "realia",
 "confidence": 0.42,
 "match_method": "canonical",
-"preferred_label": "Sacred Pole"
+"preferred_label": "سَارِيَة مُقَدَّسَة"
 },
 {
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.385,
 "match_method": "canonical",
-"preferred_label": "أورشَلِيمَ"
+"preferred_label": "أُورُشَلِيم"
 },
 {
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.325,
 "match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "يَهوذَا"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيلَ"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "ٱلْبَعْلِ"
+"preferred_label": "تِمْثَال"
 },
 {
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "ٱلرَّبِّ"
+"preferred_label": "الرَّبّ"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيل"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "يهوذا"
 },
 {
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "يَهوذَا"
+"preferred_label": "سِبْطُ يَهوذَا"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "بَعْل"
 },
 {
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "High Place"
+"preferred_label": "مُرْتَفَعَة"
 },
 {
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Graven Image"
+"preferred_label": "تِمْثالٌ مَنْحُوتٌ"
 },
 {
 "id": "flora:Pine",
 "type": "flora",
 "confidence": 0.23,
 "match_method": "canonical",
-"preferred_label": "Stone Pine"
+"preferred_label": "صَنَوْبَر ثَمَرِيّ"
+},
+{
+"id": "keyterm:Destroy",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "يُهْلِك"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "غَيْرَة"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "أَنْ يُخْطِئَ"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "تعليم"
 },
 {
 "id": "place:Kidron",
@@ -194,46 +222,18 @@
 "preferred_label": "قَدْرونَ"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "keyterm:Destroy",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Destroy"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Passion"
+"preferred_label": "يَغْفِرُ"
 },
 {
 "id": "realia:MoltenImage",
 "type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "تمثال مسبوك"
 }
 ]
 }
