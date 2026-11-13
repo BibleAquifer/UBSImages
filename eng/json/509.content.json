@@ -3,9 +3,9 @@
 "content_id": "2862",
 "reference_id": 2030,
 "version": "1.0.4",
-"title": "Soil Antigo",
+"title": "Layers of Soil: Cross-Section",
 "media_type": "Image",
-"index_reference": "soil antigo",
+"index_reference": "layers of soil crosssection",
 "language": "eng",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0819_soil_antigo.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0819_soil_antigo.jpg'>link</a></p></block>",
@@ -1317,6 +1317,13 @@
 "preferred_label": "Egypt"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3629,
+"match_method": "canonical",
+"preferred_label": "Bless"
+},
+{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.3629,
@@ -1331,11 +1338,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3629,
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "Bless"
+"preferred_label": "Pharaoh"
 },
 {
 "id": "keyterm:Decree",
@@ -1345,32 +1352,11 @@
 "preferred_label": "Decree"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "To Curse"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3607,
 "match_method": "canonical",
 "preferred_label": "Judah"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
 },
 {
 "id": "place:Jordan",
@@ -1380,11 +1366,18 @@
 "preferred_label": "Jordan River"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3179,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "To Curse"
 },
 {
 "id": "flora:Sorghum",
@@ -1392,6 +1385,13 @@
 "confidence": 0.3179,
 "match_method": "canonical",
 "preferred_label": "Sorghum"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3179,
+"match_method": "canonical",
+"preferred_label": "Wheat"
 },
 {
 "id": "fauna:Bull",
@@ -1429,18 +1429,25 @@
 "preferred_label": "Defilement"
 },
 {
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "Noah"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.3086,
 "match_method": "canonical",
 "preferred_label": "Love"
+},
+{
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "Proverb"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "Noah"
 },
 {
 "id": "keyterm:Sin",
@@ -1457,13 +1464,6 @@
 "preferred_label": "Babylon"
 },
 {
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "Proverb"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3071,
@@ -1471,18 +1471,18 @@
 "preferred_label": "Flock"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3007,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
 "id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.3007,
 "match_method": "canonical",
 "preferred_label": "Lizard"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3007,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
 }
 ]
 }

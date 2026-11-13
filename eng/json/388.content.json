@@ -3,7 +3,7 @@
 "content_id": "2725",
 "reference_id": 1893,
 "version": "1.0.4",
-"title": "Bearded vulture",
+"title": "Bearded Vulture",
 "media_type": "Image",
 "index_reference": "bearded vulture",
 "language": "eng",
@@ -284,6 +284,13 @@
 "preferred_label": "Rebel"
 },
 {
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1631,
+"match_method": "canonical",
+"preferred_label": "Ship"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1631,
@@ -298,18 +305,74 @@
 "preferred_label": "Horse"
 },
 {
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.1631,
-"match_method": "canonical",
-"preferred_label": "Ship"
-},
-{
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.1631,
 "match_method": "canonical",
 "preferred_label": "Snake"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "To Cause to Possess"
+},
+{
+"id": "keyterm:Woe",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Woe"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "place:Bozrah.2",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Bozrah"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Egypt"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Instruction"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Lebanon"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Covenant"
 },
 {
 "id": "place:Edom",
@@ -319,11 +382,11 @@
 "preferred_label": "Edom"
 },
 {
-"id": "keyterm:Woe",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Woe"
+"preferred_label": "Strength"
 },
 {
 "id": "deity:Angel",
@@ -340,53 +403,11 @@
 "preferred_label": "Abraham"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Lebanon"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Jonathan"
-},
-{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "Love"
-},
-{
-"id": "place:Bozrah.2",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Bozrah"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Moab"
 },
 {
 "id": "keyterm:Disaster",
@@ -396,41 +417,6 @@
 "preferred_label": "Disaster"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Saul"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Egypt"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Strength"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
 "id": "keyterm:Midheaven",
 "type": "keyterm",
 "confidence": 0.1615,
@@ -438,11 +424,25 @@
 "preferred_label": "Midheaven"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "To Cause to Possess"
+"preferred_label": "Moab"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Saul"
+},
+{
+"id": "person:Jonathan.3",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Jonathan"
 },
 {
 "id": "fauna:Osprey",
@@ -450,6 +450,13 @@
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Osprey"
+},
+{
+"id": "fauna:BarnOwl",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Barn Owl"
 },
 {
 "id": "fauna:Hyena",
@@ -466,88 +473,11 @@
 "preferred_label": "Cormorant"
 },
 {
-"id": "fauna:BarnOwl",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Barn Owl"
-},
-{
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Rams Horn"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Cedar"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Vine"
-},
-{
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Leopard"
-},
-{
-"id": "fauna:Crow",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Crow"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Papyrus"
-},
-{
-"id": "fauna:Wolf",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Wolf"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Trumpet"
-},
-{
 "id": "fauna:Falcon",
 "type": "fauna",
 "confidence": 0.1015,
 "match_method": "canonical",
 "preferred_label": "Falcon"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Bird"
 },
 {
 "id": "realia:WingedCreature",
@@ -557,11 +487,81 @@
 "preferred_label": "Winged Creature"
 },
 {
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Leopard"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Bird"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Papyrus"
+},
+{
+"id": "realia:Trumpet",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Trumpet"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Crow"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Cedar"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Rams Horn"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1015,
 "match_method": "canonical",
 "preferred_label": "Chariot"
+},
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Wolf"
 }
 ]
 }

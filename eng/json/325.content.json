@@ -3,9 +3,9 @@
 "content_id": "2662",
 "reference_id": 1830,
 "version": "1.0.4",
-"title": "Sheaves Of Barley",
+"title": "Bundles of Harvested Barley",
 "media_type": "Image",
-"index_reference": "sheaves of barley",
+"index_reference": "bundles of harvested barley",
 "language": "eng",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0837_sheaves_of_barley.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0837_sheaves_of_barley.jpg'>link</a></p></block>",
@@ -714,6 +714,13 @@
 "preferred_label": "Olive Oil"
 },
 {
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2627,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.2627,
@@ -721,11 +728,11 @@
 "preferred_label": "Complete"
 },
 {
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2627,
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.257,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Shekel"
 },
 {
 "id": "flora:Coriander",
@@ -742,27 +749,6 @@
 "preferred_label": "Money"
 },
 {
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.257,
-"match_method": "canonical",
-"preferred_label": "Shekel"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "Bethlehem"
-},
-{
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "Life"
-},
-{
 "id": "person:Naomi",
 "type": "person",
 "confidence": 0.2085,
@@ -770,11 +756,18 @@
 "preferred_label": "Naomi"
 },
 {
-"id": "keyterm:Mischief",
-"type": "keyterm",
+"id": "deity:Angel",
+"type": "deity",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Mischief"
+"preferred_label": "An Angel"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Bethlehem"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -791,32 +784,18 @@
 "preferred_label": "Mizpah"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "Sabbath"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Life",
+"type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Life"
 },
 {
 "id": "keyterm:Bless",
@@ -826,18 +805,39 @@
 "preferred_label": "Bless"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Moab"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.2085,
+"match_method": "canonical",
+"preferred_label": "Mischief"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.2085,
 "match_method": "canonical",
 "preferred_label": "Ask for"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.2085,
-"match_method": "canonical",
-"preferred_label": "Sabbath"
 },
 {
 "id": "realia:Homer",

@@ -3,9 +3,9 @@
 "content_id": "3017",
 "reference_id": 2185,
 "version": "1.0.4",
-"title": "Incense Altar Roman",
+"title": "Roman Incense Altar",
 "media_type": "Image",
-"index_reference": "incense altar roman",
+"index_reference": "roman incense altar",
 "language": "eng",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0535_incense_altar_roman.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0535_incense_altar_roman.jpg'>link</a></p></block>",
@@ -75,13 +75,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
@@ -89,18 +82,25 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
 },
 {
 "id": "deity:Asherah",
@@ -131,11 +131,11 @@
 "preferred_label": "Image"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Judah"
+"preferred_label": "LORD"
 },
 {
 "id": "person:Israel",
@@ -145,18 +145,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "deity:Baal",
-"type": "deity",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Baal"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Judah"
 },
 {
 "id": "group:Judah",
@@ -164,6 +157,13 @@
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "Tribe of Judah"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Baal"
 },
 {
 "id": "realia:HighPlace",
@@ -187,11 +187,18 @@
 "preferred_label": "Stone Pine"
 },
 {
-"id": "place:Kidron",
-"type": "place",
+"id": "keyterm:Destroy",
+"type": "keyterm",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Kidron"
+"preferred_label": "Destroy"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Passion"
 },
 {
 "id": "keyterm:Sin",
@@ -208,11 +215,11 @@
 "preferred_label": "Instruction"
 },
 {
-"id": "keyterm:Destroy",
-"type": "keyterm",
+"id": "place:Kidron",
+"type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Destroy"
+"preferred_label": "Kidron"
 },
 {
 "id": "keyterm:Forgive",
@@ -220,13 +227,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Forgive"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Passion"
 },
 {
 "id": "realia:MoltenImage",

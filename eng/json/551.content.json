@@ -3,9 +3,9 @@
 "content_id": "2925",
 "reference_id": 2093,
 "version": "1.0.4",
-"title": "Herb Garden",
+"title": "Herb Garden with Paths",
 "media_type": "Image",
-"index_reference": "herb garden",
+"index_reference": "herb garden with paths",
 "language": "eng",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0250_herb_garden.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0250_herb_garden.jpg'>link</a></p></block>",
@@ -70,25 +70,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "group:Pharisee",
+"type": "group",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.3125,
-"match_method": "canonical",
-"preferred_label": "Judgment"
+"preferred_label": "Pharisees"
 },
 {
 "id": "keyterm:Disaster",
@@ -98,18 +84,25 @@
 "preferred_label": "Disaster"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Pharisees"
+"preferred_label": "Sky"
 },
 {
-"id": "flora:Chicory",
-"type": "flora",
-"confidence": 0.3025,
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.3125,
 "match_method": "canonical",
-"preferred_label": "Bitter Herbs"
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Judgment"
 },
 {
 "id": "flora:Mint",
@@ -119,25 +112,18 @@
 "preferred_label": "Mint"
 },
 {
+"id": "flora:Chicory",
+"type": "flora",
+"confidence": 0.3025,
+"match_method": "canonical",
+"preferred_label": "Bitter Herbs"
+},
+{
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.2775,
 "match_method": "canonical",
 "preferred_label": "Unleavened Bread"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Mercy"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Love"
 },
 {
 "id": "deity:Lord",
@@ -147,6 +133,13 @@
 "preferred_label": "LORD"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -154,25 +147,11 @@
 "preferred_label": "Law"
 },
 {
-"id": "flora:Cumin",
-"type": "flora",
-"confidence": 0.1713,
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Cumin"
-},
-{
-"id": "flora:Rue",
-"type": "flora",
-"confidence": 0.1713,
-"match_method": "canonical",
-"preferred_label": "Rue"
-},
-{
-"id": "flora:Dill",
-"type": "flora",
-"confidence": 0.1713,
-"match_method": "canonical",
-"preferred_label": "Dill"
+"preferred_label": "Mercy"
 },
 {
 "id": "flora:Ivy",
@@ -182,6 +161,20 @@
 "preferred_label": "Ivy"
 },
 {
+"id": "flora:Dill",
+"type": "flora",
+"confidence": 0.1713,
+"match_method": "canonical",
+"preferred_label": "Dill"
+},
+{
+"id": "flora:Rue",
+"type": "flora",
+"confidence": 0.1713,
+"match_method": "canonical",
+"preferred_label": "Rue"
+},
+{
 "id": "flora:Colocynth",
 "type": "flora",
 "confidence": 0.1713,
@@ -189,11 +182,11 @@
 "preferred_label": "Colocynth"
 },
 {
-"id": "realia:Stew",
-"type": "realia",
-"confidence": 0.1463,
+"id": "flora:Cumin",
+"type": "flora",
+"confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "Stew"
+"preferred_label": "Cumin"
 },
 {
 "id": "flora:Vine",
@@ -201,6 +194,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "Vine"
+},
+{
+"id": "realia:Stew",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Stew"
 },
 {
 "id": "realia:CookingPot",

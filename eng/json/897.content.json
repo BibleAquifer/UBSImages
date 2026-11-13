@@ -119,48 +119,6 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "person:Lazarus.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Lazarus"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "keyterm:Friendship",
 "type": "keyterm",
 "confidence": 0.18,
@@ -168,11 +126,18 @@
 "preferred_label": "Friendship"
 },
 {
-"id": "group:ReligiousOfficials",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Religious Officials"
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Surely!"
 },
 {
 "id": "keyterm:Ability",
@@ -182,11 +147,25 @@
 "preferred_label": "Ability"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "group:ReligiousOfficials",
+"type": "group",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Religious Officials"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "person:John.4",
@@ -203,18 +182,39 @@
 "preferred_label": "Pharisees"
 },
 {
-"id": "keyterm:Surely",
-"type": "keyterm",
+"id": "person:Abraham",
+"type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Surely!"
+"preferred_label": "Abraham"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Love"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "person:Lazarus.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Lazarus"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Peter"
 },
 {
 "id": "realia:Sheepfold",
@@ -222,6 +222,27 @@
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "Sheepfold"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Ship"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Casting Net"
 },
 {
 "id": "realia:Cubit.2",
@@ -238,27 +259,6 @@
 "preferred_label": "Fishnet"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Casting Net"
-},
-{
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.12,
@@ -266,11 +266,11 @@
 "preferred_label": "Fish"
 },
 {
-"id": "realia:Ship",
-"type": "realia",
+"id": "fauna:Flock",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "Flock"
 }
 ]
 }

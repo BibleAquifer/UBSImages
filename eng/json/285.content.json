@@ -3,9 +3,9 @@
 "content_id": "2622",
 "reference_id": 1790,
 "version": "1.0.4",
-"title": "Sacrifice Table",
+"title": "Offering Table",
 "media_type": "Image",
-"index_reference": "sacrifice table",
+"index_reference": "offering table",
 "language": "eng",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0449_sacrifice_table.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0449_sacrifice_table.jpg'>link</a></p></block>",
@@ -267,18 +267,18 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3929,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3929,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3929,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Lampstand.2",
@@ -295,13 +295,6 @@
 "preferred_label": "Bread of Display"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2914,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.2914,
@@ -314,6 +307,13 @@
 "confidence": 0.2914,
 "match_method": "canonical",
 "preferred_label": "Cubit"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2914,
+"match_method": "canonical",
+"preferred_label": "House"
 },
 {
 "id": "person:Solomon",
@@ -344,6 +344,20 @@
 "preferred_label": "Tent of Meeting"
 },
 {
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "Ark of the Covenant"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "Curtain"
+},
+{
 "id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.1657,
@@ -358,41 +372,6 @@
 "preferred_label": "Jug"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "Curtain"
-},
-{
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "Ark of the Covenant"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Hezekiah"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1629,
@@ -405,6 +384,27 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Slaughtering"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Hezekiah"
 },
 {
 "id": "keyterm:Dishonor",
@@ -428,13 +428,6 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Handbreadth"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1029,
@@ -449,18 +442,11 @@
 "preferred_label": "Wine"
 },
 {
-"id": "realia:Bed",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Screen"
+"preferred_label": "Money"
 },
 {
 "id": "realia:OliveOil",
@@ -470,11 +456,25 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "realia:Money",
+"id": "realia:Screen",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Screen"
+},
+{
+"id": "realia:Handbreadth",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Handbreadth"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Bed"
 }
 ]
 }
