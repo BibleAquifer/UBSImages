@@ -193,6 +193,13 @@
 "preferred_label": "Cross"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.304,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.304,
@@ -200,11 +207,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.304,
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "LORD"
+"preferred_label": "Pilate"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Hell"
 },
 {
 "id": "keyterm:Counsel",
@@ -221,39 +235,11 @@
 "preferred_label": "Barabbas"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Hell"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Pilate"
-},
-{
 "id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "Covenant"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Horse"
 },
 {
 "id": "person:Oreb",
@@ -263,6 +249,13 @@
 "preferred_label": "Oreb"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.176,
@@ -270,25 +263,11 @@
 "preferred_label": "Synagogue"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.168,
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:Lawful",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Be Lawful"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Rod"
 },
 {
 "id": "keyterm:Exempt",
@@ -305,13 +284,6 @@
 "preferred_label": "Paul"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Egypt"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.168,
@@ -319,18 +291,25 @@
 "preferred_label": "Dispossess"
 },
 {
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Rome"
-},
-{
-"id": "keyterm:Stupid",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Stupid"
+"preferred_label": "Resurrection"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Egypt"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Love"
 },
 {
 "id": "keyterm:Refuge",
@@ -340,11 +319,18 @@
 "preferred_label": "Refuge"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Lawful",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Be Lawful"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Rome"
 },
 {
 "id": "place:Midian",
@@ -354,11 +340,25 @@
 "preferred_label": "Midian"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Gentiles"
+},
+{
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Stupid"
 },
 {
 "id": "realia:Rope",
@@ -375,18 +375,11 @@
 "preferred_label": "Trap"
 },
 {
-"id": "realia:Staff",
+"id": "realia:Wagon",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Staff"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "Wagon"
 },
 {
 "id": "realia:Chain",
@@ -396,18 +389,18 @@
 "preferred_label": "Chain"
 },
 {
-"id": "realia:BitAndBridle",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Bit and Bridle"
-},
-{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
 "preferred_label": "Cattle"
+},
+{
+"id": "realia:BitAndBridle",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Bit and Bridle"
 },
 {
 "id": "realia:Temple",
@@ -417,11 +410,11 @@
 "preferred_label": "Temple"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Wagon"
+"preferred_label": "Staff"
 },
 {
 "id": "realia:Strap",
@@ -436,6 +429,13 @@
 "confidence": 0.108,
 "match_method": "canonical",
 "preferred_label": "Prison"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Sheep"
 },
 {
 "id": "fauna:Donkey",

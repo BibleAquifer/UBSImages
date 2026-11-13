@@ -242,13 +242,6 @@
 "preferred_label": "Sacred Pole"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.4025,
@@ -256,18 +249,25 @@
 "preferred_label": "Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
 },
 {
 "id": "flora:Pine",
@@ -326,11 +326,11 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "place:KingsValley",
-"type": "place",
+"id": "keyterm:Incantations",
+"type": "keyterm",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "King’s Valley"
+"preferred_label": "Incantations"
 },
 {
 "id": "deity:Nehushtan",
@@ -340,11 +340,11 @@
 "preferred_label": "Nehushtan"
 },
 {
-"id": "keyterm:Incantations",
-"type": "keyterm",
+"id": "place:KingsValley",
+"type": "place",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Incantations"
+"preferred_label": "King’s Valley"
 },
 {
 "id": "realia:OliveOil",
@@ -354,123 +354,11 @@
 "preferred_label": "Olive Oil"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Tribe of Ephraim"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Smear"
-},
-{
-"id": "place:On",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "On"
-},
-{
-"id": "person:Manasseh",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Manasseh"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Benjamin"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Rachel"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Judah"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ephraim"
-},
-{
 "id": "person:Asa",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Asa"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Force to Serve"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Tribe of Benjamin"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Teraphim"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
-},
-{
-"id": "keyterm:Idol",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Idol"
-},
-{
-"id": "person:Laban",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Laban"
-},
-{
-"id": "place:Bethel",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Bethel"
 },
 {
 "id": "keyterm:Witness",
@@ -480,6 +368,13 @@
 "preferred_label": "Witness"
 },
 {
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Benjamin"
+},
+{
 "id": "group:Manasseh",
 "type": "group",
 "confidence": 0.1641,
@@ -487,18 +382,67 @@
 "preferred_label": "Tribe of Manasseh"
 },
 {
-"id": "keyterm:Vow",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Vow"
+"preferred_label": "Offering"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Tribe of Judah"
+"preferred_label": "Ephraim"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Bethel"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Smear"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Judah"
+},
+{
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Laban"
+},
+{
+"id": "place:On",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "On"
+},
+{
+"id": "keyterm:Idol",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Idol"
 },
 {
 "id": "person:Absalom",
@@ -508,25 +452,60 @@
 "preferred_label": "Absalom"
 },
 {
-"id": "realia:Ephod",
-"type": "realia",
-"confidence": 0.1041,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Ephod"
+"preferred_label": "Tribe of Judah"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1041,
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Image"
+"preferred_label": "Tribe of Benjamin"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1041,
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Force to Serve"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Tribe of Ephraim"
+},
+{
+"id": "deity:Teraphim",
+"type": "deity",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Teraphim"
+},
+{
+"id": "person:Rachel",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Rachel"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Manasseh"
+},
+{
+"id": "keyterm:Vow",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Vow"
 },
 {
 "id": "realia:HouseholdIdols",
@@ -536,11 +515,18 @@
 "preferred_label": "Household Idols"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "realia:Ephod",
+"type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Horse"
+"preferred_label": "Ephod"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Vine"
 },
 {
 "id": "realia:Wine",
@@ -548,6 +534,20 @@
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Wine"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Horse"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Image"
 },
 {
 "id": "fauna:Snake",

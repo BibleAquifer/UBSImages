@@ -339,18 +339,18 @@
 "preferred_label": "Bow Down"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2787,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2787,
 "match_method": "canonical",
 "preferred_label": "Israel"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2787,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "realia:Seal",
@@ -367,13 +367,6 @@
 "preferred_label": "House"
 },
 {
-"id": "deity:FirstLivingCreature",
-"type": "deity",
-"confidence": 0.2277,
-"match_method": "canonical",
-"preferred_label": "First Living Creature"
-},
-{
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.2277,
@@ -381,11 +374,11 @@
 "preferred_label": "Third Living Creature"
 },
 {
-"id": "deity:SecondLivingCreature",
+"id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2277,
 "match_method": "canonical",
-"preferred_label": "Second Living Creature"
+"preferred_label": "First Living Creature"
 },
 {
 "id": "deity:FourthLivingCreature",
@@ -395,32 +388,11 @@
 "preferred_label": "Fourth Living Creature"
 },
 {
-"id": "keyterm:Life",
-"type": "keyterm",
-"confidence": 0.2191,
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2277,
 "match_method": "canonical",
-"preferred_label": "Life"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Kebar"
+"preferred_label": "Second Living Creature"
 },
 {
 "id": "keyterm:Surely",
@@ -430,25 +402,39 @@
 "preferred_label": "Surely!"
 },
 {
+"id": "place:Chebar",
+"type": "place",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "Kebar"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "Life"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2187,
 "match_method": "canonical",
 "preferred_label": "Linen"
-},
-{
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Redeem"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Pray"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -465,11 +451,11 @@
 "preferred_label": "Spirit"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Pray"
 },
 {
 "id": "deity:Voice",
@@ -479,11 +465,18 @@
 "preferred_label": "A Disembodied Voice"
 },
 {
-"id": "fauna:Vulture",
-"type": "fauna",
-"confidence": 0.1591,
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Vulture"
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Redeem"
 },
 {
 "id": "fauna:Lion",
@@ -493,18 +486,18 @@
 "preferred_label": "Lion"
 },
 {
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "Vulture"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
 "preferred_label": "Bowl"
-},
-{
-"id": "realia:Quart",
-"type": "realia",
-"confidence": 0.1038,
-"match_method": "canonical",
-"preferred_label": "Quart"
 },
 {
 "id": "realia:Balance",
@@ -514,25 +507,18 @@
 "preferred_label": "Balance"
 },
 {
+"id": "realia:Quart",
+"type": "realia",
+"confidence": 0.1038,
+"match_method": "canonical",
+"preferred_label": "Quart"
+},
+{
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.1038,
 "match_method": "canonical",
 "preferred_label": "Denarius"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Lyre"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Wheat"
 },
 {
 "id": "realia:Incense",
@@ -556,20 +542,6 @@
 "preferred_label": "Horse"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Barley"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Wine"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.0996,
@@ -577,11 +549,39 @@
 "preferred_label": "Olive Oil"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Lyre"
+},
+{
 "id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "Scroll"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Wine"
 }
 ]
 }
