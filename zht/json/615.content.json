@@ -3,9 +3,9 @@
 "content_id": "295803",
 "reference_id": 2157,
 "version": "1.0.4",
-"title": "希臘王座",
+"title": "希臘王座模型",
 "media_type": "Image",
-"index_reference": "希臘王座",
+"index_reference": "希臘王座模型",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0874_throne_greek.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0874_throne_greek.jpg'>link</a></p></block>",
@@ -1108,18 +1108,18 @@
 "preferred_label": "猶大支派"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3707,
-"match_method": "canonical",
-"preferred_label": "天"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3707,
 "match_method": "canonical",
 "preferred_label": "榮耀（神的同在）"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.3707,
+"match_method": "canonical",
+"preferred_label": "天"
 },
 {
 "id": "keyterm:Truth",
@@ -1157,25 +1157,11 @@
 "preferred_label": "房屋"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.3103,
 "match_method": "canonical",
-"preferred_label": "天使"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.3103,
-"match_method": "canonical",
-"preferred_label": "永遠"
-},
-{
-"id": "person:Adonijah",
-"type": "person",
-"confidence": 0.3103,
-"match_method": "canonical",
-"preferred_label": "亞多尼雅"
+"preferred_label": "耶路撒冷"
 },
 {
 "id": "keyterm:Swear",
@@ -1185,11 +1171,25 @@
 "preferred_label": "起誓"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "person:Adonijah",
+"type": "person",
 "confidence": 0.3103,
 "match_method": "canonical",
-"preferred_label": "耶路撒冷"
+"preferred_label": "亞多尼雅"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.3103,
+"match_method": "canonical",
+"preferred_label": "永遠"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.3103,
+"match_method": "canonical",
+"preferred_label": "天使"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -1206,27 +1206,6 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.2578,
-"match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.2578,
-"match_method": "canonical",
-"preferred_label": "約"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.2578,
-"match_method": "canonical",
-"preferred_label": "判定"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2578,
@@ -1234,18 +1213,11 @@
 "preferred_label": "平安"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
+"id": "place:Samaria",
+"type": "place",
 "confidence": 0.2578,
 "match_method": "canonical",
-"preferred_label": "愛"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.2578,
-"match_method": "canonical",
-"preferred_label": "心靈"
+"preferred_label": "撒馬利亞（城）"
 },
 {
 "id": "keyterm:BeFirm",
@@ -1255,6 +1227,34 @@
 "preferred_label": "堅定"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2578,
+"match_method": "canonical",
+"preferred_label": "愛"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.2578,
+"match_method": "canonical",
+"preferred_label": "國度"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.2578,
+"match_method": "canonical",
+"preferred_label": "心靈"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.2578,
+"match_method": "canonical",
+"preferred_label": "判定"
+},
+{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.2578,
@@ -1262,11 +1262,11 @@
 "preferred_label": "訓誨"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Kindness",
+"type": "keyterm",
 "confidence": 0.2578,
 "match_method": "canonical",
-"preferred_label": "撒馬利亞（城）"
+"preferred_label": "慈愛（團結互助）"
 }
 ]
 }

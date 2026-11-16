@@ -157,18 +157,25 @@
 "preferred_label": "肉鍤子"
 },
 {
-"id": "realia:Altar",
+"id": "realia:CookingPot",
+"type": "realia",
+"confidence": 0.2611,
+"match_method": "canonical",
+"preferred_label": "煮鍋"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "祭壇"
 },
 {
-"id": "realia:CookingPot",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.2611,
 "match_method": "canonical",
-"preferred_label": "煮鍋"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:StoneAltar",
@@ -183,13 +190,6 @@
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "帳幕的壇"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2611,
-"match_method": "canonical",
-"preferred_label": "祭壇"
 },
 {
 "id": "person:Moses",
@@ -227,13 +227,6 @@
 "preferred_label": "盆"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "會幕"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1874,
@@ -241,18 +234,11 @@
 "preferred_label": "金錢"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "燈臺"
-},
-{
-"id": "realia:Lamp",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "燈盞"
+"preferred_label": "杖"
 },
 {
 "id": "realia:House",
@@ -262,11 +248,25 @@
 "preferred_label": "房屋"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "杖"
+"preferred_label": "燈盞"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "燈臺"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "會幕"
 },
 {
 "id": "person:Abihu",
@@ -283,6 +283,13 @@
 "preferred_label": "拿答"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "利未支派"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1737,
@@ -290,11 +297,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Korah.3",
+"type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "利未支派"
+"preferred_label": "可拉"
 },
 {
 "id": "keyterm:Witness.2",
@@ -311,20 +318,6 @@
 "preferred_label": "利未"
 },
 {
-"id": "person:Korah.3",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "可拉"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1137,
@@ -339,11 +332,11 @@
 "preferred_label": "海狗"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Leather",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "橄欖油"
+"preferred_label": "皮革"
 },
 {
 "id": "realia:Curtain",
@@ -353,11 +346,18 @@
 "preferred_label": "幔子"
 },
 {
-"id": "realia:Leather",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "皮革"
+"preferred_label": "橄欖油"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "膏油"
 }
 ]
 }

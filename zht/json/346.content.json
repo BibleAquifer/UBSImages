@@ -3,9 +3,9 @@
 "content_id": "295497",
 "reference_id": 1851,
 "version": "1.0.4",
-"title": "羅馬石板路 佩特拉",
+"title": "佩特拉的羅馬鋪路石",
 "media_type": "Image",
-"index_reference": "羅馬石板路 佩特拉",
+"index_reference": "佩特拉的羅馬鋪路石",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0437_pavement_roman_petra.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0437_pavement_roman_petra.jpg'>link</a></p></block>",
@@ -58,6 +58,13 @@
 "preferred_label": "厄巴大"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "耶和華"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.225,
@@ -65,11 +72,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "榮耀（神的同在）"
 },
 {
 "id": "keyterm:Kindness",
@@ -93,25 +100,11 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "榮耀（神的同在）"
-},
-{
 "id": "flora:Cotton",
 "type": "flora",
 "confidence": 0.1983,
 "match_method": "canonical",
 "preferred_label": "棉花"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "房屋"
 },
 {
 "id": "realia:JudgmentSeat",
@@ -121,6 +114,13 @@
 "preferred_label": "審判臺"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.165,
@@ -128,18 +128,11 @@
 "preferred_label": "床"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "紫色布"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "細麻布"
+"preferred_label": "金錢"
 },
 {
 "id": "realia:Rope",
@@ -149,11 +142,18 @@
 "preferred_label": "繩子"
 },
 {
-"id": "realia:Money",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "金錢"
+"preferred_label": "細麻布"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "紫色布"
 }
 ]
 }

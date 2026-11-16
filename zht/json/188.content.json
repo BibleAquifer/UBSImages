@@ -267,13 +267,6 @@
 "preferred_label": "橄欖油"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2321,
-"match_method": "canonical",
-"preferred_label": "耶穌"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2321,
@@ -281,8 +274,22 @@
 "preferred_label": "潔淨"
 },
 {
-"id": "realia:Aloes",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2321,
+"match_method": "canonical",
+"preferred_label": "耶穌"
+},
+{
+"id": "realia:OilOfNard",
 "type": "realia",
+"confidence": 0.1864,
+"match_method": "canonical",
+"preferred_label": "哪噠香膏"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
 "confidence": 0.1864,
 "match_method": "canonical",
 "preferred_label": "沉香"
@@ -295,18 +302,11 @@
 "preferred_label": "斤"
 },
 {
-"id": "flora:Aloes",
-"type": "flora",
-"confidence": 0.1864,
-"match_method": "canonical",
-"preferred_label": "沉香"
-},
-{
-"id": "realia:OilOfNard",
+"id": "realia:Aloes",
 "type": "realia",
 "confidence": 0.1864,
 "match_method": "canonical",
-"preferred_label": "哪噠香膏"
+"preferred_label": "沉香"
 },
 {
 "id": "flora:Calamus",
@@ -323,11 +323,11 @@
 "preferred_label": "沉香木"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "person:Nicodemus",
+"type": "person",
 "confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "俯伏敬拜"
+"preferred_label": "尼哥德慕"
 },
 {
 "id": "person:Simon.4",
@@ -337,11 +337,11 @@
 "preferred_label": "西門（長大痲瘋的）"
 },
 {
-"id": "person:Nicodemus",
-"type": "person",
+"id": "keyterm:BowDown",
+"type": "keyterm",
 "confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "尼哥德慕"
+"preferred_label": "俯伏敬拜"
 },
 {
 "id": "place:Bethany",
@@ -351,13 +351,6 @@
 "preferred_label": "伯大尼"
 },
 {
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "香"
-},
-{
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.1721,
@@ -365,32 +358,18 @@
 "preferred_label": "得拿利"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1721,
+"match_method": "canonical",
+"preferred_label": "香"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1721,
 "match_method": "canonical",
 "preferred_label": "酒"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "誡命"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "一群門徒"
 },
 {
 "id": "keyterm:Sabbath",
@@ -407,11 +386,32 @@
 "preferred_label": "法利賽人"
 },
 {
-"id": "person:Mary",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "馬利亞（耶穌的母親）"
+"preferred_label": "一群門徒"
+},
+{
+"id": "place:Ophir",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "俄斐"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "誡命"
 },
 {
 "id": "person:Ahasuerus",
@@ -428,11 +428,11 @@
 "preferred_label": "拉撒路"
 },
 {
-"id": "place:Ophir",
-"type": "place",
+"id": "person:Mary",
+"type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "俄斐"
+"preferred_label": "馬利亞（耶穌的母親）"
 },
 {
 "id": "realia:MyrrhedWine",
@@ -456,46 +456,11 @@
 "preferred_label": "番紅花"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "車輛"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "葡萄樹"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "馬"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "百合花"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "小麥"
+"preferred_label": "床"
 },
 {
 "id": "fauna:Lamb",
@@ -505,6 +470,20 @@
 "preferred_label": "綿羊"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "小麥"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "百合花"
+},
+{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1061,
@@ -512,11 +491,32 @@
 "preferred_label": "袋子"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "葡萄樹"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "床"
+"preferred_label": "膏油"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "馬"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "車輛"
 }
 ]
 }

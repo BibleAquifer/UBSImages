@@ -3,9 +3,9 @@
 "content_id": "295987",
 "reference_id": 2341,
 "version": "1.0.4",
-"title": "圓盾",
+"title": "手持圓盾的士兵：浮雕",
 "media_type": "Image",
-"index_reference": "圓盾",
+"index_reference": "手持圓盾的士兵浮雕",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0387_round_shield.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0387_round_shield.jpg'>link</a></p></block>",
@@ -441,13 +441,6 @@
 "preferred_label": "房屋"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3281,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.3281,
@@ -462,6 +455,20 @@
 "preferred_label": "箭"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3281,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.3252,
+"match_method": "canonical",
+"preferred_label": "槍"
+},
+{
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.3252,
@@ -474,13 +481,6 @@
 "confidence": 0.3252,
 "match_method": "canonical",
 "preferred_label": "擋牌"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.3252,
-"match_method": "canonical",
-"preferred_label": "槍"
 },
 {
 "id": "place:Put",
@@ -504,11 +504,11 @@
 "preferred_label": "箭"
 },
 {
-"id": "realia:Helmet",
+"id": "realia:Tower",
 "type": "realia",
 "confidence": 0.2681,
 "match_method": "canonical",
-"preferred_label": "頭盔"
+"preferred_label": "樓"
 },
 {
 "id": "realia:Chariot",
@@ -518,11 +518,11 @@
 "preferred_label": "戰車"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.2681,
 "match_method": "canonical",
-"preferred_label": "樓"
+"preferred_label": "頭盔"
 },
 {
 "id": "person:Lud",
@@ -532,13 +532,6 @@
 "preferred_label": "路德"
 },
 {
-"id": "place:HouseOfTheForestOfLebanon",
-"type": "place",
-"confidence": 0.2172,
-"match_method": "canonical",
-"preferred_label": "黎巴嫩林宮"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2172,
@@ -546,25 +539,11 @@
 "preferred_label": "懼怕"
 },
 {
-"id": "place:Assyria",
+"id": "place:HouseOfTheForestOfLebanon",
 "type": "place",
-"confidence": 0.2141,
+"confidence": 0.2172,
 "match_method": "canonical",
-"preferred_label": "亞述"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "猶大"
-},
-{
-"id": "place:Cush.2",
-"type": "place",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "古實"
+"preferred_label": "黎巴嫩林宮"
 },
 {
 "id": "place:Persia",
@@ -574,6 +553,13 @@
 "preferred_label": "波斯"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "所羅門"
+},
+{
 "id": "person:Rehoboam",
 "type": "person",
 "confidence": 0.2141,
@@ -581,11 +567,18 @@
 "preferred_label": "羅波安"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "猶大支派"
+"preferred_label": "猶大"
+},
+{
+"id": "person:Hadadezer",
+"type": "person",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "哈大底謝"
 },
 {
 "id": "keyterm:Salvation",
@@ -595,18 +588,25 @@
 "preferred_label": "拯救"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "所羅門"
+"preferred_label": "猶大支派"
 },
 {
-"id": "person:Hadadezer",
-"type": "person",
+"id": "place:Assyria",
+"type": "place",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "哈大底謝"
+"preferred_label": "亞述"
+},
+{
+"id": "place:Cush.2",
+"type": "place",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "古實"
 }
 ]
 }

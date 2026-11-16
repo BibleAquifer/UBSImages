@@ -343,6 +343,13 @@
 "preferred_label": "巴比倫"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.395,
+"match_method": "canonical",
+"preferred_label": "撒馬利亞（城）"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.395,
@@ -357,13 +364,6 @@
 "preferred_label": "猶大支派"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.395,
-"match_method": "canonical",
-"preferred_label": "撒馬利亞（城）"
-},
-{
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.339,
@@ -371,11 +371,11 @@
 "preferred_label": "攻城工事"
 },
 {
-"id": "place:Assyria",
+"id": "place:Chaldea",
 "type": "place",
 "confidence": 0.336,
 "match_method": "canonical",
-"preferred_label": "亞述"
+"preferred_label": "迦勒底"
 },
 {
 "id": "group:Chaldea",
@@ -392,11 +392,11 @@
 "preferred_label": "尼布甲尼撒"
 },
 {
-"id": "place:Chaldea",
+"id": "place:Assyria",
 "type": "place",
 "confidence": 0.336,
 "match_method": "canonical",
-"preferred_label": "迦勒底"
+"preferred_label": "亞述"
 },
 {
 "id": "realia:Fortification",
@@ -413,18 +413,18 @@
 "preferred_label": "西底家"
 },
 {
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "約押"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "大衛"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "約押"
 },
 {
 "id": "realia:SiegeTower",
@@ -448,18 +448,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "亞捫人"
-},
-{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.218,
 "match_method": "canonical",
 "preferred_label": "亞捫"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "亞捫人"
 },
 {
 "id": "realia:SiegeRamp",
@@ -469,53 +469,11 @@
 "preferred_label": "攻城土壘"
 },
 {
-"id": "person:Baasha",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "巴沙"
-},
-{
-"id": "person:Jehoiakim",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "約雅敬"
-},
-{
-"id": "person:Shalmaneser",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "撒縵以色"
-},
-{
 "id": "person:Nadab.2",
 "type": "person",
 "confidence": 0.163,
 "match_method": "canonical",
 "preferred_label": "拿答"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "便‧哈達"
-},
-{
-"id": "person:Rezin",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "利汛"
-},
-{
-"id": "person:Hoshea",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "何細亞"
 },
 {
 "id": "person:Ahijah.3",
@@ -532,11 +490,46 @@
 "preferred_label": "上伯‧和崙"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.159,
+"id": "person:Rezin",
+"type": "person",
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "非利士"
+"preferred_label": "利汛"
+},
+{
+"id": "person:Jehoiakim",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "約雅敬"
+},
+{
+"id": "person:Hoshea",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "何細亞"
+},
+{
+"id": "person:Ben-hadad.2",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "便‧哈達"
+},
+{
+"id": "person:Baasha",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "巴沙"
+},
+{
+"id": "person:Shalmaneser",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "撒縵以色"
 },
 {
 "id": "person:Omri",
@@ -546,165 +539,11 @@
 "preferred_label": "暗利"
 },
 {
-"id": "place:Media",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "米底亞"
-},
-{
-"id": "person:Issachar",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "以薩迦"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "推羅"
-},
-{
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "以攔"
-},
-{
-"id": "person:Remaliah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "利瑪利"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "說預言"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "非利士人"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "便‧哈達"
-},
-{
-"id": "person:Jeremiah.6",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "耶利米"
-},
-{
-"id": "place:Tirzah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "得撒"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "倚靠"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
-"id": "person:Rehoboam",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "羅波安"
-},
-{
-"id": "group:Issachar",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "以薩迦支派"
-},
-{
-"id": "person:Elah.3",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "以拉"
-},
-{
-"id": "person:Hophra",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "合弗拉"
-},
-{
-"id": "person:Sennacherib",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "西拿基立"
-},
-{
-"id": "person:Pekah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "比加"
-},
-{
-"id": "keyterm:Supplication",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "求憐憫"
-},
-{
-"id": "place:Abel-beth-maacah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "亞伯‧伯‧瑪迦"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "希西家"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
 "preferred_label": "掃羅（基士之子）"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "基伊拉"
 },
 {
 "id": "person:Ahaz",
@@ -714,11 +553,81 @@
 "preferred_label": "亞哈斯"
 },
 {
-"id": "place:Beth-horonLower",
+"id": "person:Issachar",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "以薩迦"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "便‧哈達"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "倚靠"
+},
+{
+"id": "place:Media",
 "type": "place",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "下伯‧和崙"
+"preferred_label": "米底亞"
+},
+{
+"id": "place:Abel-beth-maacah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "亞伯‧伯‧瑪迦"
+},
+{
+"id": "person:Remaliah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "利瑪利"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "非利士人"
+},
+{
+"id": "person:Rehoboam",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "羅波安"
+},
+{
+"id": "place:Elam",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "以攔"
+},
+{
+"id": "person:Pekah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "比加"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "合弗拉"
 },
 {
 "id": "keyterm:Salvation",
@@ -726,6 +635,97 @@
 "confidence": 0.159,
 "match_method": "canonical",
 "preferred_label": "拯救"
+},
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "基伊拉"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "推羅"
+},
+{
+"id": "person:Sennacherib",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "西拿基立"
+},
+{
+"id": "person:Jeremiah.6",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "耶利米"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "埃及"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "非利士"
+},
+{
+"id": "person:Elah.3",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "以拉"
+},
+{
+"id": "place:Tirzah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "得撒"
+},
+{
+"id": "group:Issachar",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "以薩迦支派"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "希西家"
+},
+{
+"id": "keyterm:Supplication",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "求憐憫"
+},
+{
+"id": "place:Beth-horonLower",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "下伯‧和崙"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "說預言"
 },
 {
 "id": "realia:Money",
@@ -756,18 +756,18 @@
 "preferred_label": "漁網"
 },
 {
-"id": "flora:Muskmelon",
-"type": "flora",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "甜瓜"
-},
-{
 "id": "realia:Kab",
 "type": "realia",
 "confidence": 0.103,
 "match_method": "canonical",
 "preferred_label": "甲弗"
+},
+{
+"id": "flora:Muskmelon",
+"type": "flora",
+"confidence": 0.103,
+"match_method": "canonical",
+"preferred_label": "甜瓜"
 },
 {
 "id": "realia:BrickMold",
@@ -777,20 +777,6 @@
 "preferred_label": "磚模"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "繩子"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "葡萄樹"
-},
-{
 "id": "realia:Net",
 "type": "realia",
 "confidence": 0.099,
@@ -798,32 +784,11 @@
 "preferred_label": "網"
 },
 {
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "鬣狗"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "斧頭"
-},
-{
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "馬"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "盆"
 },
 {
 "id": "realia:Chariot",
@@ -840,6 +805,27 @@
 "preferred_label": "刀劍"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "鬣狗"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "葡萄樹"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.099,
@@ -847,11 +833,25 @@
 "preferred_label": "驢"
 },
 {
-"id": "realia:House",
+"id": "realia:Bowl",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "房屋"
+"preferred_label": "盆"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "斧頭"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "繩子"
 }
 ]
 }

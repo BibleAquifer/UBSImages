@@ -3,9 +3,9 @@
 "content_id": "295456",
 "reference_id": 1810,
 "version": "1.0.4",
-"title": "船",
+"title": "有槳帆船模型",
 "media_type": "Image",
-"index_reference": "船",
+"index_reference": "有槳帆船模型",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0517_ship.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0517_ship.jpg'>link</a></p></block>",
@@ -64,13 +64,6 @@
 "preferred_label": "船"
 },
 {
-"id": "realia:Rudder",
-"type": "realia",
-"confidence": 0.3257,
-"match_method": "canonical",
-"preferred_label": "舵"
-},
-{
 "id": "realia:Oar",
 "type": "realia",
 "confidence": 0.3257,
@@ -78,11 +71,11 @@
 "preferred_label": "槳"
 },
 {
-"id": "keyterm:Mighty",
-"type": "keyterm",
-"confidence": 0.2429,
+"id": "realia:Rudder",
+"type": "realia",
+"confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "威嚴（偉大）"
+"preferred_label": "舵"
 },
 {
 "id": "place:Arvad",
@@ -99,11 +92,11 @@
 "preferred_label": "塞浦路斯"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.2143,
+"id": "keyterm:Mighty",
+"type": "keyterm",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "巴珊"
+"preferred_label": "威嚴（偉大）"
 },
 {
 "id": "deity:Lord",
@@ -113,13 +106,6 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "西頓"
-},
-{
 "id": "place:Tyre",
 "type": "place",
 "confidence": 0.2143,
@@ -127,11 +113,18 @@
 "preferred_label": "推羅"
 },
 {
-"id": "realia:Sail",
-"type": "realia",
-"confidence": 0.1829,
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "帆"
+"preferred_label": "巴珊"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "西頓"
 },
 {
 "id": "realia:Deck",
@@ -141,32 +134,11 @@
 "preferred_label": "甲板"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Sail",
 "type": "realia",
-"confidence": 0.1543,
+"confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "繩子"
-},
-{
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "柏樹"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "松樹"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "橡樹"
+"preferred_label": "帆"
 },
 {
 "id": "fauna:Ostrich",
@@ -188,6 +160,34 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "希臘刺柏"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "繩子"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "松樹"
+},
+{
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "柏樹"
+},
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "橡樹"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "295755",
 "reference_id": 2109,
 "version": "1.0.4",
-"title": "根基膨大",
+"title": "樹根基部的膨大根",
 "media_type": "Image",
-"index_reference": "根基膨大",
+"index_reference": "樹根基部的膨大根",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg'>link</a></p></block>",
@@ -239,13 +239,6 @@
 "preferred_label": "耶西"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "猶大"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.2257,
@@ -260,25 +253,18 @@
 "preferred_label": "聖潔"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "猶大"
+},
+{
 "id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "可憎之物"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "橄欖樹"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "葡萄樹"
 },
 {
 "id": "flora:Cedar",
@@ -295,18 +281,32 @@
 "preferred_label": "斧頭"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "玷污（行為）"
+"preferred_label": "葡萄樹"
 },
 {
-"id": "keyterm:Majesty",
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "橄欖樹"
+},
+{
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "威嚴"
+"preferred_label": "恩寵（仁慈）"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "以法蓮支派"
 },
 {
 "id": "person:Ephraim",
@@ -314,6 +314,27 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "以法蓮"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "外邦人"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "訓誨"
 },
 {
 "id": "person:Israel",
@@ -330,20 +351,6 @@
 "preferred_label": "榮耀（神的同在）"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "訓誨"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "黎巴嫩"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.1629,
@@ -351,11 +358,18 @@
 "preferred_label": "亞摩利人"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "恩寵（仁慈）"
+"preferred_label": "威嚴"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "玷污（行為）"
 },
 {
 "id": "keyterm:PutToTheTest",
@@ -365,20 +379,6 @@
 "preferred_label": "試探"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "以法蓮支派"
-},
-{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1629,
@@ -386,11 +386,11 @@
 "preferred_label": "喜樂的由來"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "黎巴嫩"
 },
 {
 "id": "flora:Broom",
@@ -407,13 +407,6 @@
 "preferred_label": "鹹草"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "金錢"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1029,
@@ -421,11 +414,11 @@
 "preferred_label": "無花果"
 },
 {
-"id": "flora:Oak",
-"type": "flora",
+"id": "realia:Standard",
+"type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "橡樹"
+"preferred_label": "纛"
 },
 {
 "id": "realia:Image",
@@ -449,11 +442,18 @@
 "preferred_label": "禿鷹"
 },
 {
-"id": "realia:House",
+"id": "realia:Fortress",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "房屋"
+"preferred_label": "堡壘"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "金錢"
 },
 {
 "id": "flora:Grass",
@@ -463,18 +463,18 @@
 "preferred_label": "草"
 },
 {
-"id": "realia:Standard",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "纛"
+"preferred_label": "房屋"
 },
 {
-"id": "realia:Fortress",
-"type": "realia",
+"id": "flora:Oak",
+"type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "堡壘"
+"preferred_label": "橡樹"
 }
 ]
 }
