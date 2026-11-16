@@ -3,9 +3,9 @@
 "content_id": "280460",
 "reference_id": 1743,
 "version": "1.0.4",
-"title": "Wivim En",
+"title": "Wivim",
 "media_type": "Image",
-"index_reference": "wivim en",
+"index_reference": "wivim",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0342_weaving_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0342_weaving_en.jpg'>link</a></p></block>",
@@ -65,13 +65,6 @@
 "preferred_label": "spia"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.475,
-"match_method": "canonical",
-"preferred_label": "Filistia"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.475,
@@ -79,11 +72,11 @@
 "preferred_label": "Filistia"
 },
 {
-"id": "person:Jaare-oregim",
-"type": "person",
-"confidence": 0.4167,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "Jareoregim"
+"preferred_label": "Filistia"
 },
 {
 "id": "person:Elhanan",
@@ -93,18 +86,18 @@
 "preferred_label": "Elhanan"
 },
 {
+"id": "person:Jaare-oregim",
+"type": "person",
+"confidence": 0.4167,
+"match_method": "canonical",
+"preferred_label": "Jareoregim"
+},
+{
 "id": "realia:Shuttle",
 "type": "realia",
 "confidence": 0.3567,
 "match_method": "canonical",
 "preferred_label": "satol bilong samap"
-},
-{
-"id": "person:Goliath",
-"type": "person",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "Goliat"
 },
 {
 "id": "place:Gath",
@@ -114,11 +107,39 @@
 "preferred_label": "Get"
 },
 {
+"id": "person:Goliath",
+"type": "person",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "Goliat"
+},
+{
 "id": "person:Lahmi",
 "type": "person",
 "confidence": 0.2583,
 "match_method": "canonical",
 "preferred_label": "Lami"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "ol Isip"
+},
+{
+"id": "group:Bethlehem",
+"type": "group",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Lain bilong Betlehem"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Betlehem"
 },
 {
 "id": "place:Gezer",
@@ -135,25 +156,11 @@
 "preferred_label": "Isip"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Betlehem"
-},
-{
-"id": "group:Bethlehem",
-"type": "group",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Lain bilong Betlehem"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "ol Isip"
+"preferred_label": "wetim wantaim bilip"
 },
 {
 "id": "person:Samson",
@@ -163,11 +170,11 @@
 "preferred_label": "Samson"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.225,
+"id": "realia:PointOfSpear",
+"type": "realia",
+"confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "wetim wantaim bilip"
+"preferred_label": "tit bilong spia"
 },
 {
 "id": "realia:Pin",
@@ -177,13 +184,6 @@
 "preferred_label": "nil"
 },
 {
-"id": "realia:PointOfSpear",
-"type": "realia",
-"confidence": 0.1983,
-"match_method": "canonical",
-"preferred_label": "tit bilong spia"
-},
-{
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.165,
@@ -191,18 +191,18 @@
 "preferred_label": "kiubit"
 },
 {
-"id": "realia:LargeShield",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "bikpela hap plang bilong pait"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "sekel"
+},
+{
+"id": "realia:LargeShield",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "bikpela hap plang bilong pait"
 }
 ]
 }

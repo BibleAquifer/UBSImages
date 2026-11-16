@@ -3,9 +3,9 @@
 "content_id": "280902",
 "reference_id": 2185,
 "version": "1.0.4",
-"title": "Insens alta Roma",
+"title": "Sinsens alta Roma",
 "media_type": "Image",
-"index_reference": "insens alta roma",
+"index_reference": "sinsens alta roma",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0535_incense_altar_roman.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0535_incense_altar_roman.jpg'>link</a></p></block>",
@@ -75,6 +75,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "alta bilong tempel"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
@@ -94,13 +101,6 @@
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "alta bilong haus sel"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "alta bilong tempel"
 },
 {
 "id": "deity:Asherah",
@@ -131,18 +131,18 @@
 "preferred_label": "piksa"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Lain bilong Juda"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "Bikpela"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Israel"
 },
 {
 "id": "person:Judah.4",
@@ -152,11 +152,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Lain bilong Juda"
+"preferred_label": "Israel"
 },
 {
 "id": "deity:Baal",
@@ -173,6 +173,13 @@
 "preferred_label": "ples bilong lotu antap long maunten"
 },
 {
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "ston pain"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
@@ -180,11 +187,25 @@
 "preferred_label": "piksa bilong giaman god"
 },
 {
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.23,
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "ston pain"
+"preferred_label": "Kidron"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "skul"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Lusim rong"
 },
 {
 "id": "keyterm:Destroy",
@@ -206,27 +227,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Mekim Sin"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "skul"
-},
-{
-"id": "place:Kidron",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Kidron"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Lusim rong"
 },
 {
 "id": "realia:MoltenImage",

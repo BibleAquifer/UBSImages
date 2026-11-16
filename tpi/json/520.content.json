@@ -3,9 +3,9 @@
 "content_id": "280757",
 "reference_id": 2040,
 "version": "1.0.4",
-"title": "Mekim Wanpela Promis Tru Antap",
+"title": "Mekim Tok Promis",
 "media_type": "Image",
-"index_reference": "mekim wanpela promis tru antap",
+"index_reference": "mekim tok promis",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0893_making_of_a_vow.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0893_making_of_a_vow.jpg'>link</a></p></block>",
@@ -292,18 +292,25 @@
 "preferred_label": "skrol"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "bikpela hatwok bilong bel"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "bel isi"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Lain bilong Juda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "person:Israel",
@@ -320,32 +327,11 @@
 "preferred_label": "Ahap"
 },
 {
-"id": "keyterm:Curse",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "Mekim strongpela tok bilong daunim"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Lain bilong Juda"
-},
-{
-"id": "keyterm:Blameless",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "stap i no gat asua"
+"preferred_label": "bikpela hatwok bilong bel"
 },
 {
 "id": "person:Jonathan.3",
@@ -355,11 +341,18 @@
 "preferred_label": "Jonatan"
 },
 {
-"id": "keyterm:Leader",
+"id": "keyterm:Blameless",
 "type": "keyterm",
-"confidence": 0.1671,
+"confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "Lida"
+"preferred_label": "stap i no gat asua"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Mekim strongpela tok bilong daunim"
 },
 {
 "id": "group:Messengers",
@@ -367,6 +360,20 @@
 "confidence": 0.1671,
 "match_method": "canonical",
 "preferred_label": "ol man bilong bringim tok"
+},
+{
+"id": "keyterm:Leader",
+"type": "keyterm",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "Lida"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "alta bilong tempel"
 },
 {
 "id": "realia:Altar",
@@ -383,13 +390,6 @@
 "preferred_label": "alta ston"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "alta bilong haus sel"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1637,
@@ -397,39 +397,11 @@
 "preferred_label": "haus"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "alta bilong tempel"
-},
-{
-"id": "keyterm:Exempt",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "i stap fri"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "person:Abner",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Apner"
-},
-{
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Aisak"
+"preferred_label": "alta bilong haus sel"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -439,74 +411,11 @@
 "preferred_label": "karim hevi bilong asua"
 },
 {
-"id": "place:Ramoth-gilead",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ramot long Gileat"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "skul"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Babilon"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Solomon"
-},
-{
 "id": "person:Elijah",
 "type": "person",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "Elaija"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Wanpela Ensel"
-},
-{
-"id": "person:Elisha",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Elisa"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Benhadat"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Lusim rong"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Abraham"
 },
 {
 "id": "person:Jezebel",
@@ -516,32 +425,18 @@
 "preferred_label": "Jesebel"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "fosim long mekim wok"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Mekim gut"
-},
-{
-"id": "person:Shaphat.2",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Safat"
+"preferred_label": "Moses"
 },
 {
-"id": "place:Samaria",
+"id": "place:Babylon",
 "type": "place",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Samaria"
+"preferred_label": "Babilon"
 },
 {
 "id": "person:Adonijah",
@@ -551,6 +446,20 @@
 "preferred_label": "Adoniya"
 },
 {
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "skul"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Lusim rong"
+},
+{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.1618,
@@ -558,11 +467,102 @@
 "preferred_label": "Sol"
 },
 {
+"id": "person:Abner",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Apner"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Elisa"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "i stap fri"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Benhadat"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "fosim long mekim wok"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Aisak"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Mekim gut"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
 "id": "place:Jezreel.2",
 "type": "place",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "Jesril"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Wanpela Ensel"
+},
+{
+"id": "person:Shaphat.2",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Safat"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Solomon"
+},
+{
+"id": "place:Ramoth-gilead",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Ramot long Gileat"
 },
 {
 "id": "flora:Wormwood",
