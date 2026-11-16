@@ -281,13 +281,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Egypt"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2257,
@@ -295,11 +288,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "realia:Homer",
-"type": "realia",
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Egypt"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Homer"
+"preferred_label": "Pomegranate"
 },
 {
 "id": "flora:GreenVegetation",
@@ -309,11 +309,11 @@
 "preferred_label": "Green Vegetation"
 },
 {
-"id": "flora:Pomegranate",
-"type": "flora",
+"id": "realia:Homer",
+"type": "realia",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Pomegranate"
+"preferred_label": "Homer"
 },
 {
 "id": "person:Agag",
@@ -337,27 +337,6 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
 "id": "place:BrookOfEgypt",
 "type": "place",
 "confidence": 0.1629,
@@ -365,18 +344,18 @@
 "preferred_label": "Brook of Egypt"
 },
 {
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Believe In"
+"preferred_label": "Tribe of Judah"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Dispossess"
 },
 {
 "id": "person:Judah.4",
@@ -393,18 +372,18 @@
 "preferred_label": "Nile River"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Bless"
+},
+{
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Believe In"
 },
 {
 "id": "keyterm:Pure",
@@ -414,18 +393,25 @@
 "preferred_label": "Pure"
 },
 {
-"id": "realia:Acre",
-"type": "realia",
-"confidence": 0.1086,
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Acre"
+"preferred_label": "Joseph"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1086,
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Defilement"
 },
 {
 "id": "flora:Willow",
@@ -435,6 +421,20 @@
 "preferred_label": "Willow"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1086,
+"match_method": "canonical",
+"preferred_label": "Ephah"
+},
+{
+"id": "realia:Acre",
+"type": "realia",
+"confidence": 0.1086,
+"match_method": "canonical",
+"preferred_label": "Acre"
+},
+{
 "id": "realia:Bath",
 "type": "realia",
 "confidence": 0.1029,
@@ -442,74 +442,11 @@
 "preferred_label": "Bath"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Threshing Floor"
-},
-{
-"id": "realia:Mattock",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Mattock"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Stone Altar"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
-},
-{
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Must"
-},
-{
-"id": "realia:Seah",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Seah"
 },
 {
 "id": "realia:Sheaf",
@@ -526,6 +463,20 @@
 "preferred_label": "Shekel"
 },
 {
+"id": "realia:Mattock",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Mattock"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Money"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1029,
@@ -533,11 +484,46 @@
 "preferred_label": "Temple Altar"
 },
 {
-"id": "realia:Tent",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Tent"
+"preferred_label": "Altar"
+},
+{
+"id": "realia:Seah",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Seah"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Stone Altar"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Threshing Floor"
 },
 {
 "id": "fauna:Locust",
@@ -545,6 +531,20 @@
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Locust"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Tent"
 }
 ]
 }

@@ -51,25 +51,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Judah"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "To Cause to Possess"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "LORD"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "To Curse"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Judah"
 },
 {
 "id": "keyterm:Dispossess",
@@ -79,11 +79,11 @@
 "preferred_label": "Dispossess"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Tribe of Judah"
+"preferred_label": "To Cause to Possess"
 },
 {
 "id": "keyterm:Surely",
@@ -93,11 +93,18 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "To Curse"
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Goat",
@@ -112,13 +119,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Sheep"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Flock"
 }
 ]
 }
