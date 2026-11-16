@@ -3,9 +3,9 @@
 "content_id": "283887",
 "reference_id": 2371,
 "version": "1.0.4",
-"title": "स्मारक शिला",
+"title": "खड़े स्मारक पत्थर",
 "media_type": "Image",
-"index_reference": "स्मारक शिला",
+"index_reference": "खड़े स्मारक पत्थर",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0465_pillar_memorial_stone.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0465_pillar_memorial_stone.jpg'>link</a></p></block>",
@@ -242,6 +242,13 @@
 "preferred_label": "अशेरा का खंभा"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "मन्दिर की वेदी"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.4025,
@@ -261,13 +268,6 @@
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "निवास की वेदी"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "मन्दिर की वेदी"
 },
 {
 "id": "flora:Pine",
@@ -326,18 +326,18 @@
 "preferred_label": "अभिषेक का तेल"
 },
 {
-"id": "keyterm:Incantations",
-"type": "keyterm",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "तंत्र-मंत्र"
-},
-{
 "id": "deity:Nehushtan",
 "type": "deity",
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "नहुशतान"
+},
+{
+"id": "keyterm:Incantations",
+"type": "keyterm",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "तंत्र-मंत्र"
 },
 {
 "id": "place:KingsValley",
@@ -354,39 +354,18 @@
 "preferred_label": "जैतून का तेल"
 },
 {
-"id": "person:Asa",
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "आसा"
+"preferred_label": "राहेल"
 },
 {
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "गवाही"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "बिन्यामीन"
-},
-{
-"id": "group:Manasseh",
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "मनश्शे का गोत्र"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "एप्रैम का गोत्र"
 },
 {
 "id": "person:Ephraim",
@@ -396,6 +375,41 @@
 "preferred_label": "एप्रैम"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "मनश्शे का गोत्र"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "भेंट"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "मनश्शे"
+},
+{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.1641,
@@ -403,11 +417,11 @@
 "preferred_label": "बेतेल"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
+"id": "deity:Teraphim",
+"type": "deity",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "अभिषेक करना"
+"preferred_label": "गृहदेवता"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -415,6 +429,13 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "पशुबलि"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "गवाही"
 },
 {
 "id": "person:Judah.4",
@@ -431,39 +452,11 @@
 "preferred_label": "लाबान"
 },
 {
-"id": "place:On",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "ओन"
-},
-{
-"id": "keyterm:Idol",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "मूरत"
-},
-{
 "id": "person:Absalom",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "अबशालोम"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "बिन्यामीन का गोत्र"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -473,32 +466,18 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "एप्रैम का गोत्र"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "गृहदेवता"
-},
-{
-"id": "person:Rachel",
+"id": "person:Asa",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "राहेल"
+"preferred_label": "आसा"
 },
 {
-"id": "person:Manasseh",
-"type": "person",
+"id": "keyterm:Idol",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "मनश्शे"
+"preferred_label": "मूरत"
 },
 {
 "id": "keyterm:Vow",
@@ -508,11 +487,32 @@
 "preferred_label": "मन्नत"
 },
 {
-"id": "realia:HouseholdIdols",
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन का गोत्र"
+},
+{
+"id": "place:On",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "ओन"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "अभिषेक करना"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "गृहदेवता"
+"preferred_label": "प्रतिमा"
 },
 {
 "id": "realia:Ephod",
@@ -529,11 +529,11 @@
 "preferred_label": "दाखलता"
 },
 {
-"id": "realia:Wine",
+"id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "दाखमधु"
+"preferred_label": "गृहदेवता"
 },
 {
 "id": "fauna:Horse",
@@ -543,18 +543,18 @@
 "preferred_label": "घोड़ा"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "प्रतिमा"
-},
-{
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "साँप"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "दाखमधु"
 }
 ]
 }

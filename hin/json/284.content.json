@@ -199,6 +199,13 @@
 "preferred_label": "निवास की वेदी"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3938,
+"match_method": "canonical",
+"preferred_label": "मन्दिर की वेदी"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3938,
@@ -218,13 +225,6 @@
 "confidence": 0.3938,
 "match_method": "canonical",
 "preferred_label": "घर"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3938,
-"match_method": "canonical",
-"preferred_label": "मन्दिर की वेदी"
 },
 {
 "id": "realia:BreadOfDisplay",
@@ -262,6 +262,13 @@
 "preferred_label": "मन्दिर"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2346,
@@ -274,13 +281,6 @@
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "सुलैमान"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "पवित्र"
 },
 {
 "id": "realia:Dish",
@@ -297,25 +297,11 @@
 "preferred_label": "एब्यातार"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "मिलापवाला तम्बू"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "वाचा का संदूक"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "परदा"
 },
 {
 "id": "realia:Cubit",
@@ -332,11 +318,25 @@
 "preferred_label": "सुराही"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "परदा"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "मिलापवाला तम्बू"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "पवित्रस्थान"
+"preferred_label": "हिजकिय्याह"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -346,11 +346,11 @@
 "preferred_label": "वाचा का सन्दूक"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
+"id": "place:HolyPlace",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "हिजकिय्याह"
+"preferred_label": "पवित्रस्थान"
 },
 {
 "id": "realia:TheHolyPlace",
@@ -367,20 +367,6 @@
 "preferred_label": "निवास-स्थान"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "बैंगनी वस्त्र"
-},
-{
-"id": "realia:MostHolyPlace",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "परमपवित्र स्थान"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.1073,
@@ -395,11 +381,25 @@
 "preferred_label": "दीपक"
 },
 {
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "बैंगनी वस्त्र"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "दाखमधु"
+},
+{
+"id": "realia:MostHolyPlace",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "परमपवित्र स्थान"
 }
 ]
 }

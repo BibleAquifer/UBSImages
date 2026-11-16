@@ -3,9 +3,9 @@
 "content_id": "283263",
 "reference_id": 1747,
 "version": "1.0.4",
-"title": "ईंट",
+"title": "कच्ची ईंटों की दीवार",
 "media_type": "Image",
-"index_reference": "ईंट",
+"index_reference": "कच्ची ईंटों की दीवार",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0357_brick.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0357_brick.jpg'>link</a></p></block>",
@@ -114,13 +114,6 @@
 "preferred_label": "ईंट का साँचा"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2692,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2692,
@@ -135,6 +128,13 @@
 "preferred_label": "इस्राएल"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.2,
@@ -142,11 +142,11 @@
 "preferred_label": "काम"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "group:Ammon",
+"type": "group",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "एप्रैम"
+"preferred_label": "अम्मोनी"
 },
 {
 "id": "group:Ephraim",
@@ -156,18 +156,25 @@
 "preferred_label": "एप्रैम का गोत्र"
 },
 {
-"id": "person:David",
+"id": "person:Ephraim",
 "type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "दाऊद"
+"preferred_label": "एप्रैम"
 },
 {
-"id": "group:Ammon",
-"type": "group",
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "अम्मोनी"
+"preferred_label": "घिराव"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
 },
 {
 "id": "place:Samaria",
@@ -184,18 +191,11 @@
 "preferred_label": "अम्मोन"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
+"id": "person:David",
+"type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "घिराव"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
+"preferred_label": "दाऊद"
 },
 {
 "id": "realia:StonePlane",

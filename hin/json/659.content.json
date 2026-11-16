@@ -120,13 +120,6 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Ahithophel",
-"type": "person",
-"confidence": 0.1964,
-"match_method": "canonical",
-"preferred_label": "अहीतोपेल"
-},
-{
 "id": "deity:Teraphim",
 "type": "deity",
 "confidence": 0.1964,
@@ -134,11 +127,25 @@
 "preferred_label": "गृहदेवता"
 },
 {
-"id": "person:David",
+"id": "person:Ahithophel",
+"type": "person",
+"confidence": 0.1964,
+"match_method": "canonical",
+"preferred_label": "अहीतोपेल"
+},
+{
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "दाऊद"
+"preferred_label": "राहेल"
+},
+{
+"id": "place:Dedan",
+"type": "place",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ददान"
 },
 {
 "id": "person:Shimei.5",
@@ -148,32 +155,18 @@
 "preferred_label": "शिमी"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "अशुद्ध करना"
-},
-{
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "इसहाक"
-},
-{
-"id": "person:Achish",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "आकीश"
-},
-{
 "id": "person:Ziba",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "सीबा"
+},
+{
+"id": "person:Balaam",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "बिलाम"
 },
 {
 "id": "keyterm:Offering",
@@ -190,67 +183,11 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "गत"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "सम्मति"
-},
-{
-"id": "person:Balaam",
+"id": "person:David",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "बिलाम"
-},
-{
-"id": "person:Laban",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "लाबान"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "एक स्वर्गदूत"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "अब्राहम"
-},
-{
-"id": "place:Dedan",
-"type": "place",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ददान"
-},
-{
-"id": "person:Mephibosheth",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "मपीबोशेत"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "राहेल"
+"preferred_label": "दाऊद"
 },
 {
 "id": "place:Moab",
@@ -260,11 +197,81 @@
 "preferred_label": "मोआब"
 },
 {
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "लाबान"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "गत"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "इसहाक"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "अब्राहम"
+},
+{
+"id": "person:Achish",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "आकीश"
+},
+{
+"id": "person:Mephibosheth",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "मपीबोशेत"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "अशुद्ध करना"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "एक स्वर्गदूत"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "सम्मति"
+},
+{
 "id": "fauna:Camel",
 "type": "fauna",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "ऊँट"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "घर"
 },
 {
 "id": "flora:Vine",
@@ -281,18 +288,11 @@
 "preferred_label": "कुप्पा"
 },
 {
-"id": "realia:House",
+"id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "घर"
-},
-{
-"id": "realia:Tent",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "तम्बू"
+"preferred_label": "गृहदेवता"
 },
 {
 "id": "realia:Wine",
@@ -302,11 +302,11 @@
 "preferred_label": "दाखमधु"
 },
 {
-"id": "realia:HouseholdIdols",
+"id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "गृहदेवता"
+"preferred_label": "तम्बू"
 }
 ]
 }

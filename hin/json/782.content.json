@@ -3,9 +3,9 @@
 "content_id": "283848",
 "reference_id": 2332,
 "version": "1.0.4",
-"title": "मापने की डोरी",
+"title": "नापने की डोरी लिए हुए मिस्री भूमि-मापक",
 "media_type": "Image",
-"index_reference": "मापने की डोरी",
+"index_reference": "नापने की डोरी लिए हुए मिस्री भूमिमापक",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0360_measuring_line.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0360_measuring_line.jpg'>link</a></p></block>",
@@ -155,18 +155,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.3971,
-"match_method": "canonical",
-"preferred_label": "रस्सी"
-},
-{
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.3971,
 "match_method": "canonical",
 "preferred_label": "हाथ"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.3971,
+"match_method": "canonical",
+"preferred_label": "रस्सी"
 },
 {
 "id": "place:Jerusalem",
@@ -190,13 +190,6 @@
 "preferred_label": "अधिकारी बनाना"
 },
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "चिट्ठी"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.2429,
@@ -209,6 +202,13 @@
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "चिट्ठी"
 },
 {
 "id": "realia:PlumbLine",
@@ -246,25 +246,11 @@
 "preferred_label": "मोआब"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "दाऊद"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "अशुद्ध करना"
-},
-{
-"id": "keyterm:Destroy",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "नष्ट करना"
+"preferred_label": "व्यभिचार करना"
 },
 {
 "id": "keyterm:Offering",
@@ -274,11 +260,18 @@
 "preferred_label": "भेंट"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "place:Samaria",
+"type": "place",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "तेज"
+"preferred_label": "सामरिया"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "दाऊद"
 },
 {
 "id": "person:Ahab",
@@ -288,6 +281,13 @@
 "preferred_label": "अहाब"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "तेज"
+},
+{
 "id": "keyterm:Refuge",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -295,46 +295,18 @@
 "preferred_label": "शरण"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "सामरिया"
-},
-{
-"id": "keyterm:PlayTheProstitute",
+"id": "keyterm:Destroy",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "व्यभिचार करना"
+"preferred_label": "नष्ट करना"
 },
 {
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.121,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "भूरा उल्लू"
-},
-{
-"id": "realia:Reed",
-"type": "realia",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "मापने का बाँस"
-},
-{
-"id": "fauna:Jackdaw",
-"type": "fauna",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "धनेश"
-},
-{
-"id": "fauna:Owl.3",
-"type": "fauna",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "उल्लू"
+"preferred_label": "अशुद्ध करना"
 },
 {
 "id": "realia:Stylus.2",
@@ -356,6 +328,34 @@
 "confidence": 0.121,
 "match_method": "canonical",
 "preferred_label": "अंगुल"
+},
+{
+"id": "fauna:Owl.3",
+"type": "fauna",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
+"id": "realia:Reed",
+"type": "realia",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "मापने का बाँस"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "भूरा उल्लू"
+},
+{
+"id": "fauna:Jackdaw",
+"type": "fauna",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "धनेश"
 },
 {
 "id": "realia:Chisel",

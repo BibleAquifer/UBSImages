@@ -3,9 +3,9 @@
 "content_id": "283307",
 "reference_id": 1791,
 "version": "1.0.4",
-"title": "मांस का कांटा",
+"title": "दो कांटे वाला मांस का कांटा",
 "media_type": "Image",
-"index_reference": "मांस का कांटा",
+"index_reference": "दो कांटे वाला मांस का कांटा",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0451_fork.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0451_fork.jpg'>link</a></p></block>",
@@ -78,6 +78,13 @@
 "preferred_label": "पकाने की हाँडी"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2686,
+"match_method": "canonical",
+"preferred_label": "मन्दिर की वेदी"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.2686,
@@ -99,18 +106,11 @@
 "preferred_label": "निवास की वेदी"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2686,
-"match_method": "canonical",
-"preferred_label": "मन्दिर की वेदी"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Hiram.2",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "हीराम"
 },
 {
 "id": "group:Israel",
@@ -120,11 +120,18 @@
 "preferred_label": "इस्राएली"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "place:Shiloh",
+"type": "place",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "शीलो"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -134,25 +141,11 @@
 "preferred_label": "पशुबलि"
 },
 {
-"id": "person:Solomon",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "सुलैमान"
-},
-{
-"id": "place:Shiloh",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "शीलो"
-},
-{
-"id": "person:Hiram.2",
-"type": "person",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "हीराम"
+"preferred_label": "इस्राएल"
 },
 {
 "id": "keyterm:Pure",
@@ -162,11 +155,32 @@
 "preferred_label": "शुद्ध"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "सुलैमान"
+},
+{
+"id": "realia:Jug",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "सुराही"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "रुपया"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "घर"
 },
 {
 "id": "fauna:Dugong",
@@ -181,20 +195,6 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "चमड़ा"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "घर"
-},
-{
-"id": "realia:Jug",
-"type": "realia",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "सुराही"
 }
 ]
 }

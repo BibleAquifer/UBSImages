@@ -3,9 +3,9 @@
 "content_id": "283182",
 "reference_id": 1666,
 "version": "1.0.4",
-"title": "जीरा",
+"title": "जीरा: वानस्पतिक चित्रण",
 "media_type": "Image",
-"index_reference": "जीरा",
+"index_reference": "जीरा वानस्पतिक चित्रण",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0168_cumin.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0168_cumin.jpg'>link</a></p></block>",
@@ -47,18 +47,18 @@
 "preferred_label": "कलौंजी"
 },
 {
-"id": "flora:Mint",
-"type": "flora",
-"confidence": 0.3067,
-"match_method": "canonical",
-"preferred_label": "पोदीना"
-},
-{
 "id": "flora:Dill",
 "type": "flora",
 "confidence": 0.3067,
 "match_method": "canonical",
 "preferred_label": "सौंफ"
+},
+{
+"id": "flora:Mint",
+"type": "flora",
+"confidence": 0.3067,
+"match_method": "canonical",
+"preferred_label": "पोदीना"
 },
 {
 "id": "group:Pharisee",
@@ -75,20 +75,6 @@
 "preferred_label": "विपत्ति"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "विश्वास करना"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "व्यवस्था"
-},
-{
 "id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.3,
@@ -103,6 +89,20 @@
 "preferred_label": "दया"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "विश्वास करना"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "व्यवस्था"
+},
+{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.24,
@@ -110,18 +110,11 @@
 "preferred_label": "जौ"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "गेहूँ"
-},
-{
-"id": "realia:Wagon",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "गाड़ी"
+"preferred_label": "छड़ी"
 },
 {
 "id": "realia:Threshing-sledge",
@@ -131,13 +124,6 @@
 "preferred_label": "दाँवने का पाटा"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "लाठी"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.24,
@@ -145,11 +131,25 @@
 "preferred_label": "अन्न"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "छड़ी"
+"preferred_label": "लाठी"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "गाड़ी"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
 }
 ]
 }

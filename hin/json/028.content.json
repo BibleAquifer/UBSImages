@@ -3,9 +3,9 @@
 "content_id": "283049",
 "reference_id": 1533,
 "version": "1.0.4",
-"title": "शेर",
+"title": "शेर और शेरनी विश्राम करते हुए",
 "media_type": "Image",
-"index_reference": "शेर",
+"index_reference": "शेर और शेरनी विश्राम करते हुए",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0596_lions.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0596_lions.jpg'>link</a></p></block>",
@@ -812,11 +812,11 @@
 "preferred_label": "भेड़"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.3148,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "सियार"
 },
 {
 "id": "fauna:Hyena",
@@ -826,18 +826,18 @@
 "preferred_label": "लकड़बग्घा"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3148,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3148,
 "match_method": "canonical",
 "preferred_label": "बकरी"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.3148,
-"match_method": "canonical",
-"preferred_label": "सियार"
 },
 {
 "id": "person:Judah.4",
@@ -875,6 +875,20 @@
 "preferred_label": "गिद्ध"
 },
 {
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.2606,
+"match_method": "canonical",
+"preferred_label": "शाऊल"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2606,
+"match_method": "canonical",
+"preferred_label": "भय"
+},
+{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.2606,
@@ -889,20 +903,6 @@
 "preferred_label": "यहूदा का गोत्र"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2606,
-"match_method": "canonical",
-"preferred_label": "मोआब"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.2606,
-"match_method": "canonical",
-"preferred_label": "शाऊल"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2606,
@@ -910,11 +910,11 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.2606,
 "match_method": "canonical",
-"preferred_label": "भय"
+"preferred_label": "मोआब"
 },
 {
 "id": "fauna:Wolf",
@@ -924,13 +924,6 @@
 "preferred_label": "भेड़िया"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.2542,
-"match_method": "canonical",
-"preferred_label": "चन्दन"
-},
-{
 "id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.2542,
@@ -938,11 +931,25 @@
 "preferred_label": "अजगर"
 },
 {
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.2542,
+"match_method": "canonical",
+"preferred_label": "चन्दन"
+},
+{
 "id": "person:Sluggard",
 "type": "person",
 "confidence": 0.2102,
 "match_method": "canonical",
 "preferred_label": "आलसी"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
+"confidence": 0.2087,
+"match_method": "canonical",
+"preferred_label": "बनायाह"
 },
 {
 "id": "person:Jehoiada",
@@ -959,32 +966,25 @@
 "preferred_label": "कबसेल"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
-"confidence": 0.2087,
-"match_method": "canonical",
-"preferred_label": "बनायाह"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2071,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2071,
-"match_method": "canonical",
-"preferred_label": "अश्शूर"
-},
-{
-"id": "keyterm:Safety",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.2071,
 "match_method": "canonical",
-"preferred_label": "सुरक्षा"
+"preferred_label": "नियुक्त करना"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2071,
+"match_method": "canonical",
+"preferred_label": "शान्ति"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2071,
+"match_method": "canonical",
+"preferred_label": "सामरिया"
 }
 ]
 }

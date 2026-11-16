@@ -216,13 +216,6 @@
 "preferred_label": "डफ"
 },
 {
-"id": "person:Shemiramoth",
-"type": "person",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "शमीरामोत"
-},
-{
 "id": "person:Jeiel.4",
 "type": "person",
 "confidence": 0.1906,
@@ -237,11 +230,11 @@
 "preferred_label": "मत्तित्याह"
 },
 {
-"id": "person:Jehiel",
+"id": "person:Shemiramoth",
 "type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "यहीएल"
+"preferred_label": "शमीरामोत"
 },
 {
 "id": "person:Eliab.5",
@@ -251,39 +244,11 @@
 "preferred_label": "एलीआब"
 },
 {
-"id": "person:Zechariah.2",
+"id": "person:Jehiel",
 "type": "person",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "जकर्याह"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
-"id": "person:Obed-edom",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "ओबेदेदोम"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "करुणा"
+"preferred_label": "यहीएल"
 },
 {
 "id": "keyterm:Praise",
@@ -293,25 +258,25 @@
 "preferred_label": "स्तुति"
 },
 {
-"id": "keyterm:CovenantBox",
+"id": "person:Nathan.2",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "नातान"
+},
+{
+"id": "person:Obed-edom",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "ओबेदेदोम"
+},
+{
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "वाचा का सन्दूक"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "वाचा"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "एक स्वर्गदूत"
+"preferred_label": "करुणा"
 },
 {
 "id": "person:Benaiah.4",
@@ -321,11 +286,32 @@
 "preferred_label": "बनायाह"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "भेंट"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "प्रेम"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "वाचा का सन्दूक"
 },
 {
 "id": "person:Gad.2",
@@ -335,18 +321,25 @@
 "preferred_label": "गाद"
 },
 {
-"id": "person:Nathan.2",
+"id": "person:Zechariah.2",
 "type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "नातान"
+"preferred_label": "जकर्याह"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1306,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "सनोवर"
+"preferred_label": "एक स्वर्गदूत"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "वाचा"
 },
 {
 "id": "realia:Shaker",
@@ -356,11 +349,11 @@
 "preferred_label": "डमरू"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1181,
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "वेदी"
+"preferred_label": "सनोवर"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -370,11 +363,46 @@
 "preferred_label": "वाचा का संदूक"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "मन्दिर की वेदी"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "वेदी"
+},
+{
+"id": "flora:Juniper",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "ग्रीक सनोवर"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "पत्थर की वेदी"
+},
+{
 "id": "flora:JuniperTree",
 "type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "फोनीशियन सनोवर"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "निवास की वेदी"
 },
 {
 "id": "realia:Linen",
@@ -391,39 +419,11 @@
 "preferred_label": "सनोवर"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "पत्थर की वेदी"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "निवास की वेदी"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "मेढ़े का सींग"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "ग्रीक सनोवर"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "मन्दिर की वेदी"
 }
 ]
 }

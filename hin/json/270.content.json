@@ -269,18 +269,18 @@
 "preferred_label": "यिर्मयाह"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.4062,
-"match_method": "canonical",
-"preferred_label": "दाऊद"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4062,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.4062,
+"match_method": "canonical",
+"preferred_label": "दाऊद"
 },
 {
 "id": "place:Bethlehem",
@@ -297,6 +297,13 @@
 "preferred_label": "एबेदमेलेक"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.285,
+"match_method": "canonical",
+"preferred_label": "घर"
+},
+{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.285,
@@ -311,18 +318,11 @@
 "preferred_label": "दाखलता"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.285,
-"match_method": "canonical",
-"preferred_label": "घर"
-},
-{
-"id": "place:Kabzeel",
-"type": "place",
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.2275,
 "match_method": "canonical",
-"preferred_label": "कबसेल"
+"preferred_label": "बनायाह"
 },
 {
 "id": "person:Jehoiada",
@@ -332,18 +332,11 @@
 "preferred_label": "यहोयादा"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
+"id": "place:Kabzeel",
+"type": "place",
 "confidence": 0.2275,
 "match_method": "canonical",
-"preferred_label": "बनायाह"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.2238,
-"match_method": "canonical",
-"preferred_label": "सिंह"
+"preferred_label": "कबसेल"
 },
 {
 "id": "realia:Money",
@@ -353,25 +346,11 @@
 "preferred_label": "रुपया"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2225,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.2238,
 "match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "यूसुफ"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "अश्शूर"
+"preferred_label": "सिंह"
 },
 {
 "id": "person:Nethaniah",
@@ -381,25 +360,11 @@
 "preferred_label": "नतन्याह"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.2225,
 "match_method": "canonical",
 "preferred_label": "पलिश्ती"
-},
-{
-"id": "person:Ishmael.2",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "इश्माएल"
 },
 {
 "id": "group:Ethiopia",
@@ -409,32 +374,11 @@
 "preferred_label": "कूशी"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "आशीष देना"
-},
-{
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "कूश"
-},
-{
-"id": "person:Reuben",
+"id": "person:Ishmael.2",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "रूबेन"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "इश्माएल"
 },
 {
 "id": "person:Hezekiah",
@@ -444,25 +388,60 @@
 "preferred_label": "हिजकिय्याह"
 },
 {
-"id": "place:Secu",
+"id": "place:Ethiopia",
 "type": "place",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "सेकू"
+"preferred_label": "कूश"
 },
 {
-"id": "place:BenjaminGate",
+"id": "place:Moab",
 "type": "place",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "बिन्यामीन का फाटक"
+"preferred_label": "मोआब"
 },
 {
-"id": "person:Malchiah",
+"id": "person:Israel",
 "type": "person",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "मल्किय्याह"
+"preferred_label": "इस्राएल"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "आशीष देना"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "अश्शूर"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "यूसुफ"
+},
+{
+"id": "person:Reuben",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "रूबेन"
 },
 {
 "id": "place:Beth-eked",
@@ -472,6 +451,13 @@
 "preferred_label": "बेत-एकेद"
 },
 {
+"id": "place:BenjaminGate",
+"type": "place",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन का फाटक"
+},
+{
 "id": "person:Hammelech",
 "type": "person",
 "confidence": 0.1663,
@@ -479,11 +465,18 @@
 "preferred_label": "हम्मेलेक"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1625,
+"id": "place:Secu",
+"type": "place",
+"confidence": 0.1663,
 "match_method": "canonical",
-"preferred_label": "जैतून का वृक्ष"
+"preferred_label": "सेकू"
+},
+{
+"id": "person:Malchiah",
+"type": "person",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "मल्किय्याह"
 },
 {
 "id": "flora:Fig",
@@ -493,60 +486,11 @@
 "preferred_label": "अंजीर"
 },
 {
-"id": "person:Asa",
-"type": "person",
-"confidence": 0.1613,
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "आसा"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "शमूएल"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "अशुद्ध करना"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "भरोसा रखना"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "बेदखल करना"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "person:Gedaliah.2",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "गदल्याह"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "वाचा"
+"preferred_label": "जैतून का वृक्ष"
 },
 {
 "id": "group:Midian",
@@ -556,53 +500,11 @@
 "preferred_label": "मिद्यानी"
 },
 {
-"id": "place:Ramah",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "रामाह"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "इश्माएली"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "प्रेम"
-},
-{
-"id": "person:Ishmael",
+"id": "person:Gedaliah.2",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "इश्माएल"
-},
-{
-"id": "place:Naioth",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "नबायोत"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "शुद्ध"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "मिद्यान"
+"preferred_label": "गदल्याह"
 },
 {
 "id": "person:Baasha",
@@ -612,11 +514,39 @@
 "preferred_label": "बाशा"
 },
 {
-"id": "place:Shephelah",
-"type": "place",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "शेफेला"
+"preferred_label": "बेदखल करना"
+},
+{
+"id": "person:Ishmael",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "इश्माएल"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "शमूएल"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "प्रेम"
+},
+{
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "इश्माएली"
 },
 {
 "id": "keyterm:Fear",
@@ -626,39 +556,74 @@
 "preferred_label": "भय"
 },
 {
-"id": "realia:ClayJar",
-"type": "realia",
-"confidence": 0.1013,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "मिट्टी का घड़ा"
+"preferred_label": "मिस्र"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "शेफेला"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "person:Asa",
+"type": "person",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "सियार"
+"preferred_label": "आसा"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.1013,
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "बिच्छू पेड़"
+"preferred_label": "भरोसा रखना"
 },
 {
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "लकड़बग्घा"
+"preferred_label": "शुद्ध"
+},
+{
+"id": "place:Naioth",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "नबायोत"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "अशुद्ध करना"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "मिद्यान"
+},
+{
+"id": "place:Ramah",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "रामाह"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "वाचा"
 },
 {
 "id": "fauna:Bear",
@@ -668,11 +633,46 @@
 "preferred_label": "भालू"
 },
 {
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "सियार"
+},
+{
+"id": "realia:ClayJar",
+"type": "realia",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "मिट्टी का घड़ा"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "बिच्छू पेड़"
+},
+{
 "id": "realia:Tower",
 "type": "realia",
 "confidence": 0.1013,
 "match_method": "canonical",
 "preferred_label": "गुम्मट"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "लकड़बग्घा"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "fauna:Donkey",

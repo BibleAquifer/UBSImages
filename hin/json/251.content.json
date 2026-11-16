@@ -3,9 +3,9 @@
 "content_id": "283272",
 "reference_id": 1756,
 "version": "1.0.4",
-"title": "चमड़े के साथ चर्मकार",
+"title": "चमड़ा कमाने वाला चमड़े के साथ",
 "media_type": "Image",
-"index_reference": "चमड़े के साथ चर्मकार",
+"index_reference": "चमड़ा कमाने वाला चमड़े के साथ",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0377_tanner_with_leather.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0377_tanner_with_leather.jpg'>link</a></p></block>",
@@ -282,13 +282,6 @@
 "preferred_label": "निवास की वेदी"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "वेदी"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1733,
@@ -296,11 +289,18 @@
 "preferred_label": "वाचा का संदूक"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
+"id": "realia:TempleAltar",
+"type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "बबूल"
+"preferred_label": "मन्दिर की वेदी"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "वेदी"
 },
 {
 "id": "realia:StoneAltar",
@@ -317,6 +317,13 @@
 "preferred_label": "घर"
 },
 {
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "बबूल"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1733,
@@ -324,18 +331,18 @@
 "preferred_label": "तम्बू"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "मन्दिर की वेदी"
-},
-{
-"id": "group:Tishbite",
-"type": "group",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "तिशबी"
+"preferred_label": "पतरस"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "एलिय्याह"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -343,6 +350,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "पवित्र करना"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
 },
 {
 "id": "keyterm:Instruction",
@@ -359,25 +373,11 @@
 "preferred_label": "तिशबी"
 },
 {
-"id": "person:Elijah",
-"type": "person",
+"id": "group:Tishbite",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "एलिय्याह"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "पतरस"
+"preferred_label": "तिशबी"
 },
 {
 "id": "realia:Fork",
@@ -387,18 +387,18 @@
 "preferred_label": "काँटा"
 },
 {
-"id": "realia:Shovel",
-"type": "realia",
-"confidence": 0.1141,
-"match_method": "canonical",
-"preferred_label": "फावड़ी"
-},
-{
 "id": "realia:Belt",
 "type": "realia",
 "confidence": 0.1141,
 "match_method": "canonical",
 "preferred_label": "कमरबन्द"
+},
+{
+"id": "realia:Shovel",
+"type": "realia",
+"confidence": 0.1141,
+"match_method": "canonical",
+"preferred_label": "फावड़ी"
 },
 {
 "id": "realia:Screen",

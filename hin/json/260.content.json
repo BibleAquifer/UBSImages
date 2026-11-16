@@ -3,9 +3,9 @@
 "content_id": "283281",
 "reference_id": 1765,
 "version": "1.0.4",
-"title": "ध्वज",
+"title": "ध्वज-प्रतीक",
 "media_type": "Image",
-"index_reference": "ध्वज",
+"index_reference": "ध्वजप्रतीक",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0394_standards.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0394_standards.jpg'>link</a></p></block>",
@@ -258,6 +258,20 @@
 "preferred_label": "इस्राएल"
 },
 {
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "दान"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2865,
@@ -265,11 +279,11 @@
 "preferred_label": "मूसा"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "group:Dan",
+"type": "group",
 "confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "दान"
+"preferred_label": "दान का गोत्र"
 },
 {
 "id": "place:Jerusalem",
@@ -286,20 +300,6 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "दान का गोत्र"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
-},
-{
 "id": "person:Elizur",
 "type": "person",
 "confidence": 0.2351,
@@ -307,18 +307,18 @@
 "preferred_label": "एलीसूर"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2351,
-"match_method": "canonical",
-"preferred_label": "अहीएजेर"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2351,
 "match_method": "canonical",
 "preferred_label": "अम्मीहूद"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2351,
+"match_method": "canonical",
+"preferred_label": "अहीएजेर"
 },
 {
 "id": "person:Shedeur",
@@ -342,11 +342,11 @@
 "preferred_label": "मेढ़े का सींग"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "अम्मीशद्दै"
+"preferred_label": "एप्रैम का गोत्र"
 },
 {
 "id": "person:Ephraim",
@@ -356,18 +356,18 @@
 "preferred_label": "एप्रैम"
 },
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "अन्यजाति"
+},
+{
 "id": "group:Reuben",
 "type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "रूबेन का गोत्र"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "नहशोन"
 },
 {
 "id": "place:Babylon",
@@ -384,11 +384,18 @@
 "preferred_label": "अम्मीनादाब"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Nahshon",
+"type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "एप्रैम का गोत्र"
+"preferred_label": "नहशोन"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "अम्मीशद्दै"
 },
 {
 "id": "person:Reuben",
@@ -396,20 +403,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "रूबेन"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "अन्यजाति"
-},
-{
-"id": "place:Minni",
-"type": "place",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "मिन्नी"
 },
 {
 "id": "deity:Merodach",
@@ -433,6 +426,13 @@
 "preferred_label": "बेल"
 },
 {
+"id": "place:Minni",
+"type": "place",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "मिन्नी"
+},
+{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1643,
@@ -447,81 +447,11 @@
 "preferred_label": "नियुक्त करना"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "तेज"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "अभिषिक्त"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "लेवी का गोत्र"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "उद्धार"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "अरारात"
-},
-{
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "शेकेम"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "प्रेम"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "सुक्कोत"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "लेवी"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "यिशै"
 },
 {
 "id": "place:Tirzah",
@@ -531,6 +461,41 @@
 "preferred_label": "तिर्सा"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "अरारात"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "लेवी का गोत्र"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "प्रेम"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "तेज"
+},
+{
 "id": "person:Korah.3",
 "type": "person",
 "confidence": 0.1622,
@@ -538,25 +503,39 @@
 "preferred_label": "कोरह"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1022,
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "दाखलता"
+"preferred_label": "शेकेम"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "घोड़ा"
+"preferred_label": "सुक्कोत"
 },
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "नाग"
+"preferred_label": "अभिषिक्त"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "यिशै"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "लेवी"
 },
 {
 "id": "realia:Image",
@@ -564,6 +543,13 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "प्रतिमा"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "नाग"
 },
 {
 "id": "fauna:Snake",
@@ -580,11 +566,25 @@
 "preferred_label": "घर"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "दाखलता"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "टिड्डी"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "घोड़ा"
 },
 {
 "id": "realia:Wine",

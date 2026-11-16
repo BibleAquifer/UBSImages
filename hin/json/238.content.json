@@ -3,9 +3,9 @@
 "content_id": "283259",
 "reference_id": 1743,
 "version": "1.0.4",
-"title": "बुनाई एं",
+"title": "करघे पर बुनाई",
 "media_type": "Image",
-"index_reference": "बुनाई एं",
+"index_reference": "करघे पर बुनाई",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0342_weaving_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0342_weaving_en.jpg'>link</a></p></block>",
@@ -65,13 +65,6 @@
 "preferred_label": "भाला"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.475,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.475,
@@ -79,11 +72,11 @@
 "preferred_label": "पलिश्ती"
 },
 {
-"id": "person:Jaare-oregim",
-"type": "person",
-"confidence": 0.4167,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "यारयोरगीम"
+"preferred_label": "पलिश्त"
 },
 {
 "id": "person:Elhanan",
@@ -93,18 +86,18 @@
 "preferred_label": "एल्हनान"
 },
 {
+"id": "person:Jaare-oregim",
+"type": "person",
+"confidence": 0.4167,
+"match_method": "canonical",
+"preferred_label": "यारयोरगीम"
+},
+{
 "id": "realia:Shuttle",
 "type": "realia",
 "confidence": 0.3567,
 "match_method": "canonical",
 "preferred_label": "ढरकी"
-},
-{
-"id": "person:Goliath",
-"type": "person",
-"confidence": 0.35,
-"match_method": "canonical",
-"preferred_label": "गोलियत"
 },
 {
 "id": "place:Gath",
@@ -114,11 +107,39 @@
 "preferred_label": "गत"
 },
 {
+"id": "person:Goliath",
+"type": "person",
+"confidence": 0.35,
+"match_method": "canonical",
+"preferred_label": "गोलियत"
+},
+{
 "id": "person:Lahmi",
 "type": "person",
 "confidence": 0.2583,
 "match_method": "canonical",
 "preferred_label": "लहमी"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "मिस्री"
+},
+{
+"id": "group:Bethlehem",
+"type": "group",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "बैतलहमवासी"
+},
+{
+"id": "place:Bethlehem",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "बैतलहम"
 },
 {
 "id": "place:Gezer",
@@ -135,25 +156,11 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "place:Bethlehem",
-"type": "place",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "बैतलहम"
-},
-{
-"id": "group:Bethlehem",
-"type": "group",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "बैतलहमवासी"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "मिस्री"
+"preferred_label": "आशा"
 },
 {
 "id": "person:Samson",
@@ -163,11 +170,11 @@
 "preferred_label": "शिमशोन"
 },
 {
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.225,
+"id": "realia:PointOfSpear",
+"type": "realia",
+"confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "आशा"
+"preferred_label": "भाले का फल"
 },
 {
 "id": "realia:Pin",
@@ -177,13 +184,6 @@
 "preferred_label": "खूँटी"
 },
 {
-"id": "realia:PointOfSpear",
-"type": "realia",
-"confidence": 0.1983,
-"match_method": "canonical",
-"preferred_label": "भाले का फल"
-},
-{
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.165,
@@ -191,18 +191,18 @@
 "preferred_label": "हाथ"
 },
 {
-"id": "realia:LargeShield",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "बड़ी ढाल"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "शेकेल"
+},
+{
+"id": "realia:LargeShield",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "बड़ी ढाल"
 }
 ]
 }
