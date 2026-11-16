@@ -3,9 +3,9 @@
 "content_id": "288343",
 "reference_id": 2162,
 "version": "1.0.4",
-"title": "Adoradores antiguos",
+"title": "Adoradores en un grabado rupestre",
 "media_type": "Image",
-"index_reference": "adoradores antiguos",
+"index_reference": "adoradores en un grabado rupestre",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0028_ancient_worshipers.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0028_ancient_worshipers.jpg'>link</a></p></block>",
@@ -172,6 +172,13 @@
 "preferred_label": "Jehová"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.312,
@@ -193,13 +200,6 @@
 "preferred_label": "altar del tabernáculo"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "altar del templo"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.236,
@@ -207,18 +207,18 @@
 "preferred_label": "Baal"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "ganado vacuno"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "dinero"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Hai"
 },
 {
 "id": "place:Bethel",
@@ -235,11 +235,11 @@
 "preferred_label": "Enós"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Hai"
+"preferred_label": "ganado vacuno"
 },
 {
 "id": "realia:Tent",
@@ -249,32 +249,18 @@
 "preferred_label": "tienda"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Samuel"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "contaminación"
+"preferred_label": "salvación"
 },
 {
-"id": "person:Isaac",
+"id": "person:Seth",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Isaac"
+"preferred_label": "Set"
 },
 {
 "id": "person:Naaman.3",
@@ -284,46 +270,11 @@
 "preferred_label": "Naamán"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "celo"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Aarón"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "sacrificio de comunión"
-},
-{
 "id": "keyterm:Praise",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "alabanza"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "salvación"
 },
 {
 "id": "person:Elijah",
@@ -333,25 +284,11 @@
 "preferred_label": "Elías"
 },
 {
-"id": "person:Abraham",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Beerseba"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "obligar a servir"
+"preferred_label": "Moisés"
 },
 {
 "id": "keyterm:InfectiousSkinDisease",
@@ -361,11 +298,74 @@
 "preferred_label": "enfermedad infecciosa de la piel"
 },
 {
-"id": "person:Seth",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Set"
+"preferred_label": "Aarón"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "sacrificio de comunión"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Beerseba"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Samuel"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "obligar a servir"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Isaac"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "celo"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "contaminación"
 },
 {
 "id": "flora:Tamarisk",

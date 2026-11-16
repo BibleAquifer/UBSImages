@@ -545,13 +545,6 @@
 "preferred_label": "天"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3528,
-"match_method": "canonical",
-"preferred_label": "蜥蜴"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3528,
@@ -564,6 +557,13 @@
 "confidence": 0.3528,
 "match_method": "canonical",
 "preferred_label": "巨蜥"
+},
+{
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.3528,
+"match_method": "canonical",
+"preferred_label": "蜥蜴"
 },
 {
 "id": "fauna:Fish",
@@ -587,18 +587,18 @@
 "preferred_label": "洁净"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.3162,
-"match_method": "canonical",
-"preferred_label": "牛"
-},
-{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.3162,
 "match_method": "canonical",
 "preferred_label": "公鸡"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3162,
+"match_method": "canonical",
+"preferred_label": "牛"
 },
 {
 "id": "keyterm:Kind.2",
@@ -622,11 +622,11 @@
 "preferred_label": "爬虫"
 },
 {
-"id": "fauna:Snake",
+"id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "蛇"
+"preferred_label": "狗"
 },
 {
 "id": "flora:Grass",
@@ -636,11 +636,11 @@
 "preferred_label": "草"
 },
 {
-"id": "fauna:Dog",
+"id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "狗"
+"preferred_label": "蛇"
 },
 {
 "id": "keyterm:Destroy",
@@ -650,6 +650,13 @@
 "preferred_label": "毁灭"
 },
 {
+"id": "person:Adam",
+"type": "person",
+"confidence": 0.2128,
+"match_method": "canonical",
+"preferred_label": "亚当"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2128,
@@ -657,11 +664,53 @@
 "preferred_label": "赐福（嘉许）"
 },
 {
-"id": "person:Adam",
-"type": "person",
-"confidence": 0.2128,
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "亚当"
+"preferred_label": "委派"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "非利士人"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "法老"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "奉献"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "挪亚"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "荣耀"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "非利士"
 },
 {
 "id": "keyterm:Defilement",
@@ -678,53 +727,11 @@
 "preferred_label": "耶稣"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.2105,
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.2057,
 "match_method": "canonical",
-"preferred_label": "法老"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "非利士"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "奉献"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "委派"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "荣耀"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "非利士人"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "挪亚"
+"preferred_label": "谷物"
 },
 {
 "id": "realia:Ship",
@@ -732,13 +739,6 @@
 "confidence": 0.2057,
 "match_method": "canonical",
 "preferred_label": "船"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.2057,
-"match_method": "canonical",
-"preferred_label": "谷物"
 }
 ]
 }

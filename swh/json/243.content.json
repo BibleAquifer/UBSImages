@@ -97,13 +97,6 @@
 "preferred_label": "Kuweka Nadhiri"
 },
 {
-"id": "keyterm:WithdrawOneself",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "Kujitenga"
-},
-{
 "id": "person:Jehudi",
 "type": "person",
 "confidence": 0.2222,
@@ -111,11 +104,25 @@
 "preferred_label": "Yehudi"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:WithdrawOneself",
 "type": "keyterm",
+"confidence": 0.2222,
+"match_method": "canonical",
+"preferred_label": "Kujitenga"
+},
+{
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Ukamilifu"
+"preferred_label": "Wafilisti"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Mto Frati"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -123,6 +130,48 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Utakaso"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Kutakasa"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Udanganyifu"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "-takatifu"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Nguvu"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Upendo"
 },
 {
 "id": "place:Philistine",
@@ -139,67 +188,18 @@
 "preferred_label": "Ashuru"
 },
 {
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Kutakasa"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Wafilisti"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Udanganyifu"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Mto Frati"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Nguvu"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Upendo"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "-takatifu"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "-safi"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Ukamilifu"
 },
 {
 "id": "realia:Sword",

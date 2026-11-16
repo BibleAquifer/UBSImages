@@ -119,13 +119,6 @@
 "preferred_label": "أيَّل"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "تنجيس"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.34,
@@ -133,11 +126,11 @@
 "preferred_label": "طَاهِر"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "الرَّبّ"
+"preferred_label": "تنجيس"
 },
 {
 "id": "keyterm:Swear",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "حلف"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "الرَّبّ"
 },
 {
 "id": "place:Jerusalem",
@@ -161,18 +161,18 @@
 "preferred_label": "محبة"
 },
 {
+"id": "place:BetherMountain",
+"type": "place",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "ٱلْمُشَعَّبَة"
+},
+{
 "id": "person:Asahel",
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "عَسَائِيل"
-},
-{
-"id": "person:Zeruiah",
-"type": "person",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "صَرُويَةُ"
 },
 {
 "id": "person:Abishai",
@@ -182,39 +182,18 @@
 "preferred_label": "أَبِيشَاي"
 },
 {
+"id": "person:Zeruiah",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "صَرُويَةُ"
+},
+{
 "id": "place:Bath-rabbim",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "بَثّ رَبِّيمَ"
-},
-{
-"id": "place:BetherMountain",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "ٱلْمُشَعَّبَة"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "داود"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "دِمَشْقَ"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "يُوآب"
 },
 {
 "id": "place:Heshbon",
@@ -224,11 +203,18 @@
 "preferred_label": "حَشْبُونُ"
 },
 {
-"id": "place:Lebanon",
+"id": "place:Damascus",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "لُبْنَانَ"
+"preferred_label": "دِمَشْقَ"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "داود"
 },
 {
 "id": "keyterm:Bless",
@@ -238,18 +224,18 @@
 "preferred_label": "يبارك"
 },
 {
-"id": "fauna:BubalHartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "ثَيْتَل"
+"preferred_label": "يُوآب"
 },
 {
-"id": "fauna:Hartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "ثَيْتَل"
+"preferred_label": "لُبْنَانَ"
 },
 {
 "id": "fauna:Ibex",
@@ -266,6 +252,20 @@
 "preferred_label": "مَهَاة"
 },
 {
+"id": "fauna:BubalHartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "ثَيْتَل"
+},
+{
+"id": "fauna:Hartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "ثَيْتَل"
+},
+{
 "id": "fauna:Addax",
 "type": "fauna",
 "confidence": 0.1333,
@@ -280,11 +280,11 @@
 "preferred_label": "مَاعِز"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
+"id": "realia:Trap",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "طائر"
+"preferred_label": "فَخّ"
 },
 {
 "id": "flora:BalsamTree",
@@ -292,6 +292,27 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "شجر البلسان"
+},
+{
+"id": "realia:Window",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "نَافِذَة"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "طائر"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "بَيْت"
 },
 {
 "id": "flora:Lily",
@@ -308,32 +329,11 @@
 "preferred_label": "بُرْج"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "بَيْت"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "قطيع"
-},
-{
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "فَخّ"
-},
-{
-"id": "realia:Window",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "نَافِذَة"
 }
 ]
 }

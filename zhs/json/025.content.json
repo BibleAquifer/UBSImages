@@ -3,9 +3,9 @@
 "content_id": "294243",
 "reference_id": 1530,
 "version": "1.0.4",
-"title": "豺狼",
+"title": "胡狼",
 "media_type": "Image",
-"index_reference": "豺狼",
+"index_reference": "胡狼",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0541_jackal.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0541_jackal.jpg'>link</a></p></block>",
@@ -349,18 +349,18 @@
 "preferred_label": "鬣狗"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.3518,
-"match_method": "canonical",
-"preferred_label": "狮子"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
 "preferred_label": "熊"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.3518,
+"match_method": "canonical",
+"preferred_label": "狮子"
 },
 {
 "id": "fauna:Ostrich",
@@ -384,6 +384,41 @@
 "preferred_label": "求（恳求）"
 },
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "平安"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "圣洁"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "天"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "鬼魔"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
@@ -396,41 +431,6 @@
 "confidence": 0.2176,
 "match_method": "canonical",
 "preferred_label": "耶稣"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "平安"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "圣洁"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "鬼魔"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "天"
 },
 {
 "id": "fauna:Dog",
@@ -447,46 +447,11 @@
 "preferred_label": "夏琐（耶利米书）"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "使承受为业"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "起誓"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "约瑟"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "奉献"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "奸恶"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "安全"
 },
 {
 "id": "keyterm:Appoint",
@@ -496,11 +461,32 @@
 "preferred_label": "委派"
 },
 {
-"id": "person:GenericPerson",
-"type": "person",
+"id": "keyterm:Mischief",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "一个人"
+"preferred_label": "奸恶"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "使承受为业"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "巴比伦"
 },
 {
 "id": "keyterm:BringHonorAndGloryOnOneself",
@@ -510,18 +496,25 @@
 "preferred_label": "使自己得荣耀尊贵"
 },
 {
-"id": "person:Israel",
+"id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "一个人"
 },
 {
-"id": "group:Edom",
-"type": "group",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "以东人"
+"preferred_label": "奉献"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "真实"
 },
 {
 "id": "person:Judah.4",
@@ -529,6 +522,13 @@
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "犹大"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "以色列"
 }
 ]
 }

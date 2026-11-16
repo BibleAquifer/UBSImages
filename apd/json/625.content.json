@@ -3,9 +3,9 @@
 "content_id": "293951",
 "reference_id": 2171,
 "version": "1.0.4",
-"title": "طرحة بيضاء",
+"title": "نقاب أبيض",
 "media_type": "Image",
-"index_reference": "طرحة بيضاء",
+"index_reference": "نقاب أبيض",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0884_veil_white.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0884_veil_white.jpg'>link</a></p></block>",
@@ -112,18 +112,18 @@
 "preferred_label": "برقع"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "موسى"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "الرب"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "موسى"
 },
 {
 "id": "person:Israel",
@@ -140,13 +140,6 @@
 "preferred_label": "رمان"
 },
 {
-"id": "place:Enaim",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "عينايم"
-},
-{
 "id": "place:Timnah",
 "type": "place",
 "confidence": 0.1933,
@@ -154,11 +147,18 @@
 "preferred_label": "تمنة"
 },
 {
-"id": "person:GenericServant",
-"type": "person",
+"id": "place:Enaim",
+"type": "place",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "عينايم"
+},
+{
+"id": "place:Gilead",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "خادم"
+"preferred_label": "جلعاد"
 },
 {
 "id": "keyterm:Woe.2",
@@ -168,11 +168,11 @@
 "preferred_label": "ويل"
 },
 {
-"id": "place:Gilead",
-"type": "place",
+"id": "person:GenericServant",
+"type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "جلعاد"
+"preferred_label": "خادم"
 },
 {
 "id": "person:Shelah",
@@ -187,13 +187,6 @@
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "عمامة"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "مرحاكة"
 },
 {
 "id": "fauna:Goat",
@@ -217,13 +210,6 @@
 "preferred_label": "خيط"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "قطيع"
-},
-{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.12,
@@ -236,6 +222,20 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "حلق"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "مرحاكة"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "قطيع"
 }
 ]
 }

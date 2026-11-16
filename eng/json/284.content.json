@@ -199,6 +199,13 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3938,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3938,
@@ -218,13 +225,6 @@
 "confidence": 0.3938,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3938,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:BreadOfDisplay",
@@ -262,6 +262,13 @@
 "preferred_label": "Temple"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2346,
@@ -274,13 +281,6 @@
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "Solomon"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Holy"
 },
 {
 "id": "realia:Dish",
@@ -297,25 +297,11 @@
 "preferred_label": "Abiathar"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "Ark of the Covenant"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Curtain"
 },
 {
 "id": "realia:Cubit",
@@ -332,11 +318,25 @@
 "preferred_label": "Jug"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Curtain"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Tent of Meeting"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Holy Place"
+"preferred_label": "Hezekiah"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -346,11 +346,11 @@
 "preferred_label": "Covenant Box"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
+"id": "place:HolyPlace",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Hezekiah"
+"preferred_label": "Holy Place"
 },
 {
 "id": "realia:TheHolyPlace",
@@ -367,20 +367,6 @@
 "preferred_label": "Tabernacle"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Purple Cloth"
-},
-{
-"id": "realia:MostHolyPlace",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Most Holy Place"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.1073,
@@ -395,11 +381,25 @@
 "preferred_label": "Lamp"
 },
 {
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Purple Cloth"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Wine"
+},
+{
+"id": "realia:MostHolyPlace",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Most Holy Place"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "283125",
 "reference_id": 1609,
 "version": "1.0.4",
-"title": "फ़िर का पेड़",
+"title": "देवदार की शाखा",
 "media_type": "Image",
-"index_reference": "फ़िर का पेड़",
+"index_reference": "देवदार की शाखा",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0220_fir.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0220_fir.jpg'>link</a></p></block>",
@@ -187,13 +187,6 @@
 "preferred_label": "लौरस्टीनस"
 },
 {
-"id": "flora:Myrtle",
-"type": "flora",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "मेंहदी"
-},
-{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1929,
@@ -201,11 +194,18 @@
 "preferred_label": "रथ"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "flora:Myrtle",
+"type": "flora",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "मेंहदी"
+},
+{
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "बलवा करना"
+"preferred_label": "यहूदा का गोत्र"
 },
 {
 "id": "person:Hiram",
@@ -215,6 +215,20 @@
 "preferred_label": "हीराम"
 },
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "अपने लिए आदर और महिमा पाना"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "सोर"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1765,
@@ -222,11 +236,11 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "अपने लिए आदर और महिमा पाना"
+"preferred_label": "यहूदा"
 },
 {
 "id": "person:Israel",
@@ -243,25 +257,18 @@
 "preferred_label": "तेज"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "हेर्मोन पर्वत"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "परखना"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "बलवा करना"
 },
 {
 "id": "person:Solomon",
@@ -271,18 +278,11 @@
 "preferred_label": "सुलैमान"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:TheWay",
+"type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "सोर"
+"preferred_label": "पंथ"
 },
 {
 "id": "place:Galilee",
@@ -292,18 +292,11 @@
 "preferred_label": "गलील"
 },
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
+"id": "place:HermonMount",
+"type": "place",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "पंथ"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "बबूल"
+"preferred_label": "हेर्मोन पर्वत"
 },
 {
 "id": "flora:PlaneTree",
@@ -311,41 +304,6 @@
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "चिनार"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "फर्श"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "झाँझ"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "सारंगी"
-},
-{
-"id": "realia:Shaker",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "डमरू"
-},
-{
-"id": "realia:Beam",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "धरन"
 },
 {
 "id": "flora:Nettle",
@@ -362,60 +320,53 @@
 "preferred_label": "मस्तूल"
 },
 {
+"id": "realia:Shaker",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "डमरू"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "सारंगी"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "फर्श"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "धरन"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "बबूल"
+},
+{
+"id": "realia:Cymbals",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "झाँझ"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "कारीगर"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "अलेप्पो पाइन"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "बैंगनी वस्त्र"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "जैतून का वृक्ष"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "कँटीली झाड़ी"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "रुपया"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "पक्षी"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "डफ"
 },
 {
 "id": "flora:DatePalm",
@@ -425,11 +376,25 @@
 "preferred_label": "खजूर का पेड़"
 },
 {
-"id": "flora:Sandalwood",
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "रुपया"
+},
+{
+"id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "चन्दन"
+"preferred_label": "कँटीली झाड़ी"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "पक्षी"
 },
 {
 "id": "fauna:Stork",
@@ -439,11 +404,46 @@
 "preferred_label": "सारस"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "अलेप्पो पाइन"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "डफ"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "वीणा"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "चन्दन"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "जैतून का वृक्ष"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "बैंगनी वस्त्र"
 }
 ]
 }

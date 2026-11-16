@@ -3,9 +3,9 @@
 "content_id": "291009",
 "reference_id": 2028,
 "version": "1.0.4",
-"title": "Anwụrụ ọkụ si n'ahịrị ọkụ",
+"title": "Anwụrụ ọkụ na-agbago site n'oké ọhịa na-ere ọkụ",
 "media_type": "Image",
-"index_reference": "anwụrụ ọkụ si nahịrị ọkụ",
+"index_reference": "anwụrụ ọkụ naagbago site noké ọhịa naere ọkụ",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg'>link</a></p></block>",
@@ -226,11 +226,18 @@
 "preferred_label": "ONYENWE ANYỊ"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Nkà"
+"preferred_label": "Dị Nsọ"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Ai"
 },
 {
 "id": "person:Israel",
@@ -247,11 +254,18 @@
 "preferred_label": "Ebube"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Ai"
+"preferred_label": "Ebighị ebi"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Nkà"
 },
 {
 "id": "deity:Angel",
@@ -259,20 +273,6 @@
 "confidence": 0.2265,
 "match_method": "canonical",
 "preferred_label": "Mmụọ Ozi"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "Dị Nsọ"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "Ebighị ebi"
 },
 {
 "id": "keyterm:Portent",
@@ -289,102 +289,11 @@
 "preferred_label": "Ite ọkụ"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ọbara"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Benjamin"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Nza"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ịkwa Iko"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Filistia"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Kpọọ isiala"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Nzuzu"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ikike"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Nzọpụta"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Joshua"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ebo Benjamin"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ugwu Saịnaị"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ihe nnọchianya"
 },
 {
 "id": "keyterm:Name",
@@ -394,11 +303,46 @@
 "preferred_label": "Aha"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ihe nnọchianya"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Joshua"
+},
+{
 "id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Abis"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ugwu Saịnaị"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Eluigwe"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Benjamin"
 },
 {
 "id": "keyterm:Pray",
@@ -408,11 +352,67 @@
 "preferred_label": "Ikpe ekpere"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Eluigwe"
+"preferred_label": "Ịkwa Iko"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Nzuzu"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ọbara"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Filistia"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Nza"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Kpọọ isiala"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ebo Benjamin"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ikike"
 },
 {
 "id": "realia:Incense",
@@ -429,11 +429,32 @@
 "preferred_label": "Anwụ nta"
 },
 {
-"id": "fauna:Lion",
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "oyiyi"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "frankisens"
+},
+{
+"id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Ọdụm"
+"preferred_label": "Akpị"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "ahịhịa"
 },
 {
 "id": "realia:Doorstep",
@@ -450,18 +471,11 @@
 "preferred_label": "máá"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Osisi vaịnị"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "Ịnyịnya"
+"preferred_label": "Ụlọ"
 },
 {
 "id": "realia:Temple",
@@ -471,6 +485,13 @@
 "preferred_label": "Ụlọnsọ ukwu"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Osisi vaịnị"
+},
+{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1032,
@@ -478,39 +499,11 @@
 "preferred_label": "Ebe ịzọcha ọka"
 },
 {
-"id": "fauna:Scorpion",
+"id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Akpị"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "frankisens"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "oyiyi"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "Ụlọ"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "ahịhịa"
+"preferred_label": "Ọdụm"
 },
 {
 "id": "fauna:Locust",
@@ -518,6 +511,13 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "Igurube"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Ịnyịnya"
 },
 {
 "id": "realia:Wine",

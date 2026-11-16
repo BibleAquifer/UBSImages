@@ -119,13 +119,6 @@
 "preferred_label": "weldok"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "laion"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.5,
@@ -133,11 +126,11 @@
 "preferred_label": "bea"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "Bikpela"
+"preferred_label": "laion"
 },
 {
 "id": "keyterm:IntactState",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "bel isi"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Bikpela"
 },
 {
 "id": "fauna:Owl",
@@ -168,11 +168,11 @@
 "preferred_label": "Mekim i Kisim Samting"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Josep"
+"preferred_label": "Jerusalem"
 },
 {
 "id": "place:Assyria",
@@ -182,32 +182,18 @@
 "preferred_label": "Asiria"
 },
 {
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Josep"
+},
+{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Stap gut na i no ken pret"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "kontrak"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Kaldia"
 },
 {
 "id": "group:Chaldea",
@@ -217,18 +203,25 @@
 "preferred_label": "ol Kaldia"
 },
 {
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Kaldia"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "kontrak"
+},
+{
 "id": "fauna:WildCat",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "Wel pusi"
-},
-{
-"id": "fauna:TawnyOwl.2",
-"type": "fauna",
-"confidence": 0.1333,
-"match_method": "canonical",
-"preferred_label": "aul toni"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -238,39 +231,11 @@
 "preferred_label": "Leviatan"
 },
 {
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "longpela saket"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "hul"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "taua bilong pait"
-},
-{
-"id": "fauna:Vulture",
+"id": "fauna:TawnyOwl.2",
 "type": "fauna",
-"confidence": 0.12,
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Tarangau"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "haus"
+"preferred_label": "aul toni"
 },
 {
 "id": "fauna:Dragon",
@@ -280,11 +245,46 @@
 "preferred_label": "dregon"
 },
 {
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Tarangau"
+},
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "longpela saket"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "haus"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "sandalwut"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "taua bilong pait"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "hul"
 }
 ]
 }

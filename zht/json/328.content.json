@@ -3,9 +3,9 @@
 "content_id": "295479",
 "reference_id": 1833,
 "version": "1.0.4",
-"title": "城門",
+"title": "城市門",
 "media_type": "Image",
-"index_reference": "城門",
+"index_reference": "城市門",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0422_city_gate_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0422_city_gate_en.jpg'>link</a></p></block>",
@@ -2051,25 +2051,18 @@
 "preferred_label": "賜福（認可）"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "聖潔"
+},
+{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.357,
 "match_method": "canonical",
 "preferred_label": "天使"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "非利士"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "伯利恆（猶大）"
 },
 {
 "id": "keyterm:Glory",
@@ -2079,11 +2072,18 @@
 "preferred_label": "榮耀（神的同在）"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "聖潔"
+"preferred_label": "伯利恆（猶大）"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "非利士"
 },
 {
 "id": "realia:House",
@@ -2107,11 +2107,11 @@
 "preferred_label": "肘"
 },
 {
-"id": "place:EphraimGate",
+"id": "place:FishGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "以法蓮門"
+"preferred_label": "魚門"
 },
 {
 "id": "place:ValleyGate",
@@ -2121,25 +2121,18 @@
 "preferred_label": "谷門"
 },
 {
+"id": "place:EphraimGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "以法蓮門"
+},
+{
 "id": "place:BenjaminGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
 "preferred_label": "便雅憫門"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "魚門"
-},
-{
-"id": "place:DungGate",
-"type": "place",
-"confidence": 0.3074,
-"match_method": "canonical",
-"preferred_label": "糞廠門"
 },
 {
 "id": "place:TowerOfHananel",
@@ -2149,11 +2142,11 @@
 "preferred_label": "哈楠業樓"
 },
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.3062,
+"id": "place:DungGate",
+"type": "place",
+"confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "哈曼"
+"preferred_label": "糞廠門"
 },
 {
 "id": "place:Arad",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "亞拉得"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "哈曼"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "281966",
 "reference_id": 2316,
 "version": "1.0.4",
-"title": "معزقة",
+"title": "نموذج لشخص يستخدم معزقة",
 "media_type": "Image",
-"index_reference": "معزقة",
+"index_reference": "نموذج لشخص يستخدم معزقة",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0328_hoe.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0328_hoe.jpg'>link</a></p></block>",
@@ -40,18 +40,18 @@
 "preferred_label": "مِحْرَاث"
 },
 {
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.44,
-"match_method": "canonical",
-"preferred_label": "فَأْس"
-},
-{
 "id": "realia:Mattock",
 "type": "realia",
 "confidence": 0.44,
 "match_method": "canonical",
 "preferred_label": "معزقة"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.44,
+"match_method": "canonical",
+"preferred_label": "فَأْس"
 },
 {
 "id": "realia:Hoe",
@@ -61,18 +61,18 @@
 "preferred_label": "مِعْوَل"
 },
 {
-"id": "realia:Goad",
-"type": "realia",
-"confidence": 0.3067,
-"match_method": "canonical",
-"preferred_label": "مِنْسَاس"
-},
-{
 "id": "realia:Fork.2",
 "type": "realia",
 "confidence": 0.3067,
 "match_method": "canonical",
 "preferred_label": "مذراة"
+},
+{
+"id": "realia:Goad",
+"type": "realia",
+"confidence": 0.3067,
+"match_method": "canonical",
+"preferred_label": "مِنْسَاس"
 },
 {
 "id": "person:Israel",
@@ -89,6 +89,13 @@
 "preferred_label": "بنو إسرائيل"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "خوف"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3,
@@ -103,11 +110,18 @@
 "preferred_label": "فِلَسْطِين"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3,
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "خوف"
+"preferred_label": "بَقَر"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "شَوْك"
 },
 {
 "id": "realia:Sickle",
@@ -122,20 +136,6 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "حَمَل"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "بَقَر"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "شَوْك"
 }
 ]
 }

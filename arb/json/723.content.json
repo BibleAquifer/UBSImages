@@ -301,11 +301,11 @@
 "preferred_label": "يَكُونُ تِلْمِيذًا"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "دُهْنُ المَسْحَة"
+"preferred_label": "حُبُوب"
 },
 {
 "id": "realia:OliveOil",
@@ -315,11 +315,11 @@
 "preferred_label": "زيت زيتون"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "حُبُوب"
+"preferred_label": "دُهْنُ المَسْحَة"
 },
 {
 "id": "place:Bethphage",
@@ -364,18 +364,18 @@
 "preferred_label": "بَيْت عَنْيَا"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "بغل"
-},
-{
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "مسطار"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "بغل"
 },
 {
 "id": "person:Jesus.2",
@@ -406,6 +406,13 @@
 "preferred_label": "الْجَدِيرِيُّونَ"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "شعير"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1609,
@@ -413,25 +420,25 @@
 "preferred_label": "مَاعِز"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "بَقَر"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "حُفْرَة"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "مال"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "خَمْر"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "قطيع"
 },
 {
 "id": "realia:Temple",
@@ -448,67 +455,18 @@
 "preferred_label": "مَنَارَة"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "شعير"
-},
-{
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "قطيع"
+"preferred_label": "بَقَر"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "خَمْر"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "فِلَسْطِين"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "قُدْرَة"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "مسح"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "نالَ إكراماً ومَجْداً"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيل"
+"preferred_label": "حُفْرَة"
 },
 {
 "id": "group:Philistine",
@@ -518,18 +476,18 @@
 "preferred_label": "الفلسطينيون"
 },
 {
-"id": "person:Noah",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "نُوح"
+"preferred_label": "بُطْرُس"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "لُبْنَانَ"
+"preferred_label": "رمز"
 },
 {
 "id": "person:John.2",
@@ -546,46 +504,18 @@
 "preferred_label": "الجُدَيرة"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "يبارك"
+"preferred_label": "نالَ إكراماً ومَجْداً"
 },
 {
-"id": "keyterm:Example",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "رمز"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "يَعْقوب"
-},
-{
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "أَنْدَرَاوُس"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "إِلى الأَبَد"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "بُطْرُس"
+"preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
 },
 {
 "id": "person:Hezekiah",
@@ -595,11 +525,81 @@
 "preferred_label": "حَزَقِيَّا"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيل"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "نُوح"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "إِلى الأَبَد"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "يَعْقوب"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "فِلَسْطِين"
+},
+{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "ٱلسَّهْل"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "يبارك"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "أَنْدَرَاوُس"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "لُبْنَانَ"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "مسح"
 },
 {
 "id": "flora:Myrtle",
@@ -609,46 +609,11 @@
 "preferred_label": "آس"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "صَنَوْبَر حَلَبِيّ"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "حَظِيرَةُ حَيَوانات"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "رُمَّان"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "حَظِيرَة غَنَم"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "جُمَّيْز"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "صَنَوْبَر ثَمَرِيّ"
 },
 {
 "id": "flora:DatePalm",
@@ -658,11 +623,18 @@
 "preferred_label": "نَخْلَة"
 },
 {
-"id": "flora:Coriander",
+"id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "كُزْبَرَة"
+"preferred_label": "رُمَّان"
+},
+{
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "صَنَوْبَر ثَمَرِيّ"
 },
 {
 "id": "fauna:Dove",
@@ -672,11 +644,39 @@
 "preferred_label": "حمامة"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "صَنَوْبَر حَلَبِيّ"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "كُزْبَرَة"
+},
+{
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "جُمَّيْز"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "مَرْكَبَة"
+},
+{
+"id": "realia:Sheepfold",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "حَظِيرَة غَنَم"
 },
 {
 "id": "fauna:Locust",

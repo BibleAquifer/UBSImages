@@ -147,13 +147,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "Phạm tội"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.3114,
@@ -161,11 +154,18 @@
 "preferred_label": "Bệnh ngoài da truyền nhiễm"
 },
 {
-"id": "place:Kabzeel",
-"type": "place",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "Phạm tội"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Cáp-xê-ên"
+"preferred_label": "Bê-na-gia"
 },
 {
 "id": "person:Jehoiada",
@@ -175,11 +175,11 @@
 "preferred_label": "Giê-hô-gia-đa"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
+"id": "place:Kabzeel",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Bê-na-gia"
+"preferred_label": "Cáp-xê-ên"
 },
 {
 "id": "deity:Lord",
@@ -224,11 +224,32 @@
 "preferred_label": "Na-a-man"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "lòng nhiệt thành"
+"preferred_label": "Khờ dại"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Vững bền"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Tha thứ"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Núi Hẹt-môn"
 },
 {
 "id": "person:Aaron",
@@ -245,46 +266,11 @@
 "preferred_label": "Hỏa ngục"
 },
 {
-"id": "person:Miriam",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Mi-ri-am"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Vinh quang"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Li-ban"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Núi Hẹt-môn"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Tha thứ"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Vững bền"
 },
 {
 "id": "keyterm:Fear",
@@ -294,11 +280,25 @@
 "preferred_label": "Sợ hãi / Kính sợ"
 },
 {
-"id": "keyterm:Stupid",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Khờ dại"
+"preferred_label": "lòng nhiệt thành"
+},
+{
+"id": "person:Miriam",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Mi-ri-am"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Li-ban"
 },
 {
 "id": "flora:Soap",
@@ -306,13 +306,6 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "cây xà phòng"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Vải màu tím tía"
 },
 {
 "id": "flora:Barley",
@@ -334,6 +327,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Rau ngò"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Vải màu tím tía"
 },
 {
 "id": "realia:Tent",

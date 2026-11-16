@@ -149,13 +149,6 @@
 "preferred_label": "शिमशोन"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.39,
@@ -170,25 +163,18 @@
 "preferred_label": "बल"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
+},
+{
 "id": "person:Delilah",
 "type": "person",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "दलीला"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "रस्सी"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "धनुष"
 },
 {
 "id": "realia:Thread",
@@ -198,6 +184,13 @@
 "preferred_label": "सूत"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "धनुष"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
@@ -205,11 +198,32 @@
 "preferred_label": "घर"
 },
 {
-"id": "keyterm:Shield",
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "रस्सी"
+},
+{
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "ढाल"
+"preferred_label": "उद्धार"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "घिराव"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "लही"
 },
 {
 "id": "place:Jerusalem",
@@ -217,6 +231,13 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "यरूशलेम"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "ढाल"
 },
 {
 "id": "person:Israel",
@@ -233,27 +254,6 @@
 "preferred_label": "भविष्यद्वाणी करना"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "घिराव"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "उद्धार"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "लही"
-},
-{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
@@ -268,11 +268,11 @@
 "preferred_label": "बकरी"
 },
 {
-"id": "realia:MeasuringReed",
-"type": "realia",
+"id": "flora:Flax",
+"type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "नापने का सरकंडा"
+"preferred_label": "सन"
 },
 {
 "id": "realia:Hammer",
@@ -282,13 +282,6 @@
 "preferred_label": "हथौड़ा"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "छोटी ढाल"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1125,
@@ -296,18 +289,25 @@
 "preferred_label": "भेड़"
 },
 {
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "छोटी ढाल"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "नापने का सरकंडा"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "झुंड"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "सन"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "293188",
 "reference_id": 2341,
 "version": "1.0.4",
-"title": "Khiên Tròn",
+"title": "Chiến binh với khiên tròn: Phù điêu",
 "media_type": "Image",
-"index_reference": "khiên tròn",
+"index_reference": "chiến binh với khiên tròn phù điêu",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0387_round_shield.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0387_round_shield.jpg'>link</a></p></block>",
@@ -441,13 +441,6 @@
 "preferred_label": "nhà"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3281,
-"match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.3281,
@@ -462,6 +455,20 @@
 "preferred_label": "Mũi tên"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3281,
+"match_method": "canonical",
+"preferred_label": "Y-sơ-ra-ên"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.3252,
+"match_method": "canonical",
+"preferred_label": "Giáo"
+},
+{
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.3252,
@@ -474,13 +481,6 @@
 "confidence": 0.3252,
 "match_method": "canonical",
 "preferred_label": "khiên lớn"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.3252,
-"match_method": "canonical",
-"preferred_label": "Giáo"
 },
 {
 "id": "place:Put",
@@ -504,11 +504,11 @@
 "preferred_label": "Mũi tên"
 },
 {
-"id": "realia:Helmet",
+"id": "realia:Tower",
 "type": "realia",
 "confidence": 0.2681,
 "match_method": "canonical",
-"preferred_label": "mũ giáp"
+"preferred_label": "Tháp canh"
 },
 {
 "id": "realia:Chariot",
@@ -518,11 +518,11 @@
 "preferred_label": "xe ngựa"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.2681,
 "match_method": "canonical",
-"preferred_label": "Tháp canh"
+"preferred_label": "mũ giáp"
 },
 {
 "id": "person:Lud",
@@ -532,13 +532,6 @@
 "preferred_label": "Lút"
 },
 {
-"id": "place:HouseOfTheForestOfLebanon",
-"type": "place",
-"confidence": 0.2172,
-"match_method": "canonical",
-"preferred_label": "Cung Rừng Li-ban"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2172,
@@ -546,25 +539,11 @@
 "preferred_label": "Sợ hãi / Kính sợ"
 },
 {
-"id": "place:Assyria",
+"id": "place:HouseOfTheForestOfLebanon",
 "type": "place",
-"confidence": 0.2141,
+"confidence": 0.2172,
 "match_method": "canonical",
-"preferred_label": "A-sy-ri"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "Giu-đa"
-},
-{
-"id": "place:Cush.2",
-"type": "place",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "Cút"
+"preferred_label": "Cung Rừng Li-ban"
 },
 {
 "id": "place:Persia",
@@ -574,6 +553,13 @@
 "preferred_label": "Ba Tư"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "Sa-lô-môn"
+},
+{
 "id": "person:Rehoboam",
 "type": "person",
 "confidence": 0.2141,
@@ -581,11 +567,18 @@
 "preferred_label": "Rô-bô-am"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Bộ tộc Giu-đa"
+"preferred_label": "Giu-đa"
+},
+{
+"id": "person:Hadadezer",
+"type": "person",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "Ha-đa-đê-xe"
 },
 {
 "id": "keyterm:Salvation",
@@ -595,18 +588,25 @@
 "preferred_label": "Sự cứu rỗi"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Sa-lô-môn"
+"preferred_label": "Bộ tộc Giu-đa"
 },
 {
-"id": "person:Hadadezer",
-"type": "person",
+"id": "place:Assyria",
+"type": "place",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Ha-đa-đê-xe"
+"preferred_label": "A-sy-ri"
+},
+{
+"id": "place:Cush.2",
+"type": "place",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "Cút"
 }
 ]
 }

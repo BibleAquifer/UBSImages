@@ -221,11 +221,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "huile d'onction"
+"preferred_label": "maison"
 },
 {
 "id": "realia:OliveOil",
@@ -235,11 +235,11 @@
 "preferred_label": "huile d'olive"
 },
 {
-"id": "realia:House",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "maison"
+"preferred_label": "huile d'onction"
 },
 {
 "id": "realia:Wine",
@@ -256,34 +256,6 @@
 "preferred_label": "Meltsar"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "intègre"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Cyrus"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "avoir du discernement"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Perse"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -291,18 +263,11 @@
 "preferred_label": "jurer"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Pharaon"
-},
-{
-"id": "keyterm:Dispossess",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "déposséder"
+"preferred_label": "croire"
 },
 {
 "id": "person:GenericOfficial",
@@ -312,18 +277,25 @@
 "preferred_label": "Officiel"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "offrande"
+"preferred_label": "tribu de Juda"
 },
 {
-"id": "keyterm:RegardAsForbidden",
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Pharaon"
+},
+{
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "considérer comme interdit"
+"preferred_label": "saint"
 },
 {
 "id": "keyterm:Intention",
@@ -331,48 +303,6 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "intention"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sidon"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "conseil"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Liban"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sidoniens"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Juda"
 },
 {
 "id": "place:Joppa",
@@ -389,25 +319,18 @@
 "preferred_label": "Daniel"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
-"id": "keyterm:LoyalPerson",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "homme fidèle"
+"preferred_label": "déposséder"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "amour"
+"preferred_label": "offrande"
 },
 {
 "id": "place:Tyre",
@@ -417,11 +340,81 @@
 "preferred_label": "Tyr"
 },
 {
-"id": "keyterm:Holy",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Perse"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Tyriens"
+},
+{
+"id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "saint"
+"preferred_label": "avoir du discernement"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "amour"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Cyrus"
+},
+{
+"id": "keyterm:LoyalPerson",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "homme fidèle"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sidoniens"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "intègre"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sidon"
 },
 {
 "id": "keyterm:Forbidden",
@@ -438,18 +431,25 @@
 "preferred_label": "prépuce"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "croire"
+"preferred_label": "conseil"
 },
 {
-"id": "group:Tyre",
-"type": "group",
+"id": "keyterm:RegardAsForbidden",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Tyriens"
+"preferred_label": "considérer comme interdit"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Liban"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -466,46 +466,18 @@
 "preferred_label": "artisan"
 },
 {
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "dragon"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "olivier"
-},
-{
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "épervier"
-},
-{
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "filet traînant"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "fosse"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "argent"
 },
 {
 "id": "realia:Stew",
@@ -515,25 +487,11 @@
 "preferred_label": "potage"
 },
 {
-"id": "realia:Net",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "filet"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "hyène"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "grain"
+"preferred_label": "moût"
 },
 {
 "id": "flora:Cedar",
@@ -543,32 +501,32 @@
 "preferred_label": "cèdre"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "tour de siège"
-},
-{
-"id": "realia:Fortification",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "fortification"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "sicle"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "argent"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "grain"
+},
+{
+"id": "realia:Dragnet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "filet traînant"
 },
 {
 "id": "flora:Grass",
@@ -585,6 +543,34 @@
 "preferred_label": "ouvrages de siège"
 },
 {
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "épervier"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "hyène"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "filet"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
+},
+{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1041,
@@ -592,11 +578,25 @@
 "preferred_label": "panier"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
+"id": "realia:Pit",
+"type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "dragon"
+"preferred_label": "fosse"
+},
+{
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "fortification"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "tour de siège"
 }
 ]
 }

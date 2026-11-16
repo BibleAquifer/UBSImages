@@ -3,9 +3,9 @@
 "content_id": "281408",
 "reference_id": 1758,
 "version": "1.0.4",
-"title": "مقلاع",
+"title": "مقلاع وحجارة مقلاع",
 "media_type": "Image",
-"index_reference": "مقلاع",
+"index_reference": "مقلاع وحجارة مقلاع",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0379_sling.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0379_sling.jpg'>link</a></p></block>",
@@ -88,6 +88,13 @@
 "preferred_label": "مقلاع"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "الفلسطينيون"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
@@ -100,13 +107,6 @@
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "فِلَسْطِين"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "الفلسطينيون"
 },
 {
 "id": "person:David",
@@ -123,13 +123,6 @@
 "preferred_label": "عُزِّيَّا"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -144,18 +137,18 @@
 "preferred_label": "قِير"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
 "id": "realia:Pouch",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "جِرَاب"
-},
-{
-"id": "flora:Rush",
-"type": "flora",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "أَسَل"
 },
 {
 "id": "realia:Breastplate",
@@ -165,18 +158,11 @@
 "preferred_label": "دِرْع"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1309,
+"id": "flora:Rush",
+"type": "flora",
+"confidence": 0.1491,
 "match_method": "canonical",
-"preferred_label": "مَاعِز"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "رُمْح"
+"preferred_label": "أَسَل"
 },
 {
 "id": "realia:Sword",
@@ -186,46 +172,11 @@
 "preferred_label": "سيف"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "مَذْبَح"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "كَرْمَة"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "قَوْس"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "خوذة"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "مِجَنّ"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "عَصَا"
+"preferred_label": "مَاعِز"
 },
 {
 "id": "realia:CookingPot",
@@ -235,11 +186,53 @@
 "preferred_label": "قِدْر طَبْخ"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "قَوْس"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "مَذْبَح"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "رُمْح"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "حَمَل"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "مذبح حجري"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "قَضِيب"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -256,25 +249,25 @@
 "preferred_label": "كِيس"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "كَرْمَة"
+},
+{
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
+"preferred_label": "عَصَا"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "realia:SmallShield",
+"type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "حَمَل"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "قطيع"
+"preferred_label": "مِجَنّ"
 },
 {
 "id": "realia:Wine",
@@ -284,11 +277,18 @@
 "preferred_label": "خَمْر"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "قَضِيب"
+"preferred_label": "خوذة"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "قطيع"
 }
 ]
 }

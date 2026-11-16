@@ -3,9 +3,9 @@
 "content_id": "287644",
 "reference_id": 2396,
 "version": "1.0.4",
-"title": "Вуаль",
+"title": "Одежда с покрывалом для лица",
 "media_type": "Image",
-"index_reference": "вуаль",
+"index_reference": "одежда с покрывалом для лица",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg'>link</a></p></block>",
@@ -209,6 +209,13 @@
 "preferred_label": "Покрывало"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "святой"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.23,
@@ -223,13 +230,6 @@
 "preferred_label": "Ливан"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "святой"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1767,
@@ -237,11 +237,11 @@
 "preferred_label": "Гранат"
 },
 {
-"id": "group:GenericChurch",
-"type": "group",
+"id": "place:Timnah",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Церковь"
+"preferred_label": "Фамна"
 },
 {
 "id": "keyterm:Praise",
@@ -258,18 +258,11 @@
 "preferred_label": "Енаим"
 },
 {
-"id": "place:HermonMount",
-"type": "place",
+"id": "group:GenericChurch",
+"type": "group",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "гора Ермон"
-},
-{
-"id": "place:Timnah",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Фамна"
+"preferred_label": "Церковь"
 },
 {
 "id": "place:Amana",
@@ -279,18 +272,11 @@
 "preferred_label": "Гора Амана"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.17,
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "ручная мельница"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.17,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
+"preferred_label": "гора Ермон"
 },
 {
 "id": "flora:BalsamTree",
@@ -300,6 +286,20 @@
 "preferred_label": "Бальзамное дерево"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "ручная мельница"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.17,
@@ -307,18 +307,39 @@
 "preferred_label": "Вино"
 },
 {
-"id": "person:GenericServant",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Слуга"
-},
-{
-"id": "keyterm:Priesthood",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Священство"
+"preferred_label": "Спасение"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Святой Дух"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Повелевать"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Небо"
 },
 {
 "id": "person:GenericPerson",
@@ -335,6 +356,27 @@
 "preferred_label": "Милость"
 },
 {
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Священство"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Галаад"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.165,
@@ -349,27 +391,6 @@
 "preferred_label": "Жизнь"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Повелевать"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Спасение"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.165,
@@ -377,18 +398,11 @@
 "preferred_label": "Ангел"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:GenericServant",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Галаад"
+"preferred_label": "Слуга"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -396,20 +410,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "повод для радости"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Небо"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Святой Дух"
 },
 {
 "id": "person:Shelah",
@@ -426,13 +426,6 @@
 "preferred_label": "Верхняя одежда"
 },
 {
-"id": "realia:Bowl.2",
-"type": "realia",
-"confidence": 0.1117,
-"match_method": "canonical",
-"preferred_label": "блюдо"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.1117,
@@ -440,11 +433,11 @@
 "preferred_label": "Тюрбан"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.105,
+"id": "realia:Bowl.2",
+"type": "realia",
+"confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "Лев"
+"preferred_label": "блюдо"
 },
 {
 "id": "fauna:Goat",
@@ -461,39 +454,11 @@
 "preferred_label": "плащ"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Елей помазания"
-},
-{
-"id": "flora:Myrrh",
-"type": "flora",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Смирна"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Разноцветная одежда"
-},
-{
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Барс"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Оливковое масло"
 },
 {
 "id": "realia:Thread",
@@ -503,25 +468,11 @@
 "preferred_label": "Нить"
 },
 {
-"id": "realia:Lamp",
-"type": "realia",
+"id": "flora:Myrrh",
+"type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Лампада"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "дом"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Стадо"
+"preferred_label": "Смирна"
 },
 {
 "id": "fauna:Dove",
@@ -531,11 +482,60 @@
 "preferred_label": "Голубь"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "дом"
+},
+{
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Барс"
+},
+{
+"id": "realia:Lamp",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Лампада"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Серьга"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Оливковое масло"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Лев"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Елей помазания"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Стадо"
 }
 ]
 }

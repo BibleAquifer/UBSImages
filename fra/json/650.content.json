@@ -1118,18 +1118,18 @@
 "preferred_label": "tribu de Juda"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3702,
-"match_method": "canonical",
-"preferred_label": "Philistie"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3702,
 "match_method": "canonical",
 "preferred_label": "Philistins"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3702,
+"match_method": "canonical",
+"preferred_label": "Philistie"
 },
 {
 "id": "place:Moab",
@@ -1139,18 +1139,11 @@
 "preferred_label": "Moab"
 },
 {
-"id": "group:Syria",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Syriens"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "Juifs"
 },
 {
 "id": "place:Samaria",
@@ -1160,11 +1153,18 @@
 "preferred_label": "Samarie"
 },
 {
-"id": "group:Jews",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "group:Syria",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Juifs"
+"preferred_label": "Syriens"
 },
 {
 "id": "fauna:Bull",
@@ -1181,13 +1181,6 @@
 "preferred_label": "maison"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3128,
-"match_method": "canonical",
-"preferred_label": "chèvre"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3128,
@@ -1195,25 +1188,11 @@
 "preferred_label": "troupeau"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3101,
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3128,
 "match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Ammonites"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Égypte"
+"preferred_label": "chèvre"
 },
 {
 "id": "place:Chaldea",
@@ -1230,6 +1209,27 @@
 "preferred_label": "Ammon"
 },
 {
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "ardeur"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Égypte"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Ammonites"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.3052,
@@ -1244,39 +1244,25 @@
 "preferred_label": "Jéricho"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Chaldéens"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "parole de l'Éternel"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Amatsia"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "Saül"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "pécher"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Édom"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1291,6 +1277,20 @@
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "Damas"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Chaldéens"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Amatsia"
 }
 ]
 }

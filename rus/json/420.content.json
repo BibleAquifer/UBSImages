@@ -88,6 +88,13 @@
 "preferred_label": "праща"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "Филистимляне"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
@@ -100,13 +107,6 @@
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "Филистимская земля"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "Филистимляне"
 },
 {
 "id": "person:David",
@@ -123,13 +123,6 @@
 "preferred_label": "Озия"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "слава"
-},
-{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -144,18 +137,18 @@
 "preferred_label": "Кир"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "слава"
+},
+{
 "id": "realia:Pouch",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "Сумка"
-},
-{
-"id": "flora:Rush",
-"type": "flora",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "Ситник"
 },
 {
 "id": "realia:Breastplate",
@@ -165,18 +158,11 @@
 "preferred_label": "Латы"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1309,
+"id": "flora:Rush",
+"type": "flora",
+"confidence": 0.1491,
 "match_method": "canonical",
-"preferred_label": "Коза"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Копье"
+"preferred_label": "Ситник"
 },
 {
 "id": "realia:Sword",
@@ -186,46 +172,11 @@
 "preferred_label": "Меч"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Жертвенник"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "лук"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "шлем"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "малый щит"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Посох"
+"preferred_label": "Коза"
 },
 {
 "id": "realia:CookingPot",
@@ -235,11 +186,53 @@
 "preferred_label": "Котел"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "лук"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Копье"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Ягненок"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Каменный жертвенник"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Жезл"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -256,25 +249,25 @@
 "preferred_label": "сумка"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Жертвенник"
+"preferred_label": "Посох"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "realia:SmallShield",
+"type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Ягненок"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Стадо"
+"preferred_label": "малый щит"
 },
 {
 "id": "realia:Wine",
@@ -284,11 +277,18 @@
 "preferred_label": "Вино"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Жезл"
+"preferred_label": "шлем"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Стадо"
 }
 ]
 }

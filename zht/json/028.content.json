@@ -3,9 +3,9 @@
 "content_id": "295179",
 "reference_id": 1533,
 "version": "1.0.4",
-"title": "獅子",
+"title": "雄獅與雌獅休息",
 "media_type": "Image",
-"index_reference": "獅子",
+"index_reference": "雄獅與雌獅休息",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0596_lions.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0596_lions.jpg'>link</a></p></block>",
@@ -812,11 +812,11 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.3148,
 "match_method": "canonical",
-"preferred_label": "牛"
+"preferred_label": "豺狗"
 },
 {
 "id": "fauna:Hyena",
@@ -826,18 +826,18 @@
 "preferred_label": "鬣狗"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3148,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3148,
 "match_method": "canonical",
 "preferred_label": "山羊"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.3148,
-"match_method": "canonical",
-"preferred_label": "豺狗"
 },
 {
 "id": "person:Judah.4",
@@ -875,6 +875,20 @@
 "preferred_label": "禿鷹"
 },
 {
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.2606,
+"match_method": "canonical",
+"preferred_label": "掃羅（基士之子）"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2606,
+"match_method": "canonical",
+"preferred_label": "懼怕"
+},
+{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.2606,
@@ -889,20 +903,6 @@
 "preferred_label": "猶大支派"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2606,
-"match_method": "canonical",
-"preferred_label": "摩押"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.2606,
-"match_method": "canonical",
-"preferred_label": "掃羅（基士之子）"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2606,
@@ -910,11 +910,11 @@
 "preferred_label": "大衛"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.2606,
 "match_method": "canonical",
-"preferred_label": "懼怕"
+"preferred_label": "摩押"
 },
 {
 "id": "fauna:Wolf",
@@ -924,13 +924,6 @@
 "preferred_label": "豺狼"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.2542,
-"match_method": "canonical",
-"preferred_label": "檀香木"
-},
-{
 "id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.2542,
@@ -938,11 +931,25 @@
 "preferred_label": "龍"
 },
 {
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.2542,
+"match_method": "canonical",
+"preferred_label": "檀香木"
+},
+{
 "id": "person:Sluggard",
 "type": "person",
 "confidence": 0.2102,
 "match_method": "canonical",
 "preferred_label": "懶惰人"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
+"confidence": 0.2087,
+"match_method": "canonical",
+"preferred_label": "比拿雅"
 },
 {
 "id": "person:Jehoiada",
@@ -959,32 +966,25 @@
 "preferred_label": "甲薛"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
-"confidence": 0.2087,
-"match_method": "canonical",
-"preferred_label": "比拿雅"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2071,
-"match_method": "canonical",
-"preferred_label": "非利士"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2071,
-"match_method": "canonical",
-"preferred_label": "亞述"
-},
-{
-"id": "keyterm:Safety",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.2071,
 "match_method": "canonical",
-"preferred_label": "安全"
+"preferred_label": "委派"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2071,
+"match_method": "canonical",
+"preferred_label": "平安"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2071,
+"match_method": "canonical",
+"preferred_label": "撒馬利亞（城）"
 }
 ]
 }

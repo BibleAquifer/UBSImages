@@ -221,11 +221,11 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "دُهْنُ المَسْحَة"
+"preferred_label": "بَيْت"
 },
 {
 "id": "realia:OliveOil",
@@ -235,11 +235,11 @@
 "preferred_label": "زيت زيتون"
 },
 {
-"id": "realia:House",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "بَيْت"
+"preferred_label": "دُهْنُ المَسْحَة"
 },
 {
 "id": "realia:Wine",
@@ -256,34 +256,6 @@
 "preferred_label": "رَئِيسُ ٱلسُّقَاةِ"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "كَامِل"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "كورَش"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "امْتِلَاكُ بَصِيرَةٍ"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "فَارِسُ"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -291,18 +263,11 @@
 "preferred_label": "حلف"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "فِرْعَوْن"
-},
-{
-"id": "keyterm:Dispossess",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
+"preferred_label": "يؤمن"
 },
 {
 "id": "person:GenericOfficial",
@@ -312,18 +277,25 @@
 "preferred_label": "مسؤول رسمي"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
+"preferred_label": "سِبْطُ يَهوذَا"
 },
 {
-"id": "keyterm:RegardAsForbidden",
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "فِرْعَوْن"
+},
+{
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "اعْتَبَرَ مُحَرَّمًا"
+"preferred_label": "مقدس"
 },
 {
 "id": "keyterm:Intention",
@@ -331,48 +303,6 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "قصد"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "أُورُشَلِيم"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "صَيْدونُ"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "مشورة"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "لُبْنَانَ"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "الصيدونيون"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
 },
 {
 "id": "place:Joppa",
@@ -389,25 +319,18 @@
 "preferred_label": "دَانِيآل"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
-},
-{
-"id": "keyterm:LoyalPerson",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "شخص وفيّ"
+"preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "محبة"
+"preferred_label": "تَقْدِمَة"
 },
 {
 "id": "place:Tyre",
@@ -417,11 +340,81 @@
 "preferred_label": "صُورُ"
 },
 {
-"id": "keyterm:Holy",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "أُورُشَلِيم"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "يهوذا"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "فَارِسُ"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "الصُّورِيُّونَ"
+},
+{
+"id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "مقدس"
+"preferred_label": "امْتِلَاكُ بَصِيرَةٍ"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "محبة"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "كورَش"
+},
+{
+"id": "keyterm:LoyalPerson",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "شخص وفيّ"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "الصيدونيون"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "كَامِل"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "صَيْدونُ"
 },
 {
 "id": "keyterm:Forbidden",
@@ -438,18 +431,25 @@
 "preferred_label": "غُرلة"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "يؤمن"
+"preferred_label": "مشورة"
 },
 {
-"id": "group:Tyre",
-"type": "group",
+"id": "keyterm:RegardAsForbidden",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "الصُّورِيُّونَ"
+"preferred_label": "اعْتَبَرَ مُحَرَّمًا"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "لُبْنَانَ"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -466,46 +466,18 @@
 "preferred_label": "حِرَفيّ"
 },
 {
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "تِنّين"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "شَجَرَةُ زَيْتُونٍ"
-},
-{
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "شَبَكَةُ طَرْحٍ"
-},
-{
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "شبكة جارفة"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "بَقَر"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "حُفْرَة"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "مال"
 },
 {
 "id": "realia:Stew",
@@ -515,25 +487,11 @@
 "preferred_label": "طَبِيخ"
 },
 {
-"id": "realia:Net",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "شبكة"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "ضَبُع"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "حُبُوب"
+"preferred_label": "مسطار"
 },
 {
 "id": "flora:Cedar",
@@ -543,32 +501,32 @@
 "preferred_label": "أَرْز"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "مسطار"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "بُرْجُ حِصَارٍ"
-},
-{
-"id": "realia:Fortification",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "تَحْصِين"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "شاقِل"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "مال"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "حُبُوب"
+},
+{
+"id": "realia:Dragnet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "شبكة جارفة"
 },
 {
 "id": "flora:Grass",
@@ -585,6 +543,34 @@
 "preferred_label": "أَعْمَالُ ٱلْحِصَارِ"
 },
 {
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "شَبَكَةُ طَرْحٍ"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "ضَبُع"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "شبكة"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "بَقَر"
+},
+{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1041,
@@ -592,11 +578,25 @@
 "preferred_label": "سَلَّة"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
+"id": "realia:Pit",
+"type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "تِنّين"
+"preferred_label": "حُفْرَة"
+},
+{
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "تَحْصِين"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "بُرْجُ حِصَارٍ"
 }
 ]
 }

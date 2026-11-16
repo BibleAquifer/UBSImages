@@ -3,9 +3,9 @@
 "content_id": "282617",
 "reference_id": 2034,
 "version": "1.0.4",
-"title": "Coucher de soleil en Inde",
+"title": "Coucher de soleil derrière un palmier",
 "media_type": "Image",
-"index_reference": "coucher de soleil en inde",
+"index_reference": "coucher de soleil derrière un palmier",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0846_sunset_india.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0846_sunset_india.jpg'>link</a></p></block>",
@@ -931,13 +931,6 @@
 "preferred_label": "amour"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.3122,
-"match_method": "canonical",
-"preferred_label": "être attiré à servir"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.3122,
@@ -945,11 +938,11 @@
 "preferred_label": "Moïse"
 },
 {
-"id": "place:Arnon",
-"type": "place",
-"confidence": 0.2605,
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.3122,
 "match_method": "canonical",
-"preferred_label": "Arnon"
+"preferred_label": "être attiré à servir"
 },
 {
 "id": "keyterm:Possess",
@@ -959,11 +952,32 @@
 "preferred_label": "donner en possession"
 },
 {
+"id": "place:Arnon",
+"type": "place",
+"confidence": 0.2605,
+"match_method": "canonical",
+"preferred_label": "Arnon"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.2591,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2591,
 "match_method": "canonical",
 "preferred_label": "Juda"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2591,
+"match_method": "canonical",
+"preferred_label": "déposséder"
 },
 {
 "id": "group:Judah",
@@ -980,32 +994,11 @@
 "preferred_label": "Moab"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2591,
-"match_method": "canonical",
-"preferred_label": "déposséder"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.2591,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2522,
 "match_method": "canonical",
 "preferred_label": "maison"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.2074,
-"match_method": "canonical",
-"preferred_label": "Liban"
 },
 {
 "id": "place:GreatSea",
@@ -1015,88 +1008,11 @@
 "preferred_label": "mer Méditerranée"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
-"id": "place:Bethel",
+"id": "place:Lebanon",
 "type": "place",
-"confidence": 0.2061,
+"confidence": 0.2074,
 "match_method": "canonical",
-"preferred_label": "Béthel"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "mont Hermon"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "percevoir"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Un ange"
-},
-{
-"id": "place:Gibeon",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Gabaon"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "tribu de Benjamin"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "pur"
-},
-{
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Basan"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Guibea"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "Liban"
 },
 {
 "id": "place:Arabah",
@@ -1106,11 +1022,95 @@
 "preferred_label": "Arabah"
 },
 {
-"id": "person:Benjamin",
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Béthel"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "gloire"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "capacité"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Guibea"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "person:Lot",
 "type": "person",
 "confidence": 0.2061,
 "match_method": "canonical",
-"preferred_label": "Benjamin"
+"preferred_label": "Lot"
+},
+{
+"id": "place:Gibeon",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Gabaon"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "ardeur"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "tribu de Benjamin"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "salut"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Basan"
 }
 ]
 }

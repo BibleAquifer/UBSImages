@@ -231,6 +231,13 @@
 "preferred_label": "牛"
 },
 {
+"id": "person:Rechab.2",
+"type": "person",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "利甲"
+},
+{
 "id": "person:Jonadab",
 "type": "person",
 "confidence": 0.1795,
@@ -252,13 +259,6 @@
 "preferred_label": "亞米拿疊"
 },
 {
-"id": "place:Gur",
-"type": "place",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "姑珥"
-},
-{
 "id": "person:Ahaziah.2",
 "type": "person",
 "confidence": 0.1795,
@@ -266,46 +266,32 @@
 "preferred_label": "亞哈謝"
 },
 {
-"id": "person:Rechab.2",
-"type": "person",
+"id": "place:Gur",
+"type": "place",
 "confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "利甲"
+"preferred_label": "姑珥"
 },
 {
-"id": "person:Jehu.2",
+"id": "person:Isaiah",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "耶戶"
+"preferred_label": "以賽亞"
 },
 {
-"id": "person:Naaman.3",
-"type": "person",
+"id": "place:Megiddo",
+"type": "place",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "乃縵"
+"preferred_label": "米吉多"
 },
 {
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "以色列人"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "約瑟"
+"preferred_label": "洗禮"
 },
 {
 "id": "place:Ibleam",
@@ -322,81 +308,18 @@
 "preferred_label": "平安"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "猶大"
-},
-{
-"id": "person:Absalom",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "押沙龍"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "便‧哈達"
-},
-{
-"id": "group:Judah",
+"id": "group:Israel",
 "type": "group",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "猶大支派"
+"preferred_label": "以色列人"
 },
 {
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "洗禮"
-},
-{
-"id": "place:Megiddo",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "米吉多"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "賜福（認可）"
-},
-{
-"id": "person:Isaiah",
+"id": "person:Naaman.3",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "以賽亞"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "聖靈"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "潔淨"
+"preferred_label": "乃縵"
 },
 {
 "id": "place:Goshen",
@@ -406,18 +329,88 @@
 "preferred_label": "歌珊（埃及）"
 },
 {
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "身體（實體）"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "猶大支派"
+},
+{
+"id": "person:Jehu.2",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "耶戶"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "聖靈"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "猶大"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "便‧哈達"
+},
+{
+"id": "person:Absalom",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "押沙龍"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "埃及"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "賜福（認可）"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "約瑟"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "潔淨"
+},
+{
 "id": "flora:Cinnamon",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "肉桂"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "香"
 },
 {
 "id": "fauna:Goat",
@@ -427,53 +420,11 @@
 "preferred_label": "山羊"
 },
 {
-"id": "flora:Myrrh",
-"type": "flora",
+"id": "realia:Myrrh",
+"type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "沒藥"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "橄欖樹"
-},
-{
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "駱駝"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "葡萄樹"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "金錢"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "橄欖油"
-},
-{
-"id": "realia:Wheel",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "輪子"
 },
 {
 "id": "flora:Frankincense",
@@ -483,11 +434,32 @@
 "preferred_label": "乳香"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "金錢"
+},
+{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "騾子"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "駱駝"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "沒藥"
 },
 {
 "id": "flora:Wheat",
@@ -497,13 +469,6 @@
 "preferred_label": "小麥"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "房屋"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1105,
@@ -511,11 +476,46 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
+"id": "realia:Incense",
+"type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "羊群"
+"preferred_label": "香"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
+"id": "realia:Wheel",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "輪子"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "葡萄樹"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "橄欖油"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "橄欖樹"
 },
 {
 "id": "realia:Wine",
@@ -525,11 +525,11 @@
 "preferred_label": "酒"
 },
 {
-"id": "realia:Myrrh",
-"type": "realia",
+"id": "fauna:Flock",
+"type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "沒藥"
+"preferred_label": "羊群"
 }
 ]
 }

@@ -170,18 +170,11 @@
 "preferred_label": "حِث"
 },
 {
-"id": "group:Jebusites",
+"id": "group:Hivites",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "اليبوسيين"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "إسرائيل"
+"preferred_label": "الحويين"
 },
 {
 "id": "group:Canaan",
@@ -191,11 +184,11 @@
 "preferred_label": "الكنعانيين"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "كنعان"
+"preferred_label": "إسرائيل"
 },
 {
 "id": "group:Amorites",
@@ -205,18 +198,25 @@
 "preferred_label": "أموريين"
 },
 {
-"id": "group:Hivites",
-"type": "group",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "الحويين"
-},
-{
 "id": "group:Hittite",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
 "preferred_label": "الحثيين"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "كنعان"
+},
+{
+"id": "group:Jebusites",
+"type": "group",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "اليبوسيين"
 },
 {
 "id": "group:Perizzites",
@@ -233,13 +233,6 @@
 "preferred_label": "يتحمل العواقب"
 },
 {
-"id": "keyterm:LiftUp",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "يحلف يمين"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.245,
@@ -247,11 +240,11 @@
 "preferred_label": "يجبر على الخدمة"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:LiftUp",
 "type": "keyterm",
-"confidence": 0.1725,
+"confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "كامل"
+"preferred_label": "يحلف يمين"
 },
 {
 "id": "keyterm:Possess",
@@ -261,27 +254,6 @@
 "preferred_label": "يورّث / يملّك"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "يطرد ويمتلك"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "حقاً!"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "قسم"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -289,18 +261,11 @@
 "preferred_label": "تعليم"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "عهد"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "يبارك"
+"preferred_label": "يطرد ويمتلك"
 },
 {
 "id": "keyterm:Stubborn",
@@ -310,11 +275,53 @@
 "preferred_label": "عنيد"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "يبارك"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "شغل"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "كامل"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "قسم"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "حقاً!"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "عهد"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "قمح"
 },
 {
 "id": "flora:Sorghum",
@@ -329,13 +336,6 @@
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "كرمة"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "قمح"
 }
 ]
 }

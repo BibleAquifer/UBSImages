@@ -3,9 +3,9 @@
 "content_id": "296031",
 "reference_id": 2385,
 "version": "1.0.4",
-"title": "鍋",
+"title": "復原房間內的陶器",
 "media_type": "Image",
-"index_reference": "鍋",
+"index_reference": "復原房間內的陶器",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0485_pot.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0485_pot.jpg'>link</a></p></block>",
@@ -175,18 +175,18 @@
 "preferred_label": "湯"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1809,
-"match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
 "preferred_label": "橄欖油"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1809,
+"match_method": "canonical",
+"preferred_label": "膏油"
 },
 {
 "id": "keyterm:Woe",
@@ -196,18 +196,11 @@
 "preferred_label": "有禍了（悲哀）"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "吉甲（靠近耶利哥）"
-},
-{
-"id": "keyterm:Lot",
+"id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "鬮（物件）"
+"preferred_label": "洗禮"
 },
 {
 "id": "group:Israel",
@@ -217,53 +210,11 @@
 "preferred_label": "以色列人"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "供物"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "基甸"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "箴言"
-},
-{
-"id": "person:Elisha",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "以利沙"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "洗禮"
-},
-{
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "馨香之氣"
+"preferred_label": "愚昧（愚蠢）"
 },
 {
 "id": "place:Shiloh",
@@ -273,6 +224,48 @@
 "preferred_label": "示羅"
 },
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "箴言"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "供物"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "以利沙"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "埃及"
+},
+{
+"id": "place:Gilgal.3",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "吉甲（靠近耶利哥）"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "馨香之氣"
+},
+{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -280,25 +273,25 @@
 "preferred_label": "耶和華的話"
 },
 {
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "基甸"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "鬮（物件）"
+},
+{
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "逾越節祭物"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "愚昧（愚蠢）"
-},
-{
-"id": "flora:Ivy",
-"type": "flora",
-"confidence": 0.1195,
-"match_method": "canonical",
-"preferred_label": "常春藤"
 },
 {
 "id": "realia:Griddle",
@@ -315,11 +308,11 @@
 "preferred_label": "藥西瓜"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1105,
+"id": "flora:Ivy",
+"type": "flora",
+"confidence": 0.1195,
 "match_method": "canonical",
-"preferred_label": "手磨"
+"preferred_label": "常春藤"
 },
 {
 "id": "fauna:Goat",
@@ -329,39 +322,11 @@
 "preferred_label": "山羊"
 },
 {
-"id": "fauna:Kid",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "山羊羔"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "蒺藜"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "葡萄樹"
-},
-{
 "id": "realia:Fork",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "肉鍤子"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "篤耨香樹"
 },
 {
 "id": "realia:Ephah",
@@ -378,20 +343,6 @@
 "preferred_label": "無酵餅"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "房屋"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "羊群"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1105,
@@ -399,11 +350,60 @@
 "preferred_label": "床"
 },
 {
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "蒺藜"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "篤耨香樹"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "葡萄樹"
+},
+{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "籃子"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "手磨"
+},
+{
+"id": "fauna:Kid",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "山羊羔"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "羊群"
 }
 ]
 }

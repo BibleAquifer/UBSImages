@@ -3,9 +3,9 @@
 "content_id": "288885",
 "reference_id": 1771,
 "version": "1.0.4",
-"title": "Ukuta",
+"title": "Ukuta wa vitalu vya mawe",
 "media_type": "Image",
-"index_reference": "ukuta",
+"index_reference": "ukuta wa vitalu vya mawe",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg'>link</a></p></block>",
@@ -145,32 +145,11 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Daudi"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Yesu"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Hakika!"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Sadaka"
+"preferred_label": "Kabila la Efraimu"
 },
 {
 "id": "person:Ephraim",
@@ -180,13 +159,6 @@
 "preferred_label": "Efraimu"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.1765,
@@ -194,25 +166,11 @@
 "preferred_label": "Kikundi cha Wanafunzi"
 },
 {
-"id": "keyterm:Slaughtering",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Kuchinja Dhabihu"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Kuwa Mwanafunzi"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Kabila la Efraimu"
+"preferred_label": "Sadaka"
 },
 {
 "id": "place:Samaria",
@@ -222,6 +180,27 @@
 "preferred_label": "Samaria"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Kuchinja Dhabihu"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Daudi"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -229,11 +208,25 @@
 "preferred_label": "Kuvunjia Heshima"
 },
 {
-"id": "realia:StonePlane",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Randa ya Mawe"
+"preferred_label": "Hakika!"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Yesu"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Kuwa Mwanafunzi"
 },
 {
 "id": "realia:Foundation",
@@ -243,32 +236,32 @@
 "preferred_label": "Msingi"
 },
 {
+"id": "realia:StonePlane",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Randa ya Mawe"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "dhiraa"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Madhabahu ya Hekalu"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Madhabahu"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Mzabibu"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Divai"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Hekalu"
 },
 {
 "id": "realia:StoneAltar",
@@ -285,18 +278,25 @@
 "preferred_label": "Madhabahu ya Maskani"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "dhiraa"
+"preferred_label": "Hekalu"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Mzabibu"
+},
+{
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Madhabahu ya Hekalu"
+"preferred_label": "Divai"
 }
 ]
 }

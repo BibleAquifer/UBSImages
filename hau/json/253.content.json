@@ -3,9 +3,9 @@
 "content_id": "289805",
 "reference_id": 1758,
 "version": "1.0.4",
-"title": "Majajjawa",
+"title": "Sling",
 "media_type": "Image",
-"index_reference": "majajjawa",
+"index_reference": "sling",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0379_sling.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0379_sling.jpg'>link</a></p></block>",
@@ -88,6 +88,13 @@
 "preferred_label": "Majajjawa"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "Filistiyawa"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
@@ -100,13 +107,6 @@
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "Filistiya"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "Filistiyawa"
 },
 {
 "id": "person:David",
@@ -123,13 +123,6 @@
 "preferred_label": "Uzziya"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Ɗaukaka"
-},
-{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -144,18 +137,18 @@
 "preferred_label": "Kir"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Ɗaukaka"
+},
+{
 "id": "realia:Pouch",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "'Yar jaka"
-},
-{
-"id": "flora:Rush",
-"type": "flora",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "Ciyawar fadama"
 },
 {
 "id": "realia:Breastplate",
@@ -165,18 +158,11 @@
 "preferred_label": "ƙarfen ƙirji"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1309,
+"id": "flora:Rush",
+"type": "flora",
+"confidence": 0.1491,
 "match_method": "canonical",
-"preferred_label": "Akuya"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Māshi"
+"preferred_label": "Ciyawar fadama"
 },
 {
 "id": "realia:Sword",
@@ -186,46 +172,11 @@
 "preferred_label": "Takobi"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Bagadi"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Itacen inabi"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "baka"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Hular kwano"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Ƙaramar garkuwa"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Sanda"
+"preferred_label": "Akuya"
 },
 {
 "id": "realia:CookingPot",
@@ -235,11 +186,53 @@
 "preferred_label": "Tukunyar girki"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "baka"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Bagaden haikali"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Bagadi"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Māshi"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Ɗan rago"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "Bagaden dutse"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Sanda"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -256,25 +249,25 @@
 "preferred_label": "Jaka"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Itacen inabi"
+},
+{
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Bagaden haikali"
+"preferred_label": "Sanda"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "realia:SmallShield",
+"type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Ɗan rago"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Garke"
+"preferred_label": "Ƙaramar garkuwa"
 },
 {
 "id": "realia:Wine",
@@ -284,11 +277,18 @@
 "preferred_label": "ruwan inabi"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Sanda"
+"preferred_label": "Hular kwano"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Garke"
 }
 ]
 }

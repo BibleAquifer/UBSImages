@@ -375,28 +375,14 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "Каменный жертвенник"
-},
-{
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "Молотилка"
-},
-{
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2791,
 "match_method": "canonical",
 "preferred_label": "Жертвенник"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.2791,
 "match_method": "canonical",
@@ -410,11 +396,39 @@
 "preferred_label": "Жертвенник скинии"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "Молотилка"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.2791,
 "match_method": "canonical",
 "preferred_label": "Пшеница"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "Каменный жертвенник"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "вычищать"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Самария"
 },
 {
 "id": "person:Jehoshaphat.3",
@@ -429,20 +443,6 @@
 "confidence": 0.2196,
 "match_method": "canonical",
 "preferred_label": "Иуда"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "вычищать"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Пророчествовать"
 },
 {
 "id": "keyterm:Blow",
@@ -466,11 +466,11 @@
 "preferred_label": "Гад"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Speak",
+"type": "keyterm",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Самария"
+"preferred_label": "Пророчествовать"
 },
 {
 "id": "flora:Barley",
@@ -487,60 +487,11 @@
 "preferred_label": "Веялка"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Гедеон"
-},
-{
-"id": "person:Joash",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Иоас"
-},
-{
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "причащаться"
-},
-{
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Авиезер"
-},
-{
 "id": "place:BrookOfEgypt",
 "type": "place",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Поток Египетский"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Кеила"
-},
-{
-"id": "place:Ophrah.2",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Офра"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Авиезериты"
 },
 {
 "id": "place:MoriahMount",
@@ -550,6 +501,20 @@
 "preferred_label": "Гора Мориа"
 },
 {
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "причащаться"
+},
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Кеила"
+},
+{
 "id": "keyterm:FeastOfTabernacles",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -557,32 +522,74 @@
 "preferred_label": "Праздник кущей"
 },
 {
-"id": "place:Philistine",
+"id": "place:Ophrah.2",
 "type": "place",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Филистимская земля"
+"preferred_label": "Офра"
 },
 {
-"id": "group:Levi",
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Гедеон"
+},
+{
+"id": "group:Abiezer",
 "type": "group",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Колено Левия"
+"preferred_label": "Авиезериты"
 },
 {
-"id": "keyterm:Perceive",
+"id": "person:Joash",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Иоас"
+},
+{
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Авиезер"
+},
+{
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Воспринимать"
+"preferred_label": "Блудодействовать"
 },
 {
-"id": "person:Boaz",
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Евфрат"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Закон"
+},
+{
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Вооз"
+"preferred_label": "Соломон"
 },
 {
 "id": "group:Philistine",
@@ -599,25 +606,18 @@
 "preferred_label": "Любовь"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Мадиам"
-},
-{
-"id": "keyterm:Hope",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "надежда"
+"preferred_label": "Веровать в"
 },
 {
-"id": "person:Moses",
+"id": "person:Boaz",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Моисей"
+"preferred_label": "Вооз"
 },
 {
 "id": "keyterm:Counsel",
@@ -627,18 +627,39 @@
 "preferred_label": "Совет"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Евфрат"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Благословлять"
+"preferred_label": "должен"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Моисей"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Колено Левия"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Воспринимать"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "person:Levi.3",
@@ -648,25 +669,11 @@
 "preferred_label": "Левий"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
+"id": "place:Midian",
+"type": "place",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Закон"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "должен"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Блудодействовать"
+"preferred_label": "Мадиам"
 },
 {
 "id": "keyterm:Scripture",
@@ -676,39 +683,25 @@
 "preferred_label": "Писание"
 },
 {
-"id": "keyterm:BelieveIn",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Веровать в"
+"preferred_label": "надежда"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Вавилон"
+"preferred_label": "Благословлять"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Соломон"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
-},
-{
-"id": "realia:Barn",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "житница"
+"preferred_label": "Молодое вино"
 },
 {
 "id": "realia:Throne",
@@ -725,25 +718,25 @@
 "preferred_label": "Масличное дерево"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "житница"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Деньги"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Молодое вино"
-},
-{
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Чернушка"
 },
 {
 "id": "realia:Sheaf",
@@ -753,6 +746,13 @@
 "preferred_label": "сноп"
 },
 {
+"id": "flora:NutmegFlower",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Чернушка"
+},
+{
 "id": "flora:Cumin",
 "type": "flora",
 "confidence": 0.1041,
@@ -760,32 +760,11 @@
 "preferred_label": "Тмин"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Wool",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "Елей помазания"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Теревинф"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Мул"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Кориандр"
+"preferred_label": "Шерсть"
 },
 {
 "id": "realia:Shekel",
@@ -795,11 +774,32 @@
 "preferred_label": "сикль"
 },
 {
-"id": "realia:Staff",
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Ягненок"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Теревинф"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "Посох"
+"preferred_label": "Елей помазания"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Ефа"
 },
 {
 "id": "realia:Rod",
@@ -807,6 +807,55 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "Жезл"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Кориандр"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Мул"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "дом"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Посох"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Повозка"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Стадо"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "Коза"
 },
 {
 "id": "realia:Cake",
@@ -821,55 +870,6 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "Оливковое масло"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Ефа"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Ягненок"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Повозка"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Коза"
-},
-{
-"id": "realia:Wool",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Шерсть"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "дом"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "Стадо"
 }
 ]
 }

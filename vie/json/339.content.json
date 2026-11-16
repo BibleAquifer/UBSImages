@@ -3,9 +3,9 @@
 "content_id": "292691",
 "reference_id": 1844,
 "version": "1.0.4",
-"title": "Masada",
+"title": "Masada: Toàn cảnh từ trên không",
 "media_type": "Image",
-"index_reference": "masada",
+"index_reference": "masada toàn cảnh từ trên không",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0621_masada.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0621_masada.jpg'>link</a></p></block>",
@@ -152,18 +152,18 @@
 "preferred_label": "Khiên nhỏ"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "A-sy-ri"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Mũi tên"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "A-sy-ri"
 },
 {
 "id": "realia:Arrow",
@@ -187,6 +187,20 @@
 "preferred_label": "Nơi nương náu"
 },
 {
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "bổ nhiệm"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Bộ tộc Giu-đa"
+},
+{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -194,25 +208,11 @@
 "preferred_label": "nương náu"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Tin cậy"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Giô-áp"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "bổ nhiệm"
+"preferred_label": "Nhân từ"
 },
 {
 "id": "keyterm:Shield",
@@ -229,18 +229,11 @@
 "preferred_label": "Giê-ru-sa-lem"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
-},
-{
-"id": "keyterm:Kindness",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Nhân từ"
+"preferred_label": "Sức mạnh"
 },
 {
 "id": "person:Judah.4",
@@ -250,39 +243,25 @@
 "preferred_label": "Giu-đa"
 },
 {
-"id": "person:Hophra",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Hốp-ra"
+"preferred_label": "Y-sơ-ra-ên"
 },
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Canh-đê"
-},
-{
-"id": "keyterm:Strength",
+"id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Sức mạnh"
+"preferred_label": "Tin cậy"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Joab",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Bộ tộc Giu-đa"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "người Canh-đê"
+"preferred_label": "Giô-áp"
 },
 {
 "id": "place:Abel-beth-maacah",
@@ -292,11 +271,39 @@
 "preferred_label": "A-bên Bết-ma-ca"
 },
 {
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "người Canh-đê"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Canh-đê"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Hốp-ra"
+},
+{
 "id": "realia:Battering-ram",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "mộc tinh"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "nhà"
 },
 {
 "id": "realia:CastingNet",
@@ -318,13 +325,6 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "khiên lớn"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "nhà"
 }
 ]
 }

@@ -323,20 +323,6 @@
 "preferred_label": "房屋"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "摩西"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "尼布甲尼撒"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.2214,
@@ -344,11 +330,11 @@
 "preferred_label": "使承受为业"
 },
 {
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "摩西"
 },
 {
 "id": "person:Pharaoh.6",
@@ -358,11 +344,18 @@
 "preferred_label": "法老"
 },
 {
-"id": "place:Netaim",
-"type": "place",
-"confidence": 0.1655,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "尼他英"
+"preferred_label": "以色列"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "尼布甲尼撒"
 },
 {
 "id": "place:Gederah",
@@ -372,18 +365,18 @@
 "preferred_label": "基底拉"
 },
 {
+"id": "place:Netaim",
+"type": "place",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "尼他英"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "陶罐"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "亚伦"
 },
 {
 "id": "place:Sodom",
@@ -393,32 +386,11 @@
 "preferred_label": "所多玛"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "place:Topheth",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "陀斐特"
-},
-{
-"id": "keyterm:Perceive",
+"id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "察觉"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "西奈山"
+"preferred_label": "无底坑"
 },
 {
 "id": "place:Gomorrah",
@@ -428,18 +400,46 @@
 "preferred_label": "蛾摩拉"
 },
 {
-"id": "keyterm:Abyss",
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "西奈山"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "亚伦"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "无底坑"
+"preferred_label": "察觉"
 },
 {
-"id": "realia:PotteryWheel",
+"id": "place:Topheth",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "陀斐特"
+},
+{
+"id": "realia:Bagpipe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "转轮"
+"preferred_label": "风笛"
 },
 {
 "id": "flora:Bean",
@@ -449,6 +449,13 @@
 "preferred_label": "豆"
 },
 {
+"id": "realia:PotteryWheel",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "转轮"
+},
+{
 "id": "flora:Lentil",
 "type": "flora",
 "confidence": 0.1055,
@@ -456,11 +463,46 @@
 "preferred_label": "扁豆"
 },
 {
-"id": "realia:Bagpipe",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "风笛"
+"preferred_label": "大麦"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "盆"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "床"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "小麦"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "瑟"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "琵琶"
 },
 {
 "id": "fauna:Bull",
@@ -477,53 +519,11 @@
 "preferred_label": "笛"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "大麦"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "瑟"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "羊角号"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "小麦"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "床"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "盆"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "琵琶"
 }
 ]
 }

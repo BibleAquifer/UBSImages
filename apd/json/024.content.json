@@ -200,13 +200,6 @@
 "preferred_label": "الرب"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "يسوع"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.236,
@@ -214,11 +207,11 @@
 "preferred_label": "سما"
 },
 {
-"id": "place:Hazor.5",
-"type": "place",
-"confidence": 0.176,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "حاصور"
+"preferred_label": "يسوع"
 },
 {
 "id": "flora:Grass",
@@ -228,11 +221,11 @@
 "preferred_label": "قش"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.168,
+"id": "place:Hazor.5",
+"type": "place",
+"confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "يورّث / يملّك"
+"preferred_label": "حاصور"
 },
 {
 "id": "keyterm:Swear",
@@ -242,60 +235,11 @@
 "preferred_label": "حلف"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "أورشليم"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "يجيب الكرامة والمجد لنفسه"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "إسرائيل"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "الأدوميين"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "مرثاة"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "أدوم"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "بابل"
+"preferred_label": "يورّث / يملّك"
 },
 {
 "id": "group:Judah",
@@ -305,11 +249,46 @@
 "preferred_label": "قبيلة يهوذا"
 },
 {
-"id": "person:Samson",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "بابل"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "يجيب الكرامة والمجد لنفسه"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "أورشليم"
+},
+{
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "شمشون"
+"preferred_label": "يهوذا"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "إسرائيل"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "أدوم"
 },
 {
 "id": "deity:Demons",
@@ -317,6 +296,27 @@
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "شياطين"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "شمشون"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "الأدوميين"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "مرثاة"
 },
 {
 "id": "fauna:TawnyOwl.2",
@@ -340,25 +340,18 @@
 "preferred_label": "بوص"
 },
 {
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "قريص"
+},
+{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
 "preferred_label": "شوك"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "بردي"
 },
 {
 "id": "flora:Thistle",
@@ -375,11 +368,18 @@
 "preferred_label": "بيت"
 },
 {
-"id": "flora:Nettle",
+"id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "قريص"
+"preferred_label": "بردي"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "كرمة"
 }
 ]
 }

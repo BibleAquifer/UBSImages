@@ -106,18 +106,18 @@
 "preferred_label": "鈕扣"
 },
 {
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.5471,
-"match_method": "canonical",
-"preferred_label": "山羊毛幔子"
-},
-{
 "id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.5471,
 "match_method": "canonical",
 "preferred_label": "幔子"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.5471,
+"match_method": "canonical",
+"preferred_label": "山羊毛幔子"
 },
 {
 "id": "realia:Tent",
@@ -130,6 +130,13 @@
 "id": "keyterm:CovenantBox",
 "type": "keyterm",
 "confidence": 0.2643,
+"match_method": "canonical",
+"preferred_label": "約櫃"
+},
+{
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2043,
 "match_method": "canonical",
 "preferred_label": "約櫃"
 },
@@ -148,13 +155,6 @@
 "preferred_label": "紫色布"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2043,
-"match_method": "canonical",
-"preferred_label": "約櫃"
-},
-{
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.1964,
@@ -162,11 +162,18 @@
 "preferred_label": "聖所（會幕）"
 },
 {
-"id": "person:David",
+"id": "person:Nathan.2",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "大衛"
+"preferred_label": "拿單"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "耶和華"
 },
 {
 "id": "person:Moses",
@@ -176,11 +183,18 @@
 "preferred_label": "摩西"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "耶和華"
+"preferred_label": "聖潔"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "大衛"
 },
 {
 "id": "keyterm:Witness.2",
@@ -197,18 +211,11 @@
 "preferred_label": "約"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1821,
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
-"id": "person:Nathan.2",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "拿單"
+"preferred_label": "香柏樹"
 },
 {
 "id": "realia:Covering",
@@ -218,25 +225,18 @@
 "preferred_label": "蓋"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "幔子"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "香柏樹"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "房屋"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "幔子"
 }
 ]
 }

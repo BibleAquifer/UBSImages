@@ -106,18 +106,18 @@
 "preferred_label": "عروة"
 },
 {
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.5471,
-"match_method": "canonical",
-"preferred_label": "شُقَق مِنْ شَعْرِ مِعْزَى"
-},
-{
 "id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.5471,
 "match_method": "canonical",
 "preferred_label": "شقق كتان"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.5471,
+"match_method": "canonical",
+"preferred_label": "شُقَق مِنْ شَعْرِ مِعْزَى"
 },
 {
 "id": "realia:Tent",
@@ -134,6 +134,13 @@
 "preferred_label": "تابوت العهد"
 },
 {
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2043,
+"match_method": "canonical",
+"preferred_label": "تَابُوتُ ٱلْعَهْدِ"
+},
+{
 "id": "realia:Frame",
 "type": "realia",
 "confidence": 0.2043,
@@ -148,13 +155,6 @@
 "preferred_label": "أُرْجُوان"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2043,
-"match_method": "canonical",
-"preferred_label": "تَابُوتُ ٱلْعَهْدِ"
-},
-{
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.1964,
@@ -162,11 +162,18 @@
 "preferred_label": "القدس"
 },
 {
-"id": "person:David",
+"id": "person:Nathan.2",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "داود"
+"preferred_label": "نَاثَان"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "الرَّبّ"
 },
 {
 "id": "person:Moses",
@@ -176,11 +183,18 @@
 "preferred_label": "مُوسَى"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "الرَّبّ"
+"preferred_label": "مقدس"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "داود"
 },
 {
 "id": "keyterm:Witness.2",
@@ -197,18 +211,11 @@
 "preferred_label": "عهد"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1821,
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "مقدس"
-},
-{
-"id": "person:Nathan.2",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "نَاثَان"
+"preferred_label": "أَرْز"
 },
 {
 "id": "realia:Covering",
@@ -218,25 +225,18 @@
 "preferred_label": "غِطاء"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "حِجاب"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "أَرْز"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "بَيْت"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "حِجاب"
 }
 ]
 }

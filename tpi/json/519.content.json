@@ -221,11 +221,11 @@
 "preferred_label": "Bikpela"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "Wel bilong makim man"
+"preferred_label": "haus"
 },
 {
 "id": "realia:OliveOil",
@@ -235,11 +235,11 @@
 "preferred_label": "wel bilong oliv"
 },
 {
-"id": "realia:House",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "haus"
+"preferred_label": "Wel bilong makim man"
 },
 {
 "id": "realia:Wine",
@@ -256,34 +256,6 @@
 "preferred_label": "Melsar"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "I no gat asua"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sairus"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "gat gutpela tingting"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Persia"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -291,18 +263,11 @@
 "preferred_label": "Mekim promis"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Fero"
-},
-{
-"id": "keyterm:Dispossess",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "rausim na kisim graun"
+"preferred_label": "Bilip"
 },
 {
 "id": "person:GenericOfficial",
@@ -312,18 +277,25 @@
 "preferred_label": "Ofisa Bilong Gavman"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Ofa"
+"preferred_label": "Lain bilong Juda"
 },
 {
-"id": "keyterm:RegardAsForbidden",
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Fero"
+},
+{
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "tingim olsem samting i tambu"
+"preferred_label": "Holi"
 },
 {
 "id": "keyterm:Intention",
@@ -331,48 +303,6 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "tingting"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Saidon"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "gutpela tingting"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Lebanon"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ol Saidon"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Juda"
 },
 {
 "id": "place:Joppa",
@@ -389,25 +319,18 @@
 "preferred_label": "Daniel"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Lain bilong Juda"
-},
-{
-"id": "keyterm:LoyalPerson",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Man i save stap gut tru"
+"preferred_label": "rausim na kisim graun"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Pasin Bilong Givim Bel"
+"preferred_label": "Ofa"
 },
 {
 "id": "place:Tyre",
@@ -417,11 +340,81 @@
 "preferred_label": "Tair"
 },
 {
-"id": "keyterm:Holy",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Persia"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Ol manmeri bilong Tair"
+},
+{
+"id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Holi"
+"preferred_label": "gat gutpela tingting"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Pasin Bilong Givim Bel"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sairus"
+},
+{
+"id": "keyterm:LoyalPerson",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Man i save stap gut tru"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Ol Saidon"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "I no gat asua"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Saidon"
 },
 {
 "id": "keyterm:Forbidden",
@@ -438,18 +431,25 @@
 "preferred_label": "Foreskin"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Bilip"
+"preferred_label": "gutpela tingting"
 },
 {
-"id": "group:Tyre",
-"type": "group",
+"id": "keyterm:RegardAsForbidden",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Ol manmeri bilong Tair"
+"preferred_label": "tingim olsem samting i tambu"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Lebanon"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -466,46 +466,18 @@
 "preferred_label": "man bilong wokim ol samting"
 },
 {
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "dregon"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Diwai oliv"
-},
-{
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "umben bilong tromoi"
-},
-{
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "umben"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "bulmakau"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "hul"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Mani"
 },
 {
 "id": "realia:Stew",
@@ -515,25 +487,11 @@
 "preferred_label": "sup"
 },
 {
-"id": "realia:Net",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "umben"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "haiina"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "wit na rais samting"
+"preferred_label": "Nupela wain"
 },
 {
 "id": "flora:Cedar",
@@ -543,32 +501,32 @@
 "preferred_label": "diwai sida"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Nupela wain"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "taua bilong pait"
-},
-{
-"id": "realia:Fortification",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "strongpela banis bilong taun"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "sekel"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Mani"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "wit na rais samting"
+},
+{
+"id": "realia:Dragnet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "umben"
 },
 {
 "id": "flora:Grass",
@@ -585,6 +543,34 @@
 "preferred_label": "ol samting bilong banisim taun"
 },
 {
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "umben bilong tromoi"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "haiina"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "umben"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "bulmakau"
+},
+{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1041,
@@ -592,11 +578,25 @@
 "preferred_label": "basket"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
+"id": "realia:Pit",
+"type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "dregon"
+"preferred_label": "hul"
+},
+{
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "strongpela banis bilong taun"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "taua bilong pait"
 }
 ]
 }

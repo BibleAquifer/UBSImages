@@ -3,9 +3,9 @@
 "content_id": "295899",
 "reference_id": 2253,
 "version": "1.0.4",
-"title": "魚",
+"title": "標有魚鰭和魚鱗的魚：照片",
 "media_type": "Image",
-"index_reference": "魚",
+"index_reference": "標有魚鰭和魚鱗的魚照片",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0224_fish_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0224_fish_en.jpg'>link</a></p></block>",
@@ -382,13 +382,6 @@
 "preferred_label": "撒網"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2755,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2755,
@@ -396,11 +389,11 @@
 "preferred_label": "天"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.274,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2755,
 "match_method": "canonical",
-"preferred_label": "蜥蜴"
+"preferred_label": "埃及"
 },
 {
 "id": "fauna:Chameleon",
@@ -417,11 +410,18 @@
 "preferred_label": "巨蜥"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.274,
+"match_method": "canonical",
+"preferred_label": "蜥蜴"
+},
+{
+"id": "group:Egypt",
+"type": "group",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "約拿"
+"preferred_label": "埃及人"
 },
 {
 "id": "place:Nile",
@@ -431,11 +431,11 @@
 "preferred_label": "尼羅河"
 },
 {
-"id": "group:Egypt",
-"type": "group",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "埃及人"
+"preferred_label": "約拿"
 },
 {
 "id": "fauna:Bird",
@@ -452,13 +452,6 @@
 "preferred_label": "蛇"
 },
 {
-"id": "keyterm:Semblance",
-"type": "keyterm",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "樣式"
-},
-{
 "id": "place:Eneglaim",
 "type": "place",
 "confidence": 0.1623,
@@ -466,46 +459,11 @@
 "preferred_label": "隱‧以革蓮"
 },
 {
-"id": "place:Engedi",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "隱‧基底"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Semblance",
 "type": "keyterm",
-"confidence": 0.1585,
+"confidence": 0.1623,
 "match_method": "canonical",
-"preferred_label": "身體（實體）"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "地獄"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "一群門徒"
+"preferred_label": "樣式"
 },
 {
 "id": "keyterm:Sabbath",
@@ -515,18 +473,53 @@
 "preferred_label": "安息日"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "一群門徒"
+},
+{
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "權柄（控制）"
+"preferred_label": "身體（實體）"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "猶大"
+"preferred_label": "彼得"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "猶大支派"
+},
+{
+"id": "place:GreatSea",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "地中海"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "心（比喻）"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "推羅"
 },
 {
 "id": "keyterm:Strength",
@@ -536,11 +529,18 @@
 "preferred_label": "力量"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "所羅門"
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "place:Engedi",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "隱‧基底"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "284610",
 "reference_id": 2161,
 "version": "1.0.4",
-"title": "Makhluk Hidup Facundus",
+"title": "Empat Makhluk: Manuskrip Facundus",
 "media_type": "Image",
-"index_reference": "makhluk hidup facundus",
+"index_reference": "empat makhluk manuskrip facundus",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0602_living_creatures_facundus.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0602_living_creatures_facundus.jpg'>link</a></p></block>",
@@ -309,18 +309,18 @@
 "preferred_label": "sujud menyembah"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "meterai"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2829,
 "match_method": "canonical",
 "preferred_label": "rumah"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "meterai"
 },
 {
 "id": "deity:Angel",
@@ -337,6 +337,13 @@
 "preferred_label": "Makhluk Ketiga"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "Makhluk Kedua"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.231,
@@ -351,13 +358,6 @@
 "preferred_label": "Makhluk Keempat"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "Makhluk Kedua"
-},
-{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2221,
@@ -365,18 +365,11 @@
 "preferred_label": "lenan"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "sesungguhnya!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Kebar"
+"preferred_label": "kudus"
 },
 {
 "id": "person:Israel",
@@ -393,11 +386,11 @@
 "preferred_label": "kehidupan"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "kudus"
+"preferred_label": "Kebar"
 },
 {
 "id": "keyterm:Always",
@@ -407,11 +400,11 @@
 "preferred_label": "selama-lamanya"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1614,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "singa"
+"preferred_label": "sesungguhnya!"
 },
 {
 "id": "fauna:Vulture",
@@ -421,11 +414,25 @@
 "preferred_label": "burung nasar"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "singa"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "pinggan"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "menebus"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -435,13 +442,6 @@
 "preferred_label": "bertindak jahat"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "roh"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1607,
@@ -449,11 +449,11 @@
 "preferred_label": "berdoa"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Suara Tanpa Rupa"
+"preferred_label": "roh"
 },
 {
 "id": "keyterm:Fear",
@@ -463,11 +463,18 @@
 "preferred_label": "takut"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "menebus"
+"preferred_label": "Suara Tanpa Rupa"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "dinar"
 },
 {
 "id": "realia:Balance",
@@ -484,11 +491,18 @@
 "preferred_label": "cupak"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "dinar"
+"preferred_label": "jelai"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "gandum"
 },
 {
 "id": "realia:Incense",
@@ -498,18 +512,18 @@
 "preferred_label": "ukupan"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "kecapi"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "lembu sapi"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "kuda"
 },
 {
 "id": "realia:OliveOil",
@@ -519,18 +533,11 @@
 "preferred_label": "minyak zaitun"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "jelai"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "kecapi"
+"preferred_label": "kuda"
 },
 {
 "id": "realia:Scroll",
@@ -538,13 +545,6 @@
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "gulungan kitab"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "gandum"
 },
 {
 "id": "realia:Wine",

@@ -3,9 +3,9 @@
 "content_id": "293551",
 "reference_id": 1771,
 "version": "1.0.4",
-"title": "حائط",
+"title": "حيطة كتل حجرية",
 "media_type": "Image",
-"index_reference": "حائط",
+"index_reference": "حيطة كتل حجرية",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg'>link</a></p></block>",
@@ -145,32 +145,11 @@
 "preferred_label": "الرب"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "داود"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "يسوع"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "حقاً!"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "تقدمة"
+"preferred_label": "قبيلة أفرايم"
 },
 {
 "id": "person:Ephraim",
@@ -180,13 +159,6 @@
 "preferred_label": "أفرايم"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "إسرائيل"
-},
-{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.1765,
@@ -194,25 +166,11 @@
 "preferred_label": "مجموعة تلاميذ"
 },
 {
-"id": "keyterm:Slaughtering",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "دبح"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "يكون تلميذ"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "قبيلة أفرايم"
+"preferred_label": "تقدمة"
 },
 {
 "id": "place:Samaria",
@@ -222,6 +180,27 @@
 "preferred_label": "السامرة"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "دبح"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "داود"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "إسرائيل"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -229,11 +208,25 @@
 "preferred_label": "يهين"
 },
 {
-"id": "realia:StonePlane",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "فارة حجر"
+"preferred_label": "حقاً!"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "يسوع"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "يكون تلميذ"
 },
 {
 "id": "realia:Foundation",
@@ -243,32 +236,32 @@
 "preferred_label": "أساس"
 },
 {
+"id": "realia:StonePlane",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "فارة حجر"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "ذراع"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "مذبح"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "خمرة"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "الهيكل"
 },
 {
 "id": "realia:StoneAltar",
@@ -285,18 +278,25 @@
 "preferred_label": "مذبح خيمة الاجتماع"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "ذراع"
+"preferred_label": "الهيكل"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
+"preferred_label": "خمرة"
 }
 ]
 }

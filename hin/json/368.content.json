@@ -361,18 +361,18 @@
 "preferred_label": "देवदार"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3409,
-"match_method": "canonical",
-"preferred_label": "छिपकली"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3409,
 "match_method": "canonical",
 "preferred_label": "गिरगिट"
+},
+{
+"id": "fauna:Iguana",
+"type": "fauna",
+"confidence": 0.3409,
+"match_method": "canonical",
+"preferred_label": "गोह"
 },
 {
 "id": "realia:House",
@@ -382,11 +382,11 @@
 "preferred_label": "घर"
 },
 {
-"id": "fauna:Iguana",
+"id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.3409,
 "match_method": "canonical",
-"preferred_label": "गोह"
+"preferred_label": "छिपकली"
 },
 {
 "id": "flora:Hyssop",
@@ -403,11 +403,11 @@
 "preferred_label": "शुद्ध"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Trap",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "बैंगनी वस्त्र"
+"preferred_label": "फंदा"
 },
 {
 "id": "fauna:Rooster",
@@ -417,11 +417,11 @@
 "preferred_label": "मुर्गा"
 },
 {
-"id": "realia:Trap",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "फंदा"
+"preferred_label": "बैंगनी वस्त्र"
 },
 {
 "id": "fauna:CreepingAnimal",
@@ -480,13 +480,6 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2155,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.2155,
@@ -494,25 +487,18 @@
 "preferred_label": "अन्न"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2155,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
+},
+{
 "id": "keyterm:Imperishable",
 "type": "keyterm",
 "confidence": 0.1623,
 "match_method": "canonical",
 "preferred_label": "अविनाशी"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "दाऊद"
-},
-{
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "शरण लेना"
 },
 {
 "id": "keyterm:Swear",
@@ -529,6 +515,13 @@
 "preferred_label": "शरीर"
 },
 {
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "शरण लेना"
+},
+{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.1585,
@@ -536,11 +529,18 @@
 "preferred_label": "शांत करना"
 },
 {
-"id": "place:Assyria",
-"type": "place",
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "अश्शूर"
+"preferred_label": "संक्रामक त्वचा रोग"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "पशुबलि"
 }
 ]
 }

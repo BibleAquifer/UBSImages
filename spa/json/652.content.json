@@ -3,9 +3,9 @@
 "content_id": "288381",
 "reference_id": 2200,
 "version": "1.0.4",
-"title": "Pintura mural del templo de Amón en Tebas",
+"title": "Transporte de granos en Egipto: pintura mural",
 "media_type": "Image",
-"index_reference": "pintura mural del templo de amón en tebas",
+"index_reference": "transporte de granos en egipto pintura mural",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0866_thebes_temple_of_amon.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0866_thebes_temple_of_amon.jpg'>link</a></p></block>",
@@ -114,18 +114,18 @@
 "preferred_label": "José"
 },
 {
-"id": "place:Pelusium",
-"type": "place",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Pelusio"
-},
-{
 "id": "deity:Amon",
 "type": "deity",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Amón"
+},
+{
+"id": "place:Pelusium",
+"type": "place",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Pelusio"
 },
 {
 "id": "person:Israel",
@@ -135,13 +135,6 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Zoan",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Zoán"
-},
-{
 "id": "place:Pathros",
 "type": "place",
 "confidence": 0.2,
@@ -149,32 +142,11 @@
 "preferred_label": "Patros"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1846,
+"id": "place:Zoan",
+"type": "place",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "confiar"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Faraón"
-},
-{
-"id": "person:Neco",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Necao"
+"preferred_label": "Zoán"
 },
 {
 "id": "keyterm:Appoint",
@@ -191,11 +163,18 @@
 "preferred_label": "Menfis"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "person:Pharaoh.4",
+"type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Canaán"
+"preferred_label": "Faraón"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Jehová"
 },
 {
 "id": "place:Nile",
@@ -203,6 +182,34 @@
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "río Nilo"
+},
+{
+"id": "person:Neco",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Necao"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "confiar"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Canaán"
+},
+{
+"id": "realia:Fortress",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "fortaleza"
 },
 {
 "id": "realia:Money",
@@ -224,13 +231,6 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "asno"
-},
-{
-"id": "realia:Fortress",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "fortaleza"
 }
 ]
 }

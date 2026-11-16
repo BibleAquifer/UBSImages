@@ -115,20 +115,6 @@
 "preferred_label": "خيمة"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "قماش مصبوغ"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "قماش أرجواني"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.3025,
@@ -143,11 +129,18 @@
 "preferred_label": "حمل"
 },
 {
-"id": "realia:TentOfMeeting",
+"id": "realia:DyedCloth",
 "type": "realia",
-"confidence": 0.215,
+"confidence": 0.3025,
 "match_method": "canonical",
-"preferred_label": "خيمة الاجتماع"
+"preferred_label": "قماش مصبوغ"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.3025,
+"match_method": "canonical",
+"preferred_label": "قماش أرجواني"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -157,11 +150,11 @@
 "preferred_label": "تابوت العهد"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "موسى"
+"preferred_label": "خيمة الاجتماع"
 },
 {
 "id": "deity:Lord",
@@ -169,6 +162,20 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "الرب"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "موسى"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "مقدّس"
 },
 {
 "id": "person:Noah",
@@ -185,11 +192,11 @@
 "preferred_label": "جرشون"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1442,
 "match_method": "canonical",
-"preferred_label": "مقدّس"
+"preferred_label": "مذبح خيمة الاجتماع"
 },
 {
 "id": "realia:GoatHairStrips",
@@ -199,25 +206,18 @@
 "preferred_label": "ستائر شعر معيز"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "مذبح خيمة الاجتماع"
-},
-{
-"id": "realia:Frame",
+"id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "هيكل خشب"
+"preferred_label": "شرايط كتان"
 },
 {
-"id": "realia:Ship",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "سفينة"
+"preferred_label": "مذبح الهيكل"
 },
 {
 "id": "realia:Altar",
@@ -225,6 +225,20 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "مذبح"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "مذبح حجر"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "سفينة"
 },
 {
 "id": "realia:Loop",
@@ -241,25 +255,11 @@
 "preferred_label": "ستار"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:Frame",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "مذبح حجر"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "شرايط كتان"
+"preferred_label": "هيكل خشب"
 }
 ]
 }

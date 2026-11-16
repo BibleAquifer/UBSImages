@@ -3,9 +3,9 @@
 "content_id": "293175",
 "reference_id": 2328,
 "version": "1.0.4",
-"title": "Bảng viết",
+"title": "Bảng viết bằng gỗ",
 "media_type": "Image",
-"index_reference": "bảng viết",
+"index_reference": "bảng viết bằng gỗ",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0355_tablet.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0355_tablet.jpg'>link</a></p></block>",
@@ -52,18 +52,18 @@
 "preferred_label": "bảng đá"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "CHÚA"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Giu-đa"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "sự thật"
 },
 {
 "id": "keyterm:Sin",
@@ -73,18 +73,18 @@
 "preferred_label": "Phạm tội"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "CHÚA"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "Nhân từ"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "sự thật"
 },
 {
 "id": "group:Judah",
@@ -108,18 +108,18 @@
 "preferred_label": "thợ thủ công"
 },
 {
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "bàn thờ Đền Tạm"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Bàn thờ đền thờ"
-},
-{
-"id": "realia:HornsOfAltar",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "sừng bàn thờ"
 },
 {
 "id": "realia:Altar",
@@ -129,18 +129,11 @@
 "preferred_label": "bàn thờ"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Bàn thờ đá"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "bàn thờ Đền Tạm"
+"preferred_label": "sừng bàn thờ"
 },
 {
 "id": "realia:Scroll",
@@ -148,6 +141,13 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Cuộn sách"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đá"
 }
 ]
 }

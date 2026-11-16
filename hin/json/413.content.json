@@ -81,13 +81,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.5355,
-"match_method": "canonical",
-"preferred_label": "दाँवने का पाटा"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.5355,
@@ -95,11 +88,25 @@
 "preferred_label": "अन्न"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.5355,
+"match_method": "canonical",
+"preferred_label": "दाँवने का पाटा"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "भेंट"
 },
 {
 "id": "person:David",
@@ -116,18 +123,11 @@
 "preferred_label": "ओर्नान"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
+"id": "flora:Wheat",
+"type": "flora",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "गाड़ी"
+"preferred_label": "गेहूँ"
 },
 {
 "id": "fauna:Bull",
@@ -137,18 +137,11 @@
 "preferred_label": "गाय-बैल"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
+"id": "realia:Wagon",
+"type": "realia",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "गिदोन"
+"preferred_label": "गाड़ी"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -163,6 +156,13 @@
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "ओप्रा"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "गिदोन"
 },
 {
 "id": "group:Abiezer",
@@ -186,11 +186,11 @@
 "preferred_label": "अबीएजेर"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "place:Euphrates",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "बलवा करना"
+"preferred_label": "फरात नदी"
 },
 {
 "id": "place:Damascus",
@@ -200,6 +200,13 @@
 "preferred_label": "दमिश्क"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "गिलाद"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1909,
@@ -207,11 +214,11 @@
 "preferred_label": "इस्राएल"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "फरात नदी"
+"preferred_label": "बलवा करना"
 },
 {
 "id": "deity:Angel",
@@ -219,13 +226,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "एक स्वर्गदूत"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "गिलाद"
 },
 {
 "id": "place:Midian",
@@ -249,11 +249,18 @@
 "preferred_label": "कलौंजी"
 },
 {
-"id": "realia:Winepress",
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "जौ"
+},
+{
+"id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "रसकुण्ड"
+"preferred_label": "एपा"
 },
 {
 "id": "realia:Rod",
@@ -263,11 +270,18 @@
 "preferred_label": "छड़ी"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "जैतून का वृक्ष"
+"preferred_label": "बांज वृक्ष"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "रसकुण्ड"
 },
 {
 "id": "realia:Staff",
@@ -277,25 +291,11 @@
 "preferred_label": "लाठी"
 },
 {
-"id": "flora:Barley",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "जौ"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "बांज वृक्ष"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "एपा"
+"preferred_label": "जैतून का वृक्ष"
 }
 ]
 }

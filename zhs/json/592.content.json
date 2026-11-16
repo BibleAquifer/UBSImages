@@ -3,9 +3,9 @@
 "content_id": "294847",
 "reference_id": 2134,
 "version": "1.0.4",
-"title": "牛奶与蜂蜜",
+"title": "蜂蜜倒入牛奶",
 "media_type": "Image",
-"index_reference": "牛奶与蜂蜜",
+"index_reference": "蜂蜜倒入牛奶",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0630_milk_and_honey.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0630_milk_and_honey.jpg'>link</a></p></block>",
@@ -170,18 +170,11 @@
 "preferred_label": "赫"
 },
 {
-"id": "group:Jebusites",
+"id": "group:Hivites",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "耶布斯人"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "希未人"
 },
 {
 "id": "group:Canaan",
@@ -191,11 +184,11 @@
 "preferred_label": "迦南人"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "迦南"
+"preferred_label": "以色列"
 },
 {
 "id": "group:Amorites",
@@ -205,18 +198,25 @@
 "preferred_label": "亚摩利人"
 },
 {
-"id": "group:Hivites",
-"type": "group",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "希未人"
-},
-{
 "id": "group:Hittite",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
 "preferred_label": "赫人"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "迦南"
+},
+{
+"id": "group:Jebusites",
+"type": "group",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "耶布斯人"
 },
 {
 "id": "group:Perizzites",
@@ -233,13 +233,6 @@
 "preferred_label": "担当后果"
 },
 {
-"id": "keyterm:LiftUp",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "起誓"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.245,
@@ -247,11 +240,11 @@
 "preferred_label": "强迫服役"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:LiftUp",
 "type": "keyterm",
-"confidence": 0.1725,
+"confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "纯全"
+"preferred_label": "起誓"
 },
 {
 "id": "keyterm:Possess",
@@ -261,27 +254,6 @@
 "preferred_label": "使承受为业"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "驱逐"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "确实！"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "誓言"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -289,18 +261,11 @@
 "preferred_label": "训诲"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "约"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "赐福（嘉许）"
+"preferred_label": "驱逐"
 },
 {
 "id": "keyterm:Stubborn",
@@ -310,11 +275,53 @@
 "preferred_label": "顽固"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "赐福（嘉许）"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "工作"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "纯全"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "誓言"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "确实！"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "约"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "小麦"
 },
 {
 "id": "flora:Sorghum",
@@ -329,13 +336,6 @@
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "葡萄树"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "小麦"
 }
 ]
 }

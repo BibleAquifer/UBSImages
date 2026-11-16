@@ -115,13 +115,6 @@
 "preferred_label": "石刨"
 },
 {
-"id": "person:Simon.3",
-"type": "person",
-"confidence": 0.3083,
-"match_method": "canonical",
-"preferred_label": "西門（耶穌的兄弟）"
-},
-{
 "id": "person:Jude",
 "type": "person",
 "confidence": 0.3083,
@@ -129,11 +122,11 @@
 "preferred_label": "猶大"
 },
 {
-"id": "person:James.3",
+"id": "person:Simon.3",
 "type": "person",
-"confidence": 0.2917,
+"confidence": 0.3083,
 "match_method": "canonical",
-"preferred_label": "雅各（耶穌的兄弟）"
+"preferred_label": "西門（耶穌的兄弟）"
 },
 {
 "id": "person:Hiram",
@@ -143,11 +136,39 @@
 "preferred_label": "希蘭"
 },
 {
+"id": "person:James.3",
+"type": "person",
+"confidence": 0.2917,
+"match_method": "canonical",
+"preferred_label": "雅各（耶穌的兄弟）"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "亞捫"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "推羅"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "亞捫人"
 },
 {
 "id": "deity:Angel",
@@ -162,27 +183,6 @@
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "馬利亞（耶穌的母親）"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "推羅"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "亞捫人"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "亞捫"
 },
 {
 "id": "person:Joseph.3",
@@ -220,13 +220,6 @@
 "preferred_label": "鋸"
 },
 {
-"id": "realia:Skin",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "獸皮"
-},
-{
 "id": "realia:Stylus.2",
 "type": "realia",
 "confidence": 0.1442,
@@ -234,18 +227,25 @@
 "preferred_label": "劃線筆"
 },
 {
-"id": "realia:BrickMold",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "磚模"
-},
-{
 "id": "realia:Compass",
 "type": "realia",
 "confidence": 0.1442,
 "match_method": "canonical",
 "preferred_label": "圓尺"
+},
+{
+"id": "realia:Skin",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "獸皮"
+},
+{
+"id": "realia:BrickMold",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "磚模"
 },
 {
 "id": "realia:Chisel",
@@ -262,6 +262,27 @@
 "preferred_label": "山羊"
 },
 {
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "根基"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "斧頭"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "杖"
+},
+{
 "id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.1275,
@@ -269,7 +290,7 @@
 "preferred_label": "鑿成的石頭"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
@@ -283,32 +304,11 @@
 "preferred_label": "量度的葦子"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "根基"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "杖"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "羊群"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "斧頭"
 }
 ]
 }

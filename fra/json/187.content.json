@@ -254,13 +254,6 @@
 "preferred_label": "huile d'olive"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2333,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2333,
@@ -275,8 +268,22 @@
 "preferred_label": "pur"
 },
 {
-"id": "realia:Aloes",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2333,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "realia:OilOfNard",
 "type": "realia",
+"confidence": 0.1881,
+"match_method": "canonical",
+"preferred_label": "huile de nard"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
 "confidence": 0.1881,
 "match_method": "canonical",
 "preferred_label": "aloès"
@@ -289,18 +296,11 @@
 "preferred_label": "livre"
 },
 {
-"id": "flora:Aloes",
-"type": "flora",
-"confidence": 0.1881,
-"match_method": "canonical",
-"preferred_label": "aloès"
-},
-{
-"id": "realia:OilOfNard",
+"id": "realia:Aloes",
 "type": "realia",
 "confidence": 0.1881,
 "match_method": "canonical",
-"preferred_label": "huile de nard"
+"preferred_label": "aloès"
 },
 {
 "id": "flora:Calamus",
@@ -317,11 +317,11 @@
 "preferred_label": "bois d'aloès"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "person:Nicodemus",
+"type": "person",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "se prosterner"
+"preferred_label": "Nicodème"
 },
 {
 "id": "person:Simon.4",
@@ -331,11 +331,11 @@
 "preferred_label": "Simon"
 },
 {
-"id": "person:Nicodemus",
-"type": "person",
+"id": "keyterm:BowDown",
+"type": "keyterm",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Nicodème"
+"preferred_label": "se prosterner"
 },
 {
 "id": "place:Bethany",
@@ -345,13 +345,6 @@
 "preferred_label": "Béthanie"
 },
 {
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "encens"
-},
-{
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.1733,
@@ -359,32 +352,18 @@
 "preferred_label": "denier"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "encens"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
 "preferred_label": "vin"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "commandement"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "groupe de disciples"
 },
 {
 "id": "keyterm:Sabbath",
@@ -401,11 +380,32 @@
 "preferred_label": "Pharisiens"
 },
 {
-"id": "person:Mary",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Marie"
+"preferred_label": "groupe de disciples"
+},
+{
+"id": "place:Ophir",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Ophir"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "offrande"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "commandement"
 },
 {
 "id": "person:Ahasuerus",
@@ -422,11 +422,11 @@
 "preferred_label": "Lazare"
 },
 {
-"id": "place:Ophir",
-"type": "place",
+"id": "person:Mary",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Ophir"
+"preferred_label": "Marie"
 },
 {
 "id": "realia:MyrrhedWine",
@@ -450,46 +450,11 @@
 "preferred_label": "safran"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "char"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "huile d'onction"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "cheval"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "lis"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "blé"
+"preferred_label": "lit"
 },
 {
 "id": "fauna:Lamb",
@@ -499,6 +464,20 @@
 "preferred_label": "agneau"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "blé"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "lis"
+},
+{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1067,
@@ -506,11 +485,32 @@
 "preferred_label": "sac"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "lit"
+"preferred_label": "huile d'onction"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "cheval"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "char"
 }
 ]
 }

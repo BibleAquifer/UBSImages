@@ -3,9 +3,9 @@
 "content_id": "288025",
 "reference_id": 1844,
 "version": "1.0.4",
-"title": "Masada",
+"title": "Masada: vista aérea",
 "media_type": "Image",
-"index_reference": "masada",
+"index_reference": "masada vista aérea",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0621_masada.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0621_masada.jpg'>link</a></p></block>",
@@ -152,18 +152,18 @@
 "preferred_label": "escudo pequeño"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Asiria"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "flecha"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Asiria"
 },
 {
 "id": "realia:Arrow",
@@ -187,6 +187,20 @@
 "preferred_label": "refugio"
 },
 {
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "designar"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -194,25 +208,11 @@
 "preferred_label": "buscar refugio"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "confiar"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Joab"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "designar"
+"preferred_label": "bondad"
 },
 {
 "id": "keyterm:Shield",
@@ -229,18 +229,11 @@
 "preferred_label": "Jerusalén"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Kindness",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "bondad"
+"preferred_label": "fuerza"
 },
 {
 "id": "person:Judah.4",
@@ -250,39 +243,25 @@
 "preferred_label": "Judá"
 },
 {
-"id": "person:Hophra",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Hofra"
+"preferred_label": "Israel"
 },
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Caldea"
-},
-{
-"id": "keyterm:Strength",
+"id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "fuerza"
+"preferred_label": "confiar"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Joab",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "tribu de Judá"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "caldeo"
+"preferred_label": "Joab"
 },
 {
 "id": "place:Abel-beth-maacah",
@@ -292,11 +271,39 @@
 "preferred_label": "Abel-bet-maaca"
 },
 {
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "caldeo"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Caldea"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Hofra"
+},
+{
 "id": "realia:Battering-ram",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "ariete"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "casa"
 },
 {
 "id": "realia:CastingNet",
@@ -318,13 +325,6 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "escudo grande"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "casa"
 }
 ]
 }

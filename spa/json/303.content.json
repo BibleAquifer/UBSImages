@@ -216,13 +216,6 @@
 "preferred_label": "tambor"
 },
 {
-"id": "person:Shemiramoth",
-"type": "person",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Semiramot"
-},
-{
 "id": "person:Jeiel.4",
 "type": "person",
 "confidence": 0.1906,
@@ -237,11 +230,11 @@
 "preferred_label": "Matatías"
 },
 {
-"id": "person:Jehiel",
+"id": "person:Shemiramoth",
 "type": "person",
 "confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Jehiel"
+"preferred_label": "Semiramot"
 },
 {
 "id": "person:Eliab.5",
@@ -251,39 +244,11 @@
 "preferred_label": "Eliab"
 },
 {
-"id": "person:Zechariah.2",
+"id": "person:Jehiel",
 "type": "person",
-"confidence": 0.1781,
+"confidence": 0.1906,
 "match_method": "canonical",
-"preferred_label": "Zacarías"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "person:Obed-edom",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Obed-edom"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "bondad"
+"preferred_label": "Jehiel"
 },
 {
 "id": "keyterm:Praise",
@@ -293,25 +258,25 @@
 "preferred_label": "alabanza"
 },
 {
-"id": "keyterm:CovenantBox",
+"id": "person:Nathan.2",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Natán"
+},
+{
+"id": "person:Obed-edom",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Obed-edom"
+},
+{
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "arca del pacto"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "pacto"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Un ángel"
+"preferred_label": "bondad"
 },
 {
 "id": "person:Benaiah.4",
@@ -321,11 +286,32 @@
 "preferred_label": "Benaías"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "amor"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "arca del pacto"
 },
 {
 "id": "person:Gad.2",
@@ -335,18 +321,25 @@
 "preferred_label": "Gad"
 },
 {
-"id": "person:Nathan.2",
+"id": "person:Zechariah.2",
 "type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Natán"
+"preferred_label": "Zacarías"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1306,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "ciprés"
+"preferred_label": "Un ángel"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "pacto"
 },
 {
 "id": "realia:Shaker",
@@ -356,11 +349,11 @@
 "preferred_label": "sonajero"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1181,
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "altar"
+"preferred_label": "ciprés"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -370,11 +363,46 @@
 "preferred_label": "Arca del Pacto"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "altar"
+},
+{
+"id": "flora:Juniper",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "enebro griego"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "altar de piedra"
+},
+{
 "id": "flora:JuniperTree",
 "type": "flora",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "enebro fenicio"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "altar del tabernáculo"
 },
 {
 "id": "realia:Linen",
@@ -391,39 +419,11 @@
 "preferred_label": "abeto"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "altar de piedra"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "altar del tabernáculo"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "cuerno de carnero"
-},
-{
-"id": "flora:Juniper",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "enebro griego"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "altar del templo"
 }
 ]
 }

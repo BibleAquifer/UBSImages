@@ -3,9 +3,9 @@
 "content_id": "283676",
 "reference_id": 2160,
 "version": "1.0.4",
-"title": "जीवित प्राणी मैनचेस्टर",
+"title": "चार जीवित प्राणी: मैनचेस्टर पांडुलिपि",
 "media_type": "Image",
-"index_reference": "जीवित प्राणी मैनचेस्टर",
+"index_reference": "चार जीवित प्राणी मैनचेस्टर पांडुलिपि",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg'>link</a></p></block>",
@@ -353,13 +353,6 @@
 "preferred_label": "एक स्वर्गदूत"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2783,
-"match_method": "canonical",
-"preferred_label": "मुहर"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2783,
@@ -367,11 +360,25 @@
 "preferred_label": "घर"
 },
 {
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2783,
+"match_method": "canonical",
+"preferred_label": "मुहर"
+},
+{
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.2277,
 "match_method": "canonical",
 "preferred_label": "तीसरा प्राणी"
+},
+{
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2277,
+"match_method": "canonical",
+"preferred_label": "दूसरा प्राणी"
 },
 {
 "id": "deity:FirstLivingCreature",
@@ -388,25 +395,11 @@
 "preferred_label": "चौथा प्राणी"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2277,
-"match_method": "canonical",
-"preferred_label": "दूसरा प्राणी"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "सचमुच!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "कबार"
+"preferred_label": "पवित्र"
 },
 {
 "id": "keyterm:Life",
@@ -416,11 +409,11 @@
 "preferred_label": "जीवन"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
+"preferred_label": "कबार"
 },
 {
 "id": "keyterm:Always",
@@ -430,46 +423,18 @@
 "preferred_label": "सदा"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "सचमुच!"
+},
+{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2187,
 "match_method": "canonical",
 "preferred_label": "सनी का कपड़ा"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "बुराई करना"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "आत्मा"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "प्रार्थना करना"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "एक अशरीरी आवाज़"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "भय"
 },
 {
 "id": "keyterm:Redeem",
@@ -479,11 +444,39 @@
 "preferred_label": "छुड़ाना"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1591,
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "सिंह"
+"preferred_label": "बुराई करना"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "प्रार्थना करना"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "आत्मा"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "भय"
+},
+{
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "एक अशरीरी आवाज़"
 },
 {
 "id": "fauna:Vulture",
@@ -493,11 +486,25 @@
 "preferred_label": "गिद्ध"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "सिंह"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
 "preferred_label": "कटोरा"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1038,
+"match_method": "canonical",
+"preferred_label": "दीनार"
 },
 {
 "id": "realia:Balance",
@@ -514,11 +521,18 @@
 "preferred_label": "क्वार्ट"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1038,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "दीनार"
+"preferred_label": "जौ"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
 },
 {
 "id": "realia:Incense",
@@ -528,18 +542,18 @@
 "preferred_label": "धूप"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "सारंगी"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "गाय-बैल"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "घोड़ा"
 },
 {
 "id": "realia:OliveOil",
@@ -549,18 +563,11 @@
 "preferred_label": "जैतून का तेल"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "जौ"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "सारंगी"
+"preferred_label": "घोड़ा"
 },
 {
 "id": "realia:Scroll",
@@ -568,13 +575,6 @@
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "चर्मपत्र का पुलिंदा"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "गेहूँ"
 },
 {
 "id": "realia:Wine",

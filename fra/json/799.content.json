@@ -3,9 +3,9 @@
 "content_id": "282931",
 "reference_id": 2348,
 "version": "1.0.4",
-"title": "Muret de pierres",
+"title": "Murets de pierre autour des champs",
 "media_type": "Image",
-"index_reference": "muret de pierres",
+"index_reference": "murets de pierre autour des champs",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg'>link</a></p></block>",
@@ -264,18 +264,18 @@
 "preferred_label": "vigne"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2874,
-"match_method": "canonical",
-"preferred_label": "maison"
-},
-{
 "id": "realia:ThornHedge",
 "type": "realia",
 "confidence": 0.2874,
 "match_method": "canonical",
 "preferred_label": "haie d'épines"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2874,
+"match_method": "canonical",
+"preferred_label": "maison"
 },
 {
 "id": "realia:Winepress",
@@ -292,18 +292,18 @@
 "preferred_label": "ronce"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "parabole"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "bénir"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "parabole"
 },
 {
 "id": "realia:Handbreadth",
@@ -327,11 +327,25 @@
 "preferred_label": "Judée"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "realia:Watch-tower",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "tour de garde"
 },
 {
 "id": "realia:StoneAltar",
@@ -348,81 +362,11 @@
 "preferred_label": "autel du tabernacle"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "autel du Temple"
-},
-{
-"id": "realia:Watch-tower",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "tour de garde"
-},
-{
-"id": "keyterm:Disobey",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "désobéir"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "fête fixée"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "faire la paix"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Perse"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Paul"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "corps"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "apaiser"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "décret"
+"preferred_label": "décider"
 },
 {
 "id": "keyterm:IntactState",
@@ -432,6 +376,20 @@
 "preferred_label": "paix"
 },
 {
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "fête fixée"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.1618,
@@ -439,11 +397,11 @@
 "preferred_label": "purifier"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "apaiser"
 },
 {
 "id": "keyterm:Kindness",
@@ -451,41 +409,6 @@
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "bonté"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "décider"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Un ange"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Baal"
-},
-{
-"id": "keyterm:Profane",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "profane"
 },
 {
 "id": "keyterm:Law",
@@ -502,11 +425,81 @@
 "preferred_label": "visitation"
 },
 {
-"id": "fauna:Boar",
-"type": "fauna",
-"confidence": 0.1071,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "sanglier"
+"preferred_label": "Jérusalem"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Perse"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "keyterm:Disobey",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "désobéir"
+},
+{
+"id": "keyterm:Profane",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "profane"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Paul"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "décret"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Baal"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "faire la paix"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Un ange"
 },
 {
 "id": "realia:Plaster",
@@ -516,32 +509,18 @@
 "preferred_label": "plâtre"
 },
 {
+"id": "fauna:Boar",
+"type": "fauna",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "sanglier"
+},
+{
 "id": "realia:Reed",
 "type": "realia",
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "canne"
-},
-{
-"id": "realia:HewnStone",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "pierre de taille"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "huile d'onction"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "roseau"
 },
 {
 "id": "flora:OliveTree",
@@ -551,39 +530,11 @@
 "preferred_label": "olivier"
 },
 {
-"id": "realia:MeasuringReed",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "roseau à mesurer"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "argent"
-},
-{
-"id": "realia:Span",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "empan"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Temple"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "huile d'olive"
+"preferred_label": "moût"
 },
 {
 "id": "fauna:Jackal",
@@ -593,39 +544,11 @@
 "preferred_label": "chacal"
 },
 {
-"id": "flora:Grain",
+"id": "flora:Reed",
 "type": "flora",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "grain"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "fauna:Pig",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "porc"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "serpent"
+"preferred_label": "roseau"
 },
 {
 "id": "flora:Nettle",
@@ -635,11 +558,60 @@
 "preferred_label": "ortie"
 },
 {
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "grain"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "argent"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Temple"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "santal"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
 "preferred_label": "cornes de l'autel"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "porc"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "huile d'olive"
+},
+{
+"id": "realia:HewnStone",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "pierre de taille"
 },
 {
 "id": "fauna:Locust",
@@ -649,11 +621,39 @@
 "preferred_label": "sauterelle"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "santal"
+"preferred_label": "huile d'onction"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "roseau à mesurer"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "serpent"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "mulet"
+},
+{
+"id": "realia:Span",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "empan"
 }
 ]
 }

@@ -144,18 +144,18 @@
 "preferred_label": "Mkuki"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.325,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.325,
 "match_method": "canonical",
 "preferred_label": "Kabila la Yuda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.325,
+"match_method": "canonical",
+"preferred_label": "Yuda"
 },
 {
 "id": "person:Benjamin",
@@ -165,13 +165,6 @@
 "preferred_label": "Benyamini"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Sulemani"
-},
-{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.25,
@@ -179,11 +172,25 @@
 "preferred_label": "Kabila la Benyamini"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Sulemani"
+},
+{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.2011,
 "match_method": "canonical",
 "preferred_label": "Mshale"
+},
+{
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Eliabu"
 },
 {
 "id": "keyterm:SeekfindRefuge",
@@ -207,39 +214,11 @@
 "preferred_label": "Obadia"
 },
 {
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Eliabu"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Amazia"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Daudi"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "BWANA"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Ufilisti"
+"preferred_label": "Wafilisti"
 },
 {
 "id": "place:Dan",
@@ -249,11 +228,39 @@
 "preferred_label": "Dani"
 },
 {
-"id": "person:Simeon.5",
+"id": "person:Amaziah",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Simeoni"
+"preferred_label": "Amazia"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Kuamini"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Kabila la Dani"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Daudi"
 },
 {
 "id": "keyterm:Arrow",
@@ -270,11 +277,18 @@
 "preferred_label": "Israeli"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Wafilisti"
+"preferred_label": "Ufilisti"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Simeoni"
 },
 {
 "id": "keyterm:Truth",
@@ -291,27 +305,6 @@
 "preferred_label": "Kabila la Simeoni"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Kabila la Dani"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Kuamini"
-},
-{
-"id": "realia:WeaversBeam",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "Mti wa Mfumaji"
-},
-{
 "id": "realia:PointOfSpear",
 "type": "realia",
 "confidence": 0.1261,
@@ -326,11 +319,11 @@
 "preferred_label": "Silaha"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:WeaversBeam",
 "type": "realia",
-"confidence": 0.115,
+"confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "Gari la kukokotwa"
+"preferred_label": "Mti wa Mfumaji"
 },
 {
 "id": "realia:Sword",
@@ -340,39 +333,11 @@
 "preferred_label": "Upanga"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "chusa"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Farasi"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Upinde"
-},
-{
-"id": "realia:SiegeRamp",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Boma la kuzingiria"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "chapeo"
+"preferred_label": "Shekeli"
 },
 {
 "id": "realia:WarClub",
@@ -382,18 +347,11 @@
 "preferred_label": "Rungu la vita"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Mnara"
-},
-{
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Shekeli"
+"preferred_label": "Upinde"
 },
 {
 "id": "realia:Siege-works",
@@ -403,11 +361,53 @@
 "preferred_label": "Mazingiro"
 },
 {
+"id": "realia:SiegeRamp",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Boma la kuzingiria"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Mnara"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Gari la Farasi"
+},
+{
+"id": "realia:Helmet",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "chapeo"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Gari la kukokotwa"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Farasi"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "chusa"
 }
 ]
 }

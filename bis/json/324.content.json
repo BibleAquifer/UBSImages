@@ -132,6 +132,13 @@
 "preferred_label": "HAE GOD"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3525,
+"match_method": "canonical",
+"preferred_label": "wit"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3525,
@@ -139,11 +146,18 @@
 "preferred_label": "buluk"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3525,
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "wit"
+"preferred_label": "Klinimaot"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "Presen"
 },
 {
 "id": "person:David",
@@ -160,20 +174,6 @@
 "preferred_label": "Aravnaha"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Presen"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Klinimaot"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2088,
@@ -188,13 +188,6 @@
 "preferred_label": "ples blong klinim wit"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.1963,
-"match_method": "canonical",
-"preferred_label": "kat"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.1963,
@@ -202,11 +195,11 @@
 "preferred_label": "Haos blong storem kakae"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1906,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "kat"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -216,18 +209,25 @@
 "preferred_label": "Krik blong Ijip"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "joen blong serem"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "Ofraha"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "joen blong serem"
 },
 {
 "id": "group:Abiezer",
@@ -251,39 +251,11 @@
 "preferred_label": "Abiesa"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "girap agens"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Damaskes"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Ol Tok blong Baebol"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Isrel"
 },
 {
 "id": "place:Euphrates",
@@ -293,11 +265,25 @@
 "preferred_label": "Yufretes Reva"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Ought",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Wan Enjel"
+"preferred_label": "mas mekem"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Damaskes"
 },
 {
 "id": "place:Gilead",
@@ -307,18 +293,18 @@
 "preferred_label": "Gilead"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Midian"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Loa"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Isrel"
 },
 {
 "id": "keyterm:Hope",
@@ -328,18 +314,25 @@
 "preferred_label": "hop"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "mas mekem"
+"preferred_label": "girap agens"
 },
 {
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1306,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Nutmeg flaoa"
+"preferred_label": "Wan Enjel"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Midian"
 },
 {
 "id": "flora:Cumin",
@@ -349,32 +342,11 @@
 "preferred_label": "kamin"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "ples blong mekem waen"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "stik"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:NutmegFlower",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "Oliftri"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "stik blong wokbaot"
+"preferred_label": "Nutmeg flaoa"
 },
 {
 "id": "flora:Barley",
@@ -384,6 +356,20 @@
 "preferred_label": "bale"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "efa"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "stik"
+},
+{
 "id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1181,
@@ -391,11 +377,25 @@
 "preferred_label": "terebint"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "efa"
+"preferred_label": "ples blong mekem waen"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "stik blong wokbaot"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Oliftri"
 }
 ]
 }

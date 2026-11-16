@@ -170,18 +170,11 @@
 "preferred_label": "Het"
 },
 {
-"id": "group:Jebusites",
+"id": "group:Hivites",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "Yebusiyawa"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "Isra’ila"
+"preferred_label": "Hiwiyawa"
 },
 {
 "id": "group:Canaan",
@@ -191,11 +184,11 @@
 "preferred_label": "Kan’aniyawa"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "Kan’ana"
+"preferred_label": "Isra’ila"
 },
 {
 "id": "group:Amorites",
@@ -205,18 +198,25 @@
 "preferred_label": "Amoriyawa"
 },
 {
-"id": "group:Hivites",
-"type": "group",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "Hiwiyawa"
-},
-{
 "id": "group:Hittite",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
 "preferred_label": "Hittiyawa"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "Kan’ana"
+},
+{
+"id": "group:Jebusites",
+"type": "group",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "Yebusiyawa"
 },
 {
 "id": "group:Perizzites",
@@ -233,13 +233,6 @@
 "preferred_label": "Ɗaukar alhaki"
 },
 {
-"id": "keyterm:LiftUp",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Yin Rantsuwa"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.245,
@@ -247,11 +240,11 @@
 "preferred_label": "Tursasa Bauta"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:LiftUp",
 "type": "keyterm",
-"confidence": 0.1725,
+"confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "Cikakke"
+"preferred_label": "Yin Rantsuwa"
 },
 {
 "id": "keyterm:Possess",
@@ -261,27 +254,6 @@
 "preferred_label": "Ba da mallaka"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Ƙwace mallaka"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Lalle kuwa!"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Rantsuwa"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -289,18 +261,11 @@
 "preferred_label": "Umarni"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Alkawari"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Albarkata"
+"preferred_label": "Ƙwace mallaka"
 },
 {
 "id": "keyterm:Stubborn",
@@ -310,11 +275,53 @@
 "preferred_label": "Mai taurinkai"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Albarkata"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Aiki"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Cikakke"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Rantsuwa"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Lalle kuwa!"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Alkawari"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Alkama"
 },
 {
 "id": "flora:Sorghum",
@@ -329,13 +336,6 @@
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Itacen inabi"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Alkama"
 }
 ]
 }

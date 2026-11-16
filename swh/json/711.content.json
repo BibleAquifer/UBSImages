@@ -254,6 +254,13 @@
 "preferred_label": "Nafaka"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Yohana"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2265,
@@ -261,11 +268,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2265,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1724,
 "match_method": "canonical",
-"preferred_label": "Yohana"
+"preferred_label": "Ngozi iliyotengenezwa"
 },
 {
 "id": "realia:Belt",
@@ -275,11 +282,11 @@
 "preferred_label": "Mkanda"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1724,
+"id": "place:Ashkenaz",
+"type": "place",
+"confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "Ngozi iliyotengenezwa"
+"preferred_label": "Ashkenazi"
 },
 {
 "id": "place:Minni",
@@ -296,25 +303,11 @@
 "preferred_label": "Aina"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "Ashkenazi"
-},
-{
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1665,
 "match_method": "canonical",
 "preferred_label": "Nyuki"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "Farasi"
 },
 {
 "id": "realia:Bag",
@@ -324,32 +317,18 @@
 "preferred_label": "Mfuko"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1665,
+"match_method": "canonical",
+"preferred_label": "Farasi"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Kuapa"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Kupotoa milki"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Uwezo"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Enzi"
 },
 {
 "id": "keyterm:Appoint",
@@ -359,46 +338,11 @@
 "preferred_label": "Kuteua"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Amaleki"
-},
-{
 "id": "place:East",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Mashariki"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Bahari ya Shamu"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Mamlaka"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ararati"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ole"
 },
 {
 "id": "group:Amalek",
@@ -408,11 +352,11 @@
 "preferred_label": "Waamaleki"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Utisho"
+"preferred_label": "Bahari ya Shamu"
 },
 {
 "id": "keyterm:Holy",
@@ -422,11 +366,39 @@
 "preferred_label": "-takatifu"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Kupotoa milki"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ararati"
+},
+{
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Midiani"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Uwezo"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ole"
 },
 {
 "id": "place:Cush.2",
@@ -436,39 +408,32 @@
 "preferred_label": "Kushi"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Mzeituni"
+"preferred_label": "Enzi"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1032,
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Mtama"
+"preferred_label": "Amaleki"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Mzabibu"
+"preferred_label": "Utisho"
 },
 {
-"id": "fauna:Scorpion",
-"type": "fauna",
-"confidence": 0.1032,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Nge"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "taji"
+"preferred_label": "Mamlaka"
 },
 {
 "id": "flora:Barley",
@@ -476,13 +441,6 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "Shayiri"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "Mavazi"
 },
 {
 "id": "flora:Fig",
@@ -499,32 +457,25 @@
 "preferred_label": "Matete"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Standard",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Baragumu ya pembe ya kondoo dume"
+"preferred_label": "Bendera"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "Ngano"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "Giligilani"
-},
-{
-"id": "realia:Tent",
+"id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Hema"
+"preferred_label": "taji"
+},
+{
+"id": "fauna:Scorpion",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Nge"
 },
 {
 "id": "flora:Grass",
@@ -534,6 +485,27 @@
 "preferred_label": "Majani"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Ngano"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Fimbo"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Hema"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1032,
@@ -541,11 +513,18 @@
 "preferred_label": "taji"
 },
 {
-"id": "realia:Standard",
-"type": "realia",
+"id": "flora:Coriander",
+"type": "flora",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Bendera"
+"preferred_label": "Giligilani"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Mtama"
 },
 {
 "id": "flora:Sandalwood",
@@ -555,11 +534,32 @@
 "preferred_label": "Msandali"
 },
 {
-"id": "realia:Rod",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Mzabibu"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Mzeituni"
+},
+{
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Fimbo"
+"preferred_label": "Mavazi"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Baragumu ya pembe ya kondoo dume"
 }
 ]
 }

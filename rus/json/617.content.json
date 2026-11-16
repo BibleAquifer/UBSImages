@@ -3,9 +3,9 @@
 "content_id": "287409",
 "reference_id": 2161,
 "version": "1.0.4",
-"title": "Живые существа Факундус",
+"title": "Четыре живых существа: Рукопись Факундуса",
 "media_type": "Image",
-"index_reference": "живые существа факундус",
+"index_reference": "четыре живых существа рукопись факундуса",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0602_living_creatures_facundus.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0602_living_creatures_facundus.jpg'>link</a></p></block>",
@@ -309,18 +309,18 @@
 "preferred_label": "Поклоняться"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "печать"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2829,
 "match_method": "canonical",
 "preferred_label": "дом"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "печать"
 },
 {
 "id": "deity:Angel",
@@ -337,6 +337,13 @@
 "preferred_label": "Третье животное"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "Второе животное"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.231,
@@ -351,13 +358,6 @@
 "preferred_label": "Четвертое животное"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "Второе животное"
-},
-{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2221,
@@ -365,18 +365,11 @@
 "preferred_label": "Лён"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Истинно!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Ховар"
+"preferred_label": "святой"
 },
 {
 "id": "person:Israel",
@@ -393,11 +386,11 @@
 "preferred_label": "Жизнь"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "святой"
+"preferred_label": "Ховар"
 },
 {
 "id": "keyterm:Always",
@@ -407,11 +400,11 @@
 "preferred_label": "вовеки"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1614,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Лев"
+"preferred_label": "Истинно!"
 },
 {
 "id": "fauna:Vulture",
@@ -421,11 +414,25 @@
 "preferred_label": "Гриф"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "Лев"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "блюдо"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Искупать"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -435,13 +442,6 @@
 "preferred_label": "Поступать нечестиво"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Дух"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1607,
@@ -449,11 +449,11 @@
 "preferred_label": "молиться"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Бестелесный голос"
+"preferred_label": "Дух"
 },
 {
 "id": "keyterm:Fear",
@@ -463,11 +463,18 @@
 "preferred_label": "Страх"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Искупать"
+"preferred_label": "Бестелесный голос"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Динарий"
 },
 {
 "id": "realia:Balance",
@@ -484,11 +491,18 @@
 "preferred_label": "Хиникс"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Динарий"
+"preferred_label": "Ячмень"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Пшеница"
 },
 {
 "id": "realia:Incense",
@@ -498,18 +512,18 @@
 "preferred_label": "Благовония"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Лира"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "Крупный рогатый скот"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Лошадь"
 },
 {
 "id": "realia:OliveOil",
@@ -519,18 +533,11 @@
 "preferred_label": "Оливковое масло"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Ячмень"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Лира"
+"preferred_label": "Лошадь"
 },
 {
 "id": "realia:Scroll",
@@ -538,13 +545,6 @@
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "Свиток"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Пшеница"
 },
 {
 "id": "realia:Wine",

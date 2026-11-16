@@ -81,13 +81,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.5355,
-"match_method": "canonical",
-"preferred_label": "Xe đập lúa"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.5355,
@@ -95,11 +88,25 @@
 "preferred_label": "Ngũ cốc"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.5355,
+"match_method": "canonical",
+"preferred_label": "Xe đập lúa"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "CHÚA"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Lễ vật"
 },
 {
 "id": "person:David",
@@ -116,18 +123,11 @@
 "preferred_label": "Ọt-nan"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Lễ vật"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
+"id": "flora:Wheat",
+"type": "flora",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "Xe kéo"
+"preferred_label": "Lúa mì"
 },
 {
 "id": "fauna:Bull",
@@ -137,18 +137,11 @@
 "preferred_label": "Bò"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
+"id": "realia:Wagon",
+"type": "realia",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "Lúa mì"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Ghi-đê-ôn"
+"preferred_label": "Xe kéo"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -163,6 +156,13 @@
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "Óp-ra"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Ghi-đê-ôn"
 },
 {
 "id": "group:Abiezer",
@@ -186,11 +186,11 @@
 "preferred_label": "A-bi-ê-xe"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "place:Euphrates",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Nổi loạn"
+"preferred_label": "Sông Ơ-phơ-rát"
 },
 {
 "id": "place:Damascus",
@@ -200,6 +200,13 @@
 "preferred_label": "Đa-mách"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Ga-la-át"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1909,
@@ -207,11 +214,11 @@
 "preferred_label": "Y-sơ-ra-ên"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Sông Ơ-phơ-rát"
+"preferred_label": "Nổi loạn"
 },
 {
 "id": "deity:Angel",
@@ -219,13 +226,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Một thiên sứ"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Ga-la-át"
 },
 {
 "id": "place:Midian",
@@ -249,11 +249,18 @@
 "preferred_label": "Thìa là đen"
 },
 {
-"id": "realia:Winepress",
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Lúa mạch"
+},
+{
+"id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Hầm ép nho"
+"preferred_label": "ê-pha"
 },
 {
 "id": "realia:Rod",
@@ -263,11 +270,18 @@
 "preferred_label": "Cây gậy"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Cây ô-liu"
+"preferred_label": "cây vương hương"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Hầm ép nho"
 },
 {
 "id": "realia:Staff",
@@ -277,25 +291,11 @@
 "preferred_label": "Gậy"
 },
 {
-"id": "flora:Barley",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Lúa mạch"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "cây vương hương"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "ê-pha"
+"preferred_label": "Cây ô-liu"
 }
 ]
 }

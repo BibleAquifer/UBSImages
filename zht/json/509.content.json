@@ -147,13 +147,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "犯罪"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.3114,
@@ -161,11 +154,18 @@
 "preferred_label": "傳染性皮膚病"
 },
 {
-"id": "place:Kabzeel",
-"type": "place",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "犯罪"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "甲薛"
+"preferred_label": "比拿雅"
 },
 {
 "id": "person:Jehoiada",
@@ -175,11 +175,11 @@
 "preferred_label": "耶何耶大"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
+"id": "place:Kabzeel",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "比拿雅"
+"preferred_label": "甲薛"
 },
 {
 "id": "deity:Lord",
@@ -224,11 +224,32 @@
 "preferred_label": "乃縵"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "熱情"
+"preferred_label": "愚昧（愚蠢）"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "堅定"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "赦免"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "黑門山"
 },
 {
 "id": "person:Aaron",
@@ -245,46 +266,11 @@
 "preferred_label": "地獄"
 },
 {
-"id": "person:Miriam",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "米利暗"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "榮耀（神的同在）"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "黎巴嫩"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "黑門山"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "赦免"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "堅定"
 },
 {
 "id": "keyterm:Fear",
@@ -294,11 +280,25 @@
 "preferred_label": "懼怕"
 },
 {
-"id": "keyterm:Stupid",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "愚昧（愚蠢）"
+"preferred_label": "熱情"
+},
+{
+"id": "person:Miriam",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "米利暗"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "黎巴嫩"
 },
 {
 "id": "flora:Soap",
@@ -306,13 +306,6 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "含生草"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "紫色布"
 },
 {
 "id": "flora:Barley",
@@ -334,6 +327,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "芫荽"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "紫色布"
 },
 {
 "id": "realia:Tent",

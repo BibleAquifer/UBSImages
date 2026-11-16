@@ -349,18 +349,18 @@
 "preferred_label": "hiena"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.3518,
-"match_method": "canonical",
-"preferred_label": "león"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
 "preferred_label": "oso"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.3518,
+"match_method": "canonical",
+"preferred_label": "león"
 },
 {
 "id": "fauna:Ostrich",
@@ -384,6 +384,41 @@
 "preferred_label": "rogar"
 },
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "paz"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Demonios"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
@@ -396,41 +431,6 @@
 "confidence": 0.2176,
 "match_method": "canonical",
 "preferred_label": "Jesús"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "paz"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Demonios"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "cielo"
 },
 {
 "id": "fauna:Dog",
@@ -447,46 +447,11 @@
 "preferred_label": "Hazor"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "dejar en herencia"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "jurar"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "José"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "maldad"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "seguridad"
 },
 {
 "id": "keyterm:Appoint",
@@ -496,11 +461,32 @@
 "preferred_label": "designar"
 },
 {
-"id": "person:GenericPerson",
-"type": "person",
+"id": "keyterm:Mischief",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Una persona"
+"preferred_label": "maldad"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "dejar en herencia"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Babilonia"
 },
 {
 "id": "keyterm:BringHonorAndGloryOnOneself",
@@ -510,18 +496,25 @@
 "preferred_label": "cubrirse de honra y gloria"
 },
 {
-"id": "person:Israel",
+"id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Una persona"
 },
 {
-"id": "group:Edom",
-"type": "group",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "edomitas"
+"preferred_label": "ofrenda"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "verdadero"
 },
 {
 "id": "person:Judah.4",
@@ -529,6 +522,13 @@
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Judá"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Israel"
 }
 ]
 }

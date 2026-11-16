@@ -3,9 +3,9 @@
 "content_id": "287076",
 "reference_id": 1828,
 "version": "1.0.4",
-"title": "Гумно",
+"title": "Животное тянет молотильную доску на гумне",
 "media_type": "Image",
-"index_reference": "гумно",
+"index_reference": "животное тянет молотильную доску на гумне",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg'>link</a></p></block>",
@@ -119,13 +119,6 @@
 "preferred_label": "Молотилка"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.36,
-"match_method": "canonical",
-"preferred_label": "Крупный рогатый скот"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.36,
@@ -133,11 +126,32 @@
 "preferred_label": "Пшеница"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.36,
+"match_method": "canonical",
+"preferred_label": "Крупный рогатый скот"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "вычищать"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Приношение"
 },
 {
 "id": "person:David",
@@ -154,20 +168,6 @@
 "preferred_label": "Орна"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Приношение"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "вычищать"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2133,
@@ -182,13 +182,6 @@
 "preferred_label": "Гумно"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Повозка"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.2,
@@ -196,11 +189,11 @@
 "preferred_label": "житница"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1933,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Гедеон"
+"preferred_label": "Повозка"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -210,18 +203,25 @@
 "preferred_label": "Поток Египетский"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "причащаться"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Офра"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Гедеон"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "причащаться"
 },
 {
 "id": "group:Abiezer",
@@ -245,6 +245,27 @@
 "preferred_label": "Авиезер"
 },
 {
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Писание"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Евфрат"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "должен"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.18,
@@ -252,11 +273,11 @@
 "preferred_label": "Моисей"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Писание"
+"preferred_label": "Закон"
 },
 {
 "id": "person:Israel",
@@ -266,11 +287,11 @@
 "preferred_label": "Израиль"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Евфрат"
+"preferred_label": "надежда"
 },
 {
 "id": "deity:Angel",
@@ -287,25 +308,11 @@
 "preferred_label": "Мадиам"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "flora:Cumin",
+"type": "flora",
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Закон"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "надежда"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "должен"
+"preferred_label": "Тмин"
 },
 {
 "id": "flora:NutmegFlower",
@@ -315,18 +322,18 @@
 "preferred_label": "Чернушка"
 },
 {
-"id": "flora:Cumin",
+"id": "flora:Barley",
 "type": "flora",
-"confidence": 0.1333,
+"confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Тмин"
+"preferred_label": "Ячмень"
 },
 {
-"id": "realia:Winepress",
+"id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Точило"
+"preferred_label": "Ефа"
 },
 {
 "id": "realia:Rod",
@@ -336,11 +343,18 @@
 "preferred_label": "Жезл"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Масличное дерево"
+"preferred_label": "Теревинф"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Точило"
 },
 {
 "id": "realia:Staff",
@@ -350,25 +364,11 @@
 "preferred_label": "Посох"
 },
 {
-"id": "flora:Barley",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Ячмень"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Теревинф"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Ефа"
+"preferred_label": "Масличное дерево"
 }
 ]
 }

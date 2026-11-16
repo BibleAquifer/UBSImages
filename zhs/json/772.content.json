@@ -216,11 +216,11 @@
 "preferred_label": "金牌"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:EmbroideredCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "紫色布"
+"preferred_label": "绣花布"
 },
 {
 "id": "realia:Linen",
@@ -230,11 +230,11 @@
 "preferred_label": "细麻布"
 },
 {
-"id": "realia:EmbroideredCloth",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "绣花布"
+"preferred_label": "紫色布"
 },
 {
 "id": "person:Ahisamach",
@@ -251,11 +251,46 @@
 "preferred_label": "亚何利亚伯"
 },
 {
-"id": "keyterm:Understanding",
+"id": "person:Hiram.2",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "户兰"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "但"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "但支派"
+},
+{
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "聪明"
+"preferred_label": "力量"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "犹大"
 },
 {
 "id": "keyterm:Ability",
@@ -272,11 +307,11 @@
 "preferred_label": "热忱"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "keyterm:Understanding",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "但"
+"preferred_label": "聪明"
 },
 {
 "id": "keyterm:Sin",
@@ -286,53 +321,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "犹大"
-},
-{
 "id": "person:Joshua.5",
 "type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "约书亚"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "力量"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "但支派"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "犹大支派"
-},
-{
-"id": "person:Hiram.2",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "户兰"
-},
-{
-"id": "flora:BottleGourd",
-"type": "flora",
-"confidence": 0.1183,
-"match_method": "canonical",
-"preferred_label": "葫芦"
 },
 {
 "id": "realia:Crown",
@@ -342,74 +335,18 @@
 "preferred_label": "王冠"
 },
 {
+"id": "flora:BottleGourd",
+"type": "flora",
+"confidence": 0.1183,
+"match_method": "canonical",
+"preferred_label": "葫芦"
+},
+{
 "id": "realia:Stylus",
 "type": "realia",
 "confidence": 0.1183,
 "match_method": "canonical",
 "preferred_label": "铁笔"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "门槛"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "狮子"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "阿勒颇松"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "橄榄树"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "祭坛"
-},
-{
-"id": "realia:Tablet",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "石版"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "石坛"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "香柏树"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "祭坛"
 },
 {
 "id": "realia:Cubit",
@@ -419,11 +356,18 @@
 "preferred_label": "肘"
 },
 {
-"id": "realia:Beam",
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "香柏树"
+},
+{
+"id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "梁"
+"preferred_label": "石版"
 },
 {
 "id": "realia:TempleAltar",
@@ -433,11 +377,67 @@
 "preferred_label": "圣殿祭坛"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "祭坛"
+},
+{
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "门槛"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "石坛"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "阿勒颇松"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "祭坛"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "坛角"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "狮子"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "梁"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "橄榄树"
 }
 ]
 }

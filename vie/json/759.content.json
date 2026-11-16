@@ -108,11 +108,11 @@
 "preferred_label": "A-ma-xia"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.275,
 "match_method": "canonical",
-"preferred_label": "Li-ban"
+"preferred_label": "Bộ tộc Giu-đa"
 },
 {
 "id": "person:Judah.4",
@@ -122,18 +122,18 @@
 "preferred_label": "Giu-đa"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Bộ tộc Giu-đa"
-},
-{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Giô-ách"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Li-ban"
 },
 {
 "id": "flora:Nettle",
@@ -150,46 +150,11 @@
 "preferred_label": "Cây bá hương"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Trọn vẹn"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "CHÚA"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Tước đoạt quyền sở hữu"
-},
-{
-"id": "person:Zalmunna",
+"id": "person:Zebah",
 "type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Xanh-mu-na"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Ghi-đê-ôn"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Ai Cập"
+"preferred_label": "Xê-bách"
 },
 {
 "id": "place:Memphis",
@@ -199,11 +164,53 @@
 "preferred_label": "Mem-phi"
 },
 {
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Khờ dại"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "CHÚA"
+},
+{
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Xanh-mu-na"
+},
+{
 "id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "châm ngôn"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Tước đoạt quyền sở hữu"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Ai Cập"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Ghi-đê-ôn"
 },
 {
 "id": "place:Succoth",
@@ -213,67 +220,18 @@
 "preferred_label": "Su-cốt"
 },
 {
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Trọn vẹn"
+},
+{
 "id": "person:Job",
 "type": "person",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "Gióp"
-},
-{
-"id": "person:Zebah",
-"type": "person",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Xê-bách"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "Khờ dại"
-},
-{
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Cỏ lùng"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "gai gốc"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Hầm"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Tiền bạc"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Hoa huệ"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "chó rừng"
 },
 {
 "id": "flora:Barley",
@@ -283,18 +241,32 @@
 "preferred_label": "Lúa mạch"
 },
 {
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Cú"
-},
-{
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "đà điểu"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "chó rừng"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Tiền bạc"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "gai gốc"
 },
 {
 "id": "flora:Wheat",
@@ -304,11 +276,39 @@
 "preferred_label": "Lúa mì"
 },
 {
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Hoa huệ"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "cây đàn hương"
+},
+{
+"id": "flora:Weed",
+"type": "flora",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Cỏ lùng"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Cú"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Hầm"
 }
 ]
 }

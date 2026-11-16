@@ -3,9 +3,9 @@
 "content_id": "295109",
 "reference_id": 2396,
 "version": "1.0.4",
-"title": "面纱",
+"title": "带面纱的服装",
 "media_type": "Image",
-"index_reference": "面纱",
+"index_reference": "带面纱的服装",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg'>link</a></p></block>",
@@ -209,6 +209,13 @@
 "preferred_label": "面纱"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "圣洁"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.23,
@@ -223,13 +230,6 @@
 "preferred_label": "黎巴嫩"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "圣洁"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1767,
@@ -237,11 +237,11 @@
 "preferred_label": "石榴"
 },
 {
-"id": "group:GenericChurch",
-"type": "group",
+"id": "place:Timnah",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "教会"
+"preferred_label": "亭拿"
 },
 {
 "id": "keyterm:Praise",
@@ -258,18 +258,11 @@
 "preferred_label": "伊拿印"
 },
 {
-"id": "place:HermonMount",
-"type": "place",
+"id": "group:GenericChurch",
+"type": "group",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "黑门山"
-},
-{
-"id": "place:Timnah",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "亭拿"
+"preferred_label": "教会"
 },
 {
 "id": "place:Amana",
@@ -279,18 +272,11 @@
 "preferred_label": "亚玛拿山"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.17,
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "手磨"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.17,
-"match_method": "canonical",
-"preferred_label": "葡萄树"
+"preferred_label": "黑门山"
 },
 {
 "id": "flora:BalsamTree",
@@ -300,6 +286,20 @@
 "preferred_label": "香脂树"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "葡萄树"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "手磨"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.17,
@@ -307,18 +307,39 @@
 "preferred_label": "酒"
 },
 {
-"id": "person:GenericServant",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "一位仆人"
-},
-{
-"id": "keyterm:Priesthood",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "祭司职分"
+"preferred_label": "救恩"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "圣灵"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "吩咐（发号施令）"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "天"
 },
 {
 "id": "person:GenericPerson",
@@ -335,6 +356,27 @@
 "preferred_label": "慈爱"
 },
 {
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "祭司职分"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "基列"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "犹大"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.165,
@@ -349,27 +391,6 @@
 "preferred_label": "生命"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "吩咐（发号施令）"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "救恩"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "犹大"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.165,
@@ -377,18 +398,11 @@
 "preferred_label": "一位天使"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:GenericServant",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "犹大支派"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "基列"
+"preferred_label": "一位仆人"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -396,20 +410,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "喜乐的缘由"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "天"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "圣灵"
 },
 {
 "id": "person:Shelah",
@@ -426,13 +426,6 @@
 "preferred_label": "外袍"
 },
 {
-"id": "realia:Bowl.2",
-"type": "realia",
-"confidence": 0.1117,
-"match_method": "canonical",
-"preferred_label": "碗"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.1117,
@@ -440,11 +433,11 @@
 "preferred_label": "头巾"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.105,
+"id": "realia:Bowl.2",
+"type": "realia",
+"confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "狮子"
+"preferred_label": "碗"
 },
 {
 "id": "fauna:Goat",
@@ -461,39 +454,11 @@
 "preferred_label": "外衣"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
-"id": "flora:Myrrh",
-"type": "flora",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "没药"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "长衣"
-},
-{
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "豹"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "橄榄油"
 },
 {
 "id": "realia:Thread",
@@ -503,25 +468,11 @@
 "preferred_label": "线"
 },
 {
-"id": "realia:Lamp",
-"type": "realia",
+"id": "flora:Myrrh",
+"type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "油灯"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "房屋"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "羊群"
+"preferred_label": "没药"
 },
 {
 "id": "fauna:Dove",
@@ -531,11 +482,60 @@
 "preferred_label": "鸽子"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "豹"
+},
+{
+"id": "realia:Lamp",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "油灯"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "耳环"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "橄榄油"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "狮子"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "膏油"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "羊群"
 }
 ]
 }

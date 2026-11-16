@@ -3,9 +3,9 @@
 "content_id": "293415",
 "reference_id": 1635,
 "version": "1.0.4",
-"title": "تين طازج",
+"title": "تين طازج مقطع",
 "media_type": "Image",
-"index_reference": "تين طازج",
+"index_reference": "تين طازج مقطع",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0218_fig_fresh.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0218_fig_fresh.jpg'>link</a></p></block>",
@@ -288,13 +288,6 @@
 "preferred_label": "الرب"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.3483,
-"match_method": "canonical",
-"preferred_label": "شجرة زيتون"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.3483,
@@ -302,11 +295,11 @@
 "preferred_label": "رمان"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3429,
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.3483,
 "match_method": "canonical",
-"preferred_label": "يهوذا"
+"preferred_label": "شجرة زيتون"
 },
 {
 "id": "group:Judah",
@@ -314,6 +307,13 @@
 "confidence": 0.3429,
 "match_method": "canonical",
 "preferred_label": "قبيلة يهوذا"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3429,
+"match_method": "canonical",
+"preferred_label": "يهوذا"
 },
 {
 "id": "place:Jerusalem",
@@ -337,27 +337,6 @@
 "preferred_label": "شعير"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "أشور"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "إسرائيل"
-},
-{
 "id": "person:Isaiah",
 "type": "person",
 "confidence": 0.2214,
@@ -370,6 +349,27 @@
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "حزقيا"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "إسرائيل"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "مصر"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "أشور"
 },
 {
 "id": "place:EshcolValley",
@@ -386,13 +386,6 @@
 "preferred_label": "ماعز"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "بقر"
-},
-{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1614,
@@ -400,32 +393,11 @@
 "preferred_label": "شوك"
 },
 {
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "حفرة"
-},
-{
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "عوسج"
-},
-{
 "id": "realia:FigCake",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "قرص تين"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "سنط"
 },
 {
 "id": "flora:Thistle",
@@ -442,11 +414,11 @@
 "preferred_label": "كزبرة"
 },
 {
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "قطيع"
+"preferred_label": "بقر"
 },
 {
 "id": "realia:Basket",
@@ -456,53 +428,32 @@
 "preferred_label": "قفة"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1607,
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "داود"
+"preferred_label": "سنط"
 },
 {
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.1607,
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "نبوخذنصر"
+"preferred_label": "حفرة"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1607,
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "يثق"
+"preferred_label": "عوسج"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1607,
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "خوف"
-},
-{
-"id": "keyterm:WithdrawOneself",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "ينعزل"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "يجيب الكرامة والمجد لنفسه"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "السبت"
+"preferred_label": "قطيع"
 },
 {
 "id": "person:Zedekiah.3",
@@ -512,25 +463,11 @@
 "preferred_label": "صدقيا"
 },
 {
-"id": "person:Jehoiakim",
-"type": "person",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "يهوياقيم"
-},
-{
-"id": "person:Jehoiachin",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "يهوياكين"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "أرض الكلدانيين"
+"preferred_label": "السبت"
 },
 {
 "id": "place:Babylon",
@@ -540,11 +477,39 @@
 "preferred_label": "بابل"
 },
 {
-"id": "keyterm:DetestedThing",
+"id": "person:Jehoiachin",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "يهوياكين"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "رجاسة"
+"preferred_label": "سما"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "يجيب الكرامة والمجد لنفسه"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "داود"
+},
+{
+"id": "person:Jeremiah.6",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "إرميا"
 },
 {
 "id": "keyterm:Love",
@@ -552,6 +517,27 @@
 "confidence": 0.1607,
 "match_method": "canonical",
 "preferred_label": "محبة"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "خوف"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "رجاسة"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "يثق"
 },
 {
 "id": "deity:Baal",
@@ -568,18 +554,32 @@
 "preferred_label": "الكلدانيين"
 },
 {
-"id": "person:Jeremiah.6",
+"id": "person:Jehoiakim",
 "type": "person",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "إرميا"
+"preferred_label": "يهوياقيم"
 },
 {
-"id": "keyterm:Heaven",
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "نبوخذنصر"
+},
+{
+"id": "keyterm:WithdrawOneself",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "سما"
+"preferred_label": "ينعزل"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "أرض الكلدانيين"
 },
 {
 "id": "realia:Craftsman",
@@ -589,20 +589,6 @@
 "preferred_label": "صنايعي"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "معصرة عنب"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "زيت المسحة"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1007,
@@ -610,18 +596,11 @@
 "preferred_label": "زريبة"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
+"id": "flora:DatePalm",
+"type": "flora",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "زيت زيتون"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "زريبة غنم"
+"preferred_label": "نخلة"
 },
 {
 "id": "realia:Image",
@@ -638,18 +617,11 @@
 "preferred_label": "حبوب"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "بغل"
-},
-{
-"id": "flora:DatePalm",
+"id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "نخلة"
+"preferred_label": "قش"
 },
 {
 "id": "realia:Scroll",
@@ -666,6 +638,13 @@
 "preferred_label": "قمح"
 },
 {
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "خمرة"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1007,
@@ -673,18 +652,18 @@
 "preferred_label": "بيت"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
+"id": "realia:Winepress",
+"type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "قش"
+"preferred_label": "معصرة عنب"
 },
 {
-"id": "fauna:Donkey",
-"type": "fauna",
+"id": "realia:OliveOil",
+"type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "حمار"
+"preferred_label": "زيت زيتون"
 },
 {
 "id": "fauna:Locust",
@@ -694,11 +673,32 @@
 "preferred_label": "جراد"
 },
 {
-"id": "realia:Wine",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "خمرة"
+"preferred_label": "زيت المسحة"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "حمار"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "بغل"
+},
+{
+"id": "realia:Sheepfold",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "زريبة غنم"
 }
 ]
 }

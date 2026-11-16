@@ -147,13 +147,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "berbuat dosa"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.3114,
@@ -161,11 +154,18 @@
 "preferred_label": "penyakit kulit menular"
 },
 {
-"id": "place:Kabzeel",
-"type": "place",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "berbuat dosa"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Kabzeel"
+"preferred_label": "Benaya"
 },
 {
 "id": "person:Jehoiada",
@@ -175,11 +175,11 @@
 "preferred_label": "Yoyada"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
+"id": "place:Kabzeel",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Benaya"
+"preferred_label": "Kabzeel"
 },
 {
 "id": "deity:Lord",
@@ -224,11 +224,32 @@
 "preferred_label": "Naaman"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "kecemburuan"
+"preferred_label": "bodoh"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "teguh"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "mengampuni"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Gunung Hermon"
 },
 {
 "id": "person:Aaron",
@@ -245,46 +266,11 @@
 "preferred_label": "Neraka"
 },
 {
-"id": "person:Miriam",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Miryam"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "kemuliaan"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Libanon"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Gunung Hermon"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "mengampuni"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "teguh"
 },
 {
 "id": "keyterm:Fear",
@@ -294,11 +280,25 @@
 "preferred_label": "takut"
 },
 {
-"id": "keyterm:Stupid",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "bodoh"
+"preferred_label": "kecemburuan"
+},
+{
+"id": "person:Miriam",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Miryam"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Libanon"
 },
 {
 "id": "flora:Soap",
@@ -306,13 +306,6 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "hamada"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "kain ungu"
 },
 {
 "id": "flora:Barley",
@@ -334,6 +327,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "ketumbar"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "kain ungu"
 },
 {
 "id": "realia:Tent",

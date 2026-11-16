@@ -1118,18 +1118,18 @@
 "preferred_label": "колено Иудино"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3702,
-"match_method": "canonical",
-"preferred_label": "Филистимская земля"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3702,
 "match_method": "canonical",
 "preferred_label": "Филистимляне"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3702,
+"match_method": "canonical",
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "place:Moab",
@@ -1139,18 +1139,11 @@
 "preferred_label": "Моав"
 },
 {
-"id": "group:Syria",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Сирийцы"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
+"preferred_label": "Иудеи"
 },
 {
 "id": "place:Samaria",
@@ -1160,11 +1153,18 @@
 "preferred_label": "Самария"
 },
 {
-"id": "group:Jews",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
+},
+{
+"id": "group:Syria",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Иудеи"
+"preferred_label": "Сирийцы"
 },
 {
 "id": "fauna:Bull",
@@ -1181,13 +1181,6 @@
 "preferred_label": "дом"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3128,
-"match_method": "canonical",
-"preferred_label": "Коза"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3128,
@@ -1195,25 +1188,11 @@
 "preferred_label": "Стадо"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3101,
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3128,
 "match_method": "canonical",
-"preferred_label": "ревность"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Аммонитяне"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Египет"
+"preferred_label": "Коза"
 },
 {
 "id": "place:Chaldea",
@@ -1230,6 +1209,27 @@
 "preferred_label": "Аммон"
 },
 {
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "ревность"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Аммонитяне"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.3052,
@@ -1244,39 +1244,25 @@
 "preferred_label": "Иерихон"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Едом"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Халдеи"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Слово Господне"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Амасия"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "Саул"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Грешить"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Едом"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1291,6 +1277,20 @@
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "Дамаск"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Халдеи"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Амасия"
 }
 ]
 }

@@ -154,6 +154,13 @@
 "preferred_label": "Pablo"
 },
 {
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "fariseos"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3114,
@@ -161,11 +168,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.3114,
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2409,
 "match_method": "canonical",
-"preferred_label": "fariseos"
+"preferred_label": "nombre"
 },
 {
 "id": "group:Jews",
@@ -182,32 +189,11 @@
 "preferred_label": "dar testimonio"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "nombre"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
 "preferred_label": "sinagoga"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "caso judicial"
-},
-{
-"id": "keyterm:Gehenna",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Gehena"
 },
 {
 "id": "person:Gamaliel",
@@ -217,53 +203,25 @@
 "preferred_label": "Gamaliel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1705,
+"id": "keyterm:Gehenna",
+"type": "keyterm",
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Jehová"
+"preferred_label": "Gehena"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "caso judicial"
+},
+{
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "bueno"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Pilato"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "resurrección"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "infierno"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "rogar"
+"preferred_label": "juicio"
 },
 {
 "id": "keyterm:Decision",
@@ -280,25 +238,11 @@
 "preferred_label": "decidir"
 },
 {
-"id": "keyterm:UnrighteousAct",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "acto de injusticia"
-},
-{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "conciencia"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Un ángel"
 },
 {
 "id": "keyterm:Example",
@@ -308,18 +252,11 @@
 "preferred_label": "símbolo"
 },
 {
-"id": "group:Sadducee",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "saduceos"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "andar"
+"preferred_label": "Jehová"
 },
 {
 "id": "keyterm:SomethingDefinite",
@@ -329,6 +266,41 @@
 "preferred_label": "algo seguro"
 },
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "andar"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "rogar"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "infierno"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Pilato"
+},
+{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -336,18 +308,39 @@
 "preferred_label": "esperanza"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "juicio"
+"preferred_label": "resurrección"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1105,
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Templo"
+"preferred_label": "bueno"
+},
+{
+"id": "keyterm:UnrighteousAct",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "acto de injusticia"
+},
+{
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "saduceos"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
 },
 {
 "id": "realia:Prison",
@@ -355,6 +348,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "prisión"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Templo"
 }
 ]
 }

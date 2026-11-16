@@ -3,9 +3,9 @@
 "content_id": "283441",
 "reference_id": 1925,
 "version": "1.0.4",
-"title": "गोफ़न",
+"title": "गोफन",
 "media_type": "Image",
-"index_reference": "गोफ़न",
+"index_reference": "गोफन",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0380_slings_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0380_slings_en.jpg'>link</a></p></block>",
@@ -88,6 +88,13 @@
 "preferred_label": "गोफन"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "पलिश्ती"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
@@ -100,13 +107,6 @@
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "पलिश्त"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "पलिश्ती"
 },
 {
 "id": "person:David",
@@ -123,13 +123,6 @@
 "preferred_label": "उज्जियाह"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "तेज"
-},
-{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -144,18 +137,18 @@
 "preferred_label": "कीर"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "तेज"
+},
+{
 "id": "realia:Pouch",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "थैली"
-},
-{
-"id": "flora:Rush",
-"type": "flora",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "नरकट"
 },
 {
 "id": "realia:Breastplate",
@@ -165,18 +158,11 @@
 "preferred_label": "झिलम"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1309,
+"id": "flora:Rush",
+"type": "flora",
+"confidence": 0.1491,
 "match_method": "canonical",
-"preferred_label": "बकरी"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "भाला"
+"preferred_label": "नरकट"
 },
 {
 "id": "realia:Sword",
@@ -186,46 +172,11 @@
 "preferred_label": "तलवार"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "वेदी"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "धनुष"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "टोप"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "छोटी ढाल"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "लाठी"
+"preferred_label": "बकरी"
 },
 {
 "id": "realia:CookingPot",
@@ -235,11 +186,53 @@
 "preferred_label": "पकाने की हाँडी"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "धनुष"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "मन्दिर की वेदी"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "वेदी"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "भाला"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "भेड़"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "पत्थर की वेदी"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "छड़ी"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -256,25 +249,25 @@
 "preferred_label": "थैली"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "दाखलता"
+},
+{
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "मन्दिर की वेदी"
+"preferred_label": "लाठी"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "realia:SmallShield",
+"type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "भेड़"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "झुंड"
+"preferred_label": "छोटी ढाल"
 },
 {
 "id": "realia:Wine",
@@ -284,11 +277,18 @@
 "preferred_label": "दाखमधु"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "छड़ी"
+"preferred_label": "टोप"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "झुंड"
 }
 ]
 }

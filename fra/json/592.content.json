@@ -3,9 +3,9 @@
 "content_id": "282717",
 "reference_id": 2134,
 "version": "1.0.4",
-"title": "Lait et Miel",
+"title": "Miel versé dans du lait",
 "media_type": "Image",
-"index_reference": "lait et miel",
+"index_reference": "miel versé dans du lait",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0630_milk_and_honey.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0630_milk_and_honey.jpg'>link</a></p></block>",
@@ -170,18 +170,11 @@
 "preferred_label": "Heth"
 },
 {
-"id": "group:Jebusites",
+"id": "group:Hivites",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "Jébusiens"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Héviens"
 },
 {
 "id": "group:Canaan",
@@ -191,11 +184,11 @@
 "preferred_label": "Cananéens"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "Canaan"
+"preferred_label": "Israël"
 },
 {
 "id": "group:Amorites",
@@ -205,18 +198,25 @@
 "preferred_label": "Amoréens"
 },
 {
-"id": "group:Hivites",
-"type": "group",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "Héviens"
-},
-{
 "id": "group:Hittite",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
 "preferred_label": "Héthiens"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "Canaan"
+},
+{
+"id": "group:Jebusites",
+"type": "group",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "Jébusiens"
 },
 {
 "id": "group:Perizzites",
@@ -233,13 +233,6 @@
 "preferred_label": "porter la responsabilité de"
 },
 {
-"id": "keyterm:LiftUp",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "prêter serment"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.245,
@@ -247,11 +240,11 @@
 "preferred_label": "être attiré à servir"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:LiftUp",
 "type": "keyterm",
-"confidence": 0.1725,
+"confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "intègre"
+"preferred_label": "prêter serment"
 },
 {
 "id": "keyterm:Possess",
@@ -261,27 +254,6 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "déposséder"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "certainement !"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "serment"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -289,18 +261,11 @@
 "preferred_label": "instruction"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "alliance"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "bénir"
+"preferred_label": "déposséder"
 },
 {
 "id": "keyterm:Stubborn",
@@ -310,11 +275,53 @@
 "preferred_label": "obstiné"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "bénir"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "travail"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "intègre"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "serment"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "certainement !"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "alliance"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "blé"
 },
 {
 "id": "flora:Sorghum",
@@ -329,13 +336,6 @@
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "vigne"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "blé"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "291899",
 "reference_id": 1985,
 "version": "1.0.4",
-"title": "Ren ais long graon",
+"title": "Ren aes long graon",
 "media_type": "Image",
-"index_reference": "ren ais long graon",
+"index_reference": "ren aes long graon",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0281_hail_on_ground.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0281_hail_on_ground.jpg'>link</a></p></block>",
@@ -224,18 +224,18 @@
 "preferred_label": "buluk"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "Isrel"
-},
-{
 "id": "person:Pharaoh.6",
 "type": "person",
 "confidence": 0.231,
 "match_method": "canonical",
 "preferred_label": "Fero"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "Isrel"
 },
 {
 "id": "keyterm:Arrow",
@@ -252,18 +252,11 @@
 "preferred_label": "Betoron Daon"
 },
 {
-"id": "keyterm:Majesty",
-"type": "keyterm",
+"id": "place:Goshen",
+"type": "place",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Haenem"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "Mekem Sin"
+"preferred_label": "Gosen"
 },
 {
 "id": "place:Azekah",
@@ -280,11 +273,18 @@
 "preferred_label": "Ples blong haed"
 },
 {
-"id": "place:Goshen",
-"type": "place",
+"id": "keyterm:Majesty",
+"type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Gosen"
+"preferred_label": "Haenem"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Mekem Sin"
 },
 {
 "id": "realia:Plaster",
@@ -294,32 +294,11 @@
 "preferred_label": "Plasta"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "rop blong grep"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "longfala rula blong makem graon"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "fig"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "sikamo"
 },
 {
 "id": "flora:Grain",
@@ -329,11 +308,11 @@
 "preferred_label": "kakae"
 },
 {
-"id": "realia:PlumbLine",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "ledlaen"
+"preferred_label": "stik"
 },
 {
 "id": "realia:House",
@@ -343,6 +322,20 @@
 "preferred_label": "haos"
 },
 {
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "sikamo"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "rop blong grep"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1055,
@@ -350,11 +343,18 @@
 "preferred_label": "lokis"
 },
 {
-"id": "realia:Rod",
+"id": "realia:PlumbLine",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "stik"
+"preferred_label": "ledlaen"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "longfala rula blong makem graon"
 }
 ]
 }

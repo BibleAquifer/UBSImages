@@ -3,9 +3,9 @@
 "content_id": "280635",
 "reference_id": 1918,
 "version": "1.0.4",
-"title": "Plang bilong tromoi draipela samting",
+"title": "Plang bilong paitim wit",
 "media_type": "Image",
-"index_reference": "plang bilong tromoi draipela samting",
+"index_reference": "plang bilong paitim wit",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0324_threshing_board.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0324_threshing_board.jpg'>link</a></p></block>",
@@ -81,13 +81,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.5355,
-"match_method": "canonical",
-"preferred_label": "hevi plang bilong brukim wit"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.5355,
@@ -95,11 +88,25 @@
 "preferred_label": "wit na rais samting"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.5355,
+"match_method": "canonical",
+"preferred_label": "hevi plang bilong brukim wit"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "Bikpela"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Ofa"
 },
 {
 "id": "person:David",
@@ -116,18 +123,11 @@
 "preferred_label": "Arauna"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Ofa"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
+"id": "flora:Wheat",
+"type": "flora",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "karis"
+"preferred_label": "wit"
 },
 {
 "id": "fauna:Bull",
@@ -137,18 +137,11 @@
 "preferred_label": "bulmakau"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
+"id": "realia:Wagon",
+"type": "realia",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "wit"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "karis"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -163,6 +156,13 @@
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "Ofra"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Gideon"
 },
 {
 "id": "group:Abiezer",
@@ -186,11 +186,11 @@
 "preferred_label": "Abieser"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "place:Euphrates",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Bikhet"
+"preferred_label": "Wara Yufretis"
 },
 {
 "id": "place:Damascus",
@@ -200,6 +200,13 @@
 "preferred_label": "Damaskus"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Gileat"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1909,
@@ -207,11 +214,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Wara Yufretis"
+"preferred_label": "Bikhet"
 },
 {
 "id": "deity:Angel",
@@ -219,13 +226,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Wanpela Ensel"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Gileat"
 },
 {
 "id": "place:Midian",
@@ -249,11 +249,18 @@
 "preferred_label": "Natmek plaua"
 },
 {
-"id": "realia:Winepress",
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Bali"
+},
+{
+"id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Tang bilong krungutim pikinini wain"
+"preferred_label": "efa"
 },
 {
 "id": "realia:Rod",
@@ -263,11 +270,18 @@
 "preferred_label": "stik bilong king"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Diwai oliv"
+"preferred_label": "diwai terebin"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Tang bilong krungutim pikinini wain"
 },
 {
 "id": "realia:Staff",
@@ -277,25 +291,11 @@
 "preferred_label": "stik"
 },
 {
-"id": "flora:Barley",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Bali"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "diwai terebin"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "efa"
+"preferred_label": "Diwai oliv"
 }
 ]
 }

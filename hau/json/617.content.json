@@ -3,9 +3,9 @@
 "content_id": "290206",
 "reference_id": 2159,
 "version": "1.0.4",
-"title": "Halittu Lorvão",
+"title": "Rai Masu Rai Hudu: Rubutun Lorvão",
 "media_type": "Image",
-"index_reference": "halittu lorvão",
+"index_reference": "rai masu rai hudu rubutun lorvão",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg'>link</a></p></block>",
@@ -159,6 +159,13 @@
 "preferred_label": "Halitta Mai Rai Na Uku"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "Halitta Mai Rai ta Biyu"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
@@ -173,18 +180,11 @@
 "preferred_label": "Halitta Mai Rai ta Huɗu"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "Halitta Mai Rai ta Biyu"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "Lalle kuwa!"
+"preferred_label": "Mai Tsarki"
 },
 {
 "id": "keyterm:Life",
@@ -194,18 +194,18 @@
 "preferred_label": "Rai"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Mai Tsarki"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Har abada"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Lalle kuwa!"
 },
 {
 "id": "realia:Bowl.2",
@@ -215,25 +215,18 @@
 "preferred_label": "kwano"
 },
 {
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Fansa"
+},
+{
 "id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Yin mugunta"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Ɗaukaka"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Ruhu"
 },
 {
 "id": "keyterm:Pray",
@@ -243,6 +236,20 @@
 "preferred_label": "Yin addu’a"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Ruhu"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Ɗaukaka"
+},
+{
 "id": "deity:Voice",
 "type": "deity",
 "confidence": 0.1765,
@@ -250,11 +257,11 @@
 "preferred_label": "Muryar da Ba a Ga Mai Ita Ba"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Fansa"
+"preferred_label": "Dinari"
 },
 {
 "id": "realia:Balance",
@@ -271,48 +278,6 @@
 "preferred_label": "Kwata"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "Dinari"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Zaki"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Turare"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Shanu"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Doki"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Man zaitun"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1165,
@@ -320,18 +285,11 @@
 "preferred_label": "Sha’ir"
 },
 {
-"id": "realia:Lyre",
-"type": "realia",
+"id": "fauna:Vulture",
+"type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Molo"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Littafi mai naɗewa"
+"preferred_label": "Ungulu"
 },
 {
 "id": "flora:Wheat",
@@ -341,11 +299,53 @@
 "preferred_label": "Alkama"
 },
 {
-"id": "fauna:Vulture",
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Turare"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Molo"
+},
+{
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Ungulu"
+"preferred_label": "Shanu"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Man zaitun"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Zaki"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Doki"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Littafi mai naɗewa"
 },
 {
 "id": "realia:Wine",

@@ -132,6 +132,13 @@
 "preferred_label": "LORD"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3525,
+"match_method": "canonical",
+"preferred_label": "Wheat"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3525,
@@ -139,11 +146,18 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3525,
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Clean Out"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "Offering"
 },
 {
 "id": "person:David",
@@ -160,20 +174,6 @@
 "preferred_label": "Ornan"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Clean Out"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2088,
@@ -188,13 +188,6 @@
 "preferred_label": "Threshing Floor"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.1963,
-"match_method": "canonical",
-"preferred_label": "Wagon"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.1963,
@@ -202,11 +195,11 @@
 "preferred_label": "Barn"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1906,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "Wagon"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -216,18 +209,25 @@
 "preferred_label": "Brook of Egypt"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Partake"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "Ophrah"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Partake"
 },
 {
 "id": "group:Abiezer",
@@ -251,39 +251,11 @@
 "preferred_label": "Abiezer"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Rebel"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Damascus"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Written"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Israel"
 },
 {
 "id": "place:Euphrates",
@@ -293,11 +265,25 @@
 "preferred_label": "Euphrates River"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Ought",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Obligated"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Damascus"
 },
 {
 "id": "place:Gilead",
@@ -307,18 +293,18 @@
 "preferred_label": "Gilead"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Midian"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Law"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Hope",
@@ -328,18 +314,25 @@
 "preferred_label": "Hope"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Obligated"
+"preferred_label": "Rebel"
 },
 {
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1306,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Nutmeg Flower"
+"preferred_label": "An Angel"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Midian"
 },
 {
 "id": "flora:Cumin",
@@ -349,32 +342,11 @@
 "preferred_label": "Cumin"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Winepress"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Rod"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:NutmegFlower",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Staff"
+"preferred_label": "Nutmeg Flower"
 },
 {
 "id": "flora:Barley",
@@ -384,6 +356,20 @@
 "preferred_label": "Barley"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Ephah"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Rod"
+},
+{
 "id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1181,
@@ -391,11 +377,25 @@
 "preferred_label": "Terebinth"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "Winepress"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Staff"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
 }
 ]
 }

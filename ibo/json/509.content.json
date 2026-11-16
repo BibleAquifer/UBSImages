@@ -3,9 +3,9 @@
 "content_id": "291010",
 "reference_id": 2029,
 "version": "1.0.4",
-"title": "Snoo",
+"title": "Snow",
 "media_type": "Image",
-"index_reference": "snoo",
+"index_reference": "snow",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0650_snow.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0650_snow.jpg'>link</a></p></block>",
@@ -147,13 +147,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "Imehie"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.3114,
@@ -161,11 +154,18 @@
 "preferred_label": "Ọrịa akpụkpọ anụ ahụ na-efe efe"
 },
 {
-"id": "place:Kabzeel",
-"type": "place",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "Imehie"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Kabzeel"
+"preferred_label": "Benaya"
 },
 {
 "id": "person:Jehoiada",
@@ -175,11 +175,11 @@
 "preferred_label": "Jehoiada"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
+"id": "place:Kabzeel",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Benaya"
+"preferred_label": "Kabzeel"
 },
 {
 "id": "deity:Lord",
@@ -224,11 +224,32 @@
 "preferred_label": "Neeman"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Ịnụ ọkụ nʼobi"
+"preferred_label": "Enweghị uche"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Ịgidesi ike"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Gbaghara"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Ugwu Hemon"
 },
 {
 "id": "person:Aaron",
@@ -245,46 +266,11 @@
 "preferred_label": "Ọkụ ala mụọ"
 },
 {
-"id": "person:Miriam",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Miriam"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Ebube"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Lebanọn"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Ugwu Hemon"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Gbaghara"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Ịgidesi ike"
 },
 {
 "id": "keyterm:Fear",
@@ -294,11 +280,25 @@
 "preferred_label": "Egwu"
 },
 {
-"id": "keyterm:Stupid",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Enweghị uche"
+"preferred_label": "Ịnụ ọkụ nʼobi"
+},
+{
+"id": "person:Miriam",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Miriam"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Lebanọn"
 },
 {
 "id": "flora:Soap",
@@ -306,13 +306,6 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "hamada"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "Akwa odo odo"
 },
 {
 "id": "flora:Barley",
@@ -334,6 +327,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "kọrianda"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Akwa odo odo"
 },
 {
 "id": "realia:Tent",

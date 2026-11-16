@@ -3,9 +3,9 @@
 "content_id": "294478",
 "reference_id": 1765,
 "version": "1.0.4",
-"title": "军旗",
+"title": "旗帜",
 "media_type": "Image",
-"index_reference": "军旗",
+"index_reference": "旗帜",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0394_standards.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0394_standards.jpg'>link</a></p></block>",
@@ -258,6 +258,20 @@
 "preferred_label": "以色列"
 },
 {
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "但"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2865,
@@ -265,11 +279,11 @@
 "preferred_label": "摩西"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "group:Dan",
+"type": "group",
 "confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "但"
+"preferred_label": "但支派"
 },
 {
 "id": "place:Jerusalem",
@@ -286,20 +300,6 @@
 "preferred_label": "犹大"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "但支派"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "犹大支派"
-},
-{
 "id": "person:Elizur",
 "type": "person",
 "confidence": 0.2351,
@@ -307,18 +307,18 @@
 "preferred_label": "以利苏"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2351,
-"match_method": "canonical",
-"preferred_label": "亚希以谢"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2351,
 "match_method": "canonical",
 "preferred_label": "亚米忽"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2351,
+"match_method": "canonical",
+"preferred_label": "亚希以谢"
 },
 {
 "id": "person:Shedeur",
@@ -342,11 +342,11 @@
 "preferred_label": "羊角号"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "亚米沙代"
+"preferred_label": "以法莲支派"
 },
 {
 "id": "person:Ephraim",
@@ -356,18 +356,18 @@
 "preferred_label": "以法莲"
 },
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "外邦人"
+},
+{
 "id": "group:Reuben",
 "type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "吕便支派"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "拿顺"
 },
 {
 "id": "place:Babylon",
@@ -384,11 +384,18 @@
 "preferred_label": "亚米拿达"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Nahshon",
+"type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "以法莲支派"
+"preferred_label": "拿顺"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "亚米沙代"
 },
 {
 "id": "person:Reuben",
@@ -396,20 +403,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "吕便"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "外邦人"
-},
-{
-"id": "place:Minni",
-"type": "place",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "米尼"
 },
 {
 "id": "deity:Merodach",
@@ -433,6 +426,13 @@
 "preferred_label": "彼勒"
 },
 {
+"id": "place:Minni",
+"type": "place",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "米尼"
+},
+{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1643,
@@ -447,81 +447,11 @@
 "preferred_label": "委派"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "荣耀"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "受膏"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "利未支派"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "救恩"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "亚拉腊"
-},
-{
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "示剑"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "爱"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "疏割"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "圣洁"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "利未"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "耶西"
 },
 {
 "id": "place:Tirzah",
@@ -531,6 +461,41 @@
 "preferred_label": "得撒"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "圣洁"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "亚拉腊"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "利未支派"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "爱"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "荣耀"
+},
+{
 "id": "person:Korah.3",
 "type": "person",
 "confidence": 0.1622,
@@ -538,25 +503,39 @@
 "preferred_label": "可拉"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1022,
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "葡萄树"
+"preferred_label": "示剑"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "马"
+"preferred_label": "疏割"
 },
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "毒蛇"
+"preferred_label": "受膏"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "耶西"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "利未"
 },
 {
 "id": "realia:Image",
@@ -564,6 +543,13 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "像"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "毒蛇"
 },
 {
 "id": "fauna:Snake",
@@ -580,11 +566,25 @@
 "preferred_label": "房屋"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "葡萄树"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "蝗虫"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "马"
 },
 {
 "id": "realia:Wine",

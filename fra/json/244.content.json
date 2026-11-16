@@ -323,20 +323,6 @@
 "preferred_label": "maison"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Moïse"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Nebucadnetsar"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.2214,
@@ -344,11 +330,11 @@
 "preferred_label": "donner en possession"
 },
 {
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Moïse"
 },
 {
 "id": "person:Pharaoh.6",
@@ -358,11 +344,18 @@
 "preferred_label": "Pharaon"
 },
 {
-"id": "place:Netaim",
-"type": "place",
-"confidence": 0.1655,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Netaïm"
+"preferred_label": "Israël"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Nebucadnetsar"
 },
 {
 "id": "place:Gederah",
@@ -372,18 +365,18 @@
 "preferred_label": "Guedéra"
 },
 {
+"id": "place:Netaim",
+"type": "place",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Netaïm"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "cruche en terre cuite"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Aaron"
 },
 {
 "id": "place:Sodom",
@@ -393,32 +386,11 @@
 "preferred_label": "Sodome"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "place:Topheth",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Topheth"
-},
-{
-"id": "keyterm:Perceive",
+"id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "percevoir"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "mont Sinaï"
+"preferred_label": "abîme"
 },
 {
 "id": "place:Gomorrah",
@@ -428,18 +400,46 @@
 "preferred_label": "Gomorrhe"
 },
 {
-"id": "keyterm:Abyss",
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "mont Sinaï"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "abîme"
+"preferred_label": "percevoir"
 },
 {
-"id": "realia:PotteryWheel",
+"id": "place:Topheth",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Topheth"
+},
+{
+"id": "realia:Bagpipe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "tour de potier"
+"preferred_label": "cornemuse"
 },
 {
 "id": "flora:Bean",
@@ -449,6 +449,13 @@
 "preferred_label": "fève"
 },
 {
+"id": "realia:PotteryWheel",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "tour de potier"
+},
+{
 "id": "flora:Lentil",
 "type": "flora",
 "confidence": 0.1055,
@@ -456,11 +463,46 @@
 "preferred_label": "lentille"
 },
 {
-"id": "realia:Bagpipe",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "cornemuse"
+"preferred_label": "orge"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "bassin"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "lit"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "blé"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "lyre"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "luth"
 },
 {
 "id": "fauna:Bull",
@@ -477,53 +519,11 @@
 "preferred_label": "flûte"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "orge"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "lyre"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "corne de bélier"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "blé"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "lit"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "bassin"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "luth"
 }
 ]
 }

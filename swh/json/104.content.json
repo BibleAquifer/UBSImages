@@ -3,9 +3,9 @@
 "content_id": "288723",
 "reference_id": 1609,
 "version": "1.0.4",
-"title": "Mfir",
+"title": "Tawi la mti wa msonobari",
 "media_type": "Image",
-"index_reference": "mfir",
+"index_reference": "tawi la mti wa msonobari",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0220_fir.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0220_fir.jpg'>link</a></p></block>",
@@ -187,13 +187,6 @@
 "preferred_label": "Laurustino"
 },
 {
-"id": "flora:Myrtle",
-"type": "flora",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "Mhadasi"
-},
-{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1929,
@@ -201,11 +194,18 @@
 "preferred_label": "Gari la Farasi"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "flora:Myrtle",
+"type": "flora",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "Mhadasi"
+},
+{
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Asi"
+"preferred_label": "Kabila la Yuda"
 },
 {
 "id": "person:Hiram",
@@ -215,6 +215,20 @@
 "preferred_label": "Hiramu"
 },
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Kujiletea Heshima na Utukufu"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Tiro"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1765,
@@ -222,11 +236,11 @@
 "preferred_label": "Yerusalemu"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Kujiletea Heshima na Utukufu"
+"preferred_label": "Yuda"
 },
 {
 "id": "person:Israel",
@@ -243,25 +257,18 @@
 "preferred_label": "Utukufu"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Mlima Hermoni"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "Kutambua"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Asi"
 },
 {
 "id": "person:Solomon",
@@ -271,18 +278,11 @@
 "preferred_label": "Sulemani"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:TheWay",
+"type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Tiro"
+"preferred_label": "Njia Ile"
 },
 {
 "id": "place:Galilee",
@@ -292,18 +292,11 @@
 "preferred_label": "Galilaya"
 },
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
+"id": "place:HermonMount",
+"type": "place",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Njia Ile"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "mshita"
+"preferred_label": "Mlima Hermoni"
 },
 {
 "id": "flora:PlaneTree",
@@ -311,41 +304,6 @@
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "Mwaramoni"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "sakafu"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "Matoazi"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "Zeze"
-},
-{
-"id": "realia:Shaker",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "Kayamba"
-},
-{
-"id": "realia:Beam",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "Boriti"
 },
 {
 "id": "flora:Nettle",
@@ -362,60 +320,53 @@
 "preferred_label": "Mlingoti"
 },
 {
+"id": "realia:Shaker",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Kayamba"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Zeze"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "sakafu"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Boriti"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "mshita"
+},
+{
+"id": "realia:Cymbals",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Matoazi"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "fundi stadi"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Msunobari wa Alepo"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Nguo ya zambarau"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Mzeituni"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Mchongoma"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Fedha"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Ndege"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Tari"
 },
 {
 "id": "flora:DatePalm",
@@ -425,11 +376,25 @@
 "preferred_label": "Mtende"
 },
 {
-"id": "flora:Sandalwood",
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Fedha"
+},
+{
+"id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Msandali"
+"preferred_label": "Mchongoma"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Ndege"
 },
 {
 "id": "fauna:Stork",
@@ -439,11 +404,46 @@
 "preferred_label": "korongo"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Msunobari wa Alepo"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Tari"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Zeze"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Msandali"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Mzeituni"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Nguo ya zambarau"
 }
 ]
 }

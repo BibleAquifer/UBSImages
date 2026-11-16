@@ -171,7 +171,7 @@
 "preferred_label": "匠人"
 },
 {
-"id": "realia:Peg.2",
+"id": "realia:Peg",
 "type": "realia",
 "confidence": 0.1979,
 "match_method": "canonical",
@@ -185,7 +185,7 @@
 "preferred_label": "钉子"
 },
 {
-"id": "realia:Peg",
+"id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.1979,
 "match_method": "canonical",
@@ -199,13 +199,6 @@
 "preferred_label": "施恩座"
 },
 {
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "有翼活物"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1874,
@@ -213,11 +206,11 @@
 "preferred_label": "金钱"
 },
 {
-"id": "person:Heber.2",
-"type": "person",
-"confidence": 0.1842,
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "希百"
+"preferred_label": "有翼活物"
 },
 {
 "id": "person:Jael",
@@ -227,11 +220,25 @@
 "preferred_label": "雅亿"
 },
 {
+"id": "person:Heber.2",
+"type": "person",
+"confidence": 0.1842,
+"match_method": "canonical",
+"preferred_label": "希百"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "摩西"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "巴比伦"
 },
 {
 "id": "person:Aaron",
@@ -248,25 +255,18 @@
 "preferred_label": "西西拉"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "利未支派"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "巴比伦"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "力量"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "利未支派"
 },
 {
 "id": "deity:Angel",
@@ -283,13 +283,6 @@
 "preferred_label": "利未"
 },
 {
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1242,
-"match_method": "canonical",
-"preferred_label": "号"
-},
-{
 "id": "realia:Anvil",
 "type": "realia",
 "confidence": 0.1242,
@@ -297,25 +290,11 @@
 "preferred_label": "铁砧"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Trumpet",
 "type": "realia",
-"confidence": 0.1137,
+"confidence": 0.1242,
 "match_method": "canonical",
-"preferred_label": "紫色布"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "量苇"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "细麻布"
+"preferred_label": "号"
 },
 {
 "id": "realia:Thread",
@@ -323,13 +302,6 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "线"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "房屋"
 },
 {
 "id": "realia:Tent",
@@ -351,6 +323,34 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "杖"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "细麻布"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "量苇"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "紫色布"
 }
 ]
 }

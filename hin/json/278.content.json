@@ -115,20 +115,6 @@
 "preferred_label": "तम्बू"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "रंगीला वस्त्र"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "बैंगनी वस्त्र"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.3025,
@@ -143,11 +129,18 @@
 "preferred_label": "भेड़"
 },
 {
-"id": "realia:TentOfMeeting",
+"id": "realia:DyedCloth",
 "type": "realia",
-"confidence": 0.215,
+"confidence": 0.3025,
 "match_method": "canonical",
-"preferred_label": "मिलापवाला तम्बू"
+"preferred_label": "रंगीला वस्त्र"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.3025,
+"match_method": "canonical",
+"preferred_label": "बैंगनी वस्त्र"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -157,11 +150,11 @@
 "preferred_label": "वाचा का संदूक"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "मूसा"
+"preferred_label": "मिलापवाला तम्बू"
 },
 {
 "id": "deity:Lord",
@@ -169,6 +162,20 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "मूसा"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
 },
 {
 "id": "person:Noah",
@@ -185,11 +192,11 @@
 "preferred_label": "गेर्शोन"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1442,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
+"preferred_label": "निवास की वेदी"
 },
 {
 "id": "realia:GoatHairStrips",
@@ -199,25 +206,18 @@
 "preferred_label": "बकरी के बाल के पर्दे"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "निवास की वेदी"
-},
-{
-"id": "realia:Frame",
+"id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "तख्ता"
+"preferred_label": "सनी की पट्टियाँ"
 },
 {
-"id": "realia:Ship",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "जहाज"
+"preferred_label": "मन्दिर की वेदी"
 },
 {
 "id": "realia:Altar",
@@ -225,6 +225,20 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "वेदी"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "पत्थर की वेदी"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "जहाज"
 },
 {
 "id": "realia:Loop",
@@ -241,25 +255,11 @@
 "preferred_label": "परदा"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:Frame",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "पत्थर की वेदी"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "मन्दिर की वेदी"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "सनी की पट्टियाँ"
+"preferred_label": "तख्ता"
 }
 ]
 }

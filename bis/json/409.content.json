@@ -254,6 +254,13 @@
 "preferred_label": "kakae"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Jon"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2265,
@@ -261,11 +268,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2265,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1724,
 "match_method": "canonical",
-"preferred_label": "Jon"
+"preferred_label": "leta"
 },
 {
 "id": "realia:Belt",
@@ -275,11 +282,11 @@
 "preferred_label": "belt"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1724,
+"id": "place:Ashkenaz",
+"type": "place",
+"confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "leta"
+"preferred_label": "Askenas"
 },
 {
 "id": "place:Minni",
@@ -296,25 +303,11 @@
 "preferred_label": "kaen"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "Askenas"
-},
-{
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1665,
 "match_method": "canonical",
 "preferred_label": "sugabag"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "hos"
 },
 {
 "id": "realia:Bag",
@@ -324,32 +317,18 @@
 "preferred_label": "Bag"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1665,
+"match_method": "canonical",
+"preferred_label": "hos"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Mekem strong promes"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "ronemaot blong tekem graon"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Save"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Haenem"
 },
 {
 "id": "keyterm:Appoint",
@@ -359,46 +338,11 @@
 "preferred_label": "putumap"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Amalek"
-},
-{
 "id": "place:East",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Is"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Red Si"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Paoa"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ararat"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Sore tumas"
 },
 {
 "id": "group:Amalek",
@@ -408,11 +352,11 @@
 "preferred_label": "ol laen blong Amalek"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "bigfala fraet"
+"preferred_label": "Red Si"
 },
 {
 "id": "keyterm:Holy",
@@ -422,11 +366,39 @@
 "preferred_label": "Tabu"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "ronemaot blong tekem graon"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ararat"
+},
+{
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Midian"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Save"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Sore tumas"
 },
 {
 "id": "place:Cush.2",
@@ -436,39 +408,32 @@
 "preferred_label": "Kus"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Oliftri"
+"preferred_label": "Haenem"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1032,
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "sogum"
+"preferred_label": "Amalek"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "rop blong grep"
+"preferred_label": "bigfala fraet"
 },
 {
-"id": "fauna:Scorpion",
-"type": "fauna",
-"confidence": 0.1032,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "skopion"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "krawon"
+"preferred_label": "Paoa"
 },
 {
 "id": "flora:Barley",
@@ -476,13 +441,6 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "bale"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "klos"
 },
 {
 "id": "flora:Fig",
@@ -499,32 +457,25 @@
 "preferred_label": "longlongfala gras blong wota"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Standard",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "pupu we oli wokem long hon blong sipsip"
+"preferred_label": "flaeg"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "wit"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "korianda"
-},
-{
-"id": "realia:Tent",
+"id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Haos tapolen"
+"preferred_label": "krawon"
+},
+{
+"id": "fauna:Scorpion",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "skopion"
 },
 {
 "id": "flora:Grass",
@@ -534,6 +485,27 @@
 "preferred_label": "gras"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "wit"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "stik"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Haos tapolen"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1032,
@@ -541,11 +513,18 @@
 "preferred_label": "hat blong king"
 },
 {
-"id": "realia:Standard",
-"type": "realia",
+"id": "flora:Coriander",
+"type": "flora",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "flaeg"
+"preferred_label": "korianda"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "sogum"
 },
 {
 "id": "flora:Sandalwood",
@@ -555,11 +534,32 @@
 "preferred_label": "sandalwud"
 },
 {
-"id": "realia:Rod",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "rop blong grep"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Oliftri"
+},
+{
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "stik"
+"preferred_label": "klos"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "pupu we oli wokem long hon blong sipsip"
 }
 ]
 }

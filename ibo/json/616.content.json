@@ -3,9 +3,9 @@
 "content_id": "291141",
 "reference_id": 2160,
 "version": "1.0.4",
-"title": "Ihe ndị dị ndụ Manchester",
+"title": "Ihe anọ dị ndụ: Ihe odide Manchester",
 "media_type": "Image",
-"index_reference": "ihe ndị dị ndụ manchester",
+"index_reference": "ihe anọ dị ndụ ihe odide manchester",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg'>link</a></p></block>",
@@ -353,13 +353,6 @@
 "preferred_label": "Mmụọ Ozi"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2783,
-"match_method": "canonical",
-"preferred_label": "Mgbaaka akara"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2783,
@@ -367,11 +360,25 @@
 "preferred_label": "Ụlọ"
 },
 {
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2783,
+"match_method": "canonical",
+"preferred_label": "Mgbaaka akara"
+},
+{
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.2277,
 "match_method": "canonical",
 "preferred_label": "Anụ nke atọ dị ndụ"
+},
+{
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2277,
+"match_method": "canonical",
+"preferred_label": "Anụ nke Abụọ Dị Ndụ"
 },
 {
 "id": "deity:FirstLivingCreature",
@@ -388,25 +395,11 @@
 "preferred_label": "Anụ nke Anọ Dị Ndụ"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2277,
-"match_method": "canonical",
-"preferred_label": "Anụ nke Abụọ Dị Ndụ"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "Nʼezie!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Keba"
+"preferred_label": "Dị Nsọ"
 },
 {
 "id": "keyterm:Life",
@@ -416,11 +409,11 @@
 "preferred_label": "Ndụ"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "Dị Nsọ"
+"preferred_label": "Keba"
 },
 {
 "id": "keyterm:Always",
@@ -430,46 +423,18 @@
 "preferred_label": "Ebighị ebi"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "Nʼezie!"
+},
+{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2187,
 "match_method": "canonical",
 "preferred_label": "Akwa linen"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Ime ihe ọjọọ"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Mmụọ"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Ikpe ekpere"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Olu na-enweghị ahụ"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Egwu"
 },
 {
 "id": "keyterm:Redeem",
@@ -479,11 +444,39 @@
 "preferred_label": "Gbapụta"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1591,
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Ọdụm"
+"preferred_label": "Ime ihe ọjọọ"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Ikpe ekpere"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Mmụọ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Egwu"
+},
+{
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Olu na-enweghị ahụ"
 },
 {
 "id": "fauna:Vulture",
@@ -493,11 +486,25 @@
 "preferred_label": "Udele"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "Ọdụm"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
 "preferred_label": "Efere"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1038,
+"match_method": "canonical",
+"preferred_label": "dinarịọs"
 },
 {
 "id": "realia:Balance",
@@ -514,11 +521,18 @@
 "preferred_label": "Kwat"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1038,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "dinarịọs"
+"preferred_label": "balị"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Ọka wiiti"
 },
 {
 "id": "realia:Incense",
@@ -528,18 +542,18 @@
 "preferred_label": "ihe nsure ọkụ na-esi isi ụtọ"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "Une"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "ehi"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Ịnyịnya"
 },
 {
 "id": "realia:OliveOil",
@@ -549,18 +563,11 @@
 "preferred_label": "Mmanụ oliv"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "balị"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Une"
+"preferred_label": "Ịnyịnya"
 },
 {
 "id": "realia:Scroll",
@@ -568,13 +575,6 @@
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "akwụkwọ mpịakọta"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "Ọka wiiti"
 },
 {
 "id": "realia:Wine",

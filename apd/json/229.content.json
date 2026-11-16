@@ -3,9 +3,9 @@
 "content_id": "293514",
 "reference_id": 1734,
 "version": "1.0.4",
-"title": "منجل قطع الحبوب",
+"title": "راجل بيحصد العيش بالمنجل",
 "media_type": "Image",
-"index_reference": "منجل قطع الحبوب",
+"index_reference": "راجل بيحصد العيش بالمنجل",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg'>link</a></p></block>",
@@ -152,6 +152,13 @@
 "preferred_label": "قطيع"
 },
 {
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "حمل"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1929,
@@ -159,11 +166,11 @@
 "preferred_label": "الهيكل"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1929,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "حمل"
+"preferred_label": "قبيلة يهوذا"
 },
 {
 "id": "deity:Lord",
@@ -173,25 +180,18 @@
 "preferred_label": "الرب"
 },
 {
-"id": "keyterm:Ability",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "بابل"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "قدرة"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "نوح"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "سلطة"
+"preferred_label": "سما"
 },
 {
 "id": "person:Judah.4",
@@ -201,18 +201,11 @@
 "preferred_label": "يهوذا"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "بابل"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "قبيلة يهوذا"
+"preferred_label": "نوح"
 },
 {
 "id": "keyterm:Love",
@@ -229,13 +222,6 @@
 "preferred_label": "يجبر على الخدمة"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "سما"
-},
-{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1765,
@@ -243,11 +229,18 @@
 "preferred_label": "الشفيلة"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "معصرة عنب"
+"preferred_label": "قدرة"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "سلطة"
 },
 {
 "id": "realia:Crown.2",
@@ -257,11 +250,11 @@
 "preferred_label": "إكليل"
 },
 {
-"id": "realia:Pit",
+"id": "realia:Winepress",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "حفرة"
+"preferred_label": "معصرة عنب"
 },
 {
 "id": "flora:Barley",
@@ -278,13 +271,6 @@
 "preferred_label": "حبوب"
 },
 {
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "برج"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1165,
@@ -297,6 +283,20 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "تاج"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "برج"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "حفرة"
 }
 ]
 }

@@ -365,13 +365,6 @@
 "preferred_label": "Благословлять"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Ад"
-},
-{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.2161,
@@ -386,6 +379,20 @@
 "preferred_label": "Милость"
 },
 {
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Ад"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Искупать"
+},
+{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.158,
@@ -393,11 +400,11 @@
 "preferred_label": "Искать убежища"
 },
 {
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Обладать проницательностью"
+"preferred_label": "Красное море"
 },
 {
 "id": "keyterm:Just",
@@ -407,11 +414,11 @@
 "preferred_label": "Быть (или являть себя) праведным"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Иосиф"
+"preferred_label": "Обладать проницательностью"
 },
 {
 "id": "keyterm:Arrow",
@@ -428,18 +435,11 @@
 "preferred_label": "Ной"
 },
 {
-"id": "place:RedSea",
-"type": "place",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Красное море"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Ливан"
+"preferred_label": "Страх"
 },
 {
 "id": "keyterm:Horn",
@@ -449,18 +449,18 @@
 "preferred_label": "Рог"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:Joseph.10",
+"type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Страх"
+"preferred_label": "Иосиф"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Искупать"
+"preferred_label": "Ливан"
 },
 {
 "id": "realia:Throne",
@@ -470,25 +470,11 @@
 "preferred_label": "Престол"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "ручная мельница"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Крылатое существо"
-},
-{
-"id": "fauna:Horse",
+"id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "Лошадь"
+"preferred_label": "Дракон"
 },
 {
 "id": "realia:Foundation",
@@ -505,11 +491,11 @@
 "preferred_label": "Рогоз"
 },
 {
-"id": "realia:House",
+"id": "realia:Trap",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "дом"
+"preferred_label": "Западня"
 },
 {
 "id": "fauna:Lamb",
@@ -519,18 +505,32 @@
 "preferred_label": "Ягненок"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "Дракон"
-},
-{
-"id": "realia:Trap",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "Западня"
+"preferred_label": "дом"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "Крылатое существо"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "ручная мельница"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "Лошадь"
 }
 ]
 }

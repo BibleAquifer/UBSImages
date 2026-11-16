@@ -176,20 +176,6 @@
 "preferred_label": "Гиена"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Филистимская земля"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2429,
@@ -211,6 +197,20 @@
 "preferred_label": "Саул"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Давид"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Филистимская земля"
+},
+{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.1829,
@@ -225,32 +225,25 @@
 "preferred_label": "Сандаловое дерево"
 },
 {
-"id": "person:Hushai",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Хусий"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Иосиф"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Способность"
+"preferred_label": "Спасение"
 },
 {
-"id": "keyterm:Safety",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Безопасность"
+"preferred_label": "Глупый"
+},
+{
+"id": "keyterm:UncircumcisedPerson",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Необрезанный"
 },
 {
 "id": "place:Jerusalem",
@@ -267,18 +260,39 @@
 "preferred_label": "Глупый"
 },
 {
+"id": "person:Hushai",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Хусий"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Способность"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Иосиф"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Безопасность"
+},
+{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Власть"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Спасение"
 },
 {
 "id": "keyterm:Covenant",
@@ -288,18 +302,11 @@
 "preferred_label": "Завет"
 },
 {
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1714,
+"id": "fauna:WildCat",
+"type": "fauna",
+"confidence": 0.121,
 "match_method": "canonical",
-"preferred_label": "Необрезанный"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Глупый"
+"preferred_label": "Дикая кошка"
 },
 {
 "id": "fauna:Leopard",
@@ -309,18 +316,11 @@
 "preferred_label": "Барс"
 },
 {
-"id": "fauna:WildCat",
+"id": "fauna:Dragon",
 "type": "fauna",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "Дикая кошка"
-},
-{
-"id": "realia:Ship",
-"type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Корабль"
+"preferred_label": "Дракон"
 },
 {
 "id": "fauna:Goat",
@@ -335,6 +335,27 @@
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Разноцветная одежда"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Ягненок"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "дом"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Корабль"
 },
 {
 "id": "fauna:Bull",
@@ -358,32 +379,11 @@
 "preferred_label": "Змея"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "дом"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Ягненок"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Стадо"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Дракон"
 }
 ]
 }

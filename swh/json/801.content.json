@@ -3,9 +3,9 @@
 "content_id": "289465",
 "reference_id": 2351,
 "version": "1.0.4",
-"title": "Ghala la Nafaka",
+"title": "Shimo la kuhifadhia nafaka ardhini",
 "media_type": "Image",
-"index_reference": "ghala la nafaka",
+"index_reference": "shimo la kuhifadhia nafaka ardhini",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0419_grain_store.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0419_grain_store.jpg'>link</a></p></block>",
@@ -172,11 +172,11 @@
 "preferred_label": "Yerusalemu"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Lebanoni"
+"preferred_label": "Kubariki"
 },
 {
 "id": "person:Solomon",
@@ -186,11 +186,18 @@
 "preferred_label": "Sulemani"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Kubariki"
+"preferred_label": "Lebanoni"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.2011,
+"match_method": "canonical",
+"preferred_label": "Divai mpya"
 },
 {
 "id": "realia:WinnowingFork",
@@ -207,11 +214,11 @@
 "preferred_label": "Sakafu ya kupuria"
 },
 {
-"id": "realia:Must",
+"id": "realia:Chariot",
 "type": "realia",
-"confidence": 0.2011,
+"confidence": 0.19,
 "match_method": "canonical",
-"preferred_label": "Divai mpya"
+"preferred_label": "Gari la Farasi"
 },
 {
 "id": "flora:OliveTree",
@@ -221,39 +228,11 @@
 "preferred_label": "Mzeituni"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.19,
-"match_method": "canonical",
-"preferred_label": "Gari la Farasi"
-},
-{
 "id": "place:Ijon",
 "type": "place",
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Iyoni"
-},
-{
-"id": "place:Hamath",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Hamathi"
-},
-{
-"id": "place:Baalath.2",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Baalathi"
-},
-{
-"id": "place:Tadmor",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Tadmori"
 },
 {
 "id": "place:Pithom",
@@ -263,6 +242,20 @@
 "preferred_label": "Pithomu"
 },
 {
+"id": "place:Tadmor",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Tadmori"
+},
+{
+"id": "place:Baalath.2",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Baalathi"
+},
+{
 "id": "place:Abel-beth-maacah",
 "type": "place",
 "confidence": 0.1861,
@@ -270,32 +263,11 @@
 "preferred_label": "Abel-Beth-Maaka"
 },
 {
-"id": "person:Asa",
-"type": "person",
-"confidence": 0.175,
+"id": "place:Hamath",
+"type": "place",
+"confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "Asa"
-},
-{
-"id": "person:Naphtali",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Naftali"
-},
-{
-"id": "group:Naphtali",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Kabila la Naftali"
-},
-{
-"id": "person:Jehoshaphat.3",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Yehoshafati"
+"preferred_label": "Hamathi"
 },
 {
 "id": "place:Dan",
@@ -305,11 +277,11 @@
 "preferred_label": "Dani"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Israeli"
+"preferred_label": "Kabila la Yuda"
 },
 {
 "id": "place:Raamses",
@@ -319,18 +291,11 @@
 "preferred_label": "Ramesesi"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
-"id": "person:Pharaoh.5",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Farao"
+"preferred_label": "Mbingu"
 },
 {
 "id": "group:Dan",
@@ -340,18 +305,39 @@
 "preferred_label": "Kabila la Dani"
 },
 {
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Yehoshafati"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Naftali"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
 "id": "person:Ben-hadad",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Ben-Hadadi"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
 },
 {
 "id": "keyterm:Heavenly",
@@ -361,18 +347,25 @@
 "preferred_label": "-a mbinguni"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "person:Asa",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Mbingu"
+"preferred_label": "Asa"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1261,
+"id": "group:Naphtali",
+"type": "group",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Ndege"
+"preferred_label": "Kabila la Naftali"
+},
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Farao"
 },
 {
 "id": "realia:AnimalPen",
@@ -389,11 +382,25 @@
 "preferred_label": "Ghala"
 },
 {
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "Ndege"
+},
+{
 "id": "fauna:Crow",
 "type": "fauna",
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "Kunguru"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Shayiri"
 },
 {
 "id": "fauna:Goat",
@@ -403,18 +410,39 @@
 "preferred_label": "Mbuzi"
 },
 {
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Tini"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Mkomamanga"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Jogoo"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Giligilani"
+},
+{
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Shinikizo la divai"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Mafuta ya upako"
 },
 {
 "id": "flora:Weed",
@@ -438,25 +466,11 @@
 "preferred_label": "Mafuta ya zeituni"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Shayiri"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Jogoo"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Tini"
+"preferred_label": "Mafuta ya upako"
 },
 {
 "id": "fauna:Mule",
@@ -466,25 +480,11 @@
 "preferred_label": "Nyumbu"
 },
 {
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Giligilani"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Kundi"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Mkomamanga"
 }
 ]
 }

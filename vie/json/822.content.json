@@ -3,9 +3,9 @@
 "content_id": "293218",
 "reference_id": 2371,
 "version": "1.0.4",
-"title": "Bia đá tưởng niệm",
+"title": "Bia đá tưởng niệm đứng",
 "media_type": "Image",
-"index_reference": "bia đá tưởng niệm",
+"index_reference": "bia đá tưởng niệm đứng",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0465_pillar_memorial_stone.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0465_pillar_memorial_stone.jpg'>link</a></p></block>",
@@ -242,6 +242,13 @@
 "preferred_label": "Trụ thờ A-sê-ra"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đền thờ"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.4025,
@@ -261,13 +268,6 @@
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "bàn thờ Đền Tạm"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
 },
 {
 "id": "flora:Pine",
@@ -326,18 +326,18 @@
 "preferred_label": "dầu xức"
 },
 {
-"id": "keyterm:Incantations",
-"type": "keyterm",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Thần chú"
-},
-{
 "id": "deity:Nehushtan",
 "type": "deity",
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "Nê-hu-tan"
+},
+{
+"id": "keyterm:Incantations",
+"type": "keyterm",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Thần chú"
 },
 {
 "id": "place:KingsValley",
@@ -354,39 +354,18 @@
 "preferred_label": "dầu ô-liu"
 },
 {
-"id": "person:Asa",
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "A-sa"
+"preferred_label": "Ra-chên"
 },
 {
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Bằng chứng"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Bên-gia-min"
-},
-{
-"id": "group:Manasseh",
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Bộ tộc Ma-na-se"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Lễ vật"
+"preferred_label": "Bộ tộc Ép-ra-im"
 },
 {
 "id": "person:Ephraim",
@@ -396,6 +375,41 @@
 "preferred_label": "Ép-ra-im"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Bộ tộc Giu-đa"
+},
+{
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Bộ tộc Ma-na-se"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Bên-gia-min"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Lễ vật"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Ma-na-se"
+},
+{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.1641,
@@ -403,11 +417,11 @@
 "preferred_label": "Bê-tên"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
+"id": "deity:Teraphim",
+"type": "deity",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Bôi xức"
+"preferred_label": "Tê-ra-phim"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -415,6 +429,13 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Giết con sinh tế"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Bằng chứng"
 },
 {
 "id": "person:Judah.4",
@@ -431,39 +452,11 @@
 "preferred_label": "La-ban"
 },
 {
-"id": "place:On",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ôn"
-},
-{
-"id": "keyterm:Idol",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Hình tượng"
-},
-{
 "id": "person:Absalom",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Áp-sa-lôm"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Bộ tộc Giu-đa"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Chi tộc Bên-gia-min"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -473,32 +466,18 @@
 "preferred_label": "Bắt phục dịch"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Bộ tộc Ép-ra-im"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Tê-ra-phim"
-},
-{
-"id": "person:Rachel",
+"id": "person:Asa",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Ra-chên"
+"preferred_label": "A-sa"
 },
 {
-"id": "person:Manasseh",
-"type": "person",
+"id": "keyterm:Idol",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Ma-na-se"
+"preferred_label": "Hình tượng"
 },
 {
 "id": "keyterm:Vow",
@@ -508,11 +487,32 @@
 "preferred_label": "Khấn nguyện"
 },
 {
-"id": "realia:HouseholdIdols",
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Chi tộc Bên-gia-min"
+},
+{
+"id": "place:On",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Ôn"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Bôi xức"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "tượng thần gia đình"
+"preferred_label": "hình tượng"
 },
 {
 "id": "realia:Ephod",
@@ -529,11 +529,11 @@
 "preferred_label": "cây nho"
 },
 {
-"id": "realia:Wine",
+"id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Rượu nho"
+"preferred_label": "tượng thần gia đình"
 },
 {
 "id": "fauna:Horse",
@@ -543,18 +543,18 @@
 "preferred_label": "ngựa"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "hình tượng"
-},
-{
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "rắn"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Rượu nho"
 }
 ]
 }

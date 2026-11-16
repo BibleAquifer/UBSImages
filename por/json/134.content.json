@@ -193,18 +193,18 @@
 "preferred_label": "figo"
 },
 {
-"id": "realia:Jinglet",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "guizo"
-},
-{
 "id": "realia:Robe",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
 "preferred_label": "manto"
+},
+{
+"id": "realia:Jinglet",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "guizo"
 },
 {
 "id": "flora:Barley",
@@ -221,11 +221,11 @@
 "preferred_label": "oliveira"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "tecido de púrpura"
+"preferred_label": "côvado"
 },
 {
 "id": "place:EshcolValley",
@@ -235,18 +235,11 @@
 "preferred_label": "Vale de Escol"
 },
 {
-"id": "realia:Veil",
-"type": "realia",
+"id": "place:Migron",
+"type": "place",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "véu"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "côvado"
+"preferred_label": "Migrom"
 },
 {
 "id": "flora:Coriander",
@@ -256,11 +249,25 @@
 "preferred_label": "coentro"
 },
 {
-"id": "place:Migron",
-"type": "place",
+"id": "realia:PurpleCloth",
+"type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Migrom"
+"preferred_label": "tecido de púrpura"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "véu"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "person:Moses",
@@ -270,11 +277,11 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Saul"
 },
 {
 "id": "place:Gibeah.2",
@@ -305,11 +312,11 @@
 "preferred_label": "puro"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.168,
+"id": "flora:Henna",
+"type": "flora",
+"confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Saul"
+"preferred_label": "hena"
 },
 {
 "id": "flora:Walnut",
@@ -319,60 +326,11 @@
 "preferred_label": "nogueira"
 },
 {
-"id": "flora:Henna",
-"type": "flora",
-"confidence": 0.116,
-"match_method": "canonical",
-"preferred_label": "hena"
-},
-{
 "id": "flora:Mandrake",
 "type": "flora",
 "confidence": 0.116,
 "match_method": "canonical",
 "preferred_label": "mandrágora"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "óleo da unção"
-},
-{
-"id": "realia:Spindle",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "fuso"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "azeite de oliva"
-},
-{
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "fio"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "mula"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "tamareira"
 },
 {
 "id": "realia:Must",
@@ -382,6 +340,27 @@
 "preferred_label": "Mosto"
 },
 {
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "tamareira"
+},
+{
+"id": "realia:Spindle",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "fuso"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "fio"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.108,
@@ -389,11 +368,11 @@
 "preferred_label": "trigo"
 },
 {
-"id": "flora:Nard",
-"type": "flora",
+"id": "realia:Wine",
+"type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "nardo"
+"preferred_label": "vinho"
 },
 {
 "id": "realia:House",
@@ -403,11 +382,32 @@
 "preferred_label": "casa"
 },
 {
-"id": "realia:Wine",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "vinho"
+"preferred_label": "azeite de oliva"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "óleo da unção"
+},
+{
+"id": "flora:Nard",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "nardo"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "mula"
 }
 ]
 }

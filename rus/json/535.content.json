@@ -149,13 +149,6 @@
 "preferred_label": "Самсон"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Филистимская земля"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.39,
@@ -170,25 +163,18 @@
 "preferred_label": "Сила"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Филистимская земля"
+},
+{
 "id": "person:Delilah",
 "type": "person",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "Далида"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Веревка"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "лук"
 },
 {
 "id": "realia:Thread",
@@ -198,6 +184,13 @@
 "preferred_label": "Нить"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "лук"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
@@ -205,11 +198,32 @@
 "preferred_label": "дом"
 },
 {
-"id": "keyterm:Shield",
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "Веревка"
+},
+{
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Щит"
+"preferred_label": "Спасение"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "В осаде"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Лехи"
 },
 {
 "id": "place:Jerusalem",
@@ -217,6 +231,13 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Иерусалим"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Щит"
 },
 {
 "id": "person:Israel",
@@ -233,27 +254,6 @@
 "preferred_label": "Пророчествовать"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "В осаде"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Спасение"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Лехи"
-},
-{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
@@ -268,11 +268,11 @@
 "preferred_label": "Коза"
 },
 {
-"id": "realia:MeasuringReed",
-"type": "realia",
+"id": "flora:Flax",
+"type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Трость измерения"
+"preferred_label": "Лен"
 },
 {
 "id": "realia:Hammer",
@@ -282,13 +282,6 @@
 "preferred_label": "молот"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "малый щит"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1125,
@@ -296,18 +289,25 @@
 "preferred_label": "Ягненок"
 },
 {
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "малый щит"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Трость измерения"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Стадо"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Лен"
 }
 ]
 }

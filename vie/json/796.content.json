@@ -3,9 +3,9 @@
 "content_id": "293192",
 "reference_id": 2345,
 "version": "1.0.4",
-"title": "Ngưỡng En",
+"title": "Ngưỡng cửa",
 "media_type": "Image",
-"index_reference": "ngưỡng en",
+"index_reference": "ngưỡng cửa",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0406_threshold_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0406_threshold_en.jpg'>link</a></p></block>",
@@ -147,18 +147,11 @@
 "preferred_label": "Đa-gôn"
 },
 {
-"id": "realia:Doorpost",
+"id": "realia:Window",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Cột cửa"
-},
-{
-"id": "realia:Reed",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Cây sậy đo"
+"preferred_label": "Cửa sổ"
 },
 {
 "id": "flora:Reed",
@@ -168,6 +161,13 @@
 "preferred_label": "cây sậy"
 },
 {
+"id": "realia:Reed",
+"type": "realia",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Cây sậy đo"
+},
+{
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.2,
@@ -175,11 +175,11 @@
 "preferred_label": "Cây sậy đo"
 },
 {
-"id": "realia:Window",
+"id": "realia:Doorpost",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Cửa sổ"
+"preferred_label": "Cột cửa"
 },
 {
 "id": "place:Tirzah",
@@ -189,53 +189,11 @@
 "preferred_label": "Tia-xa"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Làm ô uế"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Lễ vật"
-},
-{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "bổ nhiệm"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Lừa dối"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Hòm Giao Ước"
-},
-{
-"id": "person:Jeroboam",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Giê-rô-bô-am"
 },
 {
 "id": "place:Ashdod",
@@ -245,32 +203,53 @@
 "preferred_label": "Ách-đốt"
 },
 {
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Lừa dối"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Lễ vật"
+},
+{
+"id": "person:Jeroboam",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Giê-rô-bô-am"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Y-sơ-ra-ên"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Hòm Giao Ước"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Làm ô uế"
+},
+{
 "id": "fauna:Owl.3",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "cú vọ"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "dê"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "bàn thờ"
-},
-{
-"id": "realia:WritingCase",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Hộp bút mực"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -280,11 +259,11 @@
 "preferred_label": "Hòm Giao Ước"
 },
 {
-"id": "fauna:Jackdaw",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "chim ác là"
+"preferred_label": "dê"
 },
 {
 "id": "realia:Capital",
@@ -294,18 +273,32 @@
 "preferred_label": "Đầu cột"
 },
 {
-"id": "realia:Linen",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Vải gai"
+"preferred_label": "thước"
 },
 {
-"id": "fauna:Crow",
-"type": "fauna",
+"id": "realia:WritingCase",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Quạ"
+"preferred_label": "Hộp bút mực"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đền thờ"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "bàn thờ"
 },
 {
 "id": "realia:StoneAltar",
@@ -322,18 +315,25 @@
 "preferred_label": "bàn thờ Đền Tạm"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "thước"
+"preferred_label": "Vải gai"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
+"id": "fauna:Jackdaw",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
+"preferred_label": "chim ác là"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Quạ"
 },
 {
 "id": "fauna:Flock",

@@ -3,9 +3,9 @@
 "content_id": "290214",
 "reference_id": 2167,
 "version": "1.0.4",
-"title": "Bautar Bagaden Wuta",
+"title": "Bauta a bagadin wuta: zane mai tushe",
 "media_type": "Image",
-"index_reference": "bautar bagaden wuta",
+"index_reference": "bauta a bagadin wuta zane mai tushe",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0222_fire_altar_worship.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0222_fire_altar_worship.jpg'>link</a></p></block>",
@@ -172,6 +172,13 @@
 "preferred_label": "UBANGIJI"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "Bagaden haikali"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.312,
@@ -193,13 +200,6 @@
 "preferred_label": "Bagaden Tabanakul"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "Bagaden haikali"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.236,
@@ -207,18 +207,18 @@
 "preferred_label": "Ba’al"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Shanu"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "Kuɗi"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Ai"
 },
 {
 "id": "place:Bethel",
@@ -235,11 +235,11 @@
 "preferred_label": "Enosh"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Ai"
+"preferred_label": "Shanu"
 },
 {
 "id": "realia:Tent",
@@ -249,32 +249,18 @@
 "preferred_label": "Tenti"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Sama’ila"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Ƙazantarwa"
+"preferred_label": "Ceto"
 },
 {
-"id": "person:Isaac",
+"id": "person:Seth",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Ishaku"
+"preferred_label": "Set"
 },
 {
 "id": "person:Naaman.3",
@@ -284,46 +270,11 @@
 "preferred_label": "Na’aman"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Kishi"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Haruna"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Isra’ila"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Yanka hadaya"
-},
-{
 "id": "keyterm:Praise",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Yabo"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Ceto"
 },
 {
 "id": "person:Elijah",
@@ -333,25 +284,11 @@
 "preferred_label": "Iliya"
 },
 {
-"id": "person:Abraham",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Ibrahim"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Beyersheba"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Tursasa Bauta"
+"preferred_label": "Musa"
 },
 {
 "id": "keyterm:InfectiousSkinDisease",
@@ -361,11 +298,74 @@
 "preferred_label": "Cutar fatar jiki"
 },
 {
-"id": "person:Seth",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Set"
+"preferred_label": "Haruna"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Yanka hadaya"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Beyersheba"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Isra’ila"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Sama’ila"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Tursasa Bauta"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Ishaku"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Ibrahim"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Kishi"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Ƙazantarwa"
 },
 {
 "id": "flora:Tamarisk",

@@ -115,13 +115,6 @@
 "preferred_label": "plaina de pedra"
 },
 {
-"id": "person:Simon.3",
-"type": "person",
-"confidence": 0.3083,
-"match_method": "canonical",
-"preferred_label": "Simão"
-},
-{
 "id": "person:Jude",
 "type": "person",
 "confidence": 0.3083,
@@ -129,11 +122,11 @@
 "preferred_label": "Judas"
 },
 {
-"id": "person:James.3",
+"id": "person:Simon.3",
 "type": "person",
-"confidence": 0.2917,
+"confidence": 0.3083,
 "match_method": "canonical",
-"preferred_label": "Tiago"
+"preferred_label": "Simão"
 },
 {
 "id": "person:Hiram",
@@ -143,11 +136,39 @@
 "preferred_label": "Hirão"
 },
 {
+"id": "person:James.3",
+"type": "person",
+"confidence": 0.2917,
+"match_method": "canonical",
+"preferred_label": "Tiago"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Amom"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Tiro"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Jerusalém"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "amonitas"
 },
 {
 "id": "deity:Angel",
@@ -162,27 +183,6 @@
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Maria"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Tiro"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "amonitas"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Amom"
 },
 {
 "id": "person:Joseph.3",
@@ -220,13 +220,6 @@
 "preferred_label": "serra"
 },
 {
-"id": "realia:Skin",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "pele"
-},
-{
 "id": "realia:Stylus.2",
 "type": "realia",
 "confidence": 0.1442,
@@ -234,18 +227,25 @@
 "preferred_label": "estilete"
 },
 {
-"id": "realia:BrickMold",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "forma de tijolos"
-},
-{
 "id": "realia:Compass",
 "type": "realia",
 "confidence": 0.1442,
 "match_method": "canonical",
 "preferred_label": "compasso"
+},
+{
+"id": "realia:Skin",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "pele"
+},
+{
+"id": "realia:BrickMold",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "forma de tijolos"
 },
 {
 "id": "realia:Chisel",
@@ -262,11 +262,18 @@
 "preferred_label": "bode"
 },
 {
-"id": "realia:HewnStone",
+"id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "pedra lavrada"
+"preferred_label": "fundamento"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "machado"
 },
 {
 "id": "realia:Rod",
@@ -276,18 +283,11 @@
 "preferred_label": "cetro"
 },
 {
-"id": "realia:MeasuringReed",
+"id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "caniço de medir"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "fundamento"
+"preferred_label": "pedra lavrada"
 },
 {
 "id": "realia:Staff",
@@ -297,18 +297,18 @@
 "preferred_label": "cajado"
 },
 {
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "caniço de medir"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "rebanho"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "machado"
 }
 ]
 }

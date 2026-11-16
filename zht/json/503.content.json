@@ -3,9 +3,9 @@
 "content_id": "295669",
 "reference_id": 2023,
 "version": "1.0.4",
-"title": "公會",
+"title": "猶太公會",
 "media_type": "Image",
-"index_reference": "公會",
+"index_reference": "猶太公會",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0788_sanhedrin.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0788_sanhedrin.jpg'>link</a></p></block>",
@@ -154,6 +154,13 @@
 "preferred_label": "保羅"
 },
 {
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "法利賽人"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3114,
@@ -161,11 +168,11 @@
 "preferred_label": "耶穌"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.3114,
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2409,
 "match_method": "canonical",
-"preferred_label": "法利賽人"
+"preferred_label": "名"
 },
 {
 "id": "group:Jews",
@@ -182,32 +189,11 @@
 "preferred_label": "作見證"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "名"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
 "preferred_label": "會堂"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "訴訟案件"
-},
-{
-"id": "keyterm:Gehenna",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "地獄"
 },
 {
 "id": "person:Gamaliel",
@@ -217,53 +203,25 @@
 "preferred_label": "迦瑪列"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "耶和華"
-},
-{
-"id": "keyterm:Good",
+"id": "keyterm:Gehenna",
 "type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "好（道德）"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "彼拉多"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "復活（事件）"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1705,
+"confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "地獄"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1705,
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "訴訟案件"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "求（懇求）"
+"preferred_label": "審判"
 },
 {
 "id": "keyterm:Decision",
@@ -280,25 +238,11 @@
 "preferred_label": "判定"
 },
 {
-"id": "keyterm:UnrighteousAct",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "不義之行"
-},
-{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "良心"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "天使"
 },
 {
 "id": "keyterm:Example",
@@ -308,18 +252,11 @@
 "preferred_label": "象徵（記號）"
 },
 {
-"id": "group:Sadducee",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "撒都該人"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "行事"
+"preferred_label": "耶和華"
 },
 {
 "id": "keyterm:SomethingDefinite",
@@ -329,6 +266,41 @@
 "preferred_label": "確實的事"
 },
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "行事"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "求（懇求）"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "地獄"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "彼拉多"
+},
+{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -336,18 +308,39 @@
 "preferred_label": "盼望"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "審判"
+"preferred_label": "復活（事件）"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1105,
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "聖殿"
+"preferred_label": "好（道德）"
+},
+{
+"id": "keyterm:UnrighteousAct",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "不義之行"
+},
+{
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "撒都該人"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "天使"
 },
 {
 "id": "realia:Prison",
@@ -355,6 +348,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "監牢"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "聖殿"
 }
 ]
 }

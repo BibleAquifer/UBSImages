@@ -3,9 +3,9 @@
 "content_id": "282742",
 "reference_id": 2159,
 "version": "1.0.4",
-"title": "Créatures Vivantes Lorvão",
+"title": "Quatre êtres vivants : Manuscrit de Lorvão",
 "media_type": "Image",
-"index_reference": "créatures vivantes lorvão",
+"index_reference": "quatre êtres vivants  manuscrit de lorvão",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg'>link</a></p></block>",
@@ -159,6 +159,13 @@
 "preferred_label": "troisième être vivant"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "deuxième être vivant"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
@@ -173,18 +180,11 @@
 "preferred_label": "quatrième être vivant"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "deuxième être vivant"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "certainement !"
+"preferred_label": "saint"
 },
 {
 "id": "keyterm:Life",
@@ -194,18 +194,18 @@
 "preferred_label": "vie"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "saint"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "toujours"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "certainement !"
 },
 {
 "id": "realia:Bowl.2",
@@ -215,25 +215,18 @@
 "preferred_label": "bol"
 },
 {
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "racheter"
+},
+{
 "id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "agir injustement"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "esprit"
 },
 {
 "id": "keyterm:Pray",
@@ -243,6 +236,20 @@
 "preferred_label": "prier"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "esprit"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "gloire"
+},
+{
 "id": "deity:Voice",
 "type": "deity",
 "confidence": 0.1765,
@@ -250,11 +257,11 @@
 "preferred_label": "voix désincarnée"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "racheter"
+"preferred_label": "denier"
 },
 {
 "id": "realia:Balance",
@@ -271,48 +278,6 @@
 "preferred_label": "mesure"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "denier"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "lion"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "encens"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "cheval"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "huile d'olive"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1165,
@@ -320,18 +285,11 @@
 "preferred_label": "orge"
 },
 {
-"id": "realia:Lyre",
-"type": "realia",
+"id": "fauna:Vulture",
+"type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "lyre"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "rouleau"
+"preferred_label": "vautour"
 },
 {
 "id": "flora:Wheat",
@@ -341,11 +299,53 @@
 "preferred_label": "blé"
 },
 {
-"id": "fauna:Vulture",
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "encens"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "lyre"
+},
+{
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "vautour"
+"preferred_label": "gros bétail"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "huile d'olive"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "lion"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "cheval"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "rouleau"
 },
 {
 "id": "realia:Wine",

@@ -309,18 +309,18 @@
 "preferred_label": "दण्डवत करना"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "मुहर"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2829,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "मुहर"
 },
 {
 "id": "deity:Angel",
@@ -337,6 +337,13 @@
 "preferred_label": "तीसरा प्राणी"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "दूसरा प्राणी"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.231,
@@ -351,13 +358,6 @@
 "preferred_label": "चौथा प्राणी"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "दूसरा प्राणी"
-},
-{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2221,
@@ -365,18 +365,11 @@
 "preferred_label": "सनी का कपड़ा"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "सचमुच!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "कबार"
+"preferred_label": "पवित्र"
 },
 {
 "id": "person:Israel",
@@ -393,11 +386,11 @@
 "preferred_label": "जीवन"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
+"preferred_label": "कबार"
 },
 {
 "id": "keyterm:Always",
@@ -407,11 +400,11 @@
 "preferred_label": "सदा"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1614,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "सिंह"
+"preferred_label": "सचमुच!"
 },
 {
 "id": "fauna:Vulture",
@@ -421,11 +414,25 @@
 "preferred_label": "गिद्ध"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "सिंह"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "कटोरा"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "छुड़ाना"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -435,13 +442,6 @@
 "preferred_label": "बुराई करना"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "आत्मा"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1607,
@@ -449,11 +449,11 @@
 "preferred_label": "प्रार्थना करना"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "एक अशरीरी आवाज़"
+"preferred_label": "आत्मा"
 },
 {
 "id": "keyterm:Fear",
@@ -463,11 +463,18 @@
 "preferred_label": "भय"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "छुड़ाना"
+"preferred_label": "एक अशरीरी आवाज़"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "दीनार"
 },
 {
 "id": "realia:Balance",
@@ -484,11 +491,18 @@
 "preferred_label": "क्वार्ट"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "दीनार"
+"preferred_label": "जौ"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
 },
 {
 "id": "realia:Incense",
@@ -498,18 +512,18 @@
 "preferred_label": "धूप"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "सारंगी"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "गाय-बैल"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "घोड़ा"
 },
 {
 "id": "realia:OliveOil",
@@ -519,18 +533,11 @@
 "preferred_label": "जैतून का तेल"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "जौ"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "सारंगी"
+"preferred_label": "घोड़ा"
 },
 {
 "id": "realia:Scroll",
@@ -538,13 +545,6 @@
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "चर्मपत्र का पुलिंदा"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "गेहूँ"
 },
 {
 "id": "realia:Wine",

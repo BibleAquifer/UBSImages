@@ -3,9 +3,9 @@
 "content_id": "288699",
 "reference_id": 1585,
 "version": "1.0.4",
-"title": "Samaki En",
+"title": "Samaki",
 "media_type": "Image",
-"index_reference": "samaki en",
+"index_reference": "samaki",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0225_fish_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0225_fish_en.jpg'>link</a></p></block>",
@@ -382,13 +382,6 @@
 "preferred_label": "Wavu wa Kurusha"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2755,
-"match_method": "canonical",
-"preferred_label": "Misri"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2755,
@@ -396,11 +389,11 @@
 "preferred_label": "Mbingu"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.274,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2755,
 "match_method": "canonical",
-"preferred_label": "Mjusi"
+"preferred_label": "Misri"
 },
 {
 "id": "fauna:Chameleon",
@@ -417,11 +410,18 @@
 "preferred_label": "Kenge"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.274,
+"match_method": "canonical",
+"preferred_label": "Mjusi"
+},
+{
+"id": "group:Egypt",
+"type": "group",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "Yona"
+"preferred_label": "Wamisri"
 },
 {
 "id": "place:Nile",
@@ -431,11 +431,11 @@
 "preferred_label": "Mto Naili"
 },
 {
-"id": "group:Egypt",
-"type": "group",
+"id": "person:Jonah.2",
+"type": "person",
 "confidence": 0.217,
 "match_method": "canonical",
-"preferred_label": "Wamisri"
+"preferred_label": "Yona"
 },
 {
 "id": "fauna:Bird",
@@ -452,13 +452,6 @@
 "preferred_label": "nyoka"
 },
 {
-"id": "keyterm:Semblance",
-"type": "keyterm",
-"confidence": 0.1623,
-"match_method": "canonical",
-"preferred_label": "Sura"
-},
-{
 "id": "place:Eneglaim",
 "type": "place",
 "confidence": 0.1623,
@@ -466,46 +459,11 @@
 "preferred_label": "En-Eglaimu"
 },
 {
-"id": "place:Engedi",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "En-Gedi"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Semblance",
 "type": "keyterm",
-"confidence": 0.1585,
+"confidence": 0.1623,
 "match_method": "canonical",
-"preferred_label": "Mwili"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Kuzimu"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Kikundi cha Wanafunzi"
+"preferred_label": "Sura"
 },
 {
 "id": "keyterm:Sabbath",
@@ -515,18 +473,53 @@
 "preferred_label": "Sabato"
 },
 {
-"id": "keyterm:Authority.2",
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Kikundi cha Wanafunzi"
+},
+{
+"id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Mamlaka"
+"preferred_label": "Mwili"
 },
 {
-"id": "person:Judah.4",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Yuda"
+"preferred_label": "Petro"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Kabila la Yuda"
+},
+{
+"id": "place:GreatSea",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Bahari ya Mediterania"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Moyo"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Tiro"
 },
 {
 "id": "keyterm:Strength",
@@ -536,11 +529,18 @@
 "preferred_label": "Nguvu"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Sulemani"
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "place:Engedi",
+"type": "place",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "En-Gedi"
 }
 ]
 }

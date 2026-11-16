@@ -149,13 +149,6 @@
 "preferred_label": "Samson"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Filistiya"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.39,
@@ -170,25 +163,18 @@
 "preferred_label": "Ƙarfi"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Filistiya"
+},
+{
 "id": "person:Delilah",
 "type": "person",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "Delila"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "Igiya"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "baka"
 },
 {
 "id": "realia:Thread",
@@ -198,6 +184,13 @@
 "preferred_label": "Zare"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "baka"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
@@ -205,11 +198,32 @@
 "preferred_label": "Gida"
 },
 {
-"id": "keyterm:Shield",
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "Igiya"
+},
+{
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Garkuwa"
+"preferred_label": "Ceto"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Kewaye"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Lehi"
 },
 {
 "id": "place:Jerusalem",
@@ -217,6 +231,13 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Urushalima"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Garkuwa"
 },
 {
 "id": "person:Israel",
@@ -233,27 +254,6 @@
 "preferred_label": "Yin annabci"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Kewaye"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Ceto"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Lehi"
-},
-{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
@@ -268,11 +268,11 @@
 "preferred_label": "Akuya"
 },
 {
-"id": "realia:MeasuringReed",
-"type": "realia",
+"id": "flora:Flax",
+"type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Karan awo"
+"preferred_label": "Rama"
 },
 {
 "id": "realia:Hammer",
@@ -282,13 +282,6 @@
 "preferred_label": "Guduma"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Ƙaramar garkuwa"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1125,
@@ -296,18 +289,25 @@
 "preferred_label": "Ɗan rago"
 },
 {
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Ƙaramar garkuwa"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Karan awo"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "Garke"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Rama"
 }
 ]
 }

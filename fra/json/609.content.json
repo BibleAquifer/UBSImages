@@ -3,9 +3,9 @@
 "content_id": "282734",
 "reference_id": 2151,
 "version": "1.0.4",
-"title": "Nebo-Pisgah",
+"title": "Vue depuis la région du mont Nébo et du Pisga",
 "media_type": "Image",
-"index_reference": "nebopisgah",
+"index_reference": "vue depuis la région du mont nébo et du pisga",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0671_nebo-pisgah.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0671_nebo-pisgah.jpg'>link</a></p></block>",
@@ -96,18 +96,18 @@
 "preferred_label": "mer Morte"
 },
 {
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.385,
-"match_method": "canonical",
-"preferred_label": "Jourdain"
-},
-{
 "id": "place:Arabah",
 "type": "place",
 "confidence": 0.385,
 "match_method": "canonical",
 "preferred_label": "Arabah"
+},
+{
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.385,
+"match_method": "canonical",
+"preferred_label": "Jourdain"
 },
 {
 "id": "place:Beth-jeshimoth",
@@ -138,13 +138,6 @@
 "preferred_label": "Kinnéreth"
 },
 {
-"id": "place:Bamoth",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Bamoth"
-},
-{
 "id": "place:Beth-peor",
 "type": "place",
 "confidence": 0.215,
@@ -166,18 +159,11 @@
 "preferred_label": "Tsophim"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.195,
+"id": "place:Bamoth",
+"type": "place",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Moïse"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "Bamoth"
 },
 {
 "id": "place:GalileeSea",
@@ -194,25 +180,32 @@
 "preferred_label": "Dan"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Moïse"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "place:Nebo",
+"type": "place",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Nebo"
+},
+{
 "id": "place:MoabPlains",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "plaines de Moab"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Canaan"
 },
 {
 "id": "group:Dan",
@@ -229,18 +222,25 @@
 "preferred_label": "Galaad"
 },
 {
-"id": "place:Nebo",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "place:Canaan",
 "type": "place",
 "confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "Nebo"
+"preferred_label": "Canaan"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "realia:TempleAltar",
+"type": "realia",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "gros bétail"
+"preferred_label": "autel du Temple"
 },
 {
 "id": "realia:Altar",
@@ -248,6 +248,13 @@
 "confidence": 0.135,
 "match_method": "canonical",
 "preferred_label": "autel"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.135,
+"match_method": "canonical",
+"preferred_label": "agneau"
 },
 {
 "id": "realia:StoneAltar",
@@ -264,18 +271,11 @@
 "preferred_label": "autel du tabernacle"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.135,
-"match_method": "canonical",
-"preferred_label": "autel du Temple"
-},
-{
-"id": "fauna:Lamb",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.135,
 "match_method": "canonical",
-"preferred_label": "agneau"
+"preferred_label": "gros bétail"
 }
 ]
 }

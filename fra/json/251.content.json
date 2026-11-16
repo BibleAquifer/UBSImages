@@ -282,13 +282,6 @@
 "preferred_label": "autel du tabernacle"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "autel"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1733,
@@ -296,11 +289,18 @@
 "preferred_label": "arche de l'alliance"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
+"id": "realia:TempleAltar",
+"type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "acacia"
+"preferred_label": "autel du Temple"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "autel"
 },
 {
 "id": "realia:StoneAltar",
@@ -317,6 +317,13 @@
 "preferred_label": "maison"
 },
 {
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "acacia"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1733,
@@ -324,18 +331,18 @@
 "preferred_label": "tente"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "autel du Temple"
-},
-{
-"id": "group:Tishbite",
-"type": "group",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Thischbites"
+"preferred_label": "Pierre"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Élie"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -343,6 +350,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "purifier"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "saint"
 },
 {
 "id": "keyterm:Instruction",
@@ -359,25 +373,11 @@
 "preferred_label": "Thischbé"
 },
 {
-"id": "person:Elijah",
-"type": "person",
+"id": "group:Tishbite",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Élie"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "saint"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Pierre"
+"preferred_label": "Thischbites"
 },
 {
 "id": "realia:Fork",
@@ -387,18 +387,18 @@
 "preferred_label": "fourchette"
 },
 {
-"id": "realia:Shovel",
-"type": "realia",
-"confidence": 0.1141,
-"match_method": "canonical",
-"preferred_label": "pelle"
-},
-{
 "id": "realia:Belt",
 "type": "realia",
 "confidence": 0.1141,
 "match_method": "canonical",
 "preferred_label": "ceinture"
+},
+{
+"id": "realia:Shovel",
+"type": "realia",
+"confidence": 0.1141,
+"match_method": "canonical",
+"preferred_label": "pelle"
 },
 {
 "id": "realia:Screen",

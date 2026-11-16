@@ -365,13 +365,6 @@
 "preferred_label": "賜福（認可）"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "地獄"
-},
-{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.2161,
@@ -386,6 +379,20 @@
 "preferred_label": "慈愛（團結互助）"
 },
 {
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "地獄"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "救贖"
+},
+{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.158,
@@ -393,11 +400,11 @@
 "preferred_label": "尋求庇護"
 },
 {
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "有洞察力"
+"preferred_label": "紅海"
 },
 {
 "id": "keyterm:Just",
@@ -407,11 +414,11 @@
 "preferred_label": "顯為公義／行事公正"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "約瑟"
+"preferred_label": "有洞察力"
 },
 {
 "id": "keyterm:Arrow",
@@ -428,18 +435,11 @@
 "preferred_label": "挪亞"
 },
 {
-"id": "place:RedSea",
-"type": "place",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "紅海"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "黎巴嫩"
+"preferred_label": "懼怕"
 },
 {
 "id": "keyterm:Horn",
@@ -449,18 +449,18 @@
 "preferred_label": "角"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:Joseph.10",
+"type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "懼怕"
+"preferred_label": "約瑟"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "救贖"
+"preferred_label": "黎巴嫩"
 },
 {
 "id": "realia:Throne",
@@ -470,25 +470,11 @@
 "preferred_label": "寶座"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "手磨"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "有翅膀的活物"
-},
-{
-"id": "fauna:Horse",
+"id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "馬"
+"preferred_label": "龍"
 },
 {
 "id": "realia:Foundation",
@@ -505,11 +491,11 @@
 "preferred_label": "香蒲"
 },
 {
-"id": "realia:House",
+"id": "realia:Trap",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "房屋"
+"preferred_label": "機檻"
 },
 {
 "id": "fauna:Lamb",
@@ -519,18 +505,32 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "龍"
-},
-{
-"id": "realia:Trap",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "機檻"
+"preferred_label": "房屋"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "有翅膀的活物"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "手磨"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "馬"
 }
 ]
 }

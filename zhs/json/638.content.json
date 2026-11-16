@@ -75,6 +75,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "圣殿祭坛"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
@@ -94,13 +101,6 @@
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "祭坛"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "圣殿祭坛"
 },
 {
 "id": "deity:Asherah",
@@ -131,18 +131,18 @@
 "preferred_label": "像"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "耶和华"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "以色列"
 },
 {
 "id": "person:Judah.4",
@@ -152,11 +152,11 @@
 "preferred_label": "犹大"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "犹大支派"
+"preferred_label": "以色列"
 },
 {
 "id": "deity:Baal",
@@ -173,6 +173,13 @@
 "preferred_label": "丘坛"
 },
 {
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "石松"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
@@ -180,11 +187,25 @@
 "preferred_label": "雕刻的偶像"
 },
 {
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.23,
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "石松"
+"preferred_label": "汲沦谷"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "训诲"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "饶恕"
 },
 {
 "id": "keyterm:Destroy",
@@ -206,27 +227,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "犯罪"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "训诲"
-},
-{
-"id": "place:Kidron",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "汲沦谷"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "饶恕"
 },
 {
 "id": "realia:MoltenImage",

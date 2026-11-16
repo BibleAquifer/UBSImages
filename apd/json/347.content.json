@@ -3,9 +3,9 @@
 "content_id": "293632",
 "reference_id": 1852,
 "version": "1.0.4",
-"title": "مدفن",
+"title": "جوة القبر",
 "media_type": "Image",
-"index_reference": "مدفن",
+"index_reference": "جوة القبر",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0467_burial.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0467_burial.jpg'>link</a></p></block>",
@@ -70,13 +70,6 @@
 "preferred_label": "قبر"
 },
 {
-"id": "keyterm:Week",
-"type": "keyterm",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "أسبوع"
-},
-{
 "id": "person:Hamor",
 "type": "person",
 "confidence": 0.2313,
@@ -84,11 +77,18 @@
 "preferred_label": "حمور"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "أسبوع"
+},
+{
+"id": "keyterm:Lawful",
+"type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "داود"
+"preferred_label": "جايز"
 },
 {
 "id": "deity:Demons",
@@ -112,11 +112,11 @@
 "preferred_label": "شكيم"
 },
 {
-"id": "keyterm:Lawful",
-"type": "keyterm",
+"id": "person:David",
+"type": "person",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "جايز"
+"preferred_label": "داود"
 },
 {
 "id": "realia:Chain",
@@ -126,18 +126,18 @@
 "preferred_label": "سلسلة"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "هدوم"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "بيت"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "كتان"
 },
 {
 "id": "realia:Aloes",
@@ -147,11 +147,11 @@
 "preferred_label": "عود الصندل"
 },
 {
-"id": "realia:Linen",
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "كتان"
+"preferred_label": "هدوم"
 }
 ]
 }

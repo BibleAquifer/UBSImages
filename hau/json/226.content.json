@@ -3,9 +3,9 @@
 "content_id": "289778",
 "reference_id": 1731,
 "version": "1.0.4",
-"title": "Ƙaya",
+"title": "Ƙayar yawo",
 "media_type": "Image",
-"index_reference": "ƙaya",
+"index_reference": "ƙayar yawo",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0868_milk_thistle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0868_milk_thistle.jpg'>link</a></p></block>",
@@ -155,18 +155,18 @@
 "preferred_label": "Sarƙaƙƙiya"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.4829,
-"match_method": "canonical",
-"preferred_label": "Itacen ƙaya"
-},
-{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.4829,
 "match_method": "canonical",
 "preferred_label": "Ƙirya"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.4829,
+"match_method": "canonical",
+"preferred_label": "Itacen ƙaya"
 },
 {
 "id": "person:Israel",
@@ -183,11 +183,11 @@
 "preferred_label": "Amaziya"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Lebanon"
+"preferred_label": "Ƙabilar Yahuda"
 },
 {
 "id": "person:Judah.4",
@@ -197,13 +197,6 @@
 "preferred_label": "Yahuda"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Ƙabilar Yahuda"
-},
-{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.2429,
@@ -211,18 +204,18 @@
 "preferred_label": "Yowash"
 },
 {
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Lebanon"
+},
+{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.1924,
 "match_method": "canonical",
 "preferred_label": "Sarƙaƙƙiya"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "Itacen inabi"
 },
 {
 "id": "flora:Fig",
@@ -239,95 +232,18 @@
 "preferred_label": "Al’ul"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "Itacen inabi"
+},
+{
 "id": "keyterm:DailyLife",
 "type": "keyterm",
 "confidence": 0.181,
 "match_method": "canonical",
 "preferred_label": "Rayuwar Yau da Kullum"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Cikakke"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "UBANGIJI"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Ƙwace mallaka"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Zalmunna"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Fasaha"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Gideyon"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Masar"
-},
-{
-"id": "place:Memphis",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Memfis"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Karin magana"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Sukkot"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Ayuba"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Har abada"
 },
 {
 "id": "person:Zebah",
@@ -337,6 +253,13 @@
 "preferred_label": "Zeba"
 },
 {
+"id": "place:Memphis",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Memfis"
+},
+{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -344,39 +267,81 @@
 "preferred_label": "Marar azanci"
 },
 {
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.1114,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Ciyawa marar amfani"
+"preferred_label": "UBANGIJI"
 },
 {
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1114,
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Rami"
+"preferred_label": "Zalmunna"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1114,
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Kuɗi"
+"preferred_label": "Karin magana"
 },
 {
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1114,
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Lili"
+"preferred_label": "Ƙwace mallaka"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1114,
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Dila"
+"preferred_label": "Har abada"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Masar"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Gideyon"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Fasaha"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sukkot"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Cikakke"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Ayuba"
 },
 {
 "id": "flora:Barley",
@@ -386,18 +351,25 @@
 "preferred_label": "Sha’ir"
 },
 {
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Mujiya"
-},
-{
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "jimina"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Dila"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Kuɗi"
 },
 {
 "id": "flora:Wheat",
@@ -407,11 +379,39 @@
 "preferred_label": "Alkama"
 },
 {
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Lili"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Almug"
+},
+{
+"id": "flora:Weed",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Ciyawa marar amfani"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Mujiya"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Rami"
 }
 ]
 }

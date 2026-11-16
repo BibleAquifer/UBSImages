@@ -168,13 +168,6 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "अशुद्ध करना"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3114,
@@ -194,6 +187,13 @@
 "confidence": 0.3114,
 "match_method": "canonical",
 "preferred_label": "शुद्ध"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "अशुद्ध करना"
 },
 {
 "id": "fauna:Ibex",
@@ -224,6 +224,13 @@
 "preferred_label": "बेतेर"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "उद्धार"
+},
+{
 "id": "person:Naphtali",
 "type": "person",
 "confidence": 0.1705,
@@ -238,11 +245,11 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "group:GenericGroup",
-"type": "group",
+"id": "keyterm:Strength",
+"type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "लोगों का समूह"
+"preferred_label": "बल"
 },
 {
 "id": "keyterm:Glory",
@@ -252,25 +259,25 @@
 "preferred_label": "तेज"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "उद्धार"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "आशीष देना"
+},
+{
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "लोगों का समूह"
+},
+{
+"id": "fauna:Oryx",
+"type": "fauna",
+"confidence": 0.1195,
+"match_method": "canonical",
+"preferred_label": "नीलगाय"
 },
 {
 "id": "fauna:BubalHartebeest",
@@ -287,13 +294,6 @@
 "preferred_label": "यखमूर"
 },
 {
-"id": "fauna:Oryx",
-"type": "fauna",
-"confidence": 0.1195,
-"match_method": "canonical",
-"preferred_label": "नीलगाय"
-},
-{
 "id": "fauna:Addax",
 "type": "fauna",
 "confidence": 0.1195,
@@ -308,25 +308,11 @@
 "preferred_label": "बकरी"
 },
 {
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "धनुष"
-},
-{
 "id": "flora:BalsamTree",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "बलसान का वृक्ष"
-},
-{
-"id": "flora:GreenVegetation",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "हरी घास"
 },
 {
 "id": "realia:Window",
@@ -336,6 +322,20 @@
 "preferred_label": "खिड़की"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "धनुष"
+},
+{
+"id": "flora:GreenVegetation",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "हरी घास"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1105,
@@ -343,18 +343,18 @@
 "preferred_label": "घर"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "झुंड"
-},
-{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "चन्दन"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "झुंड"
 }
 ]
 }

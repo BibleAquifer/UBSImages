@@ -199,6 +199,13 @@
 "preferred_label": "bàn thờ Đền Tạm"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3938,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đền thờ"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3938,
@@ -218,13 +225,6 @@
 "confidence": 0.3938,
 "match_method": "canonical",
 "preferred_label": "nhà"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3938,
-"match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
 },
 {
 "id": "realia:BreadOfDisplay",
@@ -262,6 +262,13 @@
 "preferred_label": "Đền Thờ"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "thánh"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2346,
@@ -274,13 +281,6 @@
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "Sa-lô-môn"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "thánh"
 },
 {
 "id": "realia:Dish",
@@ -297,25 +297,11 @@
 "preferred_label": "A-bia-tha"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Lều Hội Kiến"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "Hòm Giao Ước"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "bức màn"
 },
 {
 "id": "realia:Cubit",
@@ -332,11 +318,25 @@
 "preferred_label": "bình"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "bức màn"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Lều Hội Kiến"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Nơi Thánh"
+"preferred_label": "Ê-xê-chia"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -346,11 +346,11 @@
 "preferred_label": "Hòm Giao Ước"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
+"id": "place:HolyPlace",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Ê-xê-chia"
+"preferred_label": "Nơi Thánh"
 },
 {
 "id": "realia:TheHolyPlace",
@@ -367,20 +367,6 @@
 "preferred_label": "Đền Tạm"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Vải màu tím tía"
-},
-{
-"id": "realia:MostHolyPlace",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Nơi Chí Thánh"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.1073,
@@ -395,11 +381,25 @@
 "preferred_label": "đèn dầu"
 },
 {
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Vải màu tím tía"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Rượu nho"
+},
+{
+"id": "realia:MostHolyPlace",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Nơi Chí Thánh"
 }
 ]
 }

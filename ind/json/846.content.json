@@ -3,9 +3,9 @@
 "content_id": "284845",
 "reference_id": 2396,
 "version": "1.0.4",
-"title": "Kerudung",
+"title": "Pakaian dengan cadar",
 "media_type": "Image",
-"index_reference": "kerudung",
+"index_reference": "pakaian dengan cadar",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg'>link</a></p></block>",
@@ -209,6 +209,13 @@
 "preferred_label": "kerudung"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.23,
@@ -223,13 +230,6 @@
 "preferred_label": "Libanon"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "kudus"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1767,
@@ -237,11 +237,11 @@
 "preferred_label": "delima"
 },
 {
-"id": "group:GenericChurch",
-"type": "group",
+"id": "place:Timnah",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Gereja"
+"preferred_label": "Timna"
 },
 {
 "id": "keyterm:Praise",
@@ -258,18 +258,11 @@
 "preferred_label": "Enaim"
 },
 {
-"id": "place:HermonMount",
-"type": "place",
+"id": "group:GenericChurch",
+"type": "group",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Gunung Hermon"
-},
-{
-"id": "place:Timnah",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Timna"
+"preferred_label": "Gereja"
 },
 {
 "id": "place:Amana",
@@ -279,18 +272,11 @@
 "preferred_label": "Gunung Amana"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.17,
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "batu kilangan tangan"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.17,
-"match_method": "canonical",
-"preferred_label": "pokok anggur"
+"preferred_label": "Gunung Hermon"
 },
 {
 "id": "flora:BalsamTree",
@@ -300,6 +286,20 @@
 "preferred_label": "pohon balsam"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "pokok anggur"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "batu kilangan tangan"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.17,
@@ -307,18 +307,39 @@
 "preferred_label": "anggur"
 },
 {
-"id": "person:GenericServant",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Seorang Pelayan"
-},
-{
-"id": "keyterm:Priesthood",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "imamat"
+"preferred_label": "keselamatan"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Roh Kudus"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "memerintahkan"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "langit"
 },
 {
 "id": "person:GenericPerson",
@@ -335,6 +356,27 @@
 "preferred_label": "kebaikan"
 },
 {
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "imamat"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Gilead"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.165,
@@ -349,27 +391,6 @@
 "preferred_label": "kehidupan"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "memerintahkan"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "keselamatan"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.165,
@@ -377,18 +398,11 @@
 "preferred_label": "Malaikat"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:GenericServant",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Suku Yehuda"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Gilead"
+"preferred_label": "Seorang Pelayan"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -396,20 +410,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "sumber sukacita"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "langit"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Roh Kudus"
 },
 {
 "id": "person:Shelah",
@@ -426,13 +426,6 @@
 "preferred_label": "jubah"
 },
 {
-"id": "realia:Bowl.2",
-"type": "realia",
-"confidence": 0.1117,
-"match_method": "canonical",
-"preferred_label": "pinggan"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.1117,
@@ -440,11 +433,11 @@
 "preferred_label": "ikat kepala"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.105,
+"id": "realia:Bowl.2",
+"type": "realia",
+"confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "singa"
+"preferred_label": "pinggan"
 },
 {
 "id": "fauna:Goat",
@@ -461,39 +454,11 @@
 "preferred_label": "jubah"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Minyak urapan"
-},
-{
-"id": "flora:Myrrh",
-"type": "flora",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "mur"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "jubah panjang"
-},
-{
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "macan tutul"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "minyak zaitun"
 },
 {
 "id": "realia:Thread",
@@ -503,25 +468,11 @@
 "preferred_label": "benang"
 },
 {
-"id": "realia:Lamp",
-"type": "realia",
+"id": "flora:Myrrh",
+"type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "lampu"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "rumah"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "kawanan domba"
+"preferred_label": "mur"
 },
 {
 "id": "fauna:Dove",
@@ -531,11 +482,60 @@
 "preferred_label": "merpati"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "rumah"
+},
+{
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "macan tutul"
+},
+{
+"id": "realia:Lamp",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "lampu"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "anting-anting"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "minyak zaitun"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "singa"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Minyak urapan"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "kawanan domba"
 }
 ]
 }

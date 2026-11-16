@@ -171,11 +171,11 @@
 "preferred_label": "thợ thủ công"
 },
 {
-"id": "realia:Peg.2",
+"id": "realia:Peg",
 "type": "realia",
 "confidence": 0.1979,
 "match_method": "canonical",
-"preferred_label": "cọc móc"
+"preferred_label": "cọc lều"
 },
 {
 "id": "realia:Nail",
@@ -185,11 +185,11 @@
 "preferred_label": "đinh"
 },
 {
-"id": "realia:Peg",
+"id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.1979,
 "match_method": "canonical",
-"preferred_label": "cọc lều"
+"preferred_label": "cọc móc"
 },
 {
 "id": "realia:CoverLid",
@@ -199,13 +199,6 @@
 "preferred_label": "nắp thi ân"
 },
 {
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "Sinh vật có cánh"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1874,
@@ -213,11 +206,11 @@
 "preferred_label": "Tiền bạc"
 },
 {
-"id": "person:Heber.2",
-"type": "person",
-"confidence": 0.1842,
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "Hê-be"
+"preferred_label": "Sinh vật có cánh"
 },
 {
 "id": "person:Jael",
@@ -227,11 +220,25 @@
 "preferred_label": "Gia-ên"
 },
 {
+"id": "person:Heber.2",
+"type": "person",
+"confidence": 0.1842,
+"match_method": "canonical",
+"preferred_label": "Hê-be"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Môi-se"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Ba-by-lôn"
 },
 {
 "id": "person:Aaron",
@@ -248,25 +255,18 @@
 "preferred_label": "Si-sê-ra"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Bộ tộc Lê-vi"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Ba-by-lôn"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "Sức mạnh"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Bộ tộc Lê-vi"
 },
 {
 "id": "deity:Angel",
@@ -283,13 +283,6 @@
 "preferred_label": "Lê-vi"
 },
 {
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1242,
-"match_method": "canonical",
-"preferred_label": "Kèn"
-},
-{
 "id": "realia:Anvil",
 "type": "realia",
 "confidence": 0.1242,
@@ -297,25 +290,11 @@
 "preferred_label": "Cái đe"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Trumpet",
 "type": "realia",
-"confidence": 0.1137,
+"confidence": 0.1242,
 "match_method": "canonical",
-"preferred_label": "Vải màu tím tía"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Cây sậy đo"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Vải gai"
+"preferred_label": "Kèn"
 },
 {
 "id": "realia:Thread",
@@ -323,13 +302,6 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "Sợi chỉ"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "nhà"
 },
 {
 "id": "realia:Tent",
@@ -351,6 +323,34 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "Cây gậy"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "nhà"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Vải gai"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Cây sậy đo"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Vải màu tím tía"
 }
 ]
 }

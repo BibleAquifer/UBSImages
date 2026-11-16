@@ -281,13 +281,6 @@
 "preferred_label": "hierba"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2257,
@@ -295,11 +288,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "realia:Homer",
-"type": "realia",
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "homer"
+"preferred_label": "granado"
 },
 {
 "id": "flora:GreenVegetation",
@@ -309,11 +309,11 @@
 "preferred_label": "vegetación verde"
 },
 {
-"id": "flora:Pomegranate",
-"type": "flora",
+"id": "realia:Homer",
+"type": "realia",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "granado"
+"preferred_label": "homer"
 },
 {
 "id": "person:Agag",
@@ -337,27 +337,6 @@
 "preferred_label": "casa"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "desposeer"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "José"
-},
-{
 "id": "place:BrookOfEgypt",
 "type": "place",
 "confidence": 0.1629,
@@ -365,18 +344,18 @@
 "preferred_label": "Torrente de Egipto"
 },
 {
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "creer en"
+"preferred_label": "tribu de Judá"
 },
 {
-"id": "keyterm:Truth",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "verdad"
+"preferred_label": "desposeer"
 },
 {
 "id": "person:Judah.4",
@@ -393,18 +372,18 @@
 "preferred_label": "río Nilo"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "tribu de Judá"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "bendecir"
+},
+{
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "creer en"
 },
 {
 "id": "keyterm:Pure",
@@ -414,18 +393,25 @@
 "preferred_label": "puro"
 },
 {
-"id": "realia:Acre",
-"type": "realia",
-"confidence": 0.1086,
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "yugada"
+"preferred_label": "José"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1086,
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "efa"
+"preferred_label": "verdad"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "contaminación"
 },
 {
 "id": "flora:Willow",
@@ -435,6 +421,20 @@
 "preferred_label": "sauce"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1086,
+"match_method": "canonical",
+"preferred_label": "efa"
+},
+{
+"id": "realia:Acre",
+"type": "realia",
+"confidence": 0.1086,
+"match_method": "canonical",
+"preferred_label": "yugada"
+},
+{
 "id": "realia:Bath",
 "type": "realia",
 "confidence": 0.1029,
@@ -442,74 +442,11 @@
 "preferred_label": "bato"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "olivo"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "ganado vacuno"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "altar"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "dinero"
-},
-{
-"id": "realia:ThreshingFloor",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "era"
-},
-{
-"id": "realia:Mattock",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "azadón"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "altar de piedra"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "altar del tabernáculo"
-},
-{
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "mosto"
-},
-{
-"id": "realia:Seah",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "seah"
 },
 {
 "id": "realia:Sheaf",
@@ -526,6 +463,20 @@
 "preferred_label": "siclo"
 },
 {
+"id": "realia:Mattock",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "azadón"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "dinero"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1029,
@@ -533,11 +484,46 @@
 "preferred_label": "altar del templo"
 },
 {
-"id": "realia:Tent",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "tienda"
+"preferred_label": "altar"
+},
+{
+"id": "realia:Seah",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "seah"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "altar de piedra"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "altar del tabernáculo"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "ganado vacuno"
+},
+{
+"id": "realia:ThreshingFloor",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "era"
 },
 {
 "id": "fauna:Locust",
@@ -545,6 +531,20 @@
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "langosta"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "olivo"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "tienda"
 }
 ]
 }

@@ -234,11 +234,11 @@
 "preferred_label": "Yazer"
 },
 {
-"id": "place:JazerSea",
+"id": "place:Sibmah",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Tekun Yazer"
+"preferred_label": "Sibma"
 },
 {
 "id": "place:EshcolValley",
@@ -248,11 +248,11 @@
 "preferred_label": "Kwarin Eshkol"
 },
 {
-"id": "place:Sibmah",
+"id": "place:JazerSea",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Sibma"
+"preferred_label": "Tekun Yazer"
 },
 {
 "id": "person:Abiezer",
@@ -262,11 +262,11 @@
 "preferred_label": "Abiyezer"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
+"id": "flora:Barley",
+"type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Lauje"
+"preferred_label": "Sha’ir"
 },
 {
 "id": "flora:Brier",
@@ -276,18 +276,11 @@
 "preferred_label": "Sarƙaƙƙiya"
 },
 {
-"id": "flora:Boxthorn",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Itacen ƙaya"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Ƙirya"
+"preferred_label": "Alkama"
 },
 {
 "id": "flora:Thistle",
@@ -297,18 +290,25 @@
 "preferred_label": "Sarƙaƙƙiya"
 },
 {
-"id": "flora:Barley",
+"id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Sha’ir"
+"preferred_label": "Ƙirya"
 },
 {
-"id": "flora:Wheat",
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Lauje"
+},
+{
+"id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Alkama"
+"preferred_label": "Itacen ƙaya"
 },
 {
 "id": "fauna:Donkey",
@@ -318,116 +318,11 @@
 "preferred_label": "Jaki"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Bashan"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Dogara"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Fir’auna"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Fasaha"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Efraim"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Kāriya"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Urushalima"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Sodom"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Asabbaci"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Nazirawa"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Iko"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Yahuda"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "abin banƙyama"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Wani Mala’ika"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ƙabilar Yahuda"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ba’al"
 },
 {
 "id": "group:Ephraim",
@@ -437,11 +332,102 @@
 "preferred_label": "Ƙabilar Efraim"
 },
 {
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Efraim"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Nazirawa"
+},
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Sodom"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Ƙabilar Yahuda"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Fir’auna"
+},
+{
 "id": "place:Gomorrah",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Gomorra"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Urushalima"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Yahuda"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Bashan"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "abin banƙyama"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Dogara"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Fasaha"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Kāriya"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Ba’al"
 },
 {
 "id": "keyterm:Bitter",
@@ -451,18 +437,25 @@
 "preferred_label": "Mai ɗaci"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Wani Mala’ika"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Iko"
+},
+{
 "id": "flora:Chicory",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Ganyaye masu ɗaci"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Hasumiya"
 },
 {
 "id": "flora:Colocynth",
@@ -472,11 +465,11 @@
 "preferred_label": "Kabewar jeji"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1073,
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Akuya"
+"preferred_label": "Hasumiya"
 },
 {
 "id": "realia:RaisinCake",
@@ -486,25 +479,25 @@
 "preferred_label": "Wainar ’ya’yan inabi"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Itacen zaitun"
-},
-{
-"id": "fauna:Bull",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Shanu"
+"preferred_label": "Akuya"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
+"id": "realia:Must",
+"type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Dawa"
+"preferred_label": "Sabon ruwan inabi"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Sura"
 },
 {
 "id": "flora:Pomegranate",
@@ -521,13 +514,6 @@
 "preferred_label": "Haudani"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Sura"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1073,
@@ -535,11 +521,11 @@
 "preferred_label": "Hatsi"
 },
 {
-"id": "realia:Must",
-"type": "realia",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Sabon ruwan inabi"
+"preferred_label": "Ɗan rago"
 },
 {
 "id": "flora:Coriander",
@@ -549,18 +535,32 @@
 "preferred_label": "Koriander"
 },
 {
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Dawa"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Shanu"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Itacen zaitun"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Garke"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Ɗan rago"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "280877",
 "reference_id": 2160,
 "version": "1.0.4",
-"title": "Ol samting i gat laip Manchester",
+"title": "Foa-pela samting i gat laip: Ol rait bilong bipo long Mancester",
 "media_type": "Image",
-"index_reference": "ol samting i gat laip manchester",
+"index_reference": "foapela samting i gat laip ol rait bilong bipo long mancester",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg'>link</a></p></block>",
@@ -353,13 +353,6 @@
 "preferred_label": "Wanpela Ensel"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2783,
-"match_method": "canonical",
-"preferred_label": "samting bilong putim mak"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2783,
@@ -367,11 +360,25 @@
 "preferred_label": "haus"
 },
 {
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2783,
+"match_method": "canonical",
+"preferred_label": "samting bilong putim mak"
+},
+{
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.2277,
 "match_method": "canonical",
 "preferred_label": "Namba 3 Samting i Stap Laip"
+},
+{
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2277,
+"match_method": "canonical",
+"preferred_label": "Namba Tu Samting i Stap Laip"
 },
 {
 "id": "deity:FirstLivingCreature",
@@ -388,25 +395,11 @@
 "preferred_label": "Namba 4 samting i stap laip"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2277,
-"match_method": "canonical",
-"preferred_label": "Namba Tu Samting i Stap Laip"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "I tru tumas!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Kebar"
+"preferred_label": "Holi"
 },
 {
 "id": "keyterm:Life",
@@ -416,11 +409,11 @@
 "preferred_label": "laip"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "Holi"
+"preferred_label": "Kebar"
 },
 {
 "id": "keyterm:Always",
@@ -430,46 +423,18 @@
 "preferred_label": "oltaim oltaim"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "I tru tumas!"
+},
+{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2187,
 "match_method": "canonical",
 "preferred_label": "laplap linen"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Mekim pasin nogut"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "spirit"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Beten"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Nek i No Gat Bodi"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Pret"
 },
 {
 "id": "keyterm:Redeem",
@@ -479,11 +444,39 @@
 "preferred_label": "Baim bek"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1591,
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "laion"
+"preferred_label": "Mekim pasin nogut"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Beten"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "spirit"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Pret"
+},
+{
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Nek i No Gat Bodi"
 },
 {
 "id": "fauna:Vulture",
@@ -493,11 +486,25 @@
 "preferred_label": "Tarangau"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "laion"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
 "preferred_label": "dis"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1038,
+"match_method": "canonical",
+"preferred_label": "denarius"
 },
 {
 "id": "realia:Balance",
@@ -514,11 +521,18 @@
 "preferred_label": "kwat"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1038,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "denarius"
+"preferred_label": "Bali"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "wit"
 },
 {
 "id": "realia:Incense",
@@ -528,18 +542,18 @@
 "preferred_label": "paura bilong kamapim smok i gat gutpela smel"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "gita"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "bulmakau"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "hos"
 },
 {
 "id": "realia:OliveOil",
@@ -549,18 +563,11 @@
 "preferred_label": "wel bilong oliv"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "Bali"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "gita"
+"preferred_label": "hos"
 },
 {
 "id": "realia:Scroll",
@@ -568,13 +575,6 @@
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "skrol"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "wit"
 },
 {
 "id": "realia:Wine",

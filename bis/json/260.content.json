@@ -3,9 +3,9 @@
 "content_id": "291679",
 "reference_id": 1765,
 "version": "1.0.4",
-"title": "Ol flaeg",
+"title": "Stanad",
 "media_type": "Image",
-"index_reference": "ol flaeg",
+"index_reference": "stanad",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0394_standards.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0394_standards.jpg'>link</a></p></block>",
@@ -258,6 +258,20 @@
 "preferred_label": "Isrel"
 },
 {
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "Dan"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "laen blong Juda"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2865,
@@ -265,11 +279,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "group:Dan",
+"type": "group",
 "confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "Dan"
+"preferred_label": "laen blong Dan"
 },
 {
 "id": "place:Jerusalem",
@@ -286,20 +300,6 @@
 "preferred_label": "Juda"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "laen blong Dan"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "laen blong Juda"
-},
-{
 "id": "person:Elizur",
 "type": "person",
 "confidence": 0.2351,
@@ -307,18 +307,18 @@
 "preferred_label": "Elijuru"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2351,
-"match_method": "canonical",
-"preferred_label": "Ahiesa"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2351,
 "match_method": "canonical",
 "preferred_label": "Amihud"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2351,
+"match_method": "canonical",
+"preferred_label": "Ahiesa"
 },
 {
 "id": "person:Shedeur",
@@ -342,11 +342,11 @@
 "preferred_label": "pupu we oli wokem long hon blong sipsip"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Amisadae"
+"preferred_label": "laen blong Efrem"
 },
 {
 "id": "person:Ephraim",
@@ -356,18 +356,18 @@
 "preferred_label": "Efrem"
 },
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Ol Jentael"
+},
+{
 "id": "group:Reuben",
 "type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "laen blong Ruben"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Nason"
 },
 {
 "id": "place:Babylon",
@@ -384,11 +384,18 @@
 "preferred_label": "Aminadab"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Nahshon",
+"type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "laen blong Efrem"
+"preferred_label": "Nason"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Amisadae"
 },
 {
 "id": "person:Reuben",
@@ -396,20 +403,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Ruben"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Ol Jentael"
-},
-{
-"id": "place:Minni",
-"type": "place",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "Mini"
 },
 {
 "id": "deity:Merodach",
@@ -433,6 +426,13 @@
 "preferred_label": "Bel"
 },
 {
+"id": "place:Minni",
+"type": "place",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Mini"
+},
+{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1643,
@@ -447,81 +447,11 @@
 "preferred_label": "putumap"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Glori"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "we God i makemaot"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Laen blong Livae"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Rod blong sevem man"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ararat"
-},
-{
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Sekem"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Lav"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Sukot"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Tabu"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Livae"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Jese"
 },
 {
 "id": "place:Tirzah",
@@ -531,6 +461,41 @@
 "preferred_label": "Tijaha"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Tabu"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Ararat"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Laen blong Livae"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Lav"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Glori"
+},
+{
 "id": "person:Korah.3",
 "type": "person",
 "confidence": 0.1622,
@@ -538,25 +503,39 @@
 "preferred_label": "Kora"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1022,
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "rop blong grep"
+"preferred_label": "Sekem"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "hos"
+"preferred_label": "Sukot"
 },
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "posen snek"
+"preferred_label": "we God i makemaot"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Jese"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Livae"
 },
 {
 "id": "realia:Image",
@@ -564,6 +543,13 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "pija"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "posen snek"
 },
 {
 "id": "fauna:Snake",
@@ -580,11 +566,25 @@
 "preferred_label": "haos"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "rop blong grep"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "lokis"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "hos"
 },
 {
 "id": "realia:Wine",

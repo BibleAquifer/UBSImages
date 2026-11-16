@@ -3,9 +3,9 @@
 "content_id": "285778",
 "reference_id": 2396,
 "version": "1.0.4",
-"title": "Tudung",
+"title": "Pakaian dengan purdah",
 "media_type": "Image",
-"index_reference": "tudung",
+"index_reference": "pakaian dengan purdah",
 "language": "zlm",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0506_veil.jpg'>link</a></p></block>",
@@ -209,6 +209,13 @@
 "preferred_label": "Veil"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "Holy"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.23,
@@ -223,13 +230,6 @@
 "preferred_label": "Lebanon"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.23,
-"match_method": "canonical",
-"preferred_label": "Holy"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1767,
@@ -237,11 +237,11 @@
 "preferred_label": "Pomegranate"
 },
 {
-"id": "group:GenericChurch",
-"type": "group",
+"id": "place:Timnah",
+"type": "place",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "The Church"
+"preferred_label": "Timnah"
 },
 {
 "id": "keyterm:Praise",
@@ -258,18 +258,11 @@
 "preferred_label": "Enaim"
 },
 {
-"id": "place:HermonMount",
-"type": "place",
+"id": "group:GenericChurch",
+"type": "group",
 "confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Mount Hermon"
-},
-{
-"id": "place:Timnah",
-"type": "place",
-"confidence": 0.1717,
-"match_method": "canonical",
-"preferred_label": "Timnah"
+"preferred_label": "The Church"
 },
 {
 "id": "place:Amana",
@@ -279,18 +272,11 @@
 "preferred_label": "Mount Amana"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.17,
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1717,
 "match_method": "canonical",
-"preferred_label": "Hand-Mill"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.17,
-"match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "Mount Hermon"
 },
 {
 "id": "flora:BalsamTree",
@@ -300,6 +286,20 @@
 "preferred_label": "Balsam Tree"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "Vine"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.17,
+"match_method": "canonical",
+"preferred_label": "Hand-Mill"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.17,
@@ -307,18 +307,39 @@
 "preferred_label": "Wine"
 },
 {
-"id": "person:GenericServant",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "A Servant"
-},
-{
-"id": "keyterm:Priesthood",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Priesthood"
+"preferred_label": "Salvation"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Holy Spirit"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "To Command"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Sky"
 },
 {
 "id": "person:GenericPerson",
@@ -335,6 +356,27 @@
 "preferred_label": "Kindness"
 },
 {
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Priesthood"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Gilead"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Judah"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.165,
@@ -349,27 +391,6 @@
 "preferred_label": "Life"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Judah"
-},
-{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.165,
@@ -377,18 +398,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:GenericServant",
+"type": "person",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Gilead"
+"preferred_label": "A Servant"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -396,20 +410,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Cause of Joy"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Holy Spirit"
 },
 {
 "id": "person:Shelah",
@@ -426,13 +426,6 @@
 "preferred_label": "Robe"
 },
 {
-"id": "realia:Bowl.2",
-"type": "realia",
-"confidence": 0.1117,
-"match_method": "canonical",
-"preferred_label": "Bowl"
-},
-{
 "id": "realia:Turban.2",
 "type": "realia",
 "confidence": 0.1117,
@@ -440,11 +433,11 @@
 "preferred_label": "Turban"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.105,
+"id": "realia:Bowl.2",
+"type": "realia",
+"confidence": 0.1117,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Bowl"
 },
 {
 "id": "fauna:Goat",
@@ -461,39 +454,11 @@
 "preferred_label": "Cloak"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "flora:Myrrh",
-"type": "flora",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Myrrh"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Tunic"
-},
-{
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Leopard"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
 },
 {
 "id": "realia:Thread",
@@ -503,25 +468,11 @@
 "preferred_label": "Thread"
 },
 {
-"id": "realia:Lamp",
-"type": "realia",
+"id": "flora:Myrrh",
+"type": "flora",
 "confidence": 0.105,
 "match_method": "canonical",
-"preferred_label": "Lamp"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "Flock"
+"preferred_label": "Myrrh"
 },
 {
 "id": "fauna:Dove",
@@ -531,11 +482,60 @@
 "preferred_label": "Dove"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "House"
+},
+{
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Leopard"
+},
+{
+"id": "realia:Lamp",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Lamp"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Earring"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Lion"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "Flock"
 }
 ]
 }

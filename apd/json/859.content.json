@@ -271,13 +271,6 @@
 "preferred_label": "رداء"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.169,
-"match_method": "canonical",
-"preferred_label": "هدوم"
-},
-{
 "id": "realia:Image",
 "type": "realia",
 "confidence": 0.169,
@@ -292,46 +285,11 @@
 "preferred_label": "بيت"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1645,
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.169,
 "match_method": "canonical",
-"preferred_label": "تنجيس"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "زنا"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "يسترضي"
-},
-{
-"id": "keyterm:Priesthood",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "كهنوت"
-},
-{
-"id": "keyterm:Abomination",
-"type": "keyterm",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "رجاسة"
-},
-{
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "ألعازار"
+"preferred_label": "هدوم"
 },
 {
 "id": "keyterm:Salvation",
@@ -341,25 +299,11 @@
 "preferred_label": "خلاص"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "ملاك"
-},
-{
-"id": "keyterm:DetestedThing",
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "رجاسة"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1645,
-"match_method": "canonical",
-"preferred_label": "جبل سيناء"
+"preferred_label": "يزني"
 },
 {
 "id": "group:Egypt",
@@ -369,25 +313,25 @@
 "preferred_label": "المصريين"
 },
 {
-"id": "person:Rebekah",
+"id": "person:Eleazar.2",
 "type": "person",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "رفقة"
+"preferred_label": "ألعازار"
 },
 {
-"id": "keyterm:Stubborn",
+"id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "عنيد"
+"preferred_label": "يسترضي"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
+"id": "place:SinaiMount",
+"type": "place",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "كارثة"
+"preferred_label": "جبل سيناء"
 },
 {
 "id": "person:Saul.2",
@@ -397,6 +341,41 @@
 "preferred_label": "شاول"
 },
 {
+"id": "keyterm:Abomination",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "رجاسة"
+},
+{
+"id": "keyterm:Stubborn",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "عنيد"
+},
+{
+"id": "keyterm:Priesthood",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "كهنوت"
+},
+{
+"id": "person:Rebekah",
+"type": "person",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "رفقة"
+},
+{
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "زنا"
+},
+{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1645,
@@ -404,11 +383,32 @@
 "preferred_label": "رجاء"
 },
 {
-"id": "keyterm:PlayTheProstitute",
+"id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.1645,
 "match_method": "canonical",
-"preferred_label": "يزني"
+"preferred_label": "رجاسة"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "كارثة"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "تنجيس"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1645,
+"match_method": "canonical",
+"preferred_label": "ملاك"
 },
 {
 "id": "realia:Robe",
@@ -425,18 +425,11 @@
 "preferred_label": "قماش أرجواني"
 },
 {
-"id": "flora:Vine",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1045,
 "match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "خمرة"
+"preferred_label": "قمح"
 },
 {
 "id": "flora:Lily",
@@ -453,18 +446,25 @@
 "preferred_label": "كتان"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1045,
-"match_method": "canonical",
-"preferred_label": "قمح"
-},
-{
 "id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.1045,
 "match_method": "canonical",
 "preferred_label": "مرتفعة"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1045,
+"match_method": "canonical",
+"preferred_label": "خمرة"
 }
 ]
 }

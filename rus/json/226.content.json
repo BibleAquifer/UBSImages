@@ -155,18 +155,18 @@
 "preferred_label": "Терновник"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.4829,
-"match_method": "canonical",
-"preferred_label": "Дереза"
-},
-{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.4829,
 "match_method": "canonical",
 "preferred_label": "Акация"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.4829,
+"match_method": "canonical",
+"preferred_label": "Дереза"
 },
 {
 "id": "person:Israel",
@@ -183,11 +183,11 @@
 "preferred_label": "Амасия"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Ливан"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "person:Judah.4",
@@ -197,13 +197,6 @@
 "preferred_label": "Иуда"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.2429,
@@ -211,18 +204,18 @@
 "preferred_label": "Иоас"
 },
 {
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Ливан"
+},
+{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.1924,
 "match_method": "canonical",
 "preferred_label": "Крапива"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
 },
 {
 "id": "flora:Fig",
@@ -239,95 +232,18 @@
 "preferred_label": "Кедр"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
 "id": "keyterm:DailyLife",
 "type": "keyterm",
 "confidence": 0.181,
 "match_method": "canonical",
 "preferred_label": "повседневная жизнь"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Непорочный"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "ГОСПОДЬ"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Лишать владения"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Салман"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Способность"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Гедеон"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
-"id": "place:Memphis",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Мемфис"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Притча"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Сокхоф"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Иов"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "вовеки"
 },
 {
 "id": "person:Zebah",
@@ -337,6 +253,13 @@
 "preferred_label": "Зевей"
 },
 {
+"id": "place:Memphis",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Мемфис"
+},
+{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -344,39 +267,81 @@
 "preferred_label": "Глупый"
 },
 {
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.1114,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Плевел"
+"preferred_label": "ГОСПОДЬ"
 },
 {
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1114,
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "яма"
+"preferred_label": "Салман"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1114,
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Деньги"
+"preferred_label": "Притча"
 },
 {
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1114,
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Лилия"
+"preferred_label": "Лишать владения"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1114,
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Шакал"
+"preferred_label": "вовеки"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Гедеон"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Способность"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Сокхоф"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Непорочный"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Иов"
 },
 {
 "id": "flora:Barley",
@@ -386,18 +351,25 @@
 "preferred_label": "Ячмень"
 },
 {
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Сова"
-},
-{
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Страус"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Шакал"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Деньги"
 },
 {
 "id": "flora:Wheat",
@@ -407,11 +379,39 @@
 "preferred_label": "Пшеница"
 },
 {
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Лилия"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "Сандаловое дерево"
+},
+{
+"id": "flora:Weed",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Плевел"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Сова"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "яма"
 }
 ]
 }

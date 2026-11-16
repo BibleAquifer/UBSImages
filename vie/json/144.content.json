@@ -248,11 +248,25 @@
 "preferred_label": "Ngũ cốc"
 },
 {
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Đất đượm sữa và mật"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Lễ vật"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Ca-đe Ba-nê-a"
 },
 {
 "id": "place:Paran",
@@ -262,18 +276,32 @@
 "preferred_label": "Pha-ran"
 },
 {
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.175,
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Đất đượm sữa và mật"
+"preferred_label": "Rượu mới"
 },
 {
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.175,
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Ca-đe Ba-nê-a"
+"preferred_label": "Cỏ"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "nhà"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "dầu ô-liu"
 },
 {
 "id": "realia:AnointingOil",
@@ -290,39 +318,11 @@
 "preferred_label": "Cây ô-liu"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "dầu ô-liu"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "La"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Rượu mới"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "nhà"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Cỏ"
 },
 {
 "id": "keyterm:Possess",
@@ -332,25 +332,18 @@
 "preferred_label": "Ban cho làm sản nghiệp"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Ba-by-lôn"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Môi-se"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ca-in"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Làm ô uế"
 },
 {
 "id": "keyterm:Dispossess",
@@ -360,46 +353,18 @@
 "preferred_label": "Tước đoạt quyền sở hữu"
 },
 {
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Ca-in"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "A-rôn"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Sự an toàn"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Vinh quang"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Li-ban"
-},
-{
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Nguyền rủa"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ba-by-lôn"
 },
 {
 "id": "keyterm:Love",
@@ -409,6 +374,41 @@
 "preferred_label": "Yêu"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Vinh quang"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Sự an toàn"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Làm ô uế"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Nguyền rủa"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Li-ban"
+},
+{
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.115,
@@ -416,18 +416,18 @@
 "preferred_label": "Đậu"
 },
 {
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Đậu lăng"
-},
-{
 "id": "flora:Millet",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Hạt kê"
+},
+{
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Đậu lăng"
 },
 {
 "id": "flora:Barley",

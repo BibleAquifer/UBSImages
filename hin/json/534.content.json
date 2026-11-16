@@ -3,9 +3,9 @@
 "content_id": "283586",
 "reference_id": 2070,
 "version": "1.0.4",
-"title": "गलील की नाव",
+"title": "गलील नाव",
 "media_type": "Image",
-"index_reference": "गलील की नाव",
+"index_reference": "गलील नाव",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0252_galilee_boat.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0252_galilee_boat.jpg'>link</a></p></block>",
@@ -321,18 +321,18 @@
 "preferred_label": "जब्दी"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2807,
-"match_method": "canonical",
-"preferred_label": "माँगना"
-},
-{
 "id": "person:Peter",
 "type": "person",
 "confidence": 0.2807,
 "match_method": "canonical",
 "preferred_label": "पतरस"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2807,
+"match_method": "canonical",
+"preferred_label": "माँगना"
 },
 {
 "id": "person:James",
@@ -356,13 +356,6 @@
 "preferred_label": "यूहन्ना"
 },
 {
-"id": "place:Capernaum",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "कफरनहूम"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -370,11 +363,11 @@
 "preferred_label": "भय"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.165,
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "मछली"
+"preferred_label": "कफरनहूम"
 },
 {
 "id": "realia:Stade",
@@ -384,11 +377,11 @@
 "preferred_label": "स्तेदियन"
 },
 {
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.1648,
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "मजदूर"
+"preferred_label": "मछली"
 },
 {
 "id": "place:Tiberias",
@@ -405,25 +398,11 @@
 "preferred_label": "बैतसैदा"
 },
 {
-"id": "keyterm:BowDown",
+"id": "keyterm:HiredWorker",
 "type": "keyterm",
-"confidence": 0.1602,
+"confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "दण्डवत करना"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "अधिकार"
-},
-{
-"id": "place:Gerasa",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "गिरासा"
+"preferred_label": "मजदूर"
 },
 {
 "id": "keyterm:True",
@@ -433,6 +412,20 @@
 "preferred_label": "सच्चा"
 },
 {
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "दण्डवत करना"
+},
+{
+"id": "place:Gerasa",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "गिरासा"
+},
+{
 "id": "keyterm:DemonPossessed",
 "type": "keyterm",
 "confidence": 0.1602,
@@ -440,11 +433,11 @@
 "preferred_label": "दुष्टात्मा ग्रस्त होना"
 },
 {
-"id": "realia:Cubit.2",
-"type": "realia",
-"confidence": 0.1002,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "हाथ"
+"preferred_label": "अधिकार"
 },
 {
 "id": "realia:Grave",
@@ -452,6 +445,13 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "कब्र"
+},
+{
+"id": "realia:Cubit.2",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "हाथ"
 }
 ]
 }

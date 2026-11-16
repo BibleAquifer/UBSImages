@@ -3,9 +3,9 @@
 "content_id": "294506",
 "reference_id": 1793,
 "version": "1.0.4",
-"title": "香炉",
+"title": "金属架上的香炉",
 "media_type": "Image",
-"index_reference": "香炉",
+"index_reference": "金属架上的香炉",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0456_incense_altar.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0456_incense_altar.jpg'>link</a></p></block>",
@@ -435,11 +435,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3829,
 "match_method": "canonical",
-"preferred_label": "石坛"
+"preferred_label": "圣殿祭坛"
 },
 {
 "id": "realia:Altar",
@@ -449,11 +449,11 @@
 "preferred_label": "祭坛"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.3829,
 "match_method": "canonical",
-"preferred_label": "圣殿祭坛"
+"preferred_label": "石坛"
 },
 {
 "id": "realia:OliveOil",
@@ -519,6 +519,13 @@
 "preferred_label": "香脂树"
 },
 {
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "约柜"
+},
+{
 "id": "keyterm:Witness.2",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -531,13 +538,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "圣所"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "约柜"
 },
 {
 "id": "realia:Screen",
@@ -554,18 +554,18 @@
 "preferred_label": "油灯"
 },
 {
-"id": "person:Jaazaniah.2",
+"id": "person:Tohu",
 "type": "person",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "雅撒尼亚"
+"preferred_label": "托户"
 },
 {
-"id": "person:Nadab",
+"id": "person:Shaphan.2",
 "type": "person",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "拿答"
+"preferred_label": "沙番"
 },
 {
 "id": "person:Jeroham",
@@ -575,18 +575,11 @@
 "preferred_label": "耶罗罕"
 },
 {
-"id": "person:Abihu",
+"id": "person:Jaazaniah.2",
 "type": "person",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "亚比户"
-},
-{
-"id": "person:Tohu",
-"type": "person",
-"confidence": 0.1603,
-"match_method": "canonical",
-"preferred_label": "托户"
+"preferred_label": "雅撒尼亚"
 },
 {
 "id": "person:Elihu",
@@ -596,11 +589,18 @@
 "preferred_label": "以利户"
 },
 {
-"id": "person:Shaphan.2",
+"id": "person:Nadab",
 "type": "person",
 "confidence": 0.1603,
 "match_method": "canonical",
-"preferred_label": "沙番"
+"preferred_label": "拿答"
+},
+{
+"id": "person:Abihu",
+"type": "person",
+"confidence": 0.1603,
+"match_method": "canonical",
+"preferred_label": "亚比户"
 }
 ]
 }

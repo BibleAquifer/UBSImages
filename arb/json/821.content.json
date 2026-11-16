@@ -242,6 +242,13 @@
 "preferred_label": "سَارِيَة مُقَدَّسَة"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.4025,
@@ -261,13 +268,6 @@
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "مذبح المسكن"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
 },
 {
 "id": "flora:Pine",
@@ -326,18 +326,18 @@
 "preferred_label": "دُهْنُ المَسْحَة"
 },
 {
-"id": "keyterm:Incantations",
-"type": "keyterm",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "رُقَى"
-},
-{
 "id": "deity:Nehushtan",
 "type": "deity",
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "نحشتان"
+},
+{
+"id": "keyterm:Incantations",
+"type": "keyterm",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "رُقَى"
 },
 {
 "id": "place:KingsValley",
@@ -354,39 +354,18 @@
 "preferred_label": "زيت زيتون"
 },
 {
-"id": "person:Asa",
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "آسَا"
+"preferred_label": "رَاحِيل"
 },
 {
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "شَاهِد"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "بَنْيَامِين"
-},
-{
-"id": "group:Manasseh",
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "سِبْط مَنَسَّى"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
+"preferred_label": "سبط أفرايم"
 },
 {
 "id": "person:Ephraim",
@@ -396,6 +375,41 @@
 "preferred_label": "أَفْرَايِم"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "سِبْطُ يَهوذَا"
+},
+{
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "سِبْط مَنَسَّى"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "بَنْيَامِين"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "تَقْدِمَة"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "مَنَسَّى"
+},
+{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.1641,
@@ -403,11 +417,11 @@
 "preferred_label": "بَيْت إِيل"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
+"id": "deity:Teraphim",
+"type": "deity",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "مسح"
+"preferred_label": "تَرَافِيم"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -415,6 +429,13 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "ذبح"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "شَاهِد"
 },
 {
 "id": "person:Judah.4",
@@ -431,39 +452,11 @@
 "preferred_label": "لابان"
 },
 {
-"id": "place:On",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "أُون"
-},
-{
-"id": "keyterm:Idol",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "وَثَن"
-},
-{
 "id": "person:Absalom",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "أَبْشَالُوم"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "سِبْط بَنْيَامِينَ"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -473,32 +466,18 @@
 "preferred_label": "إغواء للخدمة"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "سبط أفرايم"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "تَرَافِيم"
-},
-{
-"id": "person:Rachel",
+"id": "person:Asa",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "رَاحِيل"
+"preferred_label": "آسَا"
 },
 {
-"id": "person:Manasseh",
-"type": "person",
+"id": "keyterm:Idol",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "مَنَسَّى"
+"preferred_label": "وَثَن"
 },
 {
 "id": "keyterm:Vow",
@@ -508,11 +487,32 @@
 "preferred_label": "نَذْر"
 },
 {
-"id": "realia:HouseholdIdols",
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "سِبْط بَنْيَامِينَ"
+},
+{
+"id": "place:On",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "أُون"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "مسح"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "تَرَافِيم"
+"preferred_label": "تِمْثَال"
 },
 {
 "id": "realia:Ephod",
@@ -529,11 +529,11 @@
 "preferred_label": "كَرْمَة"
 },
 {
-"id": "realia:Wine",
+"id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "خَمْر"
+"preferred_label": "تَرَافِيم"
 },
 {
 "id": "fauna:Horse",
@@ -543,18 +543,18 @@
 "preferred_label": "حِصان"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "تِمْثَال"
-},
-{
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "حية"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "خَمْر"
 }
 ]
 }

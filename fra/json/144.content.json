@@ -248,11 +248,25 @@
 "preferred_label": "grain"
 },
 {
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "pays où coulent le lait et le miel"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "offrande"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Kadès-Barnéa"
 },
 {
 "id": "place:Paran",
@@ -262,18 +276,32 @@
 "preferred_label": "Paran"
 },
 {
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.175,
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "pays où coulent le lait et le miel"
+"preferred_label": "moût"
 },
 {
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.175,
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Kadès-Barnéa"
+"preferred_label": "herbe"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "maison"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "huile d'olive"
 },
 {
 "id": "realia:AnointingOil",
@@ -290,39 +318,11 @@
 "preferred_label": "olivier"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "huile d'olive"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "mulet"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "maison"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "herbe"
 },
 {
 "id": "keyterm:Possess",
@@ -332,25 +332,18 @@
 "preferred_label": "donner en possession"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Babylone"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Moïse"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Caïn"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "souillure"
 },
 {
 "id": "keyterm:Dispossess",
@@ -360,46 +353,18 @@
 "preferred_label": "déposséder"
 },
 {
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Caïn"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Aaron"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "sécurité"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Liban"
-},
-{
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "maudire"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Babylone"
 },
 {
 "id": "keyterm:Love",
@@ -409,6 +374,41 @@
 "preferred_label": "amour"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "gloire"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "sécurité"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "souillure"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "maudire"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Liban"
+},
+{
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.115,
@@ -416,18 +416,18 @@
 "preferred_label": "fève"
 },
 {
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "lentille"
-},
-{
 "id": "flora:Millet",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "millet"
+},
+{
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "lentille"
 },
 {
 "id": "flora:Barley",

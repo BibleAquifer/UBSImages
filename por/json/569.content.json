@@ -3,9 +3,9 @@
 "content_id": "286424",
 "reference_id": 2109,
 "version": "1.0.4",
-"title": "Base do tronco",
+"title": "Raízes engrossadas na base de uma árvore",
 "media_type": "Image",
-"index_reference": "base do tronco",
+"index_reference": "raízes engrossadas na base de uma árvore",
 "language": "por",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg'>link</a></p></block>",
@@ -239,13 +239,6 @@
 "preferred_label": "Jessé"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.2257,
@@ -260,25 +253,18 @@
 "preferred_label": "santo"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
 "id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "abominação"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "oliveira"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "videira"
 },
 {
 "id": "flora:Cedar",
@@ -295,18 +281,32 @@
 "preferred_label": "machado"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "contaminação"
+"preferred_label": "videira"
 },
 {
-"id": "keyterm:Majesty",
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "oliveira"
+},
+{
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "majestade"
+"preferred_label": "Favor"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "tribo de Efraim"
 },
 {
 "id": "person:Ephraim",
@@ -314,6 +314,27 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Efraim"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Gentios"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "crer"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "instrução"
 },
 {
 "id": "person:Israel",
@@ -330,20 +351,6 @@
 "preferred_label": "glória"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "instrução"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Líbano"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.1629,
@@ -351,11 +358,18 @@
 "preferred_label": "amorreus"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Favor"
+"preferred_label": "majestade"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "contaminação"
 },
 {
 "id": "keyterm:PutToTheTest",
@@ -365,20 +379,6 @@
 "preferred_label": "pôr à prova"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Gentios"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "tribo de Efraim"
-},
-{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1629,
@@ -386,11 +386,11 @@
 "preferred_label": "motivo de alegria"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "crer"
+"preferred_label": "Líbano"
 },
 {
 "id": "flora:Broom",
@@ -407,13 +407,6 @@
 "preferred_label": "erva-sal"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Dinheiro"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1029,
@@ -421,11 +414,11 @@
 "preferred_label": "figo"
 },
 {
-"id": "flora:Oak",
-"type": "flora",
+"id": "realia:Standard",
+"type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "carvalho"
+"preferred_label": "estandarte"
 },
 {
 "id": "realia:Image",
@@ -449,11 +442,18 @@
 "preferred_label": "abutre"
 },
 {
-"id": "realia:House",
+"id": "realia:Fortress",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "casa"
+"preferred_label": "fortaleza"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Dinheiro"
 },
 {
 "id": "flora:Grass",
@@ -463,18 +463,18 @@
 "preferred_label": "erva"
 },
 {
-"id": "realia:Standard",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "estandarte"
+"preferred_label": "casa"
 },
 {
-"id": "realia:Fortress",
-"type": "realia",
+"id": "flora:Oak",
+"type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "fortaleza"
+"preferred_label": "carvalho"
 }
 ]
 }

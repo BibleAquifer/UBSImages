@@ -154,6 +154,13 @@
 "preferred_label": "Pol"
 },
 {
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "ol Farisi"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3114,
@@ -161,11 +168,11 @@
 "preferred_label": "Jisas"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.3114,
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2409,
 "match_method": "canonical",
-"preferred_label": "ol Farisi"
+"preferred_label": "Nem"
 },
 {
 "id": "group:Jews",
@@ -182,32 +189,11 @@
 "preferred_label": "Witnes"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Nem"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
 "preferred_label": "haos blong prea"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "bisnes blong kot"
-},
-{
-"id": "keyterm:Gehenna",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "hel"
 },
 {
 "id": "person:Gamaliel",
@@ -217,53 +203,25 @@
 "preferred_label": "Gamaliel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1705,
+"id": "keyterm:Gehenna",
+"type": "keyterm",
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "HAE GOD"
+"preferred_label": "hel"
 },
 {
-"id": "keyterm:Good",
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "bisnes blong kot"
+},
+{
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "gud"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Paelat"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "laef bakegen"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Hel"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Isrel"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Askem strong"
+"preferred_label": "Wok blong jajem man"
 },
 {
 "id": "keyterm:Decision",
@@ -280,25 +238,11 @@
 "preferred_label": "Jusumaot / Disaed"
 },
 {
-"id": "keyterm:UnrighteousAct",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "fasin we i no stret"
-},
-{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "tingting long hat blong man"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Wan Enjel"
 },
 {
 "id": "keyterm:Example",
@@ -308,18 +252,11 @@
 "preferred_label": "saen"
 },
 {
-"id": "group:Sadducee",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Ol Sadusi"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Laef"
+"preferred_label": "HAE GOD"
 },
 {
 "id": "keyterm:SomethingDefinite",
@@ -329,6 +266,41 @@
 "preferred_label": "samting we i sua"
 },
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Laef"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Askem strong"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Hel"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Isrel"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Paelat"
+},
+{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -336,18 +308,39 @@
 "preferred_label": "hop"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Wok blong jajem man"
+"preferred_label": "laef bakegen"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1105,
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Haos blong God"
+"preferred_label": "gud"
+},
+{
+"id": "keyterm:UnrighteousAct",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "fasin we i no stret"
+},
+{
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Ol Sadusi"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Wan Enjel"
 },
 {
 "id": "realia:Prison",
@@ -355,6 +348,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "kalabus"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Haos blong God"
 }
 ]
 }

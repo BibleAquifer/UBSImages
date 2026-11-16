@@ -3,9 +3,9 @@
 "content_id": "295824",
 "reference_id": 2178,
 "version": "1.0.4",
-"title": "波斯與米底士兵",
+"title": "波斯米底亞士兵",
 "media_type": "Image",
-"index_reference": "波斯與米底士兵",
+"index_reference": "波斯米底亞士兵",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0707_persian_median_soldiers.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0707_persian_median_soldiers.jpg'>link</a></p></block>",
@@ -335,13 +335,6 @@
 "preferred_label": "房屋"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3409,
-"match_method": "canonical",
-"preferred_label": "猶大"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3409,
@@ -349,11 +342,11 @@
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "person:Israel",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3409,
 "match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "猶大"
 },
 {
 "id": "group:Judah",
@@ -363,11 +356,11 @@
 "preferred_label": "猶大支派"
 },
 {
-"id": "group:Persia",
-"type": "group",
-"confidence": 0.2852,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3409,
 "match_method": "canonical",
-"preferred_label": "波斯人"
+"preferred_label": "以色列"
 },
 {
 "id": "person:Darius.2",
@@ -377,6 +370,13 @@
 "preferred_label": "大流士"
 },
 {
+"id": "group:Persia",
+"type": "group",
+"confidence": 0.2852,
+"match_method": "canonical",
+"preferred_label": "波斯人"
+},
+{
 "id": "person:Daniel.3",
 "type": "person",
 "confidence": 0.2807,
@@ -384,32 +384,18 @@
 "preferred_label": "但以理"
 },
 {
+"id": "place:Gozan",
+"type": "place",
+"confidence": 0.2295,
+"match_method": "canonical",
+"preferred_label": "歌散"
+},
+{
 "id": "place:Habor",
 "type": "place",
 "confidence": 0.2295,
 "match_method": "canonical",
 "preferred_label": "哈博河"
-},
-{
-"id": "person:Magog",
-"type": "person",
-"confidence": 0.2295,
-"match_method": "canonical",
-"preferred_label": "瑪各"
-},
-{
-"id": "person:Madai",
-"type": "person",
-"confidence": 0.2295,
-"match_method": "canonical",
-"preferred_label": "瑪代"
-},
-{
-"id": "person:Meshech.2",
-"type": "person",
-"confidence": 0.2295,
-"match_method": "canonical",
-"preferred_label": "米設"
 },
 {
 "id": "person:Gomer",
@@ -426,18 +412,25 @@
 "preferred_label": "雅完"
 },
 {
-"id": "person:Tiras",
+"id": "person:Magog",
 "type": "person",
 "confidence": 0.2295,
 "match_method": "canonical",
-"preferred_label": "提拉"
+"preferred_label": "瑪各"
 },
 {
-"id": "place:Gozan",
-"type": "place",
+"id": "person:Meshech.2",
+"type": "person",
 "confidence": 0.2295,
 "match_method": "canonical",
-"preferred_label": "歌散"
+"preferred_label": "米設"
+},
+{
+"id": "person:Madai",
+"type": "person",
+"confidence": 0.2295,
+"match_method": "canonical",
+"preferred_label": "瑪代"
 },
 {
 "id": "person:Tubal",
@@ -447,11 +440,11 @@
 "preferred_label": "土巴"
 },
 {
-"id": "person:Artaxerxes",
+"id": "person:Tiras",
 "type": "person",
-"confidence": 0.225,
+"confidence": 0.2295,
 "match_method": "canonical",
-"preferred_label": "亞達薛西"
+"preferred_label": "提拉"
 },
 {
 "id": "place:Halah",
@@ -461,11 +454,11 @@
 "preferred_label": "哈臘"
 },
 {
-"id": "place:Put",
-"type": "place",
+"id": "person:Artaxerxes",
+"type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "弗"
+"preferred_label": "亞達薛西"
 },
 {
 "id": "person:Japheth",
@@ -475,39 +468,18 @@
 "preferred_label": "雅弗"
 },
 {
+"id": "place:Put",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "弗"
+},
+{
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.2207,
 "match_method": "canonical",
 "preferred_label": "小盾牌"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "亞述"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "信實（誠實）"
-},
-{
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "亞哈隨魯"
-},
-{
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "以攔"
 },
 {
 "id": "person:Zerubbabel.2",
@@ -517,25 +489,11 @@
 "preferred_label": "所羅巴伯"
 },
 {
-"id": "person:Jeremiah.6",
-"type": "person",
+"id": "place:Babylon",
+"type": "place",
 "confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "耶利米"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "耶和華的話"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "以色列人"
+"preferred_label": "巴比倫"
 },
 {
 "id": "place:Greece",
@@ -545,102 +503,53 @@
 "preferred_label": "希臘"
 },
 {
-"id": "place:Babylon",
+"id": "place:Elam",
 "type": "place",
 "confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "巴比倫"
+"preferred_label": "以攔"
 },
 {
-"id": "person:Carshena",
+"id": "person:Jeremiah.6",
 "type": "person",
-"confidence": 0.1648,
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "甲示拿"
+"preferred_label": "耶利米"
 },
 {
-"id": "place:Ecbatana",
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "信實（誠實）"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "以色列人"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "耶和華的話"
+},
+{
+"id": "place:Assyria",
 "type": "place",
-"confidence": 0.1648,
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "亞馬他"
+"preferred_label": "亞述"
 },
 {
-"id": "person:Marsena",
+"id": "person:Ahasuerus",
 "type": "person",
-"confidence": 0.1648,
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "瑪西拿"
-},
-{
-"id": "person:Shethar",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "示達"
-},
-{
-"id": "person:Darius",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "大流士"
-},
-{
-"id": "person:Mithredath",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "米提利達"
-},
-{
-"id": "person:Tabeel",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "他別"
-},
-{
-"id": "person:Michael.11",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "米迦勒"
-},
-{
-"id": "place:Zimri",
-"type": "place",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "心利"
-},
-{
-"id": "person:Jaddua.2",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "押杜亞"
-},
-{
-"id": "person:Meres",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "米力斯"
-},
-{
-"id": "person:Zechariah.17",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "撒迦利亞"
-},
-{
-"id": "person:Joiada.2",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "耶何耶大"
+"preferred_label": "亞哈隨魯"
 },
 {
 "id": "place:Judea",
@@ -650,67 +559,53 @@
 "preferred_label": "猶太"
 },
 {
-"id": "keyterm:Plan",
-"type": "keyterm",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "計畫"
-},
-{
-"id": "person:Vashti",
+"id": "person:Carshena",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "瓦實提"
+"preferred_label": "甲示拿"
 },
 {
-"id": "person:Azariah.7",
+"id": "person:Tabeel",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "亞撒利雅"
+"preferred_label": "他別"
 },
 {
-"id": "person:Memucan",
+"id": "place:Ecbatana",
+"type": "place",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "亞馬他"
+},
+{
+"id": "person:Joiada.2",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "米母干"
+"preferred_label": "耶何耶大"
 },
 {
-"id": "person:Johanan.9",
+"id": "person:Admatha",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "約哈難"
+"preferred_label": "押瑪他"
 },
 {
-"id": "person:Hoshea",
+"id": "group:Relatives",
+"type": "group",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "親屬"
+},
+{
+"id": "person:Jaddua.2",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "何細亞"
-},
-{
-"id": "person:Ezra",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "以斯拉"
-},
-{
-"id": "person:Lud",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "路德"
-},
-{
-"id": "person:Bishlam",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "比施蘭"
+"preferred_label": "押杜亞"
 },
 {
 "id": "person:Mithredath.2",
@@ -727,11 +622,11 @@
 "preferred_label": "西萊雅"
 },
 {
-"id": "person:Admatha",
+"id": "person:Johanan.9",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "押瑪他"
+"preferred_label": "約哈難"
 },
 {
 "id": "person:Eliashib.8",
@@ -741,18 +636,116 @@
 "preferred_label": "以利亞實"
 },
 {
-"id": "group:Relatives",
-"type": "group",
+"id": "person:Meres",
+"type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "親屬"
+"preferred_label": "米力斯"
 },
 {
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.1605,
+"id": "person:Darius",
+"type": "person",
+"confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "頭盔"
+"preferred_label": "大流士"
+},
+{
+"id": "person:Azariah.7",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "亞撒利雅"
+},
+{
+"id": "place:Zimri",
+"type": "place",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "心利"
+},
+{
+"id": "person:Bishlam",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "比施蘭"
+},
+{
+"id": "person:Memucan",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "米母干"
+},
+{
+"id": "person:Lud",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "路德"
+},
+{
+"id": "person:Hoshea",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "何細亞"
+},
+{
+"id": "person:Michael.11",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "米迦勒"
+},
+{
+"id": "keyterm:Plan",
+"type": "keyterm",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "計畫"
+},
+{
+"id": "person:Shethar",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "示達"
+},
+{
+"id": "person:Mithredath",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "米提利達"
+},
+{
+"id": "person:Vashti",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "瓦實提"
+},
+{
+"id": "person:Zechariah.17",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "撒迦利亞"
+},
+{
+"id": "person:Marsena",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "瑪西拿"
+},
+{
+"id": "person:Ezra",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "以斯拉"
 },
 {
 "id": "realia:Money",
@@ -762,18 +755,53 @@
 "preferred_label": "金錢"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1602,
+"id": "realia:Helmet",
+"type": "realia",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "慈愛（團結互助）"
+"preferred_label": "頭盔"
 },
 {
-"id": "group:Levi",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "利未支派"
+"preferred_label": "猶大人"
+},
+{
+"id": "person:Hilkiah.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "希勒家"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "撒馬利亞（城）"
+},
+{
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "末底改"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "西頓人"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "迦勒底"
 },
 {
 "id": "place:Joppa",
@@ -783,11 +811,32 @@
 "preferred_label": "約帕"
 },
 {
-"id": "person:Joshua.5",
-"type": "person",
+"id": "keyterm:Counsel",
+"type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "約書亞"
+"preferred_label": "籌算"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "聖潔"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "推羅"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "利未支派"
 },
 {
 "id": "keyterm:Perceive",
@@ -797,11 +846,67 @@
 "preferred_label": "領悟"
 },
 {
-"id": "place:Tyre",
-"type": "place",
+"id": "person:Haggai",
+"type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "推羅"
+"preferred_label": "哈該"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "迦勒底人"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "約書亞"
+},
+{
+"id": "person:Artaxerxes.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "亞哈隨魯"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "利未"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "慈愛（團結互助）"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "泰爾人"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "箭"
+},
+{
+"id": "person:Iddo.6",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "易多"
 },
 {
 "id": "place:Cush.2",
@@ -818,95 +923,11 @@
 "preferred_label": "他施"
 },
 {
-"id": "person:Mordecai.2",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "末底改"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "黎巴嫩"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "西頓人"
-},
-{
-"id": "person:Artaxerxes.2",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "亞哈隨魯"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "迦勒底人"
-},
-{
-"id": "group:Tyre",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "泰爾人"
-},
-{
 "id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "聰明"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "籌算"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "迦勒底"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "利未"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "撒馬利亞（城）"
-},
-{
-"id": "keyterm:Arrow",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "箭"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "哈該"
 },
 {
 "id": "place:Sidon",
@@ -916,39 +937,11 @@
 "preferred_label": "西頓"
 },
 {
-"id": "person:Iddo.6",
-"type": "person",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "易多"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "猶大人"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
-"id": "person:Hilkiah.2",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "希勒家"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "膏油"
+"preferred_label": "黎巴嫩"
 },
 {
 "id": "realia:Arrow",
@@ -958,11 +951,18 @@
 "preferred_label": "箭"
 },
 {
-"id": "realia:Fortress",
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "綿羊"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "堡壘"
+"preferred_label": "膏油"
 },
 {
 "id": "flora:Cedar",
@@ -970,6 +970,20 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "香柏樹"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "獅子"
+},
+{
+"id": "realia:Fortress",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "堡壘"
 },
 {
 "id": "realia:Scroll",
@@ -991,20 +1005,6 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "橄欖油"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "綿羊"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "獅子"
 }
 ]
 }

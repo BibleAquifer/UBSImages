@@ -1118,18 +1118,18 @@
 "preferred_label": "سِبْطُ يَهوذَا"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3702,
-"match_method": "canonical",
-"preferred_label": "فِلَسْطِين"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3702,
 "match_method": "canonical",
 "preferred_label": "الفلسطينيون"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3702,
+"match_method": "canonical",
+"preferred_label": "فِلَسْطِين"
 },
 {
 "id": "place:Moab",
@@ -1139,18 +1139,11 @@
 "preferred_label": "موآب"
 },
 {
-"id": "group:Syria",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "السريانيون"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "أُورُشَلِيم"
+"preferred_label": "اليَهُود"
 },
 {
 "id": "place:Samaria",
@@ -1160,11 +1153,18 @@
 "preferred_label": "السامرة"
 },
 {
-"id": "group:Jews",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "أُورُشَلِيم"
+},
+{
+"id": "group:Syria",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "اليَهُود"
+"preferred_label": "السريانيون"
 },
 {
 "id": "fauna:Bull",
@@ -1181,13 +1181,6 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3128,
-"match_method": "canonical",
-"preferred_label": "مَاعِز"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3128,
@@ -1195,25 +1188,11 @@
 "preferred_label": "قطيع"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3101,
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3128,
 "match_method": "canonical",
-"preferred_label": "غَيْرَة"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "العمونيون"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "مِصْر"
+"preferred_label": "مَاعِز"
 },
 {
 "id": "place:Chaldea",
@@ -1230,6 +1209,27 @@
 "preferred_label": "عَمُّون"
 },
 {
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "غَيْرَة"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "مِصْر"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "العمونيون"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.3052,
@@ -1244,39 +1244,25 @@
 "preferred_label": "أَرِيحَا"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "أَدُوم"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "الكلدانيون"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "كَلِمَةُ ٱلرَّبِّ"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "أَمَصْيَا"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "شَاوُل"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "أَنْ يُخْطِئَ"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "أَدُوم"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1291,6 +1277,20 @@
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "دِمَشْقَ"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "الكلدانيون"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "أَمَصْيَا"
 }
 ]
 }

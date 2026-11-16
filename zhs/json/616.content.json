@@ -3,9 +3,9 @@
 "content_id": "294872",
 "reference_id": 2159,
 "version": "1.0.4",
-"title": "洛尔旺活物",
+"title": "四活物：洛尔旺手稿",
 "media_type": "Image",
-"index_reference": "洛尔旺活物",
+"index_reference": "四活物洛尔旺手稿",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg'>link</a></p></block>",
@@ -159,6 +159,13 @@
 "preferred_label": "第三个活物"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "第二个活物"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
@@ -173,18 +180,11 @@
 "preferred_label": "第四个活物"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "第二个活物"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "确实！"
+"preferred_label": "圣洁"
 },
 {
 "id": "keyterm:Life",
@@ -194,18 +194,18 @@
 "preferred_label": "生命"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "圣洁"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "永远"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "确实！"
 },
 {
 "id": "realia:Bowl.2",
@@ -215,25 +215,18 @@
 "preferred_label": "碗"
 },
 {
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "救赎"
+},
+{
 "id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "作恶"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "荣耀"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "灵"
 },
 {
 "id": "keyterm:Pray",
@@ -243,6 +236,20 @@
 "preferred_label": "祷告"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "灵"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "荣耀"
+},
+{
 "id": "deity:Voice",
 "type": "deity",
 "confidence": 0.1765,
@@ -250,11 +257,11 @@
 "preferred_label": "无形之声"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "救赎"
+"preferred_label": "得拿利"
 },
 {
 "id": "realia:Balance",
@@ -271,48 +278,6 @@
 "preferred_label": "夸脱"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "得拿利"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "狮子"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "香"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "牛"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "马"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "橄榄油"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1165,
@@ -320,18 +285,11 @@
 "preferred_label": "大麦"
 },
 {
-"id": "realia:Lyre",
-"type": "realia",
+"id": "fauna:Vulture",
+"type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "瑟"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "书卷"
+"preferred_label": "兀鹫"
 },
 {
 "id": "flora:Wheat",
@@ -341,11 +299,53 @@
 "preferred_label": "小麦"
 },
 {
-"id": "fauna:Vulture",
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "香"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "瑟"
+},
+{
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "兀鹫"
+"preferred_label": "牛"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "橄榄油"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "狮子"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "马"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "书卷"
 },
 {
 "id": "realia:Wine",

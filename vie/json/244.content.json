@@ -323,20 +323,6 @@
 "preferred_label": "nhà"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Môi-se"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Nê-bu-cát-nết-sa"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.2214,
@@ -344,11 +330,11 @@
 "preferred_label": "Ban cho làm sản nghiệp"
 },
 {
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
+"preferred_label": "Môi-se"
 },
 {
 "id": "person:Pharaoh.6",
@@ -358,11 +344,18 @@
 "preferred_label": "Pha-ra-ôn"
 },
 {
-"id": "place:Netaim",
-"type": "place",
-"confidence": 0.1655,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Nê-ta-im"
+"preferred_label": "Y-sơ-ra-ên"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Nê-bu-cát-nết-sa"
 },
 {
 "id": "place:Gederah",
@@ -372,18 +365,18 @@
 "preferred_label": "Ghê-đê-ra"
 },
 {
+"id": "place:Netaim",
+"type": "place",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Nê-ta-im"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "bình đất"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "A-rôn"
 },
 {
 "id": "place:Sodom",
@@ -393,32 +386,11 @@
 "preferred_label": "Sô-đôm"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Giê-ru-sa-lem"
-},
-{
-"id": "place:Topheth",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Tô-phết"
-},
-{
-"id": "keyterm:Perceive",
+"id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Nhận biết"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Núi Si-nai"
+"preferred_label": "Vực thẳm"
 },
 {
 "id": "place:Gomorrah",
@@ -428,18 +400,46 @@
 "preferred_label": "Gô-mô-rơ"
 },
 {
-"id": "keyterm:Abyss",
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Núi Si-nai"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "A-rôn"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Giê-ru-sa-lem"
+},
+{
+"id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Vực thẳm"
+"preferred_label": "Nhận biết"
 },
 {
-"id": "realia:PotteryWheel",
+"id": "place:Topheth",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tô-phết"
+},
+{
+"id": "realia:Bagpipe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "bàn xoay"
+"preferred_label": "Kèn túi"
 },
 {
 "id": "flora:Bean",
@@ -449,6 +449,13 @@
 "preferred_label": "Đậu"
 },
 {
+"id": "realia:PotteryWheel",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "bàn xoay"
+},
+{
 "id": "flora:Lentil",
 "type": "flora",
 "confidence": 0.1055,
@@ -456,11 +463,46 @@
 "preferred_label": "Đậu lăng"
 },
 {
-"id": "realia:Bagpipe",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Kèn túi"
+"preferred_label": "Lúa mạch"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "chậu"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "giường"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Lúa mì"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Đàn lia"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Đàn luýt"
 },
 {
 "id": "fauna:Bull",
@@ -477,53 +519,11 @@
 "preferred_label": "sáo"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lúa mạch"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Đàn lia"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "Kèn sừng cừu đực"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Lúa mì"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "giường"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "chậu"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Đàn luýt"
 }
 ]
 }

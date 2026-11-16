@@ -545,13 +545,6 @@
 "preferred_label": "langit"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3528,
-"match_method": "canonical",
-"preferred_label": "kadal"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3528,
@@ -564,6 +557,13 @@
 "confidence": 0.3528,
 "match_method": "canonical",
 "preferred_label": "biawak"
+},
+{
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.3528,
+"match_method": "canonical",
+"preferred_label": "kadal"
 },
 {
 "id": "fauna:Fish",
@@ -587,18 +587,18 @@
 "preferred_label": "tahir"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.3162,
-"match_method": "canonical",
-"preferred_label": "lembu sapi"
-},
-{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.3162,
 "match_method": "canonical",
 "preferred_label": "ayam jantan"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3162,
+"match_method": "canonical",
+"preferred_label": "lembu sapi"
 },
 {
 "id": "keyterm:Kind.2",
@@ -622,11 +622,11 @@
 "preferred_label": "binatang melata"
 },
 {
-"id": "fauna:Snake",
+"id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "ular"
+"preferred_label": "anjing"
 },
 {
 "id": "flora:Grass",
@@ -636,11 +636,11 @@
 "preferred_label": "rumput"
 },
 {
-"id": "fauna:Dog",
+"id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "anjing"
+"preferred_label": "ular"
 },
 {
 "id": "keyterm:Destroy",
@@ -650,6 +650,13 @@
 "preferred_label": "menghancurkan"
 },
 {
+"id": "person:Adam",
+"type": "person",
+"confidence": 0.2128,
+"match_method": "canonical",
+"preferred_label": "Adam"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2128,
@@ -657,11 +664,53 @@
 "preferred_label": "memberkati"
 },
 {
-"id": "person:Adam",
-"type": "person",
-"confidence": 0.2128,
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "Adam"
+"preferred_label": "menugaskan"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "orang Filistin"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Firaun"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "persembahan"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Nuh"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "kemuliaan"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Filistin"
 },
 {
 "id": "keyterm:Defilement",
@@ -678,53 +727,11 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.2105,
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.2057,
 "match_method": "canonical",
-"preferred_label": "Firaun"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "menugaskan"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "kemuliaan"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "orang Filistin"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Nuh"
+"preferred_label": "biji-bijian"
 },
 {
 "id": "realia:Ship",
@@ -732,13 +739,6 @@
 "confidence": 0.2057,
 "match_method": "canonical",
 "preferred_label": "kapal"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.2057,
-"match_method": "canonical",
-"preferred_label": "biji-bijian"
 }
 ]
 }

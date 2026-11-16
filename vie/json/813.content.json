@@ -253,6 +253,13 @@
 "preferred_label": "Kéo cắt tim đèn"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1721,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đền thờ"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1721,
@@ -274,13 +281,6 @@
 "preferred_label": "bàn thờ Đền Tạm"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
-},
-{
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -288,32 +288,18 @@
 "preferred_label": "Khốn thay"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Ghinh-ganh"
-},
-{
-"id": "keyterm:Lot",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Thăm"
+"preferred_label": "Khờ dại"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Ai Cập"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Giê-ru-sa-lem"
+"preferred_label": "Bộ tộc Giu-đa"
 },
 {
 "id": "keyterm:Saying",
@@ -321,6 +307,20 @@
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "châm ngôn"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Ê-li-sê"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Giê-ru-sa-lem"
 },
 {
 "id": "person:Judah.4",
@@ -337,18 +337,18 @@
 "preferred_label": "Ê-đôm"
 },
 {
-"id": "person:Elisha",
-"type": "person",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Ê-li-sê"
+"preferred_label": "Ai Cập"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "place:Gilgal.3",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Bộ tộc Giu-đa"
+"preferred_label": "Ghinh-ganh"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -358,25 +358,18 @@
 "preferred_label": "Lời Chúa"
 },
 {
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Thăm"
+},
+{
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Lễ Vượt Qua"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Khờ dại"
-},
-{
-"id": "flora:Ivy",
-"type": "flora",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "dây thường xuân"
 },
 {
 "id": "flora:Colocynth",
@@ -393,18 +386,11 @@
 "preferred_label": "chậu"
 },
 {
-"id": "flora:Brier",
+"id": "flora:Ivy",
 "type": "flora",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "gai gốc"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "cây nho"
+"preferred_label": "dây thường xuân"
 },
 {
 "id": "realia:Money",
@@ -414,11 +400,11 @@
 "preferred_label": "Tiền bạc"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "flora:Brier",
+"type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "ngựa"
+"preferred_label": "gai gốc"
 },
 {
 "id": "realia:Lampstand.2",
@@ -426,6 +412,20 @@
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "chân đèn"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "cây nho"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "ngựa"
 }
 ]
 }

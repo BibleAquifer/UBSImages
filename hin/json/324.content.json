@@ -132,6 +132,13 @@
 "preferred_label": "यहोवा"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3525,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3525,
@@ -139,11 +146,18 @@
 "preferred_label": "गाय-बैल"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3525,
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
+"preferred_label": "साफ़ करना"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "भेंट"
 },
 {
 "id": "person:David",
@@ -160,20 +174,6 @@
 "preferred_label": "ओर्नान"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "भेंट"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "साफ़ करना"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2088,
@@ -188,13 +188,6 @@
 "preferred_label": "खलिहान"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.1963,
-"match_method": "canonical",
-"preferred_label": "गाड़ी"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.1963,
@@ -202,11 +195,11 @@
 "preferred_label": "खत्ता"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1906,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "गिदोन"
+"preferred_label": "गाड़ी"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -216,18 +209,25 @@
 "preferred_label": "मिस्र का नाला"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "भागी होना"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "ओप्रा"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "गिदोन"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "भागी होना"
 },
 {
 "id": "group:Abiezer",
@@ -251,39 +251,11 @@
 "preferred_label": "अबीएजेर"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "बलवा करना"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "दमिश्क"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "पवित्रशास्त्र"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
 },
 {
 "id": "place:Euphrates",
@@ -293,11 +265,25 @@
 "preferred_label": "फरात नदी"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Ought",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "एक स्वर्गदूत"
+"preferred_label": "बाध्य"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "मूसा"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "दमिश्क"
 },
 {
 "id": "place:Gilead",
@@ -307,18 +293,18 @@
 "preferred_label": "गिलाद"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "मिद्यान"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "व्यवस्था"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
 },
 {
 "id": "keyterm:Hope",
@@ -328,18 +314,25 @@
 "preferred_label": "आशा"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "बाध्य"
+"preferred_label": "बलवा करना"
 },
 {
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1306,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "कलौंजी"
+"preferred_label": "एक स्वर्गदूत"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "मिद्यान"
 },
 {
 "id": "flora:Cumin",
@@ -349,32 +342,11 @@
 "preferred_label": "जीरा"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "रसकुण्ड"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "छड़ी"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:NutmegFlower",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "जैतून का वृक्ष"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "लाठी"
+"preferred_label": "कलौंजी"
 },
 {
 "id": "flora:Barley",
@@ -384,6 +356,20 @@
 "preferred_label": "जौ"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "एपा"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "छड़ी"
+},
+{
 "id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1181,
@@ -391,11 +377,25 @@
 "preferred_label": "बांज वृक्ष"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "एपा"
+"preferred_label": "रसकुण्ड"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "लाठी"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "जैतून का वृक्ष"
 }
 ]
 }

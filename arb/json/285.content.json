@@ -3,9 +3,9 @@
 "content_id": "281440",
 "reference_id": 1790,
 "version": "1.0.4",
-"title": "طاولة القرابين",
+"title": "مائدة القرابين",
 "media_type": "Image",
-"index_reference": "طاولة القرابين",
+"index_reference": "مائدة القرابين",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0449_sacrifice_table.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0449_sacrifice_table.jpg'>link</a></p></block>",
@@ -260,6 +260,13 @@
 "preferred_label": "مذبح المسكن"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3929,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3929,
@@ -272,13 +279,6 @@
 "confidence": 0.3929,
 "match_method": "canonical",
 "preferred_label": "مذبح حجري"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3929,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
 },
 {
 "id": "realia:Lampstand.2",
@@ -295,13 +295,6 @@
 "preferred_label": "خُبْزُ ٱلْوُجُوهِ"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.2914,
-"match_method": "canonical",
-"preferred_label": "سنط"
-},
-{
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.2914,
@@ -316,11 +309,11 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.2257,
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.2914,
 "match_method": "canonical",
-"preferred_label": "سُلَيْمَان"
+"preferred_label": "سنط"
 },
 {
 "id": "keyterm:Stain",
@@ -330,18 +323,18 @@
 "preferred_label": "تنجيس"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "سُلَيْمَان"
+},
+{
 "id": "realia:Dish",
 "type": "realia",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "صَحْن"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "خيمة الاجتماع"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -351,11 +344,11 @@
 "preferred_label": "تَابُوتُ ٱلْعَهْدِ"
 },
 {
-"id": "realia:Curtain",
+"id": "realia:Jug",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "حِجاب"
+"preferred_label": "إِبْرِيق"
 },
 {
 "id": "realia:Lamp",
@@ -365,32 +358,18 @@
 "preferred_label": "سِرَاج"
 },
 {
-"id": "realia:Jug",
+"id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "إِبْرِيق"
+"preferred_label": "حِجاب"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "أَنْ يُخْطِئَ"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "ذبح"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "تابوت العهد"
+"preferred_label": "خيمة الاجتماع"
 },
 {
 "id": "keyterm:Holy",
@@ -407,11 +386,67 @@
 "preferred_label": "حَزَقِيَّا"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "ذبح"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "تابوت العهد"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "يُهِين"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "أَنْ يُخْطِئَ"
+},
+{
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "سَجْف"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "سَرِير"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "مال"
+},
+{
+"id": "realia:Handbreadth",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "شبر"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "زيت زيتون"
 },
 {
 "id": "realia:HewnStone",
@@ -440,41 +475,6 @@
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "خَمْر"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "مال"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "زيت زيتون"
-},
-{
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "سَجْف"
-},
-{
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "شبر"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "سَرِير"
 }
 ]
 }

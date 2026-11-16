@@ -182,18 +182,18 @@
 "preferred_label": "jenis"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.4014,
-"match_method": "canonical",
-"preferred_label": "lembu sapi"
-},
-{
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.4014,
 "match_method": "canonical",
 "preferred_label": "ikan"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.4014,
+"match_method": "canonical",
+"preferred_label": "lembu sapi"
 },
 {
 "id": "fauna:CreepingAnimal",
@@ -224,13 +224,6 @@
 "preferred_label": "menghancurkan"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -238,11 +231,18 @@
 "preferred_label": "langit"
 },
 {
-"id": "realia:Ship",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "kapal"
+"preferred_label": "patung"
 },
 {
 "id": "fauna:Rooster",
@@ -252,11 +252,11 @@
 "preferred_label": "ayam jantan"
 },
 {
-"id": "realia:Image",
+"id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "patung"
+"preferred_label": "kapal"
 },
 {
 "id": "keyterm:Imperishable",
@@ -273,11 +273,11 @@
 "preferred_label": "rupa"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "penajisan"
+"preferred_label": "Nuh"
 },
 {
 "id": "keyterm:Glory",
@@ -287,20 +287,6 @@
 "preferred_label": "kemuliaan"
 },
 {
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Nuh"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Salomo"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -308,11 +294,18 @@
 "preferred_label": "takut"
 },
 {
-"id": "fauna:Skink",
-"type": "fauna",
-"confidence": 0.1195,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "siput"
+"preferred_label": "penajisan"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Salomo"
 },
 {
 "id": "fauna:Mouse",
@@ -334,6 +327,13 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "cerpelai"
+},
+{
+"id": "fauna:Skink",
+"type": "fauna",
+"confidence": 0.1195,
+"match_method": "canonical",
+"preferred_label": "siput"
 }
 ]
 }

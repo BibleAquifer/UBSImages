@@ -303,18 +303,18 @@
 "preferred_label": "约柜"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3498,
-"match_method": "canonical",
-"preferred_label": "祭坛"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3498,
 "match_method": "canonical",
 "preferred_label": "圣殿祭坛"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3498,
+"match_method": "canonical",
+"preferred_label": "祭坛"
 },
 {
 "id": "realia:Altar",
@@ -373,18 +373,18 @@
 "preferred_label": "奉献"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1668,
-"match_method": "canonical",
-"preferred_label": "染色的布"
-},
-{
 "id": "fauna:Dugong",
 "type": "fauna",
 "confidence": 0.1668,
 "match_method": "canonical",
 "preferred_label": "儒艮"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1668,
+"match_method": "canonical",
+"preferred_label": "染色的布"
 },
 {
 "id": "realia:Leather",
@@ -394,13 +394,6 @@
 "preferred_label": "皮革"
 },
 {
-"id": "keyterm:DailyLife",
-"type": "keyterm",
-"confidence": 0.1659,
-"match_method": "canonical",
-"preferred_label": "日常生活"
-},
-{
 "id": "person:Bezalel",
 "type": "person",
 "confidence": 0.1659,
@@ -408,18 +401,11 @@
 "preferred_label": "比撒列"
 },
 {
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.162,
+"id": "keyterm:DailyLife",
+"type": "keyterm",
+"confidence": 0.1659,
 "match_method": "canonical",
-"preferred_label": "外衣"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.162,
-"match_method": "canonical",
-"preferred_label": "葡萄树"
+"preferred_label": "日常生活"
 },
 {
 "id": "flora:Fig",
@@ -429,6 +415,13 @@
 "preferred_label": "无花果"
 },
 {
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.162,
+"match_method": "canonical",
+"preferred_label": "外衣"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.162,
@@ -436,25 +429,11 @@
 "preferred_label": "羊羔"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.161,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.162,
 "match_method": "canonical",
-"preferred_label": "耶和华"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "耶稣"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "技能"
+"preferred_label": "葡萄树"
 },
 {
 "id": "group:Jews",
@@ -464,6 +443,13 @@
 "preferred_label": "犹大人"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "耶和华"
+},
+{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.161,
@@ -471,11 +457,18 @@
 "preferred_label": "永远"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1059,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "紫色布"
+"preferred_label": "技能"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "耶稣"
 },
 {
 "id": "flora:Laurustinus",
@@ -492,25 +485,18 @@
 "preferred_label": "希腊桧"
 },
 {
-"id": "flora:Myrtle",
-"type": "flora",
-"confidence": 0.101,
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1059,
 "match_method": "canonical",
-"preferred_label": "番石榴树"
+"preferred_label": "紫色布"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
+"id": "realia:Screen",
+"type": "realia",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "阿勒颇松"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "芦苇"
+"preferred_label": "门帘"
 },
 {
 "id": "flora:OliveTree",
@@ -520,11 +506,53 @@
 "preferred_label": "橄榄树"
 },
 {
-"id": "realia:Screen",
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "香柏树"
+},
+{
+"id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "门帘"
+"preferred_label": "石版"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "芦苇"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "阿勒颇松"
+},
+{
+"id": "realia:HornsOfAltar",
+"type": "realia",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "坛角"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "松树"
+},
+{
+"id": "flora:Myrtle",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "番石榴树"
 },
 {
 "id": "flora:JuniperTree",
@@ -539,34 +567,6 @@
 "confidence": 0.101,
 "match_method": "canonical",
 "preferred_label": "柏树"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "松树"
-},
-{
-"id": "realia:Tablet",
-"type": "realia",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "石版"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "香柏树"
-},
-{
-"id": "realia:HornsOfAltar",
-"type": "realia",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "坛角"
 }
 ]
 }

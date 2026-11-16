@@ -3,9 +3,9 @@
 "content_id": "282778",
 "reference_id": 2195,
 "version": "1.0.4",
-"title": "Héliopolis",
+"title": "Obélisque à Héliopolis",
 "media_type": "Image",
-"index_reference": "héliopolis",
+"index_reference": "obélisque à héliopolis",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0289_heliopolis.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0289_heliopolis.jpg'>link</a></p></block>",
@@ -106,13 +106,6 @@
 "preferred_label": "maison"
 },
 {
-"id": "place:CityOfDestruction",
-"type": "place",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "ville de la destruction"
-},
-{
 "id": "place:Pi-beseth",
 "type": "place",
 "confidence": 0.2429,
@@ -127,6 +120,13 @@
 "preferred_label": "Manassé"
 },
 {
+"id": "place:CityOfDestruction",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "ville de la destruction"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -134,11 +134,11 @@
 "preferred_label": "jurer"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
+"id": "keyterm:IntactState",
+"type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Pharaon"
+"preferred_label": "paix"
 },
 {
 "id": "person:Ephraim",
@@ -148,11 +148,11 @@
 "preferred_label": "Éphraïm"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
+"id": "person:Pharaoh.4",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "paix"
+"preferred_label": "Pharaon"
 },
 {
 "id": "place:Canaan",
@@ -176,18 +176,18 @@
 "preferred_label": "agneau"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "troupeau"
-},
-{
 "id": "realia:SacredPillar",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "stèle sacrée"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "troupeau"
 }
 ]
 }

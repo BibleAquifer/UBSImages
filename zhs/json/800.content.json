@@ -51,25 +51,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "犹大"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "使承受为业"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "耶和华"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "咒诅"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "犹大"
 },
 {
 "id": "keyterm:Dispossess",
@@ -79,11 +79,11 @@
 "preferred_label": "驱逐"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "犹大支派"
+"preferred_label": "使承受为业"
 },
 {
 "id": "keyterm:Surely",
@@ -93,11 +93,18 @@
 "preferred_label": "确实！"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "咒诅"
+"preferred_label": "犹大支派"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "羊群"
 },
 {
 "id": "fauna:Goat",
@@ -112,13 +119,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "羊羔"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "羊群"
 }
 ]
 }

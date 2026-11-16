@@ -3,9 +3,9 @@
 "content_id": "294113",
 "reference_id": 2333,
 "version": "1.0.4",
-"title": "صولجان",
+"title": "أجزاء صولجان مزخرفة",
 "media_type": "Image",
-"index_reference": "صولجان",
+"index_reference": "أجزاء صولجان مزخرفة",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0364_scepter.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0364_scepter.jpg'>link</a></p></block>",
@@ -163,6 +163,13 @@
 "preferred_label": "فلسطين"
 },
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "مؤاب"
+},
+{
 "id": "person:Esther",
 "type": "person",
 "confidence": 0.245,
@@ -177,13 +184,6 @@
 "preferred_label": "أدوم"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "مؤاب"
-},
-{
 "id": "place:Mattanah",
 "type": "place",
 "confidence": 0.1825,
@@ -191,32 +191,11 @@
 "preferred_label": "متانة"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "مسح"
-},
-{
 "id": "person:Shiloh",
 "type": "person",
 "confidence": 0.1825,
 "match_method": "canonical",
 "preferred_label": "شيلوه"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
-"id": "place:Beth-eden",
-"type": "place",
-"confidence": 0.1825,
-"match_method": "canonical",
-"preferred_label": "بيت عدن"
 },
 {
 "id": "place:Kir",
@@ -233,39 +212,39 @@
 "preferred_label": "وادي آون"
 },
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "قرعة"
-},
-{
-"id": "person:Benjamin",
+"id": "person:Judah.4",
 "type": "person",
-"confidence": 0.1725,
+"confidence": 0.1825,
 "match_method": "canonical",
-"preferred_label": "بنيامين"
+"preferred_label": "يهوذا"
 },
 {
-"id": "keyterm:Just",
+"id": "place:Beth-eden",
+"type": "place",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "بيت عدن"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1825,
+"match_method": "canonical",
+"preferred_label": "مسح"
+},
+{
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "يتصرف بي عدل"
+"preferred_label": "حظوة"
 },
 {
-"id": "place:Damascus",
-"type": "place",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "دمشق"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "أشور"
+"preferred_label": "قبيلة أفرايم"
 },
 {
 "id": "person:Ephraim",
@@ -275,25 +254,11 @@
 "preferred_label": "أفرايم"
 },
 {
-"id": "place:Amalek",
-"type": "place",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "عماليق"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "أورشليم"
+"preferred_label": "الفلسطينيين"
 },
 {
 "id": "person:Machir",
@@ -303,32 +268,67 @@
 "preferred_label": "ماكير"
 },
 {
+"id": "person:Seth",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "شيث"
+},
+{
+"id": "place:Ashdod",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "أشدود"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "زبولون"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "بنيامين"
+},
+{
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "أشقلون"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "دمشق"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "أورشليم"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "يتصرف بي عدل"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "إسرائيل"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "الفلسطينيين"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "مرثاة"
-},
-{
-"id": "keyterm:Favor",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "حظوة"
 },
 {
 "id": "place:Nile",
@@ -345,39 +345,11 @@
 "preferred_label": "محبة"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "قبيلة بنيامين"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "قبيلة أفرايم"
-},
-{
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "زبولون"
-},
-{
-"id": "place:Ashdod",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "أشدود"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "أشقلون"
+"preferred_label": "ملكوت"
 },
 {
 "id": "keyterm:Always",
@@ -387,11 +359,25 @@
 "preferred_label": "دايماً"
 },
 {
-"id": "group:Zebulun",
-"type": "group",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "قبيلة زبولون"
+"preferred_label": "مصر"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "أشور"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "قرعة"
 },
 {
 "id": "place:Ekron",
@@ -401,32 +387,32 @@
 "preferred_label": "عقرون"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "عماليق"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "قبيلة بنيامين"
+},
+{
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "ملكوت"
+"preferred_label": "مرثاة"
 },
 {
-"id": "person:Seth",
-"type": "person",
+"id": "group:Zebulun",
+"type": "group",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "شيث"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "زيت المسحة"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "زيت زيتون"
+"preferred_label": "قبيلة زبولون"
 },
 {
 "id": "realia:CookingPot",
@@ -436,18 +422,32 @@
 "preferred_label": "حلة طبخ"
 },
 {
-"id": "realia:Fortification",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "تحصين"
-},
-{
 "id": "realia:Throne",
 "type": "realia",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "عرش"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "زيت زيتون"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "زيت المسحة"
+},
+{
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "تحصين"
 }
 ]
 }

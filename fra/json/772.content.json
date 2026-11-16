@@ -216,11 +216,11 @@
 "preferred_label": "lame"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:EmbroideredCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "étoffe de pourpre"
+"preferred_label": "étoffe brodée"
 },
 {
 "id": "realia:Linen",
@@ -230,11 +230,11 @@
 "preferred_label": "lin"
 },
 {
-"id": "realia:EmbroideredCloth",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "étoffe brodée"
+"preferred_label": "étoffe de pourpre"
 },
 {
 "id": "person:Ahisamach",
@@ -251,11 +251,46 @@
 "preferred_label": "Oholiab"
 },
 {
-"id": "keyterm:Understanding",
+"id": "person:Hiram.2",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Hiram"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Dan"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "tribu de Dan"
+},
+{
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "intelligence"
+"preferred_label": "force"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "keyterm:Ability",
@@ -272,11 +307,11 @@
 "preferred_label": "ardeur"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "keyterm:Understanding",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Dan"
+"preferred_label": "intelligence"
 },
 {
 "id": "keyterm:Sin",
@@ -286,53 +321,11 @@
 "preferred_label": "pécher"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
 "id": "person:Joshua.5",
 "type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "Josué"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "force"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "tribu de Dan"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
-"id": "person:Hiram.2",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Hiram"
-},
-{
-"id": "flora:BottleGourd",
-"type": "flora",
-"confidence": 0.1183,
-"match_method": "canonical",
-"preferred_label": "calebasse"
 },
 {
 "id": "realia:Crown",
@@ -342,74 +335,18 @@
 "preferred_label": "couronne"
 },
 {
+"id": "flora:BottleGourd",
+"type": "flora",
+"confidence": 0.1183,
+"match_method": "canonical",
+"preferred_label": "calebasse"
+},
+{
 "id": "realia:Stylus",
 "type": "realia",
 "confidence": 0.1183,
 "match_method": "canonical",
 "preferred_label": "burin"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "seuil"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "lion"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "pin d'Alep"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "olivier"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "autel"
-},
-{
-"id": "realia:Tablet",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "tablette"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "cèdre"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "autel du tabernacle"
 },
 {
 "id": "realia:Cubit",
@@ -419,11 +356,18 @@
 "preferred_label": "coudée"
 },
 {
-"id": "realia:Beam",
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "cèdre"
+},
+{
+"id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "poutre"
+"preferred_label": "tablette"
 },
 {
 "id": "realia:TempleAltar",
@@ -433,11 +377,67 @@
 "preferred_label": "autel du Temple"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "autel"
+},
+{
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "seuil"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "autel de pierre"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "pin d'Alep"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "cornes de l'autel"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "lion"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "poutre"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "olivier"
 }
 ]
 }

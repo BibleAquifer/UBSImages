@@ -3,9 +3,9 @@
 "content_id": "281864",
 "reference_id": 2214,
 "version": "1.0.4",
-"title": "الظبي الأفريقي",
+"title": "الثيتل",
 "media_type": "Image",
-"index_reference": "الظبي الأفريقي",
+"index_reference": "الثيتل",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0286_hartebeest.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0286_hartebeest.jpg'>link</a></p></block>",
@@ -27,18 +27,11 @@
 "resource": [],
 "acai": [
 {
-"id": "fauna:Addax",
+"id": "fauna:Oryx",
 "type": "fauna",
 "confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "المَهَاةُ"
-},
-{
-"id": "fauna:BubalHartebeest",
-"type": "fauna",
-"confidence": 0.415,
-"match_method": "canonical",
-"preferred_label": "ثَيْتَل"
+"preferred_label": "مَهَاة"
 },
 {
 "id": "fauna:Hartebeest",
@@ -55,18 +48,18 @@
 "preferred_label": "وَعْل"
 },
 {
-"id": "fauna:Oryx",
+"id": "fauna:BubalHartebeest",
 "type": "fauna",
 "confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "مَهَاة"
+"preferred_label": "ثَيْتَل"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.375,
+"id": "fauna:Addax",
+"type": "fauna",
+"confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "داود"
+"preferred_label": "المَهَاةُ"
 },
 {
 "id": "deity:Lord",
@@ -76,6 +69,13 @@
 "preferred_label": "الرَّبّ"
 },
 {
+"id": "person:David",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "داود"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.315,
@@ -83,18 +83,18 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "fauna:Gazelle",
-"type": "fauna",
-"confidence": 0.315,
-"match_method": "canonical",
-"preferred_label": "ظبي"
-},
-{
 "id": "fauna:Deer",
 "type": "fauna",
 "confidence": 0.315,
 "match_method": "canonical",
 "preferred_label": "أيَّل"
+},
+{
+"id": "fauna:Gazelle",
+"type": "fauna",
+"confidence": 0.315,
+"match_method": "canonical",
+"preferred_label": "ظبي"
 }
 ]
 }

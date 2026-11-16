@@ -234,11 +234,11 @@
 "preferred_label": "Jazer"
 },
 {
-"id": "place:JazerSea",
+"id": "place:Sibmah",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Sea of Jazer"
+"preferred_label": "Sibmah"
 },
 {
 "id": "place:EshcolValley",
@@ -248,11 +248,11 @@
 "preferred_label": "Valley of Eshcol"
 },
 {
-"id": "place:Sibmah",
+"id": "place:JazerSea",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Sibmah"
+"preferred_label": "Sea of Jazer"
 },
 {
 "id": "person:Abiezer",
@@ -262,11 +262,11 @@
 "preferred_label": "Abiezer"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
+"id": "flora:Barley",
+"type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "Barley"
 },
 {
 "id": "flora:Brier",
@@ -276,18 +276,11 @@
 "preferred_label": "Brier"
 },
 {
-"id": "flora:Boxthorn",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Boxthorn"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Acacia"
+"preferred_label": "Wheat"
 },
 {
 "id": "flora:Thistle",
@@ -297,18 +290,25 @@
 "preferred_label": "Thistle"
 },
 {
-"id": "flora:Barley",
+"id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "Acacia"
 },
 {
-"id": "flora:Wheat",
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Sickle"
+},
+{
+"id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Wheat"
+"preferred_label": "Boxthorn"
 },
 {
 "id": "fauna:Donkey",
@@ -318,116 +318,11 @@
 "preferred_label": "Donkey"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Bashan"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Trust"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ephraim"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Safety"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Sodom"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Nazirites"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Judah"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Detested Thing"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Tribe of Judah"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Baal"
 },
 {
 "id": "group:Ephraim",
@@ -437,11 +332,102 @@
 "preferred_label": "Tribe of Ephraim"
 },
 {
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Ephraim"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Nazirites"
+},
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Sodom"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Tribe of Judah"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Pharaoh"
+},
+{
 "id": "place:Gomorrah",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Gomorrah"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Judah"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Bashan"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Detested Thing"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Trust"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Safety"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Baal"
 },
 {
 "id": "keyterm:Bitter",
@@ -451,18 +437,25 @@
 "preferred_label": "Bitter"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Authority"
+},
+{
 "id": "flora:Chicory",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Bitter Herbs"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Tower"
 },
 {
 "id": "flora:Colocynth",
@@ -472,11 +465,11 @@
 "preferred_label": "Colocynth"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1073,
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Tower"
 },
 {
 "id": "realia:RaisinCake",
@@ -486,25 +479,25 @@
 "preferred_label": "Raisin Cake"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Olive Tree"
-},
-{
-"id": "fauna:Bull",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "Goat"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
+"id": "realia:Must",
+"type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Sorghum"
+"preferred_label": "Must"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Image"
 },
 {
 "id": "flora:Pomegranate",
@@ -521,13 +514,6 @@
 "preferred_label": "Mattock"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Image"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1073,
@@ -535,11 +521,11 @@
 "preferred_label": "Grain"
 },
 {
-"id": "realia:Must",
-"type": "realia",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Must"
+"preferred_label": "Sheep"
 },
 {
 "id": "flora:Coriander",
@@ -549,18 +535,32 @@
 "preferred_label": "Coriander"
 },
 {
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Sorghum"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Cattle"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Olive Tree"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Flock"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Sheep"
 }
 ]
 }

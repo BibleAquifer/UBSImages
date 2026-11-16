@@ -3,9 +3,9 @@
 "content_id": "286879",
 "reference_id": 1631,
 "version": "1.0.4",
-"title": "Миндальное дерево",
+"title": "Цветущее миндальное дерево",
 "media_type": "Image",
-"index_reference": "миндальное дерево",
+"index_reference": "цветущее миндальное дерево",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0022_almondtree.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0022_almondtree.jpg'>link</a></p></block>",
@@ -70,18 +70,18 @@
 "preferred_label": "Миндаль"
 },
 {
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.465,
-"match_method": "canonical",
-"preferred_label": "Подставка для светильника"
-},
-{
 "id": "realia:Lampstand",
 "type": "realia",
 "confidence": 0.465,
 "match_method": "canonical",
 "preferred_label": "Светильник"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.465,
+"match_method": "canonical",
+"preferred_label": "Подставка для светильника"
 },
 {
 "id": "person:Israel",
@@ -112,13 +112,6 @@
 "preferred_label": "Иеремия"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Слово Господне"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -126,11 +119,11 @@
 "preferred_label": "Страх"
 },
 {
-"id": "flora:Ladanum",
-"type": "flora",
-"confidence": 0.1713,
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "ладанник"
+"preferred_label": "Слово Господне"
 },
 {
 "id": "flora:PlaneTree",
@@ -140,11 +133,18 @@
 "preferred_label": "Платан"
 },
 {
-"id": "flora:GumTragacanth",
+"id": "flora:PistachioNuts",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "трагакант"
+"preferred_label": "Фисташки"
+},
+{
+"id": "flora:Ladanum",
+"type": "flora",
+"confidence": 0.1713,
+"match_method": "canonical",
+"preferred_label": "ладанник"
 },
 {
 "id": "flora:Caper",
@@ -154,18 +154,11 @@
 "preferred_label": "Каперс"
 },
 {
-"id": "flora:PistachioNuts",
+"id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "Фисташки"
-},
-{
-"id": "flora:Poplar",
-"type": "flora",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "Тополь"
+"preferred_label": "трагакант"
 },
 {
 "id": "flora:Terebinth",
@@ -175,11 +168,11 @@
 "preferred_label": "Теревинф"
 },
 {
-"id": "flora:Liquidambar",
+"id": "flora:Poplar",
 "type": "flora",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "Ликвидамбар"
+"preferred_label": "Тополь"
 },
 {
 "id": "realia:House",
@@ -187,6 +180,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "дом"
+},
+{
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "Ликвидамбар"
 },
 {
 "id": "fauna:Locust",

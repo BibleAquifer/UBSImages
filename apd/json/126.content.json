@@ -3,9 +3,9 @@
 "content_id": "293411",
 "reference_id": 1631,
 "version": "1.0.4",
-"title": "شجرة اللوز",
+"title": "شجرة اللوز المزهرة",
 "media_type": "Image",
-"index_reference": "شجرة اللوز",
+"index_reference": "شجرة اللوز المزهرة",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0022_almondtree.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0022_almondtree.jpg'>link</a></p></block>",
@@ -70,14 +70,14 @@
 "preferred_label": "لوز"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Lampstand",
 "type": "realia",
 "confidence": 0.465,
 "match_method": "canonical",
 "preferred_label": "منارة"
 },
 {
-"id": "realia:Lampstand",
+"id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.465,
 "match_method": "canonical",
@@ -112,13 +112,6 @@
 "preferred_label": "إرميا"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "كلمة الرب"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -126,11 +119,11 @@
 "preferred_label": "خوف"
 },
 {
-"id": "flora:Ladanum",
-"type": "flora",
-"confidence": 0.1713,
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "قستوس"
+"preferred_label": "كلمة الرب"
 },
 {
 "id": "flora:PlaneTree",
@@ -140,11 +133,18 @@
 "preferred_label": "شجرة الدلب"
 },
 {
-"id": "flora:GumTragacanth",
+"id": "flora:PistachioNuts",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "صمغ الكثيراء"
+"preferred_label": "فستق"
+},
+{
+"id": "flora:Ladanum",
+"type": "flora",
+"confidence": 0.1713,
+"match_method": "canonical",
+"preferred_label": "قستوس"
 },
 {
 "id": "flora:Caper",
@@ -154,18 +154,11 @@
 "preferred_label": "كَبَر"
 },
 {
-"id": "flora:PistachioNuts",
+"id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "فستق"
-},
-{
-"id": "flora:Poplar",
-"type": "flora",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "حور"
+"preferred_label": "صمغ الكثيراء"
 },
 {
 "id": "flora:Terebinth",
@@ -175,11 +168,11 @@
 "preferred_label": "بطم"
 },
 {
-"id": "flora:Liquidambar",
+"id": "flora:Poplar",
 "type": "flora",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "عنبر سائل"
+"preferred_label": "حور"
 },
 {
 "id": "realia:House",
@@ -187,6 +180,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "بيت"
+},
+{
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "عنبر سائل"
 },
 {
 "id": "fauna:Locust",

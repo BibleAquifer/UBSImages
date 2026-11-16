@@ -3,9 +3,9 @@
 "content_id": "284800",
 "reference_id": 2351,
 "version": "1.0.4",
-"title": "Lumbung Biji-Bijian",
+"title": "Lumbung Gandum Bawah Tanah",
 "media_type": "Image",
-"index_reference": "lumbung bijibijian",
+"index_reference": "lumbung gandum bawah tanah",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0419_grain_store.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0419_grain_store.jpg'>link</a></p></block>",
@@ -172,11 +172,11 @@
 "preferred_label": "Yerusalem"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Libanon"
+"preferred_label": "memberkati"
 },
 {
 "id": "person:Solomon",
@@ -186,11 +186,18 @@
 "preferred_label": "Salomo"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "memberkati"
+"preferred_label": "Libanon"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.2011,
+"match_method": "canonical",
+"preferred_label": "anggur baru"
 },
 {
 "id": "realia:WinnowingFork",
@@ -207,11 +214,11 @@
 "preferred_label": "tempat pengirikan"
 },
 {
-"id": "realia:Must",
+"id": "realia:Chariot",
 "type": "realia",
-"confidence": 0.2011,
+"confidence": 0.19,
 "match_method": "canonical",
-"preferred_label": "anggur baru"
+"preferred_label": "kereta"
 },
 {
 "id": "flora:OliveTree",
@@ -221,39 +228,11 @@
 "preferred_label": "pohon zaitun"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.19,
-"match_method": "canonical",
-"preferred_label": "kereta"
-},
-{
 "id": "place:Ijon",
 "type": "place",
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Iyon"
-},
-{
-"id": "place:Hamath",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Hamat"
-},
-{
-"id": "place:Baalath.2",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Baalat"
-},
-{
-"id": "place:Tadmor",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Tadmor"
 },
 {
 "id": "place:Pithom",
@@ -263,6 +242,20 @@
 "preferred_label": "Pitom"
 },
 {
+"id": "place:Tadmor",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Tadmor"
+},
+{
+"id": "place:Baalath.2",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Baalat"
+},
+{
 "id": "place:Abel-beth-maacah",
 "type": "place",
 "confidence": 0.1861,
@@ -270,32 +263,11 @@
 "preferred_label": "Abel-Bet-Maakha"
 },
 {
-"id": "person:Asa",
-"type": "person",
-"confidence": 0.175,
+"id": "place:Hamath",
+"type": "place",
+"confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "Asa"
-},
-{
-"id": "person:Naphtali",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Naftali"
-},
-{
-"id": "group:Naphtali",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "suku Naftali"
-},
-{
-"id": "person:Jehoshaphat.3",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Yosafat"
+"preferred_label": "Hamat"
 },
 {
 "id": "place:Dan",
@@ -305,11 +277,11 @@
 "preferred_label": "Dan"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "place:Raamses",
@@ -319,18 +291,11 @@
 "preferred_label": "Raamses"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "person:Pharaoh.5",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Firaun"
+"preferred_label": "langit"
 },
 {
 "id": "group:Dan",
@@ -340,18 +305,39 @@
 "preferred_label": "suku Dan"
 },
 {
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Yosafat"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Naftali"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "person:Ben-hadad",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Benhadad"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Suku Yehuda"
 },
 {
 "id": "keyterm:Heavenly",
@@ -361,18 +347,25 @@
 "preferred_label": "surgawi"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "person:Asa",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "langit"
+"preferred_label": "Asa"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1261,
+"id": "group:Naphtali",
+"type": "group",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "burung"
+"preferred_label": "suku Naftali"
+},
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Firaun"
 },
 {
 "id": "realia:AnimalPen",
@@ -389,11 +382,25 @@
 "preferred_label": "ruang perbendaharaan"
 },
 {
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "burung"
+},
+{
 "id": "fauna:Crow",
 "type": "fauna",
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "gagak"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "jelai"
 },
 {
 "id": "fauna:Goat",
@@ -403,18 +410,39 @@
 "preferred_label": "kambing"
 },
 {
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "ara"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "delima"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "ayam jantan"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "ketumbar"
+},
+{
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "tempat pemerasan anggur"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Minyak urapan"
 },
 {
 "id": "flora:Weed",
@@ -438,25 +466,11 @@
 "preferred_label": "minyak zaitun"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "jelai"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "ayam jantan"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "ara"
+"preferred_label": "Minyak urapan"
 },
 {
 "id": "fauna:Mule",
@@ -466,25 +480,11 @@
 "preferred_label": "bagal"
 },
 {
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "ketumbar"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "kawanan domba"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "delima"
 }
 ]
 }

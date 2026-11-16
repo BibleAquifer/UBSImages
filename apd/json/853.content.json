@@ -167,13 +167,6 @@
 "preferred_label": "داود"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "فلسطين"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.2562,
@@ -181,18 +174,18 @@
 "preferred_label": "الفلسطينيين"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "فلسطين"
+},
+{
 "id": "realia:Cymbals",
 "type": "realia",
 "confidence": 0.2088,
 "match_method": "canonical",
 "preferred_label": "صنوج"
-},
-{
-"id": "place:Gibeath-elohim",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "جبعة إلوهيم"
 },
 {
 "id": "person:Miriam",
@@ -209,11 +202,18 @@
 "preferred_label": "عيد الهلال"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "place:Gibeath-elohim",
+"type": "place",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "جبعة إلوهيم"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "تقدمة"
+"preferred_label": "شاول"
 },
 {
 "id": "place:Gibeah.2",
@@ -223,25 +223,18 @@
 "preferred_label": "جبعة"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "تقدمة"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "هارون"
-},
-{
-"id": "place:Mizpah.2",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "المصفاة"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "يتنبأ"
 },
 {
 "id": "keyterm:Bless",
@@ -258,18 +251,18 @@
 "preferred_label": "يفتاح"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
+"id": "place:Mizpah.2",
+"type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "شاول"
+"preferred_label": "المصفاة"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1306,
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "سرو"
+"preferred_label": "يتنبأ"
 },
 {
 "id": "realia:Shaker",
@@ -279,39 +272,11 @@
 "preferred_label": "خشخاشة"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "مرتفعة"
-},
-{
-"id": "flora:Vine",
+"id": "flora:Cypress",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
-"id": "flora:JuniperTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "عرعر فينيقي"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "بوق"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "شربين"
+"preferred_label": "سرو"
 },
 {
 "id": "flora:Pine",
@@ -321,18 +286,11 @@
 "preferred_label": "صنوبر ثمري"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "بوق قرن الكبش"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "بيت"
+"preferred_label": "بوق"
 },
 {
 "id": "flora:Juniper",
@@ -342,11 +300,53 @@
 "preferred_label": "عرعر يوناني"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "بيت"
+},
+{
+"id": "flora:JuniperTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "عرعر فينيقي"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "مرتفعة"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "شربين"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "خمرة"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "بوق قرن الكبش"
 }
 ]
 }

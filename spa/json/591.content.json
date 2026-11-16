@@ -3,9 +3,9 @@
 "content_id": "288315",
 "reference_id": 2134,
 "version": "1.0.4",
-"title": "Leche y Miel",
+"title": "Miel vertida en leche",
 "media_type": "Image",
-"index_reference": "leche y miel",
+"index_reference": "miel vertida en leche",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0630_milk_and_honey.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0630_milk_and_honey.jpg'>link</a></p></block>",
@@ -170,18 +170,11 @@
 "preferred_label": "Het"
 },
 {
-"id": "group:Jebusites",
+"id": "group:Hivites",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "jebuseo"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "heveos"
 },
 {
 "id": "group:Canaan",
@@ -191,11 +184,11 @@
 "preferred_label": "cananeo"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.3175,
 "match_method": "canonical",
-"preferred_label": "Canaán"
+"preferred_label": "Israel"
 },
 {
 "id": "group:Amorites",
@@ -205,18 +198,25 @@
 "preferred_label": "amorreo"
 },
 {
-"id": "group:Hivites",
-"type": "group",
-"confidence": 0.3175,
-"match_method": "canonical",
-"preferred_label": "heveos"
-},
-{
 "id": "group:Hittite",
 "type": "group",
 "confidence": 0.3175,
 "match_method": "canonical",
 "preferred_label": "hititas"
+},
+{
+"id": "place:Canaan",
+"type": "place",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "Canaán"
+},
+{
+"id": "group:Jebusites",
+"type": "group",
+"confidence": 0.3175,
+"match_method": "canonical",
+"preferred_label": "jebuseo"
 },
 {
 "id": "group:Perizzites",
@@ -233,13 +233,6 @@
 "preferred_label": "cargar con la culpa"
 },
 {
-"id": "keyterm:LiftUp",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "hacer un juramento"
-},
-{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.245,
@@ -247,11 +240,11 @@
 "preferred_label": "obligar a servir"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:LiftUp",
 "type": "keyterm",
-"confidence": 0.1725,
+"confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "íntegro"
+"preferred_label": "hacer un juramento"
 },
 {
 "id": "keyterm:Possess",
@@ -261,27 +254,6 @@
 "preferred_label": "dejar en herencia"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "desposeer"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "¡ciertamente!"
-},
-{
-"id": "keyterm:Oath",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "juramento"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -289,18 +261,11 @@
 "preferred_label": "instrucción"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "pacto"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "bendecir"
+"preferred_label": "desposeer"
 },
 {
 "id": "keyterm:Stubborn",
@@ -310,11 +275,53 @@
 "preferred_label": "terco"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "trabajo"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "íntegro"
+},
+{
+"id": "keyterm:Oath",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "juramento"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "¡ciertamente!"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "pacto"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "trigo"
 },
 {
 "id": "flora:Sorghum",
@@ -329,13 +336,6 @@
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "vid"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "trigo"
 }
 ]
 }

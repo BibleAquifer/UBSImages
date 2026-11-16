@@ -3,9 +3,9 @@
 "content_id": "294484",
 "reference_id": 1771,
 "version": "1.0.4",
-"title": "墙",
+"title": "石块墙",
 "media_type": "Image",
-"index_reference": "墙",
+"index_reference": "石块墙",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg'>link</a></p></block>",
@@ -145,32 +145,11 @@
 "preferred_label": "耶和华"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "大卫"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "耶稣"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "确实！"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "奉献"
+"preferred_label": "以法莲支派"
 },
 {
 "id": "person:Ephraim",
@@ -180,13 +159,6 @@
 "preferred_label": "以法莲"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.1765,
@@ -194,25 +166,11 @@
 "preferred_label": "一群门徒"
 },
 {
-"id": "keyterm:Slaughtering",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "宰杀祭牲"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "以法莲支派"
+"preferred_label": "奉献"
 },
 {
 "id": "place:Samaria",
@@ -222,6 +180,27 @@
 "preferred_label": "撒玛利亚（城）"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "宰杀祭牲"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "大卫"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -229,11 +208,25 @@
 "preferred_label": "羞辱"
 },
 {
-"id": "realia:StonePlane",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "石刨"
+"preferred_label": "确实！"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "耶稣"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "作门徒"
 },
 {
 "id": "realia:Foundation",
@@ -243,32 +236,32 @@
 "preferred_label": "根基"
 },
 {
+"id": "realia:StonePlane",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "石刨"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "肘"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "圣殿祭坛"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "祭坛"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "葡萄树"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "酒"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "圣殿"
 },
 {
 "id": "realia:StoneAltar",
@@ -285,18 +278,25 @@
 "preferred_label": "祭坛"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "肘"
+"preferred_label": "圣殿"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "葡萄树"
+},
+{
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "圣殿祭坛"
+"preferred_label": "酒"
 }
 ]
 }

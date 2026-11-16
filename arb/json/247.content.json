@@ -3,9 +3,9 @@
 "content_id": "281402",
 "reference_id": 1752,
 "version": "1.0.4",
-"title": "مسامير",
+"title": "مسامير معدنية",
 "media_type": "Image",
-"index_reference": "مسامير",
+"index_reference": "مسامير معدنية",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0372_nails.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0372_nails.jpg'>link</a></p></block>",
@@ -72,25 +72,11 @@
 "preferred_label": "داود"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "يَكُونُ تِلْمِيذًا"
-},
-{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "مجموعة تلاميذ"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "يؤمن"
 },
 {
 "id": "person:Jesus.2",
@@ -100,11 +86,18 @@
 "preferred_label": "يَسوع"
 },
 {
-"id": "realia:Goad",
-"type": "realia",
-"confidence": 0.1983,
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "مِنْسَاس"
+"preferred_label": "يؤمن"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "يَكُونُ تِلْمِيذًا"
 },
 {
 "id": "realia:Anvil",
@@ -114,6 +107,13 @@
 "preferred_label": "سِنْدَان"
 },
 {
+"id": "realia:Goad",
+"type": "realia",
+"confidence": 0.1983,
+"match_method": "canonical",
+"preferred_label": "مِنْسَاس"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.165,
@@ -121,18 +121,25 @@
 "preferred_label": "حِرَفيّ"
 },
 {
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "شاقِل"
-},
-{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "مَاعِز"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "مال"
+},
+{
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "شاقِل"
 },
 {
 "id": "fauna:Lamb",
@@ -147,13 +154,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "قطيع"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "مال"
 }
 ]
 }

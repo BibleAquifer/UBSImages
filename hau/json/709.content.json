@@ -3,9 +3,9 @@
 "content_id": "290304",
 "reference_id": 2257,
 "version": "1.0.4",
-"title": "Kudan zuma a kan fure",
+"title": "Kudan zuma a cikin furanni",
 "media_type": "Image",
-"index_reference": "kudan zuma a kan fure",
+"index_reference": "kudan zuma a cikin furanni",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0068_beesflower.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0068_beesflower.jpg'>link</a></p></block>",
@@ -70,6 +70,13 @@
 "preferred_label": "Kudan zuma"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Yohanna"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3125,
@@ -84,11 +91,11 @@
 "preferred_label": "Wani Mala’ika"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.3125,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "Yohanna"
+"preferred_label": "Fata"
 },
 {
 "id": "realia:Belt",
@@ -96,13 +103,6 @@
 "confidence": 0.2775,
 "match_method": "canonical",
 "preferred_label": "Ɗamara"
-},
-{
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.2775,
-"match_method": "canonical",
-"preferred_label": "Fata"
 },
 {
 "id": "fauna:Locust",
@@ -119,13 +119,6 @@
 "preferred_label": "Raƙumi"
 },
 {
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.2525,
-"match_method": "canonical",
-"preferred_label": "Littafi mai naɗewa"
-},
-{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.2525,
@@ -133,32 +126,11 @@
 "preferred_label": "Jaka"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2063,
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "Assuriya"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Masar"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Amoriyawa"
-},
-{
-"id": "place:Seir",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Seyir"
+"preferred_label": "Littafi mai naɗewa"
 },
 {
 "id": "place:Zephath",
@@ -168,11 +140,39 @@
 "preferred_label": "Zefat"
 },
 {
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Seyir"
+},
+{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Kaciya"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Amoriyawa"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Masar"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Assuriya"
 },
 {
 "id": "fauna:Fly",

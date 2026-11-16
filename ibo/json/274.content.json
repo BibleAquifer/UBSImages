@@ -3,9 +3,9 @@
 "content_id": "290759",
 "reference_id": 1779,
 "version": "1.0.4",
-"title": "Ụlọ ikwuu",
+"title": "Nkọwapụta zuru oke nke ụlọikwuu nsọ",
 "media_type": "Image",
-"index_reference": "ụlọ ikwuu",
+"index_reference": "nkọwapụta zuru oke nke ụlọikwuu nsọ",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0427_tabernacle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0427_tabernacle.jpg'>link</a></p></block>",
@@ -300,6 +300,13 @@
 "preferred_label": "Ụlọ nzute"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.363,
+"match_method": "canonical",
+"preferred_label": "Ebe ịchụ aja"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.363,
@@ -321,11 +328,11 @@
 "preferred_label": "ebe ịchụ àjà nke ụlọ nzute"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.363,
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "Ebe ịchụ aja"
+"preferred_label": "Elieza"
 },
 {
 "id": "keyterm:Priesthood",
@@ -342,11 +349,11 @@
 "preferred_label": "Imehie"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.2865,
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Elieza"
+"preferred_label": "Igbe Ọgbụgba Ndụ"
 },
 {
 "id": "realia:PurpleCloth",
@@ -356,11 +363,11 @@
 "preferred_label": "Akwa odo odo"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2265,
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Igbe Ọgbụgba Ndụ"
+"preferred_label": "Igbe ọgbụgba ndụ"
 },
 {
 "id": "keyterm:Defilement",
@@ -368,13 +375,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Imerụ emerụ"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Igbe ọgbụgba ndụ"
 },
 {
 "id": "realia:Tabernacle",
@@ -405,11 +405,11 @@
 "preferred_label": "Ewu"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "ehi"
+"preferred_label": "Ìgwè atụrụ"
 },
 {
 "id": "realia:Linen",
@@ -419,20 +419,6 @@
 "preferred_label": "Akwa linen"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "akwa mgbochi"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Ìgwè atụrụ"
-},
-{
 "id": "realia:Talent",
 "type": "realia",
 "confidence": 0.1643,
@@ -440,11 +426,32 @@
 "preferred_label": "talenti"
 },
 {
-"id": "keyterm:Rebel",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "akwa mgbochi"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "ehi"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Nupu Isi"
+"preferred_label": "Ịta ahụhụ si na ya pụta"
+},
+{
+"id": "person:Bezalel",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Bezalel"
 },
 {
 "id": "keyterm:Serve",
@@ -454,11 +461,25 @@
 "preferred_label": "Ijere ozi"
 },
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Nghọta"
+"preferred_label": "Eziokwu"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Ebo Livayị"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Molek"
 },
 {
 "id": "keyterm:Ability",
@@ -475,13 +496,6 @@
 "preferred_label": "Ịnụ ọkụ nʼobi"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ịta ahụhụ si na ya pụta"
-},
-{
 "id": "person:Phinehas",
 "type": "person",
 "confidence": 0.1622,
@@ -489,25 +503,25 @@
 "preferred_label": "Finehaz"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ebo Livayị"
-},
-{
-"id": "keyterm:True",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Eziokwu"
+"preferred_label": "Nghọta"
 },
 {
-"id": "person:Bezalel",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Bezalel"
+"preferred_label": "Nupu Isi"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Imebi nsọpụrụ"
 },
 {
 "id": "person:Levi.3",
@@ -531,32 +545,11 @@
 "preferred_label": "Oholiab"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Molek"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Imebi nsọpụrụ"
-},
-{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1076,
 "match_method": "canonical",
 "preferred_label": "Osisi ntụ ogho"
-},
-{
-"id": "realia:Breast-piece",
-"type": "realia",
-"confidence": 0.1076,
-"match_method": "canonical",
-"preferred_label": "Ihe mgbochi obi"
 },
 {
 "id": "realia:LinenStrips",
@@ -566,53 +559,11 @@
 "preferred_label": "Ibe akwa linen"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Breast-piece",
 "type": "realia",
-"confidence": 0.1022,
+"confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "Mmanụ otite"
-},
-{
-"id": "realia:CoverLid",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Ihe mkpuchi mmehie"
-},
-{
-"id": "realia:Covering",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Ihe mkpuchi"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Ihe e kere eke nwere nku"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Ego"
-},
-{
-"id": "fauna:Dugong",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "ehi mmiri"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Mmanụ oliv"
+"preferred_label": "Ihe mgbochi obi"
 },
 {
 "id": "realia:Screen",
@@ -622,11 +573,25 @@
 "preferred_label": "akwa mgbochi"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Ihe ịdọkwasị oriọna"
+"preferred_label": "Shekel"
+},
+{
+"id": "realia:Covering",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Ihe mkpuchi"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Ihe mkpuchi mmehie"
 },
 {
 "id": "realia:Trumpet",
@@ -636,11 +601,32 @@
 "preferred_label": "Opi ike"
 },
 {
-"id": "realia:GoatHairStrips",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "akwa ajị ewu"
+"preferred_label": "Ego"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Nwa atụrụ"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Ihe e kere eke nwere nku"
+},
+{
+"id": "fauna:Dugong",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "ehi mmiri"
 },
 {
 "id": "realia:Leather",
@@ -650,11 +636,32 @@
 "preferred_label": "Akpụkpọ anụ"
 },
 {
-"id": "realia:Shekel",
+"id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Shekel"
+"preferred_label": "Ihe ịdọkwasị oriọna"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Mmanụ oliv"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Mmanụ otite"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "akwa ajị ewu"
 },
 {
 "id": "realia:Tent",
@@ -662,13 +669,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Ụlọ ikwu"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Nwa atụrụ"
 }
 ]
 }

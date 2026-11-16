@@ -3,9 +3,9 @@
 "content_id": "288047",
 "reference_id": 1866,
 "version": "1.0.4",
-"title": "Camello y palmera",
+"title": "Camello bajo una palmera datilera",
 "media_type": "Image",
-"index_reference": "camello y palmera",
+"index_reference": "camello bajo una palmera datilera",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0101_camel_palm.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0101_camel_palm.jpg'>link</a></p></block>",
@@ -336,18 +336,18 @@
 "preferred_label": "asno"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.389,
-"match_method": "canonical",
-"preferred_label": "cabra"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.389,
 "match_method": "canonical",
 "preferred_label": "rebaño"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.389,
+"match_method": "canonical",
+"preferred_label": "cabra"
 },
 {
 "id": "fauna:Bull",
@@ -357,25 +357,18 @@
 "preferred_label": "ganado vacuno"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "Madián"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
 "id": "person:Rebekah",
 "type": "person",
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "Rebeca"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "Madián"
 },
 {
 "id": "person:Isaac",
@@ -385,25 +378,18 @@
 "preferred_label": "Isaac"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "arete"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "ismaelitas"
 },
 {
 "id": "place:Sheba.2",
@@ -413,6 +399,20 @@
 "preferred_label": "Sabá"
 },
 {
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "ismaelitas"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "contaminación"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.221,
@@ -420,11 +420,25 @@
 "preferred_label": "cántaro de barro"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "Salomón"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.218,
 "match_method": "canonical",
 "preferred_label": "Jerusalén"
+},
+{
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "Amalec"
 },
 {
 "id": "person:Ishmael",
@@ -441,67 +455,11 @@
 "preferred_label": "David"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "Amalec"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "Salomón"
-},
-{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "tienda"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Galaad"
-},
-{
-"id": "person:Jehdeiah.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Jehedías"
-},
-{
-"id": "keyterm:Proscribe.2",
-"type": "keyterm",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "destinar a la destrucción"
-},
-{
-"id": "group:Meronothite",
-"type": "group",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "meronotitas"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Ben-adad"
-},
-{
-"id": "person:Nahor.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Najor"
 },
 {
 "id": "person:Obil",
@@ -511,11 +469,32 @@
 "preferred_label": "Obil"
 },
 {
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "destinar a la destrucción"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Galaad"
+},
+{
 "id": "place:Ephah",
 "type": "place",
 "confidence": 0.163,
 "match_method": "canonical",
 "preferred_label": "Efa"
+},
+{
+"id": "person:Nahor.2",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Najor"
 },
 {
 "id": "deity:Teraphim",
@@ -525,144 +504,25 @@
 "preferred_label": "terafines"
 },
 {
-"id": "person:Gideon",
+"id": "person:Ben-hadad.2",
 "type": "person",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Gedeón"
+"preferred_label": "Ben-adad"
 },
 {
-"id": "place:East",
-"type": "place",
-"confidence": 0.159,
+"id": "person:Jehdeiah.2",
+"type": "person",
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Oriente"
+"preferred_label": "Jehedías"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "bondad"
-},
-{
-"id": "group:Amalek",
+"id": "group:Meronothite",
 "type": "group",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "amalecita"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Raquel"
-},
-{
-"id": "person:Achish",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Aquis"
-},
-{
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Esaú"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "place:Gerar",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Gerar"
-},
-{
-"id": "place:Mesopotamia",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Mesopotamia"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Néguev"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "caldeo"
-},
-{
-"id": "person:Zebah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Zeba"
-},
-{
-"id": "keyterm:Blow",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "plaga"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Egipto"
-},
-{
-"id": "person:Hazael",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Jazael"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "profecía"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Caldea"
-},
-{
-"id": "person:Laban",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Labán"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Job"
+"preferred_label": "meronotitas"
 },
 {
 "id": "person:QueenOfSheba",
@@ -672,6 +532,69 @@
 "preferred_label": "Reina de Sabá"
 },
 {
+"id": "place:Gerar",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Gerar"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "profecía"
+},
+{
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Labán"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Caldea"
+},
+{
+"id": "person:Rachel",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Raquel"
+},
+{
+"id": "person:Zebah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Zeba"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Amón"
+},
+{
+"id": "place:Mesopotamia",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Mesopotamia"
+},
+{
+"id": "place:East",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Oriente"
+},
+{
 "id": "person:Zalmunna",
 "type": "person",
 "confidence": 0.159,
@@ -679,11 +602,11 @@
 "preferred_label": "Zalmuna"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "person:Esau",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
+"preferred_label": "Esaú"
 },
 {
 "id": "place:Damascus",
@@ -693,6 +616,62 @@
 "preferred_label": "Damasco"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Egipto"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "caldeo"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Néguev"
+},
+{
+"id": "keyterm:Blow",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "plaga"
+},
+{
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "amalecita"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "bondad"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.159,
@@ -700,11 +679,32 @@
 "preferred_label": "Abraham"
 },
 {
-"id": "place:Ammon",
-"type": "place",
+"id": "person:Gideon",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Amón"
+"preferred_label": "Gedeón"
+},
+{
+"id": "person:Achish",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Aquis"
+},
+{
+"id": "person:Hazael",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Jazael"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Job"
 },
 {
 "id": "fauna:Horse",
@@ -721,6 +721,13 @@
 "preferred_label": "langosta"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "casa"
+},
+{
 "id": "flora:BalsamTree",
 "type": "flora",
 "confidence": 0.158,
@@ -728,11 +735,11 @@
 "preferred_label": "balsamero"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.158,
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "casa"
+"preferred_label": "liquidámbar"
 },
 {
 "id": "fauna:Hare",
@@ -742,11 +749,11 @@
 "preferred_label": "liebre"
 },
 {
-"id": "flora:Liquidambar",
+"id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "liquidámbar"
+"preferred_label": "goma tragacanto"
 },
 {
 "id": "realia:AHalfShekel",
@@ -770,74 +777,11 @@
 "preferred_label": "tela de púrpura"
 },
 {
-"id": "flora:GumTragacanth",
-"type": "flora",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "goma tragacanto"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "mula"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "tiras de lino"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "incienso"
-},
-{
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "tiras de pelo de cabra"
-},
-{
-"id": "fauna:Hyrax",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "damán"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "espada"
-},
-{
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "víbora"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "cordero"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "dragón"
 },
 {
 "id": "realia:HouseholdIdols",
@@ -847,6 +791,20 @@
 "preferred_label": "ídolos domésticos"
 },
 {
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "tiras de pelo de cabra"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "incienso"
+},
+{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.099,
@@ -854,11 +812,53 @@
 "preferred_label": "león"
 },
 {
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "mula"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "espada"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "dragón"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "víbora"
+},
+{
+"id": "realia:LinenStrips",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "tiras de lino"
+},
+{
 "id": "realia:ToSaddle",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "ensillar"
+},
+{
+"id": "fauna:Hyrax",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "damán"
 },
 {
 "id": "realia:Money",

@@ -3,9 +3,9 @@
 "content_id": "286105",
 "reference_id": 1790,
 "version": "1.0.4",
-"title": "Mesa de Sacrifício",
+"title": "Mesa de oferendas",
 "media_type": "Image",
-"index_reference": "mesa de sacrifício",
+"index_reference": "mesa de oferendas",
 "language": "por",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0449_sacrifice_table.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0449_sacrifice_table.jpg'>link</a></p></block>",
@@ -260,6 +260,13 @@
 "preferred_label": "altar do tabernáculo"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3929,
+"match_method": "canonical",
+"preferred_label": "altar do templo"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3929,
@@ -272,13 +279,6 @@
 "confidence": 0.3929,
 "match_method": "canonical",
 "preferred_label": "altar de pedra"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3929,
-"match_method": "canonical",
-"preferred_label": "altar do templo"
 },
 {
 "id": "realia:Lampstand.2",
@@ -295,13 +295,6 @@
 "preferred_label": "pães da Presença"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.2914,
-"match_method": "canonical",
-"preferred_label": "acácia"
-},
-{
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.2914,
@@ -316,11 +309,11 @@
 "preferred_label": "casa"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.2257,
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.2914,
 "match_method": "canonical",
-"preferred_label": "Salomão"
+"preferred_label": "acácia"
 },
 {
 "id": "keyterm:Stain",
@@ -330,18 +323,18 @@
 "preferred_label": "manchar"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Salomão"
+},
+{
 "id": "realia:Dish",
 "type": "realia",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "prato"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "Tenda do Encontro"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -351,11 +344,11 @@
 "preferred_label": "Arca da Aliança"
 },
 {
-"id": "realia:Curtain",
+"id": "realia:Jug",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "cortina"
+"preferred_label": "jarra"
 },
 {
 "id": "realia:Lamp",
@@ -365,32 +358,18 @@
 "preferred_label": "lâmpada"
 },
 {
-"id": "realia:Jug",
+"id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "jarra"
+"preferred_label": "cortina"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "Pecar"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "sacrifício de animais"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "arca da aliança"
+"preferred_label": "Tenda do Encontro"
 },
 {
 "id": "keyterm:Holy",
@@ -407,11 +386,67 @@
 "preferred_label": "Ezequias"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "sacrifício de animais"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "arca da aliança"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "desonrar"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Pecar"
+},
+{
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "cortina"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "cama"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Dinheiro"
+},
+{
+"id": "realia:Handbreadth",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "quatro dedos"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "azeite de oliva"
 },
 {
 "id": "realia:HewnStone",
@@ -440,41 +475,6 @@
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "vinho"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Dinheiro"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "azeite de oliva"
-},
-{
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "cortina"
-},
-{
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "quatro dedos"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "cama"
 }
 ]
 }

@@ -114,6 +114,20 @@
 "preferred_label": "TUHAN"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "orang Filistin"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "Saul"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2692,
@@ -128,18 +142,32 @@
 "preferred_label": "Filistin"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2692,
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "orang Filistin"
+"preferred_label": "keselamatan"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.2692,
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Saul"
+"preferred_label": "bodoh"
+},
+{
+"id": "keyterm:UncircumcisedPerson",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "orang yang tidak bersunat"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "bodoh"
 },
 {
 "id": "person:Hushai",
@@ -156,39 +184,11 @@
 "preferred_label": "kemampuan"
 },
 {
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "bodoh"
-},
-{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "kuasa"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "keselamatan"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "orang yang tidak bersunat"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "bodoh"
 },
 {
 "id": "fauna:Leopard",
@@ -198,11 +198,46 @@
 "preferred_label": "macan tutul"
 },
 {
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "naga"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "kambing"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "anak domba"
+},
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "merpati"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "rumah"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "kayu cendana"
 },
 {
 "id": "fauna:Bull",
@@ -219,46 +254,11 @@
 "preferred_label": "ular"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "rumah"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "anak domba"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "kawanan domba"
-},
-{
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "merpati"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "naga"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "kayu cendana"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "294695",
 "reference_id": 1982,
 "version": "1.0.4",
-"title": "小麦粉",
+"title": "小麦粉和麦粒",
 "media_type": "Image",
-"index_reference": "小麦粉",
+"index_reference": "小麦粉和麦粒",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0905_wheat_flour.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0905_wheat_flour.jpg'>link</a></p></block>",
@@ -498,18 +498,18 @@
 "preferred_label": "饼"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.3317,
-"match_method": "canonical",
-"preferred_label": "涂抹"
-},
-{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.3317,
 "match_method": "canonical",
 "preferred_label": "馨香之气"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.3317,
+"match_method": "canonical",
+"preferred_label": "涂抹"
 },
 {
 "id": "flora:Frankincense",
@@ -540,6 +540,13 @@
 "preferred_label": "葡萄树"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "撒玛利亚（城）"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -552,13 +559,6 @@
 "confidence": 0.2143,
 "match_method": "canonical",
 "preferred_label": "犯罪"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "撒玛利亚（城）"
 },
 {
 "id": "realia:ClayJar",
@@ -589,11 +589,11 @@
 "preferred_label": "罗革"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.1571,
 "match_method": "canonical",
-"preferred_label": "摩西"
+"preferred_label": "安息日"
 },
 {
 "id": "person:Hiram",

@@ -81,13 +81,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.5355,
-"match_method": "canonical",
-"preferred_label": "نَوْرَج"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.5355,
@@ -95,11 +88,25 @@
 "preferred_label": "حُبُوب"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.5355,
+"match_method": "canonical",
+"preferred_label": "نَوْرَج"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "الرَّبّ"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "تَقْدِمَة"
 },
 {
 "id": "person:David",
@@ -116,18 +123,11 @@
 "preferred_label": "أُرْنَان"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
+"id": "flora:Wheat",
+"type": "flora",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "عَجَلَة"
+"preferred_label": "قَمْح"
 },
 {
 "id": "fauna:Bull",
@@ -137,18 +137,11 @@
 "preferred_label": "بَقَر"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
+"id": "realia:Wagon",
+"type": "realia",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "قَمْح"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "جِدْعُون"
+"preferred_label": "عَجَلَة"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -163,6 +156,13 @@
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "عَفْرَة"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "جِدْعُون"
 },
 {
 "id": "group:Abiezer",
@@ -186,11 +186,11 @@
 "preferred_label": "أَبِيعَزَر"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "place:Euphrates",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "تَمَرَّدَ"
+"preferred_label": "نهر الفرات"
 },
 {
 "id": "place:Damascus",
@@ -200,6 +200,13 @@
 "preferred_label": "دِمَشْقَ"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "جِلْعَادُ"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1909,
@@ -207,11 +214,11 @@
 "preferred_label": "إِسْرَائِيل"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "نهر الفرات"
+"preferred_label": "تَمَرَّدَ"
 },
 {
 "id": "deity:Angel",
@@ -219,13 +226,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "مَلَاك"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "جِلْعَادُ"
 },
 {
 "id": "place:Midian",
@@ -249,11 +249,18 @@
 "preferred_label": "شُونِيز"
 },
 {
-"id": "realia:Winepress",
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "شعير"
+},
+{
+"id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "مِعْصَرَة"
+"preferred_label": "إيفة"
 },
 {
 "id": "realia:Rod",
@@ -263,11 +270,18 @@
 "preferred_label": "قَضِيب"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "شَجَرَةُ زَيْتُونٍ"
+"preferred_label": "بُطْم"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "مِعْصَرَة"
 },
 {
 "id": "realia:Staff",
@@ -277,25 +291,11 @@
 "preferred_label": "عَصَا"
 },
 {
-"id": "flora:Barley",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "شعير"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "بُطْم"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "إيفة"
+"preferred_label": "شَجَرَةُ زَيْتُونٍ"
 }
 ]
 }

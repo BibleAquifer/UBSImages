@@ -70,6 +70,13 @@
 "preferred_label": "Bee"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3125,
@@ -84,11 +91,11 @@
 "preferred_label": "An Angel"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.3125,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "John"
+"preferred_label": "Leather"
 },
 {
 "id": "realia:Belt",
@@ -96,13 +103,6 @@
 "confidence": 0.2775,
 "match_method": "canonical",
 "preferred_label": "Belt"
-},
-{
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.2775,
-"match_method": "canonical",
-"preferred_label": "Leather"
 },
 {
 "id": "fauna:Locust",
@@ -119,13 +119,6 @@
 "preferred_label": "Camel"
 },
 {
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.2525,
-"match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.2525,
@@ -133,32 +126,11 @@
 "preferred_label": "Bag"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2063,
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "Assyria"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Egypt"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Amorites"
-},
-{
-"id": "place:Seir",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Seir"
+"preferred_label": "Scroll"
 },
 {
 "id": "place:Zephath",
@@ -168,11 +140,39 @@
 "preferred_label": "Zephath"
 },
 {
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Seir"
+},
+{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Circumcision"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Amorites"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Egypt"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Assyria"
 },
 {
 "id": "fauna:Fly",

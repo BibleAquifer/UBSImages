@@ -3,9 +3,9 @@
 "content_id": "283544",
 "reference_id": 2028,
 "version": "1.0.4",
-"title": "आग की रेखा से धुआं",
+"title": "जंगल की आग से उठता धुआं",
 "media_type": "Image",
-"index_reference": "आग की रेखा से धुआं",
+"index_reference": "जंगल की आग से उठता धुआं",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg'>link</a></p></block>",
@@ -226,11 +226,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
+"preferred_label": "पवित्र"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "आई"
 },
 {
 "id": "person:Israel",
@@ -247,11 +254,18 @@
 "preferred_label": "तेज"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "आई"
+"preferred_label": "सदा"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "योग्यता"
 },
 {
 "id": "deity:Angel",
@@ -259,20 +273,6 @@
 "confidence": 0.2265,
 "match_method": "canonical",
 "preferred_label": "एक स्वर्गदूत"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "सदा"
 },
 {
 "id": "keyterm:Portent",
@@ -289,102 +289,11 @@
 "preferred_label": "भट्ठी"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "लहू"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "बिन्यामीन"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "चिट्ठी"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "व्यभिचार"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "दण्डवत करना"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "मूर्खतापूर्ण"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "अधिकार"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "उद्धार"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "बिन्यामीन का गोत्र"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "सीनै पर्वत"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "प्रतीक"
 },
 {
 "id": "keyterm:Name",
@@ -394,11 +303,46 @@
 "preferred_label": "नाम"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "प्रतीक"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "यहोशू"
+},
+{
 "id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "अथाह कुण्ड"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "सीनै पर्वत"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "आकाश"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन"
 },
 {
 "id": "keyterm:Pray",
@@ -408,11 +352,67 @@
 "preferred_label": "प्रार्थना करना"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "आकाश"
+"preferred_label": "व्यभिचार"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "मूर्खतापूर्ण"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "लहू"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "चिट्ठी"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "दण्डवत करना"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन का गोत्र"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "अधिकार"
 },
 {
 "id": "realia:Incense",
@@ -429,11 +429,32 @@
 "preferred_label": "मच्छर"
 },
 {
-"id": "fauna:Lion",
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "प्रतिमा"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "लोबान"
+},
+{
+"id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "सिंह"
+"preferred_label": "बिच्छू"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "घास"
 },
 {
 "id": "realia:Doorstep",
@@ -450,18 +471,11 @@
 "preferred_label": "गन्धरस"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "दाखलता"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "घोड़ा"
+"preferred_label": "घर"
 },
 {
 "id": "realia:Temple",
@@ -471,6 +485,13 @@
 "preferred_label": "मन्दिर"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "दाखलता"
+},
+{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1032,
@@ -478,39 +499,11 @@
 "preferred_label": "खलिहान"
 },
 {
-"id": "fauna:Scorpion",
+"id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "बिच्छू"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "लोबान"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "प्रतिमा"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "घर"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "घास"
+"preferred_label": "सिंह"
 },
 {
 "id": "fauna:Locust",
@@ -518,6 +511,13 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "टिड्डी"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "घोड़ा"
 },
 {
 "id": "realia:Wine",

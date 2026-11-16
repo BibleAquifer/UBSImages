@@ -364,13 +364,6 @@
 "preferred_label": "чистый"
 },
 {
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.276,
-"match_method": "canonical",
-"preferred_label": "яма"
-},
-{
 "id": "realia:Breast-piece",
 "type": "realia",
 "confidence": 0.276,
@@ -378,11 +371,11 @@
 "preferred_label": "наперсник"
 },
 {
-"id": "realia:PerimiterCurtain",
+"id": "realia:Pit",
 "type": "realia",
-"confidence": 0.221,
+"confidence": 0.276,
 "match_method": "canonical",
-"preferred_label": "завеса двора"
+"preferred_label": "яма"
 },
 {
 "id": "realia:Screen",
@@ -392,18 +385,11 @@
 "preferred_label": "Завеса"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.218,
+"id": "realia:PerimiterCurtain",
+"type": "realia",
+"confidence": 0.221,
 "match_method": "canonical",
-"preferred_label": "Давать во владение"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "Филистимская земля"
+"preferred_label": "завеса двора"
 },
 {
 "id": "group:GenericOfficials",
@@ -420,11 +406,25 @@
 "preferred_label": "Филистимляне"
 },
 {
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "Давать во владение"
+},
+{
 "id": "person:Ebed-melech",
 "type": "person",
 "confidence": 0.218,
 "match_method": "canonical",
 "preferred_label": "Авдемелех"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "realia:Sackcloth",
@@ -441,13 +441,6 @@
 "preferred_label": "Парус"
 },
 {
-"id": "person:Malchiah",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Малхия"
-},
-{
 "id": "place:Moab",
 "type": "place",
 "confidence": 0.163,
@@ -462,144 +455,11 @@
 "preferred_label": "Гаммелех"
 },
 {
-"id": "person:David",
+"id": "person:Malchiah",
 "type": "person",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "установленный праздник"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Осквернение"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Жребий"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Приношение"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "ревность"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Грешить"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Милость"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "слава"
-},
-{
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "В осаде"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Лехи"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Горе"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Венадад"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Любовь"
-},
-{
-"id": "group:Ethiopia",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ефиопляне"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Принуждать к служению"
-},
-{
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ефиопия"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Самсон"
-},
-{
-"id": "person:Delilah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Далида"
+"preferred_label": "Малхия"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -609,25 +469,151 @@
 "preferred_label": "Блудодействовать"
 },
 {
-"id": "realia:Ephod",
-"type": "realia",
-"confidence": 0.158,
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Ефод"
+"preferred_label": "установленный праздник"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.158,
+"id": "group:Ethiopia",
+"type": "group",
+"confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Жертвенник"
+"preferred_label": "Ефиопляне"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "В осаде"
+},
+{
+"id": "person:Delilah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Далида"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Милость"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Лехи"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Приношение"
+},
+{
+"id": "place:Ethiopia",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Ефиопия"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Давид"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Любовь"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Венадад"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "слава"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Принуждать к служению"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Самсон"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Жребий"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Горе"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "ревность"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Осквернение"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Грешить"
+},
+{
+"id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Пурпурная ткань"
+"preferred_label": "Покрывала из виссона"
 },
 {
 "id": "realia:Money",
@@ -637,11 +623,25 @@
 "preferred_label": "Деньги"
 },
 {
-"id": "realia:GoatHairStrips",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "покрывала из козьей шерсти"
+"preferred_label": "Жертвенник"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
+},
+{
+"id": "realia:Ephod",
+"type": "realia",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Ефод"
 },
 {
 "id": "realia:StoneAltar",
@@ -665,6 +665,20 @@
 "preferred_label": "дом"
 },
 {
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "покрывала из козьей шерсти"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Пурпурная ткань"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.158,
@@ -672,39 +686,11 @@
 "preferred_label": "Шатер"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Жертвенник"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Покрывала из виссона"
-},
-{
-"id": "realia:Whip",
-"type": "realia",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "Бич"
-},
-{
 "id": "flora:Cotton",
 "type": "flora",
 "confidence": 0.103,
 "match_method": "canonical",
 "preferred_label": "Хлопчатник"
-},
-{
-"id": "realia:Rudder",
-"type": "realia",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "Руль"
 },
 {
 "id": "realia:Window",
@@ -721,39 +707,25 @@
 "preferred_label": "Мачта"
 },
 {
-"id": "realia:Ship",
+"id": "realia:Whip",
+"type": "realia",
+"confidence": 0.103,
+"match_method": "canonical",
+"preferred_label": "Бич"
+},
+{
+"id": "realia:Rudder",
+"type": "realia",
+"confidence": 0.103,
+"match_method": "canonical",
+"preferred_label": "Руль"
+},
+{
+"id": "realia:Anchor",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Корабль"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Повозка"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Скиния собрания"
-},
-{
-"id": "realia:ClayJar",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "глиняный кувшин"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Крупный рогатый скот"
+"preferred_label": "Якорь"
 },
 {
 "id": "flora:BalsamTree",
@@ -763,27 +735,6 @@
 "preferred_label": "Бальзамное дерево"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Храм"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Лён"
-},
-{
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Нить"
-},
-{
 "id": "realia:EmbroideredCloth",
 "type": "realia",
 "confidence": 0.099,
@@ -791,32 +742,11 @@
 "preferred_label": "Узорчатая ткань"
 },
 {
-"id": "fauna:WildOx",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Дикий бык"
-},
-{
-"id": "realia:Yoke",
+"id": "realia:Thread",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "Ярмо"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Ягненок"
-},
-{
-"id": "realia:Anchor",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Якорь"
+"preferred_label": "Нить"
 },
 {
 "id": "realia:Bed",
@@ -831,6 +761,76 @@
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "Лен"
+},
+{
+"id": "realia:ClayJar",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "глиняный кувшин"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Ягненок"
+},
+{
+"id": "fauna:WildOx",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Дикий бык"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Храм"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Корабль"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Лён"
+},
+{
+"id": "realia:Yoke",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Ярмо"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Скиния собрания"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Крупный рогатый скот"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Повозка"
 }
 ]
 }

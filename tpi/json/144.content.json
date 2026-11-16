@@ -3,9 +3,9 @@
 "content_id": "280366",
 "reference_id": 1649,
 "version": "1.0.4",
-"title": "Het bilong sorghum",
+"title": "Pikinini bilong sorghum",
 "media_type": "Image",
-"index_reference": "het bilong sorghum",
+"index_reference": "pikinini bilong sorghum",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0822_sorghum_head.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0822_sorghum_head.jpg'>link</a></p></block>",
@@ -248,11 +248,25 @@
 "preferred_label": "wit na rais samting"
 },
 {
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Graun i gat planti gris na gutpela kaikai"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Ofa"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Kades Barnea"
 },
 {
 "id": "place:Paran",
@@ -262,18 +276,32 @@
 "preferred_label": "Paran"
 },
 {
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.175,
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Graun i gat planti gris na gutpela kaikai"
+"preferred_label": "Nupela wain"
 },
 {
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.175,
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Kades Barnea"
+"preferred_label": "gras"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "haus"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "wel bilong oliv"
 },
 {
 "id": "realia:AnointingOil",
@@ -290,39 +318,11 @@
 "preferred_label": "Diwai oliv"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "wel bilong oliv"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "hapkas bilong hos na donki"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "Nupela wain"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "haus"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "gras"
 },
 {
 "id": "keyterm:Possess",
@@ -332,25 +332,18 @@
 "preferred_label": "Mekim i Kisim Samting"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Babilon"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Moses"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Kein"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Mekim i kamap doti"
 },
 {
 "id": "keyterm:Dispossess",
@@ -360,46 +353,18 @@
 "preferred_label": "rausim na kisim graun"
 },
 {
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Kein"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Aron"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Stap gut na i no ken pret"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Bikpela lait"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Lebanon"
-},
-{
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Mekim strongpela tok bilong daunim"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Babilon"
 },
 {
 "id": "keyterm:Love",
@@ -409,6 +374,41 @@
 "preferred_label": "Pasin Bilong Givim Bel"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Bikpela lait"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Stap gut na i no ken pret"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Mekim i kamap doti"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Mekim strongpela tok bilong daunim"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Lebanon"
+},
+{
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.115,
@@ -416,18 +416,18 @@
 "preferred_label": "Bin"
 },
 {
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "lentil"
-},
-{
 "id": "flora:Millet",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "milet"
+},
+{
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "lentil"
 },
 {
 "id": "flora:Barley",

@@ -3,9 +3,9 @@
 "content_id": "289276",
 "reference_id": 2162,
 "version": "1.0.4",
-"title": "Waabudu wa Kale",
+"title": "Waabudu katika mchongo wa mwamba",
 "media_type": "Image",
-"index_reference": "waabudu wa kale",
+"index_reference": "waabudu katika mchongo wa mwamba",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0028_ancient_worshipers.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0028_ancient_worshipers.jpg'>link</a></p></block>",
@@ -172,6 +172,13 @@
 "preferred_label": "BWANA"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "Madhabahu ya Hekalu"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.312,
@@ -193,13 +200,6 @@
 "preferred_label": "Madhabahu ya Maskani"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "Madhabahu ya Hekalu"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.236,
@@ -207,18 +207,18 @@
 "preferred_label": "Baali"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Ngʼombe"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "Fedha"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Ai"
 },
 {
 "id": "place:Bethel",
@@ -235,11 +235,11 @@
 "preferred_label": "Enoshi"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Ai"
+"preferred_label": "Ngʼombe"
 },
 {
 "id": "realia:Tent",
@@ -249,32 +249,18 @@
 "preferred_label": "Hema"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Samweli"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Unajisi"
+"preferred_label": "Wokovu"
 },
 {
-"id": "person:Isaac",
+"id": "person:Seth",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Isaka"
+"preferred_label": "Sethi"
 },
 {
 "id": "person:Naaman.3",
@@ -284,46 +270,11 @@
 "preferred_label": "Naamani"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Wivu"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Haruni"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Kuchinja Dhabihu"
-},
-{
 "id": "keyterm:Praise",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Sifa"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Wokovu"
 },
 {
 "id": "person:Elijah",
@@ -333,25 +284,11 @@
 "preferred_label": "Eliya"
 },
 {
-"id": "person:Abraham",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Abrahamu"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Beer-sheba"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Kutumikisha kwa Shuruti"
+"preferred_label": "Musa"
 },
 {
 "id": "keyterm:InfectiousSkinDisease",
@@ -361,11 +298,74 @@
 "preferred_label": "Ugonjwa wa Ngozi wa Kuambukiza"
 },
 {
-"id": "person:Seth",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Sethi"
+"preferred_label": "Haruni"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Kuchinja Dhabihu"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Beer-sheba"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Israeli"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Samweli"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Kutumikisha kwa Shuruti"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Isaka"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Abrahamu"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Wivu"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Unajisi"
 },
 {
 "id": "flora:Tamarisk",

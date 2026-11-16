@@ -3,9 +3,9 @@
 "content_id": "291148",
 "reference_id": 2167,
 "version": "1.0.4",
-"title": "Ofufe n'Ebe Ịchụàjà Ọkụ",
+"title": "Ofufe n’Ebe Icho-aja Ọkụ: Ihe a pịrị apị",
 "media_type": "Image",
-"index_reference": "ofufe nebe ịchụàjà ọkụ",
+"index_reference": "ofufe nebe ichoaja ọkụ ihe a pịrị apị",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0222_fire_altar_worship.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0222_fire_altar_worship.jpg'>link</a></p></block>",
@@ -172,6 +172,13 @@
 "preferred_label": "ONYENWE ANYỊ"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "Ebe ịchụ aja"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.312,
@@ -193,13 +200,6 @@
 "preferred_label": "ebe ịchụ àjà nke ụlọ nzute"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "Ebe ịchụ aja"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.236,
@@ -207,18 +207,18 @@
 "preferred_label": "Baal"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "ehi"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "Ego"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "Ai"
 },
 {
 "id": "place:Bethel",
@@ -235,11 +235,11 @@
 "preferred_label": "Enọsh"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Ai"
+"preferred_label": "ehi"
 },
 {
 "id": "realia:Tent",
@@ -249,32 +249,18 @@
 "preferred_label": "Ụlọ ikwu"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Mosis"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Samuel"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Imerụ emerụ"
+"preferred_label": "Nzọpụta"
 },
 {
-"id": "person:Isaac",
+"id": "person:Seth",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Aịzik"
+"preferred_label": "Set"
 },
 {
 "id": "person:Naaman.3",
@@ -284,46 +270,11 @@
 "preferred_label": "Neeman"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Ịnụ ọkụ nʼobi"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Erọn"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Izrel"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Ịchụ aja anụ"
-},
-{
 "id": "keyterm:Praise",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Otuto"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Nzọpụta"
 },
 {
 "id": "person:Elijah",
@@ -333,25 +284,11 @@
 "preferred_label": "Ịlaịja"
 },
 {
-"id": "person:Abraham",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Ebraham"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Bịasheba"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Imanye ife ohu"
+"preferred_label": "Mosis"
 },
 {
 "id": "keyterm:InfectiousSkinDisease",
@@ -361,11 +298,74 @@
 "preferred_label": "Ọrịa akpụkpọ anụ ahụ na-efe efe"
 },
 {
-"id": "person:Seth",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Set"
+"preferred_label": "Erọn"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Ịchụ aja anụ"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Bịasheba"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Izrel"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Samuel"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Imanye ife ohu"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Aịzik"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Ebraham"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Ịnụ ọkụ nʼobi"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Imerụ emerụ"
 },
 {
 "id": "flora:Tamarisk",

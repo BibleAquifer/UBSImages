@@ -303,18 +303,18 @@
 "preferred_label": "arche de l'alliance"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.3498,
-"match_method": "canonical",
-"preferred_label": "autel du tabernacle"
-},
-{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3498,
 "match_method": "canonical",
 "preferred_label": "autel du Temple"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.3498,
+"match_method": "canonical",
+"preferred_label": "autel du tabernacle"
 },
 {
 "id": "realia:Altar",
@@ -373,18 +373,18 @@
 "preferred_label": "offrande"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1668,
-"match_method": "canonical",
-"preferred_label": "étoffe teinte"
-},
-{
 "id": "fauna:Dugong",
 "type": "fauna",
 "confidence": 0.1668,
 "match_method": "canonical",
 "preferred_label": "dugong"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1668,
+"match_method": "canonical",
+"preferred_label": "étoffe teinte"
 },
 {
 "id": "realia:Leather",
@@ -394,13 +394,6 @@
 "preferred_label": "cuir"
 },
 {
-"id": "keyterm:DailyLife",
-"type": "keyterm",
-"confidence": 0.1659,
-"match_method": "canonical",
-"preferred_label": "vie quotidienne"
-},
-{
 "id": "person:Bezalel",
 "type": "person",
 "confidence": 0.1659,
@@ -408,18 +401,11 @@
 "preferred_label": "Betsaleel"
 },
 {
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.162,
+"id": "keyterm:DailyLife",
+"type": "keyterm",
+"confidence": 0.1659,
 "match_method": "canonical",
-"preferred_label": "manteau"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.162,
-"match_method": "canonical",
-"preferred_label": "vigne"
+"preferred_label": "vie quotidienne"
 },
 {
 "id": "flora:Fig",
@@ -429,6 +415,13 @@
 "preferred_label": "figue"
 },
 {
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.162,
+"match_method": "canonical",
+"preferred_label": "manteau"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.162,
@@ -436,25 +429,11 @@
 "preferred_label": "agneau"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.161,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.162,
 "match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "capacité"
+"preferred_label": "vigne"
 },
 {
 "id": "group:Jews",
@@ -464,6 +443,13 @@
 "preferred_label": "Juifs"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.161,
@@ -471,11 +457,18 @@
 "preferred_label": "toujours"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1059,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "étoffe de pourpre"
+"preferred_label": "capacité"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Jésus"
 },
 {
 "id": "flora:Laurustinus",
@@ -492,25 +485,18 @@
 "preferred_label": "genévrier de Grèce"
 },
 {
-"id": "flora:Myrtle",
-"type": "flora",
-"confidence": 0.101,
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1059,
 "match_method": "canonical",
-"preferred_label": "myrte"
+"preferred_label": "étoffe de pourpre"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
+"id": "realia:Screen",
+"type": "realia",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "pin d'Alep"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "roseau"
+"preferred_label": "rideau"
 },
 {
 "id": "flora:OliveTree",
@@ -520,11 +506,53 @@
 "preferred_label": "olivier"
 },
 {
-"id": "realia:Screen",
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "cèdre"
+},
+{
+"id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.101,
 "match_method": "canonical",
-"preferred_label": "rideau"
+"preferred_label": "tablette"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "roseau"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "pin d'Alep"
+},
+{
+"id": "realia:HornsOfAltar",
+"type": "realia",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "cornes de l'autel"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "cyprès"
+},
+{
+"id": "flora:Myrtle",
+"type": "flora",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "myrte"
 },
 {
 "id": "flora:JuniperTree",
@@ -539,34 +567,6 @@
 "confidence": 0.101,
 "match_method": "canonical",
 "preferred_label": "cyprès"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "cyprès"
-},
-{
-"id": "realia:Tablet",
-"type": "realia",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "tablette"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "cèdre"
-},
-{
-"id": "realia:HornsOfAltar",
-"type": "realia",
-"confidence": 0.101,
-"match_method": "canonical",
-"preferred_label": "cornes de l'autel"
 }
 ]
 }

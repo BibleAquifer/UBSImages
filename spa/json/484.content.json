@@ -260,13 +260,6 @@
 "preferred_label": "red de pescar"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3514,
-"match_method": "canonical",
-"preferred_label": "Filistea"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3514,
@@ -281,11 +274,11 @@
 "preferred_label": "Babilonia"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2886,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3514,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Filistea"
 },
 {
 "id": "person:Saul.2",
@@ -293,6 +286,13 @@
 "confidence": 0.2886,
 "match_method": "canonical",
 "preferred_label": "Saúl"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "place:Ziph.2",
@@ -309,18 +309,18 @@
 "preferred_label": "red de arrojar"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.2257,
 "match_method": "canonical",
 "preferred_label": "Belén"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
 },
 {
 "id": "place:Moab",
@@ -330,11 +330,18 @@
 "preferred_label": "Moab"
 },
 {
-"id": "place:Millo",
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Eliab"
+},
+{
+"id": "place:Jeshimon",
 "type": "place",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Milo"
+"preferred_label": "Jesimón"
 },
 {
 "id": "person:Ezer.4",
@@ -342,13 +349,6 @@
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Ezer"
-},
-{
-"id": "place:Hachilah",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Haquila"
 },
 {
 "id": "group:Ziph",
@@ -365,6 +365,13 @@
 "preferred_label": "Abdías"
 },
 {
+"id": "place:Millo",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Milo"
+},
+{
 "id": "place:Hereth",
 "type": "place",
 "confidence": 0.1686,
@@ -372,18 +379,18 @@
 "preferred_label": "Haret"
 },
 {
-"id": "place:Jeshimon",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Jesimón"
-},
-{
 "id": "keyterm:Refuge",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "refugio"
+},
+{
+"id": "place:Hachilah",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Haquila"
 },
 {
 "id": "person:Gad.2",
@@ -400,39 +407,11 @@
 "preferred_label": "Madián"
 },
 {
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Eliab"
-},
-{
-"id": "keyterm:SeekfindRefuge",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "buscar refugio"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "confiar"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Guibeá"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "untar"
+"preferred_label": "ser infiel"
 },
 {
 "id": "keyterm:IntactState",
@@ -442,25 +421,32 @@
 "preferred_label": "paz"
 },
 {
-"id": "keyterm:Shield",
-"type": "keyterm",
+"id": "place:Kiriathaim",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "escudo"
+"preferred_label": "Quiriatayin"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "bondad"
+"preferred_label": "tribu de Judá"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "pecar"
+"preferred_label": "buscar refugio"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "ser firme"
 },
 {
 "id": "keyterm:Deceit",
@@ -477,53 +463,25 @@
 "preferred_label": "Hores"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "place:Chaldea",
+"id": "place:Gibeah.2",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Caldea"
+"preferred_label": "Guibeá"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "tribu de Judá"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "caldeo"
-},
-{
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "ser infiel"
+"preferred_label": "bondad"
 },
 {
-"id": "keyterm:BeFirm",
+"id": "keyterm:Shield",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "ser firme"
-},
-{
-"id": "place:Kiriathaim",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Quiriatayin"
+"preferred_label": "escudo"
 },
 {
 "id": "place:Engedi",
@@ -533,6 +491,48 @@
 "preferred_label": "En-gadi"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "confiar"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "caldeo"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Caldea"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "untar"
+},
+{
 "id": "realia:Cage",
 "type": "realia",
 "confidence": 0.1086,
@@ -540,11 +540,18 @@
 "preferred_label": "jaula"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "fauna:Fish",
+"type": "fauna",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "sándalo"
+"preferred_label": "pez"
+},
+{
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "trampa"
 },
 {
 "id": "realia:Dragnet",
@@ -561,11 +568,11 @@
 "preferred_label": "ave"
 },
 {
-"id": "realia:Harpoon",
-"type": "realia",
+"id": "flora:Sandalwood",
+"type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "arpón"
+"preferred_label": "sándalo"
 },
 {
 "id": "realia:SmallShield",
@@ -575,18 +582,11 @@
 "preferred_label": "escudo pequeño"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "pez"
-},
-{
-"id": "realia:Trap",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "trampa"
+"preferred_label": "arpón"
 }
 ]
 }

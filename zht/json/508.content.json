@@ -3,9 +3,9 @@
 "content_id": "295674",
 "reference_id": 2028,
 "version": "1.0.4",
-"title": "火線冒煙",
+"title": "山火升起的濃煙",
 "media_type": "Image",
-"index_reference": "火線冒煙",
+"index_reference": "山火升起的濃煙",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg'>link</a></p></block>",
@@ -226,11 +226,18 @@
 "preferred_label": "耶和華"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "能力（技能）"
+"preferred_label": "聖潔"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "艾"
 },
 {
 "id": "person:Israel",
@@ -247,11 +254,18 @@
 "preferred_label": "榮耀（神的同在）"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "艾"
+"preferred_label": "永遠"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "能力（技能）"
 },
 {
 "id": "deity:Angel",
@@ -259,20 +273,6 @@
 "confidence": 0.2265,
 "match_method": "canonical",
 "preferred_label": "天使"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "聖潔"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "永遠"
 },
 {
 "id": "keyterm:Portent",
@@ -289,102 +289,11 @@
 "preferred_label": "窯"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "血"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "便雅憫"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "鬮（物件）"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "淫亂"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "非利士"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "俯伏敬拜"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "愚昧"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "權柄（控制）"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "拯救"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "約書亞"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "便雅憫支派"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "西奈山"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "象徵（記號）"
 },
 {
 "id": "keyterm:Name",
@@ -394,11 +303,46 @@
 "preferred_label": "名"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "象徵（記號）"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "約書亞"
+},
+{
 "id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "無底坑"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "西奈山"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "天"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "便雅憫"
 },
 {
 "id": "keyterm:Pray",
@@ -408,11 +352,67 @@
 "preferred_label": "禱告"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "天"
+"preferred_label": "淫亂"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "愚昧"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "血"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "非利士"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "鬮（物件）"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "俯伏敬拜"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "便雅憫支派"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "權柄（控制）"
 },
 {
 "id": "realia:Incense",
@@ -429,11 +429,32 @@
 "preferred_label": "蚊子"
 },
 {
-"id": "fauna:Lion",
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "像"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "乳香"
+},
+{
+"id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "獅子"
+"preferred_label": "蠍子"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "草"
 },
 {
 "id": "realia:Doorstep",
@@ -450,18 +471,11 @@
 "preferred_label": "沒藥"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "葡萄樹"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "馬"
+"preferred_label": "房屋"
 },
 {
 "id": "realia:Temple",
@@ -471,6 +485,13 @@
 "preferred_label": "聖殿"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "葡萄樹"
+},
+{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1032,
@@ -478,39 +499,11 @@
 "preferred_label": "禾場"
 },
 {
-"id": "fauna:Scorpion",
+"id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "蠍子"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "乳香"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "像"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "房屋"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "草"
+"preferred_label": "獅子"
 },
 {
 "id": "fauna:Locust",
@@ -518,6 +511,13 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "蝗蟲"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "馬"
 },
 {
 "id": "realia:Wine",

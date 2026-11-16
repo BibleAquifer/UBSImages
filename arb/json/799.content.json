@@ -51,25 +51,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "يُمَلِّكُ"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "الرَّبّ"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "لَعْن"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "يهوذا"
 },
 {
 "id": "keyterm:Dispossess",
@@ -79,11 +79,11 @@
 "preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
+"preferred_label": "يُمَلِّكُ"
 },
 {
 "id": "keyterm:Surely",
@@ -93,11 +93,18 @@
 "preferred_label": "حقاً!"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "لَعْن"
+"preferred_label": "سِبْطُ يَهوذَا"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "قطيع"
 },
 {
 "id": "fauna:Goat",
@@ -112,13 +119,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "حَمَل"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "قطيع"
 }
 ]
 }

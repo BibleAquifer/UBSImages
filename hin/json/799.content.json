@@ -51,25 +51,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "अधिकारी बनाना"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "श्राप देना"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
 },
 {
 "id": "keyterm:Dispossess",
@@ -79,11 +79,11 @@
 "preferred_label": "बेदखल करना"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
+"preferred_label": "अधिकारी बनाना"
 },
 {
 "id": "keyterm:Surely",
@@ -93,11 +93,18 @@
 "preferred_label": "सचमुच!"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "श्राप देना"
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "झुंड"
 },
 {
 "id": "fauna:Goat",
@@ -112,13 +119,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "भेड़"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "झुंड"
 }
 ]
 }

@@ -115,20 +115,6 @@
 "preferred_label": "Шатер"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "Окрашенная ткань"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "Пурпурная ткань"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.3025,
@@ -143,11 +129,18 @@
 "preferred_label": "Ягненок"
 },
 {
-"id": "realia:TentOfMeeting",
+"id": "realia:DyedCloth",
 "type": "realia",
-"confidence": 0.215,
+"confidence": 0.3025,
 "match_method": "canonical",
-"preferred_label": "Скиния собрания"
+"preferred_label": "Окрашенная ткань"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.3025,
+"match_method": "canonical",
+"preferred_label": "Пурпурная ткань"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -157,11 +150,11 @@
 "preferred_label": "Ковчег Завета"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Моисей"
+"preferred_label": "Скиния собрания"
 },
 {
 "id": "deity:Lord",
@@ -169,6 +162,20 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Моисей"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "святой"
 },
 {
 "id": "person:Noah",
@@ -185,11 +192,11 @@
 "preferred_label": "Гирсон"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1442,
 "match_method": "canonical",
-"preferred_label": "святой"
+"preferred_label": "Жертвенник скинии"
 },
 {
 "id": "realia:GoatHairStrips",
@@ -199,25 +206,18 @@
 "preferred_label": "покрывала из козьей шерсти"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "Жертвенник скинии"
-},
-{
-"id": "realia:Frame",
+"id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "брус"
+"preferred_label": "Покрывала из виссона"
 },
 {
-"id": "realia:Ship",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Корабль"
+"preferred_label": "Жертвенник"
 },
 {
 "id": "realia:Altar",
@@ -225,6 +225,20 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Жертвенник"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Каменный жертвенник"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Корабль"
 },
 {
 "id": "realia:Loop",
@@ -241,25 +255,11 @@
 "preferred_label": "Завеса"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:Frame",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Каменный жертвенник"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Жертвенник"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Покрывала из виссона"
+"preferred_label": "брус"
 }
 ]
 }

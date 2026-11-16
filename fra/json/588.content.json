@@ -258,6 +258,13 @@
 "preferred_label": "gros bétail"
 },
 {
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.2919,
+"match_method": "canonical",
+"preferred_label": "Cédron"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2919,
@@ -265,11 +272,11 @@
 "preferred_label": "souillure"
 },
 {
-"id": "place:Kidron",
-"type": "place",
-"confidence": 0.2919,
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Cédron"
+"preferred_label": "autel du Temple"
 },
 {
 "id": "realia:Altar",
@@ -293,13 +300,6 @@
 "preferred_label": "autel du tabernacle"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "autel du Temple"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2865,
@@ -321,25 +321,11 @@
 "preferred_label": "malheur"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Moïse"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "se repentir"
+"preferred_label": "symbole"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -349,25 +335,18 @@
 "preferred_label": "purifier"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Moïse"
 },
 {
-"id": "place:Sidon",
-"type": "place",
+"id": "keyterm:Repent",
+"type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Sidon"
+"preferred_label": "se repentir"
 },
 {
 "id": "place:Tyre",
@@ -384,18 +363,25 @@
 "preferred_label": "Pharaon"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "symbole"
-},
-{
-"id": "place:Bethsaida",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Bethsaïda"
+"preferred_label": "Jérusalem"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Pure",
@@ -405,18 +391,25 @@
 "preferred_label": "pur"
 },
 {
-"id": "person:Tamar.2",
-"type": "person",
-"confidence": 0.1676,
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Tamar"
+"preferred_label": "Bethsaïda"
 },
 {
-"id": "person:Mordecai.2",
-"type": "person",
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Sidon"
+},
+{
+"id": "place:HorseGate",
+"type": "place",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Mardochée"
+"preferred_label": "porte des chevaux"
 },
 {
 "id": "keyterm:Supplication",
@@ -426,11 +419,18 @@
 "preferred_label": "demande de grâce"
 },
 {
-"id": "place:HorseGate",
-"type": "place",
+"id": "person:Mordecai.2",
+"type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "porte des chevaux"
+"preferred_label": "Mardochée"
+},
+{
+"id": "person:Tamar.2",
+"type": "person",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Tamar"
 },
 {
 "id": "realia:Kiln",
@@ -447,11 +447,11 @@
 "preferred_label": "maison"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "sang"
+"preferred_label": "jurer"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -461,11 +461,11 @@
 "preferred_label": "consécration"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "jurer"
+"preferred_label": "Juifs"
 },
 {
 "id": "keyterm:Body.3",
@@ -475,32 +475,11 @@
 "preferred_label": "corps"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "offrande"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "ardeur"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Aaron"
-},
-{
-"id": "person:Ahaz",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Achaz"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "keyterm:Delight",
@@ -517,53 +496,18 @@
 "preferred_label": "proverbe"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ashéra"
-},
-{
-"id": "person:Judah.4",
+"id": "person:Ahaz",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Achaz"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "person:Manasseh.2",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Manassé"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Juifs"
-},
-{
-"id": "keyterm:WordOfTheLord",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "parole de l'Éternel"
+"preferred_label": "offrande"
 },
 {
 "id": "place:Nineveh",
@@ -573,11 +517,67 @@
 "preferred_label": "Ninive"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "parole de l'Éternel"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Ashéra"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "ardeur"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "déshonorer"
+},
+{
+"id": "person:Manasseh.2",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Manassé"
 },
 {
 "id": "fauna:Goat",
@@ -608,13 +608,6 @@
 "preferred_label": "laine"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "huile d'onction"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.1022,
@@ -629,11 +622,32 @@
 "preferred_label": "image en fonte"
 },
 {
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "térébinthe"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "trône"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "huile d'olive"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "huile d'onction"
 },
 {
 "id": "realia:Clothing",
@@ -643,25 +657,11 @@
 "preferred_label": "vêtement"
 },
 {
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "térébinthe"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "troupeau"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "trône"
 }
 ]
 }

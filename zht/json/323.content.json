@@ -3,9 +3,9 @@
 "content_id": "295474",
 "reference_id": 1828,
 "version": "1.0.4",
-"title": "打穀場",
+"title": "打穀場上拉脫粒板的牲畜",
 "media_type": "Image",
-"index_reference": "打穀場",
+"index_reference": "打穀場上拉脫粒板的牲畜",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg'>link</a></p></block>",
@@ -119,13 +119,6 @@
 "preferred_label": "打穀機"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.36,
-"match_method": "canonical",
-"preferred_label": "牛"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.36,
@@ -133,11 +126,32 @@
 "preferred_label": "小麥"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.36,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "清除"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "供物"
 },
 {
 "id": "person:David",
@@ -154,20 +168,6 @@
 "preferred_label": "阿珥楠"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "供物"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "清除"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2133,
@@ -182,13 +182,6 @@
 "preferred_label": "禾場"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "車輛"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.2,
@@ -196,11 +189,11 @@
 "preferred_label": "倉房"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1933,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "基甸"
+"preferred_label": "車輛"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -210,18 +203,25 @@
 "preferred_label": "埃及小河"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "分受"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "俄弗拉（瑪拿西）"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "基甸"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "分受"
 },
 {
 "id": "group:Abiezer",
@@ -245,6 +245,27 @@
 "preferred_label": "亞比以謝"
 },
 {
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "經卷（實體）"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "幼發拉底河"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "本分"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.18,
@@ -252,11 +273,11 @@
 "preferred_label": "摩西"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "經卷（實體）"
+"preferred_label": "律法"
 },
 {
 "id": "person:Israel",
@@ -266,11 +287,11 @@
 "preferred_label": "以色列"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "幼發拉底河"
+"preferred_label": "盼望"
 },
 {
 "id": "deity:Angel",
@@ -287,25 +308,11 @@
 "preferred_label": "米甸"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "flora:Cumin",
+"type": "flora",
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "律法"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "盼望"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "本分"
+"preferred_label": "蒔蘿/大茴香"
 },
 {
 "id": "flora:NutmegFlower",
@@ -315,11 +322,32 @@
 "preferred_label": "黑種草"
 },
 {
-"id": "flora:Cumin",
+"id": "flora:Barley",
 "type": "flora",
-"confidence": 0.1333,
+"confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "蒔蘿/大茴香"
+"preferred_label": "大麥"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "伊法"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "杖"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "篤耨香樹"
 },
 {
 "id": "realia:Winepress",
@@ -329,7 +357,7 @@
 "preferred_label": "壓酒池"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
@@ -341,34 +369,6 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "橄欖樹"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "杖"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "大麥"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "篤耨香樹"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "伊法"
 }
 ]
 }

@@ -349,18 +349,18 @@
 "preferred_label": "haena"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.3518,
-"match_method": "canonical",
-"preferred_label": "laeon"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
 "preferred_label": "bea"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.3518,
+"match_method": "canonical",
+"preferred_label": "laeon"
 },
 {
 "id": "fauna:Ostrich",
@@ -384,6 +384,41 @@
 "preferred_label": "Askem strong"
 },
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "pis"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Tabu"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Skae"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Ol Devel"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
@@ -396,41 +431,6 @@
 "confidence": 0.2176,
 "match_method": "canonical",
 "preferred_label": "Jisas"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "pis"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Tabu"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Ol Devel"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Skae"
 },
 {
 "id": "fauna:Dog",
@@ -447,46 +447,11 @@
 "preferred_label": "Hajoro"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Mekem i Kam Wan Samting Blong Wan Man"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Mekem strong promes"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Josef"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Presen"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Rabis fasin"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Stap sef"
 },
 {
 "id": "keyterm:Appoint",
@@ -496,11 +461,32 @@
 "preferred_label": "putumap"
 },
 {
-"id": "person:GenericPerson",
-"type": "person",
+"id": "keyterm:Mischief",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Wan Man"
+"preferred_label": "Rabis fasin"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Mekem i Kam Wan Samting Blong Wan Man"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "laen blong Juda"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Babilon"
 },
 {
 "id": "keyterm:BringHonorAndGloryOnOneself",
@@ -510,18 +496,25 @@
 "preferred_label": "Karem ona mo glori i kam long yu wan"
 },
 {
-"id": "person:Israel",
+"id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Isrel"
+"preferred_label": "Wan Man"
 },
 {
-"id": "group:Edom",
-"type": "group",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "ol man Edom"
+"preferred_label": "Presen"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "tru"
 },
 {
 "id": "person:Judah.4",
@@ -529,6 +522,13 @@
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Juda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Isrel"
 }
 ]
 }

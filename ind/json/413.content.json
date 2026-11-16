@@ -81,13 +81,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.5355,
-"match_method": "canonical",
-"preferred_label": "papan pengirik"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.5355,
@@ -95,11 +88,25 @@
 "preferred_label": "biji-bijian"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.5355,
+"match_method": "canonical",
+"preferred_label": "papan pengirik"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "TUHAN"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "persembahan"
 },
 {
 "id": "person:David",
@@ -116,18 +123,11 @@
 "preferred_label": "Ornan"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
+"id": "flora:Wheat",
+"type": "flora",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "kereta"
+"preferred_label": "gandum"
 },
 {
 "id": "fauna:Bull",
@@ -137,18 +137,11 @@
 "preferred_label": "lembu sapi"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
+"id": "realia:Wagon",
+"type": "realia",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "gandum"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "kereta"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -163,6 +156,13 @@
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "Ofra"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Gideon"
 },
 {
 "id": "group:Abiezer",
@@ -186,11 +186,11 @@
 "preferred_label": "Abiezer"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "place:Euphrates",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "memberontak"
+"preferred_label": "Sungai Efrat"
 },
 {
 "id": "place:Damascus",
@@ -200,6 +200,13 @@
 "preferred_label": "Damsyik"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Gilead"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1909,
@@ -207,11 +214,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Sungai Efrat"
+"preferred_label": "memberontak"
 },
 {
 "id": "deity:Angel",
@@ -219,13 +226,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Malaikat"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Gilead"
 },
 {
 "id": "place:Midian",
@@ -249,6 +249,34 @@
 "preferred_label": "jintan hitam"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "jelai"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "efa"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "tongkat"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "tarbantin"
+},
+{
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1309,
@@ -256,7 +284,7 @@
 "preferred_label": "tempat pemerasan anggur"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
@@ -268,34 +296,6 @@
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "pohon zaitun"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "tongkat"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "jelai"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "tarbantin"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "efa"
 }
 ]
 }

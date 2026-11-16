@@ -3,9 +3,9 @@
 "content_id": "281460",
 "reference_id": 1810,
 "version": "1.0.4",
-"title": "سفينة",
+"title": "نموذج سفينة شراعية بمجاديف",
 "media_type": "Image",
-"index_reference": "سفينة",
+"index_reference": "نموذج سفينة شراعية بمجاديف",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0517_ship.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0517_ship.jpg'>link</a></p></block>",
@@ -64,13 +64,6 @@
 "preferred_label": "سَفِينَة"
 },
 {
-"id": "realia:Rudder",
-"type": "realia",
-"confidence": 0.3257,
-"match_method": "canonical",
-"preferred_label": "دَفَّة"
-},
-{
 "id": "realia:Oar",
 "type": "realia",
 "confidence": 0.3257,
@@ -78,11 +71,11 @@
 "preferred_label": "مجذاف"
 },
 {
-"id": "keyterm:Mighty",
-"type": "keyterm",
-"confidence": 0.2429,
+"id": "realia:Rudder",
+"type": "realia",
+"confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "قَدِير"
+"preferred_label": "دَفَّة"
 },
 {
 "id": "place:Arvad",
@@ -99,11 +92,11 @@
 "preferred_label": "قبرص"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.2143,
+"id": "keyterm:Mighty",
+"type": "keyterm",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "بَاشَان"
+"preferred_label": "قَدِير"
 },
 {
 "id": "deity:Lord",
@@ -113,13 +106,6 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "صَيْدونُ"
-},
-{
 "id": "place:Tyre",
 "type": "place",
 "confidence": 0.2143,
@@ -127,11 +113,18 @@
 "preferred_label": "صُورُ"
 },
 {
-"id": "realia:Sail",
-"type": "realia",
-"confidence": 0.1829,
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "شِرَاع"
+"preferred_label": "بَاشَان"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "صَيْدونُ"
 },
 {
 "id": "realia:Deck",
@@ -141,32 +134,11 @@
 "preferred_label": "سَطح السَّفينة"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Sail",
 "type": "realia",
-"confidence": 0.1543,
+"confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "حَبْل"
-},
-{
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "سَرْو"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "سَرْو"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "بَلُّوط"
+"preferred_label": "شِرَاع"
 },
 {
 "id": "fauna:Ostrich",
@@ -188,6 +160,34 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "عَرْعَر يوناني"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "حَبْل"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "سَرْو"
+},
+{
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "سَرْو"
+},
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "بَلُّوط"
 }
 ]
 }

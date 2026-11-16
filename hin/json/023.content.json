@@ -335,6 +335,27 @@
 "preferred_label": "कुत्ता"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "पवित्र"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "आकाश"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "दुष्टात्माएँ"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -349,39 +370,11 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "दुष्टात्माएँ"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "आकाश"
-},
-{
 "id": "place:Hazor.5",
 "type": "place",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "हासोर"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
 },
 {
 "id": "flora:Grass",
@@ -391,11 +384,11 @@
 "preferred_label": "घास"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1602,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "अधिकारी बनाना"
+"preferred_label": "दाखलता"
 },
 {
 "id": "keyterm:Swear",
@@ -405,11 +398,11 @@
 "preferred_label": "शपथ खाना"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "नियुक्त करना"
 },
 {
 "id": "keyterm:Mischief",
@@ -419,81 +412,11 @@
 "preferred_label": "अनर्थ"
 },
 {
-"id": "keyterm:Appoint",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "नियुक्त करना"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "एक व्यक्ति"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "यरूशलेम"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "अपने लिए आदर और महिमा पाना"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "एदोमी"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "विलापगीत"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "एदोम"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "बाबेल"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "घिनौनी वस्तु"
+"preferred_label": "अधिकारी बनाना"
 },
 {
 "id": "group:Judah",
@@ -503,11 +426,67 @@
 "preferred_label": "यहूदा का गोत्र"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "बाबेल"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "अपने लिए आदर और महिमा पाना"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "एक व्यक्ति"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "भेंट"
+},
+{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "सच्चा"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "यरूशलेम"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "एदोम"
 },
 {
 "id": "keyterm:Bless",
@@ -517,11 +496,32 @@
 "preferred_label": "आशीष देना"
 },
 {
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "घिनौनी वस्तु"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "शिमशोन"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "शुद्ध"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "एदोमी"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -531,11 +531,18 @@
 "preferred_label": "दुष्टात्मा ग्रस्त होना"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "शुद्ध"
+"preferred_label": "विलापगीत"
+},
+{
+"id": "fauna:Mouse",
+"type": "fauna",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "चूहा"
 },
 {
 "id": "flora:Carob",
@@ -552,13 +559,6 @@
 "preferred_label": "चितकबरा उल्लू"
 },
 {
-"id": "fauna:Mouse",
-"type": "fauna",
-"confidence": 0.1048,
-"match_method": "canonical",
-"preferred_label": "चूहा"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.1002,
@@ -573,11 +573,18 @@
 "preferred_label": "सरकण्डा"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "लोबान"
+},
+{
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "बिच्छू बूटी"
 },
 {
 "id": "flora:Brier",
@@ -587,18 +594,11 @@
 "preferred_label": "कँटीली झाड़ी"
 },
 {
-"id": "flora:Papyrus",
-"type": "flora",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "सरकंडा"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "लोबान"
+"preferred_label": "भेड़"
 },
 {
 "id": "flora:Thistle",
@@ -615,18 +615,11 @@
 "preferred_label": "घर"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "भेड़"
-},
-{
-"id": "flora:Nettle",
+"id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "बिच्छू बूटी"
+"preferred_label": "सरकंडा"
 },
 {
 "id": "realia:Earring",
@@ -634,6 +627,13 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "बाली"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
 }
 ]
 }

@@ -300,6 +300,13 @@
 "preferred_label": "Скиния собрания"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.363,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.363,
@@ -321,11 +328,11 @@
 "preferred_label": "Жертвенник скинии"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.363,
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "Жертвенник"
+"preferred_label": "Елеазар"
 },
 {
 "id": "keyterm:Priesthood",
@@ -342,11 +349,11 @@
 "preferred_label": "Грешить"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.2865,
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Елеазар"
+"preferred_label": "Ковчег Завета"
 },
 {
 "id": "realia:PurpleCloth",
@@ -356,11 +363,11 @@
 "preferred_label": "Пурпурная ткань"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2265,
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Ковчег Завета"
+"preferred_label": "Ковчег завета"
 },
 {
 "id": "keyterm:Defilement",
@@ -368,13 +375,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Осквернение"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Ковчег завета"
 },
 {
 "id": "realia:Tabernacle",
@@ -405,11 +405,11 @@
 "preferred_label": "Коза"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "Крупный рогатый скот"
+"preferred_label": "Стадо"
 },
 {
 "id": "realia:Linen",
@@ -419,20 +419,6 @@
 "preferred_label": "Лён"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Завеса"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Стадо"
-},
-{
 "id": "realia:Talent",
 "type": "realia",
 "confidence": 0.1643,
@@ -440,11 +426,32 @@
 "preferred_label": "Талант"
 },
 {
-"id": "keyterm:Rebel",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "Завеса"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "Крупный рогатый скот"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Восставать"
+"preferred_label": "Нести ответственность"
+},
+{
+"id": "person:Bezalel",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Веселеил"
 },
 {
 "id": "keyterm:Serve",
@@ -454,11 +461,25 @@
 "preferred_label": "Служить"
 },
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Разум"
+"preferred_label": "Истинный"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Колено Левия"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Молох"
 },
 {
 "id": "keyterm:Ability",
@@ -475,13 +496,6 @@
 "preferred_label": "ревность"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Нести ответственность"
-},
-{
 "id": "person:Phinehas",
 "type": "person",
 "confidence": 0.1622,
@@ -489,25 +503,25 @@
 "preferred_label": "Финеес"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Колено Левия"
-},
-{
-"id": "keyterm:True",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Истинный"
+"preferred_label": "Разум"
 },
 {
-"id": "person:Bezalel",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Веселеил"
+"preferred_label": "Восставать"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Бесчестить"
 },
 {
 "id": "person:Levi.3",
@@ -531,32 +545,11 @@
 "preferred_label": "Аголиав"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Молох"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Бесчестить"
-},
-{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1076,
 "match_method": "canonical",
 "preferred_label": "Веретено"
-},
-{
-"id": "realia:Breast-piece",
-"type": "realia",
-"confidence": 0.1076,
-"match_method": "canonical",
-"preferred_label": "наперсник"
 },
 {
 "id": "realia:LinenStrips",
@@ -566,53 +559,11 @@
 "preferred_label": "Покрывала из виссона"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Breast-piece",
 "type": "realia",
-"confidence": 0.1022,
+"confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "Елей помазания"
-},
-{
-"id": "realia:CoverLid",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Крышка ковчега"
-},
-{
-"id": "realia:Covering",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "покров"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Крылатое существо"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Деньги"
-},
-{
-"id": "fauna:Dugong",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Дюгонь"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Оливковое масло"
+"preferred_label": "наперсник"
 },
 {
 "id": "realia:Screen",
@@ -622,11 +573,25 @@
 "preferred_label": "Завеса"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Подставка для светильника"
+"preferred_label": "сикль"
+},
+{
+"id": "realia:Covering",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "покров"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Крышка ковчега"
 },
 {
 "id": "realia:Trumpet",
@@ -636,11 +601,32 @@
 "preferred_label": "Труба"
 },
 {
-"id": "realia:GoatHairStrips",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "покрывала из козьей шерсти"
+"preferred_label": "Деньги"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Ягненок"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Крылатое существо"
+},
+{
+"id": "fauna:Dugong",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Дюгонь"
 },
 {
 "id": "realia:Leather",
@@ -650,11 +636,32 @@
 "preferred_label": "Кожа"
 },
 {
-"id": "realia:Shekel",
+"id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "сикль"
+"preferred_label": "Подставка для светильника"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Оливковое масло"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Елей помазания"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "покрывала из козьей шерсти"
 },
 {
 "id": "realia:Tent",
@@ -662,13 +669,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Шатер"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Ягненок"
 }
 ]
 }

@@ -258,6 +258,20 @@
 "preferred_label": "Израиль"
 },
 {
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "Дан"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2865,
@@ -265,11 +279,11 @@
 "preferred_label": "Моисей"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "group:Dan",
+"type": "group",
 "confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "Дан"
+"preferred_label": "Колено Даново"
 },
 {
 "id": "place:Jerusalem",
@@ -286,20 +300,6 @@
 "preferred_label": "Иуда"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "Колено Даново"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
 "id": "person:Elizur",
 "type": "person",
 "confidence": 0.2351,
@@ -307,18 +307,18 @@
 "preferred_label": "Елицур"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2351,
-"match_method": "canonical",
-"preferred_label": "Ахиезер"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2351,
 "match_method": "canonical",
 "preferred_label": "Аммиуд"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2351,
+"match_method": "canonical",
+"preferred_label": "Ахиезер"
 },
 {
 "id": "person:Shedeur",
@@ -342,11 +342,11 @@
 "preferred_label": "Бараний рог"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Аммишаддай"
+"preferred_label": "Колено Ефремово"
 },
 {
 "id": "person:Ephraim",
@@ -356,18 +356,18 @@
 "preferred_label": "Ефрем"
 },
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Язычники"
+},
+{
 "id": "group:Reuben",
 "type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Колено Рувимово"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Наассон"
 },
 {
 "id": "place:Babylon",
@@ -384,11 +384,18 @@
 "preferred_label": "Аминадав"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Nahshon",
+"type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Колено Ефремово"
+"preferred_label": "Наассон"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Аммишаддай"
 },
 {
 "id": "person:Reuben",
@@ -396,20 +403,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Рувим"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Язычники"
-},
-{
-"id": "place:Minni",
-"type": "place",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "Минни"
 },
 {
 "id": "deity:Merodach",
@@ -433,6 +426,13 @@
 "preferred_label": "Вил"
 },
 {
+"id": "place:Minni",
+"type": "place",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Минни"
+},
+{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1643,
@@ -447,81 +447,11 @@
 "preferred_label": "назначать"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "слава"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "помазанный"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Колено Левия"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Спасение"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Арарат"
-},
-{
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Сихем"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Любовь"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Сокхоф"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "святой"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Левий"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Иессей"
 },
 {
 "id": "place:Tirzah",
@@ -531,6 +461,41 @@
 "preferred_label": "Фирца"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "святой"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Арарат"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Колено Левия"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Любовь"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "слава"
+},
+{
 "id": "person:Korah.3",
 "type": "person",
 "confidence": 0.1622,
@@ -538,25 +503,39 @@
 "preferred_label": "Корей"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1022,
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Виноградная лоза"
+"preferred_label": "Сихем"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Лошадь"
+"preferred_label": "Сокхоф"
 },
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Гадюка"
+"preferred_label": "помазанный"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Иессей"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Левий"
 },
 {
 "id": "realia:Image",
@@ -564,6 +543,13 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Изображение"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Гадюка"
 },
 {
 "id": "fauna:Snake",
@@ -580,11 +566,25 @@
 "preferred_label": "дом"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Саранча"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Лошадь"
 },
 {
 "id": "realia:Wine",

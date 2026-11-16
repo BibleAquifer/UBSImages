@@ -3,9 +3,9 @@
 "content_id": "280545",
 "reference_id": 1828,
 "version": "1.0.4",
-"title": "Ples bilong paitim wit",
+"title": "Flua Bilong Tromoi",
 "media_type": "Image",
-"index_reference": "ples bilong paitim wit",
+"index_reference": "flua bilong tromoi",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg'>link</a></p></block>",
@@ -119,13 +119,6 @@
 "preferred_label": "hevi plang bilong brukim wit"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.36,
-"match_method": "canonical",
-"preferred_label": "bulmakau"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.36,
@@ -133,11 +126,32 @@
 "preferred_label": "wit"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.36,
+"match_method": "canonical",
+"preferred_label": "bulmakau"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "Bikpela"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Rausim doti olgeta"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Ofa"
 },
 {
 "id": "person:David",
@@ -154,20 +168,6 @@
 "preferred_label": "Arauna"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Ofa"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Rausim doti olgeta"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2133,
@@ -182,13 +182,6 @@
 "preferred_label": "ples bilong brukim wit"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "karis"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.2,
@@ -196,11 +189,11 @@
 "preferred_label": "haus kaikai"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1933,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "karis"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -210,18 +203,25 @@
 "preferred_label": "Wara long mak bilong Isip"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "kaikai wantaim"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Ofra"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "kaikai wantaim"
 },
 {
 "id": "group:Abiezer",
@@ -245,6 +245,27 @@
 "preferred_label": "Abieser"
 },
 {
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "buk bilong God"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Wara Yufretis"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "mas mekim"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.18,
@@ -252,11 +273,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "buk bilong God"
+"preferred_label": "Lo"
 },
 {
 "id": "person:Israel",
@@ -266,11 +287,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Wara Yufretis"
+"preferred_label": "wetim wantaim bilip"
 },
 {
 "id": "deity:Angel",
@@ -287,25 +308,11 @@
 "preferred_label": "Midian"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "flora:Cumin",
+"type": "flora",
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Lo"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "wetim wantaim bilip"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "mas mekim"
+"preferred_label": "kumin"
 },
 {
 "id": "flora:NutmegFlower",
@@ -315,18 +322,18 @@
 "preferred_label": "Natmek plaua"
 },
 {
-"id": "flora:Cumin",
+"id": "flora:Barley",
 "type": "flora",
-"confidence": 0.1333,
+"confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "kumin"
+"preferred_label": "Bali"
 },
 {
-"id": "realia:Winepress",
+"id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Tang bilong krungutim pikinini wain"
+"preferred_label": "efa"
 },
 {
 "id": "realia:Rod",
@@ -336,11 +343,18 @@
 "preferred_label": "stik bilong king"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Diwai oliv"
+"preferred_label": "diwai terebin"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Tang bilong krungutim pikinini wain"
 },
 {
 "id": "realia:Staff",
@@ -350,25 +364,11 @@
 "preferred_label": "stik"
 },
 {
-"id": "flora:Barley",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Bali"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "diwai terebin"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "efa"
+"preferred_label": "Diwai oliv"
 }
 ]
 }

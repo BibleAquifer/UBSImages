@@ -3,9 +3,9 @@
 "content_id": "294112",
 "reference_id": 2332,
 "version": "1.0.4",
-"title": "حبل القياس",
+"title": "مساحين مصريين بحبل قياس",
 "media_type": "Image",
-"index_reference": "حبل القياس",
+"index_reference": "مساحين مصريين بحبل قياس",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0360_measuring_line.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0360_measuring_line.jpg'>link</a></p></block>",
@@ -155,18 +155,18 @@
 "preferred_label": "الرب"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.3971,
-"match_method": "canonical",
-"preferred_label": "حبل"
-},
-{
 "id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.3971,
 "match_method": "canonical",
 "preferred_label": "ذراع"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.3971,
+"match_method": "canonical",
+"preferred_label": "حبل"
 },
 {
 "id": "place:Jerusalem",
@@ -190,13 +190,6 @@
 "preferred_label": "يورّث / يملّك"
 },
 {
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "قرعة"
-},
-{
 "id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.2429,
@@ -209,6 +202,13 @@
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "إسرائيل"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "قرعة"
 },
 {
 "id": "realia:PlumbLine",
@@ -246,25 +246,11 @@
 "preferred_label": "مؤاب"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "داود"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "تنجيس"
-},
-{
-"id": "keyterm:Destroy",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "يدمّر"
+"preferred_label": "يزني"
 },
 {
 "id": "keyterm:Offering",
@@ -274,11 +260,18 @@
 "preferred_label": "تقدمة"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
+"id": "place:Samaria",
+"type": "place",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "مجد"
+"preferred_label": "السامرة"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "داود"
 },
 {
 "id": "person:Ahab",
@@ -288,6 +281,13 @@
 "preferred_label": "أخاب"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
 "id": "keyterm:Refuge",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -295,46 +295,18 @@
 "preferred_label": "ملجأ"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "السامرة"
-},
-{
-"id": "keyterm:PlayTheProstitute",
+"id": "keyterm:Destroy",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "يزني"
+"preferred_label": "يدمّر"
 },
 {
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.121,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "بومة سمراء"
-},
-{
-"id": "realia:Reed",
-"type": "realia",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "قصبة قياس"
-},
-{
-"id": "fauna:Jackdaw",
-"type": "fauna",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "غراب الزرع"
-},
-{
-"id": "fauna:Owl.3",
-"type": "fauna",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "بومة"
+"preferred_label": "تنجيس"
 },
 {
 "id": "realia:Stylus.2",
@@ -356,6 +328,34 @@
 "confidence": 0.121,
 "match_method": "canonical",
 "preferred_label": "إصبع"
+},
+{
+"id": "fauna:Owl.3",
+"type": "fauna",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "بومة"
+},
+{
+"id": "realia:Reed",
+"type": "realia",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "قصبة قياس"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "بومة سمراء"
+},
+{
+"id": "fauna:Jackdaw",
+"type": "fauna",
+"confidence": 0.121,
+"match_method": "canonical",
+"preferred_label": "غراب الزرع"
 },
 {
 "id": "realia:Chisel",

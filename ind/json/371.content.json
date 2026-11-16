@@ -3,9 +3,9 @@
 "content_id": "284325",
 "reference_id": 1876,
 "version": "1.0.4",
-"title": "Gelagah raksasa",
+"title": "Daun buluh raksasa",
 "media_type": "Image",
-"index_reference": "gelagah raksasa",
+"index_reference": "daun buluh raksasa",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0753_reed_giant.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0753_reed_giant.jpg'>link</a></p></block>",
@@ -242,18 +242,18 @@
 "preferred_label": "TUHAN"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.2963,
-"match_method": "canonical",
-"preferred_label": "tongkat"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2963,
 "match_method": "canonical",
 "preferred_label": "rumah"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.2963,
+"match_method": "canonical",
+"preferred_label": "tongkat"
 },
 {
 "id": "realia:MeasuringRod",
@@ -277,6 +277,20 @@
 "preferred_label": "hasta"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Yohanes"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.2281,
@@ -291,39 +305,11 @@
 "preferred_label": "sujud menyembah"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Yohanes"
-},
-{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
 "preferred_label": "anggur asam"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "ambang pintu"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Bait Allah"
 },
 {
 "id": "realia:Foundation",
@@ -340,60 +326,18 @@
 "preferred_label": "rumput"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1641,
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Yesus"
+"preferred_label": "ambang pintu"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1641,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Asyera"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sungai Efrat"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "kebenaran"
-},
-{
-"id": "place:Nile",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sungai Nil"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Malaikat"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Elia"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "orang Yahudi"
+"preferred_label": "Bait Allah"
 },
 {
 "id": "keyterm:Judgment",
@@ -403,6 +347,41 @@
 "preferred_label": "penghakiman"
 },
 {
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sungai Efrat"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "orang Yahudi"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Elia"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sungai Nil"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "kebenaran"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.1641,
@@ -410,46 +389,25 @@
 "preferred_label": "Kus"
 },
 {
-"id": "realia:Pen",
-"type": "realia",
-"confidence": 0.1103,
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "pena"
+"preferred_label": "Asyera"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1103,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "puteri malu"
+"preferred_label": "Malaikat"
 },
 {
-"id": "flora:LotusPlants",
-"type": "flora",
-"confidence": 0.1103,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "tumbuhan teratai"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "penaga"
-},
-{
-"id": "realia:Ink",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "tinta"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "mahkota"
+"preferred_label": "Yesus"
 },
 {
 "id": "flora:Cattails",
@@ -459,6 +417,20 @@
 "preferred_label": "teberau"
 },
 {
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "mahkota"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "puteri malu"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1103,
@@ -466,18 +438,32 @@
 "preferred_label": "mahkota"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1041,
+"id": "realia:Pen",
+"type": "realia",
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "semak duri"
+"preferred_label": "pena"
 },
 {
-"id": "flora:Papyrus",
+"id": "flora:LotusPlants",
 "type": "flora",
-"confidence": 0.1041,
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "papirus"
+"preferred_label": "tumbuhan teratai"
+},
+{
+"id": "realia:Ink",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "tinta"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "penaga"
 },
 {
 "id": "fauna:Jackal",
@@ -487,13 +473,6 @@
 "preferred_label": "anjing hutan"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "lenan"
-},
-{
 "id": "realia:Thread",
 "type": "realia",
 "confidence": 0.1041,
@@ -501,25 +480,11 @@
 "preferred_label": "benang"
 },
 {
-"id": "realia:SacredPole",
+"id": "realia:Room",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "tiang berhala"
-},
-{
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "setapak tangan"
-},
-{
-"id": "realia:CityWall",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "tembok kota"
+"preferred_label": "kamar"
 },
 {
 "id": "realia:Lamp",
@@ -529,11 +494,46 @@
 "preferred_label": "lampu"
 },
 {
-"id": "realia:Room",
+"id": "realia:Handbreadth",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "kamar"
+"preferred_label": "setapak tangan"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "lenan"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "papirus"
+},
+{
+"id": "realia:SacredPole",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "tiang berhala"
+},
+{
+"id": "realia:CityWall",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "tembok kota"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "semak duri"
 }
 ]
 }

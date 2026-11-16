@@ -83,11 +83,18 @@
 "preferred_label": "Páscoa"
 },
 {
-"id": "person:Amnon",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Amnom"
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "santo"
 },
 {
 "id": "place:Egypt",
@@ -97,18 +104,11 @@
 "preferred_label": "Egito"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "person:Tamar.2",
+"id": "person:Amnon",
 "type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Tamar"
+"preferred_label": "Amnom"
 },
 {
 "id": "person:Jesus.2",
@@ -125,11 +125,11 @@
 "preferred_label": "puro"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Tamar.2",
+"type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "santo"
+"preferred_label": "Tamar"
 },
 {
 "id": "realia:SacredCakes",
@@ -137,6 +137,13 @@
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "bolos sagrados"
+},
+{
+"id": "realia:UnleavenedBread",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "pão sem fermento"
 },
 {
 "id": "realia:House",
@@ -153,13 +160,6 @@
 "preferred_label": "capa"
 },
 {
-"id": "realia:Cake",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "bolo"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.14,
@@ -174,11 +174,11 @@
 "preferred_label": "vinho"
 },
 {
-"id": "realia:UnleavenedBread",
+"id": "realia:Cake",
 "type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "pão sem fermento"
+"preferred_label": "bolo"
 }
 ]
 }

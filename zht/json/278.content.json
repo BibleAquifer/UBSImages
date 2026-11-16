@@ -115,20 +115,6 @@
 "preferred_label": "帳棚"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "染布"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "紫色布"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.3025,
@@ -143,11 +129,18 @@
 "preferred_label": "綿羊"
 },
 {
-"id": "realia:TentOfMeeting",
+"id": "realia:DyedCloth",
 "type": "realia",
-"confidence": 0.215,
+"confidence": 0.3025,
 "match_method": "canonical",
-"preferred_label": "會幕"
+"preferred_label": "染布"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.3025,
+"match_method": "canonical",
+"preferred_label": "紫色布"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -157,11 +150,11 @@
 "preferred_label": "約櫃"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "摩西"
+"preferred_label": "會幕"
 },
 {
 "id": "deity:Lord",
@@ -169,6 +162,20 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "耶和華"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "摩西"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "聖潔"
 },
 {
 "id": "person:Noah",
@@ -185,11 +192,11 @@
 "preferred_label": "革順"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1442,
 "match_method": "canonical",
-"preferred_label": "聖潔"
+"preferred_label": "帳幕的壇"
 },
 {
 "id": "realia:GoatHairStrips",
@@ -199,25 +206,18 @@
 "preferred_label": "山羊毛幔子"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "帳幕的壇"
-},
-{
-"id": "realia:Frame",
+"id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "豎板"
+"preferred_label": "幔子"
 },
 {
-"id": "realia:Ship",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "船"
+"preferred_label": "祭壇"
 },
 {
 "id": "realia:Altar",
@@ -225,6 +225,20 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "祭壇"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "石壇"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "船"
 },
 {
 "id": "realia:Loop",
@@ -241,25 +255,11 @@
 "preferred_label": "幔子"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:Frame",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "石壇"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "祭壇"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "幔子"
+"preferred_label": "豎板"
 }
 ]
 }

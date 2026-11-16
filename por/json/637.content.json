@@ -75,6 +75,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "altar do templo"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
@@ -94,13 +101,6 @@
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "altar do tabernáculo"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "altar do templo"
 },
 {
 "id": "deity:Asherah",
@@ -131,18 +131,18 @@
 "preferred_label": "imagem"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "Tribo de Judá"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Israel"
 },
 {
 "id": "person:Judah.4",
@@ -152,11 +152,11 @@
 "preferred_label": "Judá"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "Tribo de Judá"
+"preferred_label": "Israel"
 },
 {
 "id": "deity:Baal",
@@ -173,6 +173,13 @@
 "preferred_label": "lugar alto"
 },
 {
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "pinheiro-manso"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
@@ -180,11 +187,25 @@
 "preferred_label": "imagem esculpida"
 },
 {
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.23,
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "pinheiro-manso"
+"preferred_label": "Cedrom"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "instrução"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "perdoar"
 },
 {
 "id": "keyterm:Destroy",
@@ -206,27 +227,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Pecar"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "instrução"
-},
-{
-"id": "place:Kidron",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Cedrom"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "perdoar"
 },
 {
 "id": "realia:MoltenImage",

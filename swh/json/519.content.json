@@ -221,11 +221,11 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "Mafuta ya upako"
+"preferred_label": "Nyumba"
 },
 {
 "id": "realia:OliveOil",
@@ -235,11 +235,11 @@
 "preferred_label": "Mafuta ya zeituni"
 },
 {
-"id": "realia:House",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "Nyumba"
+"preferred_label": "Mafuta ya upako"
 },
 {
 "id": "realia:Wine",
@@ -256,34 +256,6 @@
 "preferred_label": "Melzari"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ukamilifu"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Koreshi"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kuwa na ufahamu"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Uajemi"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -291,18 +263,11 @@
 "preferred_label": "Kuapa"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Farao"
-},
-{
-"id": "keyterm:Dispossess",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Kupotoa milki"
+"preferred_label": "Kuamini"
 },
 {
 "id": "person:GenericOfficial",
@@ -312,18 +277,25 @@
 "preferred_label": "Afisa wa Serikali"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Sadaka"
+"preferred_label": "Kabila la Yuda"
 },
 {
-"id": "keyterm:RegardAsForbidden",
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Farao"
+},
+{
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Kuhesabu kuwa Mwiko"
+"preferred_label": "-takatifu"
 },
 {
 "id": "keyterm:Intention",
@@ -331,48 +303,6 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Kusudi"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sidoni"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Shauri"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Lebanoni"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Wasidoni"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Yuda"
 },
 {
 "id": "place:Joppa",
@@ -389,25 +319,18 @@
 "preferred_label": "Danieli"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
-},
-{
-"id": "keyterm:LoyalPerson",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Mtu mwaminifu"
+"preferred_label": "Kupotoa milki"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Upendo"
+"preferred_label": "Sadaka"
 },
 {
 "id": "place:Tyre",
@@ -417,11 +340,81 @@
 "preferred_label": "Tiro"
 },
 {
-"id": "keyterm:Holy",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Uajemi"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Watu wa Tiro"
+},
+{
+"id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "-takatifu"
+"preferred_label": "Kuwa na ufahamu"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Upendo"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Koreshi"
+},
+{
+"id": "keyterm:LoyalPerson",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Mtu mwaminifu"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Wasidoni"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Ukamilifu"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sidoni"
 },
 {
 "id": "keyterm:Forbidden",
@@ -438,18 +431,25 @@
 "preferred_label": "Govi"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Kuamini"
+"preferred_label": "Shauri"
 },
 {
-"id": "group:Tyre",
-"type": "group",
+"id": "keyterm:RegardAsForbidden",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Watu wa Tiro"
+"preferred_label": "Kuhesabu kuwa Mwiko"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Lebanoni"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -466,46 +466,18 @@
 "preferred_label": "fundi stadi"
 },
 {
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Joka"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Mzeituni"
-},
-{
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Wavu wa Kurusha"
-},
-{
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Juya"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Ngʼombe"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Shimo"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Fedha"
 },
 {
 "id": "realia:Stew",
@@ -515,25 +487,11 @@
 "preferred_label": "Mchuzi"
 },
 {
-"id": "realia:Net",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Wavu"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Fisi"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Nafaka"
+"preferred_label": "Divai mpya"
 },
 {
 "id": "flora:Cedar",
@@ -543,32 +501,32 @@
 "preferred_label": "Mwerezi"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Divai mpya"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Mnara wa kuzingiria"
-},
-{
-"id": "realia:Fortification",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Boma"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Shekeli"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Fedha"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Nafaka"
+},
+{
+"id": "realia:Dragnet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Juya"
 },
 {
 "id": "flora:Grass",
@@ -585,6 +543,34 @@
 "preferred_label": "Mazingiro"
 },
 {
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Wavu wa Kurusha"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Fisi"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Wavu"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Ngʼombe"
+},
+{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1041,
@@ -592,11 +578,25 @@
 "preferred_label": "Kikapu"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
+"id": "realia:Pit",
+"type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Joka"
+"preferred_label": "Shimo"
+},
+{
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Boma"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Mnara wa kuzingiria"
 }
 ]
 }

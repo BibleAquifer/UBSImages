@@ -3,9 +3,9 @@
 "content_id": "293939",
 "reference_id": 2159,
 "version": "1.0.4",
-"title": "المخلوقات الحية لورفاو",
+"title": "المخلوقات الحية الأربعة: مخطوطة لورفاو",
 "media_type": "Image",
-"index_reference": "المخلوقات الحية لورفاو",
+"index_reference": "المخلوقات الحية الأربعة مخطوطة لورفاو",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg'>link</a></p></block>",
@@ -159,6 +159,13 @@
 "preferred_label": "الكائن الحي التالت"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "الكائن الحي التاني"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
@@ -173,18 +180,11 @@
 "preferred_label": "الكائن الحي الرابع"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "الكائن الحي التاني"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "حقاً!"
+"preferred_label": "مقدّس"
 },
 {
 "id": "keyterm:Life",
@@ -194,18 +194,18 @@
 "preferred_label": "حياة"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "مقدّس"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "دايماً"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "حقاً!"
 },
 {
 "id": "realia:Bowl.2",
@@ -215,25 +215,18 @@
 "preferred_label": "صحن غريق"
 },
 {
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "يفدي"
+},
+{
 "id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "يفعل الشر"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "روح"
 },
 {
 "id": "keyterm:Pray",
@@ -243,6 +236,20 @@
 "preferred_label": "صلّى"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "روح"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
 "id": "deity:Voice",
 "type": "deity",
 "confidence": 0.1765,
@@ -250,11 +257,11 @@
 "preferred_label": "صوت بدون جسد"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "يفدي"
+"preferred_label": "دينار"
 },
 {
 "id": "realia:Balance",
@@ -271,48 +278,6 @@
 "preferred_label": "كوارت"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "دينار"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "أسد"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "بخور"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "بقر"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "الحصان"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "زيت زيتون"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1165,
@@ -320,18 +285,11 @@
 "preferred_label": "شعير"
 },
 {
-"id": "realia:Lyre",
-"type": "realia",
+"id": "fauna:Vulture",
+"type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "كنارة"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "درج"
+"preferred_label": "نسر"
 },
 {
 "id": "flora:Wheat",
@@ -341,11 +299,53 @@
 "preferred_label": "قمح"
 },
 {
-"id": "fauna:Vulture",
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "بخور"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "كنارة"
+},
+{
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "نسر"
+"preferred_label": "بقر"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "زيت زيتون"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "أسد"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "الحصان"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "درج"
 },
 {
 "id": "realia:Wine",

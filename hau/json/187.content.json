@@ -3,9 +3,9 @@
 "content_id": "289739",
 "reference_id": 1692,
 "version": "1.0.4",
-"title": "Karon mur",
+"title": "Gum Myrrh",
 "media_type": "Image",
-"index_reference": "karon mur",
+"index_reference": "gum myrrh",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0664_myrrh_gum.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0664_myrrh_gum.jpg'>link</a></p></block>",
@@ -254,13 +254,6 @@
 "preferred_label": "Man zaitun"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2333,
-"match_method": "canonical",
-"preferred_label": "Yesu"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2333,
@@ -275,8 +268,22 @@
 "preferred_label": "Mai Tsarki"
 },
 {
-"id": "realia:Aloes",
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2333,
+"match_method": "canonical",
+"preferred_label": "Yesu"
+},
+{
+"id": "realia:OilOfNard",
 "type": "realia",
+"confidence": 0.1881,
+"match_method": "canonical",
+"preferred_label": "Man nardi"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
 "confidence": 0.1881,
 "match_method": "canonical",
 "preferred_label": "Aloyes"
@@ -289,18 +296,11 @@
 "preferred_label": "Awo"
 },
 {
-"id": "flora:Aloes",
-"type": "flora",
-"confidence": 0.1881,
-"match_method": "canonical",
-"preferred_label": "Aloyes"
-},
-{
-"id": "realia:OilOfNard",
+"id": "realia:Aloes",
 "type": "realia",
 "confidence": 0.1881,
 "match_method": "canonical",
-"preferred_label": "Man nardi"
+"preferred_label": "Aloyes"
 },
 {
 "id": "flora:Calamus",
@@ -317,11 +317,11 @@
 "preferred_label": "Aloyes"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "person:Nicodemus",
+"type": "person",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Durƙusa har ƙasa"
+"preferred_label": "Nikodimus"
 },
 {
 "id": "person:Simon.4",
@@ -331,11 +331,11 @@
 "preferred_label": "Siman"
 },
 {
-"id": "person:Nicodemus",
-"type": "person",
+"id": "keyterm:BowDown",
+"type": "keyterm",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Nikodimus"
+"preferred_label": "Durƙusa har ƙasa"
 },
 {
 "id": "place:Bethany",
@@ -345,13 +345,6 @@
 "preferred_label": "Betani"
 },
 {
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Turare"
-},
-{
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.1733,
@@ -359,32 +352,18 @@
 "preferred_label": "Dinari"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "Turare"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
 "preferred_label": "ruwan inabi"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Hadaya"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Umarni"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Ƙungiyar Almajirai"
 },
 {
 "id": "keyterm:Sabbath",
@@ -401,11 +380,32 @@
 "preferred_label": "Farisiyawa"
 },
 {
-"id": "person:Mary",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Maryamu"
+"preferred_label": "Ƙungiyar Almajirai"
+},
+{
+"id": "place:Ophir",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Ofir"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Hadaya"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Umarni"
 },
 {
 "id": "person:Ahasuerus",
@@ -422,11 +422,11 @@
 "preferred_label": "Lazarus"
 },
 {
-"id": "place:Ophir",
-"type": "place",
+"id": "person:Mary",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Ofir"
+"preferred_label": "Maryamu"
 },
 {
 "id": "realia:MyrrhedWine",
@@ -450,46 +450,11 @@
 "preferred_label": "Asfaran"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "keken shanu"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Man shafawa"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Itacen inabi"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Doki"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Lili"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Alkama"
+"preferred_label": "Gado"
 },
 {
 "id": "fauna:Lamb",
@@ -499,6 +464,20 @@
 "preferred_label": "Ɗan rago"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Alkama"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Lili"
+},
+{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1067,
@@ -506,11 +485,32 @@
 "preferred_label": "Jaka"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Itacen inabi"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Gado"
+"preferred_label": "Man shafawa"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Doki"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "keken shanu"
 }
 ]
 }

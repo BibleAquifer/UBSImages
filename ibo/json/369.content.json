@@ -3,9 +3,9 @@
 "content_id": "290855",
 "reference_id": 1874,
 "version": "1.0.4",
-"title": "Ìgwè Nnụnụ",
+"title": "Ìgwè nnụnụ na-efe efe",
 "media_type": "Image",
-"index_reference": "ìgwè nnụnụ",
+"index_reference": "ìgwè nnụnụ naefe efe",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0237_flock_of_birds.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0237_flock_of_birds.jpg'>link</a></p></block>",
@@ -545,13 +545,6 @@
 "preferred_label": "Eluigwe"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3528,
-"match_method": "canonical",
-"preferred_label": "Ngwere"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3528,
@@ -564,6 +557,13 @@
 "confidence": 0.3528,
 "match_method": "canonical",
 "preferred_label": "Ngwere aghụ"
+},
+{
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.3528,
+"match_method": "canonical",
+"preferred_label": "Ngwere"
 },
 {
 "id": "fauna:Fish",
@@ -587,18 +587,18 @@
 "preferred_label": "Dị ọcha"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.3162,
-"match_method": "canonical",
-"preferred_label": "ehi"
-},
-{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.3162,
 "match_method": "canonical",
 "preferred_label": "Oke ọkụkọ"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3162,
+"match_method": "canonical",
+"preferred_label": "ehi"
 },
 {
 "id": "keyterm:Kind.2",
@@ -622,11 +622,11 @@
 "preferred_label": "anụ na-akpụ akpụ"
 },
 {
-"id": "fauna:Snake",
+"id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "Agwọ"
+"preferred_label": "nkịta"
 },
 {
 "id": "flora:Grass",
@@ -636,11 +636,11 @@
 "preferred_label": "ahịhịa"
 },
 {
-"id": "fauna:Dog",
+"id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "nkịta"
+"preferred_label": "Agwọ"
 },
 {
 "id": "keyterm:Destroy",
@@ -650,6 +650,13 @@
 "preferred_label": "Ila nʼiyi"
 },
 {
+"id": "person:Adam",
+"type": "person",
+"confidence": 0.2128,
+"match_method": "canonical",
+"preferred_label": "Adam"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2128,
@@ -657,11 +664,53 @@
 "preferred_label": "Gọzie"
 },
 {
-"id": "person:Adam",
-"type": "person",
-"confidence": 0.2128,
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "Adam"
+"preferred_label": "Ịhọpụta"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "ndị Filistia"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Fero"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Onyinye"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Noa"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Ebube"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Filistia"
 },
 {
 "id": "keyterm:Defilement",
@@ -678,53 +727,11 @@
 "preferred_label": "Jisọs"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.2105,
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.2057,
 "match_method": "canonical",
-"preferred_label": "Fero"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Filistia"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Onyinye"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Ịhọpụta"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Ebube"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "ndị Filistia"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Noa"
+"preferred_label": "ọka"
 },
 {
 "id": "realia:Ship",
@@ -732,13 +739,6 @@
 "confidence": 0.2057,
 "match_method": "canonical",
 "preferred_label": "ụgbọ mmiri"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.2057,
-"match_method": "canonical",
-"preferred_label": "ọka"
 }
 ]
 }

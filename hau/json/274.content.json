@@ -3,9 +3,9 @@
 "content_id": "289826",
 "reference_id": 1779,
 "version": "1.0.4",
-"title": "Tabanaku",
+"title": "Cikakken samfurin Tabanaku",
 "media_type": "Image",
-"index_reference": "tabanaku",
+"index_reference": "cikakken samfurin tabanaku",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0427_tabernacle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0427_tabernacle.jpg'>link</a></p></block>",
@@ -300,6 +300,13 @@
 "preferred_label": "Tentin Sujada"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.363,
+"match_method": "canonical",
+"preferred_label": "Bagaden haikali"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.363,
@@ -321,11 +328,11 @@
 "preferred_label": "Bagaden Tabanakul"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.363,
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "Bagaden haikali"
+"preferred_label": "Eleyazar"
 },
 {
 "id": "keyterm:Priesthood",
@@ -342,11 +349,11 @@
 "preferred_label": "Yin Zunubi"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.2865,
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Eleyazar"
+"preferred_label": "Akwatin Alkawari"
 },
 {
 "id": "realia:PurpleCloth",
@@ -356,9 +363,9 @@
 "preferred_label": "Tufafin shunayya"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2265,
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Akwatin Alkawari"
 },
@@ -368,13 +375,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Ƙazantarwa"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Akwatin Alkawari"
 },
 {
 "id": "realia:Tabernacle",
@@ -405,11 +405,11 @@
 "preferred_label": "Akuya"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "Shanu"
+"preferred_label": "Garke"
 },
 {
 "id": "realia:Linen",
@@ -419,20 +419,6 @@
 "preferred_label": "Lilin"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Labule"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "Garke"
-},
-{
 "id": "realia:Talent",
 "type": "realia",
 "confidence": 0.1643,
@@ -440,11 +426,32 @@
 "preferred_label": "Talenti"
 },
 {
-"id": "keyterm:Rebel",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "Labule"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "Shanu"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Yin Tawaye"
+"preferred_label": "Ɗaukar alhaki"
+},
+{
+"id": "person:Bezalel",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Bezalel"
 },
 {
 "id": "keyterm:Serve",
@@ -454,11 +461,25 @@
 "preferred_label": "Yin hidima"
 },
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Fahimi"
+"preferred_label": "Na gaskiya"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Kabilar Lawi"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Molek"
 },
 {
 "id": "keyterm:Ability",
@@ -475,13 +496,6 @@
 "preferred_label": "Kishi"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ɗaukar alhaki"
-},
-{
 "id": "person:Phinehas",
 "type": "person",
 "confidence": 0.1622,
@@ -489,25 +503,25 @@
 "preferred_label": "Finehas"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Kabilar Lawi"
-},
-{
-"id": "keyterm:True",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Na gaskiya"
+"preferred_label": "Fahimi"
 },
 {
-"id": "person:Bezalel",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Bezalel"
+"preferred_label": "Yin Tawaye"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Yin rashin daraja"
 },
 {
 "id": "person:Levi.3",
@@ -531,32 +545,11 @@
 "preferred_label": "Oholiyab"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Molek"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Yin rashin daraja"
-},
-{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1076,
 "match_method": "canonical",
 "preferred_label": "Mazari"
-},
-{
-"id": "realia:Breast-piece",
-"type": "realia",
-"confidence": 0.1076,
-"match_method": "canonical",
-"preferred_label": "ƙyallen ƙirji"
 },
 {
 "id": "realia:LinenStrips",
@@ -566,53 +559,11 @@
 "preferred_label": "Zannuwan lilin"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Breast-piece",
 "type": "realia",
-"confidence": 0.1022,
+"confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "Man shafawa"
-},
-{
-"id": "realia:CoverLid",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Murfin kafara"
-},
-{
-"id": "realia:Covering",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Abin rufe"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "halitta mai fiffike"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Kuɗi"
-},
-{
-"id": "fauna:Dugong",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Sanun teku"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Man zaitun"
+"preferred_label": "ƙyallen ƙirji"
 },
 {
 "id": "realia:Screen",
@@ -622,11 +573,25 @@
 "preferred_label": "Labule"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Wurin ajiye fitila"
+"preferred_label": "shekel"
+},
+{
+"id": "realia:Covering",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Abin rufe"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Murfin kafara"
 },
 {
 "id": "realia:Trumpet",
@@ -636,11 +601,32 @@
 "preferred_label": "Kakaki"
 },
 {
-"id": "realia:GoatHairStrips",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "Labulen gashin akuya"
+"preferred_label": "Kuɗi"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Ɗan rago"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "halitta mai fiffike"
+},
+{
+"id": "fauna:Dugong",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Sanun teku"
 },
 {
 "id": "realia:Leather",
@@ -650,11 +636,32 @@
 "preferred_label": "Fata"
 },
 {
-"id": "realia:Shekel",
+"id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "shekel"
+"preferred_label": "Wurin ajiye fitila"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Man zaitun"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Man shafawa"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Labulen gashin akuya"
 },
 {
 "id": "realia:Tent",
@@ -662,13 +669,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "Tenti"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Ɗan rago"
 }
 ]
 }

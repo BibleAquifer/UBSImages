@@ -375,18 +375,11 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2791,
 "match_method": "canonical",
-"preferred_label": "autel de pierre"
-},
-{
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "traîneau à battre"
+"preferred_label": "autel du Temple"
 },
 {
 "id": "realia:Altar",
@@ -396,13 +389,6 @@
 "preferred_label": "autel"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "autel du Temple"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.2791,
@@ -410,11 +396,39 @@
 "preferred_label": "autel du tabernacle"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "traîneau à battre"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.2791,
 "match_method": "canonical",
 "preferred_label": "blé"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "autel de pierre"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "nettoyer à fond"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Samarie"
 },
 {
 "id": "person:Jehoshaphat.3",
@@ -429,20 +443,6 @@
 "confidence": 0.2196,
 "match_method": "canonical",
 "preferred_label": "Juda"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "nettoyer à fond"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "parler en prophète"
 },
 {
 "id": "keyterm:Blow",
@@ -466,11 +466,11 @@
 "preferred_label": "Gad"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Speak",
+"type": "keyterm",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Samarie"
+"preferred_label": "parler en prophète"
 },
 {
 "id": "flora:Barley",
@@ -487,60 +487,11 @@
 "preferred_label": "fourche à vanner"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Gédéon"
-},
-{
-"id": "person:Joash",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Joas"
-},
-{
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "prendre part"
-},
-{
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Abiézer"
-},
-{
 "id": "place:BrookOfEgypt",
 "type": "place",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "torrent d’Égypte"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Keïla"
-},
-{
-"id": "place:Ophrah.2",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ophra"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Abiézrites"
 },
 {
 "id": "place:MoriahMount",
@@ -550,6 +501,20 @@
 "preferred_label": "mont Morija"
 },
 {
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "prendre part"
+},
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Keïla"
+},
+{
 "id": "keyterm:FeastOfTabernacles",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -557,32 +522,74 @@
 "preferred_label": "fête des tabernacles"
 },
 {
-"id": "place:Philistine",
+"id": "place:Ophrah.2",
 "type": "place",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Philistie"
+"preferred_label": "Ophra"
 },
 {
-"id": "group:Levi",
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Gédéon"
+},
+{
+"id": "group:Abiezer",
 "type": "group",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "tribu de Lévi"
+"preferred_label": "Abiézrites"
 },
 {
-"id": "keyterm:Perceive",
+"id": "person:Joash",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Joas"
+},
+{
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Abiézer"
+},
+{
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "percevoir"
+"preferred_label": "se prostituer"
 },
 {
-"id": "person:Boaz",
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Euphrate"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Babylone"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "loi"
+},
+{
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Boaz"
+"preferred_label": "Salomon"
 },
 {
 "id": "group:Philistine",
@@ -599,25 +606,18 @@
 "preferred_label": "amour"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Madian"
-},
-{
-"id": "keyterm:Hope",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "espérance"
+"preferred_label": "croire en"
 },
 {
-"id": "person:Moses",
+"id": "person:Boaz",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Moïse"
+"preferred_label": "Boaz"
 },
 {
 "id": "keyterm:Counsel",
@@ -627,18 +627,39 @@
 "preferred_label": "conseil"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Euphrate"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "bénir"
+"preferred_label": "être obligé"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Moïse"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "tribu de Lévi"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "percevoir"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Philistie"
 },
 {
 "id": "person:Levi.3",
@@ -648,25 +669,11 @@
 "preferred_label": "Lévi"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
+"id": "place:Midian",
+"type": "place",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "loi"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "être obligé"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "se prostituer"
+"preferred_label": "Madian"
 },
 {
 "id": "keyterm:Scripture",
@@ -676,39 +683,25 @@
 "preferred_label": "Écritures"
 },
 {
-"id": "keyterm:BelieveIn",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "croire en"
+"preferred_label": "espérance"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Babylone"
+"preferred_label": "bénir"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Salomon"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
-"id": "realia:Barn",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "grenier"
+"preferred_label": "moût"
 },
 {
 "id": "realia:Throne",
@@ -725,25 +718,25 @@
 "preferred_label": "olivier"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "grenier"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "argent"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "moût"
-},
-{
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "nielle"
 },
 {
 "id": "realia:Sheaf",
@@ -753,6 +746,13 @@
 "preferred_label": "gerbe"
 },
 {
+"id": "flora:NutmegFlower",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "nielle"
+},
+{
 "id": "flora:Cumin",
 "type": "flora",
 "confidence": 0.1041,
@@ -760,32 +760,11 @@
 "preferred_label": "cumin"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Wool",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "huile d'onction"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "térébinthe"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "coriandre"
+"preferred_label": "laine"
 },
 {
 "id": "realia:Shekel",
@@ -795,11 +774,32 @@
 "preferred_label": "sicle"
 },
 {
-"id": "realia:Staff",
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "agneau"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "térébinthe"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "bâton"
+"preferred_label": "huile d'onction"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "épha"
 },
 {
 "id": "realia:Rod",
@@ -807,6 +807,55 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "verge"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "coriandre"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "mulet"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "maison"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "bâton"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "char"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "troupeau"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 },
 {
 "id": "realia:Cake",
@@ -821,55 +870,6 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "huile d'olive"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "épha"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "agneau"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "char"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "chèvre"
-},
-{
-"id": "realia:Wool",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "laine"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "maison"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "troupeau"
 }
 ]
 }

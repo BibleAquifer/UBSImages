@@ -254,13 +254,6 @@
 "preferred_label": "Оливковое масло"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2333,
-"match_method": "canonical",
-"preferred_label": "Иисус"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2333,
@@ -275,18 +268,18 @@
 "preferred_label": "чистый"
 },
 {
-"id": "realia:Aloes",
-"type": "realia",
-"confidence": 0.1881,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2333,
 "match_method": "canonical",
-"preferred_label": "Алой"
+"preferred_label": "Иисус"
 },
 {
-"id": "realia:Pound",
+"id": "realia:OilOfNard",
 "type": "realia",
 "confidence": 0.1881,
 "match_method": "canonical",
-"preferred_label": "Фунт"
+"preferred_label": "Нардовое миро"
 },
 {
 "id": "flora:Aloes",
@@ -296,11 +289,18 @@
 "preferred_label": "Алоэ"
 },
 {
-"id": "realia:OilOfNard",
+"id": "realia:Pound",
 "type": "realia",
 "confidence": 0.1881,
 "match_method": "canonical",
-"preferred_label": "Нардовое миро"
+"preferred_label": "Фунт"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1881,
+"match_method": "canonical",
+"preferred_label": "Алой"
 },
 {
 "id": "flora:Calamus",
@@ -317,11 +317,11 @@
 "preferred_label": "Алойное дерево"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "person:Nicodemus",
+"type": "person",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Поклоняться"
+"preferred_label": "Никодим"
 },
 {
 "id": "person:Simon.4",
@@ -331,11 +331,11 @@
 "preferred_label": "Симон"
 },
 {
-"id": "person:Nicodemus",
-"type": "person",
+"id": "keyterm:BowDown",
+"type": "keyterm",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "Никодим"
+"preferred_label": "Поклоняться"
 },
 {
 "id": "place:Bethany",
@@ -345,13 +345,6 @@
 "preferred_label": "Вифания"
 },
 {
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Благовония"
-},
-{
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.1733,
@@ -359,32 +352,18 @@
 "preferred_label": "Динарий"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "Благовония"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
 "preferred_label": "Вино"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Приношение"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Заповедь"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Группа учеников"
 },
 {
 "id": "keyterm:Sabbath",
@@ -401,11 +380,32 @@
 "preferred_label": "Фарисеи"
 },
 {
-"id": "person:Mary",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Мария"
+"preferred_label": "Группа учеников"
+},
+{
+"id": "place:Ophir",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Офир"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Приношение"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Заповедь"
 },
 {
 "id": "person:Ahasuerus",
@@ -422,11 +422,11 @@
 "preferred_label": "Лазарь"
 },
 {
-"id": "place:Ophir",
-"type": "place",
+"id": "person:Mary",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Офир"
+"preferred_label": "Мария"
 },
 {
 "id": "realia:MyrrhedWine",
@@ -450,46 +450,11 @@
 "preferred_label": "Шафран"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Повозка"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Елей помазания"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Лошадь"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Лилия"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Пшеница"
+"preferred_label": "постель"
 },
 {
 "id": "fauna:Lamb",
@@ -499,6 +464,20 @@
 "preferred_label": "Ягненок"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Пшеница"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Лилия"
+},
+{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1067,
@@ -506,11 +485,32 @@
 "preferred_label": "сумка"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "постель"
+"preferred_label": "Елей помазания"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Лошадь"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Повозка"
 }
 ]
 }

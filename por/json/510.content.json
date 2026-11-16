@@ -3,9 +3,9 @@
 "content_id": "286345",
 "reference_id": 2030,
 "version": "1.0.4",
-"title": "Solo de Antigo",
+"title": "Camadas de Solo: Corte Transversal",
 "media_type": "Image",
-"index_reference": "solo de antigo",
+"index_reference": "camadas de solo corte transversal",
 "language": "por",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0819_soil_antigo.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0819_soil_antigo.jpg'>link</a></p></block>",
@@ -1317,11 +1317,11 @@
 "preferred_label": "Egito"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3629,
 "match_method": "canonical",
-"preferred_label": "abençoar"
+"preferred_label": "Temor"
 },
 {
 "id": "keyterm:Holy",
@@ -1331,18 +1331,11 @@
 "preferred_label": "santo"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.3629,
 "match_method": "canonical",
-"preferred_label": "Temor"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "Faraó"
+"preferred_label": "abençoar"
 },
 {
 "id": "keyterm:Decree",
@@ -1359,11 +1352,25 @@
 "preferred_label": "Judá"
 },
 {
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "amaldiçoar"
+},
+{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.3607,
 "match_method": "canonical",
 "preferred_label": "Rio Jordão"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "Faraó"
 },
 {
 "id": "group:Judah",
@@ -1373,11 +1380,11 @@
 "preferred_label": "Tribo de Judá"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.3607,
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3179,
 "match_method": "canonical",
-"preferred_label": "amaldiçoar"
+"preferred_label": "trigo"
 },
 {
 "id": "flora:Sorghum",
@@ -1385,13 +1392,6 @@
 "confidence": 0.3179,
 "match_method": "canonical",
 "preferred_label": "sorgo"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3179,
-"match_method": "canonical",
-"preferred_label": "trigo"
 },
 {
 "id": "fauna:Bull",
@@ -1429,6 +1429,20 @@
 "preferred_label": "contaminação"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "Babilônia"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "Pecar"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.3086,
@@ -1450,20 +1464,6 @@
 "preferred_label": "Noé"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "Pecar"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "Babilônia"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3071,
@@ -1471,11 +1471,11 @@
 "preferred_label": "rebanho"
 },
 {
-"id": "fauna:Lizard",
+"id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3007,
 "match_method": "canonical",
-"preferred_label": "Lagarto"
+"preferred_label": "camaleão"
 },
 {
 "id": "realia:AnointingOil",

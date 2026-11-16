@@ -3,9 +3,9 @@
 "content_id": "283298",
 "reference_id": 1782,
 "version": "1.0.4",
-"title": "हुक लूप्स एन",
+"title": "हुक और लूप्स",
 "media_type": "Image",
-"index_reference": "हुक लूप्स एन",
+"index_reference": "हुक और लूप्स",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0431_hook_loops_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0431_hook_loops_en.jpg'>link</a></p></block>",
@@ -106,18 +106,18 @@
 "preferred_label": "फंदा"
 },
 {
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.5471,
-"match_method": "canonical",
-"preferred_label": "बकरी के बाल के पर्दे"
-},
-{
 "id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.5471,
 "match_method": "canonical",
 "preferred_label": "सनी की पट्टियाँ"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.5471,
+"match_method": "canonical",
+"preferred_label": "बकरी के बाल के पर्दे"
 },
 {
 "id": "realia:Tent",
@@ -134,6 +134,13 @@
 "preferred_label": "वाचा का सन्दूक"
 },
 {
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2043,
+"match_method": "canonical",
+"preferred_label": "वाचा का संदूक"
+},
+{
 "id": "realia:Frame",
 "type": "realia",
 "confidence": 0.2043,
@@ -148,13 +155,6 @@
 "preferred_label": "बैंगनी वस्त्र"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2043,
-"match_method": "canonical",
-"preferred_label": "वाचा का संदूक"
-},
-{
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.1964,
@@ -162,11 +162,18 @@
 "preferred_label": "पवित्रस्थान"
 },
 {
-"id": "person:David",
+"id": "person:Nathan.2",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "दाऊद"
+"preferred_label": "नातान"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Moses",
@@ -176,11 +183,18 @@
 "preferred_label": "मूसा"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "पवित्र"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "दाऊद"
 },
 {
 "id": "keyterm:Witness.2",
@@ -197,18 +211,11 @@
 "preferred_label": "वाचा"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1821,
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "पवित्र"
-},
-{
-"id": "person:Nathan.2",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "नातान"
+"preferred_label": "देवदार"
 },
 {
 "id": "realia:Covering",
@@ -218,25 +225,18 @@
 "preferred_label": "आवरण"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "परदा"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "देवदार"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "घर"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "परदा"
 }
 ]
 }

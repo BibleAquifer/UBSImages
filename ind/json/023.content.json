@@ -335,6 +335,27 @@
 "preferred_label": "anjing"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "langit"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Setan-setan"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -349,39 +370,11 @@
 "preferred_label": "Yesus"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "kudus"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Setan-setan"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "langit"
-},
-{
 "id": "place:Hazor.5",
 "type": "place",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "Hazor"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "pokok anggur"
 },
 {
 "id": "flora:Grass",
@@ -391,11 +384,11 @@
 "preferred_label": "rumput"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1602,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "memberikan milik"
+"preferred_label": "pokok anggur"
 },
 {
 "id": "keyterm:Swear",
@@ -405,11 +398,11 @@
 "preferred_label": "bersumpah"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "persembahan"
+"preferred_label": "menugaskan"
 },
 {
 "id": "keyterm:Mischief",
@@ -419,81 +412,11 @@
 "preferred_label": "kejahatan"
 },
 {
-"id": "keyterm:Appoint",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "menugaskan"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Seseorang"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "orang Edom"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "ratapan"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Babel"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "kejijikan"
+"preferred_label": "memberikan milik"
 },
 {
 "id": "group:Judah",
@@ -503,11 +426,67 @@
 "preferred_label": "Suku Yehuda"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Babel"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Seseorang"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "persembahan"
+},
+{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "benar"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Edom"
 },
 {
 "id": "keyterm:Bless",
@@ -517,11 +496,32 @@
 "preferred_label": "memberkati"
 },
 {
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "kejijikan"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "Simson"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "tahir"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "orang Edom"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -531,11 +531,18 @@
 "preferred_label": "kerasukan setan"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "tahir"
+"preferred_label": "ratapan"
+},
+{
+"id": "fauna:Mouse",
+"type": "fauna",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "tikus"
 },
 {
 "id": "flora:Carob",
@@ -552,13 +559,6 @@
 "preferred_label": "burung hantu kuning kecokelatan"
 },
 {
-"id": "fauna:Mouse",
-"type": "fauna",
-"confidence": 0.1048,
-"match_method": "canonical",
-"preferred_label": "tikus"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.1002,
@@ -573,11 +573,18 @@
 "preferred_label": "buluh"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "lembu sapi"
+"preferred_label": "kemenyan"
+},
+{
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "jelatang"
 },
 {
 "id": "flora:Brier",
@@ -587,18 +594,11 @@
 "preferred_label": "puteri malu"
 },
 {
-"id": "flora:Papyrus",
-"type": "flora",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "papirus"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "kemenyan"
+"preferred_label": "anak domba"
 },
 {
 "id": "flora:Thistle",
@@ -615,18 +615,11 @@
 "preferred_label": "rumah"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "anak domba"
-},
-{
-"id": "flora:Nettle",
+"id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "jelatang"
+"preferred_label": "papirus"
 },
 {
 "id": "realia:Earring",
@@ -634,6 +627,13 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "anting-anting"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "lembu sapi"
 }
 ]
 }

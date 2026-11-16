@@ -3,9 +3,9 @@
 "content_id": "293014",
 "reference_id": 2167,
 "version": "1.0.4",
-"title": "Thờ cúng bàn thờ lửa",
+"title": "Thờ cúng tại bàn thờ lửa: Phù điêu",
 "media_type": "Image",
-"index_reference": "thờ cúng bàn thờ lửa",
+"index_reference": "thờ cúng tại bàn thờ lửa phù điêu",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0222_fire_altar_worship.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0222_fire_altar_worship.jpg'>link</a></p></block>",
@@ -172,6 +172,13 @@
 "preferred_label": "CHÚA"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đền thờ"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.312,
@@ -193,13 +200,6 @@
 "preferred_label": "bàn thờ Đền Tạm"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.236,
@@ -207,18 +207,18 @@
 "preferred_label": "Ba-anh"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Bò"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "Tiền bạc"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "A-hi"
 },
 {
 "id": "place:Bethel",
@@ -235,11 +235,11 @@
 "preferred_label": "Ê-nót"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "A-hi"
+"preferred_label": "Bò"
 },
 {
 "id": "realia:Tent",
@@ -249,32 +249,18 @@
 "preferred_label": "Lều"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Môi-se"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Sa-mu-ên"
-},
-{
-"id": "keyterm:Defilement",
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Làm ô uế"
+"preferred_label": "Sự cứu rỗi"
 },
 {
-"id": "person:Isaac",
+"id": "person:Seth",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Y-sác"
+"preferred_label": "Sết"
 },
 {
 "id": "person:Naaman.3",
@@ -284,46 +270,11 @@
 "preferred_label": "Na-a-man"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "lòng nhiệt thành"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "A-rôn"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Giết con sinh tế"
-},
-{
 "id": "keyterm:Praise",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Ngợi khen"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Sự cứu rỗi"
 },
 {
 "id": "person:Elijah",
@@ -333,25 +284,11 @@
 "preferred_label": "Ê-li"
 },
 {
-"id": "person:Abraham",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Áp-ra-ham"
-},
-{
-"id": "place:Beersheba",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Bê-e-sê-ba"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Bắt phục dịch"
+"preferred_label": "Môi-se"
 },
 {
 "id": "keyterm:InfectiousSkinDisease",
@@ -361,11 +298,74 @@
 "preferred_label": "Bệnh ngoài da truyền nhiễm"
 },
 {
-"id": "person:Seth",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Sết"
+"preferred_label": "A-rôn"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Giết con sinh tế"
+},
+{
+"id": "place:Beersheba",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Bê-e-sê-ba"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Y-sơ-ra-ên"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Sa-mu-ên"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Bắt phục dịch"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Y-sác"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Áp-ra-ham"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "lòng nhiệt thành"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Làm ô uế"
 },
 {
 "id": "flora:Tamarisk",

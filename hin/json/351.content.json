@@ -3,9 +3,9 @@
 "content_id": "283372",
 "reference_id": 1856,
 "version": "1.0.4",
-"title": "मछली के कांटे",
+"title": "मछली पकड़ने के काँटे",
 "media_type": "Image",
-"index_reference": "मछली के कांटे",
+"index_reference": "मछली पकड़ने के काँटे",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0337_fish_hooks.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0337_fish_hooks.jpg'>link</a></p></block>",
@@ -40,13 +40,6 @@
 "preferred_label": "फेंकने का जाल"
 },
 {
-"id": "realia:Harpoon",
-"type": "realia",
-"confidence": 0.44,
-"match_method": "canonical",
-"preferred_label": "भाला"
-},
-{
 "id": "realia:Fishhook",
 "type": "realia",
 "confidence": 0.44,
@@ -54,11 +47,11 @@
 "preferred_label": "बंसी"
 },
 {
-"id": "realia:Dragnet",
+"id": "realia:Harpoon",
 "type": "realia",
-"confidence": 0.3067,
+"confidence": 0.44,
 "match_method": "canonical",
-"preferred_label": "महाजाल"
+"preferred_label": "भाला"
 },
 {
 "id": "realia:Stater",
@@ -68,6 +61,13 @@
 "preferred_label": "स्तेतेर"
 },
 {
+"id": "realia:Dragnet",
+"type": "realia",
+"confidence": 0.3067,
+"match_method": "canonical",
+"preferred_label": "महाजाल"
+},
+{
 "id": "place:Nile",
 "type": "place",
 "confidence": 0.3,
@@ -75,18 +75,18 @@
 "preferred_label": "नील नदी"
 },
 {
-"id": "realia:Net",
-"type": "realia",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "जाल"
-},
-{
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "मछली"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "जाल"
 }
 ]
 }

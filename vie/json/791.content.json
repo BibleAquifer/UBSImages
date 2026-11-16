@@ -144,18 +144,18 @@
 "preferred_label": "Giáo"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.325,
-"match_method": "canonical",
-"preferred_label": "Giu-đa"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.325,
 "match_method": "canonical",
 "preferred_label": "Bộ tộc Giu-đa"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.325,
+"match_method": "canonical",
+"preferred_label": "Giu-đa"
 },
 {
 "id": "person:Benjamin",
@@ -165,13 +165,6 @@
 "preferred_label": "Bên-gia-min"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Sa-lô-môn"
-},
-{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.25,
@@ -179,11 +172,25 @@
 "preferred_label": "Chi tộc Bên-gia-min"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Sa-lô-môn"
+},
+{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.2011,
 "match_method": "canonical",
 "preferred_label": "Mũi tên"
+},
+{
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Ê-li-áp"
 },
 {
 "id": "keyterm:SeekfindRefuge",
@@ -207,39 +214,11 @@
 "preferred_label": "Ô-ba-đia"
 },
 {
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Ê-li-áp"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "A-ma-xia"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Đa-vít"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "CHÚA"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Phi-li-tin"
+"preferred_label": "người Phi-li-tin"
 },
 {
 "id": "place:Dan",
@@ -249,11 +228,39 @@
 "preferred_label": "Đan"
 },
 {
-"id": "person:Simeon.5",
+"id": "person:Amaziah",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Si-mê-ôn"
+"preferred_label": "A-ma-xia"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Tin"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "CHÚA"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Chi tộc Đan"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Đa-vít"
 },
 {
 "id": "keyterm:Arrow",
@@ -270,11 +277,18 @@
 "preferred_label": "Y-sơ-ra-ên"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "người Phi-li-tin"
+"preferred_label": "Phi-li-tin"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Si-mê-ôn"
 },
 {
 "id": "keyterm:Truth",
@@ -291,27 +305,6 @@
 "preferred_label": "Bộ tộc Si-mê-ôn"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Chi tộc Đan"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Tin"
-},
-{
-"id": "realia:WeaversBeam",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "Trục máy dệt"
-},
-{
 "id": "realia:PointOfSpear",
 "type": "realia",
 "confidence": 0.1261,
@@ -326,11 +319,11 @@
 "preferred_label": "Vũ khí"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:WeaversBeam",
 "type": "realia",
-"confidence": 0.115,
+"confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "Xe kéo"
+"preferred_label": "Trục máy dệt"
 },
 {
 "id": "realia:Sword",
@@ -340,39 +333,11 @@
 "preferred_label": "gươm"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "lao móc"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "ngựa"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "cung"
-},
-{
-"id": "realia:SiegeRamp",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Lũy công thành"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "mũ giáp"
+"preferred_label": "sê-ken"
 },
 {
 "id": "realia:WarClub",
@@ -382,18 +347,11 @@
 "preferred_label": "Dùi gậy chiến trận"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Tháp canh"
-},
-{
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "sê-ken"
+"preferred_label": "cung"
 },
 {
 "id": "realia:Siege-works",
@@ -403,11 +361,53 @@
 "preferred_label": "Công sự công thành"
 },
 {
+"id": "realia:SiegeRamp",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Lũy công thành"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Tháp canh"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "xe ngựa"
+},
+{
+"id": "realia:Helmet",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "mũ giáp"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Xe kéo"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "ngựa"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "lao móc"
 }
 ]
 }

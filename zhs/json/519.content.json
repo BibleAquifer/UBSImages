@@ -221,11 +221,11 @@
 "preferred_label": "耶和华"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "膏油"
+"preferred_label": "房屋"
 },
 {
 "id": "realia:OliveOil",
@@ -235,11 +235,11 @@
 "preferred_label": "橄榄油"
 },
 {
-"id": "realia:House",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "房屋"
+"preferred_label": "膏油"
 },
 {
 "id": "realia:Wine",
@@ -256,34 +256,6 @@
 "preferred_label": "委办"
 },
 {
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "纯全"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "塞鲁士"
-},
-{
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "有洞见"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "波斯"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -291,18 +263,11 @@
 "preferred_label": "起誓"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "法老"
-},
-{
-"id": "keyterm:Dispossess",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "驱逐"
+"preferred_label": "相信"
 },
 {
 "id": "person:GenericOfficial",
@@ -312,18 +277,25 @@
 "preferred_label": "官员"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "奉献"
+"preferred_label": "犹大支派"
 },
 {
-"id": "keyterm:RegardAsForbidden",
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "法老"
+},
+{
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "视为禁忌"
+"preferred_label": "圣洁"
 },
 {
 "id": "keyterm:Intention",
@@ -331,48 +303,6 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "明知故犯"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "西顿"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "谋略"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "黎巴嫩"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "西顿人"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "犹大"
 },
 {
 "id": "place:Joppa",
@@ -389,25 +319,18 @@
 "preferred_label": "但以理"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "犹大支派"
-},
-{
-"id": "keyterm:LoyalPerson",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "忠心的人"
+"preferred_label": "驱逐"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "爱"
+"preferred_label": "奉献"
 },
 {
 "id": "place:Tyre",
@@ -417,11 +340,81 @@
 "preferred_label": "推罗"
 },
 {
-"id": "keyterm:Holy",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "犹大"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "波斯"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "泰尔人"
+},
+{
+"id": "keyterm:HaveInsight",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "圣洁"
+"preferred_label": "有洞见"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "爱"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "塞鲁士"
+},
+{
+"id": "keyterm:LoyalPerson",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "忠心的人"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "西顿人"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "纯全"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "西顿"
 },
 {
 "id": "keyterm:Forbidden",
@@ -438,18 +431,25 @@
 "preferred_label": "包皮"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "相信"
+"preferred_label": "谋略"
 },
 {
-"id": "group:Tyre",
-"type": "group",
+"id": "keyterm:RegardAsForbidden",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "泰尔人"
+"preferred_label": "视为禁忌"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "黎巴嫩"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -466,46 +466,18 @@
 "preferred_label": "匠人"
 },
 {
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "龙"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "橄榄树"
-},
-{
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "抛网"
-},
-{
-"id": "realia:Dragnet",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "拖网"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "牛"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "坑"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "金钱"
 },
 {
 "id": "realia:Stew",
@@ -515,25 +487,11 @@
 "preferred_label": "汤羹"
 },
 {
-"id": "realia:Net",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "网"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "鬣狗"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "谷物"
+"preferred_label": "新酒"
 },
 {
 "id": "flora:Cedar",
@@ -543,32 +501,32 @@
 "preferred_label": "香柏树"
 },
 {
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "新酒"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "攻城木塔"
-},
-{
-"id": "realia:Fortification",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "防御工事"
-},
-{
 "id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "舍客勒"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "金钱"
+},
+{
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "谷物"
+},
+{
+"id": "realia:Dragnet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "拖网"
 },
 {
 "id": "flora:Grass",
@@ -585,6 +543,34 @@
 "preferred_label": "围城工事"
 },
 {
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "抛网"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "鬣狗"
+},
+{
+"id": "realia:Net",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "网"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1041,
@@ -592,11 +578,25 @@
 "preferred_label": "篮子"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
+"id": "realia:Pit",
+"type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "龙"
+"preferred_label": "坑"
+},
+{
+"id": "realia:Fortification",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "防御工事"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "攻城木塔"
 }
 ]
 }

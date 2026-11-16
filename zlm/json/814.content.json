@@ -3,9 +3,9 @@
 "content_id": "285746",
 "reference_id": 2364,
 "version": "1.0.4",
-"title": "Bekas bara",
+"title": "Perbaraan",
 "media_type": "Image",
-"index_reference": "bekas bara",
+"index_reference": "perbaraan",
 "language": "zlm",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0454_firepan.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0454_firepan.jpg'>link</a></p></block>",
@@ -157,18 +157,25 @@
 "preferred_label": "Fork"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2611,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
 "id": "realia:CookingPot",
 "type": "realia",
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "Cooking Pot"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2611,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2611,
+"match_method": "canonical",
+"preferred_label": "Altar"
 },
 {
 "id": "realia:StoneAltar",
@@ -183,13 +190,6 @@
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "Tabernacle Altar"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2611,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
 },
 {
 "id": "person:Moses",
@@ -227,13 +227,6 @@
 "preferred_label": "Bowl"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "Tent of Meeting"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1874,
@@ -241,18 +234,11 @@
 "preferred_label": "Money"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "Lampstand"
-},
-{
-"id": "realia:Lamp",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "Lamp"
+"preferred_label": "Rod"
 },
 {
 "id": "realia:House",
@@ -262,11 +248,25 @@
 "preferred_label": "House"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "Rod"
+"preferred_label": "Lamp"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "Lampstand"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "Tent of Meeting"
 },
 {
 "id": "person:Abihu",
@@ -283,6 +283,13 @@
 "preferred_label": "Nadab"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Tribe of Levi"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1737,
@@ -290,11 +297,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Korah.3",
+"type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Tribe of Levi"
+"preferred_label": "Korah"
 },
 {
 "id": "keyterm:Witness.2",
@@ -311,20 +318,6 @@
 "preferred_label": "Levi"
 },
 {
-"id": "person:Korah.3",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Korah"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1137,
@@ -339,11 +332,11 @@
 "preferred_label": "Dugong"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Leather",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Leather"
 },
 {
 "id": "realia:Curtain",
@@ -353,11 +346,18 @@
 "preferred_label": "Curtain"
 },
 {
-"id": "realia:Leather",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "Leather"
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "Anointing Oil"
 }
 ]
 }

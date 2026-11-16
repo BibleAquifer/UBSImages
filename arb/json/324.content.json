@@ -132,6 +132,13 @@
 "preferred_label": "الرَّبّ"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3525,
+"match_method": "canonical",
+"preferred_label": "قَمْح"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3525,
@@ -139,11 +146,18 @@
 "preferred_label": "بَقَر"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3525,
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "قَمْح"
+"preferred_label": "تنظيف تام"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "تَقْدِمَة"
 },
 {
 "id": "person:David",
@@ -160,20 +174,6 @@
 "preferred_label": "أُرْنَان"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "تنظيف تام"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2088,
@@ -188,13 +188,6 @@
 "preferred_label": "بَيْدَر"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.1963,
-"match_method": "canonical",
-"preferred_label": "عَجَلَة"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.1963,
@@ -202,11 +195,11 @@
 "preferred_label": "مَخْزَن"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1906,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "جِدْعُون"
+"preferred_label": "عَجَلَة"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -216,18 +209,25 @@
 "preferred_label": "وادي مصر"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "يَشْتَرِك"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "عَفْرَة"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "جِدْعُون"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "يَشْتَرِك"
 },
 {
 "id": "group:Abiezer",
@@ -251,39 +251,11 @@
 "preferred_label": "أَبِيعَزَر"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "مُوسَى"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "تَمَرَّدَ"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "دِمَشْقَ"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "مَكْتُوب"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيل"
 },
 {
 "id": "place:Euphrates",
@@ -293,11 +265,25 @@
 "preferred_label": "نهر الفرات"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Ought",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "مَلَاك"
+"preferred_label": "مُلْتَزِم"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "مُوسَى"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "دِمَشْقَ"
 },
 {
 "id": "place:Gilead",
@@ -307,18 +293,18 @@
 "preferred_label": "جِلْعَادُ"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "مِدْيَان"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "ناموس"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيل"
 },
 {
 "id": "keyterm:Hope",
@@ -328,18 +314,25 @@
 "preferred_label": "رَجَاء"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "مُلْتَزِم"
+"preferred_label": "تَمَرَّدَ"
 },
 {
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1306,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "شُونِيز"
+"preferred_label": "مَلَاك"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "مِدْيَان"
 },
 {
 "id": "flora:Cumin",
@@ -349,32 +342,11 @@
 "preferred_label": "كَمُّون"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "مِعْصَرَة"
-},
-{
-"id": "realia:Rod",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "قَضِيب"
-},
-{
-"id": "flora:OliveTree",
+"id": "flora:NutmegFlower",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "شَجَرَةُ زَيْتُونٍ"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "عَصَا"
+"preferred_label": "شُونِيز"
 },
 {
 "id": "flora:Barley",
@@ -384,6 +356,20 @@
 "preferred_label": "شعير"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "إيفة"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "قَضِيب"
+},
+{
 "id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1181,
@@ -391,11 +377,25 @@
 "preferred_label": "بُطْم"
 },
 {
-"id": "realia:Ephah",
+"id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "إيفة"
+"preferred_label": "مِعْصَرَة"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "عَصَا"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "شَجَرَةُ زَيْتُونٍ"
 }
 ]
 }

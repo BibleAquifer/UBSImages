@@ -138,18 +138,18 @@
 "preferred_label": "Jehová"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "sangre"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "vida"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "sangre"
 },
 {
 "id": "realia:Temple",
@@ -173,6 +173,62 @@
 "preferred_label": "Río Éufrates"
 },
 {
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "juicio"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "orar"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "reino"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "para siempre"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "olor grato"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "postrarse"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -187,18 +243,11 @@
 "preferred_label": "contaminación"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "postrarse"
+"preferred_label": "Una voz incorpórea"
 },
 {
 "id": "keyterm:Disciple",
@@ -208,67 +257,11 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "olor grato"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "orar"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Una voz incorpórea"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "para siempre"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "juicio"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "plancha"
-},
-{
-"id": "realia:Towel",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "toalla"
 },
 {
 "id": "realia:Bowl",
@@ -278,25 +271,11 @@
 "preferred_label": "tazón"
 },
 {
-"id": "realia:Incense",
+"id": "realia:Towel",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "incienso"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "aceite de unción"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "aceite de oliva"
+"preferred_label": "toalla"
 },
 {
 "id": "realia:Image",
@@ -306,11 +285,32 @@
 "preferred_label": "imagen"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "incienso"
+},
+{
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "lira"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "aceite de oliva"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "aceite de unción"
 },
 {
 "id": "realia:Scroll",

@@ -323,20 +323,6 @@
 "preferred_label": "haos"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Nebukadnesa"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.2214,
@@ -344,11 +330,11 @@
 "preferred_label": "Mekem i Kam Wan Samting Blong Wan Man"
 },
 {
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Isrel"
+"preferred_label": "Moses"
 },
 {
 "id": "person:Pharaoh.6",
@@ -358,11 +344,18 @@
 "preferred_label": "Fero"
 },
 {
-"id": "place:Netaim",
-"type": "place",
-"confidence": 0.1655,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Netaim"
+"preferred_label": "Isrel"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Nebukadnesa"
 },
 {
 "id": "place:Gederah",
@@ -372,18 +365,18 @@
 "preferred_label": "Gederaha"
 },
 {
+"id": "place:Netaim",
+"type": "place",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Netaim"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "graonpot"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Eron"
 },
 {
 "id": "place:Sodom",
@@ -393,32 +386,11 @@
 "preferred_label": "Sodom"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "place:Topheth",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Tofet"
-},
-{
-"id": "keyterm:Perceive",
+"id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "kasem save"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Hil ya Sinae"
+"preferred_label": "Bigfala hol we i godaon we i godaon olgeta"
 },
 {
 "id": "place:Gomorrah",
@@ -428,18 +400,46 @@
 "preferred_label": "Gomora"
 },
 {
-"id": "keyterm:Abyss",
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Hil ya Sinae"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Eron"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Bigfala hol we i godaon we i godaon olgeta"
+"preferred_label": "kasem save"
 },
 {
-"id": "realia:PotteryWheel",
+"id": "place:Topheth",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tofet"
+},
+{
+"id": "realia:Bagpipe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "wil blong wokem graonpot"
+"preferred_label": "Bagpaep"
 },
 {
 "id": "flora:Bean",
@@ -449,6 +449,13 @@
 "preferred_label": "bin"
 },
 {
+"id": "realia:PotteryWheel",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "wil blong wokem graonpot"
+},
+{
 "id": "flora:Lentil",
 "type": "flora",
 "confidence": 0.1055,
@@ -456,11 +463,46 @@
 "preferred_label": "lentil"
 },
 {
-"id": "realia:Bagpipe",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Bagpaep"
+"preferred_label": "bale"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "besin"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "bed"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "wit"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "mandolin"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "gita"
 },
 {
 "id": "fauna:Bull",
@@ -477,53 +519,11 @@
 "preferred_label": "bambu paep"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "bale"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "mandolin"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "pupu we oli wokem long hon blong sipsip"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "wit"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "bed"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "besin"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "gita"
 }
 ]
 }

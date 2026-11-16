@@ -115,20 +115,6 @@
 "preferred_label": "Lều"
 },
 {
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "Vải nhuộm"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.3025,
-"match_method": "canonical",
-"preferred_label": "Vải màu tím tía"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.3025,
@@ -143,11 +129,18 @@
 "preferred_label": "chiên con"
 },
 {
-"id": "realia:TentOfMeeting",
+"id": "realia:DyedCloth",
 "type": "realia",
-"confidence": 0.215,
+"confidence": 0.3025,
 "match_method": "canonical",
-"preferred_label": "Lều Hội Kiến"
+"preferred_label": "Vải nhuộm"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.3025,
+"match_method": "canonical",
+"preferred_label": "Vải màu tím tía"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -157,11 +150,11 @@
 "preferred_label": "Hòm Giao Ước"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1875,
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Môi-se"
+"preferred_label": "Lều Hội Kiến"
 },
 {
 "id": "deity:Lord",
@@ -169,6 +162,20 @@
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "CHÚA"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "Môi-se"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "thánh"
 },
 {
 "id": "person:Noah",
@@ -185,11 +192,11 @@
 "preferred_label": "Ghẹt-sôn"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1875,
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1442,
 "match_method": "canonical",
-"preferred_label": "thánh"
+"preferred_label": "bàn thờ Đền Tạm"
 },
 {
 "id": "realia:GoatHairStrips",
@@ -199,25 +206,18 @@
 "preferred_label": "Tấm màn lông dê"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "bàn thờ Đền Tạm"
-},
-{
-"id": "realia:Frame",
+"id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "khung vách"
+"preferred_label": "Dải màn vải gai"
 },
 {
-"id": "realia:Ship",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Tàu"
+"preferred_label": "Bàn thờ đền thờ"
 },
 {
 "id": "realia:Altar",
@@ -225,6 +225,20 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "bàn thờ"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đá"
+},
+{
+"id": "realia:Ship",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Tàu"
 },
 {
 "id": "realia:Loop",
@@ -241,25 +255,11 @@
 "preferred_label": "bức màn"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:Frame",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Bàn thờ đá"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Dải màn vải gai"
+"preferred_label": "khung vách"
 }
 ]
 }

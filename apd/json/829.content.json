@@ -291,6 +291,13 @@
 "preferred_label": "كلب"
 },
 {
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "رحمة"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2231,
@@ -303,13 +310,6 @@
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "إسرائيل"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "رحمة"
 },
 {
 "id": "keyterm:Bless",
@@ -326,13 +326,6 @@
 "preferred_label": "يوناثان"
 },
 {
-"id": "place:CarmelMount",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "جبل الكرمل"
-},
-{
 "id": "person:Adoni-bezek",
 "type": "person",
 "confidence": 0.1667,
@@ -345,6 +338,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "يخدم"
+},
+{
+"id": "deity:Fortune",
+"type": "deity",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "الحظ"
 },
 {
 "id": "person:Barzillai",
@@ -361,6 +361,13 @@
 "preferred_label": "يشترك"
 },
 {
+"id": "person:SyrophonecianWoman",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "المرا السيروفينيقية"
+},
+{
 "id": "deity:Asherah",
 "type": "deity",
 "confidence": 0.1667,
@@ -368,11 +375,11 @@
 "preferred_label": "أشيرة"
 },
 {
-"id": "person:SyrophonecianWoman",
-"type": "person",
+"id": "place:CarmelMount",
+"type": "place",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "المرا السيروفينيقية"
+"preferred_label": "جبل الكرمل"
 },
 {
 "id": "deity:Destiny",
@@ -382,18 +389,11 @@
 "preferred_label": "منايا"
 },
 {
-"id": "deity:Fortune",
-"type": "deity",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "الحظ"
-},
-{
-"id": "realia:AnointingOil",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1631,
 "match_method": "canonical",
-"preferred_label": "زيت المسحة"
+"preferred_label": "الهيكل"
 },
 {
 "id": "flora:Vine",
@@ -410,11 +410,11 @@
 "preferred_label": "زيت زيتون"
 },
 {
-"id": "realia:Temple",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1631,
 "match_method": "canonical",
-"preferred_label": "الهيكل"
+"preferred_label": "زيت المسحة"
 },
 {
 "id": "realia:Wine",
@@ -424,74 +424,11 @@
 "preferred_label": "خمرة"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "ملكوت"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "يسوع"
-},
-{
-"id": "person:Hiram",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "حيرام"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "تقدمة"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "مسح"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "مجموعة تلاميذ"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "دبح"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "طلب"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "قرر"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "يكون تلميذ"
+"preferred_label": "حظوة"
 },
 {
 "id": "group:Pharisee",
@@ -501,46 +438,25 @@
 "preferred_label": "الفريسيين"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "حظوة"
+"preferred_label": "قرر"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "سليمان"
+"preferred_label": "مجموعة تلاميذ"
 },
 {
-"id": "person:Absalom",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "أبشالوم"
-},
-{
-"id": "person:Jezebel",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "إيزابل"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "جلعاد"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "بعل"
+"preferred_label": "يؤمن"
 },
 {
 "id": "group:Jews",
@@ -550,11 +466,81 @@
 "preferred_label": "اليهود"
 },
 {
-"id": "keyterm:EnticedToServe",
+"id": "person:Hiram",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "حيرام"
+},
+{
+"id": "person:Jezebel",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "إيزابل"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "شاول"
+},
+{
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "يجبر على الخدمة"
+"preferred_label": "تقدمة"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "دبح"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "جلعاد"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "طلب"
+},
+{
+"id": "group:Gilead",
+"type": "group",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "الجلعاديين"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "ملكوت"
+},
+{
+"id": "person:Absalom",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "أبشالوم"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "خوف"
 },
 {
 "id": "deity:Demons",
@@ -562,6 +548,13 @@
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "شياطين"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "يجبر على الخدمة"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -578,32 +571,46 @@
 "preferred_label": "عيد الهلال"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "deity:Baal",
+"type": "deity",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "يؤمن"
+"preferred_label": "بعل"
 },
 {
-"id": "person:Saul.2",
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "شاول"
+"preferred_label": "سليمان"
 },
 {
-"id": "group:Gilead",
-"type": "group",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "الجلعاديين"
+"preferred_label": "يسوع"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "خوف"
+"preferred_label": "يكون تلميذ"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "مسح"
+},
+{
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "فخ"
 },
 {
 "id": "realia:Rug",
@@ -620,25 +627,11 @@
 "preferred_label": "ترس صغير"
 },
 {
-"id": "realia:Trap",
+"id": "realia:Bed",
 "type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "فخ"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "شجرة زيتون"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "الحصان"
+"preferred_label": "سرير"
 },
 {
 "id": "realia:Net",
@@ -648,11 +641,18 @@
 "preferred_label": "شبكة"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "سرير"
+"preferred_label": "الحصان"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "شجرة زيتون"
 }
 ]
 }

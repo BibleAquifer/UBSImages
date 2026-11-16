@@ -3,9 +3,9 @@
 "content_id": "292210",
 "reference_id": 2296,
 "version": "1.0.4",
-"title": "Reed Klasta",
+"title": "Wael ken klasta",
 "media_type": "Image",
-"index_reference": "reed klasta",
+"index_reference": "wael ken klasta",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0754_reed_cluster.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0754_reed_cluster.jpg'>link</a></p></block>",
@@ -242,18 +242,18 @@
 "preferred_label": "HAE GOD"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.2963,
-"match_method": "canonical",
-"preferred_label": "stik blong wokbaot"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2963,
 "match_method": "canonical",
 "preferred_label": "haos"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.2963,
+"match_method": "canonical",
+"preferred_label": "stik blong wokbaot"
 },
 {
 "id": "realia:MeasuringRod",
@@ -277,6 +277,20 @@
 "preferred_label": "kiubit"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Jon"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Isrel"
+},
+{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.2281,
@@ -291,39 +305,11 @@
 "preferred_label": "Bodaon"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Isrel"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Jon"
-},
-{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
 "preferred_label": "waen we i konkon"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "step blong doa"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Haos blong God"
 },
 {
 "id": "realia:Foundation",
@@ -340,60 +326,18 @@
 "preferred_label": "gras"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1641,
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Jisas"
+"preferred_label": "step blong doa"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1641,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Asera"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Yufretes Reva"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "trutok"
-},
-{
-"id": "place:Nile",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Nael Reva"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Wan Enjel"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Elaeja"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "ol man Jiu"
+"preferred_label": "Haos blong God"
 },
 {
 "id": "keyterm:Judgment",
@@ -403,6 +347,41 @@
 "preferred_label": "Wok blong jajem man"
 },
 {
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Yufretes Reva"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "ol man Jiu"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Elaeja"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Nael Reva"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "trutok"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.1641,
@@ -410,46 +389,25 @@
 "preferred_label": "Kus"
 },
 {
-"id": "realia:Pen",
-"type": "realia",
-"confidence": 0.1103,
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Pen"
+"preferred_label": "Asera"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1103,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "ropnil"
+"preferred_label": "Wan Enjel"
 },
 {
-"id": "flora:LotusPlants",
-"type": "flora",
-"confidence": 0.1103,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "ropnil"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "kasis"
-},
-{
-"id": "realia:Ink",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "ing"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "krawon"
+"preferred_label": "Jisas"
 },
 {
 "id": "flora:Cattails",
@@ -459,6 +417,20 @@
 "preferred_label": "longlongfala gras blong wota"
 },
 {
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "krawon"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "ropnil"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1103,
@@ -466,18 +438,32 @@
 "preferred_label": "hat blong king"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1041,
+"id": "realia:Pen",
+"type": "realia",
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "piko"
+"preferred_label": "Pen"
 },
 {
-"id": "flora:Papyrus",
+"id": "flora:LotusPlants",
 "type": "flora",
-"confidence": 0.1041,
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "papirus"
+"preferred_label": "ropnil"
+},
+{
+"id": "realia:Ink",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "ing"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "kasis"
 },
 {
 "id": "fauna:Jackal",
@@ -487,13 +473,6 @@
 "preferred_label": "wael dog"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "linen"
-},
-{
 "id": "realia:Thread",
 "type": "realia",
 "confidence": 0.1041,
@@ -501,25 +480,11 @@
 "preferred_label": "tred"
 },
 {
-"id": "realia:SacredPole",
+"id": "realia:Room",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "pos blong Asera"
-},
-{
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "waed blong han"
-},
-{
-"id": "realia:CityWall",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "stonwol blong taon"
+"preferred_label": "rum"
 },
 {
 "id": "realia:Lamp",
@@ -529,11 +494,46 @@
 "preferred_label": "laet"
 },
 {
-"id": "realia:Room",
+"id": "realia:Handbreadth",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "rum"
+"preferred_label": "waed blong han"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "linen"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "papirus"
+},
+{
+"id": "realia:SacredPole",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "pos blong Asera"
+},
+{
+"id": "realia:CityWall",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "stonwol blong taon"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "piko"
 }
 ]
 }

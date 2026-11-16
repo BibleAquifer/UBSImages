@@ -242,6 +242,13 @@
 "preferred_label": "Священный столб Ашеры"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "Жертвенник"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.4025,
@@ -261,13 +268,6 @@
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "Жертвенник скинии"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "Жертвенник"
 },
 {
 "id": "flora:Pine",
@@ -326,18 +326,18 @@
 "preferred_label": "Елей помазания"
 },
 {
-"id": "keyterm:Incantations",
-"type": "keyterm",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "заклинания"
-},
-{
 "id": "deity:Nehushtan",
 "type": "deity",
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "Нехуштан"
+},
+{
+"id": "keyterm:Incantations",
+"type": "keyterm",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "заклинания"
 },
 {
 "id": "place:KingsValley",
@@ -354,39 +354,18 @@
 "preferred_label": "Оливковое масло"
 },
 {
-"id": "person:Asa",
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Аса"
+"preferred_label": "Рахиль"
 },
 {
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Свидетельство"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Вениамин"
-},
-{
-"id": "group:Manasseh",
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Колено Манассии"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Приношение"
+"preferred_label": "Колено Ефремово"
 },
 {
 "id": "person:Ephraim",
@@ -396,6 +375,41 @@
 "preferred_label": "Ефрем"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Колено Манассии"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Вениамин"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Приношение"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Манассия"
+},
+{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.1641,
@@ -403,11 +417,11 @@
 "preferred_label": "Вефиль"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
+"id": "deity:Teraphim",
+"type": "deity",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Помазывать"
+"preferred_label": "Терафим"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -415,6 +429,13 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Закалывание в жертву"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Свидетельство"
 },
 {
 "id": "person:Judah.4",
@@ -431,39 +452,11 @@
 "preferred_label": "Лаван"
 },
 {
-"id": "place:On",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Он"
-},
-{
-"id": "keyterm:Idol",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Идол"
-},
-{
 "id": "person:Absalom",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Авессалом"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Колено Вениамина"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -473,32 +466,18 @@
 "preferred_label": "Принуждать к служению"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Колено Ефремово"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Терафим"
-},
-{
-"id": "person:Rachel",
+"id": "person:Asa",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Рахиль"
+"preferred_label": "Аса"
 },
 {
-"id": "person:Manasseh",
-"type": "person",
+"id": "keyterm:Idol",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Манассия"
+"preferred_label": "Идол"
 },
 {
 "id": "keyterm:Vow",
@@ -508,11 +487,32 @@
 "preferred_label": "Давать обет"
 },
 {
-"id": "realia:HouseholdIdols",
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Колено Вениамина"
+},
+{
+"id": "place:On",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Он"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Помазывать"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "домашние идолы"
+"preferred_label": "Изображение"
 },
 {
 "id": "realia:Ephod",
@@ -529,11 +529,11 @@
 "preferred_label": "Виноградная лоза"
 },
 {
-"id": "realia:Wine",
+"id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Вино"
+"preferred_label": "домашние идолы"
 },
 {
 "id": "fauna:Horse",
@@ -543,18 +543,18 @@
 "preferred_label": "Лошадь"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Изображение"
-},
-{
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Змея"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Вино"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "288848",
 "reference_id": 1734,
 "version": "1.0.4",
-"title": "Mundu wa kuvunia nafaka",
+"title": "Mwanamume anayevuna nafaka kwa mundu",
 "media_type": "Image",
-"index_reference": "mundu wa kuvunia nafaka",
+"index_reference": "mwanamume anayevuna nafaka kwa mundu",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg'>link</a></p></block>",
@@ -152,6 +152,13 @@
 "preferred_label": "Kundi"
 },
 {
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "Mwana-kondoo"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1929,
@@ -159,11 +166,11 @@
 "preferred_label": "Hekalu"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1929,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Mwana-kondoo"
+"preferred_label": "Kabila la Yuda"
 },
 {
 "id": "deity:Lord",
@@ -173,25 +180,18 @@
 "preferred_label": "BWANA"
 },
 {
-"id": "keyterm:Ability",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Babeli"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Uwezo"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Nuhu"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Mamlaka"
+"preferred_label": "Mbingu"
 },
 {
 "id": "person:Judah.4",
@@ -201,18 +201,11 @@
 "preferred_label": "Yuda"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Babeli"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
+"preferred_label": "Nuhu"
 },
 {
 "id": "keyterm:Love",
@@ -229,13 +222,6 @@
 "preferred_label": "Kutumikisha kwa Shuruti"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Mbingu"
-},
-{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1765,
@@ -243,11 +229,18 @@
 "preferred_label": "Shefela"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Shinikizo la divai"
+"preferred_label": "Uwezo"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Mamlaka"
 },
 {
 "id": "realia:Crown.2",
@@ -257,11 +250,11 @@
 "preferred_label": "taji"
 },
 {
-"id": "realia:Pit",
+"id": "realia:Winepress",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Shimo"
+"preferred_label": "Shinikizo la divai"
 },
 {
 "id": "flora:Barley",
@@ -278,13 +271,6 @@
 "preferred_label": "Nafaka"
 },
 {
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Mnara"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1165,
@@ -297,6 +283,20 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "taji"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Mnara"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Shimo"
 }
 ]
 }

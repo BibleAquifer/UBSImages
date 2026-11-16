@@ -3,9 +3,9 @@
 "content_id": "287092",
 "reference_id": 1844,
 "version": "1.0.4",
-"title": "Масада",
+"title": "Масада: вид с воздуха",
 "media_type": "Image",
-"index_reference": "масада",
+"index_reference": "масада вид с воздуха",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0621_masada.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0621_masada.jpg'>link</a></p></block>",
@@ -152,18 +152,18 @@
 "preferred_label": "малый щит"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Ассирия"
-},
-{
 "id": "keyterm:Arrow",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Стрела"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Ассирия"
 },
 {
 "id": "realia:Arrow",
@@ -187,6 +187,20 @@
 "preferred_label": "Прибежище"
 },
 {
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "назначать"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -194,25 +208,11 @@
 "preferred_label": "Искать убежища"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Упование"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Иоав"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "назначать"
+"preferred_label": "Милость"
 },
 {
 "id": "keyterm:Shield",
@@ -229,18 +229,11 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "keyterm:Kindness",
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Милость"
+"preferred_label": "Сила"
 },
 {
 "id": "person:Judah.4",
@@ -250,39 +243,25 @@
 "preferred_label": "Иуда"
 },
 {
-"id": "person:Hophra",
+"id": "person:Israel",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Вафрий"
+"preferred_label": "Израиль"
 },
 {
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Халдея"
-},
-{
-"id": "keyterm:Strength",
+"id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Сила"
+"preferred_label": "Упование"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Joab",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Халдеи"
+"preferred_label": "Иоав"
 },
 {
 "id": "place:Abel-beth-maacah",
@@ -292,11 +271,39 @@
 "preferred_label": "Авел-Беф-Мааха"
 },
 {
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Халдеи"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Халдея"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Вафрий"
+},
+{
 "id": "realia:Battering-ram",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "стенобитная машина"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "дом"
 },
 {
 "id": "realia:CastingNet",
@@ -318,13 +325,6 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Большой щит"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "дом"
 }
 ]
 }

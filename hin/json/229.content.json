@@ -3,9 +3,9 @@
 "content_id": "283250",
 "reference_id": 1734,
 "version": "1.0.4",
-"title": "अनाज काटने की दरांती",
+"title": "दरांती से अनाज काटता हुआ आदमी",
 "media_type": "Image",
-"index_reference": "अनाज काटने की दरांती",
+"index_reference": "दरांती से अनाज काटता हुआ आदमी",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg'>link</a></p></block>",
@@ -152,6 +152,13 @@
 "preferred_label": "झुंड"
 },
 {
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "भेड़"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1929,
@@ -159,11 +166,11 @@
 "preferred_label": "मन्दिर"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1929,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "भेड़"
+"preferred_label": "यहूदा का गोत्र"
 },
 {
 "id": "deity:Lord",
@@ -173,25 +180,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "keyterm:Ability",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "बाबेल"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "योग्यता"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "नूह"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "अधिकार"
+"preferred_label": "आकाश"
 },
 {
 "id": "person:Judah.4",
@@ -201,18 +201,11 @@
 "preferred_label": "यहूदा"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "बाबेल"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
+"preferred_label": "नूह"
 },
 {
 "id": "keyterm:Love",
@@ -229,13 +222,6 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "आकाश"
-},
-{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1765,
@@ -243,11 +229,18 @@
 "preferred_label": "शेफेला"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "रसकुण्ड"
+"preferred_label": "योग्यता"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "अधिकार"
 },
 {
 "id": "realia:Crown.2",
@@ -257,11 +250,11 @@
 "preferred_label": "मुकुट"
 },
 {
-"id": "realia:Pit",
+"id": "realia:Winepress",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "गड्ढा"
+"preferred_label": "रसकुण्ड"
 },
 {
 "id": "flora:Barley",
@@ -278,13 +271,6 @@
 "preferred_label": "अन्न"
 },
 {
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "गुम्मट"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1165,
@@ -297,6 +283,20 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "राजमुकुट"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "गुम्मट"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "गड्ढा"
 }
 ]
 }

@@ -154,6 +154,13 @@
 "preferred_label": "Bulus"
 },
 {
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "Farisiyawa"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3114,
@@ -161,11 +168,11 @@
 "preferred_label": "Yesu"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.3114,
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2409,
 "match_method": "canonical",
-"preferred_label": "Farisiyawa"
+"preferred_label": "Suna"
 },
 {
 "id": "group:Jews",
@@ -182,32 +189,11 @@
 "preferred_label": "Ba da shaida"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Suna"
-},
-{
 "id": "realia:Synagogue",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
 "preferred_label": "Majami’a"
-},
-{
-"id": "keyterm:CourtCase",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Shari’a"
-},
-{
-"id": "keyterm:Gehenna",
-"type": "keyterm",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Jahannama"
 },
 {
 "id": "person:Gamaliel",
@@ -217,53 +203,25 @@
 "preferred_label": "Gamaliyel"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "UBANGIJI"
-},
-{
-"id": "keyterm:Good",
+"id": "keyterm:Gehenna",
 "type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Nagari"
-},
-{
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Bilatus"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Tashi daga matattu"
-},
-{
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.1705,
+"confidence": 0.1795,
 "match_method": "canonical",
 "preferred_label": "Jahannama"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1705,
+"id": "keyterm:CourtCase",
+"type": "keyterm",
+"confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Isra’ila"
+"preferred_label": "Shari’a"
 },
 {
-"id": "keyterm:AskFor",
+"id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Roƙa"
+"preferred_label": "Hukunci"
 },
 {
 "id": "keyterm:Decision",
@@ -280,25 +238,11 @@
 "preferred_label": "Yanke shawara"
 },
 {
-"id": "keyterm:UnrighteousAct",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "aikin rashin adalci"
-},
-{
 "id": "keyterm:Conscience",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "Lamiri"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Wani Mala’ika"
 },
 {
 "id": "keyterm:Example",
@@ -308,18 +252,11 @@
 "preferred_label": "Alama"
 },
 {
-"id": "group:Sadducee",
-"type": "group",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Sadukiyawa"
-},
-{
-"id": "keyterm:Live.3",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Rayuwa"
+"preferred_label": "UBANGIJI"
 },
 {
 "id": "keyterm:SomethingDefinite",
@@ -329,6 +266,41 @@
 "preferred_label": "Tabbataccen abu"
 },
 {
+"id": "keyterm:Live.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Rayuwa"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Roƙa"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Jahannama"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Isra’ila"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Bilatus"
+},
+{
 "id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -336,18 +308,39 @@
 "preferred_label": "Bege"
 },
 {
-"id": "keyterm:Judgment",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Hukunci"
+"preferred_label": "Tashi daga matattu"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1105,
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Haikali"
+"preferred_label": "Nagari"
+},
+{
+"id": "keyterm:UnrighteousAct",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "aikin rashin adalci"
+},
+{
+"id": "group:Sadducee",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Sadukiyawa"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Wani Mala’ika"
 },
 {
 "id": "realia:Prison",
@@ -355,6 +348,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "Kurkuku"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "Haikali"
 }
 ]
 }

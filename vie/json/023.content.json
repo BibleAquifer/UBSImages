@@ -335,6 +335,27 @@
 "preferred_label": "Chó"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "thánh"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Trời"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Các quỷ"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -349,39 +370,11 @@
 "preferred_label": "Chúa Giê-xu"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "thánh"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Các quỷ"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Trời"
-},
-{
 "id": "place:Hazor.5",
 "type": "place",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "Hát-so"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "cây nho"
 },
 {
 "id": "flora:Grass",
@@ -391,11 +384,11 @@
 "preferred_label": "Cỏ"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1602,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Ban cho làm sản nghiệp"
+"preferred_label": "cây nho"
 },
 {
 "id": "keyterm:Swear",
@@ -405,11 +398,11 @@
 "preferred_label": "Thề"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Lễ vật"
+"preferred_label": "bổ nhiệm"
 },
 {
 "id": "keyterm:Mischief",
@@ -419,81 +412,11 @@
 "preferred_label": "Điều ác"
 },
 {
-"id": "keyterm:Appoint",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "bổ nhiệm"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Một người"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Giê-ru-sa-lem"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Được tôn vinh và vinh hiển"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "người Ê-đôm"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Giu-đa"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Ai ca"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Ê-đôm"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Ba-by-lôn"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Điều đáng ghê tởm"
+"preferred_label": "Ban cho làm sản nghiệp"
 },
 {
 "id": "group:Judah",
@@ -503,11 +426,67 @@
 "preferred_label": "Bộ tộc Giu-đa"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Ba-by-lôn"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Được tôn vinh và vinh hiển"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Một người"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Lễ vật"
+},
+{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "chân thật"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Giê-ru-sa-lem"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Giu-đa"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Y-sơ-ra-ên"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Ê-đôm"
 },
 {
 "id": "keyterm:Bless",
@@ -517,11 +496,32 @@
 "preferred_label": "Ban phước"
 },
 {
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Điều đáng ghê tởm"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "Sam-sôn"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Thanh sạch"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "người Ê-đôm"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -531,11 +531,18 @@
 "preferred_label": "Bị quỷ ám"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Thanh sạch"
+"preferred_label": "Ai ca"
+},
+{
+"id": "fauna:Mouse",
+"type": "fauna",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "Chuột nhắt"
 },
 {
 "id": "flora:Carob",
@@ -552,13 +559,6 @@
 "preferred_label": "cú nâu"
 },
 {
-"id": "fauna:Mouse",
-"type": "fauna",
-"confidence": 0.1048,
-"match_method": "canonical",
-"preferred_label": "Chuột nhắt"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.1002,
@@ -573,11 +573,18 @@
 "preferred_label": "cây sậy"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Bò"
+"preferred_label": "Nhũ hương"
+},
+{
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Cây tầm ma"
 },
 {
 "id": "flora:Brier",
@@ -587,18 +594,11 @@
 "preferred_label": "gai gốc"
 },
 {
-"id": "flora:Papyrus",
-"type": "flora",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Cây cói giấy"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "Nhũ hương"
+"preferred_label": "chiên con"
 },
 {
 "id": "flora:Thistle",
@@ -615,18 +615,11 @@
 "preferred_label": "nhà"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "chiên con"
-},
-{
-"id": "flora:Nettle",
+"id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Cây tầm ma"
+"preferred_label": "Cây cói giấy"
 },
 {
 "id": "realia:Earring",
@@ -634,6 +627,13 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "Khuyên tai"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Bò"
 }
 ]
 }

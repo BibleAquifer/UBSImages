@@ -206,20 +206,6 @@
 "preferred_label": "Jehu"
 },
 {
-"id": "person:Mattan",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Mattan"
-},
-{
-"id": "person:Esarhaddon",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Esarhaddon"
-},
-{
 "id": "deity:Nisroch",
 "type": "deity",
 "confidence": 0.25,
@@ -241,25 +227,25 @@
 "preferred_label": "Adrammelech"
 },
 {
+"id": "person:Mattan",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Mattan"
+},
+{
+"id": "person:Esarhaddon",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Esarhaddon"
+},
+{
 "id": "place:Ararat",
 "type": "place",
 "confidence": 0.2423,
 "match_method": "canonical",
 "preferred_label": "Ararat"
-},
-{
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.2419,
-"match_method": "canonical",
-"preferred_label": "High Place"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2419,
-"match_method": "canonical",
-"preferred_label": "Altar"
 },
 {
 "id": "realia:Image",
@@ -276,6 +262,20 @@
 "preferred_label": "Stone Pine"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2419,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2419,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.2419,
@@ -290,25 +290,11 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:HighPlace",
 "type": "realia",
 "confidence": 0.2419,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "High Place"
 },
 {
 "id": "group:Philistine",
@@ -318,6 +304,20 @@
 "preferred_label": "Philistines"
 },
 {
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "Moab"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "keyterm:EnticedToServe",
 "type": "keyterm",
 "confidence": 0.2346,
@@ -325,11 +325,11 @@
 "preferred_label": "Force to Serve"
 },
 {
-"id": "place:Moab",
+"id": "place:Philistine",
 "type": "place",
 "confidence": 0.2346,
 "match_method": "canonical",
-"preferred_label": "Moab"
+"preferred_label": "Philistia"
 },
 {
 "id": "keyterm:Dishonor",
@@ -346,11 +346,11 @@
 "preferred_label": "Rimmon"
 },
 {
-"id": "deity:El-berith",
-"type": "deity",
+"id": "place:Beth-ashtoreth",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "El-Berith"
+"preferred_label": "Beth-ashtoreth"
 },
 {
 "id": "place:Medeba",
@@ -360,13 +360,6 @@
 "preferred_label": "Medeba"
 },
 {
-"id": "place:Shinar",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Shinar"
-},
-{
 "id": "place:Bajith",
 "type": "place",
 "confidence": 0.175,
@@ -374,18 +367,25 @@
 "preferred_label": "Bajith"
 },
 {
-"id": "place:Beth-ashtoreth",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Beth-ashtoreth"
-},
-{
 "id": "place:Nebo",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Nebo"
+},
+{
+"id": "place:Shinar",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Shinar"
+},
+{
+"id": "deity:El-berith",
+"type": "deity",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "El-Berith"
 },
 {
 "id": "realia:Sword",
@@ -402,6 +402,13 @@
 "preferred_label": "Sacred Pillar"
 },
 {
+"id": "person:Rechab.2",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Rechab"
+},
+{
 "id": "place:Dibon",
 "type": "place",
 "confidence": 0.1673,
@@ -409,25 +416,11 @@
 "preferred_label": "Dibon"
 },
 {
-"id": "person:Isaac",
-"type": "person",
+"id": "place:Ashdod",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Isaac"
-},
-{
-"id": "person:Jonadab",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Jonadab"
-},
-{
-"id": "person:Jeroboam.2",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Jeroboam"
+"preferred_label": "Ashdod"
 },
 {
 "id": "keyterm:Dispossess",
@@ -437,18 +430,25 @@
 "preferred_label": "Dispossess"
 },
 {
+"id": "person:Jonadab",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Jonadab"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Forgive"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Offering"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Passion"
 },
 {
 "id": "place:Bethel",
@@ -465,11 +465,11 @@
 "preferred_label": "Beth-shan"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
+"id": "place:Samaria",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Speak as a Prophet"
+"preferred_label": "Samaria"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -479,25 +479,11 @@
 "preferred_label": "Covenant Box"
 },
 {
-"id": "deity:Ashtoreth",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ashtoreth"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Forgive"
-},
-{
-"id": "person:Rechab.2",
+"id": "person:Isaac",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Rechab"
+"preferred_label": "Isaac"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -507,25 +493,39 @@
 "preferred_label": "Pleasing Odor"
 },
 {
-"id": "place:Ashdod",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Ashdod"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
 "id": "place:Shechem",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Shechem"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Passion"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Speak as a Prophet"
+},
+{
+"id": "person:Jeroboam.2",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Jeroboam"
+},
+{
+"id": "deity:Ashtoreth",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Ashtoreth"
 },
 {
 "id": "realia:ArkOfTheCovenant",

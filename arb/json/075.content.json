@@ -182,18 +182,18 @@
 "preferred_label": "جنس"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.4014,
-"match_method": "canonical",
-"preferred_label": "بَقَر"
-},
-{
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.4014,
 "match_method": "canonical",
 "preferred_label": "سمك"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.4014,
+"match_method": "canonical",
+"preferred_label": "بَقَر"
 },
 {
 "id": "fauna:CreepingAnimal",
@@ -224,13 +224,6 @@
 "preferred_label": "يُهْلِك"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيل"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -238,11 +231,18 @@
 "preferred_label": "سماء"
 },
 {
-"id": "realia:Ship",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيل"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "سَفِينَة"
+"preferred_label": "تِمْثَال"
 },
 {
 "id": "fauna:Rooster",
@@ -252,11 +252,11 @@
 "preferred_label": "ديك"
 },
 {
-"id": "realia:Image",
+"id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "تِمْثَال"
+"preferred_label": "سَفِينَة"
 },
 {
 "id": "keyterm:Imperishable",
@@ -273,11 +273,11 @@
 "preferred_label": "شَبَه"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "تنجيس"
+"preferred_label": "نُوح"
 },
 {
 "id": "keyterm:Glory",
@@ -287,20 +287,6 @@
 "preferred_label": "مجد"
 },
 {
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "نُوح"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "سُلَيْمَان"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -308,11 +294,18 @@
 "preferred_label": "خوف"
 },
 {
-"id": "fauna:Skink",
-"type": "fauna",
-"confidence": 0.1195,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "عظاية"
+"preferred_label": "تنجيس"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "سُلَيْمَان"
 },
 {
 "id": "fauna:Mouse",
@@ -334,6 +327,13 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "نمس"
+},
+{
+"id": "fauna:Skink",
+"type": "fauna",
+"confidence": 0.1195,
+"match_method": "canonical",
+"preferred_label": "عظاية"
 }
 ]
 }

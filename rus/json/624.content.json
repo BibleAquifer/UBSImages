@@ -3,9 +3,9 @@
 "content_id": "287419",
 "reference_id": 2171,
 "version": "1.0.4",
-"title": "Вуаль белая",
+"title": "Белое покрывало для лица",
 "media_type": "Image",
-"index_reference": "вуаль белая",
+"index_reference": "белое покрывало для лица",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0884_veil_white.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0884_veil_white.jpg'>link</a></p></block>",
@@ -112,18 +112,18 @@
 "preferred_label": "Покрывало"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Моисей"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "Моисей"
 },
 {
 "id": "person:Israel",
@@ -140,13 +140,6 @@
 "preferred_label": "Гранат"
 },
 {
-"id": "place:Enaim",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Енаим"
-},
-{
 "id": "place:Timnah",
 "type": "place",
 "confidence": 0.1933,
@@ -154,11 +147,18 @@
 "preferred_label": "Фамна"
 },
 {
-"id": "person:GenericServant",
-"type": "person",
+"id": "place:Enaim",
+"type": "place",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Енаим"
+},
+{
+"id": "place:Gilead",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Слуга"
+"preferred_label": "Галаад"
 },
 {
 "id": "keyterm:Woe.2",
@@ -168,11 +168,11 @@
 "preferred_label": "Горе"
 },
 {
-"id": "place:Gilead",
-"type": "place",
+"id": "person:GenericServant",
+"type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Галаад"
+"preferred_label": "Слуга"
 },
 {
 "id": "person:Shelah",
@@ -187,13 +187,6 @@
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "Тюрбан"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "ручная мельница"
 },
 {
 "id": "fauna:Goat",
@@ -217,13 +210,6 @@
 "preferred_label": "Нить"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Стадо"
-},
-{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.12,
@@ -236,6 +222,20 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Серьга"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "ручная мельница"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Стадо"
 }
 ]
 }

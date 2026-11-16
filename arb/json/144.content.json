@@ -3,9 +3,9 @@
 "content_id": "281299",
 "reference_id": 1649,
 "version": "1.0.4",
-"title": "عثكول الذرة الرفيعة",
+"title": "رأس الذرة الرفيعة",
 "media_type": "Image",
-"index_reference": "عثكول الذرة الرفيعة",
+"index_reference": "رأس الذرة الرفيعة",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0822_sorghum_head.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0822_sorghum_head.jpg'>link</a></p></block>",
@@ -248,11 +248,25 @@
 "preferred_label": "حُبُوب"
 },
 {
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "أَرْضٌ تَفيضُ لَبَنًا وعَسَلًا"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "تَقْدِمَة"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "قادش برنيع"
 },
 {
 "id": "place:Paran",
@@ -262,18 +276,32 @@
 "preferred_label": "فَارَانُ"
 },
 {
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.175,
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "أَرْضٌ تَفيضُ لَبَنًا وعَسَلًا"
+"preferred_label": "مسطار"
 },
 {
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.175,
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "قادش برنيع"
+"preferred_label": "عُشْب"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "بَيْت"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "زيت زيتون"
 },
 {
 "id": "realia:AnointingOil",
@@ -290,39 +318,11 @@
 "preferred_label": "شَجَرَةُ زَيْتُونٍ"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "زيت زيتون"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "بغل"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "مسطار"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "بَيْت"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "عُشْب"
 },
 {
 "id": "keyterm:Possess",
@@ -332,25 +332,18 @@
 "preferred_label": "يُمَلِّكُ"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "بَابِلُ"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "مُوسَى"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "قَايِين"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "تنجيس"
 },
 {
 "id": "keyterm:Dispossess",
@@ -360,46 +353,18 @@
 "preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
 },
 {
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "قَايِين"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "هَارون"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "أمان"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "لُبْنَانَ"
-},
-{
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "لَعْن"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "بَابِلُ"
 },
 {
 "id": "keyterm:Love",
@@ -409,6 +374,41 @@
 "preferred_label": "محبة"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "أمان"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "تنجيس"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "لَعْن"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "لُبْنَانَ"
+},
+{
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.115,
@@ -416,18 +416,18 @@
 "preferred_label": "فول"
 },
 {
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "عَدَس"
-},
-{
 "id": "flora:Millet",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "دُخْن"
+},
+{
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "عَدَس"
 },
 {
 "id": "flora:Barley",

@@ -301,11 +301,11 @@
 "preferred_label": "être un disciple"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "huile d'onction"
+"preferred_label": "grain"
 },
 {
 "id": "realia:OliveOil",
@@ -315,11 +315,11 @@
 "preferred_label": "huile d'olive"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "grain"
+"preferred_label": "huile d'onction"
 },
 {
 "id": "place:Bethphage",
@@ -364,18 +364,18 @@
 "preferred_label": "Béthanie"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "mulet"
-},
-{
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "moût"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "mulet"
 },
 {
 "id": "person:Jesus.2",
@@ -406,6 +406,13 @@
 "preferred_label": "Guedérites"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "orge"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1609,
@@ -413,25 +420,25 @@
 "preferred_label": "chèvre"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "gros bétail"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "fosse"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "argent"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "vin"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "troupeau"
 },
 {
 "id": "realia:Temple",
@@ -448,67 +455,18 @@
 "preferred_label": "chandelier"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "orge"
-},
-{
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "troupeau"
+"preferred_label": "gros bétail"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "vin"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "déposséder"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Philistie"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "oindre"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "s'attirer l'honneur et la gloire"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "fosse"
 },
 {
 "id": "group:Philistine",
@@ -518,18 +476,18 @@
 "preferred_label": "Philistins"
 },
 {
-"id": "person:Noah",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Noé"
+"preferred_label": "Pierre"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Liban"
+"preferred_label": "symbole"
 },
 {
 "id": "person:John.2",
@@ -546,46 +504,18 @@
 "preferred_label": "Guedéra"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "bénir"
+"preferred_label": "s'attirer l'honneur et la gloire"
 },
 {
-"id": "keyterm:Example",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "symbole"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Jacques"
-},
-{
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "André"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "toujours"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Pierre"
+"preferred_label": "déposséder"
 },
 {
 "id": "person:Hezekiah",
@@ -595,11 +525,81 @@
 "preferred_label": "Ézéchias"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "toujours"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Philistie"
+},
+{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "Shéphéla"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "bénir"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "capacité"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "André"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Liban"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "oindre"
 },
 {
 "id": "flora:Myrtle",
@@ -609,46 +609,11 @@
 "preferred_label": "myrte"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "pin d'Alep"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "enclos pour animaux"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "grenadier"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "bergerie"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "figuier sycomore"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "pin parasol"
 },
 {
 "id": "flora:DatePalm",
@@ -658,11 +623,18 @@
 "preferred_label": "palmier dattier"
 },
 {
-"id": "flora:Coriander",
+"id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "coriandre"
+"preferred_label": "grenadier"
+},
+{
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "pin parasol"
 },
 {
 "id": "fauna:Dove",
@@ -672,11 +644,39 @@
 "preferred_label": "colombe"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "pin d'Alep"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "coriandre"
+},
+{
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "figuier sycomore"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "char"
+},
+{
+"id": "realia:Sheepfold",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "bergerie"
 },
 {
 "id": "fauna:Locust",

@@ -3,9 +3,9 @@
 "content_id": "282840",
 "reference_id": 2257,
 "version": "1.0.4",
-"title": "Abeilles et fleurs",
+"title": "Abeilles parmi les fleurs",
 "media_type": "Image",
-"index_reference": "abeilles et fleurs",
+"index_reference": "abeilles parmi les fleurs",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0068_beesflower.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0068_beesflower.jpg'>link</a></p></block>",
@@ -70,6 +70,13 @@
 "preferred_label": "abeille"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Jean"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3125,
@@ -84,11 +91,11 @@
 "preferred_label": "Un ange"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.3125,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "Jean"
+"preferred_label": "cuir"
 },
 {
 "id": "realia:Belt",
@@ -96,13 +103,6 @@
 "confidence": 0.2775,
 "match_method": "canonical",
 "preferred_label": "ceinture"
-},
-{
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.2775,
-"match_method": "canonical",
-"preferred_label": "cuir"
 },
 {
 "id": "fauna:Locust",
@@ -119,13 +119,6 @@
 "preferred_label": "chameau"
 },
 {
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.2525,
-"match_method": "canonical",
-"preferred_label": "rouleau"
-},
-{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.2525,
@@ -133,32 +126,11 @@
 "preferred_label": "sac"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2063,
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "Assyrie"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Égypte"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Amoréens"
-},
-{
-"id": "place:Seir",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Séir"
+"preferred_label": "rouleau"
 },
 {
 "id": "place:Zephath",
@@ -168,11 +140,39 @@
 "preferred_label": "Tsephath"
 },
 {
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Séir"
+},
+{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "circoncision"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Amoréens"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Égypte"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Assyrie"
 },
 {
 "id": "fauna:Fly",

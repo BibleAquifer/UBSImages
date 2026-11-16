@@ -3,9 +3,9 @@
 "content_id": "281068",
 "reference_id": 2351,
 "version": "1.0.4",
-"title": "Ples bilong holim grein",
+"title": "Hole bilong putim kaikai aninit long graun",
 "media_type": "Image",
-"index_reference": "ples bilong holim grein",
+"index_reference": "hole bilong putim kaikai aninit long graun",
 "language": "tpi",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0419_grain_store.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0419_grain_store.jpg'>link</a></p></block>",
@@ -172,11 +172,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Lebanon"
+"preferred_label": "Mekim gut"
 },
 {
 "id": "person:Solomon",
@@ -186,11 +186,18 @@
 "preferred_label": "Solomon"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Mekim gut"
+"preferred_label": "Lebanon"
+},
+{
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.2011,
+"match_method": "canonical",
+"preferred_label": "Nupela wain"
 },
 {
 "id": "realia:WinnowingFork",
@@ -207,11 +214,11 @@
 "preferred_label": "ples bilong brukim wit"
 },
 {
-"id": "realia:Must",
+"id": "realia:Chariot",
 "type": "realia",
-"confidence": 0.2011,
+"confidence": 0.19,
 "match_method": "canonical",
-"preferred_label": "Nupela wain"
+"preferred_label": "karis"
 },
 {
 "id": "flora:OliveTree",
@@ -221,39 +228,11 @@
 "preferred_label": "Diwai oliv"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.19,
-"match_method": "canonical",
-"preferred_label": "karis"
-},
-{
 "id": "place:Ijon",
 "type": "place",
 "confidence": 0.1861,
 "match_method": "canonical",
 "preferred_label": "Ijon"
-},
-{
-"id": "place:Hamath",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Hamat"
-},
-{
-"id": "place:Baalath.2",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Balat"
-},
-{
-"id": "place:Tadmor",
-"type": "place",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Tatmor"
 },
 {
 "id": "place:Pithom",
@@ -263,6 +242,20 @@
 "preferred_label": "Pitom"
 },
 {
+"id": "place:Tadmor",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Tatmor"
+},
+{
+"id": "place:Baalath.2",
+"type": "place",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Balat"
+},
+{
 "id": "place:Abel-beth-maacah",
 "type": "place",
 "confidence": 0.1861,
@@ -270,32 +263,11 @@
 "preferred_label": "Abel Betmaka"
 },
 {
-"id": "person:Asa",
-"type": "person",
-"confidence": 0.175,
+"id": "place:Hamath",
+"type": "place",
+"confidence": 0.1861,
 "match_method": "canonical",
-"preferred_label": "Asa"
-},
-{
-"id": "person:Naphtali",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Naptali"
-},
-{
-"id": "group:Naphtali",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Lain bilong Naptali"
-},
-{
-"id": "person:Jehoshaphat.3",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Jehosafat"
+"preferred_label": "Hamat"
 },
 {
 "id": "place:Dan",
@@ -305,11 +277,11 @@
 "preferred_label": "Dan"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Lain bilong Juda"
 },
 {
 "id": "place:Raamses",
@@ -319,18 +291,11 @@
 "preferred_label": "Rameses"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Pharaoh.5",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Fero"
+"preferred_label": "skai"
 },
 {
 "id": "group:Dan",
@@ -340,18 +305,39 @@
 "preferred_label": "Lain Dan"
 },
 {
+"id": "person:Jehoshaphat.3",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Jehosafat"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Naptali"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "person:Ben-hadad",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "Benhadat"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Lain bilong Juda"
 },
 {
 "id": "keyterm:Heavenly",
@@ -361,18 +347,25 @@
 "preferred_label": "bilong heven"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
+"id": "person:Asa",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "skai"
+"preferred_label": "Asa"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1261,
+"id": "group:Naphtali",
+"type": "group",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "pisin"
+"preferred_label": "Lain bilong Naptali"
+},
+{
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Fero"
 },
 {
 "id": "realia:AnimalPen",
@@ -389,11 +382,25 @@
 "preferred_label": "rum bilong putim samting"
 },
 {
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "pisin"
+},
+{
 "id": "fauna:Crow",
 "type": "fauna",
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "kotkot"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Bali"
 },
 {
 "id": "fauna:Goat",
@@ -403,18 +410,39 @@
 "preferred_label": "meme"
 },
 {
+"id": "flora:Fig",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "fik"
+},
+{
+"id": "flora:Pomegranate",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "pomigranet"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "kakaruk man"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "koriander"
+},
+{
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Tang bilong krungutim pikinini wain"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Wel bilong makim man"
 },
 {
 "id": "flora:Weed",
@@ -438,25 +466,11 @@
 "preferred_label": "wel bilong oliv"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Bali"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "kakaruk man"
-},
-{
-"id": "flora:Fig",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "fik"
+"preferred_label": "Wel bilong makim man"
 },
 {
 "id": "fauna:Mule",
@@ -466,25 +480,11 @@
 "preferred_label": "hapkas bilong hos na donki"
 },
 {
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "koriander"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "lain sipsip"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "pomigranet"
 }
 ]
 }

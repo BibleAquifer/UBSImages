@@ -253,6 +253,13 @@
 "preferred_label": "مقراض فتايل"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1721,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1721,
@@ -274,13 +281,6 @@
 "preferred_label": "مذبح خيمة الاجتماع"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
-},
-{
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -288,32 +288,18 @@
 "preferred_label": "ويل"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "الجلجال"
-},
-{
-"id": "keyterm:Lot",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "قرعة"
+"preferred_label": "غبي"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "أورشليم"
+"preferred_label": "قبيلة يهوذا"
 },
 {
 "id": "keyterm:Saying",
@@ -321,6 +307,20 @@
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "مَثَل"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "أليشع"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "أورشليم"
 },
 {
 "id": "person:Judah.4",
@@ -337,18 +337,18 @@
 "preferred_label": "أدوم"
 },
 {
-"id": "person:Elisha",
-"type": "person",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "أليشع"
+"preferred_label": "مصر"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "place:Gilgal.3",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "قبيلة يهوذا"
+"preferred_label": "الجلجال"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -358,25 +358,18 @@
 "preferred_label": "كلمة الرب"
 },
 {
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "قرعة"
+},
+{
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "الفصح"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "غبي"
-},
-{
-"id": "flora:Ivy",
-"type": "flora",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "لبلاب"
 },
 {
 "id": "flora:Colocynth",
@@ -393,18 +386,11 @@
 "preferred_label": "طشت"
 },
 {
-"id": "flora:Brier",
+"id": "flora:Ivy",
 "type": "flora",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "شوك"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "كرمة"
+"preferred_label": "لبلاب"
 },
 {
 "id": "realia:Money",
@@ -414,11 +400,11 @@
 "preferred_label": "قروش"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "flora:Brier",
+"type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "الحصان"
+"preferred_label": "شوك"
 },
 {
 "id": "realia:Lampstand.2",
@@ -426,6 +412,20 @@
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "منارة"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "الحصان"
 }
 ]
 }

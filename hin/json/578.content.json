@@ -1171,6 +1171,13 @@
 "preferred_label": "तेज"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.362,
+"match_method": "canonical",
+"preferred_label": "प्रेम"
+},
+{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.362,
@@ -1178,11 +1185,11 @@
 "preferred_label": "एक स्वर्गदूत"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.362,
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3096,
 "match_method": "canonical",
-"preferred_label": "प्रेम"
+"preferred_label": "मूसा"
 },
 {
 "id": "keyterm:Heaven",
@@ -1199,25 +1206,11 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3096,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3044,
 "match_method": "canonical",
 "preferred_label": "घर"
-},
-{
-"id": "place:Arnon",
-"type": "place",
-"confidence": 0.2582,
-"match_method": "canonical",
-"preferred_label": "अर्नोन"
 },
 {
 "id": "keyterm:Possess",
@@ -1227,11 +1220,18 @@
 "preferred_label": "अधिकारी बनाना"
 },
 {
-"id": "person:Judah.4",
+"id": "place:Arnon",
+"type": "place",
+"confidence": 0.2582,
+"match_method": "canonical",
+"preferred_label": "अर्नोन"
+},
+{
+"id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.2572,
 "match_method": "canonical",
-"preferred_label": "यहूदा"
+"preferred_label": "यहोशू"
 },
 {
 "id": "keyterm:Ability",
@@ -1248,25 +1248,11 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "person:Benjamin",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2572,
 "match_method": "canonical",
-"preferred_label": "बिन्यामीन"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2572,
-"match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2572,
-"match_method": "canonical",
-"preferred_label": "मोआब"
+"preferred_label": "यहूदा"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1276,6 +1262,20 @@
 "preferred_label": "बेदखल करना"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2572,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.2572,
+"match_method": "canonical",
+"preferred_label": "बिन्यामीन"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2572,
@@ -1283,25 +1283,11 @@
 "preferred_label": "भेंट"
 },
 {
-"id": "person:Joshua.2",
-"type": "person",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.2572,
 "match_method": "canonical",
-"preferred_label": "यहोशू"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.2059,
-"match_method": "canonical",
-"preferred_label": "लबानोन"
-},
-{
-"id": "place:GreatSea",
-"type": "place",
-"confidence": 0.2059,
-"match_method": "canonical",
-"preferred_label": "भूमध्य सागर"
+"preferred_label": "मोआब"
 },
 {
 "id": "place:Euphrates",
@@ -1311,25 +1297,39 @@
 "preferred_label": "फरात नदी"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.2048,
+"id": "place:GreatSea",
+"type": "place",
+"confidence": 0.2059,
 "match_method": "canonical",
-"preferred_label": "धर्मी होना"
+"preferred_label": "भूमध्य सागर"
 },
 {
-"id": "place:HermonMount",
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.2059,
+"match_method": "canonical",
+"preferred_label": "लबानोन"
+},
+{
+"id": "place:Arabah",
 "type": "place",
 "confidence": 0.2048,
 "match_method": "canonical",
-"preferred_label": "हेर्मोन पर्वत"
+"preferred_label": "अराबा"
 },
 {
-"id": "keyterm:Perceive",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2048,
 "match_method": "canonical",
-"preferred_label": "परखना"
+"preferred_label": "भय"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.2048,
+"match_method": "canonical",
+"preferred_label": "गिबा"
 },
 {
 "id": "place:Gibeon",
@@ -1339,18 +1339,18 @@
 "preferred_label": "गिबोन"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2048,
-"match_method": "canonical",
-"preferred_label": "बिन्यामीन का गोत्र"
-},
-{
-"id": "keyterm:Example",
+"id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2048,
 "match_method": "canonical",
-"preferred_label": "प्रतीक"
+"preferred_label": "शुद्ध"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.2048,
+"match_method": "canonical",
+"preferred_label": "यूसुफ"
 }
 ]
 }

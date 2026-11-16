@@ -156,6 +156,13 @@
 "preferred_label": "Love"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.245,
@@ -168,13 +175,6 @@
 "confidence": 0.245,
 "match_method": "canonical",
 "preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "Believe"
 },
 {
 "id": "person:Korah.3",
@@ -191,32 +191,11 @@
 "preferred_label": "Ampliatus"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Blood"
-},
-{
-"id": "person:Timothy",
+"id": "person:Marymagdalene",
 "type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Timothy"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Cain"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Paul"
+"preferred_label": "Mary Magdalene"
 },
 {
 "id": "person:Caiaphas",
@@ -226,27 +205,6 @@
 "preferred_label": "Caiaphas"
 },
 {
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Pilate"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:Faithfulness",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Faithfulness"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -254,11 +212,11 @@
 "preferred_label": "Written"
 },
 {
-"id": "person:Balaam",
-"type": "person",
+"id": "keyterm:Ought",
+"type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Balaam"
+"preferred_label": "Obligated"
 },
 {
 "id": "place:Golgotha",
@@ -268,11 +226,25 @@
 "preferred_label": "Golgotha"
 },
 {
-"id": "person:Marymagdalene",
+"id": "person:Annas",
 "type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Mary Magdalene"
+"preferred_label": "Annas"
+},
+{
+"id": "person:Balaam",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Balaam"
+},
+{
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Cain"
 },
 {
 "id": "keyterm:Beloved",
@@ -289,13 +261,6 @@
 "preferred_label": "True"
 },
 {
-"id": "person:Annas",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Annas"
-},
-{
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -303,11 +268,46 @@
 "preferred_label": "Bear Witness"
 },
 {
-"id": "keyterm:CauseOfJoy",
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Paul"
+},
+{
+"id": "keyterm:Blood",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "Blood"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Faithfulness"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "keyterm:WithoutMoralDefect",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Being Without Moral Defect"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Resurrection"
 },
 {
 "id": "keyterm:Disaster",
@@ -317,18 +317,18 @@
 "preferred_label": "Disaster"
 },
 {
-"id": "keyterm:Ought",
-"type": "keyterm",
+"id": "person:Timothy",
+"type": "person",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Obligated"
+"preferred_label": "Timothy"
 },
 {
-"id": "keyterm:WithoutMoralDefect",
+"id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "Being Without Moral Defect"
+"preferred_label": "Cause of Joy"
 },
 {
 "id": "realia:Spear",

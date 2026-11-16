@@ -3,9 +3,9 @@
 "content_id": "294128",
 "reference_id": 2348,
 "version": "1.0.4",
-"title": "جدار حجري",
+"title": "حيطان حجر حولين الحقول",
 "media_type": "Image",
-"index_reference": "جدار حجري",
+"index_reference": "حيطان حجر حولين الحقول",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg'>link</a></p></block>",
@@ -264,18 +264,18 @@
 "preferred_label": "كرمة"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2874,
-"match_method": "canonical",
-"preferred_label": "بيت"
-},
-{
 "id": "realia:ThornHedge",
 "type": "realia",
 "confidence": 0.2874,
 "match_method": "canonical",
 "preferred_label": "سياج شوك"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2874,
+"match_method": "canonical",
+"preferred_label": "بيت"
 },
 {
 "id": "realia:Winepress",
@@ -292,18 +292,18 @@
 "preferred_label": "شوك"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "مثل"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "يبارك"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "مثل"
 },
 {
 "id": "realia:Handbreadth",
@@ -327,11 +327,25 @@
 "preferred_label": "اليهودية"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
 "preferred_label": "مذبح"
+},
+{
+"id": "realia:Watch-tower",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "برج مراقبة"
 },
 {
 "id": "realia:StoneAltar",
@@ -348,81 +362,11 @@
 "preferred_label": "مذبح خيمة الاجتماع"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
-},
-{
-"id": "realia:Watch-tower",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "برج مراقبة"
-},
-{
-"id": "keyterm:Disobey",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "يعصى"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "عيد معيّن"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "يعمل سلام"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "فارس"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "بولس"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "جسم"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "يوسف"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "يسترضي"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "مرسوم"
+"preferred_label": "قرر"
 },
 {
 "id": "keyterm:IntactState",
@@ -432,6 +376,20 @@
 "preferred_label": "سلام"
 },
 {
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "عيد معيّن"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "جسم"
+},
+{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.1618,
@@ -439,11 +397,11 @@
 "preferred_label": "طهّر"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "أورشليم"
+"preferred_label": "يسترضي"
 },
 {
 "id": "keyterm:Kindness",
@@ -451,41 +409,6 @@
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "رحمة"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "إسرائيل"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "قرر"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "ملاك"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "بعل"
-},
-{
-"id": "keyterm:Profane",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "مُدَنَّس / عادِي"
 },
 {
 "id": "keyterm:Law",
@@ -502,11 +425,81 @@
 "preferred_label": "افتقاد"
 },
 {
-"id": "fauna:Boar",
-"type": "fauna",
-"confidence": 0.1071,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "خنزير بري"
+"preferred_label": "أورشليم"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "فارس"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "إسرائيل"
+},
+{
+"id": "keyterm:Disobey",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "يعصى"
+},
+{
+"id": "keyterm:Profane",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "مُدَنَّس / عادِي"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "بولس"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "يوسف"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "مرسوم"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "بعل"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "يعمل سلام"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "ملاك"
 },
 {
 "id": "realia:Plaster",
@@ -516,32 +509,18 @@
 "preferred_label": "جير"
 },
 {
+"id": "fauna:Boar",
+"type": "fauna",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "خنزير بري"
+},
+{
 "id": "realia:Reed",
 "type": "realia",
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "قصبة قياس"
-},
-{
-"id": "realia:HewnStone",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "حجر منحوت"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "زيت المسحة"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "بوص"
 },
 {
 "id": "flora:OliveTree",
@@ -551,39 +530,11 @@
 "preferred_label": "شجرة زيتون"
 },
 {
-"id": "realia:MeasuringReed",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "قصبة قياس"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "قروش"
-},
-{
-"id": "realia:Span",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "شبر"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "الهيكل"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "زيت زيتون"
+"preferred_label": "خمرة جديدة"
 },
 {
 "id": "fauna:Jackal",
@@ -593,39 +544,11 @@
 "preferred_label": "ابن آوى"
 },
 {
-"id": "flora:Grain",
+"id": "flora:Reed",
 "type": "flora",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "حبوب"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "بغل"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "خمرة جديدة"
-},
-{
-"id": "fauna:Pig",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "خنزير"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "دبيب"
+"preferred_label": "بوص"
 },
 {
 "id": "flora:Nettle",
@@ -635,11 +558,60 @@
 "preferred_label": "قريص"
 },
 {
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "حبوب"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "قروش"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "الهيكل"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "صندل"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
 "preferred_label": "قرون المذبح"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "خنزير"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "زيت زيتون"
+},
+{
+"id": "realia:HewnStone",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "حجر منحوت"
 },
 {
 "id": "fauna:Locust",
@@ -649,11 +621,39 @@
 "preferred_label": "جراد"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "صندل"
+"preferred_label": "زيت المسحة"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "قصبة قياس"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "دبيب"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "بغل"
+},
+{
+"id": "realia:Span",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "شبر"
 }
 ]
 }

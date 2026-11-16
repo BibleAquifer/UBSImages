@@ -3,9 +3,9 @@
 "content_id": "288530",
 "reference_id": 2349,
 "version": "1.0.4",
-"title": "Hito fronterizo",
+"title": "Hito de límite",
 "media_type": "Image",
-"index_reference": "hito fronterizo",
+"index_reference": "hito de límite",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0416_boundary_marker.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0416_boundary_marker.jpg'>link</a></p></block>",
@@ -51,25 +51,25 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "dejar en herencia"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "Jehová"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "maldecir"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "keyterm:Dispossess",
@@ -79,11 +79,11 @@
 "preferred_label": "desposeer"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Possess",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "tribu de Judá"
+"preferred_label": "dejar en herencia"
 },
 {
 "id": "keyterm:Surely",
@@ -93,11 +93,18 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "maldecir"
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "rebaño"
 },
 {
 "id": "fauna:Goat",
@@ -112,13 +119,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "cordero"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "rebaño"
 }
 ]
 }

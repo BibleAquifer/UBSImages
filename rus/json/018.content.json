@@ -119,13 +119,6 @@
 "preferred_label": "Олень"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Осквернение"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.34,
@@ -133,11 +126,11 @@
 "preferred_label": "чистый"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "ГОСПОДЬ"
+"preferred_label": "Осквернение"
 },
 {
 "id": "keyterm:Swear",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "Клясться"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "ГОСПОДЬ"
 },
 {
 "id": "place:Jerusalem",
@@ -161,18 +161,18 @@
 "preferred_label": "Любовь"
 },
 {
+"id": "place:BetherMountain",
+"type": "place",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Бетер"
+},
+{
 "id": "person:Asahel",
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Асаил"
-},
-{
-"id": "person:Zeruiah",
-"type": "person",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Саруия"
 },
 {
 "id": "person:Abishai",
@@ -182,39 +182,18 @@
 "preferred_label": "Авесса"
 },
 {
+"id": "person:Zeruiah",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Саруия"
+},
+{
 "id": "place:Bath-rabbim",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Бат-Раббим"
-},
-{
-"id": "place:BetherMountain",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Бетер"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Дамаск"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Иоав"
 },
 {
 "id": "place:Heshbon",
@@ -224,11 +203,18 @@
 "preferred_label": "Есевон"
 },
 {
-"id": "place:Lebanon",
+"id": "place:Damascus",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Ливан"
+"preferred_label": "Дамаск"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Давид"
 },
 {
 "id": "keyterm:Bless",
@@ -238,18 +224,18 @@
 "preferred_label": "Благословлять"
 },
 {
-"id": "fauna:BubalHartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Бубал"
+"preferred_label": "Иоав"
 },
 {
-"id": "fauna:Hartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Бубал"
+"preferred_label": "Ливан"
 },
 {
 "id": "fauna:Ibex",
@@ -266,6 +252,20 @@
 "preferred_label": "Орикс"
 },
 {
+"id": "fauna:BubalHartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "Бубал"
+},
+{
+"id": "fauna:Hartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "Бубал"
+},
+{
 "id": "fauna:Addax",
 "type": "fauna",
 "confidence": 0.1333,
@@ -280,11 +280,11 @@
 "preferred_label": "Коза"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
+"id": "realia:Trap",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Птица"
+"preferred_label": "Западня"
 },
 {
 "id": "flora:BalsamTree",
@@ -292,6 +292,27 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Бальзамное дерево"
+},
+{
+"id": "realia:Window",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Окно"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Птица"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "дом"
 },
 {
 "id": "flora:Lily",
@@ -308,32 +329,11 @@
 "preferred_label": "Башня"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "дом"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Стадо"
-},
-{
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Западня"
-},
-{
-"id": "realia:Window",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Окно"
 }
 ]
 }

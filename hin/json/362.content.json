@@ -3,9 +3,9 @@
 "content_id": "283383",
 "reference_id": 1867,
 "version": "1.0.4",
-"title": "यहूदिया का रेगिस्तान",
+"title": "यहूदिया का मरुस्थल",
 "media_type": "Image",
-"index_reference": "यहूदिया का रेगिस्तान",
+"index_reference": "यहूदिया का मरुस्थल",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0561_judaean_desert.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0561_judaean_desert.jpg'>link</a></p></block>",
@@ -674,13 +674,6 @@
 "preferred_label": "मोआब का अराबा"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3933,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.3933,
@@ -688,11 +681,25 @@
 "preferred_label": "यहोशू"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3933,
+"match_method": "canonical",
+"preferred_label": "मूसा"
+},
+{
 "id": "person:John",
 "type": "person",
 "confidence": 0.3774,
 "match_method": "canonical",
 "preferred_label": "यूहन्ना"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.376,
+"match_method": "canonical",
+"preferred_label": "चेला बनना"
 },
 {
 "id": "deity:Angel",
@@ -707,13 +714,6 @@
 "confidence": 0.376,
 "match_method": "canonical",
 "preferred_label": "यीशु"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.376,
-"match_method": "canonical",
-"preferred_label": "चेला बनना"
 },
 {
 "id": "place:Ai",
@@ -744,18 +744,18 @@
 "preferred_label": "पवित्र आत्मा"
 },
 {
-"id": "place:NeboMount",
-"type": "place",
-"confidence": 0.2668,
-"match_method": "canonical",
-"preferred_label": "नबो पर्वत"
-},
-{
 "id": "person:Rahab",
 "type": "person",
 "confidence": 0.2668,
 "match_method": "canonical",
 "preferred_label": "राहाब"
+},
+{
+"id": "place:NeboMount",
+"type": "place",
+"confidence": 0.2668,
+"match_method": "canonical",
+"preferred_label": "नबो पर्वत"
 },
 {
 "id": "person:Isaiah",
@@ -765,11 +765,18 @@
 "preferred_label": "यशायाह"
 },
 {
-"id": "keyterm:Proclaim",
-"type": "keyterm",
+"id": "place:Chaldea",
+"type": "place",
 "confidence": 0.263,
 "match_method": "canonical",
-"preferred_label": "प्रचार करना"
+"preferred_label": "कसद्द"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.263,
+"match_method": "canonical",
+"preferred_label": "एलीशा"
 },
 {
 "id": "place:Jerusalem",
@@ -777,6 +784,13 @@
 "confidence": 0.263,
 "match_method": "canonical",
 "preferred_label": "यरूशलेम"
+},
+{
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.263,
+"match_method": "canonical",
+"preferred_label": "एलीआजर"
 },
 {
 "id": "group:Chaldea",
@@ -793,25 +807,11 @@
 "preferred_label": "सिधाई"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
+"id": "keyterm:Proclaim",
+"type": "keyterm",
 "confidence": 0.263,
 "match_method": "canonical",
-"preferred_label": "एलीआजर"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.263,
-"match_method": "canonical",
-"preferred_label": "कसद्द"
-},
-{
-"id": "person:Elisha",
-"type": "person",
-"confidence": 0.263,
-"match_method": "canonical",
-"preferred_label": "एलीशा"
+"preferred_label": "प्रचार करना"
 },
 {
 "id": "place:Beth-aven",
@@ -835,18 +835,18 @@
 "preferred_label": "नून"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.2087,
 "match_method": "canonical",
-"preferred_label": "कनान"
+"preferred_label": "विश्वास करना"
 },
 {
-"id": "place:Gilead",
-"type": "place",
+"id": "keyterm:Serve",
+"type": "keyterm",
 "confidence": 0.2087,
 "match_method": "canonical",
-"preferred_label": "गिलाद"
+"preferred_label": "टहल-सेवा करना"
 }
 ]
 }

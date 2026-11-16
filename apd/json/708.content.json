@@ -3,9 +3,9 @@
 "content_id": "294037",
 "reference_id": 2257,
 "version": "1.0.4",
-"title": "نحل على الأزهار",
+"title": "نحل بين الزهور",
 "media_type": "Image",
-"index_reference": "نحل على الأزهار",
+"index_reference": "نحل بين الزهور",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0068_beesflower.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0068_beesflower.jpg'>link</a></p></block>",
@@ -70,6 +70,13 @@
 "preferred_label": "نحلة"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "يوحنا"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3125,
@@ -84,11 +91,11 @@
 "preferred_label": "ملاك"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.3125,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "يوحنا"
+"preferred_label": "جلد"
 },
 {
 "id": "realia:Belt",
@@ -96,13 +103,6 @@
 "confidence": 0.2775,
 "match_method": "canonical",
 "preferred_label": "حزام"
-},
-{
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.2775,
-"match_method": "canonical",
-"preferred_label": "جلد"
 },
 {
 "id": "fauna:Locust",
@@ -119,13 +119,6 @@
 "preferred_label": "جمل"
 },
 {
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.2525,
-"match_method": "canonical",
-"preferred_label": "درج"
-},
-{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.2525,
@@ -133,32 +126,11 @@
 "preferred_label": "كيس"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2063,
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "أشور"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "أموريين"
-},
-{
-"id": "place:Seir",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "سعير"
+"preferred_label": "درج"
 },
 {
 "id": "place:Zephath",
@@ -168,11 +140,39 @@
 "preferred_label": "صَفَاةْ"
 },
 {
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "سعير"
+},
+{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "ختان"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "أموريين"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "مصر"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "أشور"
 },
 {
 "id": "fauna:Fly",

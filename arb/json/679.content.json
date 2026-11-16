@@ -163,13 +163,6 @@
 "preferred_label": "كلب"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.245,
-"match_method": "canonical",
-"preferred_label": "تنجيس"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.245,
@@ -184,18 +177,11 @@
 "preferred_label": "مقدس"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Defilement",
 "type": "keyterm",
-"confidence": 0.1725,
+"confidence": 0.245,
 "match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "سوء"
+"preferred_label": "تنجيس"
 },
 {
 "id": "keyterm:Appoint",
@@ -205,6 +191,13 @@
 "preferred_label": "يُعَيِّن"
 },
 {
+"id": "keyterm:Mischief",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "سوء"
+},
+{
 "id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.1725,
@@ -212,11 +205,11 @@
 "preferred_label": "شخص"
 },
 {
-"id": "keyterm:DetestedThing",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "رِجْس"
+"preferred_label": "تَقْدِمَة"
 },
 {
 "id": "keyterm:True",
@@ -226,6 +219,13 @@
 "preferred_label": "حقّ"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "شَيَاطِين"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1725,
@@ -233,18 +233,11 @@
 "preferred_label": "يبارك"
 },
 {
-"id": "keyterm:DemonPossessed",
+"id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "ممسوس بشيطان"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "شَيَاطِين"
+"preferred_label": "رِجْس"
 },
 {
 "id": "keyterm:Pure",
@@ -254,11 +247,11 @@
 "preferred_label": "طَاهِر"
 },
 {
-"id": "flora:Carob",
-"type": "flora",
-"confidence": 0.1225,
+"id": "keyterm:DemonPossessed",
+"type": "keyterm",
+"confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "خَرُّوب"
+"preferred_label": "ممسوس بشيطان"
 },
 {
 "id": "fauna:Mouse",
@@ -268,18 +261,11 @@
 "preferred_label": "فأر"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "بَقَر"
-},
-{
-"id": "flora:Vine",
+"id": "flora:Carob",
 "type": "flora",
-"confidence": 0.1125,
+"confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "كَرْمَة"
+"preferred_label": "خَرُّوب"
 },
 {
 "id": "flora:Frankincense",
@@ -301,6 +287,20 @@
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "قرط"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "بَقَر"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "كَرْمَة"
 }
 ]
 }

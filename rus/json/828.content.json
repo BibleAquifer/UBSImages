@@ -291,6 +291,13 @@
 "preferred_label": "Собака"
 },
 {
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "Милость"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2231,
@@ -303,13 +310,6 @@
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "Израиль"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "Милость"
 },
 {
 "id": "keyterm:Bless",
@@ -326,13 +326,6 @@
 "preferred_label": "Ионафан"
 },
 {
-"id": "place:CarmelMount",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "гора Кармил"
-},
-{
 "id": "person:Adoni-bezek",
 "type": "person",
 "confidence": 0.1667,
@@ -345,6 +338,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Служить"
+},
+{
+"id": "deity:Fortune",
+"type": "deity",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Гад"
 },
 {
 "id": "person:Barzillai",
@@ -361,6 +361,13 @@
 "preferred_label": "причащаться"
 },
 {
+"id": "person:SyrophonecianWoman",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Сирофиникиянка"
+},
+{
 "id": "deity:Asherah",
 "type": "deity",
 "confidence": 0.1667,
@@ -368,11 +375,11 @@
 "preferred_label": "Ашера"
 },
 {
-"id": "person:SyrophonecianWoman",
-"type": "person",
+"id": "place:CarmelMount",
+"type": "place",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Сирофиникиянка"
+"preferred_label": "гора Кармил"
 },
 {
 "id": "deity:Destiny",
@@ -382,18 +389,11 @@
 "preferred_label": "Мени"
 },
 {
-"id": "deity:Fortune",
-"type": "deity",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Гад"
-},
-{
-"id": "realia:AnointingOil",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1631,
 "match_method": "canonical",
-"preferred_label": "Елей помазания"
+"preferred_label": "Храм"
 },
 {
 "id": "flora:Vine",
@@ -410,11 +410,11 @@
 "preferred_label": "Оливковое масло"
 },
 {
-"id": "realia:Temple",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1631,
 "match_method": "canonical",
-"preferred_label": "Храм"
+"preferred_label": "Елей помазания"
 },
 {
 "id": "realia:Wine",
@@ -424,74 +424,11 @@
 "preferred_label": "Вино"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Царство"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Иисус"
-},
-{
-"id": "person:Hiram",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Хирам"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Приношение"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Помазывать"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Группа учеников"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Закалывание в жертву"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Просить"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Решать"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Быть учеником"
+"preferred_label": "Благоволение"
 },
 {
 "id": "group:Pharisee",
@@ -501,46 +438,25 @@
 "preferred_label": "Фарисеи"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Благоволение"
+"preferred_label": "Решать"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Соломон"
+"preferred_label": "Группа учеников"
 },
 {
-"id": "person:Absalom",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Авессалом"
-},
-{
-"id": "person:Jezebel",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Иезавель"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Галаад"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Ваал"
+"preferred_label": "Верить"
 },
 {
 "id": "group:Jews",
@@ -550,11 +466,81 @@
 "preferred_label": "Иудеи"
 },
 {
-"id": "keyterm:EnticedToServe",
+"id": "person:Hiram",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Хирам"
+},
+{
+"id": "person:Jezebel",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Иезавель"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Саул"
+},
+{
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Принуждать к служению"
+"preferred_label": "Приношение"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Закалывание в жертву"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Галаад"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Просить"
+},
+{
+"id": "group:Gilead",
+"type": "group",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "галаадитяне"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Царство"
+},
+{
+"id": "person:Absalom",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Авессалом"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Страх"
 },
 {
 "id": "deity:Demons",
@@ -562,6 +548,13 @@
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "Демоны"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Принуждать к служению"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -578,32 +571,46 @@
 "preferred_label": "новомесячие"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "deity:Baal",
+"type": "deity",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Верить"
+"preferred_label": "Ваал"
 },
 {
-"id": "person:Saul.2",
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Саул"
+"preferred_label": "Соломон"
 },
 {
-"id": "group:Gilead",
-"type": "group",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "галаадитяне"
+"preferred_label": "Иисус"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Страх"
+"preferred_label": "Быть учеником"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Помазывать"
+},
+{
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Западня"
 },
 {
 "id": "realia:Rug",
@@ -620,25 +627,11 @@
 "preferred_label": "малый щит"
 },
 {
-"id": "realia:Trap",
+"id": "realia:Bed",
 "type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Западня"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "Масличное дерево"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Лошадь"
+"preferred_label": "постель"
 },
 {
 "id": "realia:Net",
@@ -648,11 +641,18 @@
 "preferred_label": "Сеть"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "постель"
+"preferred_label": "Лошадь"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Масличное дерево"
 }
 ]
 }

@@ -253,6 +253,13 @@
 "preferred_label": "灯剪"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1721,
+"match_method": "canonical",
+"preferred_label": "圣殿祭坛"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1721,
@@ -274,13 +281,6 @@
 "preferred_label": "祭坛"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "圣殿祭坛"
-},
-{
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -288,32 +288,18 @@
 "preferred_label": "祸"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "吉甲（靠近耶利哥）"
-},
-{
-"id": "keyterm:Lot",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "签（物品）"
+"preferred_label": "愚蠢"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
+"preferred_label": "犹大支派"
 },
 {
 "id": "keyterm:Saying",
@@ -321,6 +307,20 @@
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "箴言"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "以利沙"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
 },
 {
 "id": "person:Judah.4",
@@ -337,18 +337,18 @@
 "preferred_label": "以东"
 },
 {
-"id": "person:Elisha",
-"type": "person",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "以利沙"
+"preferred_label": "埃及"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "place:Gilgal.3",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "犹大支派"
+"preferred_label": "吉甲（靠近耶利哥）"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -358,25 +358,18 @@
 "preferred_label": "耶和华的话"
 },
 {
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "签（物品）"
+},
+{
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "逾越节祭物"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "愚蠢"
-},
-{
-"id": "flora:Ivy",
-"type": "flora",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "常春藤"
 },
 {
 "id": "flora:Colocynth",
@@ -393,18 +386,11 @@
 "preferred_label": "盆"
 },
 {
-"id": "flora:Brier",
+"id": "flora:Ivy",
 "type": "flora",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "蒺藜"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "葡萄树"
+"preferred_label": "常春藤"
 },
 {
 "id": "realia:Money",
@@ -414,11 +400,11 @@
 "preferred_label": "金钱"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "flora:Brier",
+"type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "马"
+"preferred_label": "蒺藜"
 },
 {
 "id": "realia:Lampstand.2",
@@ -426,6 +412,20 @@
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "灯台"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "葡萄树"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "马"
 }
 ]
 }

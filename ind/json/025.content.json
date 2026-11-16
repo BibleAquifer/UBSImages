@@ -349,18 +349,18 @@
 "preferred_label": "hiena"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.3518,
-"match_method": "canonical",
-"preferred_label": "singa"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.3518,
 "match_method": "canonical",
 "preferred_label": "beruang"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.3518,
+"match_method": "canonical",
+"preferred_label": "singa"
 },
 {
 "id": "fauna:Ostrich",
@@ -384,6 +384,41 @@
 "preferred_label": "memohon"
 },
 {
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "damai sejahtera"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "langit"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2176,
+"match_method": "canonical",
+"preferred_label": "Setan-setan"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2176,
@@ -396,41 +431,6 @@
 "confidence": 0.2176,
 "match_method": "canonical",
 "preferred_label": "Yesus"
-},
-{
-"id": "keyterm:IntactState",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "damai sejahtera"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "kudus"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "Setan-setan"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2176,
-"match_method": "canonical",
-"preferred_label": "langit"
 },
 {
 "id": "fauna:Dog",
@@ -447,46 +447,11 @@
 "preferred_label": "Hazor"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "memberikan milik"
-},
-{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "bersumpah"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "Yusuf"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:Mischief",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "kejahatan"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "keamanan"
 },
 {
 "id": "keyterm:Appoint",
@@ -496,11 +461,32 @@
 "preferred_label": "menugaskan"
 },
 {
-"id": "person:GenericPerson",
-"type": "person",
+"id": "keyterm:Mischief",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Seseorang"
+"preferred_label": "kejahatan"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "memberikan milik"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Babel"
 },
 {
 "id": "keyterm:BringHonorAndGloryOnOneself",
@@ -510,18 +496,25 @@
 "preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
 },
 {
-"id": "person:Israel",
+"id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Seseorang"
 },
 {
-"id": "group:Edom",
-"type": "group",
+"id": "keyterm:Offering",
+"type": "keyterm",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "orang Edom"
+"preferred_label": "persembahan"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "benar"
 },
 {
 "id": "person:Judah.4",
@@ -529,6 +522,13 @@
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "Israel"
 }
 ]
 }

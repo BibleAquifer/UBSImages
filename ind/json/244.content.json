@@ -323,20 +323,6 @@
 "preferred_label": "rumah"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Nebukadnezar"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.2214,
@@ -344,11 +330,11 @@
 "preferred_label": "memberikan milik"
 },
 {
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Musa"
 },
 {
 "id": "person:Pharaoh.6",
@@ -358,11 +344,18 @@
 "preferred_label": "Firaun"
 },
 {
-"id": "place:Netaim",
-"type": "place",
-"confidence": 0.1655,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Netaim"
+"preferred_label": "Israel"
+},
+{
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Nebukadnezar"
 },
 {
 "id": "place:Gederah",
@@ -372,18 +365,18 @@
 "preferred_label": "Gedera"
 },
 {
+"id": "place:Netaim",
+"type": "place",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Netaim"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "buyung tanah liat"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Harun"
 },
 {
 "id": "place:Sodom",
@@ -393,32 +386,11 @@
 "preferred_label": "Sodom"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
-"id": "place:Topheth",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Tofet"
-},
-{
-"id": "keyterm:Perceive",
+"id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "memahami"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Gunung Sinai"
+"preferred_label": "jurang maut"
 },
 {
 "id": "place:Gomorrah",
@@ -428,18 +400,46 @@
 "preferred_label": "Gomora"
 },
 {
-"id": "keyterm:Abyss",
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Gunung Sinai"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Harun"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Yerusalem"
+},
+{
+"id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "jurang maut"
+"preferred_label": "memahami"
 },
 {
-"id": "realia:PotteryWheel",
+"id": "place:Topheth",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tofet"
+},
+{
+"id": "realia:Bagpipe",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "pelarikan"
+"preferred_label": "serdam"
 },
 {
 "id": "flora:Bean",
@@ -449,6 +449,13 @@
 "preferred_label": "kacang babi"
 },
 {
+"id": "realia:PotteryWheel",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "pelarikan"
+},
+{
 "id": "flora:Lentil",
 "type": "flora",
 "confidence": 0.1055,
@@ -456,11 +463,46 @@
 "preferred_label": "kacang merah kecil"
 },
 {
-"id": "realia:Bagpipe",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "serdam"
+"preferred_label": "jelai"
+},
+{
+"id": "realia:Bowl",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "pasu"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "tempat tidur"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "gandum"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "kecapi"
+},
+{
+"id": "realia:Lute",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "kecapi"
 },
 {
 "id": "fauna:Bull",
@@ -477,53 +519,11 @@
 "preferred_label": "suling"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "jelai"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "kecapi"
-},
-{
 "id": "realia:RamsHorn",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "sangkakala tanduk domba"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "gandum"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "tempat tidur"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "pasu"
-},
-{
-"id": "realia:Lute",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "kecapi"
 }
 ]
 }

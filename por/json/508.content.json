@@ -3,9 +3,9 @@
 "content_id": "286343",
 "reference_id": 2028,
 "version": "1.0.4",
-"title": "Fumaça da Linha de Fogo",
+"title": "Fumaça subindo de um incêndio florestal",
 "media_type": "Image",
-"index_reference": "fumaça da linha de fogo",
+"index_reference": "fumaça subindo de um incêndio florestal",
 "language": "por",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg'>link</a></p></block>",
@@ -226,11 +226,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "habilidade"
+"preferred_label": "santo"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Ai"
 },
 {
 "id": "person:Israel",
@@ -247,11 +254,18 @@
 "preferred_label": "glória"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Ai"
+"preferred_label": "para sempre"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "habilidade"
 },
 {
 "id": "deity:Angel",
@@ -259,20 +273,6 @@
 "confidence": 0.2265,
 "match_method": "canonical",
 "preferred_label": "Um Anjo"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "para sempre"
 },
 {
 "id": "keyterm:Portent",
@@ -289,102 +289,11 @@
 "preferred_label": "fornalha"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "sangue"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Benjamim"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "sorte"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "fornicação"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Filístia"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "prostrar-se"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Jerusalém"
-},
-{
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "insensato"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "autoridade"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "salvação"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Tribo de Benjamim"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Monte Sinai"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "símbolo"
 },
 {
 "id": "keyterm:Name",
@@ -394,11 +303,46 @@
 "preferred_label": "nome"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "símbolo"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
 "id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "abismo"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Monte Sinai"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "céu"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Benjamim"
 },
 {
 "id": "keyterm:Pray",
@@ -408,11 +352,67 @@
 "preferred_label": "orar"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Jerusalém"
+},
+{
+"id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "céu"
+"preferred_label": "fornicação"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "insensato"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "sangue"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Filístia"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "sorte"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "prostrar-se"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Tribo de Benjamim"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "autoridade"
 },
 {
 "id": "realia:Incense",
@@ -429,11 +429,32 @@
 "preferred_label": "mosquito"
 },
 {
-"id": "fauna:Lion",
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "imagem"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "olíbano"
+},
+{
+"id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "Leão"
+"preferred_label": "escorpião"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "erva"
 },
 {
 "id": "realia:Doorstep",
@@ -450,18 +471,11 @@
 "preferred_label": "mirra"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "videira"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "cavalo"
+"preferred_label": "casa"
 },
 {
 "id": "realia:Temple",
@@ -471,6 +485,13 @@
 "preferred_label": "Templo"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "videira"
+},
+{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1032,
@@ -478,39 +499,11 @@
 "preferred_label": "eira"
 },
 {
-"id": "fauna:Scorpion",
+"id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "escorpião"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "olíbano"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "imagem"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "casa"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "erva"
+"preferred_label": "Leão"
 },
 {
 "id": "fauna:Locust",
@@ -518,6 +511,13 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "Gafanhoto"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "cavalo"
 },
 {
 "id": "realia:Wine",

@@ -3,9 +3,9 @@
 "content_id": "296055",
 "reference_id": 2409,
 "version": "1.0.4",
-"title": "黃金耳環",
+"title": "金耳環",
 "media_type": "Image",
-"index_reference": "黃金耳環",
+"index_reference": "金耳環",
 "language": "zht",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0531_earrings_gold.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0531_earrings_gold.jpg'>link</a></p></block>",
@@ -152,11 +152,11 @@
 "preferred_label": "亞倫"
 },
 {
-"id": "person:Bethuel",
-"type": "person",
+"id": "group:Ishmael",
+"type": "group",
 "confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "彼土利"
+"preferred_label": "以實瑪利人"
 },
 {
 "id": "place:AchorValley",
@@ -166,18 +166,11 @@
 "preferred_label": "亞割谷"
 },
 {
-"id": "group:Ishmael",
-"type": "group",
+"id": "person:Bethuel",
+"type": "person",
 "confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "以實瑪利人"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "平息"
+"preferred_label": "彼土利"
 },
 {
 "id": "person:Nahor.2",
@@ -187,32 +180,11 @@
 "preferred_label": "拿鶴"
 },
 {
-"id": "person:Gideon",
-"type": "person",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "基甸"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "埃及"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "person:Milcah",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "密迦"
+"preferred_label": "平息"
 },
 {
 "id": "person:Ishmael",
@@ -222,6 +194,20 @@
 "preferred_label": "以實瑪利"
 },
 {
+"id": "person:Milcah",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "密迦"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
 "id": "person:Rebekah",
 "type": "person",
 "confidence": 0.1765,
@@ -229,11 +215,11 @@
 "preferred_label": "利百加"
 },
 {
-"id": "place:Midian",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "米甸"
+"preferred_label": "埃及"
 },
 {
 "id": "keyterm:Hope",
@@ -243,11 +229,25 @@
 "preferred_label": "盼望"
 },
 {
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "基甸"
+},
+{
 "id": "place:Shechem",
 "type": "place",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "示劍"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "米甸"
 },
 {
 "id": "realia:AHalfShekel",
@@ -257,11 +257,11 @@
 "preferred_label": "半舍客勒"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
+"id": "flora:Terebinth",
+"type": "flora",
 "confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "紫色布"
+"preferred_label": "篤耨香樹"
 },
 {
 "id": "realia:PieceOfMoney",
@@ -271,11 +271,11 @@
 "preferred_label": "銀子"
 },
 {
-"id": "flora:Terebinth",
-"type": "flora",
+"id": "realia:PurpleCloth",
+"type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "篤耨香樹"
+"preferred_label": "紫色布"
 },
 {
 "id": "realia:Cloak",
@@ -285,13 +285,6 @@
 "preferred_label": "外衣"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "葡萄樹"
-},
-{
 "id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.1165,
@@ -299,11 +292,11 @@
 "preferred_label": "豺狗"
 },
 {
-"id": "fauna:Pig",
-"type": "fauna",
+"id": "realia:Crown",
+"type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "豬"
+"preferred_label": "王冠"
 },
 {
 "id": "realia:House",
@@ -313,11 +306,18 @@
 "preferred_label": "房屋"
 },
 {
-"id": "realia:Crown",
-"type": "realia",
+"id": "fauna:Pig",
+"type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "王冠"
+"preferred_label": "豬"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "葡萄樹"
 }
 ]
 }

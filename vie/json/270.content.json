@@ -269,18 +269,18 @@
 "preferred_label": "Giê-rê-mi"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.4062,
-"match_method": "canonical",
-"preferred_label": "Đa-vít"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4062,
 "match_method": "canonical",
 "preferred_label": "CHÚA"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.4062,
+"match_method": "canonical",
+"preferred_label": "Đa-vít"
 },
 {
 "id": "place:Bethlehem",
@@ -297,6 +297,13 @@
 "preferred_label": "Ê-bết Mê-lết"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.285,
+"match_method": "canonical",
+"preferred_label": "nhà"
+},
+{
 "id": "realia:Rope",
 "type": "realia",
 "confidence": 0.285,
@@ -311,18 +318,11 @@
 "preferred_label": "cây nho"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.285,
-"match_method": "canonical",
-"preferred_label": "nhà"
-},
-{
-"id": "place:Kabzeel",
-"type": "place",
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.2275,
 "match_method": "canonical",
-"preferred_label": "Cáp-xê-ên"
+"preferred_label": "Bê-na-gia"
 },
 {
 "id": "person:Jehoiada",
@@ -332,18 +332,11 @@
 "preferred_label": "Giê-hô-gia-đa"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
+"id": "place:Kabzeel",
+"type": "place",
 "confidence": 0.2275,
 "match_method": "canonical",
-"preferred_label": "Bê-na-gia"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.2238,
-"match_method": "canonical",
-"preferred_label": "sư tử"
+"preferred_label": "Cáp-xê-ên"
 },
 {
 "id": "realia:Money",
@@ -353,25 +346,11 @@
 "preferred_label": "Tiền bạc"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2225,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.2238,
 "match_method": "canonical",
-"preferred_label": "Phi-li-tin"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Giô-sép"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "A-sy-ri"
+"preferred_label": "sư tử"
 },
 {
 "id": "person:Nethaniah",
@@ -381,25 +360,11 @@
 "preferred_label": "Nê-tha-nia"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.2225,
 "match_method": "canonical",
 "preferred_label": "người Phi-li-tin"
-},
-{
-"id": "person:Ishmael.2",
-"type": "person",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Ích-ma-ên"
 },
 {
 "id": "group:Ethiopia",
@@ -409,32 +374,11 @@
 "preferred_label": "người Ê-thi-ô-pi"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Ban phước"
-},
-{
-"id": "place:Ethiopia",
-"type": "place",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Ê-thi-ô-pi"
-},
-{
-"id": "person:Reuben",
+"id": "person:Ishmael.2",
 "type": "person",
 "confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Ru-bên"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2225,
-"match_method": "canonical",
-"preferred_label": "Mô-áp"
+"preferred_label": "Ích-ma-ên"
 },
 {
 "id": "person:Hezekiah",
@@ -444,25 +388,60 @@
 "preferred_label": "Ê-xê-chia"
 },
 {
-"id": "place:Secu",
+"id": "place:Ethiopia",
 "type": "place",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Sê-cư"
+"preferred_label": "Ê-thi-ô-pi"
 },
 {
-"id": "place:BenjaminGate",
+"id": "place:Moab",
 "type": "place",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Cổng Bên-gia-min"
+"preferred_label": "Mô-áp"
 },
 {
-"id": "person:Malchiah",
+"id": "person:Israel",
 "type": "person",
-"confidence": 0.1663,
+"confidence": 0.2225,
 "match_method": "canonical",
-"preferred_label": "Manh-ki-gia"
+"preferred_label": "Y-sơ-ra-ên"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "Phi-li-tin"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "Ban phước"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "A-sy-ri"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "Giô-sép"
+},
+{
+"id": "person:Reuben",
+"type": "person",
+"confidence": 0.2225,
+"match_method": "canonical",
+"preferred_label": "Ru-bên"
 },
 {
 "id": "place:Beth-eked",
@@ -472,6 +451,13 @@
 "preferred_label": "Bết-ê-kết"
 },
 {
+"id": "place:BenjaminGate",
+"type": "place",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "Cổng Bên-gia-min"
+},
+{
 "id": "person:Hammelech",
 "type": "person",
 "confidence": 0.1663,
@@ -479,11 +465,18 @@
 "preferred_label": "Ham-mê-léc"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1625,
+"id": "place:Secu",
+"type": "place",
+"confidence": 0.1663,
 "match_method": "canonical",
-"preferred_label": "Cây ô-liu"
+"preferred_label": "Sê-cư"
+},
+{
+"id": "person:Malchiah",
+"type": "person",
+"confidence": 0.1663,
+"match_method": "canonical",
+"preferred_label": "Manh-ki-gia"
 },
 {
 "id": "flora:Fig",
@@ -493,60 +486,11 @@
 "preferred_label": "Trái vả"
 },
 {
-"id": "person:Asa",
-"type": "person",
-"confidence": 0.1613,
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "A-sa"
-},
-{
-"id": "person:Samuel",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Sa-mu-ên"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Làm ô uế"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Tin cậy"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Tước đoạt quyền sở hữu"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Ai Cập"
-},
-{
-"id": "person:Gedaliah.2",
-"type": "person",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Ghê-đa-lia"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Giao ước"
+"preferred_label": "Cây ô-liu"
 },
 {
 "id": "group:Midian",
@@ -556,53 +500,11 @@
 "preferred_label": "người Ma-đi-an"
 },
 {
-"id": "place:Ramah",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Ra-ma"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "người Ích-ma-ên"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Yêu"
-},
-{
-"id": "person:Ishmael",
+"id": "person:Gedaliah.2",
 "type": "person",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Ích-ma-ên"
-},
-{
-"id": "place:Naioth",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Na-giốt"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Thanh sạch"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1613,
-"match_method": "canonical",
-"preferred_label": "Ma-đi-an"
+"preferred_label": "Ghê-đa-lia"
 },
 {
 "id": "person:Baasha",
@@ -612,11 +514,39 @@
 "preferred_label": "Ba-ê-sa"
 },
 {
-"id": "place:Shephelah",
-"type": "place",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Sơ-phê-la"
+"preferred_label": "Tước đoạt quyền sở hữu"
+},
+{
+"id": "person:Ishmael",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Ích-ma-ên"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Sa-mu-ên"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Yêu"
+},
+{
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "người Ích-ma-ên"
 },
 {
 "id": "keyterm:Fear",
@@ -626,39 +556,74 @@
 "preferred_label": "Sợ hãi / Kính sợ"
 },
 {
-"id": "realia:ClayJar",
-"type": "realia",
-"confidence": 0.1013,
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "bình đất"
+"preferred_label": "Ai Cập"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "Bò"
+"preferred_label": "Sơ-phê-la"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "person:Asa",
+"type": "person",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "chó rừng"
+"preferred_label": "A-sa"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.1013,
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "cây kế"
+"preferred_label": "Tin cậy"
 },
 {
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1013,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1613,
 "match_method": "canonical",
-"preferred_label": "linh cẩu"
+"preferred_label": "Thanh sạch"
+},
+{
+"id": "place:Naioth",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Na-giốt"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Làm ô uế"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Ma-đi-an"
+},
+{
+"id": "place:Ramah",
+"type": "place",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Ra-ma"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1613,
+"match_method": "canonical",
+"preferred_label": "Giao ước"
 },
 {
 "id": "fauna:Bear",
@@ -668,11 +633,46 @@
 "preferred_label": "Gấu"
 },
 {
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "chó rừng"
+},
+{
+"id": "realia:ClayJar",
+"type": "realia",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "bình đất"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "cây kế"
+},
+{
 "id": "realia:Tower",
 "type": "realia",
 "confidence": 0.1013,
 "match_method": "canonical",
 "preferred_label": "Tháp canh"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "linh cẩu"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1013,
+"match_method": "canonical",
+"preferred_label": "Bò"
 },
 {
 "id": "fauna:Donkey",

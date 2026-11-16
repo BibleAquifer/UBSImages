@@ -3,9 +3,9 @@
 "content_id": "287250",
 "reference_id": 2002,
 "version": "1.0.4",
-"title": "Масада",
+"title": "Масада: вид на плато",
 "media_type": "Image",
-"index_reference": "масада",
+"index_reference": "масада вид на плато",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0622_masada.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0622_masada.jpg'>link</a></p></block>",
@@ -260,13 +260,6 @@
 "preferred_label": "рыболовная сеть"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3514,
-"match_method": "canonical",
-"preferred_label": "Филистимская земля"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3514,
@@ -281,11 +274,11 @@
 "preferred_label": "Вавилон"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2886,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3514,
 "match_method": "canonical",
-"preferred_label": "Израиль"
+"preferred_label": "Филистимская земля"
 },
 {
 "id": "person:Saul.2",
@@ -293,6 +286,13 @@
 "confidence": 0.2886,
 "match_method": "canonical",
 "preferred_label": "Саул"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "Израиль"
 },
 {
 "id": "place:Ziph.2",
@@ -309,18 +309,18 @@
 "preferred_label": "закидная сеть"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.2257,
 "match_method": "canonical",
 "preferred_label": "Вифлеем"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
 },
 {
 "id": "place:Moab",
@@ -330,11 +330,18 @@
 "preferred_label": "Моав"
 },
 {
-"id": "place:Millo",
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Елиав"
+},
+{
+"id": "place:Jeshimon",
 "type": "place",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Милло"
+"preferred_label": "Иесимон"
 },
 {
 "id": "person:Ezer.4",
@@ -342,13 +349,6 @@
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Езер"
-},
-{
-"id": "place:Hachilah",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Гахила"
 },
 {
 "id": "group:Ziph",
@@ -365,6 +365,13 @@
 "preferred_label": "Овадия"
 },
 {
+"id": "place:Millo",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Милло"
+},
+{
 "id": "place:Hereth",
 "type": "place",
 "confidence": 0.1686,
@@ -372,18 +379,18 @@
 "preferred_label": "Херет"
 },
 {
-"id": "place:Jeshimon",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Иесимон"
-},
-{
 "id": "keyterm:Refuge",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Прибежище"
+},
+{
+"id": "place:Hachilah",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Гахила"
 },
 {
 "id": "person:Gad.2",
@@ -400,39 +407,11 @@
 "preferred_label": "Мадиам"
 },
 {
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Елиав"
-},
-{
-"id": "keyterm:SeekfindRefuge",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Искать убежища"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Упование"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Холм Финееса"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Помазывать"
+"preferred_label": "Быть неверным"
 },
 {
 "id": "keyterm:IntactState",
@@ -442,25 +421,32 @@
 "preferred_label": "Мир"
 },
 {
-"id": "keyterm:Shield",
-"type": "keyterm",
+"id": "place:Kiriathaim",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Щит"
+"preferred_label": "Кириафаим"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Милость"
+"preferred_label": "колено Иудино"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Грешить"
+"preferred_label": "Искать убежища"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Твердый"
 },
 {
 "id": "keyterm:Deceit",
@@ -477,53 +463,25 @@
 "preferred_label": "Хореш"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "place:Chaldea",
+"id": "place:Gibeah.2",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Халдея"
+"preferred_label": "Холм Финееса"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Халдеи"
-},
-{
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Быть неверным"
+"preferred_label": "Милость"
 },
 {
-"id": "keyterm:BeFirm",
+"id": "keyterm:Shield",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Твердый"
-},
-{
-"id": "place:Kiriathaim",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Кириафаим"
+"preferred_label": "Щит"
 },
 {
 "id": "place:Engedi",
@@ -533,6 +491,48 @@
 "preferred_label": "Ен-Геди"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Упование"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Грешить"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Халдеи"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Халдея"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Помазывать"
+},
+{
 "id": "realia:Cage",
 "type": "realia",
 "confidence": 0.1086,
@@ -540,11 +540,18 @@
 "preferred_label": "Клетка"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "fauna:Fish",
+"type": "fauna",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Сандаловое дерево"
+"preferred_label": "Рыба"
+},
+{
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Западня"
 },
 {
 "id": "realia:Dragnet",
@@ -561,11 +568,11 @@
 "preferred_label": "Птица"
 },
 {
-"id": "realia:Harpoon",
-"type": "realia",
+"id": "flora:Sandalwood",
+"type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "гарпун"
+"preferred_label": "Сандаловое дерево"
 },
 {
 "id": "realia:SmallShield",
@@ -575,18 +582,11 @@
 "preferred_label": "малый щит"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Рыба"
-},
-{
-"id": "realia:Trap",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Западня"
+"preferred_label": "гарпун"
 }
 ]
 }

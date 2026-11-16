@@ -375,18 +375,11 @@
 "preferred_label": "Yerusalem"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2791,
 "match_method": "canonical",
-"preferred_label": "mezbah batu"
-},
-{
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "papan pengirik"
+"preferred_label": "mezbah Bait Allah"
 },
 {
 "id": "realia:Altar",
@@ -396,13 +389,6 @@
 "preferred_label": "Mezbah"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "mezbah Bait Allah"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.2791,
@@ -410,11 +396,39 @@
 "preferred_label": "mezbah Kemah Suci"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "papan pengirik"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.2791,
 "match_method": "canonical",
 "preferred_label": "gandum"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "mezbah batu"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "membersihkan sampai bersih"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Samaria"
 },
 {
 "id": "person:Jehoshaphat.3",
@@ -429,20 +443,6 @@
 "confidence": 0.2196,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "membersihkan sampai bersih"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "bernubuat seperti nabi"
 },
 {
 "id": "keyterm:Blow",
@@ -466,11 +466,11 @@
 "preferred_label": "Gad"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Speak",
+"type": "keyterm",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Samaria"
+"preferred_label": "bernubuat seperti nabi"
 },
 {
 "id": "flora:Barley",
@@ -487,60 +487,11 @@
 "preferred_label": "alat penampi"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Gideon"
-},
-{
-"id": "person:Joash",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Yoas"
-},
-{
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "mendapat bagian"
-},
-{
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Abiezer"
-},
-{
 "id": "place:BrookOfEgypt",
 "type": "place",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Sungai Mesir"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kehila"
-},
-{
-"id": "place:Ophrah.2",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ofra"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "orang Abiezer"
 },
 {
 "id": "place:MoriahMount",
@@ -550,6 +501,20 @@
 "preferred_label": "Gunung Moria"
 },
 {
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "mendapat bagian"
+},
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kehila"
+},
+{
 "id": "keyterm:FeastOfTabernacles",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -557,32 +522,74 @@
 "preferred_label": "Hari Raya Pondok Daun"
 },
 {
-"id": "place:Philistine",
+"id": "place:Ophrah.2",
 "type": "place",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Filistin"
+"preferred_label": "Ofra"
 },
 {
-"id": "group:Levi",
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "group:Abiezer",
 "type": "group",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "suku Lewi"
+"preferred_label": "orang Abiezer"
 },
 {
-"id": "keyterm:Perceive",
+"id": "person:Joash",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Yoas"
+},
+{
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Abiezer"
+},
+{
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "memahami"
+"preferred_label": "berlaku sebagai pelacur"
 },
 {
-"id": "person:Boaz",
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Sungai Efrat"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Babel"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "hukum"
+},
+{
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Boas"
+"preferred_label": "Salomo"
 },
 {
 "id": "group:Philistine",
@@ -599,25 +606,18 @@
 "preferred_label": "kasih"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Midian"
-},
-{
-"id": "keyterm:Hope",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "pengharapan"
+"preferred_label": "percaya kepada"
 },
 {
-"id": "person:Moses",
+"id": "person:Boaz",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Musa"
+"preferred_label": "Boas"
 },
 {
 "id": "keyterm:Counsel",
@@ -627,18 +627,39 @@
 "preferred_label": "nasihat"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Sungai Efrat"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "memberkati"
+"preferred_label": "wajib"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Musa"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "suku Lewi"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "memahami"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Filistin"
 },
 {
 "id": "person:Levi.3",
@@ -648,25 +669,11 @@
 "preferred_label": "Lewi"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
+"id": "place:Midian",
+"type": "place",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "hukum"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "wajib"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "berlaku sebagai pelacur"
+"preferred_label": "Midian"
 },
 {
 "id": "keyterm:Scripture",
@@ -676,39 +683,25 @@
 "preferred_label": "Kitab Suci"
 },
 {
-"id": "keyterm:BelieveIn",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "percaya kepada"
+"preferred_label": "pengharapan"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Babel"
+"preferred_label": "memberkati"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Salomo"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "pokok anggur"
-},
-{
-"id": "realia:Barn",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "lumbung"
+"preferred_label": "anggur baru"
 },
 {
 "id": "realia:Throne",
@@ -725,25 +718,25 @@
 "preferred_label": "pohon zaitun"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "lumbung"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "pokok anggur"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "uang"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "anggur baru"
-},
-{
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "jintan hitam"
 },
 {
 "id": "realia:Sheaf",
@@ -753,6 +746,13 @@
 "preferred_label": "berkas gandum"
 },
 {
+"id": "flora:NutmegFlower",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "jintan hitam"
+},
+{
 "id": "flora:Cumin",
 "type": "flora",
 "confidence": 0.1041,
@@ -760,32 +760,11 @@
 "preferred_label": "jintan putih"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Wool",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "Minyak urapan"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "tarbantin"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "bagal"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "ketumbar"
+"preferred_label": "bulu domba"
 },
 {
 "id": "realia:Shekel",
@@ -795,11 +774,32 @@
 "preferred_label": "syikal"
 },
 {
-"id": "realia:Staff",
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "anak domba"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "tarbantin"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "tongkat"
+"preferred_label": "Minyak urapan"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "efa"
 },
 {
 "id": "realia:Rod",
@@ -807,6 +807,55 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "tongkat"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "ketumbar"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "bagal"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "rumah"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "tongkat"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "kereta"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "kawanan domba"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "kambing"
 },
 {
 "id": "realia:Cake",
@@ -821,55 +870,6 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "minyak zaitun"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "efa"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "anak domba"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "kereta"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "kambing"
-},
-{
-"id": "realia:Wool",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "bulu domba"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "rumah"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "kawanan domba"
 }
 ]
 }

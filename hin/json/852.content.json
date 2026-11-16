@@ -3,9 +3,9 @@
 "content_id": "283918",
 "reference_id": 2402,
 "version": "1.0.4",
-"title": "डफ",
+"title": "वाद्य यंत्र बजाती मिट्टी की मूर्तियां",
 "media_type": "Image",
-"index_reference": "डफ",
+"index_reference": "वाद्य यंत्र बजाती मिट्टी की मूर्तियां",
 "language": "hin",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg'>link</a></p></block>",
@@ -167,13 +167,6 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.2562,
@@ -181,18 +174,18 @@
 "preferred_label": "पलिश्ती"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
+},
+{
 "id": "realia:Cymbals",
 "type": "realia",
 "confidence": 0.2088,
 "match_method": "canonical",
 "preferred_label": "झाँझ"
-},
-{
-"id": "place:Gibeath-elohim",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "गिबा-एलोहीम"
 },
 {
 "id": "person:Miriam",
@@ -209,11 +202,18 @@
 "preferred_label": "नये चाँद का पर्व"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "place:Gibeath-elohim",
+"type": "place",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "गिबा-एलोहीम"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "शाऊल"
 },
 {
 "id": "place:Gibeah.2",
@@ -223,25 +223,18 @@
 "preferred_label": "गिबा"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "भेंट"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "हारून"
-},
-{
-"id": "place:Mizpah.2",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "मिस्पा"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "भविष्यद्वाणी करना"
 },
 {
 "id": "keyterm:Bless",
@@ -258,18 +251,18 @@
 "preferred_label": "यिप्तह"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
+"id": "place:Mizpah.2",
+"type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "शाऊल"
+"preferred_label": "मिस्पा"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1306,
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "सनोवर"
+"preferred_label": "भविष्यद्वाणी करना"
 },
 {
 "id": "realia:Shaker",
@@ -279,37 +272,9 @@
 "preferred_label": "डमरू"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "ऊँचा स्थान"
-},
-{
-"id": "flora:Vine",
+"id": "flora:Cypress",
 "type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
-},
-{
-"id": "flora:JuniperTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "फोनीशियन सनोवर"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "तुरही"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
 "preferred_label": "सनोवर"
 },
@@ -321,18 +286,11 @@
 "preferred_label": "स्टोन पाइन"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "मेढ़े का सींग"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "घर"
+"preferred_label": "तुरही"
 },
 {
 "id": "flora:Juniper",
@@ -342,11 +300,53 @@
 "preferred_label": "ग्रीक सनोवर"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "घर"
+},
+{
+"id": "flora:JuniperTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "फोनीशियन सनोवर"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "ऊँचा स्थान"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "सनोवर"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "दाखलता"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "दाखमधु"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "मेढ़े का सींग"
 }
 ]
 }

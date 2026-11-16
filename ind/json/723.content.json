@@ -301,11 +301,11 @@
 "preferred_label": "menjadi murid"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "Minyak urapan"
+"preferred_label": "biji-bijian"
 },
 {
 "id": "realia:OliveOil",
@@ -315,11 +315,11 @@
 "preferred_label": "minyak zaitun"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "biji-bijian"
+"preferred_label": "Minyak urapan"
 },
 {
 "id": "place:Bethphage",
@@ -364,18 +364,18 @@
 "preferred_label": "Betania"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "bagal"
-},
-{
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "anggur baru"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "bagal"
 },
 {
 "id": "person:Jesus.2",
@@ -406,6 +406,13 @@
 "preferred_label": "orang Gederi"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "jelai"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1609,
@@ -413,25 +420,25 @@
 "preferred_label": "kambing"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "lembu sapi"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "lubang"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "uang"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "anggur"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "kawanan domba"
 },
 {
 "id": "realia:Temple",
@@ -448,67 +455,18 @@
 "preferred_label": "kaki dian"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "jelai"
-},
-{
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "kawanan domba"
+"preferred_label": "lembu sapi"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "anggur"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "mengusir"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "kemampuan"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "mengolesi"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "lubang"
 },
 {
 "id": "group:Philistine",
@@ -518,18 +476,18 @@
 "preferred_label": "orang Filistin"
 },
 {
-"id": "person:Noah",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Nuh"
+"preferred_label": "Petrus"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Libanon"
+"preferred_label": "lambang"
 },
 {
 "id": "person:John.2",
@@ -546,46 +504,18 @@
 "preferred_label": "Gedera"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "memberkati"
+"preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
 },
 {
-"id": "keyterm:Example",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "lambang"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Yakobus"
-},
-{
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Andreas"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "selama-lamanya"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Petrus"
+"preferred_label": "mengusir"
 },
 {
 "id": "person:Hezekiah",
@@ -595,11 +525,81 @@
 "preferred_label": "Hizkia"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Nuh"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "selama-lamanya"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Yakobus"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Filistin"
+},
+{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "Sefela"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "memberkati"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "kemampuan"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Andreas"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Libanon"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "mengolesi"
 },
 {
 "id": "flora:Myrtle",
@@ -609,46 +609,11 @@
 "preferred_label": "murad"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "pinus Aleppo"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "Kandang hewan"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "delima"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "kandang domba"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "pohon ara hutan"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "pinus payung"
 },
 {
 "id": "flora:DatePalm",
@@ -658,11 +623,18 @@
 "preferred_label": "pohon kurma"
 },
 {
-"id": "flora:Coriander",
+"id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "ketumbar"
+"preferred_label": "delima"
+},
+{
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "pinus payung"
 },
 {
 "id": "fauna:Dove",
@@ -672,11 +644,39 @@
 "preferred_label": "merpati"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "pinus Aleppo"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "ketumbar"
+},
+{
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "pohon ara hutan"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "kereta"
+},
+{
+"id": "realia:Sheepfold",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "kandang domba"
 },
 {
 "id": "fauna:Locust",

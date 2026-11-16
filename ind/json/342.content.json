@@ -3,9 +3,9 @@
 "content_id": "284296",
 "reference_id": 1847,
 "version": "1.0.4",
-"title": "Plakat",
+"title": "Panji-panji",
 "media_type": "Image",
-"index_reference": "plakat",
+"index_reference": "panjipanji",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0395_standards_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0395_standards_en.jpg'>link</a></p></block>",
@@ -474,6 +474,20 @@
 "preferred_label": "Dan"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "suku Dan"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2705,
@@ -486,20 +500,6 @@
 "confidence": 0.2705,
 "match_method": "canonical",
 "preferred_label": "Yehuda"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "suku Dan"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "Suku Yehuda"
 },
 {
 "id": "flora:Almond",
@@ -516,18 +516,18 @@
 "preferred_label": "Elizur"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2197,
-"match_method": "canonical",
-"preferred_label": "Ahiezer"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2197,
 "match_method": "canonical",
 "preferred_label": "Amihud"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2197,
+"match_method": "canonical",
+"preferred_label": "Ahiezer"
 },
 {
 "id": "person:Shedeur",
@@ -544,11 +544,11 @@
 "preferred_label": "Elisama"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "Amisyadai"
+"preferred_label": "suku Efraim"
 },
 {
 "id": "person:Ephraim",
@@ -558,11 +558,11 @@
 "preferred_label": "Efraim"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "Harun"
+"preferred_label": "Bangsa-Bangsa Lain"
 },
 {
 "id": "group:Reuben",
@@ -572,25 +572,11 @@
 "preferred_label": "suku Ruben"
 },
 {
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Nahason"
-},
-{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "Babel"
-},
-{
-"id": "person:Amminadab",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Aminadab"
 },
 {
 "id": "keyterm:Holy",
@@ -600,11 +586,32 @@
 "preferred_label": "kudus"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "suku Efraim"
+"preferred_label": "Harun"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Aminadab"
+},
+{
+"id": "person:Nahshon",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Nahason"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Amisyadai"
 },
 {
 "id": "person:Reuben",
@@ -612,13 +619,6 @@
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "Ruben"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Bangsa-Bangsa Lain"
 }
 ]
 }

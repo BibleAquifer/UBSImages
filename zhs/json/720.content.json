@@ -70,18 +70,18 @@
 "preferred_label": "杏树"
 },
 {
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.465,
-"match_method": "canonical",
-"preferred_label": "灯台"
-},
-{
 "id": "realia:Lampstand",
 "type": "realia",
 "confidence": 0.465,
 "match_method": "canonical",
 "preferred_label": "金灯台"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.465,
+"match_method": "canonical",
+"preferred_label": "灯台"
 },
 {
 "id": "person:Israel",
@@ -112,13 +112,6 @@
 "preferred_label": "耶利米"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "耶和华的话"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -126,11 +119,11 @@
 "preferred_label": "惧怕/敬畏"
 },
 {
-"id": "flora:Ladanum",
-"type": "flora",
-"confidence": 0.1713,
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "岩蔷薇"
+"preferred_label": "耶和华的话"
 },
 {
 "id": "flora:PlaneTree",
@@ -140,11 +133,18 @@
 "preferred_label": "枫树"
 },
 {
-"id": "flora:GumTragacanth",
+"id": "flora:PistachioNuts",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "香料"
+"preferred_label": "榧子"
+},
+{
+"id": "flora:Ladanum",
+"type": "flora",
+"confidence": 0.1713,
+"match_method": "canonical",
+"preferred_label": "岩蔷薇"
 },
 {
 "id": "flora:Caper",
@@ -154,18 +154,11 @@
 "preferred_label": "刺山柑"
 },
 {
-"id": "flora:PistachioNuts",
+"id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "榧子"
-},
-{
-"id": "flora:Poplar",
-"type": "flora",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "杨树"
+"preferred_label": "香料"
 },
 {
 "id": "flora:Terebinth",
@@ -175,11 +168,11 @@
 "preferred_label": "笃耨香树"
 },
 {
-"id": "flora:Liquidambar",
+"id": "flora:Poplar",
 "type": "flora",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "枫香树"
+"preferred_label": "杨树"
 },
 {
 "id": "realia:House",
@@ -187,6 +180,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "房屋"
+},
+{
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "枫香树"
 },
 {
 "id": "fauna:Locust",

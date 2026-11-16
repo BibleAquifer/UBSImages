@@ -119,13 +119,6 @@
 "preferred_label": "veado"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "contaminação"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.34,
@@ -133,11 +126,11 @@
 "preferred_label": "puro"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "contaminação"
 },
 {
 "id": "keyterm:Swear",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "jurar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "place:Jerusalem",
@@ -161,18 +161,18 @@
 "preferred_label": "amor"
 },
 {
+"id": "place:BetherMountain",
+"type": "place",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Beter"
+},
+{
 "id": "person:Asahel",
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Asael"
-},
-{
-"id": "person:Zeruiah",
-"type": "person",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Zeruia"
 },
 {
 "id": "person:Abishai",
@@ -182,39 +182,18 @@
 "preferred_label": "Abisai"
 },
 {
+"id": "person:Zeruiah",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Zeruia"
+},
+{
 "id": "place:Bath-rabbim",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Bate-Rabim"
-},
-{
-"id": "place:BetherMountain",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Beter"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Davi"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Damasco"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Joabe"
 },
 {
 "id": "place:Heshbon",
@@ -224,11 +203,18 @@
 "preferred_label": "Hesbom"
 },
 {
-"id": "place:Lebanon",
+"id": "place:Damascus",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Líbano"
+"preferred_label": "Damasco"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Davi"
 },
 {
 "id": "keyterm:Bless",
@@ -238,18 +224,18 @@
 "preferred_label": "abençoar"
 },
 {
-"id": "fauna:BubalHartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "gamo"
+"preferred_label": "Joabe"
 },
 {
-"id": "fauna:Hartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "antílope-vaca"
+"preferred_label": "Líbano"
 },
 {
 "id": "fauna:Ibex",
@@ -266,6 +252,20 @@
 "preferred_label": "órix"
 },
 {
+"id": "fauna:BubalHartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "gamo"
+},
+{
+"id": "fauna:Hartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "antílope-vaca"
+},
+{
 "id": "fauna:Addax",
 "type": "fauna",
 "confidence": 0.1333,
@@ -280,11 +280,11 @@
 "preferred_label": "bode"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
+"id": "realia:Trap",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "ave"
+"preferred_label": "armadilha"
 },
 {
 "id": "flora:BalsamTree",
@@ -292,6 +292,27 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "balsameiro"
+},
+{
+"id": "realia:Window",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "janela"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "ave"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "casa"
 },
 {
 "id": "flora:Lily",
@@ -308,32 +329,11 @@
 "preferred_label": "torre"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "casa"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "rebanho"
-},
-{
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "armadilha"
-},
-{
-"id": "realia:Window",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "janela"
 }
 ]
 }
