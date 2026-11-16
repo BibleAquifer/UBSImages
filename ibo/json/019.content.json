@@ -119,13 +119,6 @@
 "preferred_label": "ele"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Imerụ emerụ"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.34,
@@ -133,11 +126,11 @@
 "preferred_label": "Dị ọcha"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.34,
 "match_method": "canonical",
-"preferred_label": "ONYENWE ANYỊ"
+"preferred_label": "Imerụ emerụ"
 },
 {
 "id": "keyterm:Swear",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "Ịṅụ iyi"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "ONYENWE ANYỊ"
 },
 {
 "id": "place:Jerusalem",
@@ -161,18 +161,18 @@
 "preferred_label": "Ịhụnanya"
 },
 {
+"id": "place:BetherMountain",
+"type": "place",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Bethe"
+},
+{
 "id": "person:Asahel",
 "type": "person",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Asahel"
-},
-{
-"id": "person:Zeruiah",
-"type": "person",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Zeruaya"
 },
 {
 "id": "person:Abishai",
@@ -182,39 +182,18 @@
 "preferred_label": "Abishai"
 },
 {
+"id": "person:Zeruiah",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Zeruaya"
+},
+{
 "id": "place:Bath-rabbim",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Bat-Rabim"
-},
-{
-"id": "place:BetherMountain",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Bethe"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Devid"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Damaskọs"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Joab"
 },
 {
 "id": "place:Heshbon",
@@ -224,11 +203,18 @@
 "preferred_label": "Heshbọn"
 },
 {
-"id": "place:Lebanon",
+"id": "place:Damascus",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Lebanọn"
+"preferred_label": "Damaskọs"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Devid"
 },
 {
 "id": "keyterm:Bless",
@@ -238,18 +224,18 @@
 "preferred_label": "Gọzie"
 },
 {
-"id": "fauna:BubalHartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "ele ukwu"
+"preferred_label": "Joab"
 },
 {
-"id": "fauna:Hartebeest",
-"type": "fauna",
-"confidence": 0.1333,
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Ele ukwu"
+"preferred_label": "Lebanọn"
 },
 {
 "id": "fauna:Ibex",
@@ -266,6 +252,20 @@
 "preferred_label": "ele ukwu"
 },
 {
+"id": "fauna:BubalHartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "ele ukwu"
+},
+{
+"id": "fauna:Hartebeest",
+"type": "fauna",
+"confidence": 0.1333,
+"match_method": "canonical",
+"preferred_label": "Ele ukwu"
+},
+{
 "id": "fauna:Addax",
 "type": "fauna",
 "confidence": 0.1333,
@@ -280,11 +280,11 @@
 "preferred_label": "Ewu"
 },
 {
-"id": "fauna:Bird",
-"type": "fauna",
+"id": "realia:Trap",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Nnụnụ"
+"preferred_label": "Ọnya"
 },
 {
 "id": "flora:BalsamTree",
@@ -292,6 +292,27 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "osisi bọlsam"
+},
+{
+"id": "realia:Window",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Windo"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Nnụnụ"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Ụlọ"
 },
 {
 "id": "flora:Lily",
@@ -308,32 +329,11 @@
 "preferred_label": "Ụlọ nche"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Ụlọ"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Ìgwè atụrụ"
-},
-{
-"id": "realia:Trap",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Ọnya"
-},
-{
-"id": "realia:Window",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Windo"
 }
 ]
 }

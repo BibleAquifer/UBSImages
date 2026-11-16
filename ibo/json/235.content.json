@@ -3,9 +3,9 @@
 "content_id": "290720",
 "reference_id": 1740,
 "version": "1.0.4",
-"title": "Ụbe igbu azụ",
+"title": "Ube igbu azụ",
 "media_type": "Image",
-"index_reference": "ụbe igbu azụ",
+"index_reference": "ube igbu azụ",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0338_fishing_spear.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0338_fishing_spear.jpg'>link</a></p></block>",
@@ -83,13 +83,6 @@
 "preferred_label": "Babilọn"
 },
 {
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.2622,
-"match_method": "canonical",
-"preferred_label": "ụgbụ a na-atụba atụba"
-},
-{
 "id": "realia:BitAndBridle",
 "type": "realia",
 "confidence": 0.2622,
@@ -97,25 +90,18 @@
 "preferred_label": "Mkpụmkpụ igwe na eriri isi ịnyịnya"
 },
 {
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.2622,
+"match_method": "canonical",
+"preferred_label": "ụgbụ a na-atụba atụba"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "ONYENWE ANYỊ"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Asịrịa"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Ijipt"
 },
 {
 "id": "person:Israel",
@@ -130,6 +116,20 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Osimiri Naịl"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Ijipt"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Asịrịa"
 },
 {
 "id": "person:Manasseh.2",
@@ -160,11 +160,18 @@
 "preferred_label": "mma agha"
 },
 {
-"id": "fauna:Horse",
+"id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "Ịnyịnya"
+"preferred_label": "Azụ"
+},
+{
+"id": "realia:Fortress",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "ebe mgbaba e wusiri ike"
 },
 {
 "id": "realia:Net",
@@ -174,18 +181,11 @@
 "preferred_label": "Ụgbụ"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "ọta nta"
-},
-{
-"id": "fauna:Fish",
+"id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "Azụ"
+"preferred_label": "Ịnyịnya"
 },
 {
 "id": "realia:LargeShield",
@@ -195,11 +195,11 @@
 "preferred_label": "Ọta ukwu"
 },
 {
-"id": "realia:Fortress",
+"id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "ebe mgbaba e wusiri ike"
+"preferred_label": "ọta nta"
 }
 ]
 }

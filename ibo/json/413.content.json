@@ -3,9 +3,9 @@
 "content_id": "290899",
 "reference_id": 1918,
 "version": "1.0.4",
-"title": "Ụgbọ ịkụcha ọkụkọ",
+"title": "Ụgbọ ịkụcha ọka",
 "media_type": "Image",
-"index_reference": "ụgbọ ịkụcha ọkụkọ",
+"index_reference": "ụgbọ ịkụcha ọka",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0324_threshing_board.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0324_threshing_board.jpg'>link</a></p></block>",
@@ -81,13 +81,6 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.5355,
-"match_method": "canonical",
-"preferred_label": "Mkpọrọkọ ịzọcha ọka"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.5355,
@@ -95,11 +88,25 @@
 "preferred_label": "ọka"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.5355,
+"match_method": "canonical",
+"preferred_label": "Mkpọrọkọ ịzọcha ọka"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "ONYENWE ANYỊ"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2818,
+"match_method": "canonical",
+"preferred_label": "Onyinye"
 },
 {
 "id": "person:David",
@@ -116,18 +123,11 @@
 "preferred_label": "Ọnan"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "Onyinye"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
+"id": "flora:Wheat",
+"type": "flora",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "Ụgbọala dọkpụ dọkpụ"
+"preferred_label": "Ọka wiiti"
 },
 {
 "id": "fauna:Bull",
@@ -137,18 +137,11 @@
 "preferred_label": "ehi"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
+"id": "realia:Wagon",
+"type": "realia",
 "confidence": 0.2218,
 "match_method": "canonical",
-"preferred_label": "Ọka wiiti"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Gidiọn"
+"preferred_label": "Ụgbọala dọkpụ dọkpụ"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -163,6 +156,13 @@
 "confidence": 0.2091,
 "match_method": "canonical",
 "preferred_label": "Ofra"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.2091,
+"match_method": "canonical",
+"preferred_label": "Gidiọn"
 },
 {
 "id": "group:Abiezer",
@@ -186,11 +186,11 @@
 "preferred_label": "Abieza"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "place:Euphrates",
+"type": "place",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Nupu Isi"
+"preferred_label": "Osimiri Yufretis"
 },
 {
 "id": "place:Damascus",
@@ -200,6 +200,13 @@
 "preferred_label": "Damaskọs"
 },
 {
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "Gilead"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1909,
@@ -207,11 +214,11 @@
 "preferred_label": "Izrel"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "Osimiri Yufretis"
+"preferred_label": "Nupu Isi"
 },
 {
 "id": "deity:Angel",
@@ -219,13 +226,6 @@
 "confidence": 0.1909,
 "match_method": "canonical",
 "preferred_label": "Mmụọ Ozi"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Gilead"
 },
 {
 "id": "place:Midian",
@@ -249,11 +249,18 @@
 "preferred_label": "Karawe"
 },
 {
-"id": "realia:Winepress",
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "balị"
+},
+{
+"id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Ebe ịzọcha mmanya"
+"preferred_label": "efa"
 },
 {
 "id": "realia:Rod",
@@ -263,11 +270,18 @@
 "preferred_label": "Mkpara"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:Terebinth",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "Osisi oliv"
+"preferred_label": "Osisi terebint"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "Ebe ịzọcha mmanya"
 },
 {
 "id": "realia:Staff",
@@ -277,25 +291,11 @@
 "preferred_label": "Mkpanaka"
 },
 {
-"id": "flora:Barley",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "balị"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Osisi terebint"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "efa"
+"preferred_label": "Osisi oliv"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "291326",
 "reference_id": 2345,
 "version": "1.0.4",
-"title": "Ọnụ ụzọ En",
+"title": "Ọnụ ụzọ",
 "media_type": "Image",
-"index_reference": "ọnụ ụzọ en",
+"index_reference": "ọnụ ụzọ",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0406_threshold_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0406_threshold_en.jpg'>link</a></p></block>",
@@ -147,18 +147,11 @@
 "preferred_label": "Dagọn"
 },
 {
-"id": "realia:Doorpost",
+"id": "realia:Window",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Ibo ọnụ ụzọ"
-},
-{
-"id": "realia:Reed",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Osisi e ji atụ ihe"
+"preferred_label": "Windo"
 },
 {
 "id": "flora:Reed",
@@ -168,6 +161,13 @@
 "preferred_label": "achara"
 },
 {
+"id": "realia:Reed",
+"type": "realia",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Osisi e ji atụ ihe"
+},
+{
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.2,
@@ -175,11 +175,11 @@
 "preferred_label": "Achara e ji atụ ihe"
 },
 {
-"id": "realia:Window",
+"id": "realia:Doorpost",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Windo"
+"preferred_label": "Ibo ọnụ ụzọ"
 },
 {
 "id": "place:Tirzah",
@@ -189,53 +189,11 @@
 "preferred_label": "Tịaza"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Imerụ emerụ"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Onyinye"
-},
-{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Ịhọpụta"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Izrel"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Aghụghọ"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Igbe ọgbụgba ndụ"
-},
-{
-"id": "person:Jeroboam",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jeroboam"
 },
 {
 "id": "place:Ashdod",
@@ -245,32 +203,53 @@
 "preferred_label": "Ashdọd"
 },
 {
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Aghụghọ"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Onyinye"
+},
+{
+"id": "person:Jeroboam",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jeroboam"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Izrel"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Igbe ọgbụgba ndụ"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Imerụ emerụ"
+},
+{
 "id": "fauna:Owl.3",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "ikwighịkwighị"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Ewu"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Ebe ịchụàjà"
-},
-{
-"id": "realia:WritingCase",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Akpa ihe odee"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -280,11 +259,11 @@
 "preferred_label": "Igbe Ọgbụgba Ndụ"
 },
 {
-"id": "fauna:Jackdaw",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Okwolo"
+"preferred_label": "Ewu"
 },
 {
 "id": "realia:Capital",
@@ -294,18 +273,32 @@
 "preferred_label": "Isi ogidi"
 },
 {
-"id": "realia:Linen",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Akwa linen"
+"preferred_label": "Kụbit"
 },
 {
-"id": "fauna:Crow",
-"type": "fauna",
+"id": "realia:WritingCase",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "ugolọma"
+"preferred_label": "Akpa ihe odee"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Ebe ịchụ aja"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Ebe ịchụàjà"
 },
 {
 "id": "realia:StoneAltar",
@@ -322,18 +315,25 @@
 "preferred_label": "ebe ịchụ àjà nke ụlọ nzute"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Kụbit"
+"preferred_label": "Akwa linen"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
+"id": "fauna:Jackdaw",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Ebe ịchụ aja"
+"preferred_label": "Okwolo"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "ugolọma"
 },
 {
 "id": "fauna:Flock",

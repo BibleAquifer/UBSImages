@@ -3,9 +3,9 @@
 "content_id": "291194",
 "reference_id": 2213,
 "version": "1.0.4",
-"title": "Bea",
+"title": "Anụ bea",
 "media_type": "Image",
-"index_reference": "bea",
+"index_reference": "anụ bea",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0066_bears.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0066_bears.jpg'>link</a></p></block>",
@@ -114,6 +114,20 @@
 "preferred_label": "ONYENWE ANYỊ"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "ndị Filistia"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.2692,
+"match_method": "canonical",
+"preferred_label": "Sọl"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2692,
@@ -128,18 +142,32 @@
 "preferred_label": "Filistia"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2692,
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "ndị Filistia"
+"preferred_label": "Nzọpụta"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.2692,
+"id": "keyterm:Stupid",
+"type": "keyterm",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Sọl"
+"preferred_label": "Enweghị uche"
+},
+{
+"id": "keyterm:UncircumcisedPerson",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Onye a na-ebighị ugwu"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Nzuzu"
 },
 {
 "id": "person:Hushai",
@@ -156,39 +184,11 @@
 "preferred_label": "Nkà"
 },
 {
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Nzuzu"
-},
-{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Ikike"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Nzọpụta"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Onye a na-ebighị ugwu"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Enweghị uche"
 },
 {
 "id": "fauna:Leopard",
@@ -198,11 +198,46 @@
 "preferred_label": "Agụ"
 },
 {
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "dragọn"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Ewu"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Nwa atụrụ"
+},
+{
+"id": "fauna:Dove",
+"type": "fauna",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "nduru"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Ụlọ"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "osisi algụm"
 },
 {
 "id": "fauna:Bull",
@@ -219,46 +254,11 @@
 "preferred_label": "Agwọ"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Ụlọ"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Nwa atụrụ"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Ìgwè atụrụ"
-},
-{
-"id": "fauna:Dove",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "nduru"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "dragọn"
-},
-{
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "osisi algụm"
 }
 ]
 }

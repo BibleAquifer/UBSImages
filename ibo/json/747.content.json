@@ -3,9 +3,9 @@
 "content_id": "291278",
 "reference_id": 2297,
 "version": "1.0.4",
-"title": "Ogwe achara",
+"title": "Ogidi amị",
 "media_type": "Image",
-"index_reference": "ogwe achara",
+"index_reference": "ogidi amị",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0755_reed_stalk.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0755_reed_stalk.jpg'>link</a></p></block>",
@@ -242,18 +242,18 @@
 "preferred_label": "ONYENWE ANYỊ"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.2963,
-"match_method": "canonical",
-"preferred_label": "Mkpanaka"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2963,
 "match_method": "canonical",
 "preferred_label": "Ụlọ"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.2963,
+"match_method": "canonical",
+"preferred_label": "Mkpanaka"
 },
 {
 "id": "realia:MeasuringRod",
@@ -277,6 +277,20 @@
 "preferred_label": "Kụbit"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Jọn"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Izrel"
+},
+{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.2281,
@@ -291,39 +305,11 @@
 "preferred_label": "Kpọọ isiala"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Izrel"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Jọn"
-},
-{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
 "preferred_label": "mmanya gbara ụka"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Ọnụ ụzọ mbata"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Ụlọnsọ ukwu"
 },
 {
 "id": "realia:Foundation",
@@ -340,60 +326,18 @@
 "preferred_label": "ahịhịa"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1641,
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Jisọs"
+"preferred_label": "Ọnụ ụzọ mbata"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1641,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Ashera"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Osimiri Yufretis"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Eziokwu"
-},
-{
-"id": "place:Nile",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Osimiri Naịl"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Mmụọ Ozi"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ịlaịja"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "ndị Juu"
+"preferred_label": "Ụlọnsọ ukwu"
 },
 {
 "id": "keyterm:Judgment",
@@ -403,6 +347,41 @@
 "preferred_label": "Ikpe"
 },
 {
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Osimiri Yufretis"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "ndị Juu"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Ịlaịja"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Osimiri Naịl"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Eziokwu"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.1641,
@@ -410,46 +389,25 @@
 "preferred_label": "Kush"
 },
 {
-"id": "realia:Pen",
-"type": "realia",
-"confidence": 0.1103,
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Mkpisi akwụkwọ"
+"preferred_label": "Ashera"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1103,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "uke"
+"preferred_label": "Mmụọ Ozi"
 },
 {
-"id": "flora:LotusPlants",
-"type": "flora",
-"confidence": 0.1103,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Ahịhịa lotus"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "Akashia"
-},
-{
-"id": "realia:Ink",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "inki"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "Okpueze"
+"preferred_label": "Jisọs"
 },
 {
 "id": "flora:Cattails",
@@ -459,6 +417,20 @@
 "preferred_label": "Ahịhịa mmiri"
 },
 {
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Okpueze"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "uke"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1103,
@@ -466,18 +438,32 @@
 "preferred_label": "Okpueze"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1041,
+"id": "realia:Pen",
+"type": "realia",
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "ogwu ọhịa"
+"preferred_label": "Mkpisi akwụkwọ"
 },
 {
-"id": "flora:Papyrus",
+"id": "flora:LotusPlants",
 "type": "flora",
-"confidence": 0.1041,
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "ahịhịa papịrọs"
+"preferred_label": "Ahịhịa lotus"
+},
+{
+"id": "realia:Ink",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "inki"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Akashia"
 },
 {
 "id": "fauna:Jackal",
@@ -487,13 +473,6 @@
 "preferred_label": "Nkịta ọhịa"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Akwa linen"
-},
-{
 "id": "realia:Thread",
 "type": "realia",
 "confidence": 0.1041,
@@ -501,25 +480,11 @@
 "preferred_label": "Eriri"
 },
 {
-"id": "realia:SacredPole",
+"id": "realia:Room",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "osisi Ashera"
-},
-{
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "obosara ọbụ aka"
-},
-{
-"id": "realia:CityWall",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "mgbidi obodo"
+"preferred_label": "ọnụụlọ"
 },
 {
 "id": "realia:Lamp",
@@ -529,11 +494,46 @@
 "preferred_label": "Oriọna"
 },
 {
-"id": "realia:Room",
+"id": "realia:Handbreadth",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "ọnụụlọ"
+"preferred_label": "obosara ọbụ aka"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Akwa linen"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "ahịhịa papịrọs"
+},
+{
+"id": "realia:SacredPole",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "osisi Ashera"
+},
+{
+"id": "realia:CityWall",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "mgbidi obodo"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "ogwu ọhịa"
 }
 ]
 }

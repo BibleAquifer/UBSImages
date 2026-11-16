@@ -3,9 +3,9 @@
 "content_id": "290736",
 "reference_id": 1756,
 "version": "1.0.4",
-"title": "Ome akpụkpọ anụ na akpụkpọ anụ",
+"title": "Onye na-eme akpụkpọ anụ na akpụkpọ anụ",
 "media_type": "Image",
-"index_reference": "ome akpụkpọ anụ na akpụkpọ anụ",
+"index_reference": "onye naeme akpụkpọ anụ na akpụkpọ anụ",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0377_tanner_with_leather.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0377_tanner_with_leather.jpg'>link</a></p></block>",
@@ -282,13 +282,6 @@
 "preferred_label": "ebe ịchụ àjà nke ụlọ nzute"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Ebe ịchụàjà"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1733,
@@ -296,11 +289,18 @@
 "preferred_label": "Igbe Ọgbụgba Ndụ"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
+"id": "realia:TempleAltar",
+"type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "Akashia"
+"preferred_label": "Ebe ịchụ aja"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "Ebe ịchụàjà"
 },
 {
 "id": "realia:StoneAltar",
@@ -317,6 +317,13 @@
 "preferred_label": "Ụlọ"
 },
 {
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "Akashia"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1733,
@@ -324,18 +331,18 @@
 "preferred_label": "Ụlọ ikwu"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "Ebe ịchụ aja"
-},
-{
-"id": "group:Tishbite",
-"type": "group",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "ndị Tishbe"
+"preferred_label": "Pita"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Ịlaịja"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -343,6 +350,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Ido ihe ọcha"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Dị Nsọ"
 },
 {
 "id": "keyterm:Instruction",
@@ -359,25 +373,11 @@
 "preferred_label": "Tishbe"
 },
 {
-"id": "person:Elijah",
-"type": "person",
+"id": "group:Tishbite",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Ịlaịja"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Dị Nsọ"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Pita"
+"preferred_label": "ndị Tishbe"
 },
 {
 "id": "realia:Fork",
@@ -387,18 +387,18 @@
 "preferred_label": "ndụdụ"
 },
 {
-"id": "realia:Shovel",
-"type": "realia",
-"confidence": 0.1141,
-"match_method": "canonical",
-"preferred_label": "shọvel"
-},
-{
 "id": "realia:Belt",
 "type": "realia",
 "confidence": 0.1141,
 "match_method": "canonical",
 "preferred_label": "Ihe okike úkwù"
+},
+{
+"id": "realia:Shovel",
+"type": "realia",
+"confidence": 0.1141,
+"match_method": "canonical",
+"preferred_label": "shọvel"
 },
 {
 "id": "realia:Screen",

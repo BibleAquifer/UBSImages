@@ -3,9 +3,9 @@
 "content_id": "290966",
 "reference_id": 1985,
 "version": "1.0.4",
-"title": "Akụ mmiri n'ala",
+"title": "Akụ mmiri igwe n'ala",
 "media_type": "Image",
-"index_reference": "akụ mmiri nala",
+"index_reference": "akụ mmiri igwe nala",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0281_hail_on_ground.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0281_hail_on_ground.jpg'>link</a></p></block>",
@@ -224,18 +224,18 @@
 "preferred_label": "ehi"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "Izrel"
-},
-{
 "id": "person:Pharaoh.6",
 "type": "person",
 "confidence": 0.231,
 "match_method": "canonical",
 "preferred_label": "Fero"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "Izrel"
 },
 {
 "id": "keyterm:Arrow",
@@ -252,18 +252,11 @@
 "preferred_label": "Ndịda Bet-Horon"
 },
 {
-"id": "keyterm:Majesty",
-"type": "keyterm",
+"id": "place:Goshen",
+"type": "place",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Ebube"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "Imehie"
+"preferred_label": "Goshen"
 },
 {
 "id": "place:Azekah",
@@ -280,11 +273,18 @@
 "preferred_label": "Ebe mgbaba"
 },
 {
-"id": "place:Goshen",
-"type": "place",
+"id": "keyterm:Majesty",
+"type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Goshen"
+"preferred_label": "Ebube"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Imehie"
 },
 {
 "id": "realia:Plaster",
@@ -294,32 +294,11 @@
 "preferred_label": "Ụrọ ọcha e ji ete ụlọ"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Osisi vaịnị"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Achara e ji atụ ihe"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "fiig"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Osisi sikamọ"
 },
 {
 "id": "flora:Grain",
@@ -329,11 +308,11 @@
 "preferred_label": "ọka"
 },
 {
-"id": "realia:PlumbLine",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Ihe ịtụ mgbidi"
+"preferred_label": "Mkpara"
 },
 {
 "id": "realia:House",
@@ -343,6 +322,20 @@
 "preferred_label": "Ụlọ"
 },
 {
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Osisi sikamọ"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Osisi vaịnị"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1055,
@@ -350,11 +343,18 @@
 "preferred_label": "Igurube"
 },
 {
-"id": "realia:Rod",
+"id": "realia:PlumbLine",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Mkpara"
+"preferred_label": "Ihe ịtụ mgbidi"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Achara e ji atụ ihe"
 }
 ]
 }

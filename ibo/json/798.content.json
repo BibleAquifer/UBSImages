@@ -3,9 +3,9 @@
 "content_id": "291329",
 "reference_id": 2348,
 "version": "1.0.4",
-"title": "Mgbidi nkume",
+"title": "Mgbidi nkume gburugburu ubi",
 "media_type": "Image",
-"index_reference": "mgbidi nkume",
+"index_reference": "mgbidi nkume gburugburu ubi",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg'>link</a></p></block>",
@@ -264,18 +264,18 @@
 "preferred_label": "Osisi vaịnị"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2874,
-"match_method": "canonical",
-"preferred_label": "Ụlọ"
-},
-{
 "id": "realia:ThornHedge",
 "type": "realia",
 "confidence": 0.2874,
 "match_method": "canonical",
 "preferred_label": "Ogige ogwu"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2874,
+"match_method": "canonical",
+"preferred_label": "Ụlọ"
 },
 {
 "id": "realia:Winepress",
@@ -292,18 +292,18 @@
 "preferred_label": "uke"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "ilu"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "Gọzie"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "ilu"
 },
 {
 "id": "realia:Handbreadth",
@@ -327,11 +327,25 @@
 "preferred_label": "Judịa"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "Ebe ịchụ aja"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
 "preferred_label": "Ebe ịchụàjà"
+},
+{
+"id": "realia:Watch-tower",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "Ụlọ nche"
 },
 {
 "id": "realia:StoneAltar",
@@ -348,81 +362,11 @@
 "preferred_label": "ebe ịchụ àjà nke ụlọ nzute"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Ebe ịchụ aja"
-},
-{
-"id": "realia:Watch-tower",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Ụlọ nche"
-},
-{
-"id": "keyterm:Disobey",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Inupụ isi"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Mmemme a kara aka"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ime udo"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Peshịa"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Pọl"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Anụ ahụ"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Josef"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ikpuchi mmehie"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Iwu e nyere"
+"preferred_label": "Ibi nʼobi"
 },
 {
 "id": "keyterm:IntactState",
@@ -432,6 +376,20 @@
 "preferred_label": "Udo"
 },
 {
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Mmemme a kara aka"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Anụ ahụ"
+},
+{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.1618,
@@ -439,11 +397,11 @@
 "preferred_label": "Ido ihe ọcha"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Ikpuchi mmehie"
 },
 {
 "id": "keyterm:Kindness",
@@ -451,41 +409,6 @@
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "Obiọma"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Izrel"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ibi nʼobi"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Mmụọ Ozi"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Baal"
-},
-{
-"id": "keyterm:Profane",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ihe na-adịghị nsọ"
 },
 {
 "id": "keyterm:Law",
@@ -502,11 +425,81 @@
 "preferred_label": "Nleta"
 },
 {
-"id": "fauna:Boar",
-"type": "fauna",
-"confidence": 0.1071,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Oke ezi ọhịa"
+"preferred_label": "Jerusalem"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Peshịa"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Izrel"
+},
+{
+"id": "keyterm:Disobey",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Inupụ isi"
+},
+{
+"id": "keyterm:Profane",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Ihe na-adịghị nsọ"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Pọl"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Josef"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Iwu e nyere"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Baal"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Ime udo"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Mmụọ Ozi"
 },
 {
 "id": "realia:Plaster",
@@ -516,32 +509,18 @@
 "preferred_label": "Ụrọ ọcha e ji ete ụlọ"
 },
 {
+"id": "fauna:Boar",
+"type": "fauna",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "Oke ezi ọhịa"
+},
+{
 "id": "realia:Reed",
 "type": "realia",
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "Osisi e ji atụ ihe"
-},
-{
-"id": "realia:HewnStone",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "nkume a wara awa"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Mmanụ otite"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "achara"
 },
 {
 "id": "flora:OliveTree",
@@ -551,39 +530,11 @@
 "preferred_label": "Osisi oliv"
 },
 {
-"id": "realia:MeasuringReed",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "Achara e ji atụ ihe"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Ego"
-},
-{
-"id": "realia:Span",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "ntụ-aka"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Ụlọnsọ ukwu"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Mmanụ oliv"
+"preferred_label": "Mmanya ọhụrụ"
 },
 {
 "id": "fauna:Jackal",
@@ -593,39 +544,11 @@
 "preferred_label": "Nkịta ọhịa"
 },
 {
-"id": "flora:Grain",
+"id": "flora:Reed",
 "type": "flora",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "ọka"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Ịnyịnya muul"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Mmanya ọhụrụ"
-},
-{
-"id": "fauna:Pig",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Ezi"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Agwọ"
+"preferred_label": "achara"
 },
 {
 "id": "flora:Nettle",
@@ -635,11 +558,60 @@
 "preferred_label": "Uke"
 },
 {
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "ọka"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Ego"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Ụlọnsọ ukwu"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "osisi algụm"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
 "preferred_label": "Mpi ebe ịchụ aja"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Ezi"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Mmanụ oliv"
+},
+{
+"id": "realia:HewnStone",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "nkume a wara awa"
 },
 {
 "id": "fauna:Locust",
@@ -649,11 +621,39 @@
 "preferred_label": "Igurube"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "osisi algụm"
+"preferred_label": "Mmanụ otite"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Achara e ji atụ ihe"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Agwọ"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Ịnyịnya muul"
+},
+{
+"id": "realia:Span",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "ntụ-aka"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "291383",
 "reference_id": 2402,
 "version": "1.0.4",
-"title": "Ịgba",
+"title": "Ịgba egbe",
 "media_type": "Image",
-"index_reference": "ịgba",
+"index_reference": "ịgba egbe",
 "language": "ibo",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg'>link</a></p></block>",
@@ -167,13 +167,6 @@
 "preferred_label": "Devid"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Filistia"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.2562,
@@ -181,18 +174,18 @@
 "preferred_label": "ndị Filistia"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "Filistia"
+},
+{
 "id": "realia:Cymbals",
 "type": "realia",
 "confidence": 0.2088,
 "match_method": "canonical",
 "preferred_label": "ogene"
-},
-{
-"id": "place:Gibeath-elohim",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Gibea nke Chineke"
 },
 {
 "id": "person:Miriam",
@@ -209,11 +202,18 @@
 "preferred_label": "Mmemme ọnwa ọhụrụ"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "place:Gibeath-elohim",
+"type": "place",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Gibea nke Chineke"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Onyinye"
+"preferred_label": "Sọl"
 },
 {
 "id": "place:Gibeah.2",
@@ -223,25 +223,18 @@
 "preferred_label": "Gibea"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Onyinye"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Erọn"
-},
-{
-"id": "place:Mizpah.2",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Mizpa"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Ibu amụma"
 },
 {
 "id": "keyterm:Bless",
@@ -258,18 +251,18 @@
 "preferred_label": "Jefta"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
+"id": "place:Mizpah.2",
+"type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Sọl"
+"preferred_label": "Mizpa"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1306,
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "saipres"
+"preferred_label": "Ibu amụma"
 },
 {
 "id": "realia:Shaker",
@@ -279,39 +272,11 @@
 "preferred_label": "Ihe egwu a na-ekufe ekufe"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Ebe dị elu"
-},
-{
-"id": "flora:Vine",
+"id": "flora:Cypress",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "Osisi vaịnị"
-},
-{
-"id": "flora:JuniperTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "junipa Fonisia"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Opi ike"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "fọọ"
+"preferred_label": "saipres"
 },
 {
 "id": "flora:Pine",
@@ -321,18 +286,11 @@
 "preferred_label": "osisi paịn nkume"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "Opi mpi ebule"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Ụlọ"
+"preferred_label": "Opi ike"
 },
 {
 "id": "flora:Juniper",
@@ -342,11 +300,53 @@
 "preferred_label": "junipa Gris"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Ụlọ"
+},
+{
+"id": "flora:JuniperTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "junipa Fonisia"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Ebe dị elu"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "fọọ"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Osisi vaịnị"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "Mmanya"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Opi mpi ebule"
 }
 ]
 }
