@@ -193,18 +193,18 @@
 "preferred_label": "fig"
 },
 {
-"id": "realia:Jinglet",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "smol bel"
-},
-{
 "id": "realia:Robe",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
 "preferred_label": "longfala klos"
+},
+{
+"id": "realia:Jinglet",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "smol bel"
 },
 {
 "id": "flora:Barley",
@@ -221,11 +221,11 @@
 "preferred_label": "Oliftri"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "pepol kaliko"
+"preferred_label": "kiubit"
 },
 {
 "id": "place:EshcolValley",
@@ -235,18 +235,11 @@
 "preferred_label": "Vale ya Eskol"
 },
 {
-"id": "realia:Veil",
-"type": "realia",
+"id": "place:Migron",
+"type": "place",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "kaliko blong blokem fes"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "kiubit"
+"preferred_label": "Migron"
 },
 {
 "id": "flora:Coriander",
@@ -256,11 +249,25 @@
 "preferred_label": "korianda"
 },
 {
-"id": "place:Migron",
-"type": "place",
+"id": "realia:PurpleCloth",
+"type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Migron"
+"preferred_label": "pepol kaliko"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "kaliko blong blokem fes"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "HAE GOD"
 },
 {
 "id": "person:Moses",
@@ -270,11 +277,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "HAE GOD"
+"preferred_label": "Sol"
 },
 {
 "id": "place:Gibeah.2",
@@ -305,11 +312,11 @@
 "preferred_label": "klin"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.168,
+"id": "flora:Henna",
+"type": "flora",
+"confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Sol"
+"preferred_label": "hena"
 },
 {
 "id": "flora:Walnut",
@@ -319,60 +326,11 @@
 "preferred_label": "tri wolnat"
 },
 {
-"id": "flora:Henna",
-"type": "flora",
-"confidence": 0.116,
-"match_method": "canonical",
-"preferred_label": "hena"
-},
-{
 "id": "flora:Mandrake",
 "type": "flora",
 "confidence": 0.116,
 "match_method": "canonical",
 "preferred_label": "mandrek"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Oel blong makemaot man"
-},
-{
-"id": "realia:Spindle",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "stik blong spenem tred"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "olifoel"
-},
-{
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "tred"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "hafkas dongki"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "pamtri"
 },
 {
 "id": "realia:Must",
@@ -382,6 +340,27 @@
 "preferred_label": "niu waen"
 },
 {
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "pamtri"
+},
+{
+"id": "realia:Spindle",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "stik blong spenem tred"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "tred"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.108,
@@ -389,11 +368,11 @@
 "preferred_label": "wit"
 },
 {
-"id": "flora:Nard",
-"type": "flora",
+"id": "realia:Wine",
+"type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Nad"
+"preferred_label": "waen"
 },
 {
 "id": "realia:House",
@@ -403,11 +382,32 @@
 "preferred_label": "haos"
 },
 {
-"id": "realia:Wine",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "waen"
+"preferred_label": "olifoel"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Oel blong makemaot man"
+},
+{
+"id": "flora:Nard",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Nad"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "hafkas dongki"
 }
 ]
 }

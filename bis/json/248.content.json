@@ -115,13 +115,6 @@
 "preferred_label": "trufala tul blong smusum ston"
 },
 {
-"id": "person:Simon.3",
-"type": "person",
-"confidence": 0.3083,
-"match_method": "canonical",
-"preferred_label": "Saemon"
-},
-{
 "id": "person:Jude",
 "type": "person",
 "confidence": 0.3083,
@@ -129,11 +122,11 @@
 "preferred_label": "Jud"
 },
 {
-"id": "person:James.3",
+"id": "person:Simon.3",
 "type": "person",
-"confidence": 0.2917,
+"confidence": 0.3083,
 "match_method": "canonical",
-"preferred_label": "Jemes"
+"preferred_label": "Saemon"
 },
 {
 "id": "person:Hiram",
@@ -143,11 +136,39 @@
 "preferred_label": "Hiram"
 },
 {
+"id": "person:James.3",
+"type": "person",
+"confidence": 0.2917,
+"match_method": "canonical",
+"preferred_label": "Jemes"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Amon"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Taea"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Jerusalem"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "ol man Amon"
 },
 {
 "id": "deity:Angel",
@@ -162,27 +183,6 @@
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Meri"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Taea"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "ol man Amon"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Amon"
 },
 {
 "id": "person:Joseph.3",
@@ -220,13 +220,6 @@
 "preferred_label": "so"
 },
 {
-"id": "realia:Skin",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "skin blong anamol"
-},
-{
 "id": "realia:Stylus.2",
 "type": "realia",
 "confidence": 0.1442,
@@ -234,18 +227,25 @@
 "preferred_label": "tul blong makem mak"
 },
 {
-"id": "realia:BrickMold",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "mol blong brikis"
-},
-{
 "id": "realia:Compass",
 "type": "realia",
 "confidence": 0.1442,
 "match_method": "canonical",
 "preferred_label": "kompas blong droem serkel"
+},
+{
+"id": "realia:Skin",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "skin blong anamol"
+},
+{
+"id": "realia:BrickMold",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "mol blong brikis"
 },
 {
 "id": "realia:Chisel",
@@ -262,11 +262,18 @@
 "preferred_label": "nani"
 },
 {
-"id": "realia:HewnStone",
+"id": "realia:Foundation",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "ston we oli katem"
+"preferred_label": "fandesen"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Aks"
 },
 {
 "id": "realia:Rod",
@@ -276,18 +283,11 @@
 "preferred_label": "stik"
 },
 {
-"id": "realia:MeasuringReed",
+"id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "longfala rula blong makem graon"
-},
-{
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "fandesen"
+"preferred_label": "ston we oli katem"
 },
 {
 "id": "realia:Staff",
@@ -297,18 +297,18 @@
 "preferred_label": "stik blong wokbaot"
 },
 {
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "longfala rula blong makem graon"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "hip sipsip"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "Aks"
 }
 ]
 }

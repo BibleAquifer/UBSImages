@@ -3,9 +3,9 @@
 "content_id": "291649",
 "reference_id": 1735,
 "version": "1.0.4",
-"title": "Ples blong bitim wit",
+"title": "Flua Blong Dres",
 "media_type": "Image",
-"index_reference": "ples blong bitim wit",
+"index_reference": "flua blong dres",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0322_threshing_floor.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0322_threshing_floor.jpg'>link</a></p></block>",
@@ -375,18 +375,11 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2791,
 "match_method": "canonical",
-"preferred_label": "olta ston"
-},
-{
-"id": "realia:Threshing-sledge",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "wud blong klinim wit"
+"preferred_label": "Olta"
 },
 {
 "id": "realia:Altar",
@@ -396,13 +389,6 @@
 "preferred_label": "Ofta"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2791,
-"match_method": "canonical",
-"preferred_label": "Olta"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.2791,
@@ -410,11 +396,39 @@
 "preferred_label": "Olta blong Haos Tapolen"
 },
 {
+"id": "realia:Threshing-sledge",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "wud blong klinim wit"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.2791,
 "match_method": "canonical",
 "preferred_label": "wit"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2791,
+"match_method": "canonical",
+"preferred_label": "olta ston"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Klinimaot"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "Sameria"
 },
 {
 "id": "person:Jehoshaphat.3",
@@ -429,20 +443,6 @@
 "confidence": 0.2196,
 "match_method": "canonical",
 "preferred_label": "Juda"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "Klinimaot"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "toktok olsem profet"
 },
 {
 "id": "keyterm:Blow",
@@ -466,11 +466,11 @@
 "preferred_label": "Gad"
 },
 {
-"id": "place:Samaria",
-"type": "place",
+"id": "keyterm:Speak",
+"type": "keyterm",
 "confidence": 0.2196,
 "match_method": "canonical",
-"preferred_label": "Sameria"
+"preferred_label": "toktok olsem profet"
 },
 {
 "id": "flora:Barley",
@@ -487,60 +487,11 @@
 "preferred_label": "fok blong winowim wit"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Gideon"
-},
-{
-"id": "person:Joash",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Joas"
-},
-{
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "joen blong serem"
-},
-{
-"id": "person:Abiezer",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Abiesa"
-},
-{
 "id": "place:BrookOfEgypt",
 "type": "place",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Krik blong Ijip"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kehila"
-},
-{
-"id": "place:Ophrah.2",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Ofraha"
-},
-{
-"id": "group:Abiezer",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "ol laen blong Abiesa"
 },
 {
 "id": "place:MoriahMount",
@@ -550,6 +501,20 @@
 "preferred_label": "Hil Moria"
 },
 {
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "joen blong serem"
+},
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kehila"
+},
+{
 "id": "keyterm:FeastOfTabernacles",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -557,32 +522,74 @@
 "preferred_label": "Lafet blong ol Wansaed Haos"
 },
 {
-"id": "place:Philistine",
+"id": "place:Ophrah.2",
 "type": "place",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Filistia"
+"preferred_label": "Ofraha"
 },
 {
-"id": "group:Levi",
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "group:Abiezer",
 "type": "group",
-"confidence": 0.1598,
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Laen blong Livae"
+"preferred_label": "ol laen blong Abiesa"
 },
 {
-"id": "keyterm:Perceive",
+"id": "person:Joash",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Joas"
+},
+{
+"id": "person:Abiezer",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Abiesa"
+},
+{
+"id": "keyterm:PlayTheProstitute",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "kasem save"
+"preferred_label": "mekem fasin blong pampro"
 },
 {
-"id": "person:Boaz",
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Yufretes Reva"
+},
+{
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Babilon"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Loa"
+},
+{
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Boas"
+"preferred_label": "Solomon"
 },
 {
 "id": "group:Philistine",
@@ -599,25 +606,18 @@
 "preferred_label": "Lav"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Midian"
-},
-{
-"id": "keyterm:Hope",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "hop"
+"preferred_label": "bilif long"
 },
 {
-"id": "person:Moses",
+"id": "person:Boaz",
 "type": "person",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Moses"
+"preferred_label": "Boas"
 },
 {
 "id": "keyterm:Counsel",
@@ -627,18 +627,39 @@
 "preferred_label": "advwaes"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Yufretes Reva"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Blesem"
+"preferred_label": "mas mekem"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Laen blong Livae"
+},
+{
+"id": "keyterm:Perceive",
+"type": "keyterm",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "kasem save"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1598,
+"match_method": "canonical",
+"preferred_label": "Filistia"
 },
 {
 "id": "person:Levi.3",
@@ -648,25 +669,11 @@
 "preferred_label": "Livae"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
+"id": "place:Midian",
+"type": "place",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Loa"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "mas mekem"
-},
-{
-"id": "keyterm:PlayTheProstitute",
-"type": "keyterm",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "mekem fasin blong pampro"
+"preferred_label": "Midian"
 },
 {
 "id": "keyterm:Scripture",
@@ -676,39 +683,25 @@
 "preferred_label": "Ol Tok blong Baebol"
 },
 {
-"id": "keyterm:BelieveIn",
+"id": "keyterm:Hope",
 "type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "bilif long"
+"preferred_label": "hop"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.1598,
 "match_method": "canonical",
-"preferred_label": "Babilon"
+"preferred_label": "Blesem"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1598,
-"match_method": "canonical",
-"preferred_label": "Solomon"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "rop blong grep"
-},
-{
-"id": "realia:Barn",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Haos blong storem kakae"
+"preferred_label": "niu waen"
 },
 {
 "id": "realia:Throne",
@@ -725,25 +718,25 @@
 "preferred_label": "Oliftri"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Haos blong storem kakae"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "rop blong grep"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "mane"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "niu waen"
-},
-{
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Nutmeg flaoa"
 },
 {
 "id": "realia:Sheaf",
@@ -753,6 +746,13 @@
 "preferred_label": "bando blong wit"
 },
 {
+"id": "flora:NutmegFlower",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Nutmeg flaoa"
+},
+{
 "id": "flora:Cumin",
 "type": "flora",
 "confidence": 0.1041,
@@ -760,32 +760,11 @@
 "preferred_label": "kamin"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Wool",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "Oel blong makemaot man"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "terebint"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "hafkas dongki"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "korianda"
+"preferred_label": "wul"
 },
 {
 "id": "realia:Shekel",
@@ -795,11 +774,32 @@
 "preferred_label": "sekel"
 },
 {
-"id": "realia:Staff",
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "smol sipsip"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "terebint"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.0998,
 "match_method": "canonical",
-"preferred_label": "stik blong wokbaot"
+"preferred_label": "Oel blong makemaot man"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "efa"
 },
 {
 "id": "realia:Rod",
@@ -807,6 +807,55 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "stik"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "korianda"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "hafkas dongki"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "haos"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "stik blong wokbaot"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "kat"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "hip sipsip"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.0998,
+"match_method": "canonical",
+"preferred_label": "nani"
 },
 {
 "id": "realia:Cake",
@@ -821,55 +870,6 @@
 "confidence": 0.0998,
 "match_method": "canonical",
 "preferred_label": "olifoel"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "efa"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "smol sipsip"
-},
-{
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "kat"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "nani"
-},
-{
-"id": "realia:Wool",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "wul"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "haos"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.0998,
-"match_method": "canonical",
-"preferred_label": "hip sipsip"
 }
 ]
 }

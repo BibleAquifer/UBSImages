@@ -3,9 +3,9 @@
 "content_id": "291503",
 "reference_id": 1589,
 "version": "1.0.4",
-"title": "Ol bi",
+"title": "Bi",
 "media_type": "Image",
-"index_reference": "ol bi",
+"index_reference": "bi",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0067_bees.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0067_bees.jpg'>link</a></p></block>",
@@ -70,6 +70,13 @@
 "preferred_label": "sugabag"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "Jon"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3125,
@@ -84,11 +91,11 @@
 "preferred_label": "Wan Enjel"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.3125,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.2775,
 "match_method": "canonical",
-"preferred_label": "Jon"
+"preferred_label": "leta"
 },
 {
 "id": "realia:Belt",
@@ -96,13 +103,6 @@
 "confidence": 0.2775,
 "match_method": "canonical",
 "preferred_label": "belt"
-},
-{
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.2775,
-"match_method": "canonical",
-"preferred_label": "leta"
 },
 {
 "id": "fauna:Locust",
@@ -119,13 +119,6 @@
 "preferred_label": "kamel"
 },
 {
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.2525,
-"match_method": "canonical",
-"preferred_label": "rol pepa"
-},
-{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.2525,
@@ -133,32 +126,11 @@
 "preferred_label": "Bag"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2063,
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "Asiria"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Ijip"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "ol laen blong Amoro"
-},
-{
-"id": "place:Seir",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Seir"
+"preferred_label": "rol pepa"
 },
 {
 "id": "place:Zephath",
@@ -168,11 +140,39 @@
 "preferred_label": "Jefat"
 },
 {
+"id": "place:Seir",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Seir"
+},
+{
 "id": "keyterm:Circumcision",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
 "preferred_label": "Sakomsaes"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "ol laen blong Amoro"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Ijip"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Asiria"
 },
 {
 "id": "fauna:Fly",

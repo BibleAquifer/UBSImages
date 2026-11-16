@@ -149,13 +149,6 @@
 "preferred_label": "Samson"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Filistia"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.39,
@@ -170,25 +163,18 @@
 "preferred_label": "paoa"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Filistia"
+},
+{
 "id": "person:Delilah",
 "type": "person",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "Delila"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "rop"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "bonara"
 },
 {
 "id": "realia:Thread",
@@ -198,6 +184,13 @@
 "preferred_label": "tred"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "bonara"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
@@ -205,11 +198,32 @@
 "preferred_label": "haos"
 },
 {
-"id": "keyterm:Shield",
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "rop"
+},
+{
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "shild"
+"preferred_label": "Rod blong sevem man"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Ples we oli blokem"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Lehi"
 },
 {
 "id": "place:Jerusalem",
@@ -217,6 +231,13 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "shild"
 },
 {
 "id": "person:Israel",
@@ -233,27 +254,6 @@
 "preferred_label": "toktok olsem profet"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Ples we oli blokem"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Rod blong sevem man"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Lehi"
-},
-{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
@@ -268,11 +268,11 @@
 "preferred_label": "nani"
 },
 {
-"id": "realia:MeasuringReed",
-"type": "realia",
+"id": "flora:Flax",
+"type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "longfala rula blong makem graon"
+"preferred_label": "flakis"
 },
 {
 "id": "realia:Hammer",
@@ -282,13 +282,6 @@
 "preferred_label": "hama"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "smol sil"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1125,
@@ -296,18 +289,25 @@
 "preferred_label": "smol sipsip"
 },
 {
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "smol sil"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "longfala rula blong makem graon"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "hip sipsip"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "flakis"
 }
 ]
 }

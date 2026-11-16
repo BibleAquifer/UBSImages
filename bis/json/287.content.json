@@ -138,18 +138,18 @@
 "preferred_label": "HAE GOD"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "Blad"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "Laef"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "Blad"
 },
 {
 "id": "realia:Temple",
@@ -173,6 +173,62 @@
 "preferred_label": "Yufretes Reva"
 },
 {
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Wok blong jajem man"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Tabu"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Presen"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Prea"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "oltaem"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "gudfala smel"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Bodaon"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -187,18 +243,11 @@
 "preferred_label": "Fasin blong mekem i kam doti"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Presen"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bodaon"
+"preferred_label": "Wan vois we i no gat bodi"
 },
 {
 "id": "keyterm:Disciple",
@@ -208,67 +257,11 @@
 "preferred_label": "kam disaepol"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Tabu"
-},
-{
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "gudfala smel"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Prea"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Wan vois we i no gat bodi"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "oltaem"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Wok blong jajem man"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "plet blong kukum bred"
-},
-{
-"id": "realia:Towel",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "tawel"
 },
 {
 "id": "realia:Bowl",
@@ -278,25 +271,11 @@
 "preferred_label": "besin"
 },
 {
-"id": "realia:Incense",
+"id": "realia:Towel",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "insens"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Oel blong makemaot man"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "olifoel"
+"preferred_label": "tawel"
 },
 {
 "id": "realia:Image",
@@ -306,11 +285,32 @@
 "preferred_label": "pija"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "insens"
+},
+{
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "mandolin"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "olifoel"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Oel blong makemaot man"
 },
 {
 "id": "realia:Scroll",

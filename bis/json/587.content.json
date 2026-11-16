@@ -258,6 +258,13 @@
 "preferred_label": "buluk"
 },
 {
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.2919,
+"match_method": "canonical",
+"preferred_label": "Kidron"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2919,
@@ -265,11 +272,11 @@
 "preferred_label": "Fasin blong mekem i kam doti"
 },
 {
-"id": "place:Kidron",
-"type": "place",
-"confidence": 0.2919,
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Kidron"
+"preferred_label": "Olta"
 },
 {
 "id": "realia:Altar",
@@ -293,13 +300,6 @@
 "preferred_label": "Olta blong Haos Tapolen"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "Olta"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2865,
@@ -321,25 +321,11 @@
 "preferred_label": "Bigfala trabol"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Save"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "tanem tingting"
+"preferred_label": "saen"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -349,25 +335,18 @@
 "preferred_label": "Mekem i kam klin"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Isrel"
+"preferred_label": "Moses"
 },
 {
-"id": "place:Sidon",
-"type": "place",
+"id": "keyterm:Repent",
+"type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Saedon"
+"preferred_label": "tanem tingting"
 },
 {
 "id": "place:Tyre",
@@ -384,18 +363,25 @@
 "preferred_label": "Fero"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "saen"
-},
-{
-"id": "place:Bethsaida",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Betsaeda"
+"preferred_label": "Jerusalem"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Isrel"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Save"
 },
 {
 "id": "keyterm:Pure",
@@ -405,18 +391,25 @@
 "preferred_label": "klin"
 },
 {
-"id": "person:Tamar.2",
-"type": "person",
-"confidence": 0.1676,
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Tamara"
+"preferred_label": "Betsaeda"
 },
 {
-"id": "person:Mordecai.2",
-"type": "person",
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Saedon"
+},
+{
+"id": "place:HorseGate",
+"type": "place",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Modekae"
+"preferred_label": "Doa blong Hos"
 },
 {
 "id": "keyterm:Supplication",
@@ -426,11 +419,18 @@
 "preferred_label": "Krae blong wantem sore"
 },
 {
-"id": "place:HorseGate",
-"type": "place",
+"id": "person:Mordecai.2",
+"type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Doa blong Hos"
+"preferred_label": "Modekae"
+},
+{
+"id": "person:Tamar.2",
+"type": "person",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Tamara"
 },
 {
 "id": "realia:Kiln",
@@ -447,11 +447,11 @@
 "preferred_label": "haos"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Blad"
+"preferred_label": "Mekem strong promes"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -461,11 +461,11 @@
 "preferred_label": "kam tabu"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Mekem strong promes"
+"preferred_label": "ol man Jiu"
 },
 {
 "id": "keyterm:Body.3",
@@ -475,32 +475,11 @@
 "preferred_label": "Bodi"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Presen"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "strongfala tingting"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Eron"
-},
-{
-"id": "person:Ahaz",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ahas"
+"preferred_label": "laen blong Juda"
 },
 {
 "id": "keyterm:Delight",
@@ -517,53 +496,18 @@
 "preferred_label": "waestok"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Asera"
-},
-{
-"id": "person:Judah.4",
+"id": "person:Ahaz",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "Ahas"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "laen blong Juda"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ebraham"
-},
-{
-"id": "person:Manasseh.2",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Manase"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "ol man Jiu"
-},
-{
-"id": "keyterm:WordOfTheLord",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Tok blong Hae God"
+"preferred_label": "Presen"
 },
 {
 "id": "place:Nineveh",
@@ -573,11 +517,67 @@
 "preferred_label": "Nineve"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Eron"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Blad"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Tok blong Hae God"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Ebraham"
+},
+{
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Asera"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "strongfala tingting"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "mekem i sem"
+},
+{
+"id": "person:Manasseh.2",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Manase"
 },
 {
 "id": "fauna:Goat",
@@ -608,13 +608,6 @@
 "preferred_label": "wul"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Oel blong makemaot man"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.1022,
@@ -629,11 +622,32 @@
 "preferred_label": "aedol we oli kafsaedem long mol"
 },
 {
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "terebint"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "jea blong king"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "olifoel"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Oel blong makemaot man"
 },
 {
 "id": "realia:Clothing",
@@ -643,25 +657,11 @@
 "preferred_label": "klos"
 },
 {
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "terebint"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "hip sipsip"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "jea blong king"
 }
 ]
 }

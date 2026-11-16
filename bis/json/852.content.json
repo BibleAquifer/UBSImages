@@ -3,9 +3,9 @@
 "content_id": "292316",
 "reference_id": 2402,
 "version": "1.0.4",
-"title": "Tamburin",
+"title": "Tambu",
 "media_type": "Image",
-"index_reference": "tamburin",
+"index_reference": "tambu",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg'>link</a></p></block>",
@@ -167,13 +167,6 @@
 "preferred_label": "Deved"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Filistia"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.2562,
@@ -181,18 +174,18 @@
 "preferred_label": "ol man Filistia"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "Filistia"
+},
+{
 "id": "realia:Cymbals",
 "type": "realia",
 "confidence": 0.2088,
 "match_method": "canonical",
 "preferred_label": "simbol"
-},
-{
-"id": "place:Gibeath-elohim",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "Gibeat-elohim"
 },
 {
 "id": "person:Miriam",
@@ -209,11 +202,18 @@
 "preferred_label": "Lafet blong Niumun"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "place:Gibeath-elohim",
+"type": "place",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Gibeat-elohim"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Presen"
+"preferred_label": "Sol"
 },
 {
 "id": "place:Gibeah.2",
@@ -223,25 +223,18 @@
 "preferred_label": "Gibea"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Presen"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Eron"
-},
-{
-"id": "place:Mizpah.2",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Mispa"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "toktok olsem profet"
 },
 {
 "id": "keyterm:Bless",
@@ -258,18 +251,18 @@
 "preferred_label": "Jeftaha"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
+"id": "place:Mizpah.2",
+"type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Sol"
+"preferred_label": "Mispa"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1306,
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "saepras"
+"preferred_label": "toktok olsem profet"
 },
 {
 "id": "realia:Shaker",
@@ -279,39 +272,11 @@
 "preferred_label": "seka"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "hae ples blong mekem wosip"
-},
-{
-"id": "flora:Vine",
+"id": "flora:Cypress",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "rop blong grep"
-},
-{
-"id": "flora:JuniperTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "junipa blong Fonisia"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "trampet"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "paentri"
+"preferred_label": "saepras"
 },
 {
 "id": "flora:Pine",
@@ -321,18 +286,11 @@
 "preferred_label": "ston paen"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "pupu we oli wokem long hon blong sipsip"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "haos"
+"preferred_label": "trampet"
 },
 {
 "id": "flora:Juniper",
@@ -342,11 +300,53 @@
 "preferred_label": "junipa blong Gris"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "haos"
+},
+{
+"id": "flora:JuniperTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "junipa blong Fonisia"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "hae ples blong mekem wosip"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "paentri"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "rop blong grep"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "waen"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "pupu we oli wokem long hon blong sipsip"
 }
 ]
 }

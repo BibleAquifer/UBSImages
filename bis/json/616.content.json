@@ -3,9 +3,9 @@
 "content_id": "292074",
 "reference_id": 2160,
 "version": "1.0.4",
-"title": "Laef Krija Manchesta",
+"title": "Foa laef krija: Hanraet buk blong Manchesta",
 "media_type": "Image",
-"index_reference": "laef krija manchesta",
+"index_reference": "foa laef krija hanraet buk blong manchesta",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0605_living_creatures_manchester.jpg'>link</a></p></block>",
@@ -353,13 +353,6 @@
 "preferred_label": "Wan Enjel"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2783,
-"match_method": "canonical",
-"preferred_label": "sil"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2783,
@@ -367,11 +360,25 @@
 "preferred_label": "haos"
 },
 {
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2783,
+"match_method": "canonical",
+"preferred_label": "sil"
+},
+{
 "id": "deity:ThirdLivingCreature",
 "type": "deity",
 "confidence": 0.2277,
 "match_method": "canonical",
 "preferred_label": "Namba tri jerubim"
+},
+{
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2277,
+"match_method": "canonical",
+"preferred_label": "Namba Tu Jerubim"
 },
 {
 "id": "deity:FirstLivingCreature",
@@ -388,25 +395,11 @@
 "preferred_label": "Namba Fo Jerubim"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2277,
-"match_method": "canonical",
-"preferred_label": "Namba Tu Jerubim"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "!Tru tumas!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2191,
-"match_method": "canonical",
-"preferred_label": "Kebara"
+"preferred_label": "Tabu"
 },
 {
 "id": "keyterm:Life",
@@ -416,11 +409,11 @@
 "preferred_label": "Laef"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2191,
 "match_method": "canonical",
-"preferred_label": "Tabu"
+"preferred_label": "Kebara"
 },
 {
 "id": "keyterm:Always",
@@ -430,46 +423,18 @@
 "preferred_label": "oltaem"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2191,
+"match_method": "canonical",
+"preferred_label": "!Tru tumas!"
+},
+{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2187,
 "match_method": "canonical",
 "preferred_label": "linen"
-},
-{
-"id": "keyterm:ActWickedly",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Mekem Fasin we i No Stret"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "spirit"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Prea"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Wan vois we i no gat bodi"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "fraet"
 },
 {
 "id": "keyterm:Redeem",
@@ -479,11 +444,39 @@
 "preferred_label": "Pemaot"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1591,
+"id": "keyterm:ActWickedly",
+"type": "keyterm",
+"confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "laeon"
+"preferred_label": "Mekem Fasin we i No Stret"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Prea"
+},
+{
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "spirit"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "fraet"
+},
+{
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Wan vois we i no gat bodi"
 },
 {
 "id": "fauna:Vulture",
@@ -493,11 +486,25 @@
 "preferred_label": "valja"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "laeon"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1591,
 "match_method": "canonical",
 "preferred_label": "dis"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1038,
+"match_method": "canonical",
+"preferred_label": "denarias"
 },
 {
 "id": "realia:Balance",
@@ -514,11 +521,18 @@
 "preferred_label": "kwat"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1038,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "denarias"
+"preferred_label": "bale"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "wit"
 },
 {
 "id": "realia:Incense",
@@ -528,18 +542,18 @@
 "preferred_label": "insens"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "mandolin"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "buluk"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "hos"
 },
 {
 "id": "realia:OliveOil",
@@ -549,18 +563,11 @@
 "preferred_label": "olifoel"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "bale"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "mandolin"
+"preferred_label": "hos"
 },
 {
 "id": "realia:Scroll",
@@ -568,13 +575,6 @@
 "confidence": 0.0996,
 "match_method": "canonical",
 "preferred_label": "rol pepa"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "wit"
 },
 {
 "id": "realia:Wine",

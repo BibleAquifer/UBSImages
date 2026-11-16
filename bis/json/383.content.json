@@ -3,9 +3,9 @@
 "content_id": "291802",
 "reference_id": 1888,
 "version": "1.0.4",
-"title": "Pikinini blong nani got",
+"title": "Pikinini blong nani",
 "media_type": "Image",
-"index_reference": "pikinini blong nani got",
+"index_reference": "pikinini blong nani",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0264_goat_kid.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0264_goat_kid.jpg'>link</a></p></block>",
@@ -170,6 +170,13 @@
 "preferred_label": "smol sipsip"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.245,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
 "id": "person:Manoah",
 "type": "person",
 "confidence": 0.245,
@@ -177,11 +184,11 @@
 "preferred_label": "Manoa"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.245,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.185,
 "match_method": "canonical",
-"preferred_label": "Juda"
+"preferred_label": "haos"
 },
 {
 "id": "flora:Vine",
@@ -196,13 +203,6 @@
 "confidence": 0.185,
 "match_method": "canonical",
 "preferred_label": "botel we oli wokem long skin blong nani"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "haos"
 },
 {
 "id": "realia:Wine",
@@ -226,46 +226,11 @@
 "preferred_label": "ol man Adulam"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Deved"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Presen"
-},
-{
 "id": "keyterm:Serve.2",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "stap olsem slef"
-},
-{
-"id": "place:Bethel",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Betel"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Gideon"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Loa"
 },
 {
 "id": "place:Adullam",
@@ -275,39 +240,11 @@
 "preferred_label": "Adulam"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Wan Enjel"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Lav"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Tabu"
-},
-{
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Samson"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Jese"
 },
 {
 "id": "person:Saul.2",
@@ -317,11 +254,67 @@
 "preferred_label": "Sol"
 },
 {
-"id": "fauna:Leopard",
-"type": "fauna",
-"confidence": 0.1225,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "leped"
+"preferred_label": "Presen"
+},
+{
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Betel"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Loa"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Deved"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Lav"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Samson"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Wan Enjel"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Jese"
 },
 {
 "id": "fauna:Wolf",
@@ -331,39 +324,11 @@
 "preferred_label": "wael dog"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Leopard",
 "type": "fauna",
-"confidence": 0.1125,
+"confidence": 0.1225,
 "match_method": "canonical",
-"preferred_label": "laeon"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "buluk"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "aedol we oli kafsaedem long mol"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "terebint"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "Oktri"
+"preferred_label": "leped"
 },
 {
 "id": "realia:Ephah",
@@ -380,11 +345,46 @@
 "preferred_label": "bred we i no gat is long hem"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "aedol we oli kafsaedem long mol"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "wit"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "terebint"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "buluk"
+},
+{
+"id": "realia:Basket",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "Basket"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "laeon"
 },
 {
 "id": "fauna:Donkey",
@@ -394,11 +394,11 @@
 "preferred_label": "dongki"
 },
 {
-"id": "realia:Basket",
-"type": "realia",
+"id": "flora:Oak",
+"type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "Oktri"
 }
 ]
 }

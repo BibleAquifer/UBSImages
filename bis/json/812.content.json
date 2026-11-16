@@ -3,9 +3,9 @@
 "content_id": "292276",
 "reference_id": 2362,
 "version": "1.0.4",
-"title": "Sospen",
+"title": "Pout",
 "media_type": "Image",
-"index_reference": "sospen",
+"index_reference": "pout",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0450_pot.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0450_pot.jpg'>link</a></p></block>",
@@ -253,6 +253,13 @@
 "preferred_label": "tul blong katem wik blong laet"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1721,
+"match_method": "canonical",
+"preferred_label": "Olta"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1721,
@@ -274,13 +281,6 @@
 "preferred_label": "Olta blong Haos Tapolen"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1721,
-"match_method": "canonical",
-"preferred_label": "Olta"
-},
-{
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1661,
@@ -288,32 +288,18 @@
 "preferred_label": "Sore tumas"
 },
 {
-"id": "place:Gilgal.3",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Gilgal"
-},
-{
-"id": "keyterm:Lot",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Spesel Ston"
+"preferred_label": "no gat hed"
 },
 {
-"id": "place:Egypt",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Ijip"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "laen blong Juda"
 },
 {
 "id": "keyterm:Saying",
@@ -321,6 +307,20 @@
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "waestok"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Elisa"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
 },
 {
 "id": "person:Judah.4",
@@ -337,18 +337,18 @@
 "preferred_label": "Edom"
 },
 {
-"id": "person:Elisha",
-"type": "person",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "Elisa"
+"preferred_label": "Ijip"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "place:Gilgal.3",
+"type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "laen blong Juda"
+"preferred_label": "Gilgal"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -358,25 +358,18 @@
 "preferred_label": "Tok blong Hae God"
 },
 {
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Spesel Ston"
+},
+{
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Pasova"
-},
-{
-"id": "keyterm:Stupid",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "no gat hed"
-},
-{
-"id": "flora:Ivy",
-"type": "flora",
-"confidence": 0.1132,
-"match_method": "canonical",
-"preferred_label": "aevi"
 },
 {
 "id": "flora:Colocynth",
@@ -393,18 +386,11 @@
 "preferred_label": "besin"
 },
 {
-"id": "flora:Brier",
+"id": "flora:Ivy",
 "type": "flora",
-"confidence": 0.1061,
+"confidence": 0.1132,
 "match_method": "canonical",
-"preferred_label": "ropnil"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "rop blong grep"
+"preferred_label": "aevi"
 },
 {
 "id": "realia:Money",
@@ -414,11 +400,11 @@
 "preferred_label": "mane"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "flora:Brier",
+"type": "flora",
 "confidence": 0.1061,
 "match_method": "canonical",
-"preferred_label": "hos"
+"preferred_label": "ropnil"
 },
 {
 "id": "realia:Lampstand.2",
@@ -426,6 +412,20 @@
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "ples blong putum laet"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "rop blong grep"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "hos"
 }
 ]
 }

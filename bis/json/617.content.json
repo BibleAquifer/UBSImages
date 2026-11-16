@@ -3,9 +3,9 @@
 "content_id": "292075",
 "reference_id": 2161,
 "version": "1.0.4",
-"title": "Ol laef samting Facundus",
+"title": "Fo laef kriza: Manuskrip blong Facundus",
 "media_type": "Image",
-"index_reference": "ol laef samting facundus",
+"index_reference": "fo laef kriza manuskrip blong facundus",
 "language": "bis",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0602_living_creatures_facundus.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0602_living_creatures_facundus.jpg'>link</a></p></block>",
@@ -309,18 +309,18 @@
 "preferred_label": "Bodaon"
 },
 {
-"id": "realia:Seal",
-"type": "realia",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "sil"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2829,
 "match_method": "canonical",
 "preferred_label": "haos"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "sil"
 },
 {
 "id": "deity:Angel",
@@ -337,6 +337,13 @@
 "preferred_label": "Namba tri jerubim"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "Namba Tu Jerubim"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.231,
@@ -351,13 +358,6 @@
 "preferred_label": "Namba Fo Jerubim"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "Namba Tu Jerubim"
-},
-{
 "id": "realia:Linen",
 "type": "realia",
 "confidence": 0.2221,
@@ -365,18 +365,11 @@
 "preferred_label": "linen"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "!Tru tumas!"
-},
-{
-"id": "place:Chebar",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Kebara"
+"preferred_label": "Tabu"
 },
 {
 "id": "person:Israel",
@@ -393,11 +386,11 @@
 "preferred_label": "Laef"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Chebar",
+"type": "place",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Tabu"
+"preferred_label": "Kebara"
 },
 {
 "id": "keyterm:Always",
@@ -407,11 +400,11 @@
 "preferred_label": "oltaem"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1614,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "laeon"
+"preferred_label": "!Tru tumas!"
 },
 {
 "id": "fauna:Vulture",
@@ -421,11 +414,25 @@
 "preferred_label": "valja"
 },
 {
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "laeon"
+},
+{
 "id": "realia:Bowl.2",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "dis"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Pemaot"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -435,13 +442,6 @@
 "preferred_label": "Mekem Fasin we i No Stret"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "spirit"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.1607,
@@ -449,11 +449,11 @@
 "preferred_label": "Prea"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Wan vois we i no gat bodi"
+"preferred_label": "spirit"
 },
 {
 "id": "keyterm:Fear",
@@ -463,11 +463,18 @@
 "preferred_label": "fraet"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Pemaot"
+"preferred_label": "Wan vois we i no gat bodi"
+},
+{
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "denarias"
 },
 {
 "id": "realia:Balance",
@@ -484,11 +491,18 @@
 "preferred_label": "kwat"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1055,
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "denarias"
+"preferred_label": "bale"
+},
+{
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "wit"
 },
 {
 "id": "realia:Incense",
@@ -498,18 +512,18 @@
 "preferred_label": "insens"
 },
 {
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "mandolin"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "buluk"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "hos"
 },
 {
 "id": "realia:OliveOil",
@@ -519,18 +533,11 @@
 "preferred_label": "olifoel"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "bale"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "mandolin"
+"preferred_label": "hos"
 },
 {
 "id": "realia:Scroll",
@@ -538,13 +545,6 @@
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "rol pepa"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "wit"
 },
 {
 "id": "realia:Wine",

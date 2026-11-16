@@ -75,6 +75,13 @@
 "resource": [],
 "acai": [
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.65,
+"match_method": "canonical",
+"preferred_label": "Olta"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.65,
@@ -94,13 +101,6 @@
 "confidence": 0.65,
 "match_method": "canonical",
 "preferred_label": "Olta blong Haos Tapolen"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.65,
-"match_method": "canonical",
-"preferred_label": "Olta"
 },
 {
 "id": "deity:Asherah",
@@ -131,18 +131,18 @@
 "preferred_label": "pija"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.29,
+"match_method": "canonical",
+"preferred_label": "laen blong Juda"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.29,
 "match_method": "canonical",
 "preferred_label": "HAE GOD"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.29,
-"match_method": "canonical",
-"preferred_label": "Isrel"
 },
 {
 "id": "person:Judah.4",
@@ -152,11 +152,11 @@
 "preferred_label": "Juda"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.29,
 "match_method": "canonical",
-"preferred_label": "laen blong Juda"
+"preferred_label": "Isrel"
 },
 {
 "id": "deity:Baal",
@@ -173,6 +173,13 @@
 "preferred_label": "hae ples blong mekem wosip"
 },
 {
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.23,
+"match_method": "canonical",
+"preferred_label": "ston paen"
+},
+{
 "id": "realia:GravenImage",
 "type": "realia",
 "confidence": 0.23,
@@ -180,11 +187,25 @@
 "preferred_label": "aedol we oli katem"
 },
 {
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.23,
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.195,
 "match_method": "canonical",
-"preferred_label": "ston paen"
+"preferred_label": "Kidron"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "tijing"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.195,
+"match_method": "canonical",
+"preferred_label": "Fogivim"
 },
 {
 "id": "keyterm:Destroy",
@@ -206,27 +227,6 @@
 "confidence": 0.195,
 "match_method": "canonical",
 "preferred_label": "Mekem Sin"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "tijing"
-},
-{
-"id": "place:Kidron",
-"type": "place",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Kidron"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.195,
-"match_method": "canonical",
-"preferred_label": "Fogivim"
 },
 {
 "id": "realia:MoltenImage",

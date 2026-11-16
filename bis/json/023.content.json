@@ -335,6 +335,27 @@
 "preferred_label": "dog"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Tabu"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Skae"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Ol Devel"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -349,39 +370,11 @@
 "preferred_label": "Jisas"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Tabu"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Ol Devel"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Skae"
-},
-{
 "id": "place:Hazor.5",
 "type": "place",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "Hajoro"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "rop blong grep"
 },
 {
 "id": "flora:Grass",
@@ -391,11 +384,11 @@
 "preferred_label": "gras"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1602,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Mekem i Kam Wan Samting Blong Wan Man"
+"preferred_label": "rop blong grep"
 },
 {
 "id": "keyterm:Swear",
@@ -405,11 +398,11 @@
 "preferred_label": "Mekem strong promes"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Presen"
+"preferred_label": "putumap"
 },
 {
 "id": "keyterm:Mischief",
@@ -419,81 +412,11 @@
 "preferred_label": "Rabis fasin"
 },
 {
-"id": "keyterm:Appoint",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "putumap"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Wan Man"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Karem ona mo glori i kam long yu wan"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Isrel"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "ol man Edom"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Singsing blong krae blong sore"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Babilon"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Samting we i nogud we i nogud"
+"preferred_label": "Mekem i Kam Wan Samting Blong Wan Man"
 },
 {
 "id": "group:Judah",
@@ -503,11 +426,67 @@
 "preferred_label": "laen blong Juda"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Babilon"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Karem ona mo glori i kam long yu wan"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Wan Man"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Presen"
+},
+{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "tru"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Isrel"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Edom"
 },
 {
 "id": "keyterm:Bless",
@@ -517,11 +496,32 @@
 "preferred_label": "Blesem"
 },
 {
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Samting we i nogud we i nogud"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "Samson"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "klin"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "ol man Edom"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -531,11 +531,18 @@
 "preferred_label": "Gat devel i stap long hem"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "klin"
+"preferred_label": "Singsing blong krae blong sore"
+},
+{
+"id": "fauna:Mouse",
+"type": "fauna",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "rat"
 },
 {
 "id": "flora:Carob",
@@ -552,13 +559,6 @@
 "preferred_label": "aol"
 },
 {
-"id": "fauna:Mouse",
-"type": "fauna",
-"confidence": 0.1048,
-"match_method": "canonical",
-"preferred_label": "rat"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.1002,
@@ -573,11 +573,18 @@
 "preferred_label": "waelken"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "buluk"
+"preferred_label": "frangkinsens"
+},
+{
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "Ropnil"
 },
 {
 "id": "flora:Brier",
@@ -587,18 +594,11 @@
 "preferred_label": "ropnil"
 },
 {
-"id": "flora:Papyrus",
-"type": "flora",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "papirus"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "frangkinsens"
+"preferred_label": "smol sipsip"
 },
 {
 "id": "flora:Thistle",
@@ -615,18 +615,11 @@
 "preferred_label": "haos"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "smol sipsip"
-},
-{
-"id": "flora:Nettle",
+"id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "Ropnil"
+"preferred_label": "papirus"
 },
 {
 "id": "realia:Earring",
@@ -634,6 +627,13 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "iaring"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "buluk"
 }
 ]
 }
