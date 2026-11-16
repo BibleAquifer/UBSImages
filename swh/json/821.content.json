@@ -3,9 +3,9 @@
 "content_id": "289485",
 "reference_id": 2371,
 "version": "1.0.4",
-"title": "Jiwe la kumbukumbu",
+"title": "Mawe ya kumbukumbu yaliyosimama",
 "media_type": "Image",
-"index_reference": "jiwe la kumbukumbu",
+"index_reference": "mawe ya kumbukumbu yaliyosimama",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0465_pillar_memorial_stone.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0465_pillar_memorial_stone.jpg'>link</a></p></block>",
@@ -242,6 +242,13 @@
 "preferred_label": "Nguzo ya Ashera"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.4025,
+"match_method": "canonical",
+"preferred_label": "Madhabahu ya Hekalu"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.4025,
@@ -261,13 +268,6 @@
 "confidence": 0.4025,
 "match_method": "canonical",
 "preferred_label": "Madhabahu ya Maskani"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.4025,
-"match_method": "canonical",
-"preferred_label": "Madhabahu ya Hekalu"
 },
 {
 "id": "flora:Pine",
@@ -326,18 +326,18 @@
 "preferred_label": "Mafuta ya upako"
 },
 {
-"id": "keyterm:Incantations",
-"type": "keyterm",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Uaguzi"
-},
-{
 "id": "deity:Nehushtan",
 "type": "deity",
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "Nehushtani"
+},
+{
+"id": "keyterm:Incantations",
+"type": "keyterm",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Uaguzi"
 },
 {
 "id": "place:KingsValley",
@@ -354,39 +354,18 @@
 "preferred_label": "Mafuta ya zeituni"
 },
 {
-"id": "person:Asa",
+"id": "person:Rachel",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Asa"
+"preferred_label": "Raheli"
 },
 {
-"id": "keyterm:Witness",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Shahidi"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Benyamini"
-},
-{
-"id": "group:Manasseh",
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Kabila la Manase"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sadaka"
+"preferred_label": "Kabila la Efraimu"
 },
 {
 "id": "person:Ephraim",
@@ -396,6 +375,41 @@
 "preferred_label": "Efraimu"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kabila la Yuda"
+},
+{
+"id": "group:Manasseh",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kabila la Manase"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Benyamini"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sadaka"
+},
+{
+"id": "person:Manasseh",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Manase"
+},
+{
 "id": "place:Bethel",
 "type": "place",
 "confidence": 0.1641,
@@ -403,11 +417,11 @@
 "preferred_label": "Betheli"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
+"id": "deity:Teraphim",
+"type": "deity",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Kupaka Mafuta"
+"preferred_label": "Terafimu"
 },
 {
 "id": "keyterm:Slaughtering",
@@ -415,6 +429,13 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Kuchinja Dhabihu"
+},
+{
+"id": "keyterm:Witness",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Shahidi"
 },
 {
 "id": "person:Judah.4",
@@ -431,39 +452,11 @@
 "preferred_label": "Labani"
 },
 {
-"id": "place:On",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Oni"
-},
-{
-"id": "keyterm:Idol",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sanamu"
-},
-{
 "id": "person:Absalom",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "Absalomu"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kabila la Benyamini"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -473,32 +466,18 @@
 "preferred_label": "Kutumikisha kwa Shuruti"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kabila la Efraimu"
-},
-{
-"id": "deity:Teraphim",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Terafimu"
-},
-{
-"id": "person:Rachel",
+"id": "person:Asa",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Raheli"
+"preferred_label": "Asa"
 },
 {
-"id": "person:Manasseh",
-"type": "person",
+"id": "keyterm:Idol",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Manase"
+"preferred_label": "Sanamu"
 },
 {
 "id": "keyterm:Vow",
@@ -508,11 +487,32 @@
 "preferred_label": "Kuweka Nadhiri"
 },
 {
-"id": "realia:HouseholdIdols",
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kabila la Benyamini"
+},
+{
+"id": "place:On",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Oni"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kupaka Mafuta"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Miungu ya Nyumbani"
+"preferred_label": "Sanamu"
 },
 {
 "id": "realia:Ephod",
@@ -529,11 +529,11 @@
 "preferred_label": "Mzabibu"
 },
 {
-"id": "realia:Wine",
+"id": "realia:HouseholdIdols",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Divai"
+"preferred_label": "Miungu ya Nyumbani"
 },
 {
 "id": "fauna:Horse",
@@ -543,18 +543,18 @@
 "preferred_label": "Farasi"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Sanamu"
-},
-{
 "id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "nyoka"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Divai"
 }
 ]
 }

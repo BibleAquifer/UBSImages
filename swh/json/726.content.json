@@ -234,11 +234,11 @@
 "preferred_label": "Yazeri"
 },
 {
-"id": "place:JazerSea",
+"id": "place:Sibmah",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Bahari ya Yazeri"
+"preferred_label": "Sibma"
 },
 {
 "id": "place:EshcolValley",
@@ -248,11 +248,11 @@
 "preferred_label": "Bonde la Eshkoli"
 },
 {
-"id": "place:Sibmah",
+"id": "place:JazerSea",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Sibma"
+"preferred_label": "Bahari ya Yazeri"
 },
 {
 "id": "person:Abiezer",
@@ -262,11 +262,11 @@
 "preferred_label": "Abiezeri"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
+"id": "flora:Barley",
+"type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Mundu"
+"preferred_label": "Shayiri"
 },
 {
 "id": "flora:Brier",
@@ -276,18 +276,11 @@
 "preferred_label": "Mchongoma"
 },
 {
-"id": "flora:Boxthorn",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Mti wa miiba"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "mshita"
+"preferred_label": "Ngano"
 },
 {
 "id": "flora:Thistle",
@@ -297,18 +290,25 @@
 "preferred_label": "Mchongoma"
 },
 {
-"id": "flora:Barley",
+"id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Shayiri"
+"preferred_label": "mshita"
 },
 {
-"id": "flora:Wheat",
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "Mundu"
+},
+{
+"id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Ngano"
+"preferred_label": "Mti wa miiba"
 },
 {
 "id": "fauna:Donkey",
@@ -318,116 +318,11 @@
 "preferred_label": "Punda"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Bashani"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Kutumaini"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Farao"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Uwezo"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Efraimu"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Usalama"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Sodoma"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Sabato"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Wanadhiri"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Mamlaka"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Kitu cha kuchukiza"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Malaika"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Baali"
 },
 {
 "id": "group:Ephraim",
@@ -437,11 +332,102 @@
 "preferred_label": "Kabila la Efraimu"
 },
 {
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Efraimu"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Wanadhiri"
+},
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Sodoma"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Kabila la Yuda"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Farao"
+},
+{
 "id": "place:Gomorrah",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Gomora"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Bashani"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Kitu cha kuchukiza"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Kutumaini"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Uwezo"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Usalama"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Baali"
 },
 {
 "id": "keyterm:Bitter",
@@ -451,18 +437,25 @@
 "preferred_label": "-Chungu"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Malaika"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Mamlaka"
+},
+{
 "id": "flora:Chicory",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Mboga chungu"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Mnara"
 },
 {
 "id": "flora:Colocynth",
@@ -472,11 +465,11 @@
 "preferred_label": "Mtango mwitu"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1073,
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Mbuzi"
+"preferred_label": "Mnara"
 },
 {
 "id": "realia:RaisinCake",
@@ -486,25 +479,25 @@
 "preferred_label": "Mkate wa zabibu kavu"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Mzeituni"
-},
-{
-"id": "fauna:Bull",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Ngʼombe"
+"preferred_label": "Mbuzi"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
+"id": "realia:Must",
+"type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Mtama"
+"preferred_label": "Divai mpya"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Sanamu"
 },
 {
 "id": "flora:Pomegranate",
@@ -521,13 +514,6 @@
 "preferred_label": "Jembe la mdomo"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Sanamu"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1073,
@@ -535,11 +521,11 @@
 "preferred_label": "Nafaka"
 },
 {
-"id": "realia:Must",
-"type": "realia",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Divai mpya"
+"preferred_label": "Mwana-kondoo"
 },
 {
 "id": "flora:Coriander",
@@ -549,18 +535,32 @@
 "preferred_label": "Giligilani"
 },
 {
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Mtama"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Ngʼombe"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Mzeituni"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "Kundi"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Mwana-kondoo"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "289147",
 "reference_id": 2033,
 "version": "1.0.4",
-"title": "Alfajiri",
+"title": "Mwanamume katika dau alfajiri",
 "media_type": "Image",
-"index_reference": "alfajiri",
+"index_reference": "mwanamume katika dau alfajiri",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0178_dawn.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0178_dawn.jpg'>link</a></p></block>",
@@ -925,13 +925,6 @@
 "preferred_label": "Upendo"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.3122,
-"match_method": "canonical",
-"preferred_label": "Kutumikisha kwa Shuruti"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.3122,
@@ -939,11 +932,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "place:Arnon",
-"type": "place",
-"confidence": 0.2605,
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.3122,
 "match_method": "canonical",
-"preferred_label": "Arnoni"
+"preferred_label": "Kutumikisha kwa Shuruti"
 },
 {
 "id": "keyterm:Possess",
@@ -953,11 +946,32 @@
 "preferred_label": "Kukabidhi umiliki"
 },
 {
+"id": "place:Arnon",
+"type": "place",
+"confidence": 0.2605,
+"match_method": "canonical",
+"preferred_label": "Arnoni"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "Yoshua"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2592,
 "match_method": "canonical",
 "preferred_label": "Yuda"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "Kupotoa milki"
 },
 {
 "id": "group:Judah",
@@ -974,32 +988,11 @@
 "preferred_label": "Moabu"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "Kupotoa milki"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "Yoshua"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2522,
 "match_method": "canonical",
 "preferred_label": "Nyumba"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.2075,
-"match_method": "canonical",
-"preferred_label": "Lebanoni"
 },
 {
 "id": "place:GreatSea",
@@ -1009,88 +1002,11 @@
 "preferred_label": "Bahari ya Mediterania"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Wivu"
-},
-{
-"id": "place:Bethel",
+"id": "place:Lebanon",
 "type": "place",
-"confidence": 0.2061,
+"confidence": 0.2075,
 "match_method": "canonical",
-"preferred_label": "Betheli"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Mlima Hermoni"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Kutambua"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Malaika"
-},
-{
-"id": "place:Gibeon",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Gibeoni"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Kabila la Benyamini"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "-safi"
-},
-{
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Bashani"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Gibea"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Uwezo"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
+"preferred_label": "Lebanoni"
 },
 {
 "id": "place:Arabah",
@@ -1100,11 +1016,95 @@
 "preferred_label": "Araba"
 },
 {
-"id": "person:Benjamin",
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Betheli"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Utukufu"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Hofu"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Uwezo"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Gibea"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "person:Lot",
 "type": "person",
 "confidence": 0.2061,
 "match_method": "canonical",
-"preferred_label": "Benyamini"
+"preferred_label": "Loti"
+},
+{
+"id": "place:Gibeon",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Gibeoni"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "-safi"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Wivu"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Kabila la Benyamini"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Wokovu"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Bashani"
 }
 ]
 }

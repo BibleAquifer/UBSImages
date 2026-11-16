@@ -3,9 +3,9 @@
 "content_id": "289311",
 "reference_id": 2197,
 "version": "1.0.4",
-"title": "Nakshi ya Lachish",
+"title": "Mchongo wa Lachish",
 "media_type": "Image",
-"index_reference": "nakshi ya lachish",
+"index_reference": "mchongo wa lachish",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0574_lachish_relief.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0574_lachish_relief.jpg'>link</a></p></block>",
@@ -1118,18 +1118,18 @@
 "preferred_label": "Kabila la Yuda"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3702,
-"match_method": "canonical",
-"preferred_label": "Ufilisti"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3702,
 "match_method": "canonical",
 "preferred_label": "Wafilisti"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3702,
+"match_method": "canonical",
+"preferred_label": "Ufilisti"
 },
 {
 "id": "place:Moab",
@@ -1139,18 +1139,11 @@
 "preferred_label": "Moabu"
 },
 {
-"id": "group:Syria",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Washami"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3626,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
+"preferred_label": "Wayahudi"
 },
 {
 "id": "place:Samaria",
@@ -1160,11 +1153,18 @@
 "preferred_label": "Samaria"
 },
 {
-"id": "group:Jews",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3626,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
+},
+{
+"id": "group:Syria",
 "type": "group",
 "confidence": 0.3626,
 "match_method": "canonical",
-"preferred_label": "Wayahudi"
+"preferred_label": "Washami"
 },
 {
 "id": "fauna:Bull",
@@ -1181,13 +1181,6 @@
 "preferred_label": "Nyumba"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3128,
-"match_method": "canonical",
-"preferred_label": "Mbuzi"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3128,
@@ -1195,25 +1188,11 @@
 "preferred_label": "Kundi"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.3101,
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3128,
 "match_method": "canonical",
-"preferred_label": "Wivu"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Waamoni"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3101,
-"match_method": "canonical",
-"preferred_label": "Misri"
+"preferred_label": "Mbuzi"
 },
 {
 "id": "place:Chaldea",
@@ -1230,6 +1209,27 @@
 "preferred_label": "Amoni"
 },
 {
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Wivu"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Misri"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.3101,
+"match_method": "canonical",
+"preferred_label": "Waamoni"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.3052,
@@ -1244,39 +1244,25 @@
 "preferred_label": "Yeriko"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Edomu"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Wakaldayo"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Neno la Bwana"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
-"confidence": 0.2576,
-"match_method": "canonical",
-"preferred_label": "Amazia"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "Sauli"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Kutenda Dhambi"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Edomu"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1291,6 +1277,20 @@
 "confidence": 0.2576,
 "match_method": "canonical",
 "preferred_label": "Dameski"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Wakaldayo"
+},
+{
+"id": "person:Amaziah",
+"type": "person",
+"confidence": 0.2576,
+"match_method": "canonical",
+"preferred_label": "Amazia"
 }
 ]
 }

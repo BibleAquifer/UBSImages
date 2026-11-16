@@ -3,9 +3,9 @@
 "content_id": "288961",
 "reference_id": 1847,
 "version": "1.0.4",
-"title": "Mabango",
+"title": "Bendera",
 "media_type": "Image",
-"index_reference": "mabango",
+"index_reference": "bendera",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0395_standards_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0395_standards_en.jpg'>link</a></p></block>",
@@ -474,6 +474,20 @@
 "preferred_label": "Dani"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "Kabila la Yuda"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "Kabila la Dani"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2705,
@@ -486,20 +500,6 @@
 "confidence": 0.2705,
 "match_method": "canonical",
 "preferred_label": "Yuda"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "Kabila la Dani"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
 },
 {
 "id": "flora:Almond",
@@ -516,18 +516,18 @@
 "preferred_label": "Elisuri"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2197,
-"match_method": "canonical",
-"preferred_label": "Ahiezeri"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2197,
 "match_method": "canonical",
 "preferred_label": "Amihudi"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2197,
+"match_method": "canonical",
+"preferred_label": "Ahiezeri"
 },
 {
 "id": "person:Shedeur",
@@ -544,11 +544,11 @@
 "preferred_label": "Elishama"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "Amishadai"
+"preferred_label": "Kabila la Efraimu"
 },
 {
 "id": "person:Ephraim",
@@ -558,11 +558,11 @@
 "preferred_label": "Efraimu"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "Haruni"
+"preferred_label": "Watu wa Mataifa"
 },
 {
 "id": "group:Reuben",
@@ -572,25 +572,11 @@
 "preferred_label": "Kabila la Reubeni"
 },
 {
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Nashoni"
-},
-{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "Babeli"
-},
-{
-"id": "person:Amminadab",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Aminadabu"
 },
 {
 "id": "keyterm:Holy",
@@ -600,11 +586,32 @@
 "preferred_label": "-takatifu"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "Kabila la Efraimu"
+"preferred_label": "Haruni"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Aminadabu"
+},
+{
+"id": "person:Nahshon",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Nashoni"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "Amishadai"
 },
 {
 "id": "person:Reuben",
@@ -612,13 +619,6 @@
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "Reubeni"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "Watu wa Mataifa"
 }
 ]
 }

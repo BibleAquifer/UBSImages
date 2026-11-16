@@ -260,13 +260,6 @@
 "preferred_label": "wavu wa kuvulia samaki"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3514,
-"match_method": "canonical",
-"preferred_label": "Ufilisti"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3514,
@@ -281,11 +274,11 @@
 "preferred_label": "Babeli"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2886,
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3514,
 "match_method": "canonical",
-"preferred_label": "Israeli"
+"preferred_label": "Ufilisti"
 },
 {
 "id": "person:Saul.2",
@@ -293,6 +286,13 @@
 "confidence": 0.2886,
 "match_method": "canonical",
 "preferred_label": "Sauli"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2886,
+"match_method": "canonical",
+"preferred_label": "Israeli"
 },
 {
 "id": "place:Ziph.2",
@@ -309,18 +309,18 @@
 "preferred_label": "Wavu wa Kurusha"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Yerusalemu"
-},
-{
 "id": "place:Bethlehem",
 "type": "place",
 "confidence": 0.2257,
 "match_method": "canonical",
 "preferred_label": "Bethlehemu"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Yerusalemu"
 },
 {
 "id": "place:Moab",
@@ -330,11 +330,18 @@
 "preferred_label": "Moabu"
 },
 {
-"id": "place:Millo",
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Eliabu"
+},
+{
+"id": "place:Jeshimon",
 "type": "place",
 "confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Milo"
+"preferred_label": "Yeshimoni"
 },
 {
 "id": "person:Ezer.4",
@@ -342,13 +349,6 @@
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Ezeri"
-},
-{
-"id": "place:Hachilah",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Hakila"
 },
 {
 "id": "group:Ziph",
@@ -365,6 +365,13 @@
 "preferred_label": "Obadia"
 },
 {
+"id": "place:Millo",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Milo"
+},
+{
 "id": "place:Hereth",
 "type": "place",
 "confidence": 0.1686,
@@ -372,18 +379,18 @@
 "preferred_label": "Herethi"
 },
 {
-"id": "place:Jeshimon",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Yeshimoni"
-},
-{
 "id": "keyterm:Refuge",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Kimbilio"
+},
+{
+"id": "place:Hachilah",
+"type": "place",
+"confidence": 0.1686,
+"match_method": "canonical",
+"preferred_label": "Hakila"
 },
 {
 "id": "person:Gad.2",
@@ -400,39 +407,11 @@
 "preferred_label": "Midiani"
 },
 {
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Eliabu"
-},
-{
-"id": "keyterm:SeekfindRefuge",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Kutafuta Kimbilio"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kutumaini"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Gibea"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kupaka Mafuta"
+"preferred_label": "Kutokua Mwaminifu"
 },
 {
 "id": "keyterm:IntactState",
@@ -442,25 +421,32 @@
 "preferred_label": "Amani"
 },
 {
-"id": "keyterm:Shield",
-"type": "keyterm",
+"id": "place:Kiriathaim",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Ngao"
+"preferred_label": "Kiriathaimu"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Fadhili"
+"preferred_label": "Kabila la Yuda"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Kutenda Dhambi"
+"preferred_label": "Kutafuta Kimbilio"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Thibitika"
 },
 {
 "id": "keyterm:Deceit",
@@ -477,53 +463,25 @@
 "preferred_label": "Horeshi"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
-"id": "place:Chaldea",
+"id": "place:Gibeah.2",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Ukaldayo"
+"preferred_label": "Gibea"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Wakaldayo"
-},
-{
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Kutokua Mwaminifu"
+"preferred_label": "Fadhili"
 },
 {
-"id": "keyterm:BeFirm",
+"id": "keyterm:Shield",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Thibitika"
-},
-{
-"id": "place:Kiriathaim",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kiriathaimu"
+"preferred_label": "Ngao"
 },
 {
 "id": "place:Engedi",
@@ -533,6 +491,48 @@
 "preferred_label": "En-Gedi"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Kutumaini"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Kutenda Dhambi"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Wakaldayo"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ukaldayo"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Kupaka Mafuta"
+},
+{
 "id": "realia:Cage",
 "type": "realia",
 "confidence": 0.1086,
@@ -540,11 +540,18 @@
 "preferred_label": "Tundu"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "fauna:Fish",
+"type": "fauna",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Msandali"
+"preferred_label": "Samaki"
+},
+{
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Mtego"
 },
 {
 "id": "realia:Dragnet",
@@ -561,11 +568,11 @@
 "preferred_label": "Ndege"
 },
 {
-"id": "realia:Harpoon",
-"type": "realia",
+"id": "flora:Sandalwood",
+"type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "chusa"
+"preferred_label": "Msandali"
 },
 {
 "id": "realia:SmallShield",
@@ -575,18 +582,11 @@
 "preferred_label": "kigao"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Samaki"
-},
-{
-"id": "realia:Trap",
+"id": "realia:Harpoon",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Mtego"
+"preferred_label": "chusa"
 }
 ]
 }

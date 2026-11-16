@@ -3,9 +3,9 @@
 "content_id": "289146",
 "reference_id": 2032,
 "version": "1.0.4",
-"title": "Nyota za Nebula ya Orion",
+"title": "Nebula ya Orion",
 "media_type": "Image",
-"index_reference": "nyota za nebula ya orion",
+"index_reference": "nebula ya orion",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0832_orion_nebula_stars.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0832_orion_nebula_stars.jpg'>link</a></p></block>",
@@ -595,18 +595,18 @@
 "preferred_label": "Kutumikisha kwa Shuruti"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3745,
-"match_method": "canonical",
-"preferred_label": "Israeli"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.3745,
 "match_method": "canonical",
 "preferred_label": "Baali"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3745,
+"match_method": "canonical",
+"preferred_label": "Israeli"
 },
 {
 "id": "deity:Asherah",
@@ -637,11 +637,11 @@
 "preferred_label": "Daudi"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2596,
 "match_method": "canonical",
-"preferred_label": "Madhabahu ya Mawe"
+"preferred_label": "Madhabahu ya Hekalu"
 },
 {
 "id": "realia:Altar",
@@ -651,18 +651,18 @@
 "preferred_label": "Madhabahu"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2596,
-"match_method": "canonical",
-"preferred_label": "Madhabahu ya Hekalu"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.2596,
 "match_method": "canonical",
 "preferred_label": "Madhabahu ya Maskani"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2596,
+"match_method": "canonical",
+"preferred_label": "Madhabahu ya Mawe"
 },
 {
 "id": "keyterm:Bless",
@@ -672,34 +672,6 @@
 "preferred_label": "Kubariki"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Yuda"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Ishara"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Kuapa"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Uwezo"
-},
-{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2098,
@@ -707,53 +679,11 @@
 "preferred_label": "Jina"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "deity:Molech",
+"type": "deity",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Kusujudu"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Shauri"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Kabila la Yuda"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Hezekia"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Asi"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Kupotoa milki"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Sadaka"
+"preferred_label": "Moleki"
 },
 {
 "id": "keyterm:Glory",
@@ -763,11 +693,81 @@
 "preferred_label": "Utukufu"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Moleki"
+"preferred_label": "Uwezo"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Asi"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Yuda"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Shauri"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Kuapa"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Kupotoa milki"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Kabila la Yuda"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Ishara"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Hezekia"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Sadaka"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Kusujudu"
 },
 {
 "id": "realia:SacredPole",

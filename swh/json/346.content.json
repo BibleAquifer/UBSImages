@@ -3,9 +3,9 @@
 "content_id": "288965",
 "reference_id": 1851,
 "version": "1.0.4",
-"title": "Barabara ya mawe ya Kirumi Petra",
+"title": "Mawe ya barabara ya Kirumi Petra",
 "media_type": "Image",
-"index_reference": "barabara ya mawe ya kirumi petra",
+"index_reference": "mawe ya barabara ya kirumi petra",
 "language": "swh",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0437_pavement_roman_petra.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0437_pavement_roman_petra.jpg'>link</a></p></block>",
@@ -58,6 +58,13 @@
 "preferred_label": "Gabatha"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "BWANA"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.225,
@@ -65,11 +72,11 @@
 "preferred_label": "Israeli"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "BWANA"
+"preferred_label": "Utukufu"
 },
 {
 "id": "keyterm:Kindness",
@@ -93,25 +100,11 @@
 "preferred_label": "Yesu"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Utukufu"
-},
-{
 "id": "flora:Cotton",
 "type": "flora",
 "confidence": 0.1983,
 "match_method": "canonical",
 "preferred_label": "Pamba"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Nyumba"
 },
 {
 "id": "realia:JudgmentSeat",
@@ -121,6 +114,13 @@
 "preferred_label": "Kiti cha Hukumu"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Nyumba"
+},
+{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.165,
@@ -128,18 +128,11 @@
 "preferred_label": "Kitanda"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Nguo ya zambarau"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Kitani"
+"preferred_label": "Fedha"
 },
 {
 "id": "realia:Rope",
@@ -149,11 +142,18 @@
 "preferred_label": "Kamba"
 },
 {
-"id": "realia:Money",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Fedha"
+"preferred_label": "Kitani"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Nguo ya zambarau"
 }
 ]
 }
