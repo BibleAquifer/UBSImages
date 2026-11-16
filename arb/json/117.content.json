@@ -59,13 +59,6 @@
 "preferred_label": "أُوفِير"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.38,
@@ -73,11 +66,11 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
+"preferred_label": "يهوذا"
 },
 {
 "id": "person:Hiram",
@@ -87,11 +80,11 @@
 "preferred_label": "حِيرَام"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.32,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "بَيْت"
+"preferred_label": "سِبْطُ يَهوذَا"
 },
 {
 "id": "realia:Lyre",
@@ -99,6 +92,13 @@
 "confidence": 0.32,
 "match_method": "canonical",
 "preferred_label": "عود"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.32,
+"match_method": "canonical",
+"preferred_label": "بَيْت"
 },
 {
 "id": "realia:Lute",
@@ -115,13 +115,6 @@
 "preferred_label": "داود"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "أُورُشَلِيم"
-},
-{
 "id": "person:Solomon",
 "type": "person",
 "confidence": 0.24,
@@ -129,11 +122,25 @@
 "preferred_label": "سُلَيْمَان"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "أُورُشَلِيم"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "حِرَفيّ"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "مال"
 },
 {
 "id": "realia:Ship",
@@ -148,13 +155,6 @@
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "أُرْجُوان"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "مال"
 }
 ]
 }

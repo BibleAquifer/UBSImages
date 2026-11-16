@@ -3,9 +3,9 @@
 "content_id": "281759",
 "reference_id": 2109,
 "version": "1.0.4",
-"title": "قاعدة الجذع",
+"title": "جذور متضخمة عند قاعدة شجرة",
 "media_type": "Image",
-"index_reference": "قاعدة الجذع",
+"index_reference": "جذور متضخمة عند قاعدة شجرة",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg'>link</a></p></block>",
@@ -239,13 +239,6 @@
 "preferred_label": "يَسَّى"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.2257,
@@ -260,25 +253,18 @@
 "preferred_label": "مقدس"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "يهوذا"
+},
+{
 "id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "رِجْس"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "شَجَرَةُ زَيْتُونٍ"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "كَرْمَة"
 },
 {
 "id": "flora:Cedar",
@@ -295,18 +281,32 @@
 "preferred_label": "فَأْس"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "تنجيس"
+"preferred_label": "كَرْمَة"
 },
 {
-"id": "keyterm:Majesty",
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "شَجَرَةُ زَيْتُونٍ"
+},
+{
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "جَلَال"
+"preferred_label": "حظوة"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "سبط أفرايم"
 },
 {
 "id": "person:Ephraim",
@@ -314,6 +314,27 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "أَفْرَايِم"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "أمميون"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "يؤمن"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "تعليم"
 },
 {
 "id": "person:Israel",
@@ -330,20 +351,6 @@
 "preferred_label": "مجد"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "تعليم"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "لُبْنَانَ"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.1629,
@@ -351,11 +358,18 @@
 "preferred_label": "الأموريون"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "حظوة"
+"preferred_label": "جَلَال"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "تنجيس"
 },
 {
 "id": "keyterm:PutToTheTest",
@@ -365,20 +379,6 @@
 "preferred_label": "يُجَرَّب"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "أمميون"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "سبط أفرايم"
-},
-{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1629,
@@ -386,11 +386,11 @@
 "preferred_label": "سَبَبُ فَرَحٍ"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "يؤمن"
+"preferred_label": "لُبْنَانَ"
 },
 {
 "id": "flora:Broom",
@@ -407,13 +407,6 @@
 "preferred_label": "مَلَّاح"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "مال"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1029,
@@ -421,11 +414,11 @@
 "preferred_label": "تِين"
 },
 {
-"id": "flora:Oak",
-"type": "flora",
+"id": "realia:Standard",
+"type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "بَلُّوط"
+"preferred_label": "رَايَة"
 },
 {
 "id": "realia:Image",
@@ -449,11 +442,18 @@
 "preferred_label": "نسر"
 },
 {
-"id": "realia:House",
+"id": "realia:Fortress",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "بَيْت"
+"preferred_label": "حِصْن"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "مال"
 },
 {
 "id": "flora:Grass",
@@ -463,18 +463,18 @@
 "preferred_label": "عُشْب"
 },
 {
-"id": "realia:Standard",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "رَايَة"
+"preferred_label": "بَيْت"
 },
 {
-"id": "realia:Fortress",
-"type": "realia",
+"id": "flora:Oak",
+"type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "حِصْن"
+"preferred_label": "بَلُّوط"
 }
 ]
 }

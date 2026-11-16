@@ -3,9 +3,9 @@
 "content_id": "281845",
 "reference_id": 2195,
 "version": "1.0.4",
-"title": "هيليوبوليس",
+"title": "مسلة في هيليوبوليس",
 "media_type": "Image",
-"index_reference": "هيليوبوليس",
+"index_reference": "مسلة في هيليوبوليس",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0289_heliopolis.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0289_heliopolis.jpg'>link</a></p></block>",
@@ -106,13 +106,6 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "place:CityOfDestruction",
-"type": "place",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "مَدِينَةُ ٱلْهَلَاك"
-},
-{
 "id": "place:Pi-beseth",
 "type": "place",
 "confidence": 0.2429,
@@ -127,6 +120,13 @@
 "preferred_label": "مَنَسَّى"
 },
 {
+"id": "place:CityOfDestruction",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "مَدِينَةُ ٱلْهَلَاك"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.2143,
@@ -134,11 +134,11 @@
 "preferred_label": "حلف"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
+"id": "keyterm:IntactState",
+"type": "keyterm",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "فِرْعَوْن"
+"preferred_label": "سلام"
 },
 {
 "id": "person:Ephraim",
@@ -148,11 +148,11 @@
 "preferred_label": "أَفْرَايِم"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
+"id": "person:Pharaoh.4",
+"type": "person",
 "confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "سلام"
+"preferred_label": "فِرْعَوْن"
 },
 {
 "id": "place:Canaan",
@@ -176,18 +176,18 @@
 "preferred_label": "حَمَل"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "قطيع"
-},
-{
 "id": "realia:SacredPillar",
 "type": "realia",
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "نُصُب مُقَدَّس"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "قطيع"
 }
 ]
 }

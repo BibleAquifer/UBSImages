@@ -3,9 +3,9 @@
 "content_id": "281497",
 "reference_id": 1847,
 "version": "1.0.4",
-"title": "لافتات موكب",
+"title": "لافتات",
 "media_type": "Image",
-"index_reference": "لافتات موكب",
+"index_reference": "لافتات",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0395_standards_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0395_standards_en.jpg'>link</a></p></block>",
@@ -474,6 +474,20 @@
 "preferred_label": "دَانَ"
 },
 {
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "سِبْطُ يَهوذَا"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.2705,
+"match_method": "canonical",
+"preferred_label": "سبط دان"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2705,
@@ -486,20 +500,6 @@
 "confidence": 0.2705,
 "match_method": "canonical",
 "preferred_label": "يهوذا"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "سبط دان"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2705,
-"match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
 },
 {
 "id": "flora:Almond",
@@ -516,18 +516,18 @@
 "preferred_label": "أَلِيصور"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2197,
-"match_method": "canonical",
-"preferred_label": "أَخِيعَزَر"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2197,
 "match_method": "canonical",
 "preferred_label": "عَمِّيهود"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2197,
+"match_method": "canonical",
+"preferred_label": "أَخِيعَزَر"
 },
 {
 "id": "person:Shedeur",
@@ -544,11 +544,11 @@
 "preferred_label": "أَلِيشَمَع"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "عَمِّيشَدَّاي"
+"preferred_label": "سبط أفرايم"
 },
 {
 "id": "person:Ephraim",
@@ -558,11 +558,11 @@
 "preferred_label": "أَفْرَايِم"
 },
 {
-"id": "person:Aaron",
-"type": "person",
+"id": "group:Gentile",
+"type": "group",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "هَارون"
+"preferred_label": "أمميون"
 },
 {
 "id": "group:Reuben",
@@ -572,25 +572,11 @@
 "preferred_label": "سبط رأوبين"
 },
 {
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "نَحْشون"
-},
-{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "بَابِلُ"
-},
-{
-"id": "person:Amminadab",
-"type": "person",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "عَمِّينَادَاب"
 },
 {
 "id": "keyterm:Holy",
@@ -600,11 +586,32 @@
 "preferred_label": "مقدس"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Aaron",
+"type": "person",
 "confidence": 0.2136,
 "match_method": "canonical",
-"preferred_label": "سبط أفرايم"
+"preferred_label": "هَارون"
+},
+{
+"id": "person:Amminadab",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "عَمِّينَادَاب"
+},
+{
+"id": "person:Nahshon",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "نَحْشون"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2136,
+"match_method": "canonical",
+"preferred_label": "عَمِّيشَدَّاي"
 },
 {
 "id": "person:Reuben",
@@ -612,13 +619,6 @@
 "confidence": 0.2136,
 "match_method": "canonical",
 "preferred_label": "رَأُوبَيْن"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2136,
-"match_method": "canonical",
-"preferred_label": "أمميون"
 }
 ]
 }

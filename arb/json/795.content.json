@@ -147,18 +147,11 @@
 "preferred_label": "دَاجُون"
 },
 {
-"id": "realia:Doorpost",
+"id": "realia:Window",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "قائمة الباب"
-},
-{
-"id": "realia:Reed",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "قَصَبَة"
+"preferred_label": "نَافِذَة"
 },
 {
 "id": "flora:Reed",
@@ -168,6 +161,13 @@
 "preferred_label": "قَصَب"
 },
 {
+"id": "realia:Reed",
+"type": "realia",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "قَصَبَة"
+},
+{
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.2,
@@ -175,11 +175,11 @@
 "preferred_label": "قصبة القياس"
 },
 {
-"id": "realia:Window",
+"id": "realia:Doorpost",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "نَافِذَة"
+"preferred_label": "قائمة الباب"
 },
 {
 "id": "place:Tirzah",
@@ -189,53 +189,11 @@
 "preferred_label": "ترصة"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "تنجيس"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
-},
-{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "يُعَيِّن"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيل"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "غش"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "تابوت العهد"
-},
-{
-"id": "person:Jeroboam",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "يَرُبْعَامُ ٱلْأَوَّل"
 },
 {
 "id": "place:Ashdod",
@@ -245,32 +203,53 @@
 "preferred_label": "أَشْدُود"
 },
 {
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "غش"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "تَقْدِمَة"
+},
+{
+"id": "person:Jeroboam",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "يَرُبْعَامُ ٱلْأَوَّل"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيل"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "تابوت العهد"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "تنجيس"
+},
+{
 "id": "fauna:Owl.3",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "قُنْفُذ"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "مَاعِز"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "مَذْبَح"
-},
-{
-"id": "realia:WritingCase",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "دَوَاةُ كاتِب"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -280,11 +259,11 @@
 "preferred_label": "تَابُوتُ ٱلْعَهْدِ"
 },
 {
-"id": "fauna:Jackdaw",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "زَاغُ الزَّرْعِ"
+"preferred_label": "مَاعِز"
 },
 {
 "id": "realia:Capital",
@@ -294,18 +273,32 @@
 "preferred_label": "تَاجُ ٱلْعَمُودِ"
 },
 {
-"id": "realia:Linen",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "كتان"
+"preferred_label": "ذِراع"
 },
 {
-"id": "fauna:Crow",
-"type": "fauna",
+"id": "realia:WritingCase",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "غُراب"
+"preferred_label": "دَوَاةُ كاتِب"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "مَذْبَح"
 },
 {
 "id": "realia:StoneAltar",
@@ -322,18 +315,25 @@
 "preferred_label": "مذبح المسكن"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "ذِراع"
+"preferred_label": "كتان"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
+"id": "fauna:Jackdaw",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
+"preferred_label": "زَاغُ الزَّرْعِ"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "غُراب"
 },
 {
 "id": "fauna:Flock",

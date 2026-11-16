@@ -3,9 +3,9 @@
 "content_id": "281678",
 "reference_id": 2028,
 "version": "1.0.4",
-"title": "دخان من خط النار",
+"title": "دخان يتصاعد من حريق غابات",
 "media_type": "Image",
-"index_reference": "دخان من خط النار",
+"index_reference": "دخان يتصاعد من حريق غابات",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0815_smoke_from_fire_line.jpg'>link</a></p></block>",
@@ -226,11 +226,18 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "قُدْرَة"
+"preferred_label": "مقدس"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "عَاي"
 },
 {
 "id": "person:Israel",
@@ -247,11 +254,18 @@
 "preferred_label": "مجد"
 },
 {
-"id": "place:Ai",
-"type": "place",
+"id": "keyterm:Always",
+"type": "keyterm",
 "confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "عَاي"
+"preferred_label": "إِلى الأَبَد"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "قُدْرَة"
 },
 {
 "id": "deity:Angel",
@@ -259,20 +273,6 @@
 "confidence": 0.2265,
 "match_method": "canonical",
 "preferred_label": "مَلَاك"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "مقدس"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "إِلى الأَبَد"
 },
 {
 "id": "keyterm:Portent",
@@ -289,102 +289,11 @@
 "preferred_label": "أَتُون"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "دم"
-},
-{
-"id": "person:Benjamin",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "بَنْيَامِين"
-},
-{
-"id": "keyterm:Lot",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "قرعة"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "زِنًى"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "فِلَسْطِين"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "سَجَدَ"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "أُورُشَلِيم"
-},
-{
-"id": "keyterm:Foolish",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "أحمق"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "سُلْطَان"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "خَلَاص"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "يَشُوعُ"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "سِبْط بَنْيَامِينَ"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "جَبَلُ سيناءَ"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "رمز"
 },
 {
 "id": "keyterm:Name",
@@ -394,11 +303,46 @@
 "preferred_label": "اسم"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "رمز"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "يَشُوعُ"
+},
+{
 "id": "keyterm:Abyss",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "الْهَاوِيَة"
+},
+{
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "جَبَلُ سيناءَ"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "سماء"
+},
+{
+"id": "person:Benjamin",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "بَنْيَامِين"
 },
 {
 "id": "keyterm:Pray",
@@ -408,11 +352,67 @@
 "preferred_label": "صلّى"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "أُورُشَلِيم"
+},
+{
+"id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "سماء"
+"preferred_label": "زِنًى"
+},
+{
+"id": "keyterm:Foolish",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "أحمق"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "دم"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "فِلَسْطِين"
+},
+{
+"id": "keyterm:Lot",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "قرعة"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "سَجَدَ"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "سِبْط بَنْيَامِينَ"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "سُلْطَان"
 },
 {
 "id": "realia:Incense",
@@ -429,11 +429,32 @@
 "preferred_label": "بعوضة"
 },
 {
-"id": "fauna:Lion",
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "تِمْثَال"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "لُبَان"
+},
+{
+"id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "أَسَد"
+"preferred_label": "عقرب"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "عُشْب"
 },
 {
 "id": "realia:Doorstep",
@@ -450,18 +471,11 @@
 "preferred_label": "مُرّ"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
+"id": "realia:House",
+"type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "كَرْمَة"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "حِصان"
+"preferred_label": "بَيْت"
 },
 {
 "id": "realia:Temple",
@@ -471,6 +485,13 @@
 "preferred_label": "الهيكل"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "كَرْمَة"
+},
+{
 "id": "realia:ThreshingFloor",
 "type": "realia",
 "confidence": 0.1032,
@@ -478,39 +499,11 @@
 "preferred_label": "بَيْدَر"
 },
 {
-"id": "fauna:Scorpion",
+"id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "عقرب"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "لُبَان"
-},
-{
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "تِمْثَال"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "بَيْت"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "عُشْب"
+"preferred_label": "أَسَد"
 },
 {
 "id": "fauna:Locust",
@@ -518,6 +511,13 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "جَرَاد"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "حِصان"
 },
 {
 "id": "realia:Wine",

@@ -3,9 +3,9 @@
 "content_id": "281991",
 "reference_id": 2341,
 "version": "1.0.4",
-"title": "درع دائري",
+"title": "جندي يحمل درعاً دائرياً: نقش بارز",
 "media_type": "Image",
-"index_reference": "درع دائري",
+"index_reference": "جندي يحمل درعاً دائرياً نقش بارز",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0387_round_shield.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0387_round_shield.jpg'>link</a></p></block>",
@@ -441,13 +441,6 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3281,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيل"
-},
-{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.3281,
@@ -462,6 +455,20 @@
 "preferred_label": "سَهْم"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3281,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيل"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.3252,
+"match_method": "canonical",
+"preferred_label": "رُمْح"
+},
+{
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.3252,
@@ -474,13 +481,6 @@
 "confidence": 0.3252,
 "match_method": "canonical",
 "preferred_label": "تُرْس كَبِير"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.3252,
-"match_method": "canonical",
-"preferred_label": "رُمْح"
 },
 {
 "id": "place:Put",
@@ -504,11 +504,11 @@
 "preferred_label": "سَهْم"
 },
 {
-"id": "realia:Helmet",
+"id": "realia:Tower",
 "type": "realia",
 "confidence": 0.2681,
 "match_method": "canonical",
-"preferred_label": "خوذة"
+"preferred_label": "بُرْج"
 },
 {
 "id": "realia:Chariot",
@@ -518,11 +518,11 @@
 "preferred_label": "مَرْكَبَة"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.2681,
 "match_method": "canonical",
-"preferred_label": "بُرْج"
+"preferred_label": "خوذة"
 },
 {
 "id": "person:Lud",
@@ -532,13 +532,6 @@
 "preferred_label": "لُود"
 },
 {
-"id": "place:HouseOfTheForestOfLebanon",
-"type": "place",
-"confidence": 0.2172,
-"match_method": "canonical",
-"preferred_label": "بَيْتُ وَعْرِ لُبْنَانَ"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2172,
@@ -546,25 +539,11 @@
 "preferred_label": "خوف"
 },
 {
-"id": "place:Assyria",
+"id": "place:HouseOfTheForestOfLebanon",
 "type": "place",
-"confidence": 0.2141,
+"confidence": 0.2172,
 "match_method": "canonical",
-"preferred_label": "أَشُّور"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
-"id": "place:Cush.2",
-"type": "place",
-"confidence": 0.2141,
-"match_method": "canonical",
-"preferred_label": "كوش"
+"preferred_label": "بَيْتُ وَعْرِ لُبْنَانَ"
 },
 {
 "id": "place:Persia",
@@ -574,6 +553,13 @@
 "preferred_label": "فَارِسُ"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "سُلَيْمَان"
+},
+{
 "id": "person:Rehoboam",
 "type": "person",
 "confidence": 0.2141,
@@ -581,11 +567,18 @@
 "preferred_label": "رَحُبْعَام"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
+"preferred_label": "يهوذا"
+},
+{
+"id": "person:Hadadezer",
+"type": "person",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "هَدَدَ عَزَرَ"
 },
 {
 "id": "keyterm:Salvation",
@@ -595,18 +588,25 @@
 "preferred_label": "خَلَاص"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "سُلَيْمَان"
+"preferred_label": "سِبْطُ يَهوذَا"
 },
 {
-"id": "person:Hadadezer",
-"type": "person",
+"id": "place:Assyria",
+"type": "place",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "هَدَدَ عَزَرَ"
+"preferred_label": "أَشُّور"
+},
+{
+"id": "place:Cush.2",
+"type": "place",
+"confidence": 0.2141,
+"match_method": "canonical",
+"preferred_label": "كوش"
 }
 ]
 }

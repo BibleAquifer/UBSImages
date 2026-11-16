@@ -130,14 +130,14 @@
 "preferred_label": "عَرْعَر يوناني"
 },
 {
-"id": "flora:Cypress",
+"id": "flora:Fir",
 "type": "flora",
 "confidence": 0.6872,
 "match_method": "canonical",
 "preferred_label": "سَرْو"
 },
 {
-"id": "flora:Fir",
+"id": "flora:Cypress",
 "type": "flora",
 "confidence": 0.6872,
 "match_method": "canonical",
@@ -179,18 +179,18 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "مَرْكَبَة"
-},
-{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "صَنْدَل"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "مَرْكَبَة"
 },
 {
 "id": "person:David",
@@ -214,18 +214,11 @@
 "preferred_label": "آس"
 },
 {
-"id": "place:Bashan",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "بَاشَان"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "تَمَرَّدَ"
+"preferred_label": "سِبْطُ يَهوذَا"
 },
 {
 "id": "person:Hiram",
@@ -235,6 +228,20 @@
 "preferred_label": "حِيرَام"
 },
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "نالَ إكراماً ومَجْداً"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "صُورُ"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.175,
@@ -242,11 +249,18 @@
 "preferred_label": "أُورُشَلِيم"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "نالَ إكراماً ومَجْداً"
+"preferred_label": "يهوذا"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "بَاشَان"
 },
 {
 "id": "person:Israel",
@@ -263,20 +277,6 @@
 "preferred_label": "مجد"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "جَبَلُ حَرْمُونَ"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.175,
@@ -284,11 +284,11 @@
 "preferred_label": "إِدْرَاك"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "سُلَيْمَان"
+"preferred_label": "تَمَرَّدَ"
 },
 {
 "id": "deity:Angel",
@@ -298,18 +298,11 @@
 "preferred_label": "مَلَاك"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Solomon",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "صُورُ"
+"preferred_label": "سُلَيْمَان"
 },
 {
 "id": "keyterm:Mighty",
@@ -319,13 +312,6 @@
 "preferred_label": "قَدِير"
 },
 {
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "ٱلْجَلِيل"
-},
-{
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.175,
@@ -333,11 +319,18 @@
 "preferred_label": "الطَّرِيق"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1261,
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "سنط"
+"preferred_label": "ٱلْجَلِيل"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "جَبَلُ حَرْمُونَ"
 },
 {
 "id": "flora:PlaneTree",
@@ -345,34 +338,6 @@
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "دُلْب"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "أرضية"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "صُنوج"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "عود"
-},
-{
-"id": "realia:Shaker",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "جُنْك"
 },
 {
 "id": "flora:Nettle",
@@ -389,67 +354,46 @@
 "preferred_label": "سارية"
 },
 {
+"id": "realia:Shaker",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "جُنْك"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "عود"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "أرضية"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "سنط"
+},
+{
+"id": "realia:Cymbals",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "صُنوج"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "حِرَفيّ"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "صَنَوْبَر حَلَبِيّ"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "أُرْجُوان"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "شَجَرَةُ زَيْتُونٍ"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "شَوْك"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "مال"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "طائر"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "دف"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "بَلُّوط"
 },
 {
 "id": "flora:DatePalm",
@@ -459,6 +403,27 @@
 "preferred_label": "نَخْلَة"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "مال"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "شَوْك"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "طائر"
+},
+{
 "id": "fauna:Stork",
 "type": "fauna",
 "confidence": 0.115,
@@ -466,11 +431,46 @@
 "preferred_label": "لقلق"
 },
 {
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "بَلُّوط"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "صَنَوْبَر حَلَبِيّ"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "دف"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "عود"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "شَجَرَةُ زَيْتُونٍ"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "أُرْجُوان"
 }
 ]
 }

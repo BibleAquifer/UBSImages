@@ -3,9 +3,9 @@
 "content_id": "282002",
 "reference_id": 2352,
 "version": "1.0.4",
-"title": "تل",
+"title": "تل أثري خلف الأطلال",
 "media_type": "Image",
-"index_reference": "تل",
+"index_reference": "تل أثري خلف الأطلال",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0424_tell.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0424_tell.jpg'>link</a></p></block>",
@@ -119,18 +119,18 @@
 "preferred_label": "إِسْرَائِيل"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "أُورُشَلِيم"
-},
-{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "يَشُوعُ"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "أُورُشَلِيم"
 },
 {
 "id": "realia:House",
@@ -140,13 +140,6 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "place:Moresheth",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "مورَشَة"
-},
-{
 "id": "person:Micah.6",
 "type": "person",
 "confidence": 0.1933,
@@ -154,18 +147,18 @@
 "preferred_label": "مِيخَا"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "place:Moresheth",
+"type": "place",
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "يُمَلِّكُ"
+"preferred_label": "مورَشَة"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:SomethingDevotedToGod",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "تنجيس"
+"preferred_label": "مُحَرَّمٌ لِلرَّبِّ"
 },
 {
 "id": "keyterm:Swear",
@@ -175,53 +168,25 @@
 "preferred_label": "حلف"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
+"preferred_label": "يُمَلِّكُ"
 },
 {
-"id": "place:Damascus",
+"id": "place:Ammon",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "دِمَشْقَ"
+"preferred_label": "عَمُّون"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "يَتَنَبَّأُ"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "وَحْي"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "يهوذا"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "مَرْثاة"
-},
-{
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "عَاي"
+"preferred_label": "سِبْطُ يَهوذَا"
 },
 {
 "id": "place:Babylon",
@@ -231,11 +196,81 @@
 "preferred_label": "بَابِلُ"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "سِبْطُ يَهوذَا"
+"preferred_label": "يَجْرُدُ مِنْ مِلْكِهِ"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "حَزَقِيَّا"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "عَاي"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "السامرة"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "دِمَشْقَ"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "يهوذا"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "وَحْي"
+},
+{
+"id": "place:Hazor",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "حَاصور"
+},
+{
+"id": "person:Asaph.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "آسَاف"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "يَتَنَبَّأُ"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "تنجيس"
 },
 {
 "id": "group:Ammon",
@@ -252,60 +287,11 @@
 "preferred_label": "مزمور"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "السامرة"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "حَزَقِيَّا"
-},
-{
-"id": "person:Asaph.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "آسَاف"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "عَمُّون"
-},
-{
-"id": "place:Hazor",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "حَاصور"
-},
-{
-"id": "keyterm:SomethingDevotedToGod",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "مُحَرَّمٌ لِلرَّبِّ"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "كَرْمَة"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "ابْن آوَى"
+"preferred_label": "مَرْثاة"
 },
 {
 "id": "realia:Foundation",
@@ -315,11 +301,25 @@
 "preferred_label": "أَسَاس"
 },
 {
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "ابْن آوَى"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "صَنْدَل"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "كَرْمَة"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "281668",
 "reference_id": 2018,
 "version": "1.0.4",
-"title": "جذور شجرة",
+"title": "جذور الشجرة",
 "media_type": "Image",
-"index_reference": "جذور شجرة",
+"index_reference": "جذور الشجرة",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0770_root_tree.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0770_root_tree.jpg'>link</a></p></block>",
@@ -542,11 +542,11 @@
 "preferred_label": "أَرْز"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.322,
 "match_method": "canonical",
-"preferred_label": "يهوذا"
+"preferred_label": "سبط أفرايم"
 },
 {
 "id": "place:Jerusalem",
@@ -554,6 +554,13 @@
 "confidence": 0.322,
 "match_method": "canonical",
 "preferred_label": "أُورُشَلِيم"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.322,
+"match_method": "canonical",
+"preferred_label": "يهوذا"
 },
 {
 "id": "person:Ephraim",
@@ -568,13 +575,6 @@
 "confidence": 0.322,
 "match_method": "canonical",
 "preferred_label": "سِبْطُ يَهوذَا"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.322,
-"match_method": "canonical",
-"preferred_label": "سبط أفرايم"
 },
 {
 "id": "flora:Vine",
@@ -605,32 +605,11 @@
 "preferred_label": "يَسَّى"
 },
 {
-"id": "keyterm:Safety",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.211,
 "match_method": "canonical",
-"preferred_label": "أمان"
-},
-{
-"id": "keyterm:Mighty",
-"type": "keyterm",
-"confidence": 0.211,
-"match_method": "canonical",
-"preferred_label": "قَدِير"
-},
-{
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.211,
-"match_method": "canonical",
-"preferred_label": "بَاشَان"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.211,
-"match_method": "canonical",
-"preferred_label": "يَتَنَبَّأُ"
+"preferred_label": "يُعَيِّن"
 },
 {
 "id": "keyterm:Possess",
@@ -640,11 +619,18 @@
 "preferred_label": "يُمَلِّكُ"
 },
 {
-"id": "keyterm:Appoint",
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.211,
+"match_method": "canonical",
+"preferred_label": "بَاشَان"
+},
+{
+"id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.211,
 "match_method": "canonical",
-"preferred_label": "يُعَيِّن"
+"preferred_label": "أمان"
 },
 {
 "id": "person:David",
@@ -652,6 +638,20 @@
 "confidence": 0.211,
 "match_method": "canonical",
 "preferred_label": "داود"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.211,
+"match_method": "canonical",
+"preferred_label": "يَتَنَبَّأُ"
+},
+{
+"id": "keyterm:Mighty",
+"type": "keyterm",
+"confidence": 0.211,
+"match_method": "canonical",
+"preferred_label": "قَدِير"
 },
 {
 "id": "flora:Juniper",
@@ -675,6 +675,13 @@
 "preferred_label": "سَرْو"
 },
 {
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.2065,
+"match_method": "canonical",
+"preferred_label": "مَرْكَبَة"
+},
+{
 "id": "flora:Oak",
 "type": "flora",
 "confidence": 0.2065,
@@ -689,13 +696,6 @@
 "preferred_label": "حِصْن"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.2065,
-"match_method": "canonical",
-"preferred_label": "مَرْكَبَة"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2065,
@@ -703,11 +703,11 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
+"id": "person:Micah.6",
+"type": "person",
 "confidence": 0.1579,
 "match_method": "canonical",
-"preferred_label": "رِجْس"
+"preferred_label": "مِيخَا"
 },
 {
 "id": "place:Moresheth",

@@ -3,9 +3,9 @@
 "content_id": "281485",
 "reference_id": 1835,
 "version": "1.0.4",
-"title": "طريق روماني مرصوف بترا",
+"title": "طريق روماني مرصوف في البتراء",
 "media_type": "Image",
-"index_reference": "طريق روماني مرصوف بترا",
+"index_reference": "طريق روماني مرصوف في البتراء",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0109_pavement_roman_petra.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0109_pavement_roman_petra.jpg'>link</a></p></block>",
@@ -45,13 +45,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيل"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.24,
@@ -59,11 +52,11 @@
 "preferred_label": "الرَّبّ"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.24,
 "match_method": "canonical",
-"preferred_label": "إحْسان"
+"preferred_label": "إِسْرَائِيل"
 },
 {
 "id": "keyterm:Glory",
@@ -71,6 +64,13 @@
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "مجد"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "إحْسان"
 },
 {
 "id": "flora:Cotton",
@@ -94,18 +94,11 @@
 "preferred_label": "سَرِير"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "أُرْجُوان"
-},
-{
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "كتان"
+"preferred_label": "مال"
 },
 {
 "id": "realia:Rope",
@@ -115,11 +108,18 @@
 "preferred_label": "حَبْل"
 },
 {
-"id": "realia:Money",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "مال"
+"preferred_label": "كتان"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "أُرْجُوان"
 }
 ]
 }

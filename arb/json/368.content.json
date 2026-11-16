@@ -361,18 +361,18 @@
 "preferred_label": "أَرْز"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3409,
-"match_method": "canonical",
-"preferred_label": "عِظَايَة"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3409,
 "match_method": "canonical",
 "preferred_label": "حِرْبَاء"
+},
+{
+"id": "fauna:Iguana",
+"type": "fauna",
+"confidence": 0.3409,
+"match_method": "canonical",
+"preferred_label": "وَرَل"
 },
 {
 "id": "realia:House",
@@ -382,11 +382,11 @@
 "preferred_label": "بَيْت"
 },
 {
-"id": "fauna:Iguana",
+"id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.3409,
 "match_method": "canonical",
-"preferred_label": "وَرَل"
+"preferred_label": "عِظَايَة"
 },
 {
 "id": "flora:Hyssop",
@@ -403,11 +403,11 @@
 "preferred_label": "طَاهِر"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Trap",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "أُرْجُوان"
+"preferred_label": "فَخّ"
 },
 {
 "id": "fauna:Rooster",
@@ -417,11 +417,11 @@
 "preferred_label": "ديك"
 },
 {
-"id": "realia:Trap",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "فَخّ"
+"preferred_label": "أُرْجُوان"
 },
 {
 "id": "fauna:CreepingAnimal",
@@ -480,13 +480,6 @@
 "preferred_label": "يَسوع"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2155,
-"match_method": "canonical",
-"preferred_label": "بَقَر"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.2155,
@@ -494,25 +487,18 @@
 "preferred_label": "حُبُوب"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2155,
+"match_method": "canonical",
+"preferred_label": "بَقَر"
+},
+{
 "id": "keyterm:Imperishable",
 "type": "keyterm",
 "confidence": 0.1623,
 "match_method": "canonical",
 "preferred_label": "عَدِيمُ ٱلْفَسَادِ"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "داود"
-},
-{
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "ٱلِٱحْتِمَاء"
 },
 {
 "id": "keyterm:Swear",
@@ -529,6 +515,13 @@
 "preferred_label": "جَسَد"
 },
 {
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "ٱلِٱحْتِمَاء"
+},
+{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.1585,
@@ -536,11 +529,18 @@
 "preferred_label": "يُكَفِّر عَنْ"
 },
 {
-"id": "place:Assyria",
-"type": "place",
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "أَشُّور"
+"preferred_label": "مَرَضٌ جِلْدِيٌّ مُعْدٍ"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "ذبح"
 }
 ]
 }

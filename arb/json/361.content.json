@@ -3,9 +3,9 @@
 "content_id": "281516",
 "reference_id": 1866,
 "version": "1.0.4",
-"title": "جمل ونخلة",
+"title": "جمل تحت نخلة",
 "media_type": "Image",
-"index_reference": "جمل ونخلة",
+"index_reference": "جمل تحت نخلة",
 "language": "arb",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0101_camel_palm.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0101_camel_palm.jpg'>link</a></p></block>",
@@ -336,18 +336,18 @@
 "preferred_label": "حمار"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.389,
-"match_method": "canonical",
-"preferred_label": "مَاعِز"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.389,
 "match_method": "canonical",
 "preferred_label": "قطيع"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.389,
+"match_method": "canonical",
+"preferred_label": "مَاعِز"
 },
 {
 "id": "fauna:Bull",
@@ -357,25 +357,18 @@
 "preferred_label": "بَقَر"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "مِدْيَان"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "يبارك"
-},
-{
 "id": "person:Rebekah",
 "type": "person",
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "رِفْقَة"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "مِدْيَان"
 },
 {
 "id": "person:Isaac",
@@ -385,25 +378,18 @@
 "preferred_label": "إِسْحَاق"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "يبارك"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "قرط"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "تنجيس"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "الإسماعيليون"
 },
 {
 "id": "place:Sheba.2",
@@ -413,6 +399,20 @@
 "preferred_label": "سَبَأ"
 },
 {
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "الإسماعيليون"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "تنجيس"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.221,
@@ -420,11 +420,25 @@
 "preferred_label": "جَرَّةُ خَزَفٍ"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "سُلَيْمَان"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.218,
 "match_method": "canonical",
 "preferred_label": "أُورُشَلِيم"
+},
+{
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "عَمَالِيق"
 },
 {
 "id": "person:Ishmael",
@@ -441,67 +455,11 @@
 "preferred_label": "داود"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "عَمَالِيق"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "سُلَيْمَان"
-},
-{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "خيمة"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "جِلْعَادُ"
-},
-{
-"id": "person:Jehdeiah.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "يَحَدْيَا"
-},
-{
-"id": "keyterm:Proscribe.2",
-"type": "keyterm",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "التحريم للهلاك"
-},
-{
-"id": "group:Meronothite",
-"type": "group",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "الميرونوثيون"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "بَنْهَدَدُ"
-},
-{
-"id": "person:Nahor.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "نَاحور"
 },
 {
 "id": "person:Obil",
@@ -511,11 +469,32 @@
 "preferred_label": "أوبيل"
 },
 {
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "التحريم للهلاك"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "جِلْعَادُ"
+},
+{
 "id": "place:Ephah",
 "type": "place",
 "confidence": 0.163,
 "match_method": "canonical",
 "preferred_label": "عِيفَةَ"
+},
+{
+"id": "person:Nahor.2",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "نَاحور"
 },
 {
 "id": "deity:Teraphim",
@@ -525,144 +504,25 @@
 "preferred_label": "تَرَافِيم"
 },
 {
-"id": "person:Gideon",
+"id": "person:Ben-hadad.2",
 "type": "person",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "جِدْعُون"
+"preferred_label": "بَنْهَدَدُ"
 },
 {
-"id": "place:East",
-"type": "place",
-"confidence": 0.159,
+"id": "person:Jehdeiah.2",
+"type": "person",
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "المشرق"
+"preferred_label": "يَحَدْيَا"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "إحْسان"
-},
-{
-"id": "group:Amalek",
+"id": "group:Meronothite",
 "type": "group",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "العمالقة"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "رَاحِيل"
-},
-{
-"id": "person:Achish",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "أَخِيش"
-},
-{
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "عِيسُو"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "إِسْرَائِيل"
-},
-{
-"id": "place:Gerar",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "جَرَارَ"
-},
-{
-"id": "place:Mesopotamia",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "مَا بَيْنَ ٱلنَّهْرَيْنِ"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "ٱلْجَنوبُ"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "الكلدانيون"
-},
-{
-"id": "person:Zebah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "زَبَح"
-},
-{
-"id": "keyterm:Blow",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "ضربة"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "مِصْر"
-},
-{
-"id": "person:Hazael",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "حَزَائِيل"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "وَحْي"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "أَرْضُ الكَلْدانِيِّينَ"
-},
-{
-"id": "person:Laban",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "لابان"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "أيوب"
+"preferred_label": "الميرونوثيون"
 },
 {
 "id": "person:QueenOfSheba",
@@ -672,6 +532,69 @@
 "preferred_label": "مَلِكَةُ سَبَا"
 },
 {
+"id": "place:Gerar",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "جَرَارَ"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "وَحْي"
+},
+{
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "لابان"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "أَرْضُ الكَلْدانِيِّينَ"
+},
+{
+"id": "person:Rachel",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "رَاحِيل"
+},
+{
+"id": "person:Zebah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "زَبَح"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "عَمُّون"
+},
+{
+"id": "place:Mesopotamia",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "مَا بَيْنَ ٱلنَّهْرَيْنِ"
+},
+{
+"id": "place:East",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "المشرق"
+},
+{
 "id": "person:Zalmunna",
 "type": "person",
 "confidence": 0.159,
@@ -679,11 +602,11 @@
 "preferred_label": "صَلْمُنَّاع"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "person:Esau",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "تَقْدِمَة"
+"preferred_label": "عِيسُو"
 },
 {
 "id": "place:Damascus",
@@ -693,6 +616,62 @@
 "preferred_label": "دِمَشْقَ"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "مِصْر"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "الكلدانيون"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "ٱلْجَنوبُ"
+},
+{
+"id": "keyterm:Blow",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "ضربة"
+},
+{
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "العمالقة"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "إحْسان"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "تَقْدِمَة"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "إِسْرَائِيل"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.159,
@@ -700,11 +679,32 @@
 "preferred_label": "إِبْرَاهِيمَ"
 },
 {
-"id": "place:Ammon",
-"type": "place",
+"id": "person:Gideon",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "عَمُّون"
+"preferred_label": "جِدْعُون"
+},
+{
+"id": "person:Achish",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "أَخِيش"
+},
+{
+"id": "person:Hazael",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "حَزَائِيل"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "أيوب"
 },
 {
 "id": "fauna:Horse",
@@ -721,6 +721,13 @@
 "preferred_label": "جَرَاد"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "بَيْت"
+},
+{
 "id": "flora:BalsamTree",
 "type": "flora",
 "confidence": 0.158,
@@ -728,11 +735,11 @@
 "preferred_label": "شجر البلسان"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.158,
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "بَيْت"
+"preferred_label": "مَيْعَة"
 },
 {
 "id": "fauna:Hare",
@@ -742,11 +749,11 @@
 "preferred_label": "أَرْنَب بَرِّيّ"
 },
 {
-"id": "flora:Liquidambar",
+"id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "مَيْعَة"
+"preferred_label": "كَثِيرَاء"
 },
 {
 "id": "realia:AHalfShekel",
@@ -770,74 +777,11 @@
 "preferred_label": "أُرْجُوان"
 },
 {
-"id": "flora:GumTragacanth",
-"type": "flora",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "كَثِيرَاء"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "بغل"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "شقق كتان"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "لُبَان"
-},
-{
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "شُقَق مِنْ شَعْرِ مِعْزَى"
-},
-{
-"id": "fauna:Hyrax",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "وَبْر"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "سيف"
-},
-{
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "أفعى"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "حَمَل"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "تِنّين"
 },
 {
 "id": "realia:HouseholdIdols",
@@ -847,6 +791,20 @@
 "preferred_label": "تَرَافِيم"
 },
 {
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "شُقَق مِنْ شَعْرِ مِعْزَى"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "لُبَان"
+},
+{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.099,
@@ -854,11 +812,53 @@
 "preferred_label": "أَسَد"
 },
 {
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "بغل"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "سيف"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "تِنّين"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "أفعى"
+},
+{
+"id": "realia:LinenStrips",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "شقق كتان"
+},
+{
 "id": "realia:ToSaddle",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "شَدَّ ٱلسَّرْجَ"
+},
+{
+"id": "fauna:Hyrax",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "وَبْر"
 },
 {
 "id": "realia:Money",
