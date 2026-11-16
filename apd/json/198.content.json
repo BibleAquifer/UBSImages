@@ -218,18 +218,18 @@
 "preferred_label": "نهر النيل"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "إسرائيل"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.2982,
 "match_method": "canonical",
 "preferred_label": "رحمة"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "إسرائيل"
 },
 {
 "id": "realia:Ship",
@@ -246,11 +246,11 @@
 "preferred_label": "عجلة حربية"
 },
 {
-"id": "place:Jordan",
-"type": "place",
+"id": "person:Pharaoh.6",
+"type": "person",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "نهر الأردن"
+"preferred_label": "فرعون"
 },
 {
 "id": "place:Edom",
@@ -260,18 +260,11 @@
 "preferred_label": "أدوم"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
+"id": "place:Jordan",
+"type": "place",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "فرعون"
-},
-{
-"id": "place:Shur",
-"type": "place",
-"confidence": 0.1732,
-"match_method": "canonical",
-"preferred_label": "شور"
+"preferred_label": "نهر الأردن"
 },
 {
 "id": "place:SeirMount",
@@ -281,11 +274,11 @@
 "preferred_label": "جبل سعير"
 },
 {
-"id": "person:Pharaoh.5",
-"type": "person",
+"id": "place:Shur",
+"type": "place",
 "confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "فرعون"
+"preferred_label": "شور"
 },
 {
 "id": "place:GreatSea",
@@ -295,11 +288,11 @@
 "preferred_label": "البحر الأبيض المتوسط"
 },
 {
-"id": "place:Ham.2",
-"type": "place",
-"confidence": 0.1661,
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "حام"
+"preferred_label": "فرعون"
 },
 {
 "id": "place:Ezion-geber",
@@ -309,11 +302,95 @@
 "preferred_label": "عصيون جابر"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "الفلسطينيين"
+},
+{
+"id": "place:Ham.2",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "حام"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "نهر الفرات"
+},
+{
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "عمالقة"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "المصريين"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "موسى"
+},
+{
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "الكنعانيين"
+},
+{
+"id": "person:Sihon",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "سيحون"
+},
+{
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "مخصص للدمار"
+},
+{
+"id": "place:HorMount",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "جبل هور"
+},
+{
+"id": "place:Elim",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "إيليم"
+},
+{
+"id": "person:Og",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "عوج"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "جهنم"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -323,11 +400,18 @@
 "preferred_label": "عنده بصيرة"
 },
 {
-"id": "keyterm:Rebel",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "يتمرّد"
+"preferred_label": "خوف"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "أموريين"
 },
 {
 "id": "place:Sin",
@@ -344,11 +428,11 @@
 "preferred_label": "فلسطين"
 },
 {
-"id": "place:Hell",
+"id": "place:Canaan",
 "type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "جهنم"
+"preferred_label": "كنعان"
 },
 {
 "id": "place:Amalek",
@@ -358,102 +442,18 @@
 "preferred_label": "عماليق"
 },
 {
-"id": "place:Elim",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "إيليم"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "الفلسطينيين"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "الكنعانيين"
-},
-{
-"id": "keyterm:Proscribe.2",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "مخصص للدمار"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "نهر الفرات"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "كنعان"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "أموريين"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "سليمان"
-},
-{
-"id": "person:Og",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "عوج"
-},
-{
-"id": "group:Amalek",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "عمالقة"
-},
-{
-"id": "place:HorMount",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "جبل هور"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "المصريين"
-},
-{
-"id": "person:Sihon",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "سيحون"
-},
-{
 "id": "place:Elath",
 "type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "إيلة"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "يتمرّد"
 },
 {
 "id": "place:Kadesh-barnea",
@@ -463,11 +463,11 @@
 "preferred_label": "قادش برنيع"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:Solomon",
+"type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "خوف"
+"preferred_label": "سليمان"
 },
 {
 "id": "flora:Papyrus",
@@ -484,18 +484,18 @@
 "preferred_label": "بوص"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "الحصان"
-},
-{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "جراد"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "الحصان"
 }
 ]
 }

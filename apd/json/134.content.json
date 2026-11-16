@@ -193,18 +193,18 @@
 "preferred_label": "تين"
 },
 {
-"id": "realia:Jinglet",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "جلجل"
-},
-{
 "id": "realia:Robe",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
 "preferred_label": "جبة"
+},
+{
+"id": "realia:Jinglet",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "جلجل"
 },
 {
 "id": "flora:Barley",
@@ -221,11 +221,11 @@
 "preferred_label": "شجرة زيتون"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "قماش أرجواني"
+"preferred_label": "ذراع"
 },
 {
 "id": "place:EshcolValley",
@@ -235,18 +235,11 @@
 "preferred_label": "وادي أشكول"
 },
 {
-"id": "realia:Veil",
-"type": "realia",
+"id": "place:Migron",
+"type": "place",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "برقع"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "ذراع"
+"preferred_label": "مجرون"
 },
 {
 "id": "flora:Coriander",
@@ -256,11 +249,25 @@
 "preferred_label": "كزبرة"
 },
 {
-"id": "place:Migron",
-"type": "place",
+"id": "realia:PurpleCloth",
+"type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "مجرون"
+"preferred_label": "قماش أرجواني"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "برقع"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "الرب"
 },
 {
 "id": "person:Moses",
@@ -270,11 +277,11 @@
 "preferred_label": "موسى"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "الرب"
+"preferred_label": "شاول"
 },
 {
 "id": "place:Gibeah.2",
@@ -305,11 +312,11 @@
 "preferred_label": "طاهر"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.168,
+"id": "flora:Henna",
+"type": "flora",
+"confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "شاول"
+"preferred_label": "حنة"
 },
 {
 "id": "flora:Walnut",
@@ -319,60 +326,11 @@
 "preferred_label": "جوز"
 },
 {
-"id": "flora:Henna",
-"type": "flora",
-"confidence": 0.116,
-"match_method": "canonical",
-"preferred_label": "حنة"
-},
-{
 "id": "flora:Mandrake",
 "type": "flora",
 "confidence": 0.116,
 "match_method": "canonical",
 "preferred_label": "لفاح"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "زيت المسحة"
-},
-{
-"id": "realia:Spindle",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "مغزل"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "زيت زيتون"
-},
-{
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "خيط"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "بغل"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "نخلة"
 },
 {
 "id": "realia:Must",
@@ -382,6 +340,27 @@
 "preferred_label": "خمرة جديدة"
 },
 {
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "نخلة"
+},
+{
+"id": "realia:Spindle",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "مغزل"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "خيط"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.108,
@@ -389,11 +368,11 @@
 "preferred_label": "قمح"
 },
 {
-"id": "flora:Nard",
-"type": "flora",
+"id": "realia:Wine",
+"type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "ناردين"
+"preferred_label": "خمرة"
 },
 {
 "id": "realia:House",
@@ -403,11 +382,32 @@
 "preferred_label": "بيت"
 },
 {
-"id": "realia:Wine",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "خمرة"
+"preferred_label": "زيت زيتون"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "زيت المسحة"
+},
+{
+"id": "flora:Nard",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "ناردين"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "بغل"
 }
 ]
 }

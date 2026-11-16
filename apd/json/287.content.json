@@ -138,18 +138,18 @@
 "preferred_label": "الرب"
 },
 {
-"id": "keyterm:Blood",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "دم"
-},
-{
 "id": "keyterm:Life",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "حياة"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "دم"
 },
 {
 "id": "realia:Temple",
@@ -173,6 +173,62 @@
 "preferred_label": "نهر الفرات"
 },
 {
+"id": "keyterm:Judgment",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "دينونة"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "مقدّس"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "تقدمة"
+},
+{
+"id": "keyterm:Pray",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "صلّى"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "ملكوت"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "دايماً"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "ريحة رضا"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "سجود"
+},
+{
 "id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -187,18 +243,11 @@
 "preferred_label": "تنجيس"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "deity:Voice",
+"type": "deity",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "تقدمة"
-},
-{
-"id": "keyterm:BowDown",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "سجود"
+"preferred_label": "صوت بدون جسد"
 },
 {
 "id": "keyterm:Disciple",
@@ -208,67 +257,11 @@
 "preferred_label": "يكون تلميذ"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "مقدّس"
-},
-{
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "ريحة رضا"
-},
-{
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "صلّى"
-},
-{
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "صوت بدون جسد"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "دايماً"
-},
-{
-"id": "keyterm:Judgment",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "دينونة"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "ملكوت"
-},
-{
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "صاج"
-},
-{
-"id": "realia:Towel",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "فوطة"
 },
 {
 "id": "realia:Bowl",
@@ -278,25 +271,11 @@
 "preferred_label": "طشت"
 },
 {
-"id": "realia:Incense",
+"id": "realia:Towel",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "بخور"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "زيت المسحة"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "زيت زيتون"
+"preferred_label": "فوطة"
 },
 {
 "id": "realia:Image",
@@ -306,11 +285,32 @@
 "preferred_label": "صورة"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "بخور"
+},
+{
 "id": "realia:Lyre",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "كنارة"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "زيت زيتون"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "زيت المسحة"
 },
 {
 "id": "realia:Scroll",

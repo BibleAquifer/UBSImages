@@ -282,13 +282,6 @@
 "preferred_label": "مذبح خيمة الاجتماع"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "مذبح"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1733,
@@ -296,11 +289,18 @@
 "preferred_label": "تابوت العهد"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
+"id": "realia:TempleAltar",
+"type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "سنط"
+"preferred_label": "مذبح الهيكل"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "مذبح"
 },
 {
 "id": "realia:StoneAltar",
@@ -317,6 +317,13 @@
 "preferred_label": "بيت"
 },
 {
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "سنط"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1733,
@@ -324,18 +331,18 @@
 "preferred_label": "خيمة"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
-},
-{
-"id": "group:Tishbite",
-"type": "group",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "التشبيين"
+"preferred_label": "بطرس"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "إيليا"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -343,6 +350,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "طهّر"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "مقدّس"
 },
 {
 "id": "keyterm:Instruction",
@@ -359,25 +373,11 @@
 "preferred_label": "تشبة"
 },
 {
-"id": "person:Elijah",
-"type": "person",
+"id": "group:Tishbite",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "إيليا"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "مقدّس"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "بطرس"
+"preferred_label": "التشبيين"
 },
 {
 "id": "realia:Fork",
@@ -387,18 +387,18 @@
 "preferred_label": "شوكة لحم"
 },
 {
-"id": "realia:Shovel",
-"type": "realia",
-"confidence": 0.1141,
-"match_method": "canonical",
-"preferred_label": "كوريك"
-},
-{
 "id": "realia:Belt",
 "type": "realia",
 "confidence": 0.1141,
 "match_method": "canonical",
 "preferred_label": "حزام"
+},
+{
+"id": "realia:Shovel",
+"type": "realia",
+"confidence": 0.1141,
+"match_method": "canonical",
+"preferred_label": "كوريك"
 },
 {
 "id": "realia:Screen",

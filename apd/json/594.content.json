@@ -3,9 +3,9 @@
 "content_id": "293916",
 "reference_id": 2136,
 "version": "1.0.4",
-"title": "حوريب",
+"title": "جبل حوريب التقليدي: قمم صخرية",
 "media_type": "Image",
-"index_reference": "حوريب",
+"index_reference": "جبل حوريب التقليدي قمم صخرية",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0303_horeb.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0303_horeb.jpg'>link</a></p></block>",
@@ -249,32 +249,18 @@
 "preferred_label": "شهادة"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "تقدمة"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "مرسوم"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.2281,
 "match_method": "canonical",
 "preferred_label": "تعليم"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "تقدمة"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -284,11 +270,11 @@
 "preferred_label": "تابوت العهد"
 },
 {
-"id": "place:Kadesh-barnea",
+"id": "place:Egypt",
 "type": "place",
 "confidence": 0.2281,
 "match_method": "canonical",
-"preferred_label": "قادش برنيع"
+"preferred_label": "مصر"
 },
 {
 "id": "keyterm:Fear",
@@ -296,6 +282,20 @@
 "confidence": 0.2281,
 "match_method": "canonical",
 "preferred_label": "خوف"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "مرسوم"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "قادش برنيع"
 },
 {
 "id": "place:SeirMount",
@@ -326,39 +326,18 @@
 "preferred_label": "تابوت العهد"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "مقدّس"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "هارون"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "حق"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "عهد"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "أموريين"
 },
 {
 "id": "keyterm:Strength",
@@ -368,18 +347,18 @@
 "preferred_label": "قوة"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "مقدّس"
+"preferred_label": "مجد"
 },
 {
-"id": "place:SinaiWilderness",
-"type": "place",
+"id": "group:Amorites",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "برية سيناء"
+"preferred_label": "أموريين"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -389,25 +368,32 @@
 "preferred_label": "ريحة رضا"
 },
 {
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "حق"
+},
+{
+"id": "place:SinaiWilderness",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "برية سيناء"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "عهد"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "ماعز"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "بقر"
-},
-{
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "تمثال مسبوك"
 },
 {
 "id": "realia:Kiln",
@@ -417,11 +403,25 @@
 "preferred_label": "فرن"
 },
 {
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "تمثال مسبوك"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "حمل"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "بقر"
 },
 {
 "id": "fauna:Flock",

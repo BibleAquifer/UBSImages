@@ -213,11 +213,11 @@
 "preferred_label": "يسوع"
 },
 {
-"id": "person:Pilate",
+"id": "person:Barabbas",
 "type": "person",
 "confidence": 0.2346,
 "match_method": "canonical",
-"preferred_label": "بيلاطس"
+"preferred_label": "باراباس"
 },
 {
 "id": "place:Hell",
@@ -227,18 +227,18 @@
 "preferred_label": "جهنم"
 },
 {
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "بيلاطس"
+},
+{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "مشورة"
-},
-{
-"id": "person:Barabbas",
-"type": "person",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "باراباس"
 },
 {
 "id": "keyterm:Covenant",
@@ -255,11 +255,11 @@
 "preferred_label": "غراب"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "realia:Rod",
+"type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "الحصان"
+"preferred_label": "عصاية"
 },
 {
 "id": "realia:Synagogue",
@@ -269,67 +269,11 @@
 "preferred_label": "مجمع يهودي"
 },
 {
-"id": "realia:Rod",
-"type": "realia",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "عصاية"
-},
-{
-"id": "keyterm:Exempt",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "معفي"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "بولس"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "يطرد ويمتلك"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "يخدم"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "قيامة"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "محبة"
-},
-{
-"id": "keyterm:Refuge",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "ملجأ"
+"preferred_label": "الحصان"
 },
 {
 "id": "keyterm:Lawful",
@@ -339,32 +283,18 @@
 "preferred_label": "جايز"
 },
 {
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "روما"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "مديان"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "خوف"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "أمم"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "روما"
 },
 {
 "id": "keyterm:Stupid",
@@ -374,11 +304,74 @@
 "preferred_label": "غبي"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.115,
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "حبل"
+"preferred_label": "يخدم"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "يطرد ويمتلك"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "معفي"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "محبة"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "بولس"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "خوف"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "مصر"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "قيامة"
+},
+{
+"id": "keyterm:Refuge",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "ملجأ"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "مديان"
 },
 {
 "id": "realia:Trap",
@@ -388,11 +381,11 @@
 "preferred_label": "فخ"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Rope",
 "type": "realia",
-"confidence": 0.1073,
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "عجلة جر"
+"preferred_label": "حبل"
 },
 {
 "id": "realia:Chain",
@@ -402,39 +395,11 @@
 "preferred_label": "سلسلة"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "بقر"
-},
-{
 "id": "realia:BitAndBridle",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "لجام وشكيمة"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "الهيكل"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "عكاز"
-},
-{
-"id": "realia:Strap",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "سير جلد"
 },
 {
 "id": "realia:Prison",
@@ -451,11 +416,11 @@
 "preferred_label": "حمل"
 },
 {
-"id": "fauna:Donkey",
-"type": "fauna",
+"id": "realia:Temple",
+"type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "حمار"
+"preferred_label": "الهيكل"
 },
 {
 "id": "realia:Chariot",
@@ -463,6 +428,41 @@
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "عجلة حربية"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "بقر"
+},
+{
+"id": "realia:Strap",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "سير جلد"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "عكاز"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "عجلة جر"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "حمار"
 }
 ]
 }

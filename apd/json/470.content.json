@@ -224,18 +224,18 @@
 "preferred_label": "بقر"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "إسرائيل"
-},
-{
 "id": "person:Pharaoh.6",
 "type": "person",
 "confidence": 0.231,
 "match_method": "canonical",
 "preferred_label": "فرعون"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "إسرائيل"
 },
 {
 "id": "keyterm:Arrow",
@@ -252,18 +252,11 @@
 "preferred_label": "بيت حورون التحتانية"
 },
 {
-"id": "keyterm:Majesty",
-"type": "keyterm",
+"id": "place:Goshen",
+"type": "place",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "جلال"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "يغلط"
+"preferred_label": "جوشين"
 },
 {
 "id": "place:Azekah",
@@ -280,11 +273,18 @@
 "preferred_label": "ملجأ"
 },
 {
-"id": "place:Goshen",
-"type": "place",
+"id": "keyterm:Majesty",
+"type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "جوشين"
+"preferred_label": "جلال"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "يغلط"
 },
 {
 "id": "realia:Plaster",
@@ -294,32 +294,11 @@
 "preferred_label": "جير"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "قصبة قياس"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "تين"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "جميز"
 },
 {
 "id": "flora:Grain",
@@ -329,11 +308,11 @@
 "preferred_label": "حبوب"
 },
 {
-"id": "realia:PlumbLine",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "ميزان خيط"
+"preferred_label": "عصاية"
 },
 {
 "id": "realia:House",
@@ -343,6 +322,20 @@
 "preferred_label": "بيت"
 },
 {
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "جميز"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1055,
@@ -350,11 +343,18 @@
 "preferred_label": "جراد"
 },
 {
-"id": "realia:Rod",
+"id": "realia:PlumbLine",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "عصاية"
+"preferred_label": "ميزان خيط"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "قصبة قياس"
 }
 ]
 }

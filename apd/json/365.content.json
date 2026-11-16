@@ -260,6 +260,13 @@
 "preferred_label": "حبوب"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "يوحنا"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2257,
@@ -267,11 +274,11 @@
 "preferred_label": "موسى"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2257,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "يوحنا"
+"preferred_label": "جلد"
 },
 {
 "id": "realia:Belt",
@@ -281,11 +288,11 @@
 "preferred_label": "حزام"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1714,
+"id": "place:Ashkenaz",
+"type": "place",
+"confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "جلد"
+"preferred_label": "أشكناز"
 },
 {
 "id": "place:Minni",
@@ -302,25 +309,11 @@
 "preferred_label": "نوع"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "أشكناز"
-},
-{
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1657,
 "match_method": "canonical",
 "preferred_label": "نحلة"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "الحصان"
 },
 {
 "id": "realia:Bag",
@@ -330,32 +323,18 @@
 "preferred_label": "كيس"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "الحصان"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "حلف"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "يطرد ويمتلك"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "قدرة"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "جلال"
 },
 {
 "id": "keyterm:Appoint",
@@ -365,46 +344,11 @@
 "preferred_label": "يعيّن"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "عماليق"
-},
-{
 "id": "place:East",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "الشرق"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "البحر الأحمر"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "سلطة"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "أراراط"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "ويل"
 },
 {
 "id": "group:Amalek",
@@ -414,11 +358,11 @@
 "preferred_label": "عمالقة"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "رعب"
+"preferred_label": "البحر الأحمر"
 },
 {
 "id": "keyterm:Holy",
@@ -426,6 +370,20 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "مقدّس"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "يطرد ويمتلك"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "أراراط"
 },
 {
 "id": "place:Midian",
@@ -442,11 +400,53 @@
 "preferred_label": "خوف"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "قدرة"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "ويل"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "كوش"
+},
+{
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "جلال"
+},
+{
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "عماليق"
+},
+{
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "رعب"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "سلطة"
 },
 {
 "id": "flora:Caper",
@@ -456,60 +456,11 @@
 "preferred_label": "كَبَر"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "شجرة زيتون"
-},
-{
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "درة"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
-"id": "flora:Almond",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "لوز"
-},
-{
-"id": "fauna:Scorpion",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "عقرب"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "إكليل"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "شعير"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "هدوم"
 },
 {
 "id": "flora:Fig",
@@ -526,32 +477,32 @@
 "preferred_label": "بوط"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Standard",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "بوق قرن الكبش"
+"preferred_label": "راية"
 },
 {
-"id": "flora:Wheat",
+"id": "flora:Almond",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "قمح"
+"preferred_label": "لوز"
 },
 {
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "كزبرة"
-},
-{
-"id": "realia:Tent",
+"id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "خيمة"
+"preferred_label": "إكليل"
+},
+{
+"id": "fauna:Scorpion",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "عقرب"
 },
 {
 "id": "flora:Grass",
@@ -561,11 +512,25 @@
 "preferred_label": "قش"
 },
 {
-"id": "realia:House",
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "قمح"
+},
+{
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "بيت"
+"preferred_label": "عصاية"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "خيمة"
 },
 {
 "id": "realia:Crown",
@@ -575,11 +540,25 @@
 "preferred_label": "تاج"
 },
 {
-"id": "realia:Standard",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "راية"
+"preferred_label": "بيت"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "كزبرة"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "درة"
 },
 {
 "id": "flora:Sandalwood",
@@ -589,11 +568,32 @@
 "preferred_label": "صندل"
 },
 {
-"id": "realia:Rod",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "شجرة زيتون"
+},
+{
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "عصاية"
+"preferred_label": "هدوم"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "بوق قرن الكبش"
 }
 ]
 }

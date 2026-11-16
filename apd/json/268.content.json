@@ -117,14 +117,14 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Peg.2",
+"id": "realia:Peg",
 "type": "realia",
 "confidence": 0.7753,
 "match_method": "canonical",
 "preferred_label": "وتد"
 },
 {
-"id": "realia:Peg",
+"id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.7753,
 "match_method": "canonical",
@@ -152,18 +152,18 @@
 "preferred_label": "الرب"
 },
 {
-"id": "person:Sisera",
-"type": "person",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "سيسرا"
-},
-{
 "id": "keyterm:BeFirm",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "راسخ"
+},
+{
+"id": "person:Sisera",
+"type": "person",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "سيسرا"
 },
 {
 "id": "realia:Hammer",
@@ -187,6 +187,13 @@
 "preferred_label": "خيمة"
 },
 {
+"id": "person:Barak",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "باراق"
+},
+{
 "id": "keyterm:AppointedFeast",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -201,13 +208,6 @@
 "preferred_label": "أورشليم"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
 "id": "keyterm:Supplication",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -215,32 +215,11 @@
 "preferred_label": "طلب رحمة"
 },
 {
-"id": "person:Barak",
-"type": "person",
+"id": "keyterm:Glory",
+"type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "باراق"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "خيمة الاجتماع"
-},
-{
-"id": "realia:PerimiterCurtain",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "ستائر الدار"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "قوس"
+"preferred_label": "مجد"
 },
 {
 "id": "realia:Screen",
@@ -250,11 +229,11 @@
 "preferred_label": "ستارة"
 },
 {
-"id": "realia:GoatHairStrips",
+"id": "realia:PerimiterCurtain",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "ستائر شعر معيز"
+"preferred_label": "ستائر الدار"
 },
 {
 "id": "realia:LinenStrips",
@@ -262,6 +241,27 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "شرايط كتان"
+},
+{
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "قوس"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "خيمة الاجتماع"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "ستائر شعر معيز"
 }
 ]
 }

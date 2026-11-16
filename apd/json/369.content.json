@@ -545,13 +545,6 @@
 "preferred_label": "سما"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3528,
-"match_method": "canonical",
-"preferred_label": "سحلية"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3528,
@@ -564,6 +557,13 @@
 "confidence": 0.3528,
 "match_method": "canonical",
 "preferred_label": "الورل"
+},
+{
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.3528,
+"match_method": "canonical",
+"preferred_label": "سحلية"
 },
 {
 "id": "fauna:Fish",
@@ -587,18 +587,18 @@
 "preferred_label": "طاهر"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.3162,
-"match_method": "canonical",
-"preferred_label": "بقر"
-},
-{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.3162,
 "match_method": "canonical",
 "preferred_label": "ديك"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3162,
+"match_method": "canonical",
+"preferred_label": "بقر"
 },
 {
 "id": "keyterm:Kind.2",
@@ -622,11 +622,11 @@
 "preferred_label": "دبيبة"
 },
 {
-"id": "fauna:Snake",
+"id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "دبيب"
+"preferred_label": "كلب"
 },
 {
 "id": "flora:Grass",
@@ -636,11 +636,11 @@
 "preferred_label": "قش"
 },
 {
-"id": "fauna:Dog",
+"id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "كلب"
+"preferred_label": "دبيب"
 },
 {
 "id": "keyterm:Destroy",
@@ -650,6 +650,13 @@
 "preferred_label": "يدمّر"
 },
 {
+"id": "person:Adam",
+"type": "person",
+"confidence": 0.2128,
+"match_method": "canonical",
+"preferred_label": "آدم"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2128,
@@ -657,11 +664,53 @@
 "preferred_label": "يبارك"
 },
 {
-"id": "person:Adam",
-"type": "person",
-"confidence": 0.2128,
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "آدم"
+"preferred_label": "يعيّن"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "الفلسطينيين"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "فرعون"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "تقدمة"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "نوح"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "مجد"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "فلسطين"
 },
 {
 "id": "keyterm:Defilement",
@@ -678,53 +727,11 @@
 "preferred_label": "يسوع"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.2105,
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.2057,
 "match_method": "canonical",
-"preferred_label": "فرعون"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "فلسطين"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "تقدمة"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "يعيّن"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "مجد"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "الفلسطينيين"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "نوح"
+"preferred_label": "حبوب"
 },
 {
 "id": "realia:Ship",
@@ -732,13 +739,6 @@
 "confidence": 0.2057,
 "match_method": "canonical",
 "preferred_label": "سفينة"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.2057,
-"match_method": "canonical",
-"preferred_label": "حبوب"
 }
 ]
 }

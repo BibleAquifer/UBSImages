@@ -155,18 +155,18 @@
 "preferred_label": "شوك"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.4829,
-"match_method": "canonical",
-"preferred_label": "عوسج"
-},
-{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.4829,
 "match_method": "canonical",
 "preferred_label": "سنط"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.4829,
+"match_method": "canonical",
+"preferred_label": "عوسج"
 },
 {
 "id": "person:Israel",
@@ -183,11 +183,11 @@
 "preferred_label": "أمصيا"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "لبنان"
+"preferred_label": "قبيلة يهوذا"
 },
 {
 "id": "person:Judah.4",
@@ -197,13 +197,6 @@
 "preferred_label": "يهوذا"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "قبيلة يهوذا"
-},
-{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.2429,
@@ -211,18 +204,18 @@
 "preferred_label": "يوآش"
 },
 {
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "لبنان"
+},
+{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.1924,
 "match_method": "canonical",
 "preferred_label": "قريص"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "كرمة"
 },
 {
 "id": "flora:Fig",
@@ -239,95 +232,18 @@
 "preferred_label": "أرز"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
 "id": "keyterm:DailyLife",
 "type": "keyterm",
 "confidence": 0.181,
 "match_method": "canonical",
 "preferred_label": "الحياة اليومية"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "كامل"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "الرب"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "يطرد ويمتلك"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "صلمناع"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "قدرة"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "جدعون"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
-"id": "place:Memphis",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "منف"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "مَثَل"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "سكوت"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "أيوب"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "دايماً"
 },
 {
 "id": "person:Zebah",
@@ -337,6 +253,13 @@
 "preferred_label": "زبَح"
 },
 {
+"id": "place:Memphis",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "منف"
+},
+{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -344,39 +267,81 @@
 "preferred_label": "غبي"
 },
 {
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.1114,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "زوان"
+"preferred_label": "الرب"
 },
 {
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1114,
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "حفرة"
+"preferred_label": "صلمناع"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1114,
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "قروش"
+"preferred_label": "مَثَل"
 },
 {
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1114,
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "سوسن"
+"preferred_label": "يطرد ويمتلك"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1114,
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "ابن آوى"
+"preferred_label": "دايماً"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "مصر"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "جدعون"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "قدرة"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "سكوت"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "كامل"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "أيوب"
 },
 {
 "id": "flora:Barley",
@@ -386,18 +351,25 @@
 "preferred_label": "شعير"
 },
 {
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "بومة"
-},
-{
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "نعامة"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "ابن آوى"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "قروش"
 },
 {
 "id": "flora:Wheat",
@@ -407,11 +379,39 @@
 "preferred_label": "قمح"
 },
 {
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "سوسن"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "صندل"
+},
+{
+"id": "flora:Weed",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "زوان"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "بومة"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "حفرة"
 }
 ]
 }

@@ -199,6 +199,13 @@
 "preferred_label": "مذبح خيمة الاجتماع"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.3938,
+"match_method": "canonical",
+"preferred_label": "مذبح الهيكل"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3938,
@@ -218,13 +225,6 @@
 "confidence": 0.3938,
 "match_method": "canonical",
 "preferred_label": "بيت"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3938,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
 },
 {
 "id": "realia:BreadOfDisplay",
@@ -262,6 +262,13 @@
 "preferred_label": "الهيكل"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "مقدّس"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.2346,
@@ -274,13 +281,6 @@
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "سليمان"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "مقدّس"
 },
 {
 "id": "realia:Dish",
@@ -297,25 +297,11 @@
 "preferred_label": "أبياثار"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "خيمة الاجتماع"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "تابوت العهد"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "ستار"
 },
 {
 "id": "realia:Cubit",
@@ -332,11 +318,25 @@
 "preferred_label": "جك"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "ستار"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "خيمة الاجتماع"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "القدس"
+"preferred_label": "حزقيا"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -346,11 +346,11 @@
 "preferred_label": "تابوت العهد"
 },
 {
-"id": "person:Hezekiah",
-"type": "person",
+"id": "place:HolyPlace",
+"type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "حزقيا"
+"preferred_label": "القدس"
 },
 {
 "id": "realia:TheHolyPlace",
@@ -367,20 +367,6 @@
 "preferred_label": "خيمة الاجتماع"
 },
 {
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "قماش أرجواني"
-},
-{
-"id": "realia:MostHolyPlace",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "قدس الأقداس"
-},
-{
 "id": "realia:Screen",
 "type": "realia",
 "confidence": 0.1073,
@@ -395,11 +381,25 @@
 "preferred_label": "سراج"
 },
 {
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "قماش أرجواني"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "خمرة"
+},
+{
+"id": "realia:MostHolyPlace",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "قدس الأقداس"
 }
 ]
 }

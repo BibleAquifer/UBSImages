@@ -3,9 +3,9 @@
 "content_id": "293810",
 "reference_id": 2030,
 "version": "1.0.4",
-"title": "تربة أنتيغو",
+"title": "طبقات التربة: مقطع عرضي",
 "media_type": "Image",
-"index_reference": "تربة أنتيغو",
+"index_reference": "طبقات التربة مقطع عرضي",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0819_soil_antigo.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0819_soil_antigo.jpg'>link</a></p></block>",
@@ -1317,11 +1317,11 @@
 "preferred_label": "مصر"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.3629,
 "match_method": "canonical",
-"preferred_label": "يبارك"
+"preferred_label": "خوف"
 },
 {
 "id": "keyterm:Holy",
@@ -1331,18 +1331,11 @@
 "preferred_label": "مقدّس"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.3629,
 "match_method": "canonical",
-"preferred_label": "خوف"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "فرعون"
+"preferred_label": "يبارك"
 },
 {
 "id": "keyterm:Decree",
@@ -1359,11 +1352,25 @@
 "preferred_label": "يهوذا"
 },
 {
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "يلعن"
+},
+{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.3607,
 "match_method": "canonical",
 "preferred_label": "نهر الأردن"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "فرعون"
 },
 {
 "id": "group:Judah",
@@ -1373,11 +1380,11 @@
 "preferred_label": "قبيلة يهوذا"
 },
 {
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.3607,
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3179,
 "match_method": "canonical",
-"preferred_label": "يلعن"
+"preferred_label": "قمح"
 },
 {
 "id": "flora:Sorghum",
@@ -1385,13 +1392,6 @@
 "confidence": 0.3179,
 "match_method": "canonical",
 "preferred_label": "درة"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3179,
-"match_method": "canonical",
-"preferred_label": "قمح"
 },
 {
 "id": "fauna:Bull",
@@ -1429,6 +1429,20 @@
 "preferred_label": "تنجيس"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "بابل"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3086,
+"match_method": "canonical",
+"preferred_label": "يغلط"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.3086,
@@ -1450,20 +1464,6 @@
 "preferred_label": "نوح"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "يغلط"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.3086,
-"match_method": "canonical",
-"preferred_label": "بابل"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.3071,
@@ -1471,11 +1471,11 @@
 "preferred_label": "قطيع"
 },
 {
-"id": "fauna:Lizard",
+"id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3007,
 "match_method": "canonical",
-"preferred_label": "سحلية"
+"preferred_label": "حرباية"
 },
 {
 "id": "realia:AnointingOil",

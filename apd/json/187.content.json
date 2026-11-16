@@ -254,13 +254,6 @@
 "preferred_label": "زيت زيتون"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.2333,
-"match_method": "canonical",
-"preferred_label": "يسوع"
-},
-{
 "id": "keyterm:Body.3",
 "type": "keyterm",
 "confidence": 0.2333,
@@ -275,18 +268,18 @@
 "preferred_label": "طاهر"
 },
 {
-"id": "realia:Aloes",
-"type": "realia",
-"confidence": 0.1881,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2333,
 "match_method": "canonical",
-"preferred_label": "عود الصندل"
+"preferred_label": "يسوع"
 },
 {
-"id": "realia:Pound",
+"id": "realia:OilOfNard",
 "type": "realia",
 "confidence": 0.1881,
 "match_method": "canonical",
-"preferred_label": "رطل"
+"preferred_label": "زيت ناردين"
 },
 {
 "id": "flora:Aloes",
@@ -296,11 +289,18 @@
 "preferred_label": "صَبِر"
 },
 {
-"id": "realia:OilOfNard",
+"id": "realia:Pound",
 "type": "realia",
 "confidence": 0.1881,
 "match_method": "canonical",
-"preferred_label": "زيت ناردين"
+"preferred_label": "رطل"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1881,
+"match_method": "canonical",
+"preferred_label": "عود الصندل"
 },
 {
 "id": "flora:Calamus",
@@ -317,11 +317,11 @@
 "preferred_label": "عود"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "person:Nicodemus",
+"type": "person",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "سجود"
+"preferred_label": "نيقوديموس"
 },
 {
 "id": "person:Simon.4",
@@ -331,11 +331,11 @@
 "preferred_label": "سمعان"
 },
 {
-"id": "person:Nicodemus",
-"type": "person",
+"id": "keyterm:BowDown",
+"type": "keyterm",
 "confidence": 0.1741,
 "match_method": "canonical",
-"preferred_label": "نيقوديموس"
+"preferred_label": "سجود"
 },
 {
 "id": "place:Bethany",
@@ -345,13 +345,6 @@
 "preferred_label": "بيت عنيا"
 },
 {
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "بخور"
-},
-{
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.1733,
@@ -359,32 +352,18 @@
 "preferred_label": "دينار"
 },
 {
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "بخور"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
 "preferred_label": "خمرة"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "تقدمة"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "وصية"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "مجموعة تلاميذ"
 },
 {
 "id": "keyterm:Sabbath",
@@ -401,11 +380,32 @@
 "preferred_label": "الفريسيين"
 },
 {
-"id": "person:Mary",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "مريم"
+"preferred_label": "مجموعة تلاميذ"
+},
+{
+"id": "place:Ophir",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "أوفير"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "تقدمة"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "وصية"
 },
 {
 "id": "person:Ahasuerus",
@@ -422,11 +422,11 @@
 "preferred_label": "لعازر"
 },
 {
-"id": "place:Ophir",
-"type": "place",
+"id": "person:Mary",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "أوفير"
+"preferred_label": "مريم"
 },
 {
 "id": "realia:MyrrhedWine",
@@ -450,46 +450,11 @@
 "preferred_label": "زعفران"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "عجلة جر"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "زيت المسحة"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "الحصان"
-},
-{
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "سوسن"
-},
-{
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "قمح"
+"preferred_label": "سرير"
 },
 {
 "id": "fauna:Lamb",
@@ -499,6 +464,20 @@
 "preferred_label": "حمل"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "قمح"
+},
+{
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "سوسن"
+},
+{
 "id": "realia:Bag",
 "type": "realia",
 "confidence": 0.1067,
@@ -506,11 +485,32 @@
 "preferred_label": "كيس"
 },
 {
-"id": "realia:Bed",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "سرير"
+"preferred_label": "زيت المسحة"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "الحصان"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "عجلة جر"
 }
 ]
 }

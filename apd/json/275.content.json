@@ -3,9 +3,9 @@
 "content_id": "293560",
 "reference_id": 1780,
 "version": "1.0.4",
-"title": "مدخل خيمة الاجتماع",
+"title": "مدخل الخيمة",
 "media_type": "Image",
-"index_reference": "مدخل خيمة الاجتماع",
+"index_reference": "مدخل الخيمة",
 "language": "apd",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0428_tabernacle_entrance.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0428_tabernacle_entrance.jpg'>link</a></p></block>",
@@ -978,11 +978,11 @@
 "preferred_label": "تابوت العهد"
 },
 {
-"id": "realia:StoneAltar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "مذبح حجر"
+"preferred_label": "مذبح الهيكل"
 },
 {
 "id": "realia:Altar",
@@ -992,18 +992,18 @@
 "preferred_label": "مذبح"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "مذبح الهيكل"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3592,
 "match_method": "canonical",
 "preferred_label": "مذبح خيمة الاجتماع"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "مذبح حجر"
 },
 {
 "id": "fauna:Bull",
@@ -1013,13 +1013,6 @@
 "preferred_label": "بقر"
 },
 {
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.3126,
-"match_method": "canonical",
-"preferred_label": "طاهر"
-},
-{
 "id": "keyterm:Priesthood",
 "type": "keyterm",
 "confidence": 0.3126,
@@ -1027,11 +1020,11 @@
 "preferred_label": "كهنوت"
 },
 {
-"id": "person:Gershon",
-"type": "person",
+"id": "keyterm:Pure",
+"type": "keyterm",
 "confidence": 0.3126,
 "match_method": "canonical",
-"preferred_label": "جرشون"
+"preferred_label": "طاهر"
 },
 {
 "id": "person:Eleazar.2",
@@ -1039,6 +1032,13 @@
 "confidence": 0.3126,
 "match_method": "canonical",
 "preferred_label": "ألعازار"
+},
+{
+"id": "person:Gershon",
+"type": "person",
+"confidence": 0.3126,
+"match_method": "canonical",
+"preferred_label": "جرشون"
 },
 {
 "id": "realia:Tent",
@@ -1055,13 +1055,6 @@
 "preferred_label": "تابوت العهد"
 },
 {
-"id": "person:Kohath",
-"type": "person",
-"confidence": 0.2594,
-"match_method": "canonical",
-"preferred_label": "قهات"
-},
-{
 "id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.2594,
@@ -1069,18 +1062,25 @@
 "preferred_label": "يورّث / يملّك"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.2594,
-"match_method": "canonical",
-"preferred_label": "يتحمل العواقب"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2594,
 "match_method": "canonical",
 "preferred_label": "يغلط"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.2594,
+"match_method": "canonical",
+"preferred_label": "سليمان"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
+"type": "keyterm",
+"confidence": 0.2594,
+"match_method": "canonical",
+"preferred_label": "يتحمل العواقب"
 }
 ]
 }

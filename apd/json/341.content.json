@@ -343,6 +343,13 @@
 "preferred_label": "بابل"
 },
 {
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.395,
+"match_method": "canonical",
+"preferred_label": "السامرة"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.395,
@@ -357,13 +364,6 @@
 "preferred_label": "قبيلة يهوذا"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.395,
-"match_method": "canonical",
-"preferred_label": "السامرة"
-},
-{
 "id": "realia:Siege-works",
 "type": "realia",
 "confidence": 0.339,
@@ -371,11 +371,11 @@
 "preferred_label": "أعمال الحصار"
 },
 {
-"id": "place:Assyria",
+"id": "place:Chaldea",
 "type": "place",
 "confidence": 0.336,
 "match_method": "canonical",
-"preferred_label": "أشور"
+"preferred_label": "أرض الكلدانيين"
 },
 {
 "id": "group:Chaldea",
@@ -392,11 +392,11 @@
 "preferred_label": "نبوخذنصر"
 },
 {
-"id": "place:Chaldea",
+"id": "place:Assyria",
 "type": "place",
 "confidence": 0.336,
 "match_method": "canonical",
-"preferred_label": "أرض الكلدانيين"
+"preferred_label": "أشور"
 },
 {
 "id": "realia:Fortification",
@@ -413,18 +413,18 @@
 "preferred_label": "صدقيا"
 },
 {
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "يوآب"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "داود"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "يوآب"
 },
 {
 "id": "realia:SiegeTower",
@@ -448,18 +448,18 @@
 "preferred_label": "الرب"
 },
 {
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "عمونيين"
-},
-{
 "id": "place:Ammon",
 "type": "place",
 "confidence": 0.218,
 "match_method": "canonical",
 "preferred_label": "عمون"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "عمونيين"
 },
 {
 "id": "realia:SiegeRamp",
@@ -469,53 +469,11 @@
 "preferred_label": "مترس حصار"
 },
 {
-"id": "person:Baasha",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "بعشا"
-},
-{
-"id": "person:Jehoiakim",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "يهوياقيم"
-},
-{
-"id": "person:Shalmaneser",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "شلمنأسر"
-},
-{
 "id": "person:Nadab.2",
 "type": "person",
 "confidence": 0.163,
 "match_method": "canonical",
 "preferred_label": "ناداب"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "بنهدد"
-},
-{
-"id": "person:Rezin",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "رصين"
-},
-{
-"id": "person:Hoshea",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "هوشع"
 },
 {
 "id": "person:Ahijah.3",
@@ -532,11 +490,46 @@
 "preferred_label": "بيت حورون الفوقانية"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.159,
+"id": "person:Rezin",
+"type": "person",
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "فلسطين"
+"preferred_label": "رصين"
+},
+{
+"id": "person:Jehoiakim",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "يهوياقيم"
+},
+{
+"id": "person:Hoshea",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "هوشع"
+},
+{
+"id": "person:Ben-hadad.2",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "بنهدد"
+},
+{
+"id": "person:Baasha",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "بعشا"
+},
+{
+"id": "person:Shalmaneser",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "شلمنأسر"
 },
 {
 "id": "person:Omri",
@@ -546,165 +539,11 @@
 "preferred_label": "عمري"
 },
 {
-"id": "place:Media",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "ميديا"
-},
-{
-"id": "person:Issachar",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "يساكر"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "صور"
-},
-{
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "عيلام"
-},
-{
-"id": "person:Remaliah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "رمليا"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "يتنبأ"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "الفلسطينيين"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "بنهدد"
-},
-{
-"id": "person:Jeremiah.6",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "إرميا"
-},
-{
-"id": "place:Tirzah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "ترصة"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "يثق"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "مصر"
-},
-{
-"id": "person:Rehoboam",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "رحبعام"
-},
-{
-"id": "group:Issachar",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "قبيلة يساكر"
-},
-{
-"id": "person:Elah.3",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "أيلة"
-},
-{
-"id": "person:Hophra",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "حُفْرَع"
-},
-{
-"id": "person:Sennacherib",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "سنحاريب"
-},
-{
-"id": "person:Pekah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "فقح"
-},
-{
-"id": "keyterm:Supplication",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "طلب رحمة"
-},
-{
-"id": "place:Abel-beth-maacah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "آبيل بيت معكة"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "حزقيا"
-},
-{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
 "preferred_label": "شاول"
-},
-{
-"id": "place:Keilah",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "قعيلة"
 },
 {
 "id": "person:Ahaz",
@@ -714,11 +553,81 @@
 "preferred_label": "آحاز"
 },
 {
-"id": "place:Beth-horonLower",
+"id": "person:Issachar",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "يساكر"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "بنهدد"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "يثق"
+},
+{
+"id": "place:Media",
 "type": "place",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "بيت حورون التحتانية"
+"preferred_label": "ميديا"
+},
+{
+"id": "place:Abel-beth-maacah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "آبيل بيت معكة"
+},
+{
+"id": "person:Remaliah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "رمليا"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "الفلسطينيين"
+},
+{
+"id": "person:Rehoboam",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "رحبعام"
+},
+{
+"id": "place:Elam",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "عيلام"
+},
+{
+"id": "person:Pekah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "فقح"
+},
+{
+"id": "person:Hophra",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "حُفْرَع"
 },
 {
 "id": "keyterm:Salvation",
@@ -726,6 +635,97 @@
 "confidence": 0.159,
 "match_method": "canonical",
 "preferred_label": "خلاص"
+},
+{
+"id": "place:Keilah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "قعيلة"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "صور"
+},
+{
+"id": "person:Sennacherib",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "سنحاريب"
+},
+{
+"id": "person:Jeremiah.6",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "إرميا"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "مصر"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "فلسطين"
+},
+{
+"id": "person:Elah.3",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "أيلة"
+},
+{
+"id": "place:Tirzah",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "ترصة"
+},
+{
+"id": "group:Issachar",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "قبيلة يساكر"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "حزقيا"
+},
+{
+"id": "keyterm:Supplication",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "طلب رحمة"
+},
+{
+"id": "place:Beth-horonLower",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "بيت حورون التحتانية"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "يتنبأ"
 },
 {
 "id": "realia:Money",
@@ -756,18 +756,18 @@
 "preferred_label": "شبكة صيد"
 },
 {
-"id": "flora:Muskmelon",
-"type": "flora",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "شمام"
-},
-{
 "id": "realia:Kab",
 "type": "realia",
 "confidence": 0.103,
 "match_method": "canonical",
 "preferred_label": "قاب"
+},
+{
+"id": "flora:Muskmelon",
+"type": "flora",
+"confidence": 0.103,
+"match_method": "canonical",
+"preferred_label": "شمام"
 },
 {
 "id": "realia:BrickMold",
@@ -777,20 +777,6 @@
 "preferred_label": "قالب طوب"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "حبل"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "كرمة"
-},
-{
 "id": "realia:Net",
 "type": "realia",
 "confidence": 0.099,
@@ -798,32 +784,11 @@
 "preferred_label": "شبكة"
 },
 {
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "الضبع"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "فاس"
-},
-{
 "id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "الحصان"
-},
-{
-"id": "realia:Bowl",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "طشت"
 },
 {
 "id": "realia:Chariot",
@@ -840,6 +805,27 @@
 "preferred_label": "سيف"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "بيت"
+},
+{
+"id": "fauna:Hyena",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "الضبع"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "كرمة"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
 "confidence": 0.099,
@@ -847,11 +833,25 @@
 "preferred_label": "حمار"
 },
 {
-"id": "realia:House",
+"id": "realia:Bowl",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
-"preferred_label": "بيت"
+"preferred_label": "طشت"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "فاس"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "حبل"
 }
 ]
 }

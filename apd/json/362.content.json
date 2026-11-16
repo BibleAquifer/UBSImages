@@ -674,13 +674,6 @@
 "preferred_label": "سهول مؤاب"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3933,
-"match_method": "canonical",
-"preferred_label": "موسى"
-},
-{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.3933,
@@ -688,11 +681,25 @@
 "preferred_label": "يشوع"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3933,
+"match_method": "canonical",
+"preferred_label": "موسى"
+},
+{
 "id": "person:John",
 "type": "person",
 "confidence": 0.3774,
 "match_method": "canonical",
 "preferred_label": "يوحنا"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.376,
+"match_method": "canonical",
+"preferred_label": "يكون تلميذ"
 },
 {
 "id": "deity:Angel",
@@ -707,13 +714,6 @@
 "confidence": 0.376,
 "match_method": "canonical",
 "preferred_label": "يسوع"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.376,
-"match_method": "canonical",
-"preferred_label": "يكون تلميذ"
 },
 {
 "id": "place:Ai",
@@ -744,18 +744,18 @@
 "preferred_label": "الروح القدس"
 },
 {
-"id": "place:NeboMount",
-"type": "place",
-"confidence": 0.2668,
-"match_method": "canonical",
-"preferred_label": "جبل نبو"
-},
-{
 "id": "person:Rahab",
 "type": "person",
 "confidence": 0.2668,
 "match_method": "canonical",
 "preferred_label": "راحاب"
+},
+{
+"id": "place:NeboMount",
+"type": "place",
+"confidence": 0.2668,
+"match_method": "canonical",
+"preferred_label": "جبل نبو"
 },
 {
 "id": "person:Isaiah",
@@ -765,11 +765,18 @@
 "preferred_label": "إشعياء"
 },
 {
-"id": "keyterm:Proclaim",
-"type": "keyterm",
+"id": "place:Chaldea",
+"type": "place",
 "confidence": 0.263,
 "match_method": "canonical",
-"preferred_label": "ينادي"
+"preferred_label": "أرض الكلدانيين"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.263,
+"match_method": "canonical",
+"preferred_label": "أليشع"
 },
 {
 "id": "place:Jerusalem",
@@ -777,6 +784,13 @@
 "confidence": 0.263,
 "match_method": "canonical",
 "preferred_label": "أورشليم"
+},
+{
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.263,
+"match_method": "canonical",
+"preferred_label": "ألعازار"
 },
 {
 "id": "group:Chaldea",
@@ -793,25 +807,11 @@
 "preferred_label": "استقامة"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
+"id": "keyterm:Proclaim",
+"type": "keyterm",
 "confidence": 0.263,
 "match_method": "canonical",
-"preferred_label": "ألعازار"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.263,
-"match_method": "canonical",
-"preferred_label": "أرض الكلدانيين"
-},
-{
-"id": "person:Elisha",
-"type": "person",
-"confidence": 0.263,
-"match_method": "canonical",
-"preferred_label": "أليشع"
+"preferred_label": "ينادي"
 },
 {
 "id": "place:Beth-aven",
@@ -835,18 +835,18 @@
 "preferred_label": "نون"
 },
 {
-"id": "place:Canaan",
-"type": "place",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.2087,
 "match_method": "canonical",
-"preferred_label": "كنعان"
+"preferred_label": "يؤمن"
 },
 {
-"id": "place:Gilead",
-"type": "place",
+"id": "keyterm:Serve",
+"type": "keyterm",
 "confidence": 0.2087,
 "match_method": "canonical",
-"preferred_label": "جلعاد"
+"preferred_label": "يخدم"
 }
 ]
 }

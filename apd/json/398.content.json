@@ -119,13 +119,6 @@
 "preferred_label": "ابن آوى"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "أسد"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.5,
@@ -133,11 +126,11 @@
 "preferred_label": "دب"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "الرب"
+"preferred_label": "أسد"
 },
 {
 "id": "keyterm:IntactState",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "سلام"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "الرب"
 },
 {
 "id": "fauna:Owl",
@@ -168,11 +168,11 @@
 "preferred_label": "يورّث / يملّك"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "يوسف"
+"preferred_label": "أورشليم"
 },
 {
 "id": "place:Assyria",
@@ -182,32 +182,18 @@
 "preferred_label": "أشور"
 },
 {
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "يوسف"
+},
+{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "أمان"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "أورشليم"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "عهد"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "أرض الكلدانيين"
 },
 {
 "id": "group:Chaldea",
@@ -217,18 +203,25 @@
 "preferred_label": "الكلدانيين"
 },
 {
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "أرض الكلدانيين"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "عهد"
+},
+{
 "id": "fauna:WildCat",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "كدوس خلا"
-},
-{
-"id": "fauna:TawnyOwl.2",
-"type": "fauna",
-"confidence": 0.1333,
-"match_method": "canonical",
-"preferred_label": "بومة سمراء"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -238,39 +231,11 @@
 "preferred_label": "لوياثان"
 },
 {
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "قميص ملون"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "حفرة"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "برج حصار"
-},
-{
-"id": "fauna:Vulture",
+"id": "fauna:TawnyOwl.2",
 "type": "fauna",
-"confidence": 0.12,
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "نسر"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "بيت"
+"preferred_label": "بومة سمراء"
 },
 {
 "id": "fauna:Dragon",
@@ -280,11 +245,46 @@
 "preferred_label": "تنين"
 },
 {
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "نسر"
+},
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "قميص ملون"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "بيت"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "صندل"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "برج حصار"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "حفرة"
 }
 ]
 }
