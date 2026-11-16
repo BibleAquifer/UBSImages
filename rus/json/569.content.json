@@ -3,9 +3,9 @@
 "content_id": "287357",
 "reference_id": 2109,
 "version": "1.0.4",
-"title": "Комлевая часть",
+"title": "Утолщённые корни у основания дерева",
 "media_type": "Image",
-"index_reference": "комлевая часть",
+"index_reference": "утолщённые корни у основания дерева",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0769_root_swelling.jpg'>link</a></p></block>",
@@ -239,13 +239,6 @@
 "preferred_label": "Иессей"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2257,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.2257,
@@ -260,25 +253,18 @@
 "preferred_label": "святой"
 },
 {
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
 "id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.1686,
 "match_method": "canonical",
 "preferred_label": "Мерзость"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "Масличное дерево"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
 },
 {
 "id": "flora:Cedar",
@@ -295,18 +281,32 @@
 "preferred_label": "топор"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1629,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1657,
 "match_method": "canonical",
-"preferred_label": "Осквернение"
+"preferred_label": "Виноградная лоза"
 },
 {
-"id": "keyterm:Majesty",
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "Масличное дерево"
+},
+{
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Величие"
+"preferred_label": "Благоволение"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Колено Ефремово"
 },
 {
 "id": "person:Ephraim",
@@ -314,6 +314,27 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Ефрем"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Язычники"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Верить"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Наставление"
 },
 {
 "id": "person:Israel",
@@ -330,20 +351,6 @@
 "preferred_label": "слава"
 },
 {
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Наставление"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Ливан"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.1629,
@@ -351,11 +358,18 @@
 "preferred_label": "Аморреи"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Majesty",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Благоволение"
+"preferred_label": "Величие"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Осквернение"
 },
 {
 "id": "keyterm:PutToTheTest",
@@ -365,20 +379,6 @@
 "preferred_label": "Подвергать испытанию"
 },
 {
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Язычники"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Колено Ефремово"
-},
-{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.1629,
@@ -386,11 +386,11 @@
 "preferred_label": "повод для радости"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Верить"
+"preferred_label": "Ливан"
 },
 {
 "id": "flora:Broom",
@@ -407,13 +407,6 @@
 "preferred_label": "Лебеда"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Деньги"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1029,
@@ -421,11 +414,11 @@
 "preferred_label": "Смоква"
 },
 {
-"id": "flora:Oak",
-"type": "flora",
+"id": "realia:Standard",
+"type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Дуб"
+"preferred_label": "Знамя"
 },
 {
 "id": "realia:Image",
@@ -449,11 +442,18 @@
 "preferred_label": "Гриф"
 },
 {
-"id": "realia:House",
+"id": "realia:Fortress",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "дом"
+"preferred_label": "крепость"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Деньги"
 },
 {
 "id": "flora:Grass",
@@ -463,18 +463,18 @@
 "preferred_label": "Трава"
 },
 {
-"id": "realia:Standard",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Знамя"
+"preferred_label": "дом"
 },
 {
-"id": "realia:Fortress",
-"type": "realia",
+"id": "flora:Oak",
+"type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "крепость"
+"preferred_label": "Дуб"
 }
 ]
 }

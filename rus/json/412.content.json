@@ -213,11 +213,11 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "person:Pilate",
+"id": "person:Barabbas",
 "type": "person",
 "confidence": 0.2346,
 "match_method": "canonical",
-"preferred_label": "Пилат"
+"preferred_label": "Варавва"
 },
 {
 "id": "place:Hell",
@@ -227,18 +227,18 @@
 "preferred_label": "Ад"
 },
 {
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.2346,
+"match_method": "canonical",
+"preferred_label": "Пилат"
+},
+{
 "id": "keyterm:Counsel",
 "type": "keyterm",
 "confidence": 0.2346,
 "match_method": "canonical",
 "preferred_label": "Совет"
-},
-{
-"id": "person:Barabbas",
-"type": "person",
-"confidence": 0.2346,
-"match_method": "canonical",
-"preferred_label": "Варавва"
 },
 {
 "id": "keyterm:Covenant",
@@ -255,11 +255,11 @@
 "preferred_label": "Орив"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
+"id": "realia:Rod",
+"type": "realia",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Лошадь"
+"preferred_label": "Жезл"
 },
 {
 "id": "realia:Synagogue",
@@ -269,67 +269,11 @@
 "preferred_label": "Синагога"
 },
 {
-"id": "realia:Rod",
-"type": "realia",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Жезл"
-},
-{
-"id": "keyterm:Exempt",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Освобожденный"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Павел"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Лишать владения"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Служить"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Воскресение"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Любовь"
-},
-{
-"id": "keyterm:Refuge",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Прибежище"
+"preferred_label": "Лошадь"
 },
 {
 "id": "keyterm:Lawful",
@@ -339,32 +283,18 @@
 "preferred_label": "Быть законным"
 },
 {
-"id": "place:Rome",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Рим"
-},
-{
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Мадиам"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Страх"
-},
-{
 "id": "group:Gentile",
 "type": "group",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Язычники"
+},
+{
+"id": "place:Rome",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Рим"
 },
 {
 "id": "keyterm:Stupid",
@@ -374,11 +304,74 @@
 "preferred_label": "Глупый"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.115,
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1673,
 "match_method": "canonical",
-"preferred_label": "Веревка"
+"preferred_label": "Служить"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Лишать владения"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Освобожденный"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Любовь"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Павел"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Страх"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Воскресение"
+},
+{
+"id": "keyterm:Refuge",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Прибежище"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Мадиам"
 },
 {
 "id": "realia:Trap",
@@ -388,11 +381,11 @@
 "preferred_label": "Западня"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:Rope",
 "type": "realia",
-"confidence": 0.1073,
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "Повозка"
+"preferred_label": "Веревка"
 },
 {
 "id": "realia:Chain",
@@ -402,39 +395,11 @@
 "preferred_label": "цепь"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Крупный рогатый скот"
-},
-{
 "id": "realia:BitAndBridle",
 "type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "удила и узда"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Храм"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Посох"
-},
-{
-"id": "realia:Strap",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "Ремень"
 },
 {
 "id": "realia:Prison",
@@ -451,11 +416,11 @@
 "preferred_label": "Ягненок"
 },
 {
-"id": "fauna:Donkey",
-"type": "fauna",
+"id": "realia:Temple",
+"type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "Осел"
+"preferred_label": "Храм"
 },
 {
 "id": "realia:Chariot",
@@ -463,6 +428,41 @@
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "колесница"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Крупный рогатый скот"
+},
+{
+"id": "realia:Strap",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Ремень"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Посох"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Повозка"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "Осел"
 }
 ]
 }

@@ -97,13 +97,6 @@
 "preferred_label": "Давать обет"
 },
 {
-"id": "keyterm:WithdrawOneself",
-"type": "keyterm",
-"confidence": 0.2222,
-"match_method": "canonical",
-"preferred_label": "отделяться"
-},
-{
 "id": "person:Jehudi",
 "type": "person",
 "confidence": 0.2222,
@@ -111,11 +104,25 @@
 "preferred_label": "Иегудий"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:WithdrawOneself",
 "type": "keyterm",
+"confidence": 0.2222,
+"match_method": "canonical",
+"preferred_label": "отделяться"
+},
+{
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Непорочный"
+"preferred_label": "Филистимляне"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Евфрат"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -123,6 +130,48 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "освящение"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "очищать"
+},
+{
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Обман"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "святой"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Сила"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Любовь"
 },
 {
 "id": "place:Philistine",
@@ -139,67 +188,18 @@
 "preferred_label": "Ассирия"
 },
 {
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "очищать"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Филистимляне"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Обман"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Евфрат"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Сила"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Любовь"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "святой"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "чистый"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Непорочный"
 },
 {
 "id": "realia:Sword",

@@ -83,11 +83,18 @@
 "preferred_label": "Пасха"
 },
 {
-"id": "person:Amnon",
-"type": "person",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Амнон"
+"preferred_label": "ГОСПОДЬ"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "святой"
 },
 {
 "id": "place:Egypt",
@@ -97,18 +104,11 @@
 "preferred_label": "Египет"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "ГОСПОДЬ"
-},
-{
-"id": "person:Tamar.2",
+"id": "person:Amnon",
 "type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Фамарь"
+"preferred_label": "Амнон"
 },
 {
 "id": "person:Jesus.2",
@@ -125,11 +125,11 @@
 "preferred_label": "чистый"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Tamar.2",
+"type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "святой"
+"preferred_label": "Фамарь"
 },
 {
 "id": "realia:SacredCakes",
@@ -137,6 +137,13 @@
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "Жертвенные лепешки"
+},
+{
+"id": "realia:UnleavenedBread",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "Пресный хлеб"
 },
 {
 "id": "realia:House",
@@ -153,13 +160,6 @@
 "preferred_label": "плащ"
 },
 {
-"id": "realia:Cake",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "Лепёшка"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.14,
@@ -174,11 +174,11 @@
 "preferred_label": "Вино"
 },
 {
-"id": "realia:UnleavenedBread",
+"id": "realia:Cake",
 "type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "Пресный хлеб"
+"preferred_label": "Лепёшка"
 }
 ]
 }

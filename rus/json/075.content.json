@@ -182,18 +182,18 @@
 "preferred_label": "Род"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.4014,
-"match_method": "canonical",
-"preferred_label": "Крупный рогатый скот"
-},
-{
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.4014,
 "match_method": "canonical",
 "preferred_label": "Рыба"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.4014,
+"match_method": "canonical",
+"preferred_label": "Крупный рогатый скот"
 },
 {
 "id": "fauna:CreepingAnimal",
@@ -224,13 +224,6 @@
 "preferred_label": "Уничтожать"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2409,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.2409,
@@ -238,11 +231,18 @@
 "preferred_label": "Небо"
 },
 {
-"id": "realia:Ship",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2409,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "realia:Image",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Корабль"
+"preferred_label": "Изображение"
 },
 {
 "id": "fauna:Rooster",
@@ -252,11 +252,11 @@
 "preferred_label": "Петух"
 },
 {
-"id": "realia:Image",
+"id": "realia:Ship",
 "type": "realia",
 "confidence": 0.1809,
 "match_method": "canonical",
-"preferred_label": "Изображение"
+"preferred_label": "Корабль"
 },
 {
 "id": "keyterm:Imperishable",
@@ -273,11 +273,11 @@
 "preferred_label": "Подобие"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Осквернение"
+"preferred_label": "Ной"
 },
 {
 "id": "keyterm:Glory",
@@ -287,20 +287,6 @@
 "preferred_label": "слава"
 },
 {
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Ной"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Соломон"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1705,
@@ -308,11 +294,18 @@
 "preferred_label": "Страх"
 },
 {
-"id": "fauna:Skink",
-"type": "fauna",
-"confidence": 0.1195,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Сцинк"
+"preferred_label": "Осквернение"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Соломон"
 },
 {
 "id": "fauna:Mouse",
@@ -334,6 +327,13 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "Мангуст"
+},
+{
+"id": "fauna:Skink",
+"type": "fauna",
+"confidence": 0.1195,
+"match_method": "canonical",
+"preferred_label": "Сцинк"
 }
 ]
 }

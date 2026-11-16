@@ -3,9 +3,9 @@
 "content_id": "286883",
 "reference_id": 1635,
 "version": "1.0.4",
-"title": "Свежий инжир",
+"title": "Нарезанный свежий инжир",
 "media_type": "Image",
-"index_reference": "свежий инжир",
+"index_reference": "нарезанный свежий инжир",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0218_fig_fresh.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0218_fig_fresh.jpg'>link</a></p></block>",
@@ -288,13 +288,6 @@
 "preferred_label": "ГОСПОДЬ"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.3483,
-"match_method": "canonical",
-"preferred_label": "Масличное дерево"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.3483,
@@ -302,11 +295,11 @@
 "preferred_label": "Гранат"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3429,
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.3483,
 "match_method": "canonical",
-"preferred_label": "Иуда"
+"preferred_label": "Масличное дерево"
 },
 {
 "id": "group:Judah",
@@ -314,6 +307,13 @@
 "confidence": 0.3429,
 "match_method": "canonical",
 "preferred_label": "колено Иудино"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3429,
+"match_method": "canonical",
+"preferred_label": "Иуда"
 },
 {
 "id": "place:Jerusalem",
@@ -337,27 +337,6 @@
 "preferred_label": "Ячмень"
 },
 {
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Ассирия"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
 "id": "person:Isaiah",
 "type": "person",
 "confidence": 0.2214,
@@ -370,6 +349,27 @@
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "Езекия"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Ассирия"
 },
 {
 "id": "place:EshcolValley",
@@ -386,13 +386,6 @@
 "preferred_label": "Коза"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "Крупный рогатый скот"
-},
-{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1614,
@@ -400,32 +393,11 @@
 "preferred_label": "Терновник"
 },
 {
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "яма"
-},
-{
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "Дереза"
-},
-{
 "id": "realia:FigCake",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "лепешка из смокв"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "Акация"
 },
 {
 "id": "flora:Thistle",
@@ -442,11 +414,11 @@
 "preferred_label": "Кориандр"
 },
 {
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Стадо"
+"preferred_label": "Крупный рогатый скот"
 },
 {
 "id": "realia:Basket",
@@ -456,53 +428,32 @@
 "preferred_label": "корзина"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1607,
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Давид"
+"preferred_label": "Акация"
 },
 {
-"id": "person:Nebuchadnezzar",
-"type": "person",
-"confidence": 0.1607,
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Навуходоносор"
+"preferred_label": "яма"
 },
 {
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1607,
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Упование"
+"preferred_label": "Дереза"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1607,
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Страх"
-},
-{
-"id": "keyterm:WithdrawOneself",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "отделяться"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Стяжать честь и славу"
-},
-{
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Суббота"
+"preferred_label": "Стадо"
 },
 {
 "id": "person:Zedekiah.3",
@@ -512,25 +463,11 @@
 "preferred_label": "Седекия"
 },
 {
-"id": "person:Jehoiakim",
-"type": "person",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Иоаким"
-},
-{
-"id": "person:Jehoiachin",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Иехония"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Халдея"
+"preferred_label": "Суббота"
 },
 {
 "id": "place:Babylon",
@@ -540,11 +477,39 @@
 "preferred_label": "Вавилон"
 },
 {
-"id": "keyterm:DetestedThing",
+"id": "person:Jehoiachin",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Иехония"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Мерзость"
+"preferred_label": "Небо"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Стяжать честь и славу"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Давид"
+},
+{
+"id": "person:Jeremiah.6",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Иеремия"
 },
 {
 "id": "keyterm:Love",
@@ -552,6 +517,27 @@
 "confidence": 0.1607,
 "match_method": "canonical",
 "preferred_label": "Любовь"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Страх"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Мерзость"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Упование"
 },
 {
 "id": "deity:Baal",
@@ -568,18 +554,32 @@
 "preferred_label": "Халдеи"
 },
 {
-"id": "person:Jeremiah.6",
+"id": "person:Jehoiakim",
 "type": "person",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Иеремия"
+"preferred_label": "Иоаким"
 },
 {
-"id": "keyterm:Heaven",
+"id": "person:Nebuchadnezzar",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Навуходоносор"
+},
+{
+"id": "keyterm:WithdrawOneself",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Небо"
+"preferred_label": "отделяться"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Халдея"
 },
 {
 "id": "realia:Craftsman",
@@ -589,20 +589,6 @@
 "preferred_label": "ремесленник"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Точило"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Елей помазания"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1007,
@@ -610,18 +596,11 @@
 "preferred_label": "Загон для скота"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
+"id": "flora:DatePalm",
+"type": "flora",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Оливковое масло"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "овечий загон"
+"preferred_label": "Финиковая пальма"
 },
 {
 "id": "realia:Image",
@@ -638,18 +617,11 @@
 "preferred_label": "Зерно"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Мул"
-},
-{
-"id": "flora:DatePalm",
+"id": "flora:Grass",
 "type": "flora",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Финиковая пальма"
+"preferred_label": "Трава"
 },
 {
 "id": "realia:Scroll",
@@ -666,6 +638,13 @@
 "preferred_label": "Пшеница"
 },
 {
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Вино"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1007,
@@ -673,18 +652,18 @@
 "preferred_label": "дом"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
+"id": "realia:Winepress",
+"type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Трава"
+"preferred_label": "Точило"
 },
 {
-"id": "fauna:Donkey",
-"type": "fauna",
+"id": "realia:OliveOil",
+"type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Осел"
+"preferred_label": "Оливковое масло"
 },
 {
 "id": "fauna:Locust",
@@ -694,11 +673,32 @@
 "preferred_label": "Саранча"
 },
 {
-"id": "realia:Wine",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
-"preferred_label": "Вино"
+"preferred_label": "Елей помазания"
+},
+{
+"id": "fauna:Donkey",
+"type": "fauna",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Осел"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Мул"
+},
+{
+"id": "realia:Sheepfold",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "овечий загон"
 }
 ]
 }

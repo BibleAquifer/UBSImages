@@ -3,9 +3,9 @@
 "content_id": "287214",
 "reference_id": 1966,
 "version": "1.0.4",
-"title": "Кирения",
+"title": "Гавань в Кирении",
 "media_type": "Image",
-"index_reference": "кирения",
+"index_reference": "гавань в кирении",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0572_kyrenia.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0572_kyrenia.jpg'>link</a></p></block>",
@@ -107,13 +107,6 @@
 "preferred_label": "Корабль"
 },
 {
-"id": "person:Tarshish",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "Фарсис"
-},
-{
 "id": "group:Dodanim",
 "type": "group",
 "confidence": 0.3,
@@ -126,6 +119,13 @@
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "Елиса"
+},
+{
+"id": "person:Tarshish",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "Фарсис"
 },
 {
 "id": "place:Tyre",
@@ -156,13 +156,6 @@
 "preferred_label": "Воспринимать"
 },
 {
-"id": "place:Tarshish",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Фарсис"
-},
-{
 "id": "place:Phoenicia",
 "type": "place",
 "confidence": 0.2,
@@ -177,13 +170,6 @@
 "preferred_label": "Марк"
 },
 {
-"id": "place:Seleucia",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Селевкия"
-},
-{
 "id": "place:Antioch",
 "type": "place",
 "confidence": 0.2,
@@ -191,53 +177,18 @@
 "preferred_label": "Антиохия"
 },
 {
-"id": "place:Bashan",
+"id": "place:Tarshish",
 "type": "place",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Васан"
+"preferred_label": "Фарсис"
 },
 {
-"id": "place:Assyria",
+"id": "place:Seleucia",
 "type": "place",
-"confidence": 0.1846,
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Ассирия"
-},
-{
-"id": "person:Barnabas",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Варнава"
-},
-{
-"id": "person:Eber",
-"type": "person",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Евер"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "пророческое слово"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Сидон"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Завет"
+"preferred_label": "Селевкия"
 },
 {
 "id": "group:Jews",
@@ -247,11 +198,60 @@
 "preferred_label": "Иудеи"
 },
 {
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Святой Дух"
+},
+{
+"id": "person:Barnabas",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Варнава"
+},
+{
 "id": "person:Stephen",
 "type": "person",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Стефан"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Васан"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "пророческое слово"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Ассирия"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Сидон"
+},
+{
+"id": "person:Eber",
+"type": "person",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Евер"
 },
 {
 "id": "person:Kedar",
@@ -261,18 +261,11 @@
 "preferred_label": "Кедар"
 },
 {
-"id": "deity:HolySpirit",
-"type": "deity",
+"id": "keyterm:Covenant",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Святой Дух"
-},
-{
-"id": "realia:Oar",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "Весло"
+"preferred_label": "Завет"
 },
 {
 "id": "realia:Deck",
@@ -282,25 +275,11 @@
 "preferred_label": "Палуба"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1246,
+"id": "realia:Oar",
+"type": "realia",
+"confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "Кипарис"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Пихта"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "Дуб"
+"preferred_label": "Весло"
 },
 {
 "id": "fauna:Ostrich",
@@ -310,11 +289,11 @@
 "preferred_label": "Страус"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "flora:Cypress",
+"type": "flora",
 "confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "дом"
+"preferred_label": "Кипарис"
 },
 {
 "id": "flora:Juniper",
@@ -322,6 +301,27 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "можжевельник греческий"
+},
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Дуб"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "дом"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Пихта"
 }
 ]
 }

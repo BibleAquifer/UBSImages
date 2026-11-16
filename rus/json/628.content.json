@@ -130,18 +130,18 @@
 "preferred_label": "можжевельник греческий"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.6872,
-"match_method": "canonical",
-"preferred_label": "Кипарис"
-},
-{
 "id": "flora:Fir",
 "type": "flora",
 "confidence": 0.6872,
 "match_method": "canonical",
 "preferred_label": "Пихта"
+},
+{
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.6872,
+"match_method": "canonical",
+"preferred_label": "Кипарис"
 },
 {
 "id": "flora:JuniperTree",
@@ -179,18 +179,18 @@
 "preferred_label": "дом"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "колесница"
-},
-{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "Сандаловое дерево"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "колесница"
 },
 {
 "id": "person:David",
@@ -214,18 +214,11 @@
 "preferred_label": "Мирт"
 },
 {
-"id": "place:Bashan",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Васан"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Восставать"
+"preferred_label": "колено Иудино"
 },
 {
 "id": "person:Hiram",
@@ -235,6 +228,20 @@
 "preferred_label": "Хирам"
 },
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Стяжать честь и славу"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Тир"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.175,
@@ -242,11 +249,18 @@
 "preferred_label": "Иерусалим"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Стяжать честь и славу"
+"preferred_label": "Иуда"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Васан"
 },
 {
 "id": "person:Israel",
@@ -263,20 +277,6 @@
 "preferred_label": "слава"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "гора Ермон"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.175,
@@ -284,11 +284,11 @@
 "preferred_label": "Воспринимать"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Соломон"
+"preferred_label": "Восставать"
 },
 {
 "id": "deity:Angel",
@@ -298,18 +298,11 @@
 "preferred_label": "Ангел"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Solomon",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Тир"
+"preferred_label": "Соломон"
 },
 {
 "id": "keyterm:Mighty",
@@ -319,13 +312,6 @@
 "preferred_label": "Могущественный"
 },
 {
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Галилея"
-},
-{
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.175,
@@ -333,11 +319,18 @@
 "preferred_label": "Путь"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1261,
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Акация"
+"preferred_label": "Галилея"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "гора Ермон"
 },
 {
 "id": "flora:PlaneTree",
@@ -345,34 +338,6 @@
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "Платан"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "пол"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "Кимвалы"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "Лира"
-},
-{
-"id": "realia:Shaker",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "систр"
 },
 {
 "id": "flora:Nettle",
@@ -389,67 +354,46 @@
 "preferred_label": "Мачта"
 },
 {
+"id": "realia:Shaker",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "систр"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "Лира"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "пол"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "Акация"
+},
+{
+"id": "realia:Cymbals",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "Кимвалы"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "ремесленник"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Алеппская сосна"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Пурпурная ткань"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Масличное дерево"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Терновник"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Деньги"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Птица"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Тимпан"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "Дуб"
 },
 {
 "id": "flora:DatePalm",
@@ -459,6 +403,27 @@
 "preferred_label": "Финиковая пальма"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Деньги"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Терновник"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Птица"
+},
+{
 "id": "fauna:Stork",
 "type": "fauna",
 "confidence": 0.115,
@@ -466,11 +431,46 @@
 "preferred_label": "Аист"
 },
 {
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Дуб"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Алеппская сосна"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Тимпан"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "Лютня"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Масличное дерево"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "Пурпурная ткань"
 }
 ]
 }

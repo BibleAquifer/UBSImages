@@ -321,18 +321,18 @@
 "preferred_label": "Зеведей"
 },
 {
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2807,
-"match_method": "canonical",
-"preferred_label": "Просить"
-},
-{
 "id": "person:Peter",
 "type": "person",
 "confidence": 0.2807,
 "match_method": "canonical",
 "preferred_label": "Пётр"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2807,
+"match_method": "canonical",
+"preferred_label": "Просить"
 },
 {
 "id": "person:James",
@@ -356,13 +356,6 @@
 "preferred_label": "Иоанн"
 },
 {
-"id": "place:Capernaum",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Капернаум"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -370,11 +363,11 @@
 "preferred_label": "Страх"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.165,
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "Рыба"
+"preferred_label": "Капернаум"
 },
 {
 "id": "realia:Stade",
@@ -384,11 +377,11 @@
 "preferred_label": "Стадий"
 },
 {
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.1648,
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Наемник"
+"preferred_label": "Рыба"
 },
 {
 "id": "place:Tiberias",
@@ -405,25 +398,11 @@
 "preferred_label": "Вифсаида"
 },
 {
-"id": "keyterm:BowDown",
+"id": "keyterm:HiredWorker",
 "type": "keyterm",
-"confidence": 0.1602,
+"confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "Поклоняться"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Власть"
-},
-{
-"id": "place:Gerasa",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Гераса"
+"preferred_label": "Наемник"
 },
 {
 "id": "keyterm:True",
@@ -433,6 +412,20 @@
 "preferred_label": "Истинный"
 },
 {
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Поклоняться"
+},
+{
+"id": "place:Gerasa",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Гераса"
+},
+{
 "id": "keyterm:DemonPossessed",
 "type": "keyterm",
 "confidence": 0.1602,
@@ -440,11 +433,11 @@
 "preferred_label": "Быть одержимым бесами"
 },
 {
-"id": "realia:Cubit.2",
-"type": "realia",
-"confidence": 0.1002,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "локоть"
+"preferred_label": "Власть"
 },
 {
 "id": "realia:Grave",
@@ -452,6 +445,13 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "могила"
+},
+{
+"id": "realia:Cubit.2",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "локоть"
 }
 ]
 }

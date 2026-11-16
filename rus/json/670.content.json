@@ -870,21 +870,14 @@
 "preferred_label": "Кровь"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.3116,
-"match_method": "canonical",
-"preferred_label": "Каменный жертвенник"
-},
-{
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3116,
 "match_method": "canonical",
 "preferred_label": "Жертвенник"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.3116,
 "match_method": "canonical",
@@ -896,6 +889,13 @@
 "confidence": 0.3116,
 "match_method": "canonical",
 "preferred_label": "Жертвенник скинии"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.3116,
+"match_method": "canonical",
+"preferred_label": "Каменный жертвенник"
 },
 {
 "id": "deity:Azazel",
@@ -912,13 +912,6 @@
 "preferred_label": "Жребий"
 },
 {
-"id": "place:HolyPlace",
-"type": "place",
-"confidence": 0.2608,
-"match_method": "canonical",
-"preferred_label": "Святилище"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2608,
@@ -926,32 +919,11 @@
 "preferred_label": "святой"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2072,
+"id": "place:HolyPlace",
+"type": "place",
+"confidence": 0.2608,
 "match_method": "canonical",
-"preferred_label": "ревность"
-},
-{
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.2072,
-"match_method": "canonical",
-"preferred_label": "очищать"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2072,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2072,
-"match_method": "canonical",
-"preferred_label": "Ангел"
+"preferred_label": "Святилище"
 },
 {
 "id": "place:Gilead",
@@ -968,11 +940,39 @@
 "preferred_label": "Приятное благоухание"
 },
 {
-"id": "place:Bashan",
-"type": "place",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.2072,
 "match_method": "canonical",
-"preferred_label": "Васан"
+"preferred_label": "Иуда"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2072,
+"match_method": "canonical",
+"preferred_label": "ревность"
+},
+{
+"id": "keyterm:Cleanse.2",
+"type": "keyterm",
+"confidence": 0.2072,
+"match_method": "canonical",
+"preferred_label": "очищать"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.2072,
+"match_method": "canonical",
+"preferred_label": "Моисей"
+},
+{
+"id": "deity:Teraphim",
+"type": "deity",
+"confidence": 0.2072,
+"match_method": "canonical",
+"preferred_label": "Терафим"
 }
 ]
 }

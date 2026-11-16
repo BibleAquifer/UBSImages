@@ -3,9 +3,9 @@
 "content_id": "286863",
 "reference_id": 1615,
 "version": "1.0.4",
-"title": "Пиния",
+"title": "Ветви пинии",
 "media_type": "Image",
-"index_reference": "пиния",
+"index_reference": "ветви пинии",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0719_pine_stone.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0719_pine_stone.jpg'>link</a></p></block>",
@@ -618,21 +618,21 @@
 "preferred_label": "Гаваон"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.38,
-"match_method": "canonical",
-"preferred_label": "Каменный жертвенник"
-},
-{
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
 "preferred_label": "Жертвенник"
 },
 {
-"id": "realia:TempleAltar",
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.38,
+"match_method": "canonical",
+"preferred_label": "Соломон"
+},
+{
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
@@ -646,11 +646,11 @@
 "preferred_label": "Жертвенник скинии"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "realia:StoneAltar",
+"type": "realia",
 "confidence": 0.38,
 "match_method": "canonical",
-"preferred_label": "Соломон"
+"preferred_label": "Каменный жертвенник"
 },
 {
 "id": "place:Bethel",
@@ -660,11 +660,11 @@
 "preferred_label": "Вефиль"
 },
 {
-"id": "place:Moab",
-"type": "place",
+"id": "deity:Baal",
+"type": "deity",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Моав"
+"preferred_label": "Ваал"
 },
 {
 "id": "person:Hezekiah",
@@ -674,11 +674,11 @@
 "preferred_label": "Езекия"
 },
 {
-"id": "deity:Baal",
-"type": "deity",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.375,
 "match_method": "canonical",
-"preferred_label": "Ваал"
+"preferred_label": "Моав"
 },
 {
 "id": "realia:SacredPole",
@@ -709,11 +709,11 @@
 "preferred_label": "Грешить"
 },
 {
-"id": "person:Jeroboam",
-"type": "person",
+"id": "deity:Molech",
+"type": "deity",
 "confidence": 0.2672,
 "match_method": "canonical",
-"preferred_label": "Иеровоам"
+"preferred_label": "Молох"
 },
 {
 "id": "keyterm:Rebel",
@@ -723,32 +723,11 @@
 "preferred_label": "Восставать"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
+"id": "person:Jeroboam",
+"type": "person",
 "confidence": 0.2672,
 "match_method": "canonical",
-"preferred_label": "Молох"
-},
-{
-"id": "person:Asa",
-"type": "person",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Аса"
-},
-{
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Принуждать к служению"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "Моисей"
+"preferred_label": "Иеровоам"
 },
 {
 "id": "keyterm:PlayTheProstitute",
@@ -758,11 +737,32 @@
 "preferred_label": "Блудодействовать"
 },
 {
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "Моисей"
+},
+{
+"id": "person:Asa",
+"type": "person",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "Аса"
+},
+{
 "id": "person:Josiah",
 "type": "person",
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "Иосия"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "Приношение"
 }
 ]
 }

@@ -200,13 +200,6 @@
 "preferred_label": "ГОСПОДЬ"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Иисус"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.236,
@@ -214,11 +207,11 @@
 "preferred_label": "Небо"
 },
 {
-"id": "place:Hazor.5",
-"type": "place",
-"confidence": 0.176,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "Асор"
+"preferred_label": "Иисус"
 },
 {
 "id": "flora:Grass",
@@ -228,11 +221,11 @@
 "preferred_label": "Трава"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.168,
+"id": "place:Hazor.5",
+"type": "place",
+"confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Давать во владение"
+"preferred_label": "Асор"
 },
 {
 "id": "keyterm:Swear",
@@ -242,60 +235,11 @@
 "preferred_label": "Клясться"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Стяжать честь и славу"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Идумеи"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Плач"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Едом"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Вавилон"
+"preferred_label": "Давать во владение"
 },
 {
 "id": "group:Judah",
@@ -305,11 +249,46 @@
 "preferred_label": "колено Иудино"
 },
 {
-"id": "person:Samson",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Вавилон"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Стяжать честь и славу"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
+},
+{
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Самсон"
+"preferred_label": "Иуда"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Израиль"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Едом"
 },
 {
 "id": "deity:Demons",
@@ -317,6 +296,27 @@
 "confidence": 0.168,
 "match_method": "canonical",
 "preferred_label": "Демоны"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Самсон"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Идумеи"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Плач"
 },
 {
 "id": "fauna:TawnyOwl.2",
@@ -340,25 +340,18 @@
 "preferred_label": "Трость"
 },
 {
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Крапива"
+},
+{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
 "preferred_label": "Терновник"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Папирус"
 },
 {
 "id": "flora:Thistle",
@@ -375,11 +368,18 @@
 "preferred_label": "дом"
 },
 {
-"id": "flora:Nettle",
+"id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Крапива"
+"preferred_label": "Папирус"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
 }
 ]
 }

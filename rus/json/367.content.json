@@ -3,9 +3,9 @@
 "content_id": "287120",
 "reference_id": 1872,
 "version": "1.0.4",
-"title": "Хлеб Тандыр",
+"title": "Тандырная лепёшка",
 "media_type": "Image",
-"index_reference": "хлеб тандыр",
+"index_reference": "тандырная лепёшка",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0527_bread_tandir.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0527_bread_tandir.jpg'>link</a></p></block>",
@@ -2159,6 +2159,13 @@
 "preferred_label": "Приношение"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3703,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3703,
@@ -2173,25 +2180,11 @@
 "preferred_label": "Израиль"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3703,
-"match_method": "canonical",
-"preferred_label": "Египет"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3652,
 "match_method": "canonical",
 "preferred_label": "Быть учеником"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3652,
-"match_method": "canonical",
-"preferred_label": "Благословлять"
 },
 {
 "id": "person:David",
@@ -2201,11 +2194,11 @@
 "preferred_label": "Давид"
 },
 {
-"id": "keyterm:Heaven",
+"id": "keyterm:Bless",
 "type": "keyterm",
-"confidence": 0.3627,
+"confidence": 0.3652,
 "match_method": "canonical",
-"preferred_label": "Небо"
+"preferred_label": "Благословлять"
 },
 {
 "id": "person:Moses",
@@ -2213,6 +2206,13 @@
 "confidence": 0.3627,
 "match_method": "canonical",
 "preferred_label": "Моисей"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.3627,
+"match_method": "canonical",
+"preferred_label": "Небо"
 },
 {
 "id": "keyterm:Holy",
@@ -2257,6 +2257,13 @@
 "preferred_label": "Иерусалим"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3563,
+"match_method": "canonical",
+"preferred_label": "Страх"
+},
+{
 "id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.3563,
@@ -2276,13 +2283,6 @@
 "confidence": 0.3563,
 "match_method": "canonical",
 "preferred_label": "Принуждать к служению"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3563,
-"match_method": "canonical",
-"preferred_label": "Страх"
 },
 {
 "id": "flora:Vine",
@@ -2313,27 +2313,6 @@
 "preferred_label": "Рыба"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3051,
-"match_method": "canonical",
-"preferred_label": "Осквернение"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3051,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.3051,
-"match_method": "canonical",
-"preferred_label": "Завет"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.3051,
@@ -2346,6 +2325,27 @@
 "confidence": 0.3051,
 "match_method": "canonical",
 "preferred_label": "Группа учеников"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.3051,
+"match_method": "canonical",
+"preferred_label": "Египтяне"
+},
+{
+"id": "person:Jezebel",
+"type": "person",
+"confidence": 0.3051,
+"match_method": "canonical",
+"preferred_label": "Иезавель"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3051,
+"match_method": "canonical",
+"preferred_label": "Иуда"
 },
 {
 "id": "keyterm:Love",

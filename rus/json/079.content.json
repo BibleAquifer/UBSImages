@@ -369,13 +369,6 @@
 "preferred_label": "Пресмыкающееся"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.276,
-"match_method": "canonical",
-"preferred_label": "Способность"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.276,
@@ -383,18 +376,11 @@
 "preferred_label": "Страх"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.2746,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.276,
 "match_method": "canonical",
-"preferred_label": "Ящерица"
-},
-{
-"id": "fauna:Chameleon",
-"type": "fauna",
-"confidence": 0.2746,
-"match_method": "canonical",
-"preferred_label": "Хамелеон"
+"preferred_label": "Способность"
 },
 {
 "id": "fauna:Dragon",
@@ -404,11 +390,25 @@
 "preferred_label": "Дракон"
 },
 {
+"id": "fauna:Chameleon",
+"type": "fauna",
+"confidence": 0.2746,
+"match_method": "canonical",
+"preferred_label": "Хамелеон"
+},
+{
 "id": "fauna:Iguana",
 "type": "fauna",
 "confidence": 0.2746,
 "match_method": "canonical",
 "preferred_label": "Варан"
+},
+{
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.2746,
+"match_method": "canonical",
+"preferred_label": "Ящерица"
 },
 {
 "id": "deity:Satan",
@@ -418,11 +418,11 @@
 "preferred_label": "Сатана"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:Baptism",
+"type": "keyterm",
 "confidence": 0.2173,
 "match_method": "canonical",
-"preferred_label": "Иисус"
+"preferred_label": "Крещение"
 },
 {
 "id": "keyterm:ActWickedly",
@@ -432,11 +432,25 @@
 "preferred_label": "Поступать нечестиво"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2173,
+"match_method": "canonical",
+"preferred_label": "Небо"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2173,
 "match_method": "canonical",
 "preferred_label": "Израиль"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.2173,
+"match_method": "canonical",
+"preferred_label": "Иисус"
 },
 {
 "id": "keyterm:Authority.2",
@@ -446,18 +460,11 @@
 "preferred_label": "Власть"
 },
 {
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.2173,
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.216,
 "match_method": "canonical",
-"preferred_label": "Крещение"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2173,
-"match_method": "canonical",
-"preferred_label": "Небо"
+"preferred_label": "Рыба"
 },
 {
 "id": "fauna:Bull",
@@ -467,18 +474,18 @@
 "preferred_label": "Крупный рогатый скот"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.216,
-"match_method": "canonical",
-"preferred_label": "Рыба"
-},
-{
 "id": "fauna:Scorpion",
 "type": "fauna",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Скорпион"
+},
+{
+"id": "keyterm:Imperishable",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Нетленный"
 },
 {
 "id": "deity:Nehushtan",
@@ -488,25 +495,11 @@
 "preferred_label": "Нехуштан"
 },
 {
-"id": "keyterm:Curse",
+"id": "keyterm:Crafty",
 "type": "keyterm",
 "confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "проклинать"
-},
-{
-"id": "person:Eve",
-"type": "person",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Ева"
-},
-{
-"id": "keyterm:Imperishable",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Нетленный"
+"preferred_label": "хитрый"
 },
 {
 "id": "keyterm:Gehenna",
@@ -530,11 +523,18 @@
 "preferred_label": "Дан"
 },
 {
-"id": "keyterm:Crafty",
+"id": "keyterm:Curse",
 "type": "keyterm",
 "confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "хитрый"
+"preferred_label": "проклинать"
+},
+{
+"id": "person:Eve",
+"type": "person",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Ева"
 }
 ]
 }

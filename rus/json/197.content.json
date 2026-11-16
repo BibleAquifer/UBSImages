@@ -3,9 +3,9 @@
 "content_id": "286950",
 "reference_id": 1702,
 "version": "1.0.4",
-"title": "Трагакант",
+"title": "Трагакантник",
 "media_type": "Image",
-"index_reference": "трагакант",
+"index_reference": "трагакантник",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0878_tragacanth.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0878_tragacanth.jpg'>link</a></p></block>",
@@ -27,18 +27,18 @@
 "resource": [],
 "acai": [
 {
-"id": "flora:Ladanum",
-"type": "flora",
-"confidence": 0.79,
-"match_method": "canonical",
-"preferred_label": "ладанник"
-},
-{
 "id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.79,
 "match_method": "canonical",
 "preferred_label": "трагакант"
+},
+{
+"id": "flora:Ladanum",
+"type": "flora",
+"confidence": 0.79,
+"match_method": "canonical",
+"preferred_label": "ладанник"
 },
 {
 "id": "flora:Liquidambar",
@@ -48,13 +48,6 @@
 "preferred_label": "Ликвидамбар"
 },
 {
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.475,
-"match_method": "canonical",
-"preferred_label": "Измаильтяне"
-},
-{
 "id": "place:Gilead",
 "type": "place",
 "confidence": 0.475,
@@ -62,11 +55,11 @@
 "preferred_label": "Галаад"
 },
 {
-"id": "flora:PistachioNuts",
-"type": "flora",
-"confidence": 0.415,
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.475,
 "match_method": "canonical",
-"preferred_label": "Фисташки"
+"preferred_label": "Измаильтяне"
 },
 {
 "id": "flora:Almond",
@@ -76,18 +69,11 @@
 "preferred_label": "Миндаль"
 },
 {
-"id": "person:Ishmael",
-"type": "person",
-"confidence": 0.375,
+"id": "flora:PistachioNuts",
+"type": "flora",
+"confidence": 0.415,
 "match_method": "canonical",
-"preferred_label": "Измаил"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.375,
-"match_method": "canonical",
-"preferred_label": "Египет"
+"preferred_label": "Фисташки"
 },
 {
 "id": "person:Israel",
@@ -102,6 +88,20 @@
 "confidence": 0.375,
 "match_method": "canonical",
 "preferred_label": "Приношение"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
+"id": "person:Ishmael",
+"type": "person",
+"confidence": 0.375,
+"match_method": "canonical",
+"preferred_label": "Измаил"
 },
 {
 "id": "flora:Terebinth",

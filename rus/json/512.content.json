@@ -3,9 +3,9 @@
 "content_id": "287280",
 "reference_id": 2032,
 "version": "1.0.4",
-"title": "Звезды Туманности Ориона",
+"title": "Туманность Ориона",
 "media_type": "Image",
-"index_reference": "звезды туманности ориона",
+"index_reference": "туманность ориона",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0832_orion_nebula_stars.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0832_orion_nebula_stars.jpg'>link</a></p></block>",
@@ -595,18 +595,18 @@
 "preferred_label": "Принуждать к служению"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3745,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
 "id": "deity:Baal",
 "type": "deity",
 "confidence": 0.3745,
 "match_method": "canonical",
 "preferred_label": "Ваал"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3745,
+"match_method": "canonical",
+"preferred_label": "Израиль"
 },
 {
 "id": "deity:Asherah",
@@ -637,21 +637,14 @@
 "preferred_label": "Давид"
 },
 {
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.2596,
-"match_method": "canonical",
-"preferred_label": "Каменный жертвенник"
-},
-{
-"id": "realia:Altar",
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2596,
 "match_method": "canonical",
 "preferred_label": "Жертвенник"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.2596,
 "match_method": "canonical",
@@ -665,39 +658,18 @@
 "preferred_label": "Жертвенник скинии"
 },
 {
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.2596,
+"match_method": "canonical",
+"preferred_label": "Каменный жертвенник"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.212,
 "match_method": "canonical",
 "preferred_label": "Благословлять"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Иуда"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Символ"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Клясться"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Способность"
 },
 {
 "id": "keyterm:Name",
@@ -707,53 +679,11 @@
 "preferred_label": "Имя"
 },
 {
-"id": "keyterm:BowDown",
-"type": "keyterm",
+"id": "deity:Molech",
+"type": "deity",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Поклоняться"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Совет"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "колено Иудино"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Езекия"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Восставать"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Лишать владения"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2098,
-"match_method": "canonical",
-"preferred_label": "Приношение"
+"preferred_label": "Молох"
 },
 {
 "id": "keyterm:Glory",
@@ -763,11 +693,81 @@
 "preferred_label": "слава"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.2098,
 "match_method": "canonical",
-"preferred_label": "Молох"
+"preferred_label": "Способность"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Восставать"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Иуда"
+},
+{
+"id": "keyterm:Counsel",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Совет"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Клясться"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Лишать владения"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "колено Иудино"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Символ"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Езекия"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Приношение"
+},
+{
+"id": "keyterm:BowDown",
+"type": "keyterm",
+"confidence": 0.2098,
+"match_method": "canonical",
+"preferred_label": "Поклоняться"
 },
 {
 "id": "realia:SacredPole",

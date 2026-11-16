@@ -361,18 +361,18 @@
 "preferred_label": "Кедр"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3409,
-"match_method": "canonical",
-"preferred_label": "Ящерица"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3409,
 "match_method": "canonical",
 "preferred_label": "Хамелеон"
+},
+{
+"id": "fauna:Iguana",
+"type": "fauna",
+"confidence": 0.3409,
+"match_method": "canonical",
+"preferred_label": "Варан"
 },
 {
 "id": "realia:House",
@@ -382,11 +382,11 @@
 "preferred_label": "дом"
 },
 {
-"id": "fauna:Iguana",
+"id": "fauna:Lizard",
 "type": "fauna",
 "confidence": 0.3409,
 "match_method": "canonical",
-"preferred_label": "Варан"
+"preferred_label": "Ящерица"
 },
 {
 "id": "flora:Hyssop",
@@ -403,11 +403,11 @@
 "preferred_label": "чистый"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Trap",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "Пурпурная ткань"
+"preferred_label": "Западня"
 },
 {
 "id": "fauna:Rooster",
@@ -417,11 +417,11 @@
 "preferred_label": "Петух"
 },
 {
-"id": "realia:Trap",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.3325,
 "match_method": "canonical",
-"preferred_label": "Западня"
+"preferred_label": "Пурпурная ткань"
 },
 {
 "id": "fauna:CreepingAnimal",
@@ -480,13 +480,6 @@
 "preferred_label": "Иисус"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2155,
-"match_method": "canonical",
-"preferred_label": "Крупный рогатый скот"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.2155,
@@ -494,25 +487,18 @@
 "preferred_label": "Зерно"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2155,
+"match_method": "canonical",
+"preferred_label": "Крупный рогатый скот"
+},
+{
 "id": "keyterm:Imperishable",
 "type": "keyterm",
 "confidence": 0.1623,
 "match_method": "canonical",
 "preferred_label": "Нетленный"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Давид"
-},
-{
-"id": "keyterm:SeekfindRefuge",
-"type": "keyterm",
-"confidence": 0.1585,
-"match_method": "canonical",
-"preferred_label": "Искать убежища"
 },
 {
 "id": "keyterm:Swear",
@@ -529,6 +515,13 @@
 "preferred_label": "Тело"
 },
 {
+"id": "keyterm:SeekfindRefuge",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Искать убежища"
+},
+{
 "id": "keyterm:Appease",
 "type": "keyterm",
 "confidence": 0.1585,
@@ -536,11 +529,18 @@
 "preferred_label": "умилостивлять"
 },
 {
-"id": "place:Assyria",
-"type": "place",
+"id": "keyterm:InfectiousSkinDisease",
+"type": "keyterm",
 "confidence": 0.1585,
 "match_method": "canonical",
-"preferred_label": "Ассирия"
+"preferred_label": "заразная кожная болезнь"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1585,
+"match_method": "canonical",
+"preferred_label": "Закалывание в жертву"
 }
 ]
 }

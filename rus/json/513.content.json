@@ -3,9 +3,9 @@
 "content_id": "287281",
 "reference_id": 2033,
 "version": "1.0.4",
-"title": "Рассвет",
+"title": "Человек в лодке на рассвете",
 "media_type": "Image",
-"index_reference": "рассвет",
+"index_reference": "человек в лодке на рассвете",
 "language": "rus",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0178_dawn.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0178_dawn.jpg'>link</a></p></block>",
@@ -925,13 +925,6 @@
 "preferred_label": "Любовь"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.3122,
-"match_method": "canonical",
-"preferred_label": "Принуждать к служению"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.3122,
@@ -939,11 +932,11 @@
 "preferred_label": "Моисей"
 },
 {
-"id": "place:Arnon",
-"type": "place",
-"confidence": 0.2605,
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.3122,
 "match_method": "canonical",
-"preferred_label": "Арнон"
+"preferred_label": "Принуждать к служению"
 },
 {
 "id": "keyterm:Possess",
@@ -953,11 +946,32 @@
 "preferred_label": "Давать во владение"
 },
 {
+"id": "place:Arnon",
+"type": "place",
+"confidence": 0.2605,
+"match_method": "canonical",
+"preferred_label": "Арнон"
+},
+{
+"id": "person:Joshua.2",
+"type": "person",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "Иисус"
+},
+{
 "id": "person:Judah.4",
 "type": "person",
 "confidence": 0.2592,
 "match_method": "canonical",
 "preferred_label": "Иуда"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "Лишать владения"
 },
 {
 "id": "group:Judah",
@@ -974,32 +988,11 @@
 "preferred_label": "Моав"
 },
 {
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "Лишать владения"
-},
-{
-"id": "person:Joshua.2",
-"type": "person",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "Иисус"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2522,
 "match_method": "canonical",
 "preferred_label": "дом"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.2075,
-"match_method": "canonical",
-"preferred_label": "Ливан"
 },
 {
 "id": "place:GreatSea",
@@ -1009,88 +1002,11 @@
 "preferred_label": "Средиземное море"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "ревность"
-},
-{
-"id": "place:Bethel",
+"id": "place:Lebanon",
 "type": "place",
-"confidence": 0.2061,
+"confidence": 0.2075,
 "match_method": "canonical",
-"preferred_label": "Вефиль"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "гора Ермон"
-},
-{
-"id": "keyterm:Perceive",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Воспринимать"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Ангел"
-},
-{
-"id": "place:Gibeon",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Гаваон"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Колено Вениамина"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "чистый"
-},
-{
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Васан"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Холм Финееса"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Способность"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2061,
-"match_method": "canonical",
-"preferred_label": "Иерусалим"
+"preferred_label": "Ливан"
 },
 {
 "id": "place:Arabah",
@@ -1100,11 +1016,95 @@
 "preferred_label": "Арава"
 },
 {
-"id": "person:Benjamin",
+"id": "place:Bethel",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Вефиль"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "слава"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Страх"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Способность"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Холм Финееса"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Иерусалим"
+},
+{
+"id": "person:Lot",
 "type": "person",
 "confidence": 0.2061,
 "match_method": "canonical",
-"preferred_label": "Вениамин"
+"preferred_label": "Лот"
+},
+{
+"id": "place:Gibeon",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Гаваон"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "чистый"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "ревность"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Колено Вениамина"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Спасение"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.2061,
+"match_method": "canonical",
+"preferred_label": "Васан"
 }
 ]
 }

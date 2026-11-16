@@ -312,18 +312,18 @@
 "preferred_label": "Змея"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Давать во владение"
-},
-{
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "Горе"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Давать во владение"
 },
 {
 "id": "keyterm:Body.3",
@@ -333,18 +333,32 @@
 "preferred_label": "Тело"
 },
 {
-"id": "place:Bozrah.2",
-"type": "place",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Восор"
+"preferred_label": "Саул"
 },
 {
-"id": "place:Egypt",
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Наставление"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Сила"
+},
+{
+"id": "place:Moab",
 "type": "place",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Египет"
+"preferred_label": "Моав"
 },
 {
 "id": "person:Israel",
@@ -354,11 +368,67 @@
 "preferred_label": "Израиль"
 },
 {
-"id": "keyterm:Instruction",
+"id": "keyterm:Midheaven",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Наставление"
+"preferred_label": "Зенит"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Любовь"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Едом"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Египет"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Авраам"
+},
+{
+"id": "place:Bozrah.2",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Восор"
+},
+{
+"id": "person:Jonathan.3",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Ионафан"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Бедствие"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Ангел"
 },
 {
 "id": "place:Lebanon",
@@ -375,95 +445,11 @@
 "preferred_label": "Завет"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Едом"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Сила"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Ангел"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Авраам"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Любовь"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Бедствие"
-},
-{
-"id": "keyterm:Midheaven",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Зенит"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Моав"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Саул"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Ионафан"
-},
-{
-"id": "fauna:Osprey",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Скопа"
-},
-{
 "id": "fauna:BarnOwl",
 "type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Сипуха"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Гиена"
 },
 {
 "id": "fauna:Cormorant",
@@ -473,60 +459,18 @@
 "preferred_label": "Баклан"
 },
 {
-"id": "fauna:Falcon",
+"id": "fauna:Hyena",
 "type": "fauna",
-"confidence": 0.1015,
+"confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Сокол"
+"preferred_label": "Гиена"
 },
 {
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Крылатое существо"
-},
-{
-"id": "fauna:Leopard",
+"id": "fauna:Osprey",
 "type": "fauna",
-"confidence": 0.1015,
+"confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "Барс"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Птица"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Папирус"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Труба"
-},
-{
-"id": "fauna:Crow",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "Ворон"
+"preferred_label": "Скопа"
 },
 {
 "id": "flora:Cedar",
@@ -536,11 +480,25 @@
 "preferred_label": "Кедр"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "Бараний рог"
+"preferred_label": "Труба"
+},
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Волк"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Птица"
 },
 {
 "id": "realia:House",
@@ -550,6 +508,27 @@
 "preferred_label": "дом"
 },
 {
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Барс"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Крылатое существо"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Папирус"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1015,
@@ -557,11 +536,32 @@
 "preferred_label": "колесница"
 },
 {
-"id": "fauna:Wolf",
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Бараний рог"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
+"id": "fauna:Falcon",
 "type": "fauna",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "Волк"
+"preferred_label": "Сокол"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Ворон"
 }
 ]
 }

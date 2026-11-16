@@ -224,18 +224,18 @@
 "preferred_label": "Крупный рогатый скот"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "Израиль"
-},
-{
 "id": "person:Pharaoh.6",
 "type": "person",
 "confidence": 0.231,
 "match_method": "canonical",
 "preferred_label": "Фараон"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "Израиль"
 },
 {
 "id": "keyterm:Arrow",
@@ -252,18 +252,11 @@
 "preferred_label": "Нижний Вефорон"
 },
 {
-"id": "keyterm:Majesty",
-"type": "keyterm",
+"id": "place:Goshen",
+"type": "place",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Величие"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "Грешить"
+"preferred_label": "Гесем"
 },
 {
 "id": "place:Azekah",
@@ -280,11 +273,18 @@
 "preferred_label": "Прибежище"
 },
 {
-"id": "place:Goshen",
-"type": "place",
+"id": "keyterm:Majesty",
+"type": "keyterm",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Гесем"
+"preferred_label": "Величие"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Грешить"
 },
 {
 "id": "realia:Plaster",
@@ -294,32 +294,11 @@
 "preferred_label": "известь"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Виноградная лоза"
-},
-{
-"id": "realia:MeasuringReed",
-"type": "realia",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Трость измерения"
-},
-{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "Смоква"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "Сикомор"
 },
 {
 "id": "flora:Grain",
@@ -329,11 +308,11 @@
 "preferred_label": "Зерно"
 },
 {
-"id": "realia:PlumbLine",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Отвес"
+"preferred_label": "Жезл"
 },
 {
 "id": "realia:House",
@@ -343,6 +322,20 @@
 "preferred_label": "дом"
 },
 {
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Сикомор"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Виноградная лоза"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1055,
@@ -350,11 +343,18 @@
 "preferred_label": "Саранча"
 },
 {
-"id": "realia:Rod",
+"id": "realia:PlumbLine",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "Жезл"
+"preferred_label": "Отвес"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "Трость измерения"
 }
 ]
 }
