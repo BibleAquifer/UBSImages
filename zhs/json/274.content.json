@@ -300,6 +300,13 @@
 "preferred_label": "会幕"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.363,
+"match_method": "canonical",
+"preferred_label": "圣殿祭坛"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.363,
@@ -321,11 +328,11 @@
 "preferred_label": "祭坛"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.363,
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "圣殿祭坛"
+"preferred_label": "以利亚撒"
 },
 {
 "id": "keyterm:Priesthood",
@@ -342,11 +349,11 @@
 "preferred_label": "犯罪"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.2865,
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "以利亚撒"
+"preferred_label": "约柜"
 },
 {
 "id": "realia:PurpleCloth",
@@ -356,9 +363,9 @@
 "preferred_label": "紫色布"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2265,
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "约柜"
 },
@@ -368,13 +375,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "玷污（行为）"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "约柜"
 },
 {
 "id": "realia:Tabernacle",
@@ -405,11 +405,11 @@
 "preferred_label": "山羊"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "牛"
+"preferred_label": "羊群"
 },
 {
 "id": "realia:Linen",
@@ -419,20 +419,6 @@
 "preferred_label": "细麻布"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "幔子"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "羊群"
-},
-{
 "id": "realia:Talent",
 "type": "realia",
 "confidence": 0.1643,
@@ -440,11 +426,32 @@
 "preferred_label": "他连得"
 },
 {
-"id": "keyterm:Rebel",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "幔子"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "牛"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "背叛"
+"preferred_label": "担当后果"
+},
+{
+"id": "person:Bezalel",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "比撒列"
 },
 {
 "id": "keyterm:Serve",
@@ -454,11 +461,25 @@
 "preferred_label": "服侍"
 },
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "聪明"
+"preferred_label": "真实"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "利未支派"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "摩洛"
 },
 {
 "id": "keyterm:Ability",
@@ -475,13 +496,6 @@
 "preferred_label": "热忱"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "担当后果"
-},
-{
 "id": "person:Phinehas",
 "type": "person",
 "confidence": 0.1622,
@@ -489,25 +503,25 @@
 "preferred_label": "非尼哈"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "利未支派"
-},
-{
-"id": "keyterm:True",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "真实"
+"preferred_label": "聪明"
 },
 {
-"id": "person:Bezalel",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "比撒列"
+"preferred_label": "背叛"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "羞辱"
 },
 {
 "id": "person:Levi.3",
@@ -531,32 +545,11 @@
 "preferred_label": "亚何利亚伯"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "摩洛"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "羞辱"
-},
-{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1076,
 "match_method": "canonical",
 "preferred_label": "纺锤"
-},
-{
-"id": "realia:Breast-piece",
-"type": "realia",
-"confidence": 0.1076,
-"match_method": "canonical",
-"preferred_label": "胸牌"
 },
 {
 "id": "realia:LinenStrips",
@@ -566,53 +559,11 @@
 "preferred_label": "细麻幔幅"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Breast-piece",
 "type": "realia",
-"confidence": 0.1022,
+"confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
-"id": "realia:CoverLid",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "施恩座"
-},
-{
-"id": "realia:Covering",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "顶盖"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "有翼活物"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "金钱"
-},
-{
-"id": "fauna:Dugong",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "儒艮"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "橄榄油"
+"preferred_label": "胸牌"
 },
 {
 "id": "realia:Screen",
@@ -622,11 +573,25 @@
 "preferred_label": "门帘"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "灯台"
+"preferred_label": "舍客勒"
+},
+{
+"id": "realia:Covering",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "顶盖"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "施恩座"
 },
 {
 "id": "realia:Trumpet",
@@ -636,11 +601,32 @@
 "preferred_label": "号"
 },
 {
-"id": "realia:GoatHairStrips",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "山羊毛幔子"
+"preferred_label": "金钱"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "羊羔"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "有翼活物"
+},
+{
+"id": "fauna:Dugong",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "儒艮"
 },
 {
 "id": "realia:Leather",
@@ -650,11 +636,32 @@
 "preferred_label": "皮革"
 },
 {
-"id": "realia:Shekel",
+"id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "舍客勒"
+"preferred_label": "灯台"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "橄榄油"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "膏油"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "山羊毛幔子"
 },
 {
 "id": "realia:Tent",
@@ -662,13 +669,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "帐棚"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "羊羔"
 }
 ]
 }

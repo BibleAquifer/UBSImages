@@ -3,9 +3,9 @@
 "content_id": "295080",
 "reference_id": 2367,
 "version": "1.0.4",
-"title": "铃铛",
+"title": "铃",
 "media_type": "Image",
-"index_reference": "铃铛",
+"index_reference": "铃",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0460_bell.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0460_bell.jpg'>link</a></p></block>",
@@ -39,18 +39,18 @@
 "resource": [],
 "acai": [
 {
-"id": "realia:Train",
-"type": "realia",
-"confidence": 0.74,
-"match_method": "canonical",
-"preferred_label": "衣袍下襟"
-},
-{
 "id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.74,
 "match_method": "canonical",
 "preferred_label": "石榴"
+},
+{
+"id": "realia:Train",
+"type": "realia",
+"confidence": 0.74,
+"match_method": "canonical",
+"preferred_label": "衣袍下襟"
 },
 {
 "id": "realia:Jinglet",
@@ -67,6 +67,13 @@
 "preferred_label": "外袍"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "耶和华"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2625,
@@ -79,13 +86,6 @@
 "confidence": 0.2625,
 "match_method": "canonical",
 "preferred_label": "洁净"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "耶和华"
 },
 {
 "id": "realia:PurpleCloth",

@@ -301,11 +301,11 @@
 "preferred_label": "作门徒"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "膏油"
+"preferred_label": "谷物"
 },
 {
 "id": "realia:OliveOil",
@@ -315,11 +315,11 @@
 "preferred_label": "橄榄油"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "谷物"
+"preferred_label": "膏油"
 },
 {
 "id": "place:Bethphage",
@@ -364,18 +364,18 @@
 "preferred_label": "伯大尼（橄榄山）"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "骡子"
-},
-{
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "新酒"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "骡子"
 },
 {
 "id": "person:Jesus.2",
@@ -406,6 +406,13 @@
 "preferred_label": "基第利人"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "大麦"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1609,
@@ -413,25 +420,25 @@
 "preferred_label": "山羊"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "牛"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "坑"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "金钱"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "酒"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "羊群"
 },
 {
 "id": "realia:Temple",
@@ -448,67 +455,18 @@
 "preferred_label": "灯台"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "大麦"
-},
-{
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "羊群"
+"preferred_label": "牛"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "酒"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "驱逐"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "非利士"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "技能"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "涂抹"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "使自己得荣耀尊贵"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "坑"
 },
 {
 "id": "group:Philistine",
@@ -518,18 +476,18 @@
 "preferred_label": "非利士人"
 },
 {
-"id": "person:Noah",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "挪亚"
+"preferred_label": "彼得"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "黎巴嫩"
+"preferred_label": "象征"
 },
 {
 "id": "person:John.2",
@@ -546,46 +504,18 @@
 "preferred_label": "基底拉"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "赐福（嘉许）"
+"preferred_label": "使自己得荣耀尊贵"
 },
 {
-"id": "keyterm:Example",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "象征"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "雅各"
-},
-{
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "安得烈"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "永远"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "彼得"
+"preferred_label": "驱逐"
 },
 {
 "id": "person:Hezekiah",
@@ -595,11 +525,81 @@
 "preferred_label": "希西家"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "挪亚"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "永远"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "雅各"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "非利士"
+},
+{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "谢非拉"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "赐福（嘉许）"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "技能"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "安得烈"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "黎巴嫩"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "涂抹"
 },
 {
 "id": "flora:Myrtle",
@@ -609,46 +609,11 @@
 "preferred_label": "番石榴树"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "阿勒颇松"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "牲畜圈"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "石榴"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "羊圈"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "西克莫无花果树"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "石松"
 },
 {
 "id": "flora:DatePalm",
@@ -658,11 +623,18 @@
 "preferred_label": "棕树"
 },
 {
-"id": "flora:Coriander",
+"id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "芫荽"
+"preferred_label": "石榴"
+},
+{
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "石松"
 },
 {
 "id": "fauna:Dove",
@@ -672,11 +644,39 @@
 "preferred_label": "鸽子"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "阿勒颇松"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "芫荽"
+},
+{
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "西克莫无花果树"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "战车"
+},
+{
+"id": "realia:Sheepfold",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "羊圈"
 },
 {
 "id": "fauna:Locust",

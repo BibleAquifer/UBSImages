@@ -335,6 +335,27 @@
 "preferred_label": "狗"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "圣洁"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "天"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "鬼魔"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2205,
@@ -349,39 +370,11 @@
 "preferred_label": "耶稣"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "圣洁"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "鬼魔"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "天"
-},
-{
 "id": "place:Hazor.5",
 "type": "place",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "夏琐（耶利米书）"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "葡萄树"
 },
 {
 "id": "flora:Grass",
@@ -391,11 +384,11 @@
 "preferred_label": "草"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1602,
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "使承受为业"
+"preferred_label": "葡萄树"
 },
 {
 "id": "keyterm:Swear",
@@ -405,11 +398,11 @@
 "preferred_label": "起誓"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "奉献"
+"preferred_label": "委派"
 },
 {
 "id": "keyterm:Mischief",
@@ -419,81 +412,11 @@
 "preferred_label": "奸恶"
 },
 {
-"id": "keyterm:Appoint",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "委派"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "一个人"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "使自己得荣耀尊贵"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "group:Edom",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "以东人"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "犹大"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "哀歌"
-},
-{
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "以东"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "巴比伦"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "可憎之物"
+"preferred_label": "使承受为业"
 },
 {
 "id": "group:Judah",
@@ -503,11 +426,67 @@
 "preferred_label": "犹大支派"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "巴比伦"
+},
+{
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "使自己得荣耀尊贵"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "一个人"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "奉献"
+},
+{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "真实"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "耶路撒冷"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "犹大"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "以东"
 },
 {
 "id": "keyterm:Bless",
@@ -517,11 +496,32 @@
 "preferred_label": "赐福（嘉许）"
 },
 {
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "可憎之物"
+},
+{
 "id": "person:Samson",
 "type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "参孙"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "洁净"
+},
+{
+"id": "group:Edom",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "以东人"
 },
 {
 "id": "keyterm:DemonPossessed",
@@ -531,11 +531,18 @@
 "preferred_label": "被鬼附身"
 },
 {
-"id": "keyterm:Pure",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "洁净"
+"preferred_label": "哀歌"
+},
+{
+"id": "fauna:Mouse",
+"type": "fauna",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "老鼠"
 },
 {
 "id": "flora:Carob",
@@ -552,13 +559,6 @@
 "preferred_label": "灰林鸮"
 },
 {
-"id": "fauna:Mouse",
-"type": "fauna",
-"confidence": 0.1048,
-"match_method": "canonical",
-"preferred_label": "老鼠"
-},
-{
 "id": "fauna:WildDonkey",
 "type": "fauna",
 "confidence": 0.1002,
@@ -573,11 +573,18 @@
 "preferred_label": "芦苇"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
+"id": "flora:Frankincense",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "牛"
+"preferred_label": "乳香"
+},
+{
+"id": "flora:Nettle",
+"type": "flora",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "荨麻"
 },
 {
 "id": "flora:Brier",
@@ -587,18 +594,11 @@
 "preferred_label": "蒺藜"
 },
 {
-"id": "flora:Papyrus",
-"type": "flora",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "蒲草"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "乳香"
+"preferred_label": "羊羔"
 },
 {
 "id": "flora:Thistle",
@@ -615,18 +615,11 @@
 "preferred_label": "房屋"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "羊羔"
-},
-{
-"id": "flora:Nettle",
+"id": "flora:Papyrus",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "荨麻"
+"preferred_label": "蒲草"
 },
 {
 "id": "realia:Earring",
@@ -634,6 +627,13 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "耳环"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "牛"
 }
 ]
 }

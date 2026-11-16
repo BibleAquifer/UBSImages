@@ -119,13 +119,6 @@
 "preferred_label": "豺狼"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "狮子"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.5,
@@ -133,11 +126,11 @@
 "preferred_label": "熊"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "耶和华"
+"preferred_label": "狮子"
 },
 {
 "id": "keyterm:IntactState",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "平安"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "耶和华"
 },
 {
 "id": "fauna:Owl",
@@ -168,11 +168,11 @@
 "preferred_label": "使承受为业"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "约瑟"
+"preferred_label": "耶路撒冷"
 },
 {
 "id": "place:Assyria",
@@ -182,32 +182,18 @@
 "preferred_label": "亚述"
 },
 {
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "约瑟"
+},
+{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "安全"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "耶路撒冷"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "约"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "迦勒底"
 },
 {
 "id": "group:Chaldea",
@@ -217,18 +203,25 @@
 "preferred_label": "迦勒底人"
 },
 {
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "迦勒底"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "约"
+},
+{
 "id": "fauna:WildCat",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "野猫"
-},
-{
-"id": "fauna:TawnyOwl.2",
-"type": "fauna",
-"confidence": 0.1333,
-"match_method": "canonical",
-"preferred_label": "灰林鸮"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -238,39 +231,11 @@
 "preferred_label": "鳄鱼"
 },
 {
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "长衣"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "坑"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "攻城木塔"
-},
-{
-"id": "fauna:Vulture",
+"id": "fauna:TawnyOwl.2",
 "type": "fauna",
-"confidence": 0.12,
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "兀鹫"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "房屋"
+"preferred_label": "灰林鸮"
 },
 {
 "id": "fauna:Dragon",
@@ -280,11 +245,46 @@
 "preferred_label": "龙"
 },
 {
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "兀鹫"
+},
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "长衣"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "檀香木"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "攻城木塔"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "坑"
 }
 ]
 }

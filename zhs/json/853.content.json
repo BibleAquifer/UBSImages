@@ -3,9 +3,9 @@
 "content_id": "295115",
 "reference_id": 2402,
 "version": "1.0.4",
-"title": "鼓",
+"title": "演奏乐器的陶俑",
 "media_type": "Image",
-"index_reference": "鼓",
+"index_reference": "演奏乐器的陶俑",
 "language": "zhs",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0516_drum.jpg'>link</a></p></block>",
@@ -167,13 +167,6 @@
 "preferred_label": "大卫"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "非利士"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.2562,
@@ -181,18 +174,18 @@
 "preferred_label": "非利士人"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "非利士"
+},
+{
 "id": "realia:Cymbals",
 "type": "realia",
 "confidence": 0.2088,
 "match_method": "canonical",
 "preferred_label": "钹"
-},
-{
-"id": "place:Gibeath-elohim",
-"type": "place",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "神的山"
 },
 {
 "id": "person:Miriam",
@@ -209,11 +202,18 @@
 "preferred_label": "月朔节"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "place:Gibeath-elohim",
+"type": "place",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "神的山"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "奉献"
+"preferred_label": "扫罗"
 },
 {
 "id": "place:Gibeah.2",
@@ -223,25 +223,18 @@
 "preferred_label": "基比亚"
 },
 {
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "奉献"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "亚伦"
-},
-{
-"id": "place:Mizpah.2",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "米斯巴（基列）"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "说预言"
 },
 {
 "id": "keyterm:Bless",
@@ -258,18 +251,18 @@
 "preferred_label": "耶弗他"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
+"id": "place:Mizpah.2",
+"type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "扫罗"
+"preferred_label": "米斯巴（基列）"
 },
 {
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1306,
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "柏树"
+"preferred_label": "说预言"
 },
 {
 "id": "realia:Shaker",
@@ -279,39 +272,11 @@
 "preferred_label": "摇响乐器"
 },
 {
-"id": "realia:HighPlace",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "丘坛"
-},
-{
-"id": "flora:Vine",
+"id": "flora:Cypress",
 "type": "flora",
-"confidence": 0.1181,
+"confidence": 0.1306,
 "match_method": "canonical",
-"preferred_label": "葡萄树"
-},
-{
-"id": "flora:JuniperTree",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "腓尼基桧"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "号"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "松树"
+"preferred_label": "柏树"
 },
 {
 "id": "flora:Pine",
@@ -321,18 +286,11 @@
 "preferred_label": "石松"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
-"preferred_label": "羊角号"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "房屋"
+"preferred_label": "号"
 },
 {
 "id": "flora:Juniper",
@@ -342,11 +300,53 @@
 "preferred_label": "希腊桧"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "房屋"
+},
+{
+"id": "flora:JuniperTree",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "腓尼基桧"
+},
+{
+"id": "realia:HighPlace",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "丘坛"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "松树"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "葡萄树"
+},
+{
 "id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "酒"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "羊角号"
 }
 ]
 }
