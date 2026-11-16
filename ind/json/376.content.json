@@ -312,18 +312,18 @@
 "preferred_label": "ular"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "memberikan milik"
-},
-{
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "celaka"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "memberikan milik"
 },
 {
 "id": "keyterm:Body.3",
@@ -333,18 +333,32 @@
 "preferred_label": "tubuh"
 },
 {
-"id": "place:Bozrah.2",
-"type": "place",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Bozra"
+"preferred_label": "Saul"
 },
 {
-"id": "place:Egypt",
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "didikan"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "kekuatan"
+},
+{
+"id": "place:Moab",
 "type": "place",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Mesir"
+"preferred_label": "Moab"
 },
 {
 "id": "person:Israel",
@@ -354,11 +368,67 @@
 "preferred_label": "Israel"
 },
 {
-"id": "keyterm:Instruction",
+"id": "keyterm:Midheaven",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "didikan"
+"preferred_label": "tengah langit"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "kasih"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Edom"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Mesir"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "place:Bozrah.2",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Bozra"
+},
+{
+"id": "person:Jonathan.3",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Yonatan"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "bencana"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Malaikat"
 },
 {
 "id": "place:Lebanon",
@@ -375,95 +445,11 @@
 "preferred_label": "perjanjian"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Edom"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "kekuatan"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Malaikat"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "kasih"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "bencana"
-},
-{
-"id": "keyterm:Midheaven",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "tengah langit"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Moab"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Saul"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Yonatan"
-},
-{
-"id": "fauna:Osprey",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "elang tiram"
-},
-{
 "id": "fauna:BarnOwl",
 "type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "burung serak jawa"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "hiena"
 },
 {
 "id": "fauna:Cormorant",
@@ -473,60 +459,18 @@
 "preferred_label": "burung dendang air"
 },
 {
-"id": "fauna:Falcon",
+"id": "fauna:Hyena",
 "type": "fauna",
-"confidence": 0.1015,
+"confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "alap-alap"
+"preferred_label": "hiena"
 },
 {
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "makhluk bersayap"
-},
-{
-"id": "fauna:Leopard",
+"id": "fauna:Osprey",
 "type": "fauna",
-"confidence": 0.1015,
+"confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "macan tutul"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "pokok anggur"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "burung"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "papirus"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "nafiri"
-},
-{
-"id": "fauna:Crow",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "gagak"
+"preferred_label": "elang tiram"
 },
 {
 "id": "flora:Cedar",
@@ -536,11 +480,25 @@
 "preferred_label": "aras"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "sangkakala tanduk domba"
+"preferred_label": "nafiri"
+},
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "serigala"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "burung"
 },
 {
 "id": "realia:House",
@@ -550,6 +508,27 @@
 "preferred_label": "rumah"
 },
 {
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "macan tutul"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "makhluk bersayap"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "papirus"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1015,
@@ -557,11 +536,32 @@
 "preferred_label": "kereta"
 },
 {
-"id": "fauna:Wolf",
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "sangkakala tanduk domba"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "pokok anggur"
+},
+{
+"id": "fauna:Falcon",
 "type": "fauna",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "serigala"
+"preferred_label": "alap-alap"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "gagak"
 }
 ]
 }

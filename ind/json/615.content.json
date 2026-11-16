@@ -3,9 +3,9 @@
 "content_id": "284608",
 "reference_id": 2159,
 "version": "1.0.4",
-"title": "Makhluk Hidup Lorvão",
+"title": "Empat Makhluk Hidup: Manuskrip Lorvão",
 "media_type": "Image",
-"index_reference": "makhluk hidup lorvão",
+"index_reference": "empat makhluk hidup manuskrip lorvão",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0604_living_creatures_lorvão.jpg'>link</a></p></block>",
@@ -159,6 +159,13 @@
 "preferred_label": "Makhluk Ketiga"
 },
 {
+"id": "deity:SecondLivingCreature",
+"type": "deity",
+"confidence": 0.2765,
+"match_method": "canonical",
+"preferred_label": "Makhluk Kedua"
+},
+{
 "id": "deity:FirstLivingCreature",
 "type": "deity",
 "confidence": 0.2765,
@@ -173,18 +180,11 @@
 "preferred_label": "Makhluk Keempat"
 },
 {
-"id": "deity:SecondLivingCreature",
-"type": "deity",
-"confidence": 0.2765,
-"match_method": "canonical",
-"preferred_label": "Makhluk Kedua"
-},
-{
-"id": "keyterm:Surely",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "sesungguhnya!"
+"preferred_label": "kudus"
 },
 {
 "id": "keyterm:Life",
@@ -194,18 +194,18 @@
 "preferred_label": "kehidupan"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.2529,
-"match_method": "canonical",
-"preferred_label": "kudus"
-},
-{
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.2529,
 "match_method": "canonical",
 "preferred_label": "selama-lamanya"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.2529,
+"match_method": "canonical",
+"preferred_label": "sesungguhnya!"
 },
 {
 "id": "realia:Bowl.2",
@@ -215,25 +215,18 @@
 "preferred_label": "pinggan"
 },
 {
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "menebus"
+},
+{
 "id": "keyterm:ActWickedly",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "bertindak jahat"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "kemuliaan"
-},
-{
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "roh"
 },
 {
 "id": "keyterm:Pray",
@@ -243,6 +236,20 @@
 "preferred_label": "berdoa"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "roh"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "kemuliaan"
+},
+{
 "id": "deity:Voice",
 "type": "deity",
 "confidence": 0.1765,
@@ -250,11 +257,11 @@
 "preferred_label": "Suara Tanpa Rupa"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
-"confidence": 0.1765,
+"id": "realia:Denarius",
+"type": "realia",
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "menebus"
+"preferred_label": "dinar"
 },
 {
 "id": "realia:Balance",
@@ -271,48 +278,6 @@
 "preferred_label": "cupak"
 },
 {
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "dinar"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "singa"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "ukupan"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "lembu sapi"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "kuda"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "minyak zaitun"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1165,
@@ -320,18 +285,11 @@
 "preferred_label": "jelai"
 },
 {
-"id": "realia:Lyre",
-"type": "realia",
+"id": "fauna:Vulture",
+"type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "kecapi"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "gulungan kitab"
+"preferred_label": "burung nasar"
 },
 {
 "id": "flora:Wheat",
@@ -341,11 +299,53 @@
 "preferred_label": "gandum"
 },
 {
-"id": "fauna:Vulture",
+"id": "realia:Incense",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "ukupan"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "kecapi"
+},
+{
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "burung nasar"
+"preferred_label": "lembu sapi"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "minyak zaitun"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "singa"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "kuda"
+},
+{
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "gulungan kitab"
 },
 {
 "id": "realia:Wine",

@@ -132,6 +132,13 @@
 "preferred_label": "TUHAN"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.3525,
+"match_method": "canonical",
+"preferred_label": "gandum"
+},
+{
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.3525,
@@ -139,11 +146,18 @@
 "preferred_label": "lembu sapi"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.3525,
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.2562,
 "match_method": "canonical",
-"preferred_label": "gandum"
+"preferred_label": "membersihkan sampai bersih"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "persembahan"
 },
 {
 "id": "person:David",
@@ -160,20 +174,6 @@
 "preferred_label": "Ornan"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "membersihkan sampai bersih"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2088,
@@ -188,13 +188,6 @@
 "preferred_label": "tempat pengirikan"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.1963,
-"match_method": "canonical",
-"preferred_label": "kereta"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.1963,
@@ -202,11 +195,11 @@
 "preferred_label": "lumbung"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1906,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.1963,
 "match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "kereta"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -216,18 +209,25 @@
 "preferred_label": "Sungai Mesir"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1906,
-"match_method": "canonical",
-"preferred_label": "mendapat bagian"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1906,
 "match_method": "canonical",
 "preferred_label": "Ofra"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "mendapat bagian"
 },
 {
 "id": "group:Abiezer",
@@ -251,39 +251,11 @@
 "preferred_label": "Abiezer"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "memberontak"
-},
-{
-"id": "place:Damascus",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Damsyik"
-},
-{
 "id": "keyterm:Scripture",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Kitab Suci"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Israel"
 },
 {
 "id": "place:Euphrates",
@@ -293,11 +265,25 @@
 "preferred_label": "Sungai Efrat"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "keyterm:Ought",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Malaikat"
+"preferred_label": "wajib"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Musa"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Damsyik"
 },
 {
 "id": "place:Gilead",
@@ -307,18 +293,18 @@
 "preferred_label": "Gilead"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Midian"
-},
-{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "hukum"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Hope",
@@ -328,18 +314,25 @@
 "preferred_label": "pengharapan"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "wajib"
+"preferred_label": "memberontak"
 },
 {
-"id": "flora:NutmegFlower",
-"type": "flora",
-"confidence": 0.1306,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "jintan hitam"
+"preferred_label": "Malaikat"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Midian"
 },
 {
 "id": "flora:Cumin",
@@ -349,6 +342,41 @@
 "preferred_label": "jintan putih"
 },
 {
+"id": "flora:NutmegFlower",
+"type": "flora",
+"confidence": 0.1306,
+"match_method": "canonical",
+"preferred_label": "jintan hitam"
+},
+{
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "jelai"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "efa"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "tongkat"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "tarbantin"
+},
+{
 "id": "realia:Winepress",
 "type": "realia",
 "confidence": 0.1181,
@@ -356,7 +384,7 @@
 "preferred_label": "tempat pemerasan anggur"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1181,
 "match_method": "canonical",
@@ -368,34 +396,6 @@
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "pohon zaitun"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "tongkat"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "jelai"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "tarbantin"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "efa"
 }
 ]
 }

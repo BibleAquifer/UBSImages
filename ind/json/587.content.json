@@ -258,6 +258,13 @@
 "preferred_label": "lembu sapi"
 },
 {
+"id": "place:Kidron",
+"type": "place",
+"confidence": 0.2919,
+"match_method": "canonical",
+"preferred_label": "Kidron"
+},
+{
 "id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.2919,
@@ -265,11 +272,11 @@
 "preferred_label": "penajisan"
 },
 {
-"id": "place:Kidron",
-"type": "place",
-"confidence": 0.2919,
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2886,
 "match_method": "canonical",
-"preferred_label": "Kidron"
+"preferred_label": "mezbah Bait Allah"
 },
 {
 "id": "realia:Altar",
@@ -293,13 +300,6 @@
 "preferred_label": "mezbah Kemah Suci"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2886,
-"match_method": "canonical",
-"preferred_label": "mezbah Bait Allah"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2865,
@@ -321,25 +321,11 @@
 "preferred_label": "bencana"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Musa"
-},
-{
-"id": "keyterm:Ability",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "kemampuan"
-},
-{
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "bertobat"
+"preferred_label": "lambang"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -349,25 +335,18 @@
 "preferred_label": "menyucikan"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Yerusalem"
-},
-{
-"id": "person:Israel",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Musa"
 },
 {
-"id": "place:Sidon",
-"type": "place",
+"id": "keyterm:Repent",
+"type": "keyterm",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Sidon"
+"preferred_label": "bertobat"
 },
 {
 "id": "place:Tyre",
@@ -384,18 +363,25 @@
 "preferred_label": "Firaun"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "lambang"
-},
-{
-"id": "place:Bethsaida",
+"id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Betsaida"
+"preferred_label": "Yerusalem"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "kemampuan"
 },
 {
 "id": "keyterm:Pure",
@@ -405,18 +391,25 @@
 "preferred_label": "tahir"
 },
 {
-"id": "person:Tamar.2",
-"type": "person",
-"confidence": 0.1676,
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Tamar"
+"preferred_label": "Betsaida"
 },
 {
-"id": "person:Mordecai.2",
-"type": "person",
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Sidon"
+},
+{
+"id": "place:HorseGate",
+"type": "place",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Mordekhai"
+"preferred_label": "Pintu Gerbang Kuda"
 },
 {
 "id": "keyterm:Supplication",
@@ -426,11 +419,18 @@
 "preferred_label": "permohonan belas kasihan"
 },
 {
-"id": "place:HorseGate",
-"type": "place",
+"id": "person:Mordecai.2",
+"type": "person",
 "confidence": 0.1676,
 "match_method": "canonical",
-"preferred_label": "Pintu Gerbang Kuda"
+"preferred_label": "Mordekhai"
+},
+{
+"id": "person:Tamar.2",
+"type": "person",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Tamar"
 },
 {
 "id": "realia:Kiln",
@@ -447,11 +447,11 @@
 "preferred_label": "rumah"
 },
 {
-"id": "keyterm:Blood",
+"id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "darah"
+"preferred_label": "bersumpah"
 },
 {
 "id": "keyterm:Consecration.2",
@@ -461,11 +461,11 @@
 "preferred_label": "pengudusan"
 },
 {
-"id": "keyterm:Swear",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "bersumpah"
+"preferred_label": "orang Yahudi"
 },
 {
 "id": "keyterm:Body.3",
@@ -475,32 +475,11 @@
 "preferred_label": "tubuh"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "kecemburuan"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Harun"
-},
-{
-"id": "person:Ahaz",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ahas"
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "keyterm:Delight",
@@ -517,53 +496,18 @@
 "preferred_label": "amsal"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Asyera"
-},
-{
-"id": "person:Judah.4",
+"id": "person:Ahaz",
 "type": "person",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Yehuda"
+"preferred_label": "Ahas"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Suku Yehuda"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "person:Manasseh.2",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Manasye"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "orang Yahudi"
-},
-{
-"id": "keyterm:WordOfTheLord",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "firman TUHAN"
+"preferred_label": "persembahan"
 },
 {
 "id": "place:Nineveh",
@@ -573,11 +517,67 @@
 "preferred_label": "Niniwe"
 },
 {
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Harun"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "darah"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "firman TUHAN"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Asyera"
+},
+{
+"id": "keyterm:Ardour",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "kecemburuan"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "mencemarkan"
+},
+{
+"id": "person:Manasseh.2",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Manasye"
 },
 {
 "id": "fauna:Goat",
@@ -608,13 +608,6 @@
 "preferred_label": "bulu domba"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "Minyak urapan"
-},
-{
 "id": "realia:Tunic.2",
 "type": "realia",
 "confidence": 0.1022,
@@ -629,11 +622,32 @@
 "preferred_label": "patung tuangan"
 },
 {
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "tarbantin"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "takhta"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "minyak zaitun"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "Minyak urapan"
 },
 {
 "id": "realia:Clothing",
@@ -643,25 +657,11 @@
 "preferred_label": "pakaian"
 },
 {
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "tarbantin"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "kawanan domba"
-},
-{
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "takhta"
 }
 ]
 }

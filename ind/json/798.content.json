@@ -3,9 +3,9 @@
 "content_id": "284797",
 "reference_id": 2348,
 "version": "1.0.4",
-"title": "Pagar batu",
+"title": "Tembok batu di sekitar ladang",
 "media_type": "Image",
-"index_reference": "pagar batu",
+"index_reference": "tembok batu di sekitar ladang",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0415_fence.jpg'>link</a></p></block>",
@@ -264,18 +264,18 @@
 "preferred_label": "pokok anggur"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2874,
-"match_method": "canonical",
-"preferred_label": "rumah"
-},
-{
 "id": "realia:ThornHedge",
 "type": "realia",
 "confidence": 0.2874,
 "match_method": "canonical",
 "preferred_label": "pagar duri"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2874,
+"match_method": "canonical",
+"preferred_label": "rumah"
 },
 {
 "id": "realia:Winepress",
@@ -292,18 +292,18 @@
 "preferred_label": "puteri malu"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "perumpamaan"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "memberkati"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "perumpamaan"
 },
 {
 "id": "realia:Handbreadth",
@@ -327,11 +327,25 @@
 "preferred_label": "Yudea"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "mezbah Bait Allah"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
 "preferred_label": "Mezbah"
+},
+{
+"id": "realia:Watch-tower",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "menara jaga"
 },
 {
 "id": "realia:StoneAltar",
@@ -348,81 +362,11 @@
 "preferred_label": "mezbah Kemah Suci"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "mezbah Bait Allah"
-},
-{
-"id": "realia:Watch-tower",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "menara jaga"
-},
-{
-"id": "keyterm:Disobey",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "tidak taat"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "hari raya yang ditetapkan"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "memperdamaikan"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Persia"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Paulus"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "tubuh"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Yusuf"
-},
-{
-"id": "keyterm:Appease",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "menenangkan"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "ketetapan"
+"preferred_label": "memutuskan"
 },
 {
 "id": "keyterm:IntactState",
@@ -432,6 +376,20 @@
 "preferred_label": "damai sejahtera"
 },
 {
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "hari raya yang ditetapkan"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "tubuh"
+},
+{
 "id": "keyterm:Cleanse.2",
 "type": "keyterm",
 "confidence": 0.1618,
@@ -439,11 +397,11 @@
 "preferred_label": "menyucikan"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Appease",
+"type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Yerusalem"
+"preferred_label": "menenangkan"
 },
 {
 "id": "keyterm:Kindness",
@@ -451,41 +409,6 @@
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "kebaikan"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "memutuskan"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Malaikat"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Baal"
-},
-{
-"id": "keyterm:Profane",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "biasa"
 },
 {
 "id": "keyterm:Law",
@@ -502,11 +425,81 @@
 "preferred_label": "lawatan"
 },
 {
-"id": "fauna:Boar",
-"type": "fauna",
-"confidence": 0.1071,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "babi hutan"
+"preferred_label": "Yerusalem"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Persia"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:Disobey",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "tidak taat"
+},
+{
+"id": "keyterm:Profane",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "biasa"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Paulus"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Yusuf"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "ketetapan"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Baal"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "memperdamaikan"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Malaikat"
 },
 {
 "id": "realia:Plaster",
@@ -516,32 +509,18 @@
 "preferred_label": "kapur tembok"
 },
 {
+"id": "fauna:Boar",
+"type": "fauna",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "babi hutan"
+},
+{
 "id": "realia:Reed",
 "type": "realia",
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "tongkat pengukur"
-},
-{
-"id": "realia:HewnStone",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "batu pahat"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Minyak urapan"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "buluh"
 },
 {
 "id": "flora:OliveTree",
@@ -551,39 +530,11 @@
 "preferred_label": "pohon zaitun"
 },
 {
-"id": "realia:MeasuringReed",
+"id": "realia:Must",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "buluh pengukur"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "uang"
-},
-{
-"id": "realia:Span",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "jengkal"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "Bait Allah"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "minyak zaitun"
+"preferred_label": "anggur baru"
 },
 {
 "id": "fauna:Jackal",
@@ -593,39 +544,11 @@
 "preferred_label": "anjing hutan"
 },
 {
-"id": "flora:Grain",
+"id": "flora:Reed",
 "type": "flora",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "biji-bijian"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "bagal"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "anggur baru"
-},
-{
-"id": "fauna:Pig",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "babi"
-},
-{
-"id": "fauna:Snake",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "ular"
+"preferred_label": "buluh"
 },
 {
 "id": "flora:Nettle",
@@ -635,11 +558,60 @@
 "preferred_label": "jelatang"
 },
 {
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "biji-bijian"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "uang"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "Bait Allah"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "kayu cendana"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
 "preferred_label": "tanduk mezbah"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "babi"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "minyak zaitun"
+},
+{
+"id": "realia:HewnStone",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "batu pahat"
 },
 {
 "id": "fauna:Locust",
@@ -649,11 +621,39 @@
 "preferred_label": "belalang"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "kayu cendana"
+"preferred_label": "Minyak urapan"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "buluh pengukur"
+},
+{
+"id": "fauna:Snake",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "ular"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "bagal"
+},
+{
+"id": "realia:Span",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "jengkal"
 }
 ]
 }

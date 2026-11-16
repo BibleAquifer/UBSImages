@@ -149,13 +149,6 @@
 "preferred_label": "Simson"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.39,
-"match_method": "canonical",
-"preferred_label": "Filistin"
-},
-{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.39,
@@ -170,25 +163,18 @@
 "preferred_label": "kekuatan"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.39,
+"match_method": "canonical",
+"preferred_label": "Filistin"
+},
+{
 "id": "person:Delilah",
 "type": "person",
 "confidence": 0.255,
 "match_method": "canonical",
 "preferred_label": "Delila"
-},
-{
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "tali"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.185,
-"match_method": "canonical",
-"preferred_label": "busur"
 },
 {
 "id": "realia:Thread",
@@ -198,6 +184,13 @@
 "preferred_label": "benang"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "busur"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.185,
@@ -205,11 +198,32 @@
 "preferred_label": "rumah"
 },
 {
-"id": "keyterm:Shield",
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.185,
+"match_method": "canonical",
+"preferred_label": "tali"
+},
+{
+"id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1725,
 "match_method": "canonical",
-"preferred_label": "perisai"
+"preferred_label": "keselamatan"
+},
+{
+"id": "keyterm:StateOfBeingUnderSiege",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "terkepung"
+},
+{
+"id": "place:Lehi",
+"type": "place",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "Lehi"
 },
 {
 "id": "place:Jerusalem",
@@ -217,6 +231,13 @@
 "confidence": 0.1725,
 "match_method": "canonical",
 "preferred_label": "Yerusalem"
+},
+{
+"id": "keyterm:Shield",
+"type": "keyterm",
+"confidence": 0.1725,
+"match_method": "canonical",
+"preferred_label": "perisai"
 },
 {
 "id": "person:Israel",
@@ -233,27 +254,6 @@
 "preferred_label": "bernubuat seperti nabi"
 },
 {
-"id": "keyterm:StateOfBeingUnderSiege",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "terkepung"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "keselamatan"
-},
-{
-"id": "place:Lehi",
-"type": "place",
-"confidence": 0.1725,
-"match_method": "canonical",
-"preferred_label": "Lehi"
-},
-{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1225,
@@ -268,11 +268,11 @@
 "preferred_label": "kambing"
 },
 {
-"id": "realia:MeasuringReed",
-"type": "realia",
+"id": "flora:Flax",
+"type": "flora",
 "confidence": 0.1125,
 "match_method": "canonical",
-"preferred_label": "buluh pengukur"
+"preferred_label": "rami"
 },
 {
 "id": "realia:Hammer",
@@ -282,13 +282,6 @@
 "preferred_label": "palu"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "perisai kecil"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1125,
@@ -296,18 +289,25 @@
 "preferred_label": "anak domba"
 },
 {
+"id": "realia:SmallShield",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "perisai kecil"
+},
+{
+"id": "realia:MeasuringReed",
+"type": "realia",
+"confidence": 0.1125,
+"match_method": "canonical",
+"preferred_label": "buluh pengukur"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1125,
 "match_method": "canonical",
 "preferred_label": "kawanan domba"
-},
-{
-"id": "flora:Flax",
-"type": "flora",
-"confidence": 0.1125,
-"match_method": "canonical",
-"preferred_label": "rami"
 }
 ]
 }

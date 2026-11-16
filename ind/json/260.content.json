@@ -258,6 +258,20 @@
 "preferred_label": "Israel"
 },
 {
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "Dan"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2865,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2865,
@@ -265,11 +279,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "group:Dan",
+"type": "group",
 "confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "Dan"
+"preferred_label": "suku Dan"
 },
 {
 "id": "place:Jerusalem",
@@ -286,20 +300,6 @@
 "preferred_label": "Yehuda"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "suku Dan"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2865,
-"match_method": "canonical",
-"preferred_label": "Suku Yehuda"
-},
-{
 "id": "person:Elizur",
 "type": "person",
 "confidence": 0.2351,
@@ -307,18 +307,18 @@
 "preferred_label": "Elizur"
 },
 {
-"id": "person:Ahiezer",
-"type": "person",
-"confidence": 0.2351,
-"match_method": "canonical",
-"preferred_label": "Ahiezer"
-},
-{
 "id": "person:Ammihud",
 "type": "person",
 "confidence": 0.2351,
 "match_method": "canonical",
 "preferred_label": "Amihud"
+},
+{
+"id": "person:Ahiezer",
+"type": "person",
+"confidence": 0.2351,
+"match_method": "canonical",
+"preferred_label": "Ahiezer"
 },
 {
 "id": "person:Shedeur",
@@ -342,11 +342,11 @@
 "preferred_label": "sangkakala tanduk domba"
 },
 {
-"id": "person:Ammishaddai",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "Amisyadai"
+"preferred_label": "suku Efraim"
 },
 {
 "id": "person:Ephraim",
@@ -356,18 +356,18 @@
 "preferred_label": "Efraim"
 },
 {
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Bangsa-Bangsa Lain"
+},
+{
 "id": "group:Reuben",
 "type": "group",
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "suku Ruben"
-},
-{
-"id": "person:Nahshon",
-"type": "person",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Nahason"
 },
 {
 "id": "place:Babylon",
@@ -384,11 +384,18 @@
 "preferred_label": "Aminadab"
 },
 {
-"id": "group:Ephraim",
-"type": "group",
+"id": "person:Nahshon",
+"type": "person",
 "confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "suku Efraim"
+"preferred_label": "Nahason"
+},
+{
+"id": "person:Ammishaddai",
+"type": "person",
+"confidence": 0.2243,
+"match_method": "canonical",
+"preferred_label": "Amisyadai"
 },
 {
 "id": "person:Reuben",
@@ -396,20 +403,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "Ruben"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "Bangsa-Bangsa Lain"
-},
-{
-"id": "place:Minni",
-"type": "place",
-"confidence": 0.1676,
-"match_method": "canonical",
-"preferred_label": "Mini"
 },
 {
 "id": "deity:Merodach",
@@ -433,6 +426,13 @@
 "preferred_label": "Bel"
 },
 {
+"id": "place:Minni",
+"type": "place",
+"confidence": 0.1676,
+"match_method": "canonical",
+"preferred_label": "Mini"
+},
+{
 "id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1643,
@@ -447,81 +447,11 @@
 "preferred_label": "menugaskan"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "kemuliaan"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "diurapi"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "suku Lewi"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
 "preferred_label": "keselamatan"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Ararat"
-},
-{
-"id": "place:Shechem",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Sikhem"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "kasih"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Sukot"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "kudus"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Lewi"
-},
-{
-"id": "person:Jesse",
-"type": "person",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Isai"
 },
 {
 "id": "place:Tirzah",
@@ -531,6 +461,41 @@
 "preferred_label": "Tirza"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "kudus"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Ararat"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "suku Lewi"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "kasih"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "kemuliaan"
+},
+{
 "id": "person:Korah.3",
 "type": "person",
 "confidence": 0.1622,
@@ -538,25 +503,39 @@
 "preferred_label": "Korah"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1022,
+"id": "place:Shechem",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "pokok anggur"
+"preferred_label": "Sikhem"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "kuda"
+"preferred_label": "Sukot"
 },
 {
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.1022,
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "ular beludak"
+"preferred_label": "diurapi"
+},
+{
+"id": "person:Jesse",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Isai"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Lewi"
 },
 {
 "id": "realia:Image",
@@ -564,6 +543,13 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "patung"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "ular beludak"
 },
 {
 "id": "fauna:Snake",
@@ -580,11 +566,25 @@
 "preferred_label": "rumah"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "pokok anggur"
+},
+{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "belalang"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "kuda"
 },
 {
 "id": "realia:Wine",

@@ -130,14 +130,14 @@
 "preferred_label": "sanobar Yunani"
 },
 {
-"id": "flora:Cypress",
+"id": "flora:Fir",
 "type": "flora",
 "confidence": 0.6872,
 "match_method": "canonical",
 "preferred_label": "sanobar"
 },
 {
-"id": "flora:Fir",
+"id": "flora:Cypress",
 "type": "flora",
 "confidence": 0.6872,
 "match_method": "canonical",
@@ -179,18 +179,18 @@
 "preferred_label": "rumah"
 },
 {
-"id": "realia:Chariot",
-"type": "realia",
-"confidence": 0.265,
-"match_method": "canonical",
-"preferred_label": "kereta"
-},
-{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.265,
 "match_method": "canonical",
 "preferred_label": "kayu cendana"
+},
+{
+"id": "realia:Chariot",
+"type": "realia",
+"confidence": 0.265,
+"match_method": "canonical",
+"preferred_label": "kereta"
 },
 {
 "id": "person:David",
@@ -214,18 +214,11 @@
 "preferred_label": "murad"
 },
 {
-"id": "place:Bashan",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Basan"
-},
-{
-"id": "keyterm:Rebel",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "memberontak"
+"preferred_label": "Suku Yehuda"
 },
 {
 "id": "person:Hiram",
@@ -235,6 +228,20 @@
 "preferred_label": "Hiram"
 },
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Tirus"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.175,
@@ -242,11 +249,18 @@
 "preferred_label": "Yerusalem"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "mendatangkan kehormatan dan kemuliaan bagi diri sendiri"
+"preferred_label": "Yehuda"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Basan"
 },
 {
 "id": "person:Israel",
@@ -263,20 +277,6 @@
 "preferred_label": "kemuliaan"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Gunung Hermon"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.175,
@@ -284,11 +284,11 @@
 "preferred_label": "memahami"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Salomo"
+"preferred_label": "memberontak"
 },
 {
 "id": "deity:Angel",
@@ -298,18 +298,11 @@
 "preferred_label": "Malaikat"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "person:Solomon",
+"type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Suku Yehuda"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Tirus"
+"preferred_label": "Salomo"
 },
 {
 "id": "keyterm:Mighty",
@@ -319,13 +312,6 @@
 "preferred_label": "perkasa"
 },
 {
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Galilea"
-},
-{
 "id": "keyterm:TheWay",
 "type": "keyterm",
 "confidence": 0.175,
@@ -333,11 +319,18 @@
 "preferred_label": "Jalan Tuhan"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1261,
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "penaga"
+"preferred_label": "Galilea"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Gunung Hermon"
 },
 {
 "id": "flora:PlaneTree",
@@ -345,34 +338,6 @@
 "confidence": 0.1261,
 "match_method": "canonical",
 "preferred_label": "pohon berangan"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "lantai"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "ceracap"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "kecapi"
-},
-{
-"id": "realia:Shaker",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "kelentung"
 },
 {
 "id": "flora:Nettle",
@@ -389,67 +354,46 @@
 "preferred_label": "tiang layar"
 },
 {
+"id": "realia:Shaker",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "kelentung"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "kecapi"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "lantai"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "penaga"
+},
+{
+"id": "realia:Cymbals",
+"type": "realia",
+"confidence": 0.1261,
+"match_method": "canonical",
+"preferred_label": "ceracap"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "tukang"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "pinus Aleppo"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "kain ungu"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "pohon zaitun"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "puteri malu"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "uang"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "burung"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "rebana"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "pohon ek"
 },
 {
 "id": "flora:DatePalm",
@@ -459,6 +403,27 @@
 "preferred_label": "pohon kurma"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "uang"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "puteri malu"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "burung"
+},
+{
 "id": "fauna:Stork",
 "type": "fauna",
 "confidence": 0.115,
@@ -466,11 +431,46 @@
 "preferred_label": "burung ranggung"
 },
 {
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "pohon ek"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "pinus Aleppo"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "rebana"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "kecapi"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "pohon zaitun"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "kain ungu"
 }
 ]
 }

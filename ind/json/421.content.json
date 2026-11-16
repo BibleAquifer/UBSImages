@@ -3,9 +3,9 @@
 "content_id": "284375",
 "reference_id": 1926,
 "version": "1.0.4",
-"title": "Gergaji Mesir",
+"title": "Pekerja Mesir menggergaji kayu",
 "media_type": "Image",
-"index_reference": "gergaji mesir",
+"index_reference": "pekerja mesir menggergaji kayu",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0792_saw_egypt.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0792_saw_egypt.jpg'>link</a></p></block>",
@@ -115,13 +115,6 @@
 "preferred_label": "serut batu"
 },
 {
-"id": "person:Simon.3",
-"type": "person",
-"confidence": 0.3083,
-"match_method": "canonical",
-"preferred_label": "Simon"
-},
-{
 "id": "person:Jude",
 "type": "person",
 "confidence": 0.3083,
@@ -129,11 +122,11 @@
 "preferred_label": "Yudas"
 },
 {
-"id": "person:James.3",
+"id": "person:Simon.3",
 "type": "person",
-"confidence": 0.2917,
+"confidence": 0.3083,
 "match_method": "canonical",
-"preferred_label": "Yakobus"
+"preferred_label": "Simon"
 },
 {
 "id": "person:Hiram",
@@ -143,11 +136,39 @@
 "preferred_label": "Hiram"
 },
 {
+"id": "person:James.3",
+"type": "person",
+"confidence": 0.2917,
+"match_method": "canonical",
+"preferred_label": "Yakobus"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Amon"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "Tirus"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Yerusalem"
+},
+{
+"id": "group:Ammon",
+"type": "group",
+"confidence": 0.275,
+"match_method": "canonical",
+"preferred_label": "orang Amon"
 },
 {
 "id": "deity:Angel",
@@ -162,27 +183,6 @@
 "confidence": 0.275,
 "match_method": "canonical",
 "preferred_label": "Maria"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Tirus"
-},
-{
-"id": "group:Ammon",
-"type": "group",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "orang Amon"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.275,
-"match_method": "canonical",
-"preferred_label": "Amon"
 },
 {
 "id": "person:Joseph.3",
@@ -220,13 +220,6 @@
 "preferred_label": "gergaji"
 },
 {
-"id": "realia:Skin",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "kulit binatang"
-},
-{
 "id": "realia:Stylus.2",
 "type": "realia",
 "confidence": 0.1442,
@@ -234,18 +227,25 @@
 "preferred_label": "alat penanda"
 },
 {
-"id": "realia:BrickMold",
-"type": "realia",
-"confidence": 0.1442,
-"match_method": "canonical",
-"preferred_label": "cetakan batu bata"
-},
-{
 "id": "realia:Compass",
 "type": "realia",
 "confidence": 0.1442,
 "match_method": "canonical",
 "preferred_label": "jangka"
+},
+{
+"id": "realia:Skin",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "kulit binatang"
+},
+{
+"id": "realia:BrickMold",
+"type": "realia",
+"confidence": 0.1442,
+"match_method": "canonical",
+"preferred_label": "cetakan batu bata"
 },
 {
 "id": "realia:Chisel",
@@ -262,6 +262,27 @@
 "preferred_label": "kambing"
 },
 {
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "fondasi"
+},
+{
+"id": "realia:Axe",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "kapak"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "tongkat"
+},
+{
 "id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.1275,
@@ -269,7 +290,7 @@
 "preferred_label": "batu pahat"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1275,
 "match_method": "canonical",
@@ -283,32 +304,11 @@
 "preferred_label": "buluh pengukur"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "fondasi"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "tongkat"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "kawanan domba"
-},
-{
-"id": "realia:Axe",
-"type": "realia",
-"confidence": 0.1275,
-"match_method": "canonical",
-"preferred_label": "kapak"
 }
 ]
 }

@@ -216,11 +216,11 @@
 "preferred_label": "patam"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:EmbroideredCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "kain ungu"
+"preferred_label": "kain sulaman"
 },
 {
 "id": "realia:Linen",
@@ -230,11 +230,11 @@
 "preferred_label": "lenan"
 },
 {
-"id": "realia:EmbroideredCloth",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "kain sulaman"
+"preferred_label": "kain ungu"
 },
 {
 "id": "person:Ahisamach",
@@ -251,11 +251,46 @@
 "preferred_label": "Aholiab"
 },
 {
-"id": "keyterm:Understanding",
+"id": "person:Hiram.2",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Hiram"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Dan"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Suku Yehuda"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "suku Dan"
+},
+{
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "pengertian"
+"preferred_label": "kekuatan"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
 },
 {
 "id": "keyterm:Ability",
@@ -272,11 +307,11 @@
 "preferred_label": "kecemburuan"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "keyterm:Understanding",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Dan"
+"preferred_label": "pengertian"
 },
 {
 "id": "keyterm:Sin",
@@ -286,53 +321,11 @@
 "preferred_label": "berbuat dosa"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "person:Joshua.5",
 "type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "Yosua"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "kekuatan"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "suku Dan"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Suku Yehuda"
-},
-{
-"id": "person:Hiram.2",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Hiram"
-},
-{
-"id": "flora:BottleGourd",
-"type": "flora",
-"confidence": 0.1183,
-"match_method": "canonical",
-"preferred_label": "labu air"
 },
 {
 "id": "realia:Crown",
@@ -342,74 +335,18 @@
 "preferred_label": "mahkota"
 },
 {
+"id": "flora:BottleGourd",
+"type": "flora",
+"confidence": 0.1183,
+"match_method": "canonical",
+"preferred_label": "labu air"
+},
+{
 "id": "realia:Stylus",
 "type": "realia",
 "confidence": 0.1183,
 "match_method": "canonical",
 "preferred_label": "pena besi"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "ambang pintu"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "singa"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "pinus Aleppo"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "pohon zaitun"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "Mezbah"
-},
-{
-"id": "realia:Tablet",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "loh"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "mezbah batu"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "aras"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "mezbah Kemah Suci"
 },
 {
 "id": "realia:Cubit",
@@ -419,11 +356,18 @@
 "preferred_label": "hasta"
 },
 {
-"id": "realia:Beam",
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "aras"
+},
+{
+"id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "balok"
+"preferred_label": "loh"
 },
 {
 "id": "realia:TempleAltar",
@@ -433,11 +377,67 @@
 "preferred_label": "mezbah Bait Allah"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "Mezbah"
+},
+{
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "ambang pintu"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "mezbah batu"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "pinus Aleppo"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "mezbah Kemah Suci"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "tanduk mezbah"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "singa"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "balok"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "pohon zaitun"
 }
 ]
 }

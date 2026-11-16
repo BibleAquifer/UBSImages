@@ -144,18 +144,18 @@
 "preferred_label": "tombak"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.325,
-"match_method": "canonical",
-"preferred_label": "Yehuda"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.325,
 "match_method": "canonical",
 "preferred_label": "Suku Yehuda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.325,
+"match_method": "canonical",
+"preferred_label": "Yehuda"
 },
 {
 "id": "person:Benjamin",
@@ -165,13 +165,6 @@
 "preferred_label": "Benyamin"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Salomo"
-},
-{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.25,
@@ -179,11 +172,25 @@
 "preferred_label": "Suku Benyamin"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Salomo"
+},
+{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.2011,
 "match_method": "canonical",
 "preferred_label": "anak panah"
+},
+{
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Eliab"
 },
 {
 "id": "keyterm:SeekfindRefuge",
@@ -207,39 +214,11 @@
 "preferred_label": "Obaja"
 },
 {
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Eliab"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Amazia"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Daud"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "TUHAN"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Filistin"
+"preferred_label": "orang Filistin"
 },
 {
 "id": "place:Dan",
@@ -249,11 +228,39 @@
 "preferred_label": "Dan"
 },
 {
-"id": "person:Simeon.5",
+"id": "person:Amaziah",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Simeon"
+"preferred_label": "Amazia"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "percaya"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "suku Dan"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Daud"
 },
 {
 "id": "keyterm:Arrow",
@@ -270,11 +277,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "orang Filistin"
+"preferred_label": "Filistin"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Simeon"
 },
 {
 "id": "keyterm:Truth",
@@ -291,27 +305,6 @@
 "preferred_label": "Suku Simeon"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "suku Dan"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "percaya"
-},
-{
-"id": "realia:WeaversBeam",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "pesa tukang tenun"
-},
-{
 "id": "realia:PointOfSpear",
 "type": "realia",
 "confidence": 0.1261,
@@ -326,11 +319,11 @@
 "preferred_label": "senjata"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:WeaversBeam",
 "type": "realia",
-"confidence": 0.115,
+"confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "kereta"
+"preferred_label": "pesa tukang tenun"
 },
 {
 "id": "realia:Sword",
@@ -340,39 +333,11 @@
 "preferred_label": "pedang"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "seruit"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "kuda"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "busur"
-},
-{
-"id": "realia:SiegeRamp",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "tanggul pengepungan"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "ketopong"
+"preferred_label": "syikal"
 },
 {
 "id": "realia:WarClub",
@@ -382,18 +347,11 @@
 "preferred_label": "gada perang"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "menara"
-},
-{
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "syikal"
+"preferred_label": "busur"
 },
 {
 "id": "realia:Siege-works",
@@ -403,11 +361,53 @@
 "preferred_label": "kubu pengepungan"
 },
 {
+"id": "realia:SiegeRamp",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "tanggul pengepungan"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "menara"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "kereta"
+},
+{
+"id": "realia:Helmet",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "ketopong"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "kereta"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "kuda"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "seruit"
 }
 ]
 }

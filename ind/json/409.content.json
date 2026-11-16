@@ -254,6 +254,13 @@
 "preferred_label": "biji-bijian"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Yohanes"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2265,
@@ -261,11 +268,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2265,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1724,
 "match_method": "canonical",
-"preferred_label": "Yohanes"
+"preferred_label": "kulit"
 },
 {
 "id": "realia:Belt",
@@ -275,11 +282,11 @@
 "preferred_label": "ikat pinggang"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1724,
+"id": "place:Ashkenaz",
+"type": "place",
+"confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "kulit"
+"preferred_label": "Askenas"
 },
 {
 "id": "place:Minni",
@@ -296,25 +303,11 @@
 "preferred_label": "jenis"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "Askenas"
-},
-{
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1665,
 "match_method": "canonical",
 "preferred_label": "lebah"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "kuda"
 },
 {
 "id": "realia:Bag",
@@ -324,32 +317,18 @@
 "preferred_label": "kantong"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1665,
+"match_method": "canonical",
+"preferred_label": "kuda"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "bersumpah"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "mengusir"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "kemampuan"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "keagungan"
 },
 {
 "id": "keyterm:Appoint",
@@ -359,46 +338,11 @@
 "preferred_label": "menugaskan"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Amalek"
-},
-{
 "id": "place:East",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Timur"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Laut Teberau"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "kuasa"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ararat"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "celaka"
 },
 {
 "id": "group:Amalek",
@@ -408,11 +352,11 @@
 "preferred_label": "orang Amalek"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "kengerian"
+"preferred_label": "Laut Teberau"
 },
 {
 "id": "keyterm:Holy",
@@ -422,11 +366,39 @@
 "preferred_label": "kudus"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "mengusir"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ararat"
+},
+{
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Midian"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "kemampuan"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "celaka"
 },
 {
 "id": "place:Cush.2",
@@ -436,39 +408,32 @@
 "preferred_label": "Kus"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "pohon zaitun"
+"preferred_label": "keagungan"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1032,
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "sekoi"
+"preferred_label": "Amalek"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "pokok anggur"
+"preferred_label": "kengerian"
 },
 {
-"id": "fauna:Scorpion",
-"type": "fauna",
-"confidence": 0.1032,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "kalajengking"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "mahkota"
+"preferred_label": "kuasa"
 },
 {
 "id": "flora:Barley",
@@ -476,13 +441,6 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "jelai"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "pakaian"
 },
 {
 "id": "flora:Fig",
@@ -499,32 +457,25 @@
 "preferred_label": "teberau"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Standard",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "sangkakala tanduk domba"
+"preferred_label": "panji-panji"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "gandum"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "ketumbar"
-},
-{
-"id": "realia:Tent",
+"id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "kemah"
+"preferred_label": "mahkota"
+},
+{
+"id": "fauna:Scorpion",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "kalajengking"
 },
 {
 "id": "flora:Grass",
@@ -534,6 +485,27 @@
 "preferred_label": "rumput"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "gandum"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "tongkat"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "kemah"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1032,
@@ -541,11 +513,18 @@
 "preferred_label": "mahkota"
 },
 {
-"id": "realia:Standard",
-"type": "realia",
+"id": "flora:Coriander",
+"type": "flora",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "panji-panji"
+"preferred_label": "ketumbar"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "sekoi"
 },
 {
 "id": "flora:Sandalwood",
@@ -555,11 +534,32 @@
 "preferred_label": "kayu cendana"
 },
 {
-"id": "realia:Rod",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "pokok anggur"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "pohon zaitun"
+},
+{
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "tongkat"
+"preferred_label": "pakaian"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "sangkakala tanduk domba"
 }
 ]
 }

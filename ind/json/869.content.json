@@ -365,13 +365,6 @@
 "preferred_label": "memberkati"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Neraka"
-},
-{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.2161,
@@ -386,6 +379,20 @@
 "preferred_label": "kebaikan"
 },
 {
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Neraka"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "menebus"
+},
+{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.158,
@@ -393,11 +400,11 @@
 "preferred_label": "mencari perlindungan"
 },
 {
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "berakal budi"
+"preferred_label": "Laut Teberau"
 },
 {
 "id": "keyterm:Just",
@@ -407,11 +414,11 @@
 "preferred_label": "berlaku adil"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Yusuf"
+"preferred_label": "berakal budi"
 },
 {
 "id": "keyterm:Arrow",
@@ -428,18 +435,11 @@
 "preferred_label": "Nuh"
 },
 {
-"id": "place:RedSea",
-"type": "place",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Laut Teberau"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Libanon"
+"preferred_label": "takut"
 },
 {
 "id": "keyterm:Horn",
@@ -449,18 +449,18 @@
 "preferred_label": "tanduk"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:Joseph.10",
+"type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "takut"
+"preferred_label": "Yusuf"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "menebus"
+"preferred_label": "Libanon"
 },
 {
 "id": "realia:Throne",
@@ -470,25 +470,11 @@
 "preferred_label": "takhta"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "batu kilangan tangan"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "makhluk bersayap"
-},
-{
-"id": "fauna:Horse",
+"id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "kuda"
+"preferred_label": "naga"
 },
 {
 "id": "realia:Foundation",
@@ -505,11 +491,11 @@
 "preferred_label": "teberau"
 },
 {
-"id": "realia:House",
+"id": "realia:Trap",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "rumah"
+"preferred_label": "perangkap"
 },
 {
 "id": "fauna:Lamb",
@@ -519,18 +505,32 @@
 "preferred_label": "anak domba"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "naga"
-},
-{
-"id": "realia:Trap",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "perangkap"
+"preferred_label": "rumah"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "makhluk bersayap"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "batu kilangan tangan"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "kuda"
 }
 ]
 }

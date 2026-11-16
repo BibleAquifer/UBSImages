@@ -3,9 +3,9 @@
 "content_id": "284231",
 "reference_id": 1782,
 "version": "1.0.4",
-"title": "Kait Lingkar",
+"title": "Kait dan Jerat",
 "media_type": "Image",
-"index_reference": "kait lingkar",
+"index_reference": "kait dan jerat",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0431_hook_loops_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0431_hook_loops_en.jpg'>link</a></p></block>",
@@ -106,18 +106,18 @@
 "preferred_label": "sosok"
 },
 {
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.5471,
-"match_method": "canonical",
-"preferred_label": "carik tenda bulu kambing"
-},
-{
 "id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.5471,
 "match_method": "canonical",
 "preferred_label": "carikan lenan"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.5471,
+"match_method": "canonical",
+"preferred_label": "carik tenda bulu kambing"
 },
 {
 "id": "realia:Tent",
@@ -134,6 +134,13 @@
 "preferred_label": "tabut perjanjian"
 },
 {
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2043,
+"match_method": "canonical",
+"preferred_label": "Tabut Perjanjian"
+},
+{
 "id": "realia:Frame",
 "type": "realia",
 "confidence": 0.2043,
@@ -148,13 +155,6 @@
 "preferred_label": "kain ungu"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2043,
-"match_method": "canonical",
-"preferred_label": "Tabut Perjanjian"
-},
-{
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.1964,
@@ -162,11 +162,18 @@
 "preferred_label": "Tempat Kudus"
 },
 {
-"id": "person:David",
+"id": "person:Nathan.2",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Daud"
+"preferred_label": "Natan"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Moses",
@@ -176,11 +183,18 @@
 "preferred_label": "Musa"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "TUHAN"
+"preferred_label": "kudus"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Daud"
 },
 {
 "id": "keyterm:Witness.2",
@@ -197,18 +211,11 @@
 "preferred_label": "perjanjian"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1821,
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "kudus"
-},
-{
-"id": "person:Nathan.2",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Natan"
+"preferred_label": "aras"
 },
 {
 "id": "realia:Covering",
@@ -218,25 +225,18 @@
 "preferred_label": "tudung"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "tabir"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "aras"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "rumah"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "tabir"
 }
 ]
 }

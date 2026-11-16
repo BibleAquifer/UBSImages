@@ -3,9 +3,9 @@
 "content_id": "284277",
 "reference_id": 1828,
 "version": "1.0.4",
-"title": "Lantai Pengirikan",
+"title": "Hewan menarik papan perontok di lantai pengirikan",
 "media_type": "Image",
-"index_reference": "lantai pengirikan",
+"index_reference": "hewan menarik papan perontok di lantai pengirikan",
 "language": "ind",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0802_threshing_floor.jpg'>link</a></p></block>",
@@ -119,13 +119,6 @@
 "preferred_label": "papan pengirik"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.36,
-"match_method": "canonical",
-"preferred_label": "lembu sapi"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.36,
@@ -133,11 +126,32 @@
 "preferred_label": "gandum"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.36,
+"match_method": "canonical",
+"preferred_label": "lembu sapi"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "TUHAN"
+},
+{
+"id": "keyterm:CleanOut",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "membersihkan sampai bersih"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "persembahan"
 },
 {
 "id": "person:David",
@@ -154,20 +168,6 @@
 "preferred_label": "Ornan"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "persembahan"
-},
-{
-"id": "keyterm:CleanOut",
-"type": "keyterm",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "membersihkan sampai bersih"
-},
-{
 "id": "realia:WinnowingFork",
 "type": "realia",
 "confidence": 0.2133,
@@ -182,13 +182,6 @@
 "preferred_label": "tempat pengirikan"
 },
 {
-"id": "realia:Wagon",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "kereta"
-},
-{
 "id": "realia:Barn",
 "type": "realia",
 "confidence": 0.2,
@@ -196,11 +189,11 @@
 "preferred_label": "lumbung"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1933,
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Gideon"
+"preferred_label": "kereta"
 },
 {
 "id": "place:BrookOfEgypt",
@@ -210,18 +203,25 @@
 "preferred_label": "Sungai Mesir"
 },
 {
-"id": "keyterm:Partake",
-"type": "keyterm",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "mendapat bagian"
-},
-{
 "id": "place:Ophrah.2",
 "type": "place",
 "confidence": 0.1933,
 "match_method": "canonical",
 "preferred_label": "Ofra"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Gideon"
+},
+{
+"id": "keyterm:Partake",
+"type": "keyterm",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "mendapat bagian"
 },
 {
 "id": "group:Abiezer",
@@ -245,6 +245,27 @@
 "preferred_label": "Abiezer"
 },
 {
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Kitab Suci"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Sungai Efrat"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "wajib"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.18,
@@ -252,11 +273,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "keyterm:Scripture",
+"id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Kitab Suci"
+"preferred_label": "hukum"
 },
 {
 "id": "person:Israel",
@@ -266,11 +287,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Euphrates",
-"type": "place",
+"id": "keyterm:Hope",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Sungai Efrat"
+"preferred_label": "pengharapan"
 },
 {
 "id": "deity:Angel",
@@ -287,25 +308,11 @@
 "preferred_label": "Midian"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "flora:Cumin",
+"type": "flora",
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "hukum"
-},
-{
-"id": "keyterm:Hope",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "pengharapan"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "wajib"
+"preferred_label": "jintan putih"
 },
 {
 "id": "flora:NutmegFlower",
@@ -315,11 +322,32 @@
 "preferred_label": "jintan hitam"
 },
 {
-"id": "flora:Cumin",
+"id": "flora:Barley",
 "type": "flora",
-"confidence": 0.1333,
+"confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "jintan putih"
+"preferred_label": "jelai"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "efa"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "tongkat"
+},
+{
+"id": "flora:Terebinth",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "tarbantin"
 },
 {
 "id": "realia:Winepress",
@@ -329,7 +357,7 @@
 "preferred_label": "tempat pemerasan anggur"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
@@ -341,34 +369,6 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "pohon zaitun"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "tongkat"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "jelai"
-},
-{
-"id": "flora:Terebinth",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "tarbantin"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "efa"
 }
 ]
 }

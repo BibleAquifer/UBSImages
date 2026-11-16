@@ -248,11 +248,25 @@
 "preferred_label": "biji-bijian"
 },
 {
+"id": "keyterm:LandFlowingOfMilkAndHoney",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "negeri yang berlimpah-limpah susu dan madunya"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.175,
 "match_method": "canonical",
 "preferred_label": "persembahan"
+},
+{
+"id": "place:Kadesh-barnea",
+"type": "place",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Kadesh-Barnea"
 },
 {
 "id": "place:Paran",
@@ -262,18 +276,32 @@
 "preferred_label": "Paran"
 },
 {
-"id": "keyterm:LandFlowingOfMilkAndHoney",
-"type": "keyterm",
-"confidence": 0.175,
+"id": "realia:Must",
+"type": "realia",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "negeri yang berlimpah-limpah susu dan madunya"
+"preferred_label": "anggur baru"
 },
 {
-"id": "place:Kadesh-barnea",
-"type": "place",
-"confidence": 0.175,
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "Kadesh-Barnea"
+"preferred_label": "rumput"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "rumah"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "minyak zaitun"
 },
 {
 "id": "realia:AnointingOil",
@@ -290,39 +318,11 @@
 "preferred_label": "pohon zaitun"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "minyak zaitun"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1746,
 "match_method": "canonical",
 "preferred_label": "bagal"
-},
-{
-"id": "realia:Must",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "anggur baru"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "rumah"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "rumput"
 },
 {
 "id": "keyterm:Possess",
@@ -332,25 +332,18 @@
 "preferred_label": "memberikan milik"
 },
 {
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Babel"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Musa"
-},
-{
-"id": "person:Cain",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Kain"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "penajisan"
 },
 {
 "id": "keyterm:Dispossess",
@@ -360,46 +353,18 @@
 "preferred_label": "mengusir"
 },
 {
+"id": "person:Cain",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Kain"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Harun"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "keamanan"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "kemuliaan"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Libanon"
-},
-{
-"id": "keyterm:Curse",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "mengutuk"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Babel"
 },
 {
 "id": "keyterm:Love",
@@ -409,6 +374,41 @@
 "preferred_label": "kasih"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "kemuliaan"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "keamanan"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "penajisan"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "mengutuk"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Libanon"
+},
+{
 "id": "flora:Bean",
 "type": "flora",
 "confidence": 0.115,
@@ -416,18 +416,18 @@
 "preferred_label": "kacang babi"
 },
 {
-"id": "flora:Lentil",
-"type": "flora",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "kacang merah kecil"
-},
-{
 "id": "flora:Millet",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "sekoi"
+},
+{
+"id": "flora:Lentil",
+"type": "flora",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "kacang merah kecil"
 },
 {
 "id": "flora:Barley",

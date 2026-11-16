@@ -193,18 +193,18 @@
 "preferred_label": "ara"
 },
 {
-"id": "realia:Jinglet",
-"type": "realia",
-"confidence": 0.312,
-"match_method": "canonical",
-"preferred_label": "kelentingan"
-},
-{
 "id": "realia:Robe",
 "type": "realia",
 "confidence": 0.312,
 "match_method": "canonical",
 "preferred_label": "jubah"
+},
+{
+"id": "realia:Jinglet",
+"type": "realia",
+"confidence": 0.312,
+"match_method": "canonical",
+"preferred_label": "kelentingan"
 },
 {
 "id": "flora:Barley",
@@ -221,11 +221,11 @@
 "preferred_label": "pohon zaitun"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "kain ungu"
+"preferred_label": "hasta"
 },
 {
 "id": "place:EshcolValley",
@@ -235,18 +235,11 @@
 "preferred_label": "Lembah Eskol"
 },
 {
-"id": "realia:Veil",
-"type": "realia",
+"id": "place:Migron",
+"type": "place",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "kerudung"
-},
-{
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "hasta"
+"preferred_label": "Migron"
 },
 {
 "id": "flora:Coriander",
@@ -256,11 +249,25 @@
 "preferred_label": "ketumbar"
 },
 {
-"id": "place:Migron",
-"type": "place",
+"id": "realia:PurpleCloth",
+"type": "realia",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Migron"
+"preferred_label": "kain ungu"
+},
+{
+"id": "realia:Veil",
+"type": "realia",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "kerudung"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "TUHAN"
 },
 {
 "id": "person:Moses",
@@ -270,11 +277,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "TUHAN"
+"preferred_label": "Saul"
 },
 {
 "id": "place:Gibeah.2",
@@ -305,11 +312,11 @@
 "preferred_label": "tahir"
 },
 {
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.168,
+"id": "flora:Henna",
+"type": "flora",
+"confidence": 0.116,
 "match_method": "canonical",
-"preferred_label": "Saul"
+"preferred_label": "pacar"
 },
 {
 "id": "flora:Walnut",
@@ -319,60 +326,11 @@
 "preferred_label": "kenari"
 },
 {
-"id": "flora:Henna",
-"type": "flora",
-"confidence": 0.116,
-"match_method": "canonical",
-"preferred_label": "pacar"
-},
-{
 "id": "flora:Mandrake",
 "type": "flora",
 "confidence": 0.116,
 "match_method": "canonical",
 "preferred_label": "dudaim"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "Minyak urapan"
-},
-{
-"id": "realia:Spindle",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "pemintal"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "minyak zaitun"
-},
-{
-"id": "realia:Thread",
-"type": "realia",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "benang"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "bagal"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.108,
-"match_method": "canonical",
-"preferred_label": "pohon kurma"
 },
 {
 "id": "realia:Must",
@@ -382,6 +340,27 @@
 "preferred_label": "anggur baru"
 },
 {
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "pohon kurma"
+},
+{
+"id": "realia:Spindle",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "pemintal"
+},
+{
+"id": "realia:Thread",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "benang"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.108,
@@ -389,11 +368,11 @@
 "preferred_label": "gandum"
 },
 {
-"id": "flora:Nard",
-"type": "flora",
+"id": "realia:Wine",
+"type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "narwastu"
+"preferred_label": "anggur"
 },
 {
 "id": "realia:House",
@@ -403,11 +382,32 @@
 "preferred_label": "rumah"
 },
 {
-"id": "realia:Wine",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "anggur"
+"preferred_label": "minyak zaitun"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "Minyak urapan"
+},
+{
+"id": "flora:Nard",
+"type": "flora",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "narwastu"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "bagal"
 }
 ]
 }
