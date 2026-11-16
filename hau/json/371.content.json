@@ -3,9 +3,9 @@
 "content_id": "289923",
 "reference_id": 1876,
 "version": "1.0.4",
-"title": "Kwan-kwan gindi",
+"title": "Reed Giant",
 "media_type": "Image",
-"index_reference": "kwankwan gindi",
+"index_reference": "reed giant",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0753_reed_giant.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0753_reed_giant.jpg'>link</a></p></block>",
@@ -242,18 +242,18 @@
 "preferred_label": "UBANGIJI"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.2963,
-"match_method": "canonical",
-"preferred_label": "Sanda"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2963,
 "match_method": "canonical",
 "preferred_label": "Gida"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.2963,
+"match_method": "canonical",
+"preferred_label": "Sanda"
 },
 {
 "id": "realia:MeasuringRod",
@@ -277,6 +277,20 @@
 "preferred_label": "Kamu"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Yohanna"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Isra’ila"
+},
+{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.2281,
@@ -291,39 +305,11 @@
 "preferred_label": "Durƙusa har ƙasa"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Isra’ila"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Yohanna"
-},
-{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
 "preferred_label": "Ruwan tsami"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Ƙofar fada"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Haikali"
 },
 {
 "id": "realia:Foundation",
@@ -340,60 +326,18 @@
 "preferred_label": "Ciyawa"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1641,
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Yesu"
+"preferred_label": "Ƙofar fada"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1641,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Ashera"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kogin Yuferites"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Gaskiya"
-},
-{
-"id": "place:Nile",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Kogin Nilu"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Wani Mala’ika"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Iliya"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Yahudawa"
+"preferred_label": "Haikali"
 },
 {
 "id": "keyterm:Judgment",
@@ -403,6 +347,41 @@
 "preferred_label": "Hukunci"
 },
 {
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kogin Yuferites"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Yahudawa"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Iliya"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Kogin Nilu"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Gaskiya"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.1641,
@@ -410,46 +389,25 @@
 "preferred_label": "Kush"
 },
 {
-"id": "realia:Pen",
-"type": "realia",
-"confidence": 0.1103,
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Alƙalami"
+"preferred_label": "Ashera"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1103,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Sarƙaƙƙiya"
+"preferred_label": "Wani Mala’ika"
 },
 {
-"id": "flora:LotusPlants",
-"type": "flora",
-"confidence": 0.1103,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Lotus"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "Ƙirya"
-},
-{
-"id": "realia:Ink",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "Inki"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "Rawani"
+"preferred_label": "Yesu"
 },
 {
 "id": "flora:Cattails",
@@ -459,6 +417,20 @@
 "preferred_label": "Kyauro"
 },
 {
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Rawani"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Sarƙaƙƙiya"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1103,
@@ -466,18 +438,32 @@
 "preferred_label": "Rawani"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1041,
+"id": "realia:Pen",
+"type": "realia",
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "Itacen ƙaya"
+"preferred_label": "Alƙalami"
 },
 {
-"id": "flora:Papyrus",
+"id": "flora:LotusPlants",
 "type": "flora",
-"confidence": 0.1041,
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "Kyauro"
+"preferred_label": "Lotus"
+},
+{
+"id": "realia:Ink",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Inki"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "Ƙirya"
 },
 {
 "id": "fauna:Jackal",
@@ -487,13 +473,6 @@
 "preferred_label": "Dila"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Lilin"
-},
-{
 "id": "realia:Thread",
 "type": "realia",
 "confidence": 0.1041,
@@ -501,25 +480,11 @@
 "preferred_label": "Zare"
 },
 {
-"id": "realia:SacredPole",
+"id": "realia:Room",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Ginshiƙin Ashera"
-},
-{
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Fāɗin tafin hannu"
-},
-{
-"id": "realia:CityWall",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Katangar birni"
+"preferred_label": "Ɗaki"
 },
 {
 "id": "realia:Lamp",
@@ -529,11 +494,46 @@
 "preferred_label": "Fitila"
 },
 {
-"id": "realia:Room",
+"id": "realia:Handbreadth",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Ɗaki"
+"preferred_label": "Fāɗin tafin hannu"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Lilin"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Kyauro"
+},
+{
+"id": "realia:SacredPole",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Ginshiƙin Ashera"
+},
+{
+"id": "realia:CityWall",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Katangar birni"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Itacen ƙaya"
 }
 ]
 }

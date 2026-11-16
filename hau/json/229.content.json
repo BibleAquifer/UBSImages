@@ -3,9 +3,9 @@
 "content_id": "289781",
 "reference_id": 1734,
 "version": "1.0.4",
-"title": "Laujen yankan hatsi",
+"title": "Mutum yana yankan hatsi da lauje",
 "media_type": "Image",
-"index_reference": "laujen yankan hatsi",
+"index_reference": "mutum yana yankan hatsi da lauje",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg'>link</a></p></block>",
@@ -152,6 +152,13 @@
 "preferred_label": "Garke"
 },
 {
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "Ɗan rago"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1929,
@@ -159,11 +166,11 @@
 "preferred_label": "Haikali"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1929,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Ɗan rago"
+"preferred_label": "Ƙabilar Yahuda"
 },
 {
 "id": "deity:Lord",
@@ -173,25 +180,18 @@
 "preferred_label": "UBANGIJI"
 },
 {
-"id": "keyterm:Ability",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Babilon"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Fasaha"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Nuhu"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Iko"
+"preferred_label": "Sama"
 },
 {
 "id": "person:Judah.4",
@@ -201,18 +201,11 @@
 "preferred_label": "Yahuda"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Babilon"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Ƙabilar Yahuda"
+"preferred_label": "Nuhu"
 },
 {
 "id": "keyterm:Love",
@@ -229,13 +222,6 @@
 "preferred_label": "Tursasa Bauta"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Sama"
-},
-{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1765,
@@ -243,11 +229,18 @@
 "preferred_label": "Shefela"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "wurin matsin inabi"
+"preferred_label": "Fasaha"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Iko"
 },
 {
 "id": "realia:Crown.2",
@@ -257,11 +250,11 @@
 "preferred_label": "Rawani"
 },
 {
-"id": "realia:Pit",
+"id": "realia:Winepress",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Rami"
+"preferred_label": "wurin matsin inabi"
 },
 {
 "id": "flora:Barley",
@@ -278,13 +271,6 @@
 "preferred_label": "Hatsi"
 },
 {
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Hasumiya"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1165,
@@ -297,6 +283,20 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "Rawani"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Hasumiya"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Rami"
 }
 ]
 }

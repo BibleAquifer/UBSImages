@@ -3,9 +3,9 @@
 "content_id": "289913",
 "reference_id": 1866,
 "version": "1.0.4",
-"title": "Raƙumi da dabino",
+"title": "Raƙumi a ƙarƙashin dabino",
 "media_type": "Image",
-"index_reference": "raƙumi da dabino",
+"index_reference": "raƙumi a ƙarƙashin dabino",
 "language": "hau",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0101_camel_palm.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0101_camel_palm.jpg'>link</a></p></block>",
@@ -336,18 +336,18 @@
 "preferred_label": "Jaki"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.389,
-"match_method": "canonical",
-"preferred_label": "Akuya"
-},
-{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.389,
 "match_method": "canonical",
 "preferred_label": "Garke"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.389,
+"match_method": "canonical",
+"preferred_label": "Akuya"
 },
 {
 "id": "fauna:Bull",
@@ -357,25 +357,18 @@
 "preferred_label": "Shanu"
 },
 {
-"id": "place:Midian",
-"type": "place",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "Midiyan"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "Albarkata"
-},
-{
 "id": "person:Rebekah",
 "type": "person",
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "Rebeka"
+},
+{
+"id": "place:Midian",
+"type": "place",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "Midiyan"
 },
 {
 "id": "person:Isaac",
@@ -385,25 +378,18 @@
 "preferred_label": "Ishaku"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "Albarkata"
+},
+{
 "id": "realia:Earring",
 "type": "realia",
 "confidence": 0.225,
 "match_method": "canonical",
 "preferred_label": "Ɗan kunne"
-},
-{
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Ƙazantarwa"
-},
-{
-"id": "group:Ishmael",
-"type": "group",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Ishmayelawa"
 },
 {
 "id": "place:Sheba.2",
@@ -413,6 +399,20 @@
 "preferred_label": "Sheba"
 },
 {
+"id": "group:Ishmael",
+"type": "group",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "Ishmayelawa"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "Ƙazantarwa"
+},
+{
 "id": "realia:ClayJar",
 "type": "realia",
 "confidence": 0.221,
@@ -420,11 +420,25 @@
 "preferred_label": "Tulu"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "Solomon"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.218,
 "match_method": "canonical",
 "preferred_label": "Urushalima"
+},
+{
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.218,
+"match_method": "canonical",
+"preferred_label": "Amalek"
 },
 {
 "id": "person:Ishmael",
@@ -441,67 +455,11 @@
 "preferred_label": "Dawuda"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "Amalek"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.218,
-"match_method": "canonical",
-"preferred_label": "Solomon"
-},
-{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.217,
 "match_method": "canonical",
 "preferred_label": "Tenti"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Gileyad"
-},
-{
-"id": "person:Jehdeiah.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Yedehiya"
-},
-{
-"id": "keyterm:Proscribe.2",
-"type": "keyterm",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Keɓewa don hallaka"
-},
-{
-"id": "group:Meronothite",
-"type": "group",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Meronotawa"
-},
-{
-"id": "person:Ben-hadad.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Ben-Hadad"
-},
-{
-"id": "person:Nahor.2",
-"type": "person",
-"confidence": 0.163,
-"match_method": "canonical",
-"preferred_label": "Nahor"
 },
 {
 "id": "person:Obil",
@@ -511,11 +469,32 @@
 "preferred_label": "Obil"
 },
 {
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Keɓewa don hallaka"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Gileyad"
+},
+{
 "id": "place:Ephah",
 "type": "place",
 "confidence": 0.163,
 "match_method": "canonical",
 "preferred_label": "Efa"
+},
+{
+"id": "person:Nahor.2",
+"type": "person",
+"confidence": 0.163,
+"match_method": "canonical",
+"preferred_label": "Nahor"
 },
 {
 "id": "deity:Teraphim",
@@ -525,144 +504,25 @@
 "preferred_label": "Terafim"
 },
 {
-"id": "person:Gideon",
+"id": "person:Ben-hadad.2",
 "type": "person",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Gideyon"
+"preferred_label": "Ben-Hadad"
 },
 {
-"id": "place:East",
-"type": "place",
-"confidence": 0.159,
+"id": "person:Jehdeiah.2",
+"type": "person",
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Gabas"
+"preferred_label": "Yedehiya"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ƙauna mai aminci"
-},
-{
-"id": "group:Amalek",
+"id": "group:Meronothite",
 "type": "group",
-"confidence": 0.159,
+"confidence": 0.163,
 "match_method": "canonical",
-"preferred_label": "Amalekawa"
-},
-{
-"id": "person:Rachel",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Rahila"
-},
-{
-"id": "person:Achish",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Akish"
-},
-{
-"id": "person:Esau",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Isuwa"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Isra’ila"
-},
-{
-"id": "place:Gerar",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Gerar"
-},
-{
-"id": "place:Mesopotamia",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Mesofotamiya"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Negeb"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Kaldiyawa"
-},
-{
-"id": "person:Zebah",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Zeba"
-},
-{
-"id": "keyterm:Blow",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Annoba"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Masar"
-},
-{
-"id": "person:Hazael",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Hazayel"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "saƙo"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Kaldiyawa"
-},
-{
-"id": "person:Laban",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Laban"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "Ayuba"
+"preferred_label": "Meronotawa"
 },
 {
 "id": "person:QueenOfSheba",
@@ -672,6 +532,69 @@
 "preferred_label": "Sarauniyar Sheba"
 },
 {
+"id": "place:Gerar",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Gerar"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "saƙo"
+},
+{
+"id": "person:Laban",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Laban"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Kaldiyawa"
+},
+{
+"id": "person:Rachel",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Rahila"
+},
+{
+"id": "person:Zebah",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Zeba"
+},
+{
+"id": "place:Ammon",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Ammon"
+},
+{
+"id": "place:Mesopotamia",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Mesofotamiya"
+},
+{
+"id": "place:East",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Gabas"
+},
+{
 "id": "person:Zalmunna",
 "type": "person",
 "confidence": 0.159,
@@ -679,11 +602,11 @@
 "preferred_label": "Zalmunna"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
+"id": "person:Esau",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Hadaya"
+"preferred_label": "Isuwa"
 },
 {
 "id": "place:Damascus",
@@ -693,6 +616,62 @@
 "preferred_label": "Damaskus"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Masar"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Kaldiyawa"
+},
+{
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Negeb"
+},
+{
+"id": "keyterm:Blow",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Annoba"
+},
+{
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Amalekawa"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Ƙauna mai aminci"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Hadaya"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Isra’ila"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.159,
@@ -700,11 +679,32 @@
 "preferred_label": "Ibrahim"
 },
 {
-"id": "place:Ammon",
-"type": "place",
+"id": "person:Gideon",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Ammon"
+"preferred_label": "Gideyon"
+},
+{
+"id": "person:Achish",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Akish"
+},
+{
+"id": "person:Hazael",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Hazayel"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "Ayuba"
 },
 {
 "id": "fauna:Horse",
@@ -721,6 +721,13 @@
 "preferred_label": "Fāra"
 },
 {
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "Gida"
+},
+{
 "id": "flora:BalsamTree",
 "type": "flora",
 "confidence": 0.158,
@@ -728,11 +735,11 @@
 "preferred_label": "Itacen Balsam"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.158,
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "Gida"
+"preferred_label": "Likwidamba"
 },
 {
 "id": "fauna:Hare",
@@ -742,11 +749,11 @@
 "preferred_label": "Zomo"
 },
 {
-"id": "flora:Liquidambar",
+"id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.103,
 "match_method": "canonical",
-"preferred_label": "Likwidamba"
+"preferred_label": "Ƙaro"
 },
 {
 "id": "realia:AHalfShekel",
@@ -770,74 +777,11 @@
 "preferred_label": "Tufafin shunayya"
 },
 {
-"id": "flora:GumTragacanth",
-"type": "flora",
-"confidence": 0.103,
-"match_method": "canonical",
-"preferred_label": "Ƙaro"
-},
-{
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Alfadari"
-},
-{
-"id": "realia:LinenStrips",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Zannuwan lilin"
-},
-{
-"id": "flora:Frankincense",
-"type": "flora",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Lubban"
-},
-{
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Labulen gashin akuya"
-},
-{
-"id": "fauna:Hyrax",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Rema"
-},
-{
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Takobi"
-},
-{
-"id": "fauna:Viper",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Kububuwa"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "Ɗan rago"
-},
-{
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.099,
-"match_method": "canonical",
-"preferred_label": "Dodanniya"
 },
 {
 "id": "realia:HouseholdIdols",
@@ -847,6 +791,20 @@
 "preferred_label": "Gumakan gida"
 },
 {
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Labulen gashin akuya"
+},
+{
+"id": "flora:Frankincense",
+"type": "flora",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Lubban"
+},
+{
 "id": "fauna:Lion",
 "type": "fauna",
 "confidence": 0.099,
@@ -854,11 +812,53 @@
 "preferred_label": "Zaki"
 },
 {
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Alfadari"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Takobi"
+},
+{
+"id": "fauna:Dragon",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Dodanniya"
+},
+{
+"id": "fauna:Viper",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Kububuwa"
+},
+{
+"id": "realia:LinenStrips",
+"type": "realia",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Zannuwan lilin"
+},
+{
 "id": "realia:ToSaddle",
 "type": "realia",
 "confidence": 0.099,
 "match_method": "canonical",
 "preferred_label": "Sawa sirdi"
+},
+{
+"id": "fauna:Hyrax",
+"type": "fauna",
+"confidence": 0.099,
+"match_method": "canonical",
+"preferred_label": "Rema"
 },
 {
 "id": "realia:Money",

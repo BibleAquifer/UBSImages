@@ -260,6 +260,13 @@
 "preferred_label": "Hatsi"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2257,
+"match_method": "canonical",
+"preferred_label": "Yohanna"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2257,
@@ -267,11 +274,11 @@
 "preferred_label": "Musa"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2257,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Yohanna"
+"preferred_label": "Fata"
 },
 {
 "id": "realia:Belt",
@@ -281,11 +288,11 @@
 "preferred_label": "Ɗamara"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1714,
+"id": "place:Ashkenaz",
+"type": "place",
+"confidence": 0.1686,
 "match_method": "canonical",
-"preferred_label": "Fata"
+"preferred_label": "Ashkenaz"
 },
 {
 "id": "place:Minni",
@@ -302,25 +309,11 @@
 "preferred_label": "Iri"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
-"confidence": 0.1686,
-"match_method": "canonical",
-"preferred_label": "Ashkenaz"
-},
-{
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1657,
 "match_method": "canonical",
 "preferred_label": "Kudan zuma"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1657,
-"match_method": "canonical",
-"preferred_label": "Doki"
 },
 {
 "id": "realia:Bag",
@@ -330,32 +323,18 @@
 "preferred_label": "Jaka"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1657,
+"match_method": "canonical",
+"preferred_label": "Doki"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Rantsuwa"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Ƙwace mallaka"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Fasaha"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Ɗaukaka"
 },
 {
 "id": "keyterm:Appoint",
@@ -365,46 +344,11 @@
 "preferred_label": "Naɗa"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Amalek"
-},
-{
 "id": "place:East",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Gabas"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Jan Teku"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Iko"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Ararat"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.1629,
-"match_method": "canonical",
-"preferred_label": "Kaito"
 },
 {
 "id": "group:Amalek",
@@ -414,11 +358,11 @@
 "preferred_label": "Amalekawa"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
-"preferred_label": "Razana"
+"preferred_label": "Jan Teku"
 },
 {
 "id": "keyterm:Holy",
@@ -426,6 +370,20 @@
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Mai Tsarki"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ƙwace mallaka"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ararat"
 },
 {
 "id": "place:Midian",
@@ -442,11 +400,53 @@
 "preferred_label": "Tsoro"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Fasaha"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Kaito"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.1629,
 "match_method": "canonical",
 "preferred_label": "Kush"
+},
+{
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Ɗaukaka"
+},
+{
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Amalek"
+},
+{
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Razana"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1629,
+"match_method": "canonical",
+"preferred_label": "Iko"
 },
 {
 "id": "flora:Caper",
@@ -456,60 +456,11 @@
 "preferred_label": "Kafur"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Itacen zaitun"
-},
-{
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Dawa"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Itacen inabi"
-},
-{
-"id": "flora:Almond",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Almon"
-},
-{
-"id": "fauna:Scorpion",
-"type": "fauna",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Kunama"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Rawani"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
 "preferred_label": "Sha’ir"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Tufafi"
 },
 {
 "id": "flora:Fig",
@@ -526,32 +477,32 @@
 "preferred_label": "Kyauro"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Standard",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Ƙahon rago"
+"preferred_label": "Tuta"
 },
 {
-"id": "flora:Wheat",
+"id": "flora:Almond",
 "type": "flora",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Alkama"
+"preferred_label": "Almon"
 },
 {
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1029,
-"match_method": "canonical",
-"preferred_label": "Koriander"
-},
-{
-"id": "realia:Tent",
+"id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Tenti"
+"preferred_label": "Rawani"
+},
+{
+"id": "fauna:Scorpion",
+"type": "fauna",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Kunama"
 },
 {
 "id": "flora:Grass",
@@ -561,11 +512,25 @@
 "preferred_label": "Ciyawa"
 },
 {
-"id": "realia:House",
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Alkama"
+},
+{
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Gida"
+"preferred_label": "Sanda"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Tenti"
 },
 {
 "id": "realia:Crown",
@@ -575,11 +540,25 @@
 "preferred_label": "Rawani"
 },
 {
-"id": "realia:Standard",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Tuta"
+"preferred_label": "Gida"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Koriander"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Dawa"
 },
 {
 "id": "flora:Sandalwood",
@@ -589,11 +568,32 @@
 "preferred_label": "Almug"
 },
 {
-"id": "realia:Rod",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Itacen inabi"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Itacen zaitun"
+},
+{
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1029,
 "match_method": "canonical",
-"preferred_label": "Sanda"
+"preferred_label": "Tufafi"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1029,
+"match_method": "canonical",
+"preferred_label": "Ƙahon rago"
 }
 ]
 }
