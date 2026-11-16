@@ -216,11 +216,11 @@
 "preferred_label": "lámina"
 },
 {
-"id": "realia:PurpleCloth",
+"id": "realia:EmbroideredCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "tela de púrpura"
+"preferred_label": "tela bordada"
 },
 {
 "id": "realia:Linen",
@@ -230,11 +230,11 @@
 "preferred_label": "lino"
 },
 {
-"id": "realia:EmbroideredCloth",
+"id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1791,
 "match_method": "canonical",
-"preferred_label": "tela bordada"
+"preferred_label": "tela de púrpura"
 },
 {
 "id": "person:Ahisamach",
@@ -251,11 +251,46 @@
 "preferred_label": "Aholiab"
 },
 {
-"id": "keyterm:Understanding",
+"id": "person:Hiram.2",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Hiram"
+},
+{
+"id": "place:Dan",
+"type": "place",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Dan"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "tribu de Dan"
+},
+{
+"id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "entendimiento"
+"preferred_label": "fuerza"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1696,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "keyterm:Ability",
@@ -272,11 +307,11 @@
 "preferred_label": "celo"
 },
 {
-"id": "place:Dan",
-"type": "place",
+"id": "keyterm:Understanding",
+"type": "keyterm",
 "confidence": 0.1696,
 "match_method": "canonical",
-"preferred_label": "Dan"
+"preferred_label": "entendimiento"
 },
 {
 "id": "keyterm:Sin",
@@ -286,53 +321,11 @@
 "preferred_label": "pecar"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
 "id": "person:Joshua.5",
 "type": "person",
 "confidence": 0.1696,
 "match_method": "canonical",
 "preferred_label": "Josué"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "fuerza"
-},
-{
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "tribu de Dan"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "tribu de Judá"
-},
-{
-"id": "person:Hiram.2",
-"type": "person",
-"confidence": 0.1696,
-"match_method": "canonical",
-"preferred_label": "Hiram"
-},
-{
-"id": "flora:BottleGourd",
-"type": "flora",
-"confidence": 0.1183,
-"match_method": "canonical",
-"preferred_label": "calabaza vinatera"
 },
 {
 "id": "realia:Crown",
@@ -342,74 +335,18 @@
 "preferred_label": "corona"
 },
 {
+"id": "flora:BottleGourd",
+"type": "flora",
+"confidence": 0.1183,
+"match_method": "canonical",
+"preferred_label": "calabaza vinatera"
+},
+{
 "id": "realia:Stylus",
 "type": "realia",
 "confidence": 0.1183,
 "match_method": "canonical",
 "preferred_label": "cincel de hierro"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "umbral"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "león"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "pino carrasco"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "olivo"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "altar"
-},
-{
-"id": "realia:Tablet",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "tabla"
-},
-{
-"id": "realia:StoneAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "altar de piedra"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "cedro"
-},
-{
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1096,
-"match_method": "canonical",
-"preferred_label": "altar del tabernáculo"
 },
 {
 "id": "realia:Cubit",
@@ -419,11 +356,18 @@
 "preferred_label": "codo"
 },
 {
-"id": "realia:Beam",
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "cedro"
+},
+{
+"id": "realia:Tablet",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
-"preferred_label": "viga"
+"preferred_label": "tabla"
 },
 {
 "id": "realia:TempleAltar",
@@ -433,11 +377,67 @@
 "preferred_label": "altar del templo"
 },
 {
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "altar"
+},
+{
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "umbral"
+},
+{
+"id": "realia:StoneAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "altar de piedra"
+},
+{
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "pino carrasco"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "altar del tabernáculo"
+},
+{
 "id": "realia:HornsOfAltar",
 "type": "realia",
 "confidence": 0.1096,
 "match_method": "canonical",
 "preferred_label": "cuernos del altar"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "león"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "viga"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1096,
+"match_method": "canonical",
+"preferred_label": "olivo"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "287812",
 "reference_id": 1631,
 "version": "1.0.4",
-"title": "Almendro",
+"title": "Almendro en flor",
 "media_type": "Image",
-"index_reference": "almendro",
+"index_reference": "almendro en flor",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0022_almondtree.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0022_almondtree.jpg'>link</a></p></block>",
@@ -70,18 +70,18 @@
 "preferred_label": "almendro"
 },
 {
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.465,
-"match_method": "canonical",
-"preferred_label": "candelabro"
-},
-{
 "id": "realia:Lampstand",
 "type": "realia",
 "confidence": 0.465,
 "match_method": "canonical",
 "preferred_label": "candelabro del tabernáculo"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.465,
+"match_method": "canonical",
+"preferred_label": "candelabro"
 },
 {
 "id": "person:Israel",
@@ -112,13 +112,6 @@
 "preferred_label": "Jeremías"
 },
 {
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "palabra del Señor"
-},
-{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.2063,
@@ -126,11 +119,11 @@
 "preferred_label": "temor"
 },
 {
-"id": "flora:Ladanum",
-"type": "flora",
-"confidence": 0.1713,
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "jara"
+"preferred_label": "palabra del Señor"
 },
 {
 "id": "flora:PlaneTree",
@@ -140,11 +133,18 @@
 "preferred_label": "plátano oriental"
 },
 {
-"id": "flora:GumTragacanth",
+"id": "flora:PistachioNuts",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "goma tragacanto"
+"preferred_label": "pistachos"
+},
+{
+"id": "flora:Ladanum",
+"type": "flora",
+"confidence": 0.1713,
+"match_method": "canonical",
+"preferred_label": "jara"
 },
 {
 "id": "flora:Caper",
@@ -154,18 +154,11 @@
 "preferred_label": "alcaparra"
 },
 {
-"id": "flora:PistachioNuts",
+"id": "flora:GumTragacanth",
 "type": "flora",
 "confidence": 0.1713,
 "match_method": "canonical",
-"preferred_label": "pistachos"
-},
-{
-"id": "flora:Poplar",
-"type": "flora",
-"confidence": 0.1463,
-"match_method": "canonical",
-"preferred_label": "álamo"
+"preferred_label": "goma tragacanto"
 },
 {
 "id": "flora:Terebinth",
@@ -175,11 +168,11 @@
 "preferred_label": "terebinto"
 },
 {
-"id": "flora:Liquidambar",
+"id": "flora:Poplar",
 "type": "flora",
 "confidence": 0.1463,
 "match_method": "canonical",
-"preferred_label": "liquidámbar"
+"preferred_label": "álamo"
 },
 {
 "id": "realia:House",
@@ -187,6 +180,13 @@
 "confidence": 0.1463,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "flora:Liquidambar",
+"type": "flora",
+"confidence": 0.1463,
+"match_method": "canonical",
+"preferred_label": "liquidámbar"
 },
 {
 "id": "fauna:Locust",

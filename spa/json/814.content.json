@@ -157,18 +157,25 @@
 "preferred_label": "tenedor de carne"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2611,
-"match_method": "canonical",
-"preferred_label": "altar"
-},
-{
 "id": "realia:CookingPot",
 "type": "realia",
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "olla"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2611,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2611,
+"match_method": "canonical",
+"preferred_label": "altar"
 },
 {
 "id": "realia:StoneAltar",
@@ -183,13 +190,6 @@
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "altar del tabernáculo"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2611,
-"match_method": "canonical",
-"preferred_label": "altar del templo"
 },
 {
 "id": "person:Moses",
@@ -227,13 +227,6 @@
 "preferred_label": "tazón"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "tienda de reunión"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1874,
@@ -241,18 +234,11 @@
 "preferred_label": "dinero"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "candelabro"
-},
-{
-"id": "realia:Lamp",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "lámpara"
+"preferred_label": "vara"
 },
 {
 "id": "realia:House",
@@ -262,11 +248,25 @@
 "preferred_label": "casa"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "vara"
+"preferred_label": "lámpara"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "candelabro"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "tienda de reunión"
 },
 {
 "id": "person:Abihu",
@@ -283,6 +283,13 @@
 "preferred_label": "Nadab"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "tribu de Leví"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1737,
@@ -290,11 +297,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Korah.3",
+"type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "tribu de Leví"
+"preferred_label": "Coré"
 },
 {
 "id": "keyterm:Witness.2",
@@ -311,20 +318,6 @@
 "preferred_label": "Leví"
 },
 {
-"id": "person:Korah.3",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Coré"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "aceite de unción"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1137,
@@ -339,11 +332,11 @@
 "preferred_label": "dugongo"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Leather",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "aceite de oliva"
+"preferred_label": "cuero"
 },
 {
 "id": "realia:Curtain",
@@ -353,11 +346,18 @@
 "preferred_label": "cortina"
 },
 {
-"id": "realia:Leather",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "cuero"
+"preferred_label": "aceite de oliva"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "aceite de unción"
 }
 ]
 }

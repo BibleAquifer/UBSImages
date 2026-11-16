@@ -147,13 +147,6 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.3114,
-"match_method": "canonical",
-"preferred_label": "pecar"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.3114,
@@ -161,11 +154,18 @@
 "preferred_label": "enfermedad infecciosa de la piel"
 },
 {
-"id": "place:Kabzeel",
-"type": "place",
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.3114,
+"match_method": "canonical",
+"preferred_label": "pecar"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Cabseel"
+"preferred_label": "Benaías"
 },
 {
 "id": "person:Jehoiada",
@@ -175,11 +175,11 @@
 "preferred_label": "Joiada"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
+"id": "place:Kabzeel",
+"type": "place",
 "confidence": 0.25,
 "match_method": "canonical",
-"preferred_label": "Benaías"
+"preferred_label": "Cabseel"
 },
 {
 "id": "deity:Lord",
@@ -224,11 +224,32 @@
 "preferred_label": "Naamán"
 },
 {
-"id": "keyterm:Ardour",
+"id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "celo"
+"preferred_label": "insensato"
+},
+{
+"id": "keyterm:BeFirm",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "ser firme"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "perdonar"
+},
+{
+"id": "place:HermonMount",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "monte Hermón"
 },
 {
 "id": "person:Aaron",
@@ -245,46 +266,11 @@
 "preferred_label": "infierno"
 },
 {
-"id": "person:Miriam",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Miriam"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
 "preferred_label": "gloria"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Líbano"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "monte Hermón"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
-"id": "keyterm:BeFirm",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "ser firme"
 },
 {
 "id": "keyterm:Fear",
@@ -294,11 +280,25 @@
 "preferred_label": "temor"
 },
 {
-"id": "keyterm:Stupid",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "insensato"
+"preferred_label": "celo"
+},
+{
+"id": "person:Miriam",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Miriam"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Líbano"
 },
 {
 "id": "flora:Soap",
@@ -306,13 +306,6 @@
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "hammada"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "tela de púrpura"
 },
 {
 "id": "flora:Barley",
@@ -334,6 +327,13 @@
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "cilantro"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "tela de púrpura"
 },
 {
 "id": "realia:Tent",

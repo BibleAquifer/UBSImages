@@ -3,9 +3,9 @@
 "content_id": "288551",
 "reference_id": 2370,
 "version": "1.0.4",
-"title": "Imagen de piedra",
+"title": "Cabeza de piedra tallada",
 "media_type": "Image",
-"index_reference": "imagen de piedra",
+"index_reference": "cabeza de piedra tallada",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0463_stone_image.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0463_stone_image.jpg'>link</a></p></block>",
@@ -450,11 +450,18 @@
 "preferred_label": "Miqueas"
 },
 {
-"id": "realia:Ephod",
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.2727,
+"match_method": "canonical",
+"preferred_label": "pino piñonero"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2727,
 "match_method": "canonical",
-"preferred_label": "efod"
+"preferred_label": "altar del templo"
 },
 {
 "id": "realia:Altar",
@@ -462,6 +469,13 @@
 "confidence": 0.2727,
 "match_method": "canonical",
 "preferred_label": "altar"
+},
+{
+"id": "realia:Ephod",
+"type": "realia",
+"confidence": 0.2727,
+"match_method": "canonical",
+"preferred_label": "efod"
 },
 {
 "id": "realia:StoneAltar",
@@ -476,20 +490,6 @@
 "confidence": 0.2727,
 "match_method": "canonical",
 "preferred_label": "altar del tabernáculo"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.2727,
-"match_method": "canonical",
-"preferred_label": "pino piñonero"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2727,
-"match_method": "canonical",
-"preferred_label": "altar del templo"
 },
 {
 "id": "realia:HighPlace",
@@ -520,11 +520,11 @@
 "preferred_label": "artesano"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.2164,
 "match_method": "canonical",
-"preferred_label": "confiar"
+"preferred_label": "designar"
 },
 {
 "id": "place:Dan",
@@ -534,13 +534,6 @@
 "preferred_label": "Dan"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2164,
-"match_method": "canonical",
-"preferred_label": "designar"
-},
-{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.2164,
@@ -548,11 +541,18 @@
 "preferred_label": "Babilonia"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "keyterm:LeanOn",
+"type": "keyterm",
 "confidence": 0.2164,
 "match_method": "canonical",
-"preferred_label": "Salomón"
+"preferred_label": "confiar"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.2164,
+"match_method": "canonical",
+"preferred_label": "Baal"
 }
 ]
 }

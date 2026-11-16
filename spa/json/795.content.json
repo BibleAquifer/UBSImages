@@ -3,9 +3,9 @@
 "content_id": "288526",
 "reference_id": 2345,
 "version": "1.0.4",
-"title": "Umbral En",
+"title": "Umbral",
 "media_type": "Image",
-"index_reference": "umbral en",
+"index_reference": "umbral",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0406_threshold_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0406_threshold_en.jpg'>link</a></p></block>",
@@ -147,18 +147,11 @@
 "preferred_label": "Dagón"
 },
 {
-"id": "realia:Doorpost",
+"id": "realia:Window",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "poste de la puerta"
-},
-{
-"id": "realia:Reed",
-"type": "realia",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "caña de medir"
+"preferred_label": "ventana"
 },
 {
 "id": "flora:Reed",
@@ -168,6 +161,13 @@
 "preferred_label": "caña"
 },
 {
+"id": "realia:Reed",
+"type": "realia",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "caña de medir"
+},
+{
 "id": "realia:MeasuringReed",
 "type": "realia",
 "confidence": 0.2,
@@ -175,11 +175,11 @@
 "preferred_label": "caña de medir"
 },
 {
-"id": "realia:Window",
+"id": "realia:Doorpost",
 "type": "realia",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "ventana"
+"preferred_label": "poste de la puerta"
 },
 {
 "id": "place:Tirzah",
@@ -189,53 +189,11 @@
 "preferred_label": "Tirsá"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "designar"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Deceit",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "engaño"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "arca del pacto"
-},
-{
-"id": "person:Jeroboam",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jeroboam"
 },
 {
 "id": "place:Ashdod",
@@ -245,32 +203,53 @@
 "preferred_label": "Asdod"
 },
 {
+"id": "keyterm:Deceit",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "engaño"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
+"id": "person:Jeroboam",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Jeroboam"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "arca del pacto"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "contaminación"
+},
+{
 "id": "fauna:Owl.3",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "lechuza"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "cabra"
-},
-{
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "altar"
-},
-{
-"id": "realia:WritingCase",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "tintero de escriba"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -280,11 +259,11 @@
 "preferred_label": "Arca del Pacto"
 },
 {
-"id": "fauna:Jackdaw",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "grajilla"
+"preferred_label": "cabra"
 },
 {
 "id": "realia:Capital",
@@ -294,18 +273,32 @@
 "preferred_label": "capitel"
 },
 {
-"id": "realia:Linen",
+"id": "realia:Cubit",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "lino"
+"preferred_label": "codo"
 },
 {
-"id": "fauna:Crow",
-"type": "fauna",
+"id": "realia:WritingCase",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "cuervo"
+"preferred_label": "tintero de escriba"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "altar"
 },
 {
 "id": "realia:StoneAltar",
@@ -322,18 +315,25 @@
 "preferred_label": "altar del tabernáculo"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Linen",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "codo"
+"preferred_label": "lino"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
+"id": "fauna:Jackdaw",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "altar del templo"
+"preferred_label": "grajilla"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "cuervo"
 },
 {
 "id": "fauna:Flock",

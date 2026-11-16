@@ -234,11 +234,11 @@
 "preferred_label": "Jazer"
 },
 {
-"id": "place:JazerSea",
+"id": "place:Sibmah",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Mar de Jazer"
+"preferred_label": "Sibma"
 },
 {
 "id": "place:EshcolValley",
@@ -248,11 +248,11 @@
 "preferred_label": "valle de Escol"
 },
 {
-"id": "place:Sibmah",
+"id": "place:JazerSea",
 "type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Sibma"
+"preferred_label": "Mar de Jazer"
 },
 {
 "id": "person:Abiezer",
@@ -262,11 +262,11 @@
 "preferred_label": "Abiezer"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
+"id": "flora:Barley",
+"type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "hoz"
+"preferred_label": "cebada"
 },
 {
 "id": "flora:Brier",
@@ -276,18 +276,11 @@
 "preferred_label": "zarza"
 },
 {
-"id": "flora:Boxthorn",
+"id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "cambrón"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1746,
-"match_method": "canonical",
-"preferred_label": "acacia"
+"preferred_label": "trigo"
 },
 {
 "id": "flora:Thistle",
@@ -297,18 +290,25 @@
 "preferred_label": "cardo"
 },
 {
-"id": "flora:Barley",
+"id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "cebada"
+"preferred_label": "acacia"
 },
 {
-"id": "flora:Wheat",
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1746,
+"match_method": "canonical",
+"preferred_label": "hoz"
+},
+{
+"id": "flora:Boxthorn",
 "type": "flora",
 "confidence": 0.1746,
 "match_method": "canonical",
-"preferred_label": "trigo"
+"preferred_label": "cambrón"
 },
 {
 "id": "fauna:Donkey",
@@ -318,116 +318,11 @@
 "preferred_label": "asno"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Basán"
-},
-{
-"id": "keyterm:LeanOn",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "confiar"
-},
-{
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Faraón"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "habilidad"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Efraín"
-},
-{
-"id": "keyterm:Safety",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "seguridad"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
-"id": "place:Sodom",
-"type": "place",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Sodoma"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "día de reposo"
-},
-{
-"id": "group:Nazirite",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "nazareo"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:DetestedThing",
-"type": "keyterm",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "cosa detestable"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Un ángel"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "tribu de Judá"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1673,
-"match_method": "canonical",
-"preferred_label": "Baal"
 },
 {
 "id": "group:Ephraim",
@@ -437,11 +332,102 @@
 "preferred_label": "tribu de Efraín"
 },
 {
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Efraín"
+},
+{
+"id": "group:Nazirite",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "nazareo"
+},
+{
+"id": "place:Sodom",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Sodoma"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Faraón"
+},
+{
 "id": "place:Gomorrah",
 "type": "place",
 "confidence": 0.1673,
 "match_method": "canonical",
 "preferred_label": "Gomorra"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Basán"
+},
+{
+"id": "keyterm:DetestedThing",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "cosa detestable"
+},
+{
+"id": "keyterm:LeanOn",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "confiar"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "habilidad"
+},
+{
+"id": "keyterm:Safety",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "seguridad"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Baal"
 },
 {
 "id": "keyterm:Bitter",
@@ -451,18 +437,25 @@
 "preferred_label": "amargo"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1673,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
 "id": "flora:Chicory",
 "type": "flora",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "hierbas amargas"
-},
-{
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "torre"
 },
 {
 "id": "flora:Colocynth",
@@ -472,11 +465,11 @@
 "preferred_label": "coloquíntida"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1073,
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "cabra"
+"preferred_label": "torre"
 },
 {
 "id": "realia:RaisinCake",
@@ -486,25 +479,25 @@
 "preferred_label": "torta de pasas"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "olivo"
-},
-{
-"id": "fauna:Bull",
+"id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "ganado vacuno"
+"preferred_label": "cabra"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
+"id": "realia:Must",
+"type": "realia",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "sorgo"
+"preferred_label": "mosto"
+},
+{
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "imagen"
 },
 {
 "id": "flora:Pomegranate",
@@ -521,13 +514,6 @@
 "preferred_label": "azadón"
 },
 {
-"id": "realia:Image",
-"type": "realia",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "imagen"
-},
-{
 "id": "flora:Grain",
 "type": "flora",
 "confidence": 0.1073,
@@ -535,11 +521,11 @@
 "preferred_label": "grano"
 },
 {
-"id": "realia:Must",
-"type": "realia",
+"id": "fauna:Lamb",
+"type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
-"preferred_label": "mosto"
+"preferred_label": "cordero"
 },
 {
 "id": "flora:Coriander",
@@ -549,18 +535,32 @@
 "preferred_label": "cilantro"
 },
 {
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "sorgo"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "ganado vacuno"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1073,
+"match_method": "canonical",
+"preferred_label": "olivo"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1073,
 "match_method": "canonical",
 "preferred_label": "rebaño"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1073,
-"match_method": "canonical",
-"preferred_label": "cordero"
 }
 ]
 }

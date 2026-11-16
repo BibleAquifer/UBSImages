@@ -3,9 +3,9 @@
 "content_id": "288221",
 "reference_id": 2040,
 "version": "1.0.4",
-"title": "Prestando juramento",
+"title": "Prestando un juramento",
 "media_type": "Image",
-"index_reference": "prestando juramento",
+"index_reference": "prestando un juramento",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0893_making_of_a_vow.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0893_making_of_a_vow.jpg'>link</a></p></block>",
@@ -292,18 +292,25 @@
 "preferred_label": "rollo"
 },
 {
-"id": "keyterm:Ardour",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "celo"
-},
-{
 "id": "keyterm:IntactState",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "paz"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "tribu de Judá"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Judá"
 },
 {
 "id": "person:Israel",
@@ -320,32 +327,11 @@
 "preferred_label": "Acab"
 },
 {
-"id": "keyterm:Curse",
+"id": "keyterm:Ardour",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "maldecir"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "tribu de Judá"
-},
-{
-"id": "keyterm:Blameless",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "ser intachable"
+"preferred_label": "celo"
 },
 {
 "id": "person:Jonathan.3",
@@ -355,11 +341,18 @@
 "preferred_label": "Jonatán"
 },
 {
-"id": "keyterm:Leader",
+"id": "keyterm:Blameless",
 "type": "keyterm",
-"confidence": 0.1671,
+"confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "líder"
+"preferred_label": "ser intachable"
+},
+{
+"id": "keyterm:Curse",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "maldecir"
 },
 {
 "id": "group:Messengers",
@@ -367,6 +360,20 @@
 "confidence": 0.1671,
 "match_method": "canonical",
 "preferred_label": "mensajeros"
+},
+{
+"id": "keyterm:Leader",
+"type": "keyterm",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "líder"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
 },
 {
 "id": "realia:Altar",
@@ -383,13 +390,6 @@
 "preferred_label": "altar de piedra"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "altar del tabernáculo"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1637,
@@ -397,39 +397,11 @@
 "preferred_label": "casa"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "altar del templo"
-},
-{
-"id": "keyterm:Exempt",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "exento"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Moisés"
-},
-{
-"id": "person:Abner",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Abner"
-},
-{
-"id": "person:Isaac",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Isaac"
+"preferred_label": "altar del tabernáculo"
 },
 {
 "id": "keyterm:BearTheConsequencesOf",
@@ -439,74 +411,11 @@
 "preferred_label": "cargar con la culpa"
 },
 {
-"id": "place:Ramoth-gilead",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ramot de Galaad"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "instrucción"
-},
-{
-"id": "place:Babylon",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Babilonia"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Salomón"
-},
-{
 "id": "person:Elijah",
 "type": "person",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "Elías"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Un ángel"
-},
-{
-"id": "person:Elisha",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Eliseo"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ben-adad"
-},
-{
-"id": "keyterm:Forgive",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "perdonar"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Abraham"
 },
 {
 "id": "person:Jezebel",
@@ -516,32 +425,18 @@
 "preferred_label": "Jezabel"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "obligar a servir"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "person:Shaphat.2",
+"id": "person:Moses",
 "type": "person",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Safat"
+"preferred_label": "Moisés"
 },
 {
-"id": "place:Samaria",
+"id": "place:Babylon",
 "type": "place",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Samaria"
+"preferred_label": "Babilonia"
 },
 {
 "id": "person:Adonijah",
@@ -551,6 +446,20 @@
 "preferred_label": "Adonías"
 },
 {
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "instrucción"
+},
+{
+"id": "keyterm:Forgive",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "perdonar"
+},
+{
 "id": "person:Saul.2",
 "type": "person",
 "confidence": 0.1618,
@@ -558,11 +467,102 @@
 "preferred_label": "Saúl"
 },
 {
+"id": "person:Abner",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Abner"
+},
+{
+"id": "person:Elisha",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Eliseo"
+},
+{
+"id": "keyterm:Exempt",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "exento"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Ben-adad"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "obligar a servir"
+},
+{
+"id": "person:Isaac",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Isaac"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
 "id": "place:Jezreel.2",
 "type": "place",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "Jezrel"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Un ángel"
+},
+{
+"id": "person:Shaphat.2",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Safat"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Salomón"
+},
+{
+"id": "place:Ramoth-gilead",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Ramot de Galaad"
 },
 {
 "id": "flora:Wormwood",

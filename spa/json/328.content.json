@@ -3,9 +3,9 @@
 "content_id": "288014",
 "reference_id": 1833,
 "version": "1.0.4",
-"title": "Puerta de la Ciudad En",
+"title": "Puerta de la ciudad",
 "media_type": "Image",
-"index_reference": "puerta de la ciudad en",
+"index_reference": "puerta de la ciudad",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0422_city_gate_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0422_city_gate_en.jpg'>link</a></p></block>",
@@ -2051,25 +2051,18 @@
 "preferred_label": "bendecir"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "santo"
+},
+{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.357,
 "match_method": "canonical",
 "preferred_label": "Un ángel"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Filistea"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Belén"
 },
 {
 "id": "keyterm:Glory",
@@ -2079,11 +2072,18 @@
 "preferred_label": "gloria"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "santo"
+"preferred_label": "Belén"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "Filistea"
 },
 {
 "id": "realia:House",
@@ -2107,11 +2107,11 @@
 "preferred_label": "codo"
 },
 {
-"id": "place:EphraimGate",
+"id": "place:FishGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "puerta de Efraín"
+"preferred_label": "Puerta del Pescado"
 },
 {
 "id": "place:ValleyGate",
@@ -2121,25 +2121,18 @@
 "preferred_label": "puerta del Valle"
 },
 {
+"id": "place:EphraimGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "puerta de Efraín"
+},
+{
 "id": "place:BenjaminGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
 "preferred_label": "Puerta de Benjamín"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Puerta del Pescado"
-},
-{
-"id": "place:DungGate",
-"type": "place",
-"confidence": 0.3074,
-"match_method": "canonical",
-"preferred_label": "Puerta del Basurero"
 },
 {
 "id": "place:TowerOfHananel",
@@ -2149,11 +2142,11 @@
 "preferred_label": "Torre de Jananel"
 },
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.3062,
+"id": "place:DungGate",
+"type": "place",
+"confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "Amán"
+"preferred_label": "Puerta del Basurero"
 },
 {
 "id": "place:Arad",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "Arad"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "Amán"
 }
 ]
 }

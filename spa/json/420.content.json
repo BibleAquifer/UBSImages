@@ -88,6 +88,13 @@
 "preferred_label": "honda"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.3727,
+"match_method": "canonical",
+"preferred_label": "filisteos"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3727,
@@ -100,13 +107,6 @@
 "confidence": 0.3727,
 "match_method": "canonical",
 "preferred_label": "Filistea"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "filisteos"
 },
 {
 "id": "person:David",
@@ -123,13 +123,6 @@
 "preferred_label": "Uzías"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "gloria"
-},
-{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1909,
@@ -144,18 +137,18 @@
 "preferred_label": "Quir"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1909,
+"match_method": "canonical",
+"preferred_label": "gloria"
+},
+{
 "id": "realia:Pouch",
 "type": "realia",
 "confidence": 0.1491,
 "match_method": "canonical",
 "preferred_label": "zurrón"
-},
-{
-"id": "flora:Rush",
-"type": "flora",
-"confidence": 0.1491,
-"match_method": "canonical",
-"preferred_label": "junco"
 },
 {
 "id": "realia:Breastplate",
@@ -165,18 +158,11 @@
 "preferred_label": "coraza"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1309,
+"id": "flora:Rush",
+"type": "flora",
+"confidence": 0.1491,
 "match_method": "canonical",
-"preferred_label": "cabra"
-},
-{
-"id": "realia:Spear",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "lanza"
+"preferred_label": "junco"
 },
 {
 "id": "realia:Sword",
@@ -186,46 +172,11 @@
 "preferred_label": "espada"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "altar"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "vid"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "arco"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "casco"
-},
-{
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "escudo pequeño"
-},
-{
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "vara"
+"preferred_label": "cabra"
 },
 {
 "id": "realia:CookingPot",
@@ -235,11 +186,53 @@
 "preferred_label": "olla"
 },
 {
+"id": "realia:Bow",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "arco"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "altar del templo"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "altar"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "lanza"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "cordero"
+},
+{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "altar de piedra"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "vara"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -256,25 +249,25 @@
 "preferred_label": "bolsa"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "vid"
+},
+{
+"id": "realia:Staff",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "altar del templo"
+"preferred_label": "vara"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
+"id": "realia:SmallShield",
+"type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "cordero"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "rebaño"
+"preferred_label": "escudo pequeño"
 },
 {
 "id": "realia:Wine",
@@ -284,11 +277,18 @@
 "preferred_label": "vino"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Helmet",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
-"preferred_label": "vara"
+"preferred_label": "casco"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "rebaño"
 }
 ]
 }

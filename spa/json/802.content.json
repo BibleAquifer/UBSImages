@@ -3,9 +3,9 @@
 "content_id": "288533",
 "reference_id": 2352,
 "version": "1.0.4",
-"title": "Tel",
+"title": "Montículo arqueológico detrás de las ruinas",
 "media_type": "Image",
-"index_reference": "tel",
+"index_reference": "montículo arqueológico detrás de las ruinas",
 "language": "spa",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0424_tell.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0424_tell.jpg'>link</a></p></block>",
@@ -119,18 +119,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "Josué"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Jerusalén"
 },
 {
 "id": "realia:House",
@@ -140,13 +140,6 @@
 "preferred_label": "casa"
 },
 {
-"id": "place:Moresheth",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Moréset"
-},
-{
 "id": "person:Micah.6",
 "type": "person",
 "confidence": 0.1933,
@@ -154,18 +147,18 @@
 "preferred_label": "Miqueas"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "place:Moresheth",
+"type": "place",
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "dejar en herencia"
+"preferred_label": "Moréset"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:SomethingDevotedToGod",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "contaminación"
+"preferred_label": "consagrado a Dios"
 },
 {
 "id": "keyterm:Swear",
@@ -175,53 +168,25 @@
 "preferred_label": "jurar"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "desposeer"
+"preferred_label": "dejar en herencia"
 },
 {
-"id": "place:Damascus",
+"id": "place:Ammon",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Damasco"
+"preferred_label": "Amón"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "profetizar"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "profecía"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Judá"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "lamento"
-},
-{
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Hai"
+"preferred_label": "tribu de Judá"
 },
 {
 "id": "place:Babylon",
@@ -231,11 +196,81 @@
 "preferred_label": "Babilonia"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "tribu de Judá"
+"preferred_label": "desposeer"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Ezequías"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Hai"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Samaria"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Damasco"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Judá"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "profecía"
+},
+{
+"id": "place:Hazor",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Hazor"
+},
+{
+"id": "person:Asaph.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Asaf"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "contaminación"
 },
 {
 "id": "group:Ammon",
@@ -252,60 +287,11 @@
 "preferred_label": "salmo"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Samaria"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Ezequías"
-},
-{
-"id": "person:Asaph.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Asaf"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Amón"
-},
-{
-"id": "place:Hazor",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Hazor"
-},
-{
-"id": "keyterm:SomethingDevotedToGod",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "consagrado a Dios"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "vid"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "chacal"
+"preferred_label": "lamento"
 },
 {
 "id": "realia:Foundation",
@@ -315,11 +301,25 @@
 "preferred_label": "cimiento"
 },
 {
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "chacal"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "sándalo"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "vid"
 }
 ]
 }

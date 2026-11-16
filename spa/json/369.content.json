@@ -545,13 +545,6 @@
 "preferred_label": "cielo"
 },
 {
-"id": "fauna:Lizard",
-"type": "fauna",
-"confidence": 0.3528,
-"match_method": "canonical",
-"preferred_label": "lagarto"
-},
-{
 "id": "fauna:Chameleon",
 "type": "fauna",
 "confidence": 0.3528,
@@ -564,6 +557,13 @@
 "confidence": 0.3528,
 "match_method": "canonical",
 "preferred_label": "varano"
+},
+{
+"id": "fauna:Lizard",
+"type": "fauna",
+"confidence": 0.3528,
+"match_method": "canonical",
+"preferred_label": "lagarto"
 },
 {
 "id": "fauna:Fish",
@@ -587,18 +587,18 @@
 "preferred_label": "puro"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.3162,
-"match_method": "canonical",
-"preferred_label": "ganado vacuno"
-},
-{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.3162,
 "match_method": "canonical",
 "preferred_label": "gallo"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3162,
+"match_method": "canonical",
+"preferred_label": "ganado vacuno"
 },
 {
 "id": "keyterm:Kind.2",
@@ -622,11 +622,11 @@
 "preferred_label": "reptil"
 },
 {
-"id": "fauna:Snake",
+"id": "fauna:Dog",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "serpiente"
+"preferred_label": "perro"
 },
 {
 "id": "flora:Grass",
@@ -636,11 +636,11 @@
 "preferred_label": "hierba"
 },
 {
-"id": "fauna:Dog",
+"id": "fauna:Snake",
 "type": "fauna",
 "confidence": 0.2609,
 "match_method": "canonical",
-"preferred_label": "perro"
+"preferred_label": "serpiente"
 },
 {
 "id": "keyterm:Destroy",
@@ -650,6 +650,13 @@
 "preferred_label": "destruir"
 },
 {
+"id": "person:Adam",
+"type": "person",
+"confidence": 0.2128,
+"match_method": "canonical",
+"preferred_label": "Adán"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.2128,
@@ -657,11 +664,53 @@
 "preferred_label": "bendecir"
 },
 {
-"id": "person:Adam",
-"type": "person",
-"confidence": 0.2128,
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.2105,
 "match_method": "canonical",
-"preferred_label": "Adán"
+"preferred_label": "designar"
+},
+{
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "filisteos"
+},
+{
+"id": "person:Pharaoh.4",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Faraón"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "ofrenda"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "gloria"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.2105,
+"match_method": "canonical",
+"preferred_label": "Filistea"
 },
 {
 "id": "keyterm:Defilement",
@@ -678,53 +727,11 @@
 "preferred_label": "Jesús"
 },
 {
-"id": "person:Pharaoh.4",
-"type": "person",
-"confidence": 0.2105,
+"id": "flora:Grain",
+"type": "flora",
+"confidence": 0.2057,
 "match_method": "canonical",
-"preferred_label": "Faraón"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Filistea"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "ofrenda"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "designar"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "gloria"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "filisteos"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.2105,
-"match_method": "canonical",
-"preferred_label": "Noé"
+"preferred_label": "grano"
 },
 {
 "id": "realia:Ship",
@@ -732,13 +739,6 @@
 "confidence": 0.2057,
 "match_method": "canonical",
 "preferred_label": "barco"
-},
-{
-"id": "flora:Grain",
-"type": "flora",
-"confidence": 0.2057,
-"match_method": "canonical",
-"preferred_label": "grano"
 }
 ]
 }
