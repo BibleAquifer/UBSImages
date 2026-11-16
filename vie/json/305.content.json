@@ -3,9 +3,9 @@
 "content_id": "292657",
 "reference_id": 1810,
 "version": "1.0.4",
-"title": "Tàu",
+"title": "Mô hình thuyền buồm có mái chèo",
 "media_type": "Image",
-"index_reference": "tàu",
+"index_reference": "mô hình thuyền buồm có mái chèo",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0517_ship.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0517_ship.jpg'>link</a></p></block>",
@@ -64,13 +64,6 @@
 "preferred_label": "Tàu"
 },
 {
-"id": "realia:Rudder",
-"type": "realia",
-"confidence": 0.3257,
-"match_method": "canonical",
-"preferred_label": "Bánh lái"
-},
-{
 "id": "realia:Oar",
 "type": "realia",
 "confidence": 0.3257,
@@ -78,11 +71,11 @@
 "preferred_label": "mái chèo"
 },
 {
-"id": "keyterm:Mighty",
-"type": "keyterm",
-"confidence": 0.2429,
+"id": "realia:Rudder",
+"type": "realia",
+"confidence": 0.3257,
 "match_method": "canonical",
-"preferred_label": "oai nghi"
+"preferred_label": "Bánh lái"
 },
 {
 "id": "place:Arvad",
@@ -99,11 +92,11 @@
 "preferred_label": "Síp"
 },
 {
-"id": "place:Bashan",
-"type": "place",
-"confidence": 0.2143,
+"id": "keyterm:Mighty",
+"type": "keyterm",
+"confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Ba-san"
+"preferred_label": "oai nghi"
 },
 {
 "id": "deity:Lord",
@@ -113,13 +106,6 @@
 "preferred_label": "CHÚA"
 },
 {
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.2143,
-"match_method": "canonical",
-"preferred_label": "Si-đôn"
-},
-{
 "id": "place:Tyre",
 "type": "place",
 "confidence": 0.2143,
@@ -127,11 +113,18 @@
 "preferred_label": "Ty-rơ"
 },
 {
-"id": "realia:Sail",
-"type": "realia",
-"confidence": 0.1829,
+"id": "place:Bashan",
+"type": "place",
+"confidence": 0.2143,
 "match_method": "canonical",
-"preferred_label": "Cánh buồm"
+"preferred_label": "Ba-san"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2143,
+"match_method": "canonical",
+"preferred_label": "Si-đôn"
 },
 {
 "id": "realia:Deck",
@@ -141,32 +134,11 @@
 "preferred_label": "sàn tàu"
 },
 {
-"id": "realia:Rope",
+"id": "realia:Sail",
 "type": "realia",
-"confidence": 0.1543,
+"confidence": 0.1829,
 "match_method": "canonical",
-"preferred_label": "Dây thừng"
-},
-{
-"id": "flora:Cypress",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Cây bách"
-},
-{
-"id": "flora:Fir",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Cây linh sam"
-},
-{
-"id": "flora:Oak",
-"type": "flora",
-"confidence": 0.1543,
-"match_method": "canonical",
-"preferred_label": "Cây sồi"
+"preferred_label": "Cánh buồm"
 },
 {
 "id": "fauna:Ostrich",
@@ -188,6 +160,34 @@
 "confidence": 0.1543,
 "match_method": "canonical",
 "preferred_label": "cây bách Hy Lạp"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Dây thừng"
+},
+{
+"id": "flora:Fir",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Cây linh sam"
+},
+{
+"id": "flora:Cypress",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Cây bách"
+},
+{
+"id": "flora:Oak",
+"type": "flora",
+"confidence": 0.1543,
+"match_method": "canonical",
+"preferred_label": "Cây sồi"
 }
 ]
 }

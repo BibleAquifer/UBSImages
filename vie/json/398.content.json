@@ -119,13 +119,6 @@
 "preferred_label": "chó rừng"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "sư tử"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.5,
@@ -133,11 +126,11 @@
 "preferred_label": "Gấu"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "CHÚA"
+"preferred_label": "sư tử"
 },
 {
 "id": "keyterm:IntactState",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "sự bình an"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "CHÚA"
 },
 {
 "id": "fauna:Owl",
@@ -168,11 +168,11 @@
 "preferred_label": "Ban cho làm sản nghiệp"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Giô-sép"
+"preferred_label": "Giê-ru-sa-lem"
 },
 {
 "id": "place:Assyria",
@@ -182,32 +182,18 @@
 "preferred_label": "A-sy-ri"
 },
 {
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Giô-sép"
+},
+{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Sự an toàn"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Giê-ru-sa-lem"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Giao ước"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Canh-đê"
 },
 {
 "id": "group:Chaldea",
@@ -217,18 +203,25 @@
 "preferred_label": "người Canh-đê"
 },
 {
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Canh-đê"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Giao ước"
+},
+{
 "id": "fauna:WildCat",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "Mèo rừng"
-},
-{
-"id": "fauna:TawnyOwl.2",
-"type": "fauna",
-"confidence": 0.1333,
-"match_method": "canonical",
-"preferred_label": "cú nâu"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -238,39 +231,11 @@
 "preferred_label": "Lê-vi-a-than"
 },
 {
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Áo dài"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Hầm"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Tháp công thành"
-},
-{
-"id": "fauna:Vulture",
+"id": "fauna:TawnyOwl.2",
 "type": "fauna",
-"confidence": 0.12,
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Kên kên"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "nhà"
+"preferred_label": "cú nâu"
 },
 {
 "id": "fauna:Dragon",
@@ -280,11 +245,46 @@
 "preferred_label": "Rồng"
 },
 {
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Kên kên"
+},
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Áo dài"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "nhà"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "cây đàn hương"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Tháp công thành"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Hầm"
 }
 ]
 }

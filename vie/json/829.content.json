@@ -291,6 +291,13 @@
 "preferred_label": "Chó"
 },
 {
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.2231,
+"match_method": "canonical",
+"preferred_label": "Nhân từ"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2231,
@@ -303,13 +310,6 @@
 "confidence": 0.2231,
 "match_method": "canonical",
 "preferred_label": "Y-sơ-ra-ên"
-},
-{
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.2231,
-"match_method": "canonical",
-"preferred_label": "Nhân từ"
 },
 {
 "id": "keyterm:Bless",
@@ -326,13 +326,6 @@
 "preferred_label": "Giô-na-than"
 },
 {
-"id": "place:CarmelMount",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Núi Cát-mên"
-},
-{
 "id": "person:Adoni-bezek",
 "type": "person",
 "confidence": 0.1667,
@@ -345,6 +338,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "Phục vụ"
+},
+{
+"id": "deity:Fortune",
+"type": "deity",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Vận May"
 },
 {
 "id": "person:Barzillai",
@@ -361,6 +361,13 @@
 "preferred_label": "Dự phần"
 },
 {
+"id": "person:SyrophonecianWoman",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Người phụ nữ Si-rô-phê-ni-xi"
+},
+{
 "id": "deity:Asherah",
 "type": "deity",
 "confidence": 0.1667,
@@ -368,11 +375,11 @@
 "preferred_label": "A-sê-ra"
 },
 {
-"id": "person:SyrophonecianWoman",
-"type": "person",
+"id": "place:CarmelMount",
+"type": "place",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Người phụ nữ Si-rô-phê-ni-xi"
+"preferred_label": "Núi Cát-mên"
 },
 {
 "id": "deity:Destiny",
@@ -382,18 +389,11 @@
 "preferred_label": "Số Mệnh"
 },
 {
-"id": "deity:Fortune",
-"type": "deity",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Vận May"
-},
-{
-"id": "realia:AnointingOil",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1631,
 "match_method": "canonical",
-"preferred_label": "dầu xức"
+"preferred_label": "Đền Thờ"
 },
 {
 "id": "flora:Vine",
@@ -410,11 +410,11 @@
 "preferred_label": "dầu ô-liu"
 },
 {
-"id": "realia:Temple",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1631,
 "match_method": "canonical",
-"preferred_label": "Đền Thờ"
+"preferred_label": "dầu xức"
 },
 {
 "id": "realia:Wine",
@@ -424,74 +424,11 @@
 "preferred_label": "Rượu nho"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Nước"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Chúa Giê-xu"
-},
-{
-"id": "person:Hiram",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Hi-ram"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Lễ vật"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Bôi xức"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Nhóm các môn đồ"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Giết con sinh tế"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Khẩn xin"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Định"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Làm môn đệ"
+"preferred_label": "Ơn"
 },
 {
 "id": "group:Pharisee",
@@ -501,46 +438,25 @@
 "preferred_label": "người Pha-ri-si"
 },
 {
-"id": "keyterm:Favor",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Ơn"
+"preferred_label": "Định"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Sa-lô-môn"
+"preferred_label": "Nhóm các môn đồ"
 },
 {
-"id": "person:Absalom",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Áp-sa-lôm"
-},
-{
-"id": "person:Jezebel",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Giê-sa-bên"
-},
-{
-"id": "place:Gilead",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Ga-la-át"
-},
-{
-"id": "deity:Baal",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Ba-anh"
+"preferred_label": "Tin"
 },
 {
 "id": "group:Jews",
@@ -550,11 +466,81 @@
 "preferred_label": "người Do Thái"
 },
 {
-"id": "keyterm:EnticedToServe",
+"id": "person:Hiram",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Hi-ram"
+},
+{
+"id": "person:Jezebel",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Giê-sa-bên"
+},
+{
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Sau-lơ"
+},
+{
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Bắt phục dịch"
+"preferred_label": "Lễ vật"
+},
+{
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Giết con sinh tế"
+},
+{
+"id": "place:Gilead",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Ga-la-át"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Khẩn xin"
+},
+{
+"id": "group:Gilead",
+"type": "group",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Người Ga-la-át"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Nước"
+},
+{
+"id": "person:Absalom",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Áp-sa-lôm"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Sợ hãi / Kính sợ"
 },
 {
 "id": "deity:Demons",
@@ -562,6 +548,13 @@
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "Các quỷ"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Bắt phục dịch"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -578,32 +571,46 @@
 "preferred_label": "Lễ trăng mới"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "deity:Baal",
+"type": "deity",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Tin"
+"preferred_label": "Ba-anh"
 },
 {
-"id": "person:Saul.2",
+"id": "person:Solomon",
 "type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Sau-lơ"
+"preferred_label": "Sa-lô-môn"
 },
 {
-"id": "group:Gilead",
-"type": "group",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Người Ga-la-át"
+"preferred_label": "Chúa Giê-xu"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Sợ hãi / Kính sợ"
+"preferred_label": "Làm môn đệ"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Bôi xức"
+},
+{
+"id": "realia:Trap",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "Bẫy"
 },
 {
 "id": "realia:Rug",
@@ -620,25 +627,11 @@
 "preferred_label": "Khiên nhỏ"
 },
 {
-"id": "realia:Trap",
+"id": "realia:Bed",
 "type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "Bẫy"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "Cây ô-liu"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "ngựa"
+"preferred_label": "giường"
 },
 {
 "id": "realia:Net",
@@ -648,11 +641,18 @@
 "preferred_label": "lưới"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
+"id": "fauna:Horse",
+"type": "fauna",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "giường"
+"preferred_label": "ngựa"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "Cây ô-liu"
 }
 ]
 }

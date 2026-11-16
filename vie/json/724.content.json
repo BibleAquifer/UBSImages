@@ -301,11 +301,11 @@
 "preferred_label": "Làm môn đệ"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
+"id": "flora:Grain",
+"type": "flora",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "dầu xức"
+"preferred_label": "Ngũ cốc"
 },
 {
 "id": "realia:OliveOil",
@@ -315,11 +315,11 @@
 "preferred_label": "dầu ô-liu"
 },
 {
-"id": "flora:Grain",
-"type": "flora",
+"id": "realia:AnointingOil",
+"type": "realia",
 "confidence": 0.3423,
 "match_method": "canonical",
-"preferred_label": "Ngũ cốc"
+"preferred_label": "dầu xức"
 },
 {
 "id": "place:Bethphage",
@@ -364,18 +364,18 @@
 "preferred_label": "Bê-tha-ni"
 },
 {
-"id": "fauna:Mule",
-"type": "fauna",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "La"
-},
-{
 "id": "realia:Must",
 "type": "realia",
 "confidence": 0.2214,
 "match_method": "canonical",
 "preferred_label": "Rượu mới"
+},
+{
+"id": "fauna:Mule",
+"type": "fauna",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "La"
 },
 {
 "id": "person:Jesus.2",
@@ -406,6 +406,13 @@
 "preferred_label": "Người Ghê-đe-ra"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "Lúa mạch"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.1609,
@@ -413,25 +420,25 @@
 "preferred_label": "dê"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "Bò"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "Hầm"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "Tiền bạc"
+},
+{
+"id": "realia:Wine",
+"type": "realia",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "Rượu nho"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1609,
+"match_method": "canonical",
+"preferred_label": "Bầy"
 },
 {
 "id": "realia:Temple",
@@ -448,67 +455,18 @@
 "preferred_label": "chân đèn"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1609,
-"match_method": "canonical",
-"preferred_label": "Lúa mạch"
-},
-{
-"id": "fauna:Flock",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "Bầy"
+"preferred_label": "Bò"
 },
 {
-"id": "realia:Wine",
+"id": "realia:Pit",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
-"preferred_label": "Rượu nho"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Tước đoạt quyền sở hữu"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Phi-li-tin"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Khả năng"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Bôi xức"
-},
-{
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Được tôn vinh và vinh hiển"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Y-sơ-ra-ên"
+"preferred_label": "Hầm"
 },
 {
 "id": "group:Philistine",
@@ -518,18 +476,18 @@
 "preferred_label": "người Phi-li-tin"
 },
 {
-"id": "person:Noah",
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Nô-ê"
+"preferred_label": "Phi-e-rơ"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "keyterm:Example",
+"type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Li-ban"
+"preferred_label": "Biểu tượng"
 },
 {
 "id": "person:John.2",
@@ -546,46 +504,18 @@
 "preferred_label": "Ghê-đê-ra"
 },
 {
-"id": "keyterm:Bless",
+"id": "keyterm:BringHonorAndGloryOnOneself",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Ban phước"
+"preferred_label": "Được tôn vinh và vinh hiển"
 },
 {
-"id": "keyterm:Example",
+"id": "keyterm:Dispossess",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Biểu tượng"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Gia-cơ"
-},
-{
-"id": "person:Andrew",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Anh-rê"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Đời đời"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Phi-e-rơ"
+"preferred_label": "Tước đoạt quyền sở hữu"
 },
 {
 "id": "person:Hezekiah",
@@ -595,11 +525,81 @@
 "preferred_label": "Ê-xê-chia"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Y-sơ-ra-ên"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Nô-ê"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Đời đời"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Gia-cơ"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Phi-li-tin"
+},
+{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "Sơ-phê-la"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Ban phước"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Khả năng"
+},
+{
+"id": "person:Andrew",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Anh-rê"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Li-ban"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Bôi xức"
 },
 {
 "id": "flora:Myrtle",
@@ -609,46 +609,11 @@
 "preferred_label": "Cây sim"
 },
 {
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Cây thông Aleppo"
-},
-{
 "id": "realia:AnimalPen",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "chuồng súc vật"
-},
-{
-"id": "flora:Pomegranate",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Cây lựu"
-},
-{
-"id": "realia:Sheepfold",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "chuồng chiên"
-},
-{
-"id": "flora:SycomoreFig",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "cây sung"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Cây thông đá"
 },
 {
 "id": "flora:DatePalm",
@@ -658,11 +623,18 @@
 "preferred_label": "Cây chà là"
 },
 {
-"id": "flora:Coriander",
+"id": "flora:Pomegranate",
 "type": "flora",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Rau ngò"
+"preferred_label": "Cây lựu"
+},
+{
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Cây thông đá"
 },
 {
 "id": "fauna:Dove",
@@ -672,11 +644,39 @@
 "preferred_label": "Bồ câu"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Cây thông Aleppo"
+},
+{
+"id": "flora:Coriander",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Rau ngò"
+},
+{
+"id": "flora:SycomoreFig",
+"type": "flora",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "cây sung"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "xe ngựa"
+},
+{
+"id": "realia:Sheepfold",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "chuồng chiên"
 },
 {
 "id": "fauna:Locust",

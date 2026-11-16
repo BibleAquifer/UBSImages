@@ -3,9 +3,9 @@
 "content_id": "293016",
 "reference_id": 2169,
 "version": "1.0.4",
-"title": "Khăn che mặt Sinai",
+"title": "Khăn che mặt trang trí",
 "media_type": "Image",
-"index_reference": "khăn che mặt sinai",
+"index_reference": "khăn che mặt trang trí",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0887_veil_sinai.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0887_veil_sinai.jpg'>link</a></p></block>",
@@ -112,18 +112,18 @@
 "preferred_label": "Khăn che mặt"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "Môi-se"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.34,
 "match_method": "canonical",
 "preferred_label": "CHÚA"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "Môi-se"
 },
 {
 "id": "person:Israel",
@@ -140,13 +140,6 @@
 "preferred_label": "Cây lựu"
 },
 {
-"id": "place:Enaim",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Ê-nam"
-},
-{
 "id": "place:Timnah",
 "type": "place",
 "confidence": 0.1933,
@@ -154,11 +147,18 @@
 "preferred_label": "Thim-na"
 },
 {
-"id": "person:GenericServant",
-"type": "person",
+"id": "place:Enaim",
+"type": "place",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Ê-nam"
+},
+{
+"id": "place:Gilead",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Một người đầy tớ"
+"preferred_label": "Ga-la-át"
 },
 {
 "id": "keyterm:Woe.2",
@@ -168,11 +168,11 @@
 "preferred_label": "Khốn thay"
 },
 {
-"id": "place:Gilead",
-"type": "place",
+"id": "person:GenericServant",
+"type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Ga-la-át"
+"preferred_label": "Một người đầy tớ"
 },
 {
 "id": "person:Shelah",
@@ -187,13 +187,6 @@
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "Khăn quấn đầu"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "cối xay tay"
 },
 {
 "id": "fauna:Goat",
@@ -217,13 +210,6 @@
 "preferred_label": "Sợi chỉ"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Bầy"
-},
-{
 "id": "fauna:Dove",
 "type": "fauna",
 "confidence": 0.12,
@@ -236,6 +222,20 @@
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "Khuyên tai"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "cối xay tay"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Bầy"
 }
 ]
 }

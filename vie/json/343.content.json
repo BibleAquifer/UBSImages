@@ -3,9 +3,9 @@
 "content_id": "292695",
 "reference_id": 1848,
 "version": "1.0.4",
-"title": "Cổng Thành Phố",
+"title": "Cổng thành",
 "media_type": "Image",
-"index_reference": "cổng thành phố",
+"index_reference": "cổng thành",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0136_city_gate.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0136_city_gate.jpg'>link</a></p></block>",
@@ -2051,25 +2051,18 @@
 "preferred_label": "Ban phước"
 },
 {
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "thánh"
+},
+{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.357,
 "match_method": "canonical",
 "preferred_label": "Một thiên sứ"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Phi-li-tin"
-},
-{
-"id": "place:Bethlehem",
-"type": "place",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "Bết-lê-hem"
 },
 {
 "id": "keyterm:Glory",
@@ -2079,11 +2072,18 @@
 "preferred_label": "Vinh quang"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "place:Bethlehem",
+"type": "place",
 "confidence": 0.357,
 "match_method": "canonical",
-"preferred_label": "thánh"
+"preferred_label": "Bết-lê-hem"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "Phi-li-tin"
 },
 {
 "id": "realia:House",
@@ -2107,11 +2107,11 @@
 "preferred_label": "thước"
 },
 {
-"id": "place:EphraimGate",
+"id": "place:FishGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
-"preferred_label": "Cổng Ép-ra-im"
+"preferred_label": "Cổng Cá"
 },
 {
 "id": "place:ValleyGate",
@@ -2121,25 +2121,18 @@
 "preferred_label": "Cổng Thung Lũng"
 },
 {
+"id": "place:EphraimGate",
+"type": "place",
+"confidence": 0.308,
+"match_method": "canonical",
+"preferred_label": "Cổng Ép-ra-im"
+},
+{
 "id": "place:BenjaminGate",
 "type": "place",
 "confidence": 0.308,
 "match_method": "canonical",
 "preferred_label": "Cổng Bên-gia-min"
-},
-{
-"id": "place:FishGate",
-"type": "place",
-"confidence": 0.308,
-"match_method": "canonical",
-"preferred_label": "Cổng Cá"
-},
-{
-"id": "place:DungGate",
-"type": "place",
-"confidence": 0.3074,
-"match_method": "canonical",
-"preferred_label": "Cửa Phân"
 },
 {
 "id": "place:TowerOfHananel",
@@ -2149,11 +2142,11 @@
 "preferred_label": "Tháp Ha-na-nên"
 },
 {
-"id": "person:Haman",
-"type": "person",
-"confidence": 0.3062,
+"id": "place:DungGate",
+"type": "place",
+"confidence": 0.3074,
 "match_method": "canonical",
-"preferred_label": "Ha-man"
+"preferred_label": "Cửa Phân"
 },
 {
 "id": "place:Arad",
@@ -2161,6 +2154,13 @@
 "confidence": 0.3062,
 "match_method": "canonical",
 "preferred_label": "A-rát"
+},
+{
+"id": "person:Haman",
+"type": "person",
+"confidence": 0.3062,
+"match_method": "canonical",
+"preferred_label": "Ha-man"
 }
 ]
 }

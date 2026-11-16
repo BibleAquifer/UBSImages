@@ -3,9 +3,9 @@
 "content_id": "292581",
 "reference_id": 1734,
 "version": "1.0.4",
-"title": "Liềm cắt lúa",
+"title": "Người đàn ông gặt lúa bằng liềm",
 "media_type": "Image",
-"index_reference": "liềm cắt lúa",
+"index_reference": "người đàn ông gặt lúa bằng liềm",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0320_cutting_grain_sickle.jpg'>link</a></p></block>",
@@ -152,6 +152,13 @@
 "preferred_label": "Bầy"
 },
 {
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "chiên con"
+},
+{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1929,
@@ -159,11 +166,11 @@
 "preferred_label": "Đền Thờ"
 },
 {
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1929,
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "chiên con"
+"preferred_label": "Bộ tộc Giu-đa"
 },
 {
 "id": "deity:Lord",
@@ -173,25 +180,18 @@
 "preferred_label": "CHÚA"
 },
 {
-"id": "keyterm:Ability",
+"id": "place:Babylon",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Ba-by-lôn"
+},
+{
+"id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Khả năng"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Nô-ê"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Uy quyền"
+"preferred_label": "Trời"
 },
 {
 "id": "person:Judah.4",
@@ -201,18 +201,11 @@
 "preferred_label": "Giu-đa"
 },
 {
-"id": "place:Babylon",
-"type": "place",
+"id": "person:Noah",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Ba-by-lôn"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bộ tộc Giu-đa"
+"preferred_label": "Nô-ê"
 },
 {
 "id": "keyterm:Love",
@@ -229,13 +222,6 @@
 "preferred_label": "Bắt phục dịch"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Trời"
-},
-{
 "id": "place:Shephelah",
 "type": "place",
 "confidence": 0.1765,
@@ -243,11 +229,18 @@
 "preferred_label": "Sơ-phê-la"
 },
 {
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Hầm ép nho"
+"preferred_label": "Khả năng"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Uy quyền"
 },
 {
 "id": "realia:Crown.2",
@@ -257,11 +250,11 @@
 "preferred_label": "mão miện"
 },
 {
-"id": "realia:Pit",
+"id": "realia:Winepress",
 "type": "realia",
-"confidence": 0.1165,
+"confidence": 0.1282,
 "match_method": "canonical",
-"preferred_label": "Hầm"
+"preferred_label": "Hầm ép nho"
 },
 {
 "id": "flora:Barley",
@@ -278,13 +271,6 @@
 "preferred_label": "Ngũ cốc"
 },
 {
-"id": "realia:Tower",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Tháp canh"
-},
-{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1165,
@@ -297,6 +283,20 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "vương miện"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Tháp canh"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Hầm"
 }
 ]
 }

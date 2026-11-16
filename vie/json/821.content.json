@@ -3,9 +3,9 @@
 "content_id": "293217",
 "reference_id": 2370,
 "version": "1.0.4",
-"title": "Tượng đá",
+"title": "Đầu tượng đá chạm khắc",
 "media_type": "Image",
-"index_reference": "tượng đá",
+"index_reference": "đầu tượng đá chạm khắc",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0463_stone_image.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0463_stone_image.jpg'>link</a></p></block>",
@@ -450,11 +450,18 @@
 "preferred_label": "Mi-ca"
 },
 {
-"id": "realia:Ephod",
+"id": "flora:Pine",
+"type": "flora",
+"confidence": 0.2727,
+"match_method": "canonical",
+"preferred_label": "Cây thông đá"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.2727,
 "match_method": "canonical",
-"preferred_label": "ê-phót"
+"preferred_label": "Bàn thờ đền thờ"
 },
 {
 "id": "realia:Altar",
@@ -462,6 +469,13 @@
 "confidence": 0.2727,
 "match_method": "canonical",
 "preferred_label": "bàn thờ"
+},
+{
+"id": "realia:Ephod",
+"type": "realia",
+"confidence": 0.2727,
+"match_method": "canonical",
+"preferred_label": "ê-phót"
 },
 {
 "id": "realia:StoneAltar",
@@ -476,20 +490,6 @@
 "confidence": 0.2727,
 "match_method": "canonical",
 "preferred_label": "bàn thờ Đền Tạm"
-},
-{
-"id": "flora:Pine",
-"type": "flora",
-"confidence": 0.2727,
-"match_method": "canonical",
-"preferred_label": "Cây thông đá"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2727,
-"match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
 },
 {
 "id": "realia:HighPlace",
@@ -520,11 +520,11 @@
 "preferred_label": "thợ thủ công"
 },
 {
-"id": "keyterm:LeanOn",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.2164,
 "match_method": "canonical",
-"preferred_label": "Tin cậy"
+"preferred_label": "bổ nhiệm"
 },
 {
 "id": "place:Dan",
@@ -534,13 +534,6 @@
 "preferred_label": "Đan"
 },
 {
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.2164,
-"match_method": "canonical",
-"preferred_label": "bổ nhiệm"
-},
-{
 "id": "place:Babylon",
 "type": "place",
 "confidence": 0.2164,
@@ -548,11 +541,18 @@
 "preferred_label": "Ba-by-lôn"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "keyterm:LeanOn",
+"type": "keyterm",
 "confidence": 0.2164,
 "match_method": "canonical",
-"preferred_label": "Sa-lô-môn"
+"preferred_label": "Tin cậy"
+},
+{
+"id": "deity:Baal",
+"type": "deity",
+"confidence": 0.2164,
+"match_method": "canonical",
+"preferred_label": "Ba-anh"
 }
 ]
 }

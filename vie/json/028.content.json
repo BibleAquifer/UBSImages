@@ -3,9 +3,9 @@
 "content_id": "292380",
 "reference_id": 1533,
 "version": "1.0.4",
-"title": "Sư tử",
+"title": "Sư tử đực và sư tử cái nghỉ ngơi",
 "media_type": "Image",
-"index_reference": "sư tử",
+"index_reference": "sư tử đực và sư tử cái nghỉ ngơi",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0596_lions.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0596_lions.jpg'>link</a></p></block>",
@@ -812,11 +812,11 @@
 "preferred_label": "chiên con"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Jackal",
 "type": "fauna",
 "confidence": 0.3148,
 "match_method": "canonical",
-"preferred_label": "Bò"
+"preferred_label": "chó rừng"
 },
 {
 "id": "fauna:Hyena",
@@ -826,18 +826,18 @@
 "preferred_label": "linh cẩu"
 },
 {
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.3148,
+"match_method": "canonical",
+"preferred_label": "Bò"
+},
+{
 "id": "fauna:Goat",
 "type": "fauna",
 "confidence": 0.3148,
 "match_method": "canonical",
 "preferred_label": "dê"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.3148,
-"match_method": "canonical",
-"preferred_label": "chó rừng"
 },
 {
 "id": "person:Judah.4",
@@ -875,6 +875,20 @@
 "preferred_label": "Kên kên"
 },
 {
+"id": "person:Saul.2",
+"type": "person",
+"confidence": 0.2606,
+"match_method": "canonical",
+"preferred_label": "Sau-lơ"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2606,
+"match_method": "canonical",
+"preferred_label": "Sợ hãi / Kính sợ"
+},
+{
 "id": "place:Jordan",
 "type": "place",
 "confidence": 0.2606,
@@ -889,20 +903,6 @@
 "preferred_label": "Bộ tộc Giu-đa"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2606,
-"match_method": "canonical",
-"preferred_label": "Mô-áp"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.2606,
-"match_method": "canonical",
-"preferred_label": "Sau-lơ"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2606,
@@ -910,11 +910,11 @@
 "preferred_label": "Đa-vít"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "place:Moab",
+"type": "place",
 "confidence": 0.2606,
 "match_method": "canonical",
-"preferred_label": "Sợ hãi / Kính sợ"
+"preferred_label": "Mô-áp"
 },
 {
 "id": "fauna:Wolf",
@@ -924,13 +924,6 @@
 "preferred_label": "Chó sói"
 },
 {
-"id": "flora:Sandalwood",
-"type": "flora",
-"confidence": 0.2542,
-"match_method": "canonical",
-"preferred_label": "cây đàn hương"
-},
-{
 "id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.2542,
@@ -938,11 +931,25 @@
 "preferred_label": "Rồng"
 },
 {
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.2542,
+"match_method": "canonical",
+"preferred_label": "cây đàn hương"
+},
+{
 "id": "person:Sluggard",
 "type": "person",
 "confidence": 0.2102,
 "match_method": "canonical",
 "preferred_label": "Kẻ lười biếng"
+},
+{
+"id": "person:Benaiah",
+"type": "person",
+"confidence": 0.2087,
+"match_method": "canonical",
+"preferred_label": "Bê-na-gia"
 },
 {
 "id": "person:Jehoiada",
@@ -959,32 +966,25 @@
 "preferred_label": "Cáp-xê-ên"
 },
 {
-"id": "person:Benaiah",
-"type": "person",
-"confidence": 0.2087,
-"match_method": "canonical",
-"preferred_label": "Bê-na-gia"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.2071,
-"match_method": "canonical",
-"preferred_label": "Phi-li-tin"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2071,
-"match_method": "canonical",
-"preferred_label": "A-sy-ri"
-},
-{
-"id": "keyterm:Safety",
+"id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.2071,
 "match_method": "canonical",
-"preferred_label": "Sự an toàn"
+"preferred_label": "bổ nhiệm"
+},
+{
+"id": "keyterm:IntactState",
+"type": "keyterm",
+"confidence": 0.2071,
+"match_method": "canonical",
+"preferred_label": "sự bình an"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.2071,
+"match_method": "canonical",
+"preferred_label": "Sa-ma-ri"
 }
 ]
 }

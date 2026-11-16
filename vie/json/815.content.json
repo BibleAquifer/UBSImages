@@ -3,9 +3,9 @@
 "content_id": "293211",
 "reference_id": 2364,
 "version": "1.0.4",
-"title": "Thau đựng lửa",
+"title": "Lư hương",
 "media_type": "Image",
-"index_reference": "thau đựng lửa",
+"index_reference": "lư hương",
 "language": "vie",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0454_firepan.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0454_firepan.jpg'>link</a></p></block>",
@@ -157,18 +157,25 @@
 "preferred_label": "chĩa"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.2611,
-"match_method": "canonical",
-"preferred_label": "bàn thờ"
-},
-{
 "id": "realia:CookingPot",
 "type": "realia",
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "nồi nấu"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.2611,
+"match_method": "canonical",
+"preferred_label": "Bàn thờ đền thờ"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.2611,
+"match_method": "canonical",
+"preferred_label": "bàn thờ"
 },
 {
 "id": "realia:StoneAltar",
@@ -183,13 +190,6 @@
 "confidence": 0.2611,
 "match_method": "canonical",
 "preferred_label": "bàn thờ Đền Tạm"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.2611,
-"match_method": "canonical",
-"preferred_label": "Bàn thờ đền thờ"
 },
 {
 "id": "person:Moses",
@@ -227,13 +227,6 @@
 "preferred_label": "chậu"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "Lều Hội Kiến"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1874,
@@ -241,18 +234,11 @@
 "preferred_label": "Tiền bạc"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "chân đèn"
-},
-{
-"id": "realia:Lamp",
-"type": "realia",
-"confidence": 0.1874,
-"match_method": "canonical",
-"preferred_label": "đèn dầu"
+"preferred_label": "Cây gậy"
 },
 {
 "id": "realia:House",
@@ -262,11 +248,25 @@
 "preferred_label": "nhà"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.1874,
 "match_method": "canonical",
-"preferred_label": "Cây gậy"
+"preferred_label": "đèn dầu"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "chân đèn"
+},
+{
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.1874,
+"match_method": "canonical",
+"preferred_label": "Lều Hội Kiến"
 },
 {
 "id": "person:Abihu",
@@ -283,6 +283,13 @@
 "preferred_label": "Na-đáp"
 },
 {
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Bộ tộc Lê-vi"
+},
+{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.1737,
@@ -290,11 +297,11 @@
 "preferred_label": "Y-sơ-ra-ên"
 },
 {
-"id": "group:Levi",
-"type": "group",
+"id": "person:Korah.3",
+"type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "Bộ tộc Lê-vi"
+"preferred_label": "Cô-ra"
 },
 {
 "id": "keyterm:Witness.2",
@@ -311,20 +318,6 @@
 "preferred_label": "Lê-vi"
 },
 {
-"id": "person:Korah.3",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Cô-ra"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1137,
-"match_method": "canonical",
-"preferred_label": "dầu xức"
-},
-{
 "id": "realia:PurpleCloth",
 "type": "realia",
 "confidence": 0.1137,
@@ -339,11 +332,11 @@
 "preferred_label": "Bò biển"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Leather",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "dầu ô-liu"
+"preferred_label": "da thuộc"
 },
 {
 "id": "realia:Curtain",
@@ -353,11 +346,18 @@
 "preferred_label": "bức màn"
 },
 {
-"id": "realia:Leather",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1137,
 "match_method": "canonical",
-"preferred_label": "da thuộc"
+"preferred_label": "dầu ô-liu"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "dầu xức"
 }
 ]
 }
