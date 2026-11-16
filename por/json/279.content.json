@@ -332,6 +332,13 @@
 "preferred_label": "côvado"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.357,
+"match_method": "canonical",
+"preferred_label": "altar do templo"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.357,
@@ -351,13 +358,6 @@
 "confidence": 0.357,
 "match_method": "canonical",
 "preferred_label": "altar do tabernáculo"
-},
-{
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.357,
-"match_method": "canonical",
-"preferred_label": "altar do templo"
 },
 {
 "id": "realia:Tent",
@@ -381,18 +381,18 @@
 "preferred_label": "Moisés"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.3379,
-"match_method": "canonical",
-"preferred_label": "corda"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.3379,
 "match_method": "canonical",
 "preferred_label": "Arca da Aliança"
+},
+{
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.3379,
+"match_method": "canonical",
+"preferred_label": "corda"
 },
 {
 "id": "realia:Covering",
@@ -416,25 +416,11 @@
 "preferred_label": "testemunho"
 },
 {
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.2783,
-"match_method": "canonical",
-"preferred_label": "Tenda do Encontro"
-},
-{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.2783,
 "match_method": "canonical",
 "preferred_label": "fuso"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.2783,
-"match_method": "canonical",
-"preferred_label": "tecido de púrpura"
 },
 {
 "id": "realia:Linen",
@@ -451,6 +437,27 @@
 "preferred_label": "cortina"
 },
 {
+"id": "realia:TentOfMeeting",
+"type": "realia",
+"confidence": 0.2783,
+"match_method": "canonical",
+"preferred_label": "Tenda do Encontro"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.2783,
+"match_method": "canonical",
+"preferred_label": "tecido de púrpura"
+},
+{
+"id": "realia:Peg",
+"type": "realia",
+"confidence": 0.2187,
+"match_method": "canonical",
+"preferred_label": "estaca"
+},
+{
 "id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.2187,
@@ -465,11 +472,11 @@
 "preferred_label": "acácia"
 },
 {
-"id": "realia:Peg",
-"type": "realia",
-"confidence": 0.2187,
+"id": "person:Merari",
+"type": "person",
+"confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "estaca"
+"preferred_label": "Merari"
 },
 {
 "id": "deity:Lord",
@@ -479,25 +486,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Arão"
-},
-{
-"id": "person:Gershon",
-"type": "person",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Gérson"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "santo"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Arão"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -507,18 +507,11 @@
 "preferred_label": "forçar a servir"
 },
 {
-"id": "person:Merari",
+"id": "person:Gershon",
 "type": "person",
 "confidence": 0.1596,
 "match_method": "canonical",
-"preferred_label": "Merari"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1591,
-"match_method": "canonical",
-"preferred_label": "óleo da unção"
+"preferred_label": "Gérson"
 },
 {
 "id": "fauna:Dugong",
@@ -542,18 +535,18 @@
 "preferred_label": "azeite de oliva"
 },
 {
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1591,
+"match_method": "canonical",
+"preferred_label": "óleo da unção"
+},
+{
 "id": "realia:GoatHairStrips",
 "type": "realia",
 "confidence": 0.1038,
 "match_method": "canonical",
 "preferred_label": "cortinas de pelo de cabra"
-},
-{
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "tecido tingido"
 },
 {
 "id": "realia:CoverLid",
@@ -563,18 +556,11 @@
 "preferred_label": "propiciatório"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "candelabro"
-},
-{
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.0996,
-"match_method": "canonical",
-"preferred_label": "couro"
+"preferred_label": "cortinas de linho"
 },
 {
 "id": "fauna:Lamb",
@@ -584,11 +570,25 @@
 "preferred_label": "Cordeiro"
 },
 {
-"id": "realia:LinenStrips",
+"id": "realia:DyedCloth",
 "type": "realia",
 "confidence": 0.0996,
 "match_method": "canonical",
-"preferred_label": "cortinas de linho"
+"preferred_label": "tecido tingido"
+},
+{
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "couro"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.0996,
+"match_method": "canonical",
+"preferred_label": "candelabro"
 }
 ]
 }

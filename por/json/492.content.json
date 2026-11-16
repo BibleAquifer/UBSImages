@@ -157,13 +157,6 @@
 "preferred_label": "cão"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "contaminação"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2474,
@@ -171,18 +164,11 @@
 "preferred_label": "santo"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:Defilement",
 "type": "keyterm",
-"confidence": 0.1737,
+"confidence": 0.2474,
 "match_method": "canonical",
-"preferred_label": "oferta"
+"preferred_label": "contaminação"
 },
 {
 "id": "keyterm:Mischief",
@@ -192,6 +178,13 @@
 "preferred_label": "maldade"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
+},
+{
 "id": "person:GenericPerson",
 "type": "person",
 "confidence": 0.1737,
@@ -199,11 +192,11 @@
 "preferred_label": "Uma pessoa"
 },
 {
-"id": "keyterm:DetestedThing",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "abominação"
+"preferred_label": "oferta"
 },
 {
 "id": "keyterm:True",
@@ -213,6 +206,13 @@
 "preferred_label": "verdadeiro"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "Demônios"
+},
+{
 "id": "keyterm:Bless",
 "type": "keyterm",
 "confidence": 0.1737,
@@ -220,18 +220,11 @@
 "preferred_label": "abençoar"
 },
 {
-"id": "keyterm:DemonPossessed",
+"id": "keyterm:DetestedThing",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "estar endemoninhado"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "Demônios"
+"preferred_label": "abominação"
 },
 {
 "id": "keyterm:Pure",
@@ -241,11 +234,11 @@
 "preferred_label": "puro"
 },
 {
-"id": "flora:Carob",
-"type": "flora",
-"confidence": 0.1242,
+"id": "keyterm:DemonPossessed",
+"type": "keyterm",
+"confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "alfarrobeira"
+"preferred_label": "estar endemoninhado"
 },
 {
 "id": "fauna:Mouse",
@@ -255,11 +248,11 @@
 "preferred_label": "rato"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1137,
+"id": "flora:Carob",
+"type": "flora",
+"confidence": 0.1242,
 "match_method": "canonical",
-"preferred_label": "gado"
+"preferred_label": "alfarrobeira"
 },
 {
 "id": "flora:Frankincense",
@@ -281,6 +274,13 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "brinco"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "gado"
 }
 ]
 }

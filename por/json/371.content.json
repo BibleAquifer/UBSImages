@@ -3,9 +3,9 @@
 "content_id": "286191",
 "reference_id": 1876,
 "version": "1.0.4",
-"title": "Cana-gigante",
+"title": "Folhas de cana-gigante",
 "media_type": "Image",
-"index_reference": "canagigante",
+"index_reference": "folhas de canagigante",
 "language": "por",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0753_reed_giant.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0753_reed_giant.jpg'>link</a></p></block>",
@@ -242,18 +242,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "realia:Staff",
-"type": "realia",
-"confidence": 0.2963,
-"match_method": "canonical",
-"preferred_label": "cajado"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2963,
 "match_method": "canonical",
 "preferred_label": "casa"
+},
+{
+"id": "realia:Staff",
+"type": "realia",
+"confidence": 0.2963,
+"match_method": "canonical",
+"preferred_label": "cajado"
 },
 {
 "id": "realia:MeasuringRod",
@@ -277,6 +277,20 @@
 "preferred_label": "côvado"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "João"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "Israel"
+},
+{
 "id": "keyterm:LeanOn",
 "type": "keyterm",
 "confidence": 0.2281,
@@ -291,39 +305,11 @@
 "preferred_label": "prostrar-se"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2281,
-"match_method": "canonical",
-"preferred_label": "João"
-},
-{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
 "preferred_label": "vinagre"
-},
-{
-"id": "realia:Doorstep",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "degrau da porta"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1681,
-"match_method": "canonical",
-"preferred_label": "Templo"
 },
 {
 "id": "realia:Foundation",
@@ -340,60 +326,18 @@
 "preferred_label": "erva"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1641,
+"id": "realia:Doorstep",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "degrau da porta"
 },
 {
-"id": "deity:Asherah",
-"type": "deity",
-"confidence": 0.1641,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1681,
 "match_method": "canonical",
-"preferred_label": "Aserá"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Rio Eufrates"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "verdade"
-},
-{
-"id": "place:Nile",
-"type": "place",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Rio Nilo"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Um Anjo"
-},
-{
-"id": "person:Elijah",
-"type": "person",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Elias"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "judeus"
+"preferred_label": "Templo"
 },
 {
 "id": "keyterm:Judgment",
@@ -403,6 +347,41 @@
 "preferred_label": "Juízo"
 },
 {
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Rio Eufrates"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "judeus"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Elias"
+},
+{
+"id": "place:Nile",
+"type": "place",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Rio Nilo"
+},
+{
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "verdade"
+},
+{
 "id": "place:Cush.2",
 "type": "place",
 "confidence": 0.1641,
@@ -410,46 +389,25 @@
 "preferred_label": "Cuxe"
 },
 {
-"id": "realia:Pen",
-"type": "realia",
-"confidence": 0.1103,
+"id": "deity:Asherah",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "pena"
+"preferred_label": "Aserá"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1103,
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "sarça"
+"preferred_label": "Um Anjo"
 },
 {
-"id": "flora:LotusPlants",
-"type": "flora",
-"confidence": 0.1103,
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "lótus"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "acácia"
-},
-{
-"id": "realia:Ink",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "tinta"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1103,
-"match_method": "canonical",
-"preferred_label": "coroa"
+"preferred_label": "Jesus"
 },
 {
 "id": "flora:Cattails",
@@ -459,6 +417,20 @@
 "preferred_label": "taboa"
 },
 {
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "coroa"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "sarça"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1103,
@@ -466,18 +438,32 @@
 "preferred_label": "coroa"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.1041,
+"id": "realia:Pen",
+"type": "realia",
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "espinheiro"
+"preferred_label": "pena"
 },
 {
-"id": "flora:Papyrus",
+"id": "flora:LotusPlants",
 "type": "flora",
-"confidence": 0.1041,
+"confidence": 0.1103,
 "match_method": "canonical",
-"preferred_label": "papiro"
+"preferred_label": "lótus"
+},
+{
+"id": "realia:Ink",
+"type": "realia",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "tinta"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1103,
+"match_method": "canonical",
+"preferred_label": "acácia"
 },
 {
 "id": "fauna:Jackal",
@@ -487,13 +473,6 @@
 "preferred_label": "chacal"
 },
 {
-"id": "realia:Linen",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "linho"
-},
-{
 "id": "realia:Thread",
 "type": "realia",
 "confidence": 0.1041,
@@ -501,25 +480,11 @@
 "preferred_label": "fio"
 },
 {
-"id": "realia:SacredPole",
+"id": "realia:Room",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "poste sagrado"
-},
-{
-"id": "realia:Handbreadth",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "quatro dedos"
-},
-{
-"id": "realia:CityWall",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "muralha"
+"preferred_label": "câmara"
 },
 {
 "id": "realia:Lamp",
@@ -529,11 +494,46 @@
 "preferred_label": "lâmpada"
 },
 {
-"id": "realia:Room",
+"id": "realia:Handbreadth",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "câmara"
+"preferred_label": "quatro dedos"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "linho"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "papiro"
+},
+{
+"id": "realia:SacredPole",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "poste sagrado"
+},
+{
+"id": "realia:CityWall",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "muralha"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "espinheiro"
 }
 ]
 }

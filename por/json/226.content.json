@@ -155,18 +155,18 @@
 "preferred_label": "sarça"
 },
 {
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.4829,
-"match_method": "canonical",
-"preferred_label": "espinheiro"
-},
-{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.4829,
 "match_method": "canonical",
 "preferred_label": "acácia"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.4829,
+"match_method": "canonical",
+"preferred_label": "espinheiro"
 },
 {
 "id": "person:Israel",
@@ -183,11 +183,11 @@
 "preferred_label": "Amazias"
 },
 {
-"id": "place:Lebanon",
-"type": "place",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.2429,
 "match_method": "canonical",
-"preferred_label": "Líbano"
+"preferred_label": "Tribo de Judá"
 },
 {
 "id": "person:Judah.4",
@@ -197,13 +197,6 @@
 "preferred_label": "Judá"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "Tribo de Judá"
-},
-{
 "id": "person:Joash.4",
 "type": "person",
 "confidence": 0.2429,
@@ -211,18 +204,18 @@
 "preferred_label": "Joás"
 },
 {
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Líbano"
+},
+{
 "id": "flora:Nettle",
 "type": "flora",
 "confidence": 0.1924,
 "match_method": "canonical",
 "preferred_label": "urtiga"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "videira"
 },
 {
 "id": "flora:Fig",
@@ -239,95 +232,18 @@
 "preferred_label": "cedro"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "videira"
+},
+{
 "id": "keyterm:DailyLife",
 "type": "keyterm",
 "confidence": 0.181,
 "match_method": "canonical",
 "preferred_label": "vida diária"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "íntegro"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "desapossar"
-},
-{
-"id": "person:Zalmunna",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Zalmuna"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "habilidade"
-},
-{
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Gideão"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Egito"
-},
-{
-"id": "place:Memphis",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Mênfis"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "provérbio"
-},
-{
-"id": "place:Succoth",
-"type": "place",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Sucote"
-},
-{
-"id": "person:Job",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Jó"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "para sempre"
 },
 {
 "id": "person:Zebah",
@@ -337,6 +253,13 @@
 "preferred_label": "Zeba"
 },
 {
+"id": "place:Memphis",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Mênfis"
+},
+{
 "id": "keyterm:Stupid",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -344,39 +267,81 @@
 "preferred_label": "tolo"
 },
 {
-"id": "flora:Weed",
-"type": "flora",
-"confidence": 0.1114,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "joio"
+"preferred_label": "SENHOR"
 },
 {
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.1114,
+"id": "person:Zalmunna",
+"type": "person",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "cova"
+"preferred_label": "Zalmuna"
 },
 {
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1114,
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Dinheiro"
+"preferred_label": "provérbio"
 },
 {
-"id": "flora:Lily",
-"type": "flora",
-"confidence": 0.1114,
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "lírio"
+"preferred_label": "desapossar"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1114,
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "chacal"
+"preferred_label": "para sempre"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Gideão"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "habilidade"
+},
+{
+"id": "place:Succoth",
+"type": "place",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sucote"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "íntegro"
+},
+{
+"id": "person:Job",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Jó"
 },
 {
 "id": "flora:Barley",
@@ -386,18 +351,25 @@
 "preferred_label": "cevada"
 },
 {
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "coruja"
-},
-{
 "id": "fauna:Ostrich",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "avestruz"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "chacal"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Dinheiro"
 },
 {
 "id": "flora:Wheat",
@@ -407,11 +379,39 @@
 "preferred_label": "trigo"
 },
 {
+"id": "flora:Lily",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "lírio"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "sândalo"
+},
+{
+"id": "flora:Weed",
+"type": "flora",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "joio"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "coruja"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "cova"
 }
 ]
 }

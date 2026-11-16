@@ -83,13 +83,6 @@
 "preferred_label": "Babilônia"
 },
 {
-"id": "realia:CastingNet",
-"type": "realia",
-"confidence": 0.2622,
-"match_method": "canonical",
-"preferred_label": "rede de arremesso"
-},
-{
 "id": "realia:BitAndBridle",
 "type": "realia",
 "confidence": 0.2622,
@@ -97,25 +90,18 @@
 "preferred_label": "freio e rédea"
 },
 {
+"id": "realia:CastingNet",
+"type": "realia",
+"confidence": 0.2622,
+"match_method": "canonical",
+"preferred_label": "rede de arremesso"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "SENHOR"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Assíria"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Egito"
 },
 {
 "id": "person:Israel",
@@ -130,6 +116,20 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Rio Nilo"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Egito"
+},
+{
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Assíria"
 },
 {
 "id": "person:Manasseh.2",
@@ -160,11 +160,18 @@
 "preferred_label": "espada"
 },
 {
-"id": "fauna:Horse",
+"id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "cavalo"
+"preferred_label": "peixe"
+},
+{
+"id": "realia:Fortress",
+"type": "realia",
+"confidence": 0.14,
+"match_method": "canonical",
+"preferred_label": "fortaleza"
 },
 {
 "id": "realia:Net",
@@ -174,18 +181,11 @@
 "preferred_label": "rede"
 },
 {
-"id": "realia:SmallShield",
-"type": "realia",
-"confidence": 0.14,
-"match_method": "canonical",
-"preferred_label": "escudo pequeno"
-},
-{
-"id": "fauna:Fish",
+"id": "fauna:Horse",
 "type": "fauna",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "peixe"
+"preferred_label": "cavalo"
 },
 {
 "id": "realia:LargeShield",
@@ -195,11 +195,11 @@
 "preferred_label": "escudo grande"
 },
 {
-"id": "realia:Fortress",
+"id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.14,
 "match_method": "canonical",
-"preferred_label": "fortaleza"
+"preferred_label": "escudo pequeno"
 }
 ]
 }

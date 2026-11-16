@@ -119,13 +119,6 @@
 "preferred_label": "chacal"
 },
 {
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "Leão"
-},
-{
 "id": "fauna:Bear",
 "type": "fauna",
 "confidence": 0.5,
@@ -133,11 +126,11 @@
 "preferred_label": "urso"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.26,
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.5,
 "match_method": "canonical",
-"preferred_label": "SENHOR"
+"preferred_label": "Leão"
 },
 {
 "id": "keyterm:IntactState",
@@ -145,6 +138,13 @@
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "paz"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "SENHOR"
 },
 {
 "id": "fauna:Owl",
@@ -168,11 +168,11 @@
 "preferred_label": "fazer possuir"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "José"
+"preferred_label": "Jerusalém"
 },
 {
 "id": "place:Assyria",
@@ -182,32 +182,18 @@
 "preferred_label": "Assíria"
 },
 {
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "José"
+},
+{
 "id": "keyterm:Safety",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "segurança"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Jerusalém"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "aliança"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Caldeia"
 },
 {
 "id": "group:Chaldea",
@@ -217,18 +203,25 @@
 "preferred_label": "caldeus"
 },
 {
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Caldeia"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "aliança"
+},
+{
 "id": "fauna:WildCat",
 "type": "fauna",
 "confidence": 0.1333,
 "match_method": "canonical",
 "preferred_label": "gato-selvagem"
-},
-{
-"id": "fauna:TawnyOwl.2",
-"type": "fauna",
-"confidence": 0.1333,
-"match_method": "canonical",
-"preferred_label": "coruja-do-mato"
 },
 {
 "id": "fauna:GiantCroccodile",
@@ -238,39 +231,11 @@
 "preferred_label": "Leviatã"
 },
 {
-"id": "realia:Tunic.2",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "túnica longa"
-},
-{
-"id": "realia:Pit",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "cova"
-},
-{
-"id": "realia:SiegeTower",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "torre de cerco"
-},
-{
-"id": "fauna:Vulture",
+"id": "fauna:TawnyOwl.2",
 "type": "fauna",
-"confidence": 0.12,
+"confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "abutre"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "casa"
+"preferred_label": "coruja-do-mato"
 },
 {
 "id": "fauna:Dragon",
@@ -280,11 +245,46 @@
 "preferred_label": "dragão"
 },
 {
+"id": "fauna:Vulture",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "abutre"
+},
+{
+"id": "realia:Tunic.2",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "túnica longa"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "casa"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "sândalo"
+},
+{
+"id": "realia:SiegeTower",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "torre de cerco"
+},
+{
+"id": "realia:Pit",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "cova"
 }
 ]
 }

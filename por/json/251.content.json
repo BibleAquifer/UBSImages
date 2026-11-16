@@ -282,13 +282,6 @@
 "preferred_label": "altar do tabernáculo"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "altar"
-},
-{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.1733,
@@ -296,11 +289,18 @@
 "preferred_label": "Arca da Aliança"
 },
 {
-"id": "flora:Acacia",
-"type": "flora",
+"id": "realia:TempleAltar",
+"type": "realia",
 "confidence": 0.1733,
 "match_method": "canonical",
-"preferred_label": "acácia"
+"preferred_label": "altar do templo"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "altar"
 },
 {
 "id": "realia:StoneAltar",
@@ -317,6 +317,13 @@
 "preferred_label": "casa"
 },
 {
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1733,
+"match_method": "canonical",
+"preferred_label": "acácia"
+},
+{
 "id": "realia:Tent",
 "type": "realia",
 "confidence": 0.1733,
@@ -324,18 +331,18 @@
 "preferred_label": "tenda"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1733,
-"match_method": "canonical",
-"preferred_label": "altar do templo"
-},
-{
-"id": "group:Tishbite",
-"type": "group",
+"id": "person:Peter",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "tisbitas"
+"preferred_label": "Pedro"
+},
+{
+"id": "person:Elijah",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Elias"
 },
 {
 "id": "keyterm:Cleanse.2",
@@ -343,6 +350,13 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "purificar"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "santo"
 },
 {
 "id": "keyterm:Instruction",
@@ -359,25 +373,11 @@
 "preferred_label": "Tisbe"
 },
 {
-"id": "person:Elijah",
-"type": "person",
+"id": "group:Tishbite",
+"type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Elias"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "santo"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Pedro"
+"preferred_label": "tisbitas"
 },
 {
 "id": "realia:Fork",
@@ -387,18 +387,18 @@
 "preferred_label": "garfo"
 },
 {
-"id": "realia:Shovel",
-"type": "realia",
-"confidence": 0.1141,
-"match_method": "canonical",
-"preferred_label": "pá"
-},
-{
 "id": "realia:Belt",
 "type": "realia",
 "confidence": 0.1141,
 "match_method": "canonical",
 "preferred_label": "cinto"
+},
+{
+"id": "realia:Shovel",
+"type": "realia",
+"confidence": 0.1141,
+"match_method": "canonical",
+"preferred_label": "pá"
 },
 {
 "id": "realia:Screen",

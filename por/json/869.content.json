@@ -365,13 +365,6 @@
 "preferred_label": "abençoar"
 },
 {
-"id": "place:Hell",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Inferno"
-},
-{
 "id": "keyterm:Intention",
 "type": "keyterm",
 "confidence": 0.2161,
@@ -386,6 +379,20 @@
 "preferred_label": "Bondade"
 },
 {
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Inferno"
+},
+{
+"id": "keyterm:Redeem",
+"type": "keyterm",
+"confidence": 0.158,
+"match_method": "canonical",
+"preferred_label": "resgatar"
+},
+{
 "id": "keyterm:SeekfindRefuge",
 "type": "keyterm",
 "confidence": 0.158,
@@ -393,11 +400,11 @@
 "preferred_label": "buscar refúgio"
 },
 {
-"id": "keyterm:HaveInsight",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "ter discernimento"
+"preferred_label": "Mar Vermelho"
 },
 {
 "id": "keyterm:Just",
@@ -407,11 +414,11 @@
 "preferred_label": "Ser (ou mostrar-se) justo"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
+"id": "keyterm:HaveInsight",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "José"
+"preferred_label": "ter discernimento"
 },
 {
 "id": "keyterm:Arrow",
@@ -428,18 +435,11 @@
 "preferred_label": "Noé"
 },
 {
-"id": "place:RedSea",
-"type": "place",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Mar Vermelho"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.158,
-"match_method": "canonical",
-"preferred_label": "Líbano"
+"preferred_label": "Temor"
 },
 {
 "id": "keyterm:Horn",
@@ -449,18 +449,18 @@
 "preferred_label": "chifre"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:Joseph.10",
+"type": "person",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "Temor"
+"preferred_label": "José"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.158,
 "match_method": "canonical",
-"preferred_label": "resgatar"
+"preferred_label": "Líbano"
 },
 {
 "id": "realia:Throne",
@@ -470,25 +470,11 @@
 "preferred_label": "trono"
 },
 {
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "moinho de mão"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "criatura alada"
-},
-{
-"id": "fauna:Horse",
+"id": "fauna:Dragon",
 "type": "fauna",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "cavalo"
+"preferred_label": "dragão"
 },
 {
 "id": "realia:Foundation",
@@ -505,11 +491,11 @@
 "preferred_label": "taboa"
 },
 {
-"id": "realia:House",
+"id": "realia:Trap",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "casa"
+"preferred_label": "armadilha"
 },
 {
 "id": "fauna:Lamb",
@@ -519,18 +505,32 @@
 "preferred_label": "Cordeiro"
 },
 {
-"id": "fauna:Dragon",
-"type": "fauna",
-"confidence": 0.098,
-"match_method": "canonical",
-"preferred_label": "dragão"
-},
-{
-"id": "realia:Trap",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.098,
 "match_method": "canonical",
-"preferred_label": "armadilha"
+"preferred_label": "casa"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "criatura alada"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "moinho de mão"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.098,
+"match_method": "canonical",
+"preferred_label": "cavalo"
 }
 ]
 }
