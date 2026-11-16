@@ -300,6 +300,13 @@
 "preferred_label": "tente de la rencontre"
 },
 {
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.363,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.363,
@@ -321,11 +328,11 @@
 "preferred_label": "autel du tabernacle"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.363,
+"id": "person:Eleazar.2",
+"type": "person",
+"confidence": 0.2865,
 "match_method": "canonical",
-"preferred_label": "autel du Temple"
+"preferred_label": "Éléazar"
 },
 {
 "id": "keyterm:Priesthood",
@@ -342,11 +349,11 @@
 "preferred_label": "pécher"
 },
 {
-"id": "person:Eleazar.2",
-"type": "person",
-"confidence": 0.2865,
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "Éléazar"
+"preferred_label": "arche de l'alliance"
 },
 {
 "id": "realia:PurpleCloth",
@@ -356,11 +363,11 @@
 "preferred_label": "étoffe de pourpre"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2265,
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2243,
 "match_method": "canonical",
-"preferred_label": "arche de l'alliance"
+"preferred_label": "arche de l’alliance"
 },
 {
 "id": "keyterm:Defilement",
@@ -368,13 +375,6 @@
 "confidence": 0.2243,
 "match_method": "canonical",
 "preferred_label": "souillure"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2243,
-"match_method": "canonical",
-"preferred_label": "arche de l’alliance"
 },
 {
 "id": "realia:Tabernacle",
@@ -405,11 +405,11 @@
 "preferred_label": "chèvre"
 },
 {
-"id": "fauna:Bull",
+"id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1643,
 "match_method": "canonical",
-"preferred_label": "gros bétail"
+"preferred_label": "troupeau"
 },
 {
 "id": "realia:Linen",
@@ -419,20 +419,6 @@
 "preferred_label": "lin"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "voile"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1643,
-"match_method": "canonical",
-"preferred_label": "troupeau"
-},
-{
 "id": "realia:Talent",
 "type": "realia",
 "confidence": 0.1643,
@@ -440,11 +426,32 @@
 "preferred_label": "talent"
 },
 {
-"id": "keyterm:Rebel",
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "voile"
+},
+{
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.1643,
+"match_method": "canonical",
+"preferred_label": "gros bétail"
+},
+{
+"id": "keyterm:BearTheConsequencesOf",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "se rebeller"
+"preferred_label": "porter la responsabilité de"
+},
+{
+"id": "person:Bezalel",
+"type": "person",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Betsaleel"
 },
 {
 "id": "keyterm:Serve",
@@ -454,11 +461,25 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Understanding",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "intelligence"
+"preferred_label": "vrai"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "tribu de Lévi"
+},
+{
+"id": "deity:Molech",
+"type": "deity",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "Molek"
 },
 {
 "id": "keyterm:Ability",
@@ -475,13 +496,6 @@
 "preferred_label": "ardeur"
 },
 {
-"id": "keyterm:BearTheConsequencesOf",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "porter la responsabilité de"
-},
-{
 "id": "person:Phinehas",
 "type": "person",
 "confidence": 0.1622,
@@ -489,25 +503,25 @@
 "preferred_label": "Phinées"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "tribu de Lévi"
-},
-{
-"id": "keyterm:True",
+"id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "vrai"
+"preferred_label": "intelligence"
 },
 {
-"id": "person:Bezalel",
-"type": "person",
+"id": "keyterm:Rebel",
+"type": "keyterm",
 "confidence": 0.1622,
 "match_method": "canonical",
-"preferred_label": "Betsaleel"
+"preferred_label": "se rebeller"
+},
+{
+"id": "keyterm:Dishonor",
+"type": "keyterm",
+"confidence": 0.1622,
+"match_method": "canonical",
+"preferred_label": "déshonorer"
 },
 {
 "id": "person:Levi.3",
@@ -531,32 +545,11 @@
 "preferred_label": "Oholiab"
 },
 {
-"id": "deity:Molech",
-"type": "deity",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "Molek"
-},
-{
-"id": "keyterm:Dishonor",
-"type": "keyterm",
-"confidence": 0.1622,
-"match_method": "canonical",
-"preferred_label": "déshonorer"
-},
-{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1076,
 "match_method": "canonical",
 "preferred_label": "fuseau"
-},
-{
-"id": "realia:Breast-piece",
-"type": "realia",
-"confidence": 0.1076,
-"match_method": "canonical",
-"preferred_label": "pectoral"
 },
 {
 "id": "realia:LinenStrips",
@@ -566,53 +559,11 @@
 "preferred_label": "bandes de lin"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Breast-piece",
 "type": "realia",
-"confidence": 0.1022,
+"confidence": 0.1076,
 "match_method": "canonical",
-"preferred_label": "huile d'onction"
-},
-{
-"id": "realia:CoverLid",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "propitiatoire"
-},
-{
-"id": "realia:Covering",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "couverture"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "créature ailée"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "argent"
-},
-{
-"id": "fauna:Dugong",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "dugong"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "huile d'olive"
+"preferred_label": "pectoral"
 },
 {
 "id": "realia:Screen",
@@ -622,11 +573,25 @@
 "preferred_label": "rideau"
 },
 {
-"id": "realia:Lampstand.2",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "chandelier"
+"preferred_label": "sicle"
+},
+{
+"id": "realia:Covering",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "couverture"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "propitiatoire"
 },
 {
 "id": "realia:Trumpet",
@@ -636,11 +601,32 @@
 "preferred_label": "trompette"
 },
 {
-"id": "realia:GoatHairStrips",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "bandes de poil de chèvre"
+"preferred_label": "argent"
+},
+{
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "agneau"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "créature ailée"
+},
+{
+"id": "fauna:Dugong",
+"type": "fauna",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "dugong"
 },
 {
 "id": "realia:Leather",
@@ -650,11 +636,32 @@
 "preferred_label": "cuir"
 },
 {
-"id": "realia:Shekel",
+"id": "realia:Lampstand.2",
 "type": "realia",
 "confidence": 0.1022,
 "match_method": "canonical",
-"preferred_label": "sicle"
+"preferred_label": "chandelier"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "huile d'olive"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "huile d'onction"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.1022,
+"match_method": "canonical",
+"preferred_label": "bandes de poil de chèvre"
 },
 {
 "id": "realia:Tent",
@@ -662,13 +669,6 @@
 "confidence": 0.1022,
 "match_method": "canonical",
 "preferred_label": "tente"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1022,
-"match_method": "canonical",
-"preferred_label": "agneau"
 }
 ]
 }

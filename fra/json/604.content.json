@@ -205,18 +205,18 @@
 "preferred_label": "Amma"
 },
 {
-"id": "person:Hur.2",
-"type": "person",
-"confidence": 0.1741,
-"match_method": "canonical",
-"preferred_label": "Hur"
-},
-{
 "id": "person:Asaph.2",
 "type": "person",
 "confidence": 0.1741,
 "match_method": "canonical",
 "preferred_label": "Asaph"
+},
+{
+"id": "person:Hur.2",
+"type": "person",
+"confidence": 0.1741,
+"match_method": "canonical",
+"preferred_label": "Hur"
 },
 {
 "id": "place:Giah",
@@ -226,11 +226,25 @@
 "preferred_label": "Guiach"
 },
 {
-"id": "person:David",
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "jurer"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Gentils"
+},
+{
+"id": "person:Abishai",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "Abischaï"
 },
 {
 "id": "person:Moses",
@@ -240,25 +254,25 @@
 "preferred_label": "Moïse"
 },
 {
-"id": "person:Abner",
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "saint"
+},
+{
+"id": "place:Gibeah.2",
+"type": "place",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Guibea"
+},
+{
+"id": "person:Ahaz",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Abner"
-},
-{
-"id": "keyterm:PracticeDivination",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "pratiquer la divination"
-},
-{
-"id": "keyterm:Swear",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "jurer"
+"preferred_label": "Achaz"
 },
 {
 "id": "person:Benjamin",
@@ -275,53 +289,11 @@
 "preferred_label": "offrande"
 },
 {
-"id": "group:Syria",
-"type": "group",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Syriens"
-},
-{
-"id": "place:Gibeah.2",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Guibea"
-},
-{
-"id": "person:Joab",
+"id": "person:Abner",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Joab"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Aaron"
-},
-{
-"id": "person:Ahaz",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Achaz"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Égypte"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Abner"
 },
 {
 "id": "place:Ai",
@@ -331,32 +303,32 @@
 "preferred_label": "Aï"
 },
 {
-"id": "person:Abraham",
+"id": "person:Aaron",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Abraham"
+"preferred_label": "Aaron"
 },
 {
-"id": "keyterm:Terror",
+"id": "keyterm:PracticeDivination",
 "type": "keyterm",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "terreur"
+"preferred_label": "pratiquer la divination"
 },
 {
-"id": "person:Abishai",
+"id": "person:David",
 "type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Abischaï"
+"preferred_label": "David"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "saint"
+"preferred_label": "Israël"
 },
 {
 "id": "place:Gibeon",
@@ -366,11 +338,11 @@
 "preferred_label": "Gabaon"
 },
 {
-"id": "group:Benjamin",
-"type": "group",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "tribu de Benjamin"
+"preferred_label": "Égypte"
 },
 {
 "id": "keyterm:Bless",
@@ -380,11 +352,18 @@
 "preferred_label": "bénir"
 },
 {
-"id": "keyterm:Psalm",
-"type": "keyterm",
+"id": "person:Abraham",
+"type": "person",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "psaume"
+"preferred_label": "Abraham"
+},
+{
+"id": "person:Joab",
+"type": "person",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "Joab"
 },
 {
 "id": "keyterm:Passover",
@@ -394,11 +373,32 @@
 "preferred_label": "sacrifice de la Pâque"
 },
 {
-"id": "group:Gentile",
+"id": "group:Syria",
 "type": "group",
 "confidence": 0.1667,
 "match_method": "canonical",
-"preferred_label": "Gentils"
+"preferred_label": "Syriens"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "tribu de Benjamin"
+},
+{
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "terreur"
+},
+{
+"id": "keyterm:Psalm",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "psaume"
 },
 {
 "id": "realia:Cloak",

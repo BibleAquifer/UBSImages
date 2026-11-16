@@ -3,9 +3,9 @@
 "content_id": "282365",
 "reference_id": 1782,
 "version": "1.0.4",
-"title": "Boucles de crochet",
+"title": "Crochets et boucles",
 "media_type": "Image",
-"index_reference": "boucles de crochet",
+"index_reference": "crochets et boucles",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0431_hook_loops_en.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0431_hook_loops_en.jpg'>link</a></p></block>",
@@ -106,18 +106,18 @@
 "preferred_label": "lacet"
 },
 {
-"id": "realia:GoatHairStrips",
-"type": "realia",
-"confidence": 0.5471,
-"match_method": "canonical",
-"preferred_label": "bandes de poil de chèvre"
-},
-{
 "id": "realia:LinenStrips",
 "type": "realia",
 "confidence": 0.5471,
 "match_method": "canonical",
 "preferred_label": "bandes de lin"
+},
+{
+"id": "realia:GoatHairStrips",
+"type": "realia",
+"confidence": 0.5471,
+"match_method": "canonical",
+"preferred_label": "bandes de poil de chèvre"
 },
 {
 "id": "realia:Tent",
@@ -134,6 +134,13 @@
 "preferred_label": "arche de l’alliance"
 },
 {
+"id": "realia:ArkOfTheCovenant",
+"type": "realia",
+"confidence": 0.2043,
+"match_method": "canonical",
+"preferred_label": "arche de l'alliance"
+},
+{
 "id": "realia:Frame",
 "type": "realia",
 "confidence": 0.2043,
@@ -148,13 +155,6 @@
 "preferred_label": "étoffe de pourpre"
 },
 {
-"id": "realia:ArkOfTheCovenant",
-"type": "realia",
-"confidence": 0.2043,
-"match_method": "canonical",
-"preferred_label": "arche de l'alliance"
-},
-{
 "id": "place:HolyPlace",
 "type": "place",
 "confidence": 0.1964,
@@ -162,11 +162,18 @@
 "preferred_label": "Lieu saint"
 },
 {
-"id": "person:David",
+"id": "person:Nathan.2",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "David"
+"preferred_label": "Nathan"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "person:Moses",
@@ -176,11 +183,18 @@
 "preferred_label": "Moïse"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "keyterm:Holy",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Éternel"
+"preferred_label": "saint"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:Witness.2",
@@ -197,18 +211,11 @@
 "preferred_label": "alliance"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1821,
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.1221,
 "match_method": "canonical",
-"preferred_label": "saint"
-},
-{
-"id": "person:Nathan.2",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Nathan"
+"preferred_label": "cèdre"
 },
 {
 "id": "realia:Covering",
@@ -218,25 +225,18 @@
 "preferred_label": "couverture"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "voile"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "cèdre"
-},
-{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "maison"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "voile"
 }
 ]
 }

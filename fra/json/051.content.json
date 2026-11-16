@@ -312,18 +312,18 @@
 "preferred_label": "serpent"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "donner en possession"
-},
-{
 "id": "keyterm:Woe",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
 "preferred_label": "malheur"
+},
+{
+"id": "keyterm:Possess",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "donner en possession"
 },
 {
 "id": "keyterm:Body.3",
@@ -333,18 +333,32 @@
 "preferred_label": "corps"
 },
 {
-"id": "place:Bozrah.2",
-"type": "place",
+"id": "person:Saul.2",
+"type": "person",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Botsra"
+"preferred_label": "Saül"
 },
 {
-"id": "place:Egypt",
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "instruction"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "force"
+},
+{
+"id": "place:Moab",
 "type": "place",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "Égypte"
+"preferred_label": "Moab"
 },
 {
 "id": "person:Israel",
@@ -354,11 +368,67 @@
 "preferred_label": "Israël"
 },
 {
-"id": "keyterm:Instruction",
+"id": "keyterm:Midheaven",
 "type": "keyterm",
 "confidence": 0.1615,
 "match_method": "canonical",
-"preferred_label": "instruction"
+"preferred_label": "zénith"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "amour"
+},
+{
+"id": "place:Edom",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Édom"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Égypte"
+},
+{
+"id": "person:Abraham",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Abraham"
+},
+{
+"id": "place:Bozrah.2",
+"type": "place",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Botsra"
+},
+{
+"id": "person:Jonathan.3",
+"type": "person",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Jonathan"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "malheur"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1615,
+"match_method": "canonical",
+"preferred_label": "Un ange"
 },
 {
 "id": "place:Lebanon",
@@ -375,95 +445,11 @@
 "preferred_label": "alliance"
 },
 {
-"id": "place:Edom",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Édom"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "force"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Un ange"
-},
-{
-"id": "person:Abraham",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Abraham"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "amour"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "malheur"
-},
-{
-"id": "keyterm:Midheaven",
-"type": "keyterm",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "zénith"
-},
-{
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Moab"
-},
-{
-"id": "person:Saul.2",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Saül"
-},
-{
-"id": "person:Jonathan.3",
-"type": "person",
-"confidence": 0.1615,
-"match_method": "canonical",
-"preferred_label": "Jonathan"
-},
-{
-"id": "fauna:Osprey",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "balbuzard"
-},
-{
 "id": "fauna:BarnOwl",
 "type": "fauna",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "effraie des clochers"
-},
-{
-"id": "fauna:Hyena",
-"type": "fauna",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "hyène"
 },
 {
 "id": "fauna:Cormorant",
@@ -473,60 +459,18 @@
 "preferred_label": "cormoran"
 },
 {
-"id": "fauna:Falcon",
+"id": "fauna:Hyena",
 "type": "fauna",
-"confidence": 0.1015,
+"confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "faucon"
+"preferred_label": "hyène"
 },
 {
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "créature ailée"
-},
-{
-"id": "fauna:Leopard",
+"id": "fauna:Osprey",
 "type": "fauna",
-"confidence": 0.1015,
+"confidence": 0.1067,
 "match_method": "canonical",
-"preferred_label": "léopard"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "oiseau"
-},
-{
-"id": "flora:Papyrus",
-"type": "flora",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "papyrus"
-},
-{
-"id": "realia:Trumpet",
-"type": "realia",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "trompette"
-},
-{
-"id": "fauna:Crow",
-"type": "fauna",
-"confidence": 0.1015,
-"match_method": "canonical",
-"preferred_label": "corbeau"
+"preferred_label": "balbuzard"
 },
 {
 "id": "flora:Cedar",
@@ -536,11 +480,25 @@
 "preferred_label": "cèdre"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Trumpet",
 "type": "realia",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "corne de bélier"
+"preferred_label": "trompette"
+},
+{
+"id": "fauna:Wolf",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "loup"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "oiseau"
 },
 {
 "id": "realia:House",
@@ -550,6 +508,27 @@
 "preferred_label": "maison"
 },
 {
+"id": "fauna:Leopard",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "léopard"
+},
+{
+"id": "realia:WingedCreature",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "créature ailée"
+},
+{
+"id": "flora:Papyrus",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "papyrus"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1015,
@@ -557,11 +536,32 @@
 "preferred_label": "char"
 },
 {
-"id": "fauna:Wolf",
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "corne de bélier"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "fauna:Falcon",
 "type": "fauna",
 "confidence": 0.1015,
 "match_method": "canonical",
-"preferred_label": "loup"
+"preferred_label": "faucon"
+},
+{
+"id": "fauna:Crow",
+"type": "fauna",
+"confidence": 0.1015,
+"match_method": "canonical",
+"preferred_label": "corbeau"
 }
 ]
 }

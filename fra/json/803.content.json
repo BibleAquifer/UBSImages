@@ -3,9 +3,9 @@
 "content_id": "282935",
 "reference_id": 2352,
 "version": "1.0.4",
-"title": "Tell",
+"title": "Monticule archéologique derrière les ruines",
 "media_type": "Image",
-"index_reference": "tell",
+"index_reference": "monticule archéologique derrière les ruines",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0424_tell.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0424_tell.jpg'>link</a></p></block>",
@@ -119,18 +119,18 @@
 "preferred_label": "Israël"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.26,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
-},
-{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.26,
 "match_method": "canonical",
 "preferred_label": "Josué"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.26,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
 },
 {
 "id": "realia:House",
@@ -140,13 +140,6 @@
 "preferred_label": "maison"
 },
 {
-"id": "place:Moresheth",
-"type": "place",
-"confidence": 0.1933,
-"match_method": "canonical",
-"preferred_label": "Moréscheth"
-},
-{
 "id": "person:Micah.6",
 "type": "person",
 "confidence": 0.1933,
@@ -154,18 +147,18 @@
 "preferred_label": "Michée"
 },
 {
-"id": "keyterm:Possess",
-"type": "keyterm",
-"confidence": 0.18,
+"id": "place:Moresheth",
+"type": "place",
+"confidence": 0.1933,
 "match_method": "canonical",
-"preferred_label": "donner en possession"
+"preferred_label": "Moréscheth"
 },
 {
-"id": "keyterm:Defilement",
+"id": "keyterm:SomethingDevotedToGod",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "souillure"
+"preferred_label": "chose dévouée par interdit"
 },
 {
 "id": "keyterm:Swear",
@@ -175,53 +168,25 @@
 "preferred_label": "jurer"
 },
 {
-"id": "keyterm:Dispossess",
+"id": "keyterm:Possess",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "déposséder"
+"preferred_label": "donner en possession"
 },
 {
-"id": "place:Damascus",
+"id": "place:Ammon",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Damas"
+"preferred_label": "Ammon"
 },
 {
-"id": "keyterm:Speak",
-"type": "keyterm",
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "parler en prophète"
-},
-{
-"id": "keyterm:Utterance",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "oracle"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "complainte"
-},
-{
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Aï"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "place:Babylon",
@@ -231,11 +196,81 @@
 "preferred_label": "Babylone"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:Dispossess",
+"type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "déposséder"
+},
+{
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Ézéchias"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Aï"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Samarie"
+},
+{
+"id": "place:Damascus",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Damas"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "keyterm:Utterance",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "oracle"
+},
+{
+"id": "place:Hazor",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Hatsor"
+},
+{
+"id": "person:Asaph.2",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Asaph"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "parler en prophète"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "souillure"
 },
 {
 "id": "group:Ammon",
@@ -252,60 +287,11 @@
 "preferred_label": "psaume"
 },
 {
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Samarie"
-},
-{
-"id": "person:Hezekiah",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Ézéchias"
-},
-{
-"id": "person:Asaph.2",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Asaph"
-},
-{
-"id": "place:Ammon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Ammon"
-},
-{
-"id": "place:Hazor",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Hatsor"
-},
-{
-"id": "keyterm:SomethingDevotedToGod",
+"id": "keyterm:Lamentation",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "chose dévouée par interdit"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "chacal"
+"preferred_label": "complainte"
 },
 {
 "id": "realia:Foundation",
@@ -315,11 +301,25 @@
 "preferred_label": "fondement"
 },
 {
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "chacal"
+},
+{
 "id": "flora:Sandalwood",
 "type": "flora",
 "confidence": 0.12,
 "match_method": "canonical",
 "preferred_label": "santal"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "vigne"
 }
 ]
 }

@@ -3,9 +3,9 @@
 "content_id": "282354",
 "reference_id": 1771,
 "version": "1.0.4",
-"title": "Mur",
+"title": "Mur en blocs de pierre",
 "media_type": "Image",
-"index_reference": "mur",
+"index_reference": "mur en blocs de pierre",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0409_wall.jpg'>link</a></p></block>",
@@ -145,32 +145,11 @@
 "preferred_label": "Éternel"
 },
 {
-"id": "person:David",
-"type": "person",
+"id": "group:Ephraim",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "certainement !"
-},
-{
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "offrande"
+"preferred_label": "tribu d’Éphraïm"
 },
 {
 "id": "person:Ephraim",
@@ -180,13 +159,6 @@
 "preferred_label": "Éphraïm"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.1765,
@@ -194,25 +166,11 @@
 "preferred_label": "groupe de disciples"
 },
 {
-"id": "keyterm:Slaughtering",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "immolation"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "être un disciple"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "tribu d’Éphraïm"
+"preferred_label": "offrande"
 },
 {
 "id": "place:Samaria",
@@ -222,6 +180,27 @@
 "preferred_label": "Samarie"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "immolation"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "David"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
 "id": "keyterm:Dishonor",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -229,11 +208,25 @@
 "preferred_label": "déshonorer"
 },
 {
-"id": "realia:StonePlane",
-"type": "realia",
-"confidence": 0.1282,
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "rabot à pierre"
+"preferred_label": "certainement !"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
 },
 {
 "id": "realia:Foundation",
@@ -243,32 +236,32 @@
 "preferred_label": "fondement"
 },
 {
+"id": "realia:StonePlane",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "rabot à pierre"
+},
+{
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "coudée"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "autel du Temple"
+},
+{
 "id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "autel"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
-"id": "realia:Wine",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "vin"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Temple"
 },
 {
 "id": "realia:StoneAltar",
@@ -285,18 +278,25 @@
 "preferred_label": "autel du tabernacle"
 },
 {
-"id": "realia:Cubit",
+"id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "coudée"
+"preferred_label": "Temple"
 },
 {
-"id": "realia:TempleAltar",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:Wine",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "autel du Temple"
+"preferred_label": "vin"
 }
 ]
 }

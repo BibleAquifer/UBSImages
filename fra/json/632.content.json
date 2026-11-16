@@ -3,9 +3,9 @@
 "content_id": "282761",
 "reference_id": 2178,
 "version": "1.0.4",
-"title": "Soldats perses et mèdes",
+"title": "Soldats perses et mèdes : bas-relief",
 "media_type": "Image",
-"index_reference": "soldats perses et mèdes",
+"index_reference": "soldats perses et mèdes  basrelief",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0707_persian_median_soldiers.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0707_persian_median_soldiers.jpg'>link</a></p></block>",
@@ -335,13 +335,6 @@
 "preferred_label": "maison"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3409,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.3409,
@@ -349,11 +342,11 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "person:Israel",
+"id": "person:Judah.4",
 "type": "person",
 "confidence": 0.3409,
 "match_method": "canonical",
-"preferred_label": "Israël"
+"preferred_label": "Juda"
 },
 {
 "id": "group:Judah",
@@ -363,11 +356,11 @@
 "preferred_label": "tribu de Juda"
 },
 {
-"id": "group:Persia",
-"type": "group",
-"confidence": 0.2852,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3409,
 "match_method": "canonical",
-"preferred_label": "Perses"
+"preferred_label": "Israël"
 },
 {
 "id": "person:Darius.2",
@@ -377,6 +370,13 @@
 "preferred_label": "Darius"
 },
 {
+"id": "group:Persia",
+"type": "group",
+"confidence": 0.2852,
+"match_method": "canonical",
+"preferred_label": "Perses"
+},
+{
 "id": "person:Daniel.3",
 "type": "person",
 "confidence": 0.2807,
@@ -384,32 +384,18 @@
 "preferred_label": "Daniel"
 },
 {
+"id": "place:Gozan",
+"type": "place",
+"confidence": 0.2295,
+"match_method": "canonical",
+"preferred_label": "Gozan"
+},
+{
 "id": "place:Habor",
 "type": "place",
 "confidence": 0.2295,
 "match_method": "canonical",
 "preferred_label": "Chabor"
-},
-{
-"id": "person:Magog",
-"type": "person",
-"confidence": 0.2295,
-"match_method": "canonical",
-"preferred_label": "Magog"
-},
-{
-"id": "person:Madai",
-"type": "person",
-"confidence": 0.2295,
-"match_method": "canonical",
-"preferred_label": "Madaï"
-},
-{
-"id": "person:Meshech.2",
-"type": "person",
-"confidence": 0.2295,
-"match_method": "canonical",
-"preferred_label": "Méschec"
 },
 {
 "id": "person:Gomer",
@@ -426,18 +412,25 @@
 "preferred_label": "Javan"
 },
 {
-"id": "person:Tiras",
+"id": "person:Magog",
 "type": "person",
 "confidence": 0.2295,
 "match_method": "canonical",
-"preferred_label": "Tiras"
+"preferred_label": "Magog"
 },
 {
-"id": "place:Gozan",
-"type": "place",
+"id": "person:Meshech.2",
+"type": "person",
 "confidence": 0.2295,
 "match_method": "canonical",
-"preferred_label": "Gozan"
+"preferred_label": "Méschec"
+},
+{
+"id": "person:Madai",
+"type": "person",
+"confidence": 0.2295,
+"match_method": "canonical",
+"preferred_label": "Madaï"
 },
 {
 "id": "person:Tubal",
@@ -447,11 +440,11 @@
 "preferred_label": "Tubal"
 },
 {
-"id": "person:Artaxerxes",
+"id": "person:Tiras",
 "type": "person",
-"confidence": 0.225,
+"confidence": 0.2295,
 "match_method": "canonical",
-"preferred_label": "Artaxerxès"
+"preferred_label": "Tiras"
 },
 {
 "id": "place:Halah",
@@ -461,11 +454,11 @@
 "preferred_label": "Chalach"
 },
 {
-"id": "place:Put",
-"type": "place",
+"id": "person:Artaxerxes",
+"type": "person",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Puth"
+"preferred_label": "Artaxerxès"
 },
 {
 "id": "person:Japheth",
@@ -475,39 +468,18 @@
 "preferred_label": "Japhet"
 },
 {
+"id": "place:Put",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Puth"
+},
+{
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.2207,
 "match_method": "canonical",
 "preferred_label": "petit bouclier"
-},
-{
-"id": "place:Assyria",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Assyrie"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "vérité"
-},
-{
-"id": "person:Ahasuerus",
-"type": "person",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Assuérus"
-},
-{
-"id": "place:Elam",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Élam"
 },
 {
 "id": "person:Zerubbabel.2",
@@ -517,25 +489,11 @@
 "preferred_label": "Zorobabel"
 },
 {
-"id": "person:Jeremiah.6",
-"type": "person",
+"id": "place:Babylon",
+"type": "place",
 "confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "Jérémie"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "parole de l'Éternel"
-},
-{
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "Israélites"
+"preferred_label": "Babylone"
 },
 {
 "id": "place:Greece",
@@ -545,102 +503,53 @@
 "preferred_label": "Grèce"
 },
 {
-"id": "place:Babylon",
+"id": "place:Elam",
 "type": "place",
 "confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "Babylone"
+"preferred_label": "Élam"
 },
 {
-"id": "person:Carshena",
+"id": "person:Jeremiah.6",
 "type": "person",
-"confidence": 0.1648,
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "Carschena"
+"preferred_label": "Jérémie"
 },
 {
-"id": "place:Ecbatana",
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "vérité"
+},
+{
+"id": "group:Israel",
+"type": "group",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "Israélites"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "parole de l'Éternel"
+},
+{
+"id": "place:Assyria",
 "type": "place",
-"confidence": 0.1648,
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "Ecbatane"
+"preferred_label": "Assyrie"
 },
 {
-"id": "person:Marsena",
+"id": "person:Ahasuerus",
 "type": "person",
-"confidence": 0.1648,
+"confidence": 0.2205,
 "match_method": "canonical",
-"preferred_label": "Marsena"
-},
-{
-"id": "person:Shethar",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Schéthar"
-},
-{
-"id": "person:Darius",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Darius"
-},
-{
-"id": "person:Mithredath",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Mithredath"
-},
-{
-"id": "person:Tabeel",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Thabeel"
-},
-{
-"id": "person:Michael.11",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Michel"
-},
-{
-"id": "place:Zimri",
-"type": "place",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Zimri"
-},
-{
-"id": "person:Jaddua.2",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Jaddua"
-},
-{
-"id": "person:Meres",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Mérès"
-},
-{
-"id": "person:Zechariah.17",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Zacharie"
-},
-{
-"id": "person:Joiada.2",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Jojada"
+"preferred_label": "Assuérus"
 },
 {
 "id": "place:Judea",
@@ -650,67 +559,53 @@
 "preferred_label": "Judée"
 },
 {
-"id": "keyterm:Plan",
-"type": "keyterm",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "dessein"
-},
-{
-"id": "person:Vashti",
+"id": "person:Carshena",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "Vasthi"
+"preferred_label": "Carschena"
 },
 {
-"id": "person:Azariah.7",
+"id": "person:Tabeel",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "Azaria"
+"preferred_label": "Thabeel"
 },
 {
-"id": "person:Memucan",
+"id": "place:Ecbatana",
+"type": "place",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Ecbatane"
+},
+{
+"id": "person:Joiada.2",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "Memucan"
+"preferred_label": "Jojada"
 },
 {
-"id": "person:Johanan.9",
+"id": "person:Admatha",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "Jochanan"
+"preferred_label": "Admatha"
 },
 {
-"id": "person:Hoshea",
+"id": "group:Relatives",
+"type": "group",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "parents"
+},
+{
+"id": "person:Jaddua.2",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "Osée"
-},
-{
-"id": "person:Ezra",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Esdras"
-},
-{
-"id": "person:Lud",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Lud"
-},
-{
-"id": "person:Bishlam",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "Bischlam"
+"preferred_label": "Jaddua"
 },
 {
 "id": "person:Mithredath.2",
@@ -727,11 +622,11 @@
 "preferred_label": "Seraja"
 },
 {
-"id": "person:Admatha",
+"id": "person:Johanan.9",
 "type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "Admatha"
+"preferred_label": "Jochanan"
 },
 {
 "id": "person:Eliashib.8",
@@ -741,18 +636,116 @@
 "preferred_label": "Éliaschib"
 },
 {
-"id": "group:Relatives",
-"type": "group",
+"id": "person:Meres",
+"type": "person",
 "confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "parents"
+"preferred_label": "Mérès"
 },
 {
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.1605,
+"id": "person:Darius",
+"type": "person",
+"confidence": 0.1648,
 "match_method": "canonical",
-"preferred_label": "casque"
+"preferred_label": "Darius"
+},
+{
+"id": "person:Azariah.7",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Azaria"
+},
+{
+"id": "place:Zimri",
+"type": "place",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Zimri"
+},
+{
+"id": "person:Bishlam",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Bischlam"
+},
+{
+"id": "person:Memucan",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Memucan"
+},
+{
+"id": "person:Lud",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Lud"
+},
+{
+"id": "person:Hoshea",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Osée"
+},
+{
+"id": "person:Michael.11",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Michel"
+},
+{
+"id": "keyterm:Plan",
+"type": "keyterm",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "dessein"
+},
+{
+"id": "person:Shethar",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Schéthar"
+},
+{
+"id": "person:Mithredath",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Mithredath"
+},
+{
+"id": "person:Vashti",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Vasthi"
+},
+{
+"id": "person:Zechariah.17",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Zacharie"
+},
+{
+"id": "person:Marsena",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Marsena"
+},
+{
+"id": "person:Ezra",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "Esdras"
 },
 {
 "id": "realia:Money",
@@ -762,18 +755,53 @@
 "preferred_label": "argent"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1602,
+"id": "realia:Helmet",
+"type": "realia",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "bonté"
+"preferred_label": "casque"
 },
 {
-"id": "group:Levi",
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "tribu de Lévi"
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Hilkiah.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Hilkija"
+},
+{
+"id": "place:Samaria",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Samarie"
+},
+{
+"id": "person:Mordecai.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Mardochée"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Sidoniens"
+},
+{
+"id": "place:Chaldea",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Chaldée"
 },
 {
 "id": "place:Joppa",
@@ -783,11 +811,32 @@
 "preferred_label": "Joppé"
 },
 {
-"id": "person:Joshua.5",
-"type": "person",
+"id": "keyterm:Counsel",
+"type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Josué"
+"preferred_label": "conseil"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "saint"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Tyr"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "tribu de Lévi"
 },
 {
 "id": "keyterm:Perceive",
@@ -797,11 +846,67 @@
 "preferred_label": "percevoir"
 },
 {
-"id": "place:Tyre",
-"type": "place",
+"id": "person:Haggai",
+"type": "person",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Tyr"
+"preferred_label": "Aggée"
+},
+{
+"id": "group:Chaldea",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Chaldéens"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
+"id": "person:Artaxerxes.2",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Assuérus"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Lévi"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "bonté"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Tyriens"
+},
+{
+"id": "keyterm:Arrow",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "flèche"
+},
+{
+"id": "person:Iddo.6",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "Iddo"
 },
 {
 "id": "place:Cush.2",
@@ -818,95 +923,11 @@
 "preferred_label": "Tarsis"
 },
 {
-"id": "person:Mordecai.2",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Mardochée"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Liban"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Sidoniens"
-},
-{
-"id": "person:Artaxerxes.2",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Assuérus"
-},
-{
-"id": "group:Chaldea",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Chaldéens"
-},
-{
-"id": "group:Tyre",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Tyriens"
-},
-{
 "id": "keyterm:Understanding",
 "type": "keyterm",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "intelligence"
-},
-{
-"id": "keyterm:Counsel",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "conseil"
-},
-{
-"id": "place:Chaldea",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Chaldée"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Lévi"
-},
-{
-"id": "place:Samaria",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Samarie"
-},
-{
-"id": "keyterm:Arrow",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "flèche"
-},
-{
-"id": "person:Haggai",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Aggée"
 },
 {
 "id": "place:Sidon",
@@ -916,39 +937,11 @@
 "preferred_label": "Sidon"
 },
 {
-"id": "person:Iddo.6",
-"type": "person",
+"id": "place:Lebanon",
+"type": "place",
 "confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "Iddo"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Juifs"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "saint"
-},
-{
-"id": "person:Hilkiah.2",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "Hilkija"
-},
-{
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "huile d'onction"
+"preferred_label": "Liban"
 },
 {
 "id": "realia:Arrow",
@@ -958,11 +951,18 @@
 "preferred_label": "flèche"
 },
 {
-"id": "realia:Fortress",
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "agneau"
+},
+{
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "forteresse"
+"preferred_label": "huile d'onction"
 },
 {
 "id": "flora:Cedar",
@@ -970,6 +970,20 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "cèdre"
+},
+{
+"id": "fauna:Lion",
+"type": "fauna",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "lion"
+},
+{
+"id": "realia:Fortress",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "forteresse"
 },
 {
 "id": "realia:Scroll",
@@ -991,20 +1005,6 @@
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "huile d'olive"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "agneau"
-},
-{
-"id": "fauna:Lion",
-"type": "fauna",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "lion"
 }
 ]
 }

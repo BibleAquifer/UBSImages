@@ -144,18 +144,18 @@
 "preferred_label": "lance"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.325,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
 "id": "group:Judah",
 "type": "group",
 "confidence": 0.325,
 "match_method": "canonical",
 "preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.325,
+"match_method": "canonical",
+"preferred_label": "Juda"
 },
 {
 "id": "person:Benjamin",
@@ -165,13 +165,6 @@
 "preferred_label": "Benjamin"
 },
 {
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.25,
-"match_method": "canonical",
-"preferred_label": "Salomon"
-},
-{
 "id": "group:Benjamin",
 "type": "group",
 "confidence": 0.25,
@@ -179,11 +172,25 @@
 "preferred_label": "tribu de Benjamin"
 },
 {
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.25,
+"match_method": "canonical",
+"preferred_label": "Salomon"
+},
+{
 "id": "realia:Arrow",
 "type": "realia",
 "confidence": 0.2011,
 "match_method": "canonical",
 "preferred_label": "flèche"
+},
+{
+"id": "person:Eliab.4",
+"type": "person",
+"confidence": 0.1861,
+"match_method": "canonical",
+"preferred_label": "Éliab"
 },
 {
 "id": "keyterm:SeekfindRefuge",
@@ -207,39 +214,11 @@
 "preferred_label": "Abdias"
 },
 {
-"id": "person:Eliab.4",
-"type": "person",
-"confidence": 0.1861,
-"match_method": "canonical",
-"preferred_label": "Éliab"
-},
-{
-"id": "person:Amaziah",
-"type": "person",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Amatsia"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "Philistie"
+"preferred_label": "Philistins"
 },
 {
 "id": "place:Dan",
@@ -249,11 +228,39 @@
 "preferred_label": "Dan"
 },
 {
-"id": "person:Simeon.5",
+"id": "person:Amaziah",
 "type": "person",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Siméon"
+"preferred_label": "Amatsia"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "group:Dan",
+"type": "group",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "tribu de Dan"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:Arrow",
@@ -270,11 +277,18 @@
 "preferred_label": "Israël"
 },
 {
-"id": "group:Philistine",
-"type": "group",
+"id": "place:Philistine",
+"type": "place",
 "confidence": 0.175,
 "match_method": "canonical",
-"preferred_label": "Philistins"
+"preferred_label": "Philistie"
+},
+{
+"id": "person:Simeon.5",
+"type": "person",
+"confidence": 0.175,
+"match_method": "canonical",
+"preferred_label": "Siméon"
 },
 {
 "id": "keyterm:Truth",
@@ -291,27 +305,6 @@
 "preferred_label": "tribu de Siméon"
 },
 {
-"id": "group:Dan",
-"type": "group",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "tribu de Dan"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.175,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
-"id": "realia:WeaversBeam",
-"type": "realia",
-"confidence": 0.1261,
-"match_method": "canonical",
-"preferred_label": "ensouple de tisserand"
-},
-{
 "id": "realia:PointOfSpear",
 "type": "realia",
 "confidence": 0.1261,
@@ -326,11 +319,11 @@
 "preferred_label": "armes"
 },
 {
-"id": "realia:Wagon",
+"id": "realia:WeaversBeam",
 "type": "realia",
-"confidence": 0.115,
+"confidence": 0.1261,
 "match_method": "canonical",
-"preferred_label": "char"
+"preferred_label": "ensouple de tisserand"
 },
 {
 "id": "realia:Sword",
@@ -340,39 +333,11 @@
 "preferred_label": "épée"
 },
 {
-"id": "realia:Harpoon",
+"id": "realia:Shekel",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "harpon"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "cheval"
-},
-{
-"id": "realia:Bow",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "arc"
-},
-{
-"id": "realia:SiegeRamp",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "rampe de siège"
-},
-{
-"id": "realia:Helmet",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "casque"
+"preferred_label": "sicle"
 },
 {
 "id": "realia:WarClub",
@@ -382,18 +347,11 @@
 "preferred_label": "masse d'armes"
 },
 {
-"id": "realia:Tower",
+"id": "realia:Bow",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
-"preferred_label": "tour"
-},
-{
-"id": "realia:Shekel",
-"type": "realia",
-"confidence": 0.115,
-"match_method": "canonical",
-"preferred_label": "sicle"
+"preferred_label": "arc"
 },
 {
 "id": "realia:Siege-works",
@@ -403,11 +361,53 @@
 "preferred_label": "ouvrages de siège"
 },
 {
+"id": "realia:SiegeRamp",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "rampe de siège"
+},
+{
+"id": "realia:Tower",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "tour"
+},
+{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.115,
 "match_method": "canonical",
 "preferred_label": "char"
+},
+{
+"id": "realia:Helmet",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "casque"
+},
+{
+"id": "realia:Wagon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "char"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "cheval"
+},
+{
+"id": "realia:Harpoon",
+"type": "realia",
+"confidence": 0.115,
+"match_method": "canonical",
+"preferred_label": "harpon"
 }
 ]
 }

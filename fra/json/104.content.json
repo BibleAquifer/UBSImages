@@ -187,13 +187,6 @@
 "preferred_label": "laurier-tin"
 },
 {
-"id": "flora:Myrtle",
-"type": "flora",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "myrte"
-},
-{
 "id": "realia:Chariot",
 "type": "realia",
 "confidence": 0.1929,
@@ -201,11 +194,18 @@
 "preferred_label": "char"
 },
 {
-"id": "keyterm:Rebel",
-"type": "keyterm",
+"id": "flora:Myrtle",
+"type": "flora",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "myrte"
+},
+{
+"id": "group:Judah",
+"type": "group",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "se rebeller"
+"preferred_label": "tribu de Juda"
 },
 {
 "id": "person:Hiram",
@@ -215,6 +215,20 @@
 "preferred_label": "Hiram"
 },
 {
+"id": "keyterm:BringHonorAndGloryOnOneself",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "s'attirer l'honneur et la gloire"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Tyr"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1765,
@@ -222,11 +236,11 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "keyterm:BringHonorAndGloryOnOneself",
-"type": "keyterm",
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "s'attirer l'honneur et la gloire"
+"preferred_label": "Juda"
 },
 {
 "id": "person:Israel",
@@ -243,25 +257,18 @@
 "preferred_label": "gloire"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "place:HermonMount",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "mont Hermon"
-},
-{
 "id": "keyterm:Perceive",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "percevoir"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "se rebeller"
 },
 {
 "id": "person:Solomon",
@@ -271,18 +278,11 @@
 "preferred_label": "Salomon"
 },
 {
-"id": "group:Judah",
-"type": "group",
+"id": "keyterm:TheWay",
+"type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Tyr"
+"preferred_label": "la Voie"
 },
 {
 "id": "place:Galilee",
@@ -292,18 +292,11 @@
 "preferred_label": "Galilée"
 },
 {
-"id": "keyterm:TheWay",
-"type": "keyterm",
+"id": "place:HermonMount",
+"type": "place",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "la Voie"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "acacia"
+"preferred_label": "mont Hermon"
 },
 {
 "id": "flora:PlaneTree",
@@ -311,41 +304,6 @@
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "platane"
-},
-{
-"id": "realia:Floor",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "sol"
-},
-{
-"id": "realia:Cymbals",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "cymbales"
-},
-{
-"id": "realia:Lyre",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "lyre"
-},
-{
-"id": "realia:Shaker",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "sistre"
-},
-{
-"id": "realia:Beam",
-"type": "realia",
-"confidence": 0.1282,
-"match_method": "canonical",
-"preferred_label": "poutre"
 },
 {
 "id": "flora:Nettle",
@@ -362,60 +320,53 @@
 "preferred_label": "mât"
 },
 {
+"id": "realia:Shaker",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "sistre"
+},
+{
+"id": "realia:Lyre",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "lyre"
+},
+{
+"id": "realia:Floor",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "sol"
+},
+{
+"id": "realia:Beam",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "poutre"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "acacia"
+},
+{
+"id": "realia:Cymbals",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "cymbales"
+},
+{
 "id": "realia:Craftsman",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "artisan"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "pin d'Alep"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "étoffe de pourpre"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "olivier"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "ronce"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "argent"
-},
-{
-"id": "fauna:Bird",
-"type": "fauna",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "oiseau"
-},
-{
-"id": "realia:Drum",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "tambourin"
 },
 {
 "id": "flora:DatePalm",
@@ -425,11 +376,25 @@
 "preferred_label": "palmier dattier"
 },
 {
-"id": "flora:Sandalwood",
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "argent"
+},
+{
+"id": "flora:Brier",
 "type": "flora",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "santal"
+"preferred_label": "ronce"
+},
+{
+"id": "fauna:Bird",
+"type": "fauna",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "oiseau"
 },
 {
 "id": "fauna:Stork",
@@ -439,11 +404,46 @@
 "preferred_label": "cigogne"
 },
 {
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "pin d'Alep"
+},
+{
+"id": "realia:Drum",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "tambourin"
+},
+{
 "id": "realia:Lute",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "luth"
+},
+{
+"id": "flora:Sandalwood",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "santal"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "olivier"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "étoffe de pourpre"
 }
 ]
 }

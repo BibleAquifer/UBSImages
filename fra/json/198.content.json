@@ -218,18 +218,18 @@
 "preferred_label": "Nil"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2982,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
 "id": "keyterm:Kindness",
 "type": "keyterm",
 "confidence": 0.2982,
 "match_method": "canonical",
 "preferred_label": "bonté"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2982,
+"match_method": "canonical",
+"preferred_label": "Israël"
 },
 {
 "id": "realia:Ship",
@@ -246,11 +246,11 @@
 "preferred_label": "char"
 },
 {
-"id": "place:Jordan",
-"type": "place",
+"id": "person:Pharaoh.6",
+"type": "person",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Jourdain"
+"preferred_label": "Pharaon"
 },
 {
 "id": "place:Edom",
@@ -260,18 +260,11 @@
 "preferred_label": "Édom"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
+"id": "place:Jordan",
+"type": "place",
 "confidence": 0.2321,
 "match_method": "canonical",
-"preferred_label": "Pharaon"
-},
-{
-"id": "place:Shur",
-"type": "place",
-"confidence": 0.1732,
-"match_method": "canonical",
-"preferred_label": "Schur"
+"preferred_label": "Jourdain"
 },
 {
 "id": "place:SeirMount",
@@ -281,11 +274,11 @@
 "preferred_label": "montagne de Séir"
 },
 {
-"id": "person:Pharaoh.5",
-"type": "person",
+"id": "place:Shur",
+"type": "place",
 "confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "Pharaon"
+"preferred_label": "Schur"
 },
 {
 "id": "place:GreatSea",
@@ -295,11 +288,11 @@
 "preferred_label": "mer Méditerranée"
 },
 {
-"id": "place:Ham.2",
-"type": "place",
-"confidence": 0.1661,
+"id": "person:Pharaoh.5",
+"type": "person",
+"confidence": 0.1732,
 "match_method": "canonical",
-"preferred_label": "Cham"
+"preferred_label": "Pharaon"
 },
 {
 "id": "place:Ezion-geber",
@@ -309,11 +302,95 @@
 "preferred_label": "Étsjon-Guéber"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Philistins"
+},
+{
+"id": "place:Ham.2",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Cham"
+},
+{
+"id": "place:Euphrates",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Euphrate"
+},
+{
+"id": "group:Amalek",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Amalécites"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Égyptiens"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Moïse"
+},
+{
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Cananéens"
+},
+{
+"id": "person:Sihon",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Sihon"
+},
+{
+"id": "keyterm:Proscribe.2",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "dévouer par interdit à la destruction"
+},
+{
+"id": "place:HorMount",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "mont Hor"
+},
+{
+"id": "place:Elim",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Élim"
+},
+{
+"id": "person:Og",
+"type": "person",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Og"
+},
+{
+"id": "place:Hell",
+"type": "place",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "enfer"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -323,11 +400,18 @@
 "preferred_label": "avoir du discernement"
 },
 {
-"id": "keyterm:Rebel",
+"id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "se rebeller"
+"preferred_label": "crainte"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "Amoréens"
 },
 {
 "id": "place:Sin",
@@ -344,11 +428,11 @@
 "preferred_label": "Philistie"
 },
 {
-"id": "place:Hell",
+"id": "place:Canaan",
 "type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "enfer"
+"preferred_label": "Canaan"
 },
 {
 "id": "place:Amalek",
@@ -358,102 +442,18 @@
 "preferred_label": "Amalek"
 },
 {
-"id": "place:Elim",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Élim"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Philistins"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Cananéens"
-},
-{
-"id": "keyterm:Proscribe.2",
-"type": "keyterm",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "dévouer par interdit à la destruction"
-},
-{
-"id": "place:Euphrates",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Euphrate"
-},
-{
-"id": "place:Canaan",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Canaan"
-},
-{
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Amoréens"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Salomon"
-},
-{
-"id": "person:Og",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Og"
-},
-{
-"id": "group:Amalek",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Amalécites"
-},
-{
-"id": "place:HorMount",
-"type": "place",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "mont Hor"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Égyptiens"
-},
-{
-"id": "person:Sihon",
-"type": "person",
-"confidence": 0.1661,
-"match_method": "canonical",
-"preferred_label": "Sihon"
-},
-{
 "id": "place:Elath",
 "type": "place",
 "confidence": 0.1661,
 "match_method": "canonical",
 "preferred_label": "Élath"
+},
+{
+"id": "keyterm:Rebel",
+"type": "keyterm",
+"confidence": 0.1661,
+"match_method": "canonical",
+"preferred_label": "se rebeller"
 },
 {
 "id": "place:Kadesh-barnea",
@@ -463,11 +463,11 @@
 "preferred_label": "Kadès-Barnéa"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:Solomon",
+"type": "person",
 "confidence": 0.1661,
 "match_method": "canonical",
-"preferred_label": "crainte"
+"preferred_label": "Salomon"
 },
 {
 "id": "flora:Papyrus",
@@ -484,18 +484,18 @@
 "preferred_label": "roseau"
 },
 {
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1061,
-"match_method": "canonical",
-"preferred_label": "cheval"
-},
-{
 "id": "fauna:Locust",
 "type": "fauna",
 "confidence": 0.1061,
 "match_method": "canonical",
 "preferred_label": "sauterelle"
+},
+{
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1061,
+"match_method": "canonical",
+"preferred_label": "cheval"
 }
 ]
 }

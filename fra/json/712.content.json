@@ -3,9 +3,9 @@
 "content_id": "282844",
 "reference_id": 2261,
 "version": "1.0.4",
-"title": "Criquets",
+"title": "Sauterelles",
 "media_type": "Image",
-"index_reference": "criquets",
+"index_reference": "sauterelles",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0607_locusts.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0607_locusts.jpg'>link</a></p></block>",
@@ -254,6 +254,13 @@
 "preferred_label": "grain"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2265,
+"match_method": "canonical",
+"preferred_label": "Jean"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.2265,
@@ -261,11 +268,11 @@
 "preferred_label": "Moïse"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.2265,
+"id": "realia:Leather",
+"type": "realia",
+"confidence": 0.1724,
 "match_method": "canonical",
-"preferred_label": "Jean"
+"preferred_label": "cuir"
 },
 {
 "id": "realia:Belt",
@@ -275,11 +282,11 @@
 "preferred_label": "ceinture"
 },
 {
-"id": "realia:Leather",
-"type": "realia",
-"confidence": 0.1724,
+"id": "place:Ashkenaz",
+"type": "place",
+"confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "cuir"
+"preferred_label": "Aschkenaz"
 },
 {
 "id": "place:Minni",
@@ -296,25 +303,11 @@
 "preferred_label": "espèce"
 },
 {
-"id": "place:Ashkenaz",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "Aschkenaz"
-},
-{
 "id": "fauna:Bee",
 "type": "fauna",
 "confidence": 0.1665,
 "match_method": "canonical",
 "preferred_label": "abeille"
-},
-{
-"id": "fauna:Horse",
-"type": "fauna",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "cheval"
 },
 {
 "id": "realia:Bag",
@@ -324,32 +317,18 @@
 "preferred_label": "sac"
 },
 {
+"id": "fauna:Horse",
+"type": "fauna",
+"confidence": 0.1665,
+"match_method": "canonical",
+"preferred_label": "cheval"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "jurer"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "déposséder"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "keyterm:Majesty",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "majesté"
 },
 {
 "id": "keyterm:Appoint",
@@ -359,46 +338,11 @@
 "preferred_label": "établir"
 },
 {
-"id": "place:Amalek",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Amalek"
-},
-{
 "id": "place:East",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Orient"
-},
-{
-"id": "place:RedSea",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "mer Rouge"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "autorité"
-},
-{
-"id": "place:Ararat",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Ararat"
-},
-{
-"id": "keyterm:Woe.2",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "malheur"
 },
 {
 "id": "group:Amalek",
@@ -408,11 +352,11 @@
 "preferred_label": "Amalécites"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
+"id": "place:RedSea",
+"type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "terreur"
+"preferred_label": "mer Rouge"
 },
 {
 "id": "keyterm:Holy",
@@ -422,11 +366,39 @@
 "preferred_label": "saint"
 },
 {
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "déposséder"
+},
+{
+"id": "place:Ararat",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Ararat"
+},
+{
 "id": "place:Midian",
 "type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "Madian"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "capacité"
+},
+{
+"id": "keyterm:Woe.2",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "malheur"
 },
 {
 "id": "place:Cush.2",
@@ -436,39 +408,32 @@
 "preferred_label": "Cusch"
 },
 {
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Majesty",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "olivier"
+"preferred_label": "majesté"
 },
 {
-"id": "flora:Sorghum",
-"type": "flora",
-"confidence": 0.1032,
+"id": "place:Amalek",
+"type": "place",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "sorgho"
+"preferred_label": "Amalek"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1032,
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "vigne"
+"preferred_label": "terreur"
 },
 {
-"id": "fauna:Scorpion",
-"type": "fauna",
-"confidence": 0.1032,
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "scorpion"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "couronne"
+"preferred_label": "autorité"
 },
 {
 "id": "flora:Barley",
@@ -476,13 +441,6 @@
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "orge"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "vêtement"
 },
 {
 "id": "flora:Fig",
@@ -499,32 +457,25 @@
 "preferred_label": "massette"
 },
 {
-"id": "realia:RamsHorn",
+"id": "realia:Standard",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "corne de bélier"
+"preferred_label": "bannière"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "blé"
-},
-{
-"id": "flora:Coriander",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "coriandre"
-},
-{
-"id": "realia:Tent",
+"id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "tente"
+"preferred_label": "couronne"
+},
+{
+"id": "fauna:Scorpion",
+"type": "fauna",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "scorpion"
 },
 {
 "id": "flora:Grass",
@@ -534,6 +485,27 @@
 "preferred_label": "herbe"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "blé"
+},
+{
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "verge"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "tente"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1032,
@@ -541,11 +513,18 @@
 "preferred_label": "couronne"
 },
 {
-"id": "realia:Standard",
-"type": "realia",
+"id": "flora:Coriander",
+"type": "flora",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "bannière"
+"preferred_label": "coriandre"
+},
+{
+"id": "flora:Sorghum",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "sorgho"
 },
 {
 "id": "flora:Sandalwood",
@@ -555,11 +534,32 @@
 "preferred_label": "santal"
 },
 {
-"id": "realia:Rod",
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "olivier"
+},
+{
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "verge"
+"preferred_label": "vêtement"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "corne de bélier"
 }
 ]
 }

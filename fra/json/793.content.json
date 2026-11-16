@@ -3,9 +3,9 @@
 "content_id": "282925",
 "reference_id": 2342,
 "version": "1.0.4",
-"title": "Char",
+"title": "Archer sur un char : bas-relief",
 "media_type": "Image",
-"index_reference": "char",
+"index_reference": "archer sur un char  basrelief",
 "language": "fra",
 "review_level": "None",
 "content": "<h3>Image Content</h3>\n<block><p><img src='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0391_chariot.jpg' alt='Image' width='480' /></p><p><a href='https://cdn.aquifer.bible/aquifer-content/resources/Media/WEB-0391_chariot.jpg'>link</a></p></block>",
@@ -231,6 +231,13 @@
 "preferred_label": "gros bétail"
 },
 {
+"id": "person:Rechab.2",
+"type": "person",
+"confidence": 0.1795,
+"match_method": "canonical",
+"preferred_label": "Récab"
+},
+{
 "id": "person:Jonadab",
 "type": "person",
 "confidence": 0.1795,
@@ -252,13 +259,6 @@
 "preferred_label": "Amminadib"
 },
 {
-"id": "place:Gur",
-"type": "place",
-"confidence": 0.1795,
-"match_method": "canonical",
-"preferred_label": "Gur"
-},
-{
 "id": "person:Ahaziah.2",
 "type": "person",
 "confidence": 0.1795,
@@ -266,46 +266,32 @@
 "preferred_label": "Achazia"
 },
 {
-"id": "person:Rechab.2",
-"type": "person",
+"id": "place:Gur",
+"type": "place",
 "confidence": 0.1795,
 "match_method": "canonical",
-"preferred_label": "Récab"
+"preferred_label": "Gur"
 },
 {
-"id": "person:Jehu.2",
+"id": "person:Isaiah",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Jéhu"
+"preferred_label": "Ésaïe"
 },
 {
-"id": "person:Naaman.3",
-"type": "person",
+"id": "place:Megiddo",
+"type": "place",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Naaman"
+"preferred_label": "Meguiddo"
 },
 {
-"id": "group:Israel",
-"type": "group",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Israélites"
-},
-{
-"id": "keyterm:Body.3",
+"id": "keyterm:Baptism",
 "type": "keyterm",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "corps"
-},
-{
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Joseph"
+"preferred_label": "baptême"
 },
 {
 "id": "place:Ibleam",
@@ -322,81 +308,18 @@
 "preferred_label": "paix"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Égypte"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Absalom",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Absalom"
-},
-{
-"id": "person:Ben-hadad",
-"type": "person",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Ben-Hadad"
-},
-{
-"id": "group:Judah",
+"id": "group:Israel",
 "type": "group",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "tribu de Juda"
+"preferred_label": "Israélites"
 },
 {
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "baptême"
-},
-{
-"id": "place:Megiddo",
-"type": "place",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Meguiddo"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "bénir"
-},
-{
-"id": "person:Isaiah",
+"id": "person:Naaman.3",
 "type": "person",
 "confidence": 0.1705,
 "match_method": "canonical",
-"preferred_label": "Ésaïe"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "Saint-Esprit"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1705,
-"match_method": "canonical",
-"preferred_label": "pur"
+"preferred_label": "Naaman"
 },
 {
 "id": "place:Goshen",
@@ -406,18 +329,88 @@
 "preferred_label": "Gosen"
 },
 {
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Jehu.2",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Jéhu"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Saint-Esprit"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
+"id": "person:Ben-hadad",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Ben-Hadad"
+},
+{
+"id": "person:Absalom",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Absalom"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Égypte"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "bénir"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1705,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
 "id": "flora:Cinnamon",
 "type": "flora",
 "confidence": 0.1195,
 "match_method": "canonical",
 "preferred_label": "cinnamome"
-},
-{
-"id": "realia:Incense",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "encens"
 },
 {
 "id": "fauna:Goat",
@@ -427,53 +420,11 @@
 "preferred_label": "chèvre"
 },
 {
-"id": "flora:Myrrh",
-"type": "flora",
+"id": "realia:Myrrh",
+"type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "myrrhe"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "olivier"
-},
-{
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "chameau"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "vigne"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "argent"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "huile d'olive"
-},
-{
-"id": "realia:Wheel",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "roue"
 },
 {
 "id": "flora:Frankincense",
@@ -483,11 +434,32 @@
 "preferred_label": "encens"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "argent"
+},
+{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
 "preferred_label": "mulet"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "chameau"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
 },
 {
 "id": "flora:Wheat",
@@ -497,13 +469,6 @@
 "preferred_label": "blé"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1105,
-"match_method": "canonical",
-"preferred_label": "maison"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1105,
@@ -511,11 +476,46 @@
 "preferred_label": "agneau"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
+"id": "realia:Incense",
+"type": "realia",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "troupeau"
+"preferred_label": "encens"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "maison"
+},
+{
+"id": "realia:Wheel",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "roue"
+},
+{
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "vigne"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "huile d'olive"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1105,
+"match_method": "canonical",
+"preferred_label": "olivier"
 },
 {
 "id": "realia:Wine",
@@ -525,11 +525,11 @@
 "preferred_label": "vin"
 },
 {
-"id": "realia:Myrrh",
-"type": "realia",
+"id": "fauna:Flock",
+"type": "fauna",
 "confidence": 0.1105,
 "match_method": "canonical",
-"preferred_label": "myrrhe"
+"preferred_label": "troupeau"
 }
 ]
 }
